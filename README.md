@@ -23,6 +23,11 @@ The schema captures metadata about studies, datasets, publications, key findings
 
 ## Quick Start
 
+1. clone this repo locally
+2. `open docs/browser.html`
+
+## Generic LinkML Details below
+
 ```bash
 # Install dependencies
 just install
