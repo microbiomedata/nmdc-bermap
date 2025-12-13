@@ -1,0 +1,91 @@
+brc: CBI
+date: '2023-12-27'
+title: Expanded genetic variation (SNP) and phenomics (image based) dataset for Populus
+  trichocarpa
+active: true
+creator:
+- name: Michael F Nagle
+  affiliation: Oregon State Univ., Corvallis, OR (United States)
+  primaryContact: true
+- name: Jialin Yuan
+  affiliation: Oregon State Univ., Corvallis, OR (United States)
+  primaryContact: false
+- name: Damanpreet Kaur
+  affiliation: Oregon State Univ., Corvallis, OR (United States)
+  primaryContact: false
+- name: Cathleen Ma
+  affiliation: Oregon State Univ., Corvallis, OR (United States)
+  primaryContact: false
+- name: Ekaterina Peremyslova
+  affiliation: Oregon State Univ., Corvallis, OR (United States)
+  primaryContact: false
+- name: Yuan Jiang
+  affiliation: Oregon State Univ., Corvallis, OR (United States)
+  primaryContact: false
+- name: Alexo Nino de Rivera
+  affiliation: Oregon State Univ., Corvallis, OR (United States)
+  primaryContact: false
+- name: Sara Jowdy
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Jin-Gui Chen
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Kai Feng
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Timothy Yates
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Timothy B Yates
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Gerald A Tuskan
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Wellington Muchero
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Fuxin Li
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Steven H Strauss
+  email: Steve.Strauss@oregonstate.edu
+  affiliation: Oregon State Univ., Corvallis, OR (United States)
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER). Biological Systems Science (BSS)
+keywords:
+- Populus Trichocarpa
+- GWAS
+- phenotyping
+identifier: https://www.osti.gov/biblio/2263365
+dataset_url: https://labkey.ornl.gov/labkey/CBI/Tuskan/PUBLIC_DATA/SNP_Images_Strauss_December_2023/project-begin.view?
+description: The image dataset consists of 11,791 images representing 1,219 genotypes
+  of Populus trichocarpa undergoing in planta regeneration. Genotypes were imaged
+  with a median of four weekly timepoints and a median of two replicates each. A representative
+  and diverse subset of 249 images was annotated using the IDEAS annotation interface
+  (ideas.eecs.oregonstate.edu) and these annotated images were used to train a deep
+  semantic segmentation model (PSPNet), which was deployed for inference over the
+  entire dataset. Annotated classes include specific stages of regeneration (callus
+  and shoot) in addition to unregenerated plant material and background. Statistics
+  of relative tissue area were extracted and used for downstream genetic association
+  mapping in a genome-wide association study. The SNP dataset consists of over 40
+  million single-nucleotide polymorphisms across 1,323 wild accessions of Populus
+  trichocarpa
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/2263365
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2263365
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

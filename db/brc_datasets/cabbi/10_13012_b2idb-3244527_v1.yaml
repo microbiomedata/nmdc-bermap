@@ -1,0 +1,50 @@
+brc: CABBI
+date: '2022-03-29'
+title: 'Coprocessing Corn Germ Meal for Oil Recovery and Ethanol Production: A Process
+  Model for Lipid-Producing Energy Crops'
+creator:
+- name: Vijay Singh
+  email: vsingh@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Bruce Dien
+  email: bruce.dien@ars.usda.gov
+  affiliation: USDA-ARS Peoria
+  primaryContact: false
+species:
+- NCBITaxID: 4577
+  scientificName: Zea mays
+keywords:
+- Corn germ meal
+- Sugar concentrations
+- Lipid yields
+identifier: 10.13012/B2IDB-3244527_V1
+repository: Illinois Data Bank
+description: Efforts to engineer high-productivity crops to accumulate oils in their
+  vegetative tissue present the possibility of expanding biodiesel production. However,
+  processing the new crops for lipid recovery and ethanol production from cell wall
+  saccharides is challenging and expensive. In a previous study using corn germ meal
+  as a model substrate, we reported that liquid hot water (LHW) pretreatment enriched
+  the lipid concentration by 2.2 to 4.2 fold. This study investigated combining oil
+  recovery with ethanol production by extracting oil following LHW and simultaneous
+  saccharification and co-fermentation (SSCF) of the biomass. Corn germ meal was again
+  used to model the oil-bearing energy crops. Pretreated germ meal hydrolysate or
+  solids (160 °C and 180 °C for 10 minutes) were fermented, and lipids were extracted
+  from both the spent fermentation whole broth and fermentation solids, which were
+  recovered by centrifugation and convective drying. Lipid contents in spent fermentation
+  solids increased 3.7 to 5.7 fold compared to the beginning germ meal. The highest
+  lipid yield achieved after fermentation was 36.0 mg lipid g−1 raw biomass; the maximum
+  relative amount of triacylglycerol (TAG) was 50.9% of extracted oil. Although the
+  fermentation step increased the lipid concentration of the recovered solids, it
+  did not improve the lipid yields of pretreated biomass and detrimentally affected
+  oil compositions by increasing the relative concentrations of free fatty acids.
+relatedItem:
+- title: 'Coprocessing Corn Germ Meal for Oil Recovery and Ethanol Production: A Process
+    Model for Lipid-Producing Energy Crops'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.3390/pr10040661
+bibliographicCitation: https://doi.org/10.13012/B2IDB-3244527_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-3244527_V1
+created_at: '2025-11-20T18:00:04.758Z'
+updated_at: '2025-12-10T06:00:05.196Z'

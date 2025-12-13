@@ -1,0 +1,82 @@
+id: jbei:358
+brc: JBEI
+date: '2018-01-16'
+title: Aznar et al. 2018
+creator:
+- name: Mi Yeon Lee
+  email: miylee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 358
+  scientificName: Agrobacterium tumefaciens
+keywords:
+- galactan lignin engineering
+- galactan engineering
+identifier: jbei:folder:00358
+repository: ICE
+datasetName: Aznar et al. 2018
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/358
+description: This dataset provides five jSTACK-based plant transformation vectors
+  designed to engineer cell wall composition. The plasmids contain various combinations
+  of genes involved in hemicellulose and pectin biosynthesis, including `GALS1`, `UGE2`,
+  and `URGT1`. Gene expression is driven by a suite of constitutive and secondary
+  cell wall-specific promoters to systematically test metabolic engineering strategies
+  for modifying plant biomass.
+relatedItem: []
+analysisType: not specified
+contributors:
+- name: Aude Aznar
+  email: aaznar@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+- name: Camille Chalvin
+  email: camillechalvin@hotmail.com
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pCC5
+  promoters: []
+  description: pC4H::GALS1 pIRX5::NST1-2A-UGE2 pIRX8::URGT1 pCESA7::QSUB in pCAMBIA3301Y
+    (jSTACK construct).
+  selection_markers:
+  - Kan
+- backbone: pCC4
+  promoters: []
+  description: pC4H::GALS1 pIRX5::UGE2 pIRX8::URGT1 pCESA7::QSUB in pCAMBIA3301Y (jSTACK
+    construct).
+  selection_markers:
+  - Kan
+- backbone: pCC1
+  promoters: []
+  description: pNOS::GALS1 pMAS::UGE2 pACT2::URGT1 in pCAMBIA3301Y (jSTACK construct).
+  selection_markers:
+  - Kan
+- backbone: pCC2
+  promoters: []
+  description: pC4H::GALS1 pIRX5::UGE2 pIRX8::URGT1 in pCAMBIA3301Y (jSTACK construct).
+  selection_markers:
+  - Kan
+- backbone: pCC3
+  promoters: []
+  description: pC4H::GALS1 pIRX5::NST1-2A-UGE2 pIRX8::URGT1 in pCAMBIA3301Y (jSTACK
+    construct).
+  selection_markers:
+  - Kan
+bibliographicCitation: https://public-registry.jbei.org/folders/358
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00358
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

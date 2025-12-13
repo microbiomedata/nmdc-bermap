@@ -1,0 +1,182 @@
+id: jbei:235
+brc: JBEI
+date: '2016-03-07'
+title: Zhang et al. 2016
+creator:
+- name: Eva Pan
+  email: epan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Jingwei Zhang
+  email: jingweizhang@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Adrienne Schlatter
+  email: afschlatter@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Sara Fasmer Hansen
+  email: sfhansen@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Andrew Hagen
+  email: arhagen@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Pamela Peralta-Yahya
+  email: pperalta-yahya@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: filemakerimport
+  email: filemakerimport
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- MBP
+- 6xHis tag
+- chaperone
+- solubility tag
+- maltose binding protein
+identifier: jbei:folder:00235
+repository: ICE
+datasetName: Zhang et al. 2016
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/235
+description: This dataset provides a toolkit of 12 plasmids designed for the recombinant
+  expression of an ATP-dependent lactam synthase (CaiC/ORF27) in *E. coli*. The synthase
+  gene is supplied in various BioBrick expression vectors, including constructs with
+  an N-terminal MBP solubility tag to improve expression. To further aid in proper
+  protein folding, the collection is supplemented with a comprehensive suite of chaperone
+  co-expression plasmids carrying genes such as *groES-groEL*, *tig*, and *dnaK-dnaJ-grpE*.
+relatedItem:
+- title: J. Mol. Biol. (2010) 396, 1310–1318
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: J.Zhang et al. Metabolic Engineering Communications 3(2016) 1-7
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Baba et al., 2003 and Datsenko and Wanner, 1997
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Chaperone plasmid set, Takara cat# 3340
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Bachmann. 1972. Bacteriol. Rev. 36:525. Hill &amp; Harnish. 1981. Proc. Natl.
+    Acad.Sci.USA. 78:7069.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Lee TS, Krupa RA, Zhang F, Hajimorad M, Holtz WJ, Prasad N, Lee SK, Keasling
+    JD. BglBrick vectors and datasheets: A synthetic biology platform for gene expression.
+    J Biol Eng. 2011 Sep 20;5:12. doi: 10.1186/1754-1611-5-12.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: affinity_purification
+contributors:
+- name: Taek Soon Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pBbE2C-CaiC
+  promoters: []
+  description: E. coli CaiC gene cloned into pBbE2C vector. ATP dependent lactam synthase
+  selection_markers:
+  - Chlorampenicol
+- backbone: pDNA2.0-ORF27
+  promoters: []
+  description: ATP dependent lactam synthase, ORF27 E. coli codon optimized, contain
+    EcoRI, BglII, BamHI, XhoI restriction site for cloning into biobrick vector series.
+    Gene and plasmid synthesized by DNA2.0.
+  selection_markers:
+  - Kan
+- backbone: pET28a-MBP-ORF27
+  promoters: []
+  description: ORF27 fusion with N terminal MBP for more soluble expression, N terminal
+    6-His tagged.
+  selection_markers:
+  - Kan
+- backbone: pBbE2C-ORF27
+  promoters: []
+  description: ORF27 cloned into pBbE2C vector
+  selection_markers:
+  - Chloramphenicol
+- backbone: pBbS2C-ORF27
+  promoters: []
+  description: low copy number lactam synthase, ORF27 cloned into pBbS2C vector
+  selection_markers:
+  - Chloramphenicol
+- ori: pBR322
+  backbone: pET28a-MBP
+  promoters:
+  - T7
+  description: A modification of the pET28a vector wherein a N-terminal 6xHis/MBP
+    is cloned into the NcoI/NdeI site of the vector such that subsequent ORFs cloned
+    into the NdeI site will have this solubility fusion which is cleavable with thrombin.
+  selection_markers:
+  - Kan
+- ori: pACYC
+  backbone: pGro7
+  promoters:
+  - araB
+  description: pGro7 is part of the Takara chaperone plasmid set. pGro7 carries the
+    genes groES and groEL
+  selection_markers:
+  - Chloramphenicol
+- ori: pACYC
+  backbone: pG-Tf2
+  promoters:
+  - Pzt1
+  description: Thisis pG-Tf2 from the Takara chaperone plasmid set. This plasmid contains
+    groES, groEL and tig
+  selection_markers:
+  - Tetracycline
+  - Chloramphenicol
+- ori: pACYC
+  backbone: pTf16
+  promoters:
+  - araB
+  description: pTf16 is part of the Takara plasmid chaperone set.pTf16 carries the
+    gene tig.
+  selection_markers:
+  - Chloramphenicol
+- ori: pACYC
+  backbone: pKJE7
+  promoters:
+  - araB
+  description: Plasmid pKJE7 is part of the Takara chaperone plasmid set. pKJE7 carries
+    the genes dnaK, dnaJ, grpE.
+  selection_markers:
+  - Chloramphenicol
+- ori: ColE1
+  backbone: pBbE2c-RFP
+  promoters:
+  - Tet
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- ori: p15A
+  backbone: pBbA7a-RFP
+  promoters:
+  - T7
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+bibliographicCitation: https://public-registry.jbei.org/folders/235
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00235
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

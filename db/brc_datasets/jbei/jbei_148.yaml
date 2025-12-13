@@ -1,0 +1,74 @@
+id: jbei:148
+brc: JBEI
+date: '2015-02-25'
+title: Frederix et al, 2014
+creator:
+- name: Marijke Frederix
+  email: mfrederix@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00148
+repository: ICE
+datasetName: Frederix et al, 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/148
+description: This dataset provides a set of six plasmids created to evaluate different
+  promoters for driving expression of the `eilA` efflux pump gene. The constructs
+  place `eilA` under the control of the `marR`, `placUV5`, `ydfO`, `pBAD`, and `ydfA`
+  promoters, with a promoterless version included as a negative control. This collection
+  allows for the systematic comparison of promoter strength for applications in engineering
+  microbial tolerance.
+relatedItem:
+- title: Frederix, M., Hütter, K., Leu, J., Batth, T. S., Turner, W. J., Rüegg, T.
+    L., Blanch, H. W., Simmons, B. A., Adams, P. D., Keasling, J. D., Thelen, M. P.,
+    Dunlop, M. J., Petzold, C. J., &amp; Mukhopadhyay, A. (2014). “Development of
+    a Native Escherichia coli Induction System for Ionic Liquid Tolerance”. PLoS One,
+    9(7), e101115. doi, 10.1371/journal.pone.0101115 http://dx.doi.org/10.1371%2Fjournal.pone.0101115
+    http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0101115&amp;representation=PDF
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pmarR-eilA
+  promoters: []
+  description: marR promoter driving expression of eilA
+  selection_markers:
+  - Chloramphenicol
+- backbone: placUV5-eilA
+  promoters: []
+  description: placUV5 promoter driving expression of eilA
+  selection_markers:
+  - Chloramphenicol
+- backbone: pydfO-eilA
+  promoters: []
+  description: ydfO promoter driving expression of eilA
+  selection_markers:
+  - Chloramphenicol
+- backbone: pMF209
+  promoters: []
+  description: eilA efflux pump driven by pBAD promoter in pBbS8k
+  selection_markers:
+  - Km
+- backbone: p-eilA
+  promoters: []
+  description: eilA - no promoter construct
+  selection_markers:
+  - Chloramphenicol
+- backbone: pydfA-eilA
+  promoters: []
+  description: ydfA promoter driving expression of eilA
+  selection_markers:
+  - Chloramphenicol
+bibliographicCitation: https://public-registry.jbei.org/folders/148
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00148
+created_at: '2025-11-18T20:03:56.767Z'
+updated_at: '2025-12-11T00:00:04.619Z'

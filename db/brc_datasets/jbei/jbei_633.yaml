@@ -1,0 +1,63 @@
+id: jbei:633
+brc: JBEI
+date: '2020-08-22'
+title: Rodriguez et al. 2020
+creator:
+- name: Alberto Rodriguez
+  email: alberto@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 1423
+  scientificName: Bacillus subtilis
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 1718
+  scientificName: Corynebacterium glutamicum
+- NCBITaxID: 1390
+  scientificName: Bacillus amyloliquefaciens
+keywords: []
+identifier: jbei:folder:00633
+repository: ICE
+datasetName: Rodriguez et al. 2020
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/633
+description: 'This dataset comprises three plasmids designed for the heterologous
+  expression of a phenolic acid decarboxylase from *Bacillus amyloliquefaciens*. The
+  constructs facilitate expression in three distinct bacterial hosts: *Bacillus subtilis*,
+  *Escherichia coli*, and *Corynebacterium glutamicum*. To enhance protein production,
+  the gene sequences were codon-optimized for the *E. coli* and *C. glutamicum* expression
+  systems.'
+relatedItem: []
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: ColE1
+  backbone: pDVA02124
+  promoters: []
+  description: pHT-08 containing a phenolic acid decarboxylase from B. amyloliquefaciens
+    for expression in B. subtilis
+  selection_markers:
+  - chrolamphenicol
+- ori: ColE1
+  backbone: pJAM88
+  promoters: []
+  description: Plasmid pZ8pTac with a cloned phenolic acid decarboxylase gene from
+    B. amyloliquefaciens, codon-optimized for E. coli
+  selection_markers:
+  - Kan
+- ori: ori p15A
+  backbone: pJAM89
+  promoters: []
+  description: Plasmid pZ8-Ptac expressing a phenolic acid decarboxylase gene from
+    B. amyloliquefaciens that was codon-optimized for C. glutamicum
+  selection_markers:
+  - Kan
+bibliographicCitation: https://public-registry.jbei.org/folders/633
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00633
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

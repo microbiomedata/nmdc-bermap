@@ -1,0 +1,30 @@
+brc: CABBI
+date: '2025-05-25'
+title: AmeriFlux US-UiE University of Illinois Sorghum-Soy, Dataset (2018-2024)
+creator:
+- name: Bernacchi, Carl J.
+  email: bernacch@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 3849
+  scientificName: Glycine max
+- NCBITaxID: 4558
+  scientificName: Sorghum bicolor
+keywords:
+- sorghum
+- soybean
+- carbon flux
+identifier: US-UiE
+repository: AmeriFlux
+description: Agricultural field planted with photoperiod-sensitive (energy) sorghum
+  bicolor in a three year rotation with soy (sorghum-sorghum-soy). The first soy rotation
+  was in 2019. This field is typically planted in May and harvested for biomass (sorghum)
+  or grain (soy) in October. This site is located at an experimental farm approximately
+  2 miles south of the University of Illinois at Urbana Champaign and is colocated
+  with (500-1000m distance) all other Us-Ui sites.
+bibliographicCitation: https://doi.org/10.17190/AMF/2567986
+schema_version: 0.1.1
+uid: CABBI_US-UiE
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.626Z'

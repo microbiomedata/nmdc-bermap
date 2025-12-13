@@ -1,0 +1,30 @@
+brc: CABBI
+date: '2019-07-05'
+title: Gene discovery and evaluating phenotypic impacts of DNA designs in Sorghum
+creator:
+- name: Moose, Steve
+  email: smoose@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 4558
+  scientificName: Sorghum bicolor
+keywords:
+- Genomics
+- Sorghum
+- Structural Variants
+- Transcriptome
+identifier: Gs0142514
+repository: JGI Gold
+description: Sorghum transcriptome variation to study gene discovery and evaluating
+  phenotypic impacts of DNA designs
+relatedItem:
+- title: Major Impacts of Widespread Structural Variation on Sorghum
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: http://doi.org/10.1101/gr.278396.123
+analysisType: Genomics
+bibliographicCitation: https://gold.jgi.doe.gov/studies?id=Gs0142514
+schema_version: 0.1.1
+uid: CABBI_Gs0142514
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

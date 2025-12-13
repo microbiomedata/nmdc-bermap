@@ -1,0 +1,82 @@
+brc: CBI
+date: '2024-06-20'
+title: DNA parts and gene constructs for plant biodesign
+active: true
+creator:
+- name: Yang Liu
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation
+  primaryContact: true
+- name: Md Torikul Islam
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation
+  primaryContact: false
+- name: Ruchika Rajput
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation
+  primaryContact: false
+- name: Tao Yao
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation
+  primaryContact: false
+- name: Dan Hopp
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation
+  primaryContact: false
+- name: Stanton Martin
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation
+  primaryContact: false
+- name: Jin-Gui Chen
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation
+  primaryContact: false
+- name: Chung-Jui Tsai
+  affiliation: Center for Bioenergy Innovation, Warnell School of Forestry and Natural
+    Resources, University of Georgia, Athens, GA
+  primaryContact: false
+- name: Paul Abraham
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation
+  primaryContact: false
+- name: Timothy Tschaplinski
+  primaryContact: false
+- name: Gerald Tuskan
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation
+  primaryContact: false
+- name: Xiaohan Yan
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER). Earth &amp; Environmental Systems Science (EESS)
+keywords:
+- plant biodesign synthetic biology gene constructs DNA Parts
+identifier: https://www.osti.gov/biblio/2375785
+dataset_url: https://fair.ornl.gov/BioDesign/KPB/
+description: Plant biodesign requires the knowledge of DNA parts (e.g., genes, promoters,
+  terminators), along with their combinations (as gene constructs) linked to engineered
+  traits. DNA parts with validated or predicted functions in plants have been deposited
+  in various online databases. However, these existing databases focus on basic biological
+  functions of individual DNA parts, leaving a gap between basic knowledge and bioengineering
+  applications. To fill this knowledge gap, we have created a user-friendly, open-ended
+  database as a knowledge graph linking DNA parts to gene constructs to traits. This
+  database contains experimentally validated DNA parts and gene constructs documented
+  in peer-reviewed publications. The DNA parts include 1) molecular components with
+  biological functions, such as genes involved in various biological processes (e.g.,
+  metabolic and signal transduction pathways) and 2) molecular components with technical
+  functions, such as gene expression, genome engineering and sequence splicing. The
+  gene constructs deposited in this database include both single-gene and multi-gene
+  constructs. This database allows users to submit DNA parts and gene construct compositions
+  linked to engineered traits described in peer-reviewed publications, providing a
+  public digital repository for sharing the biodesign information among the researchers
+  in the fields of plant biotechnology and plant synthetic biology.
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/2375785
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2375785
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

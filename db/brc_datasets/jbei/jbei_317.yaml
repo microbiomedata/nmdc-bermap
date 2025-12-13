@@ -1,0 +1,132 @@
+id: jbei:317
+brc: JBEI
+date: '2017-03-12'
+title: Degreif et al, 2017
+creator:
+- name: Itay Budin
+  email: ibudin@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Daniel Degreif
+  email: ddegreif@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00317
+repository: ICE
+datasetName: Degreif et al, 2017
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/317
+description: This dataset contains nine yeast expression plasmids for studying the
+  transcription factors Mga2 and Spt23, key regulators of fatty acid metabolism. The
+  collection enables the expression of full-length, truncated (p90), and mutated forms
+  of Mga2 and Spt23, often with C-terminal myc tags for detection. Expression is driven
+  by a variety of native, constitutive (TEF1), and doxycycline-repressible promoters
+  on both low-copy (CEN/ARS) and high-copy (2u) vectors, alongside a plasmid for repressible
+  OLE1 expression.
+relatedItem:
+- title: 'Functional analysis of yeast essential genes using a promoter-substitution
+    cassette and the tetracycline-regulatable dual expression system Gemma Bellí,
+    Eloi Garí, Martí Aldea and Enrique Herrero Yeast (1998) 14(12): 1127-1138'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'A set of vectors with a tetracycline-regulatable promoter system for modulated
+    gene expression in Saccharomyces cerevisiae Eloi Garí, Lidia Piedrafita, Martí
+    Aldea and Enrique Herrero Yeast (1997) 13(9): 837-48'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: H. Alper, C. Fischer, E. Nevoigt, G. Stephanopoulos, Tuning genetic control
+    through promoter engineering, Proceedings of the National Academy of Sciences
+    of the United States of America, 102 (2005) 12678-12683.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: ColE1, CEN/ARS
+  backbone: pGREG523-pMGA2-mycMGA2
+  promoters:
+  - pSPT23
+  description: Yeast expression plasmid (CEN/ARS, HIS3) expression a C-terminal 13
+    x myc tagged MGA2 . Expression is from the native MGA2 promoter.
+  selection_markers:
+  - Carb, HIS
+- ori: ColE1, CEN/ARS
+  backbone: pGREG523-pSPT23-mycSPT23 W1042L
+  promoters:
+  - pSPT23
+  description: Yeast expression plasmid (CEN/ARS, HIS3) expression a C-terminal 13
+    x myc tagged SPT23 with a mutation that disabled fluidity sensing. Expression
+    is from the native SPT23 promoter.
+  selection_markers:
+  - Carb, HIS
+- ori: ColE1, CEN/ARS
+  backbone: pGREG523(2u)-pSPT23-mycSPT23
+  promoters:
+  - pSPT23
+  description: Yeast expression plasmid (2u, HIS3) expression a C-terminal 13 x myc
+    tagged SPT23. Expression is from the native SPT23 promoter.
+  selection_markers:
+  - Carb, HIS
+- ori: ColE1, CEN/ARS
+  backbone: pGREG523(2u)-pTEF1-mycSPT23
+  promoters:
+  - pSPT23
+  description: Yeast expression plasmid (2u, HIS3) expression a C-terminal 13 x myc
+    tagged SPT23. Expression is from the TEF1 promoter.
+  selection_markers:
+  - Carb, HIS
+- ori: ColE1, CEN/ARS
+  backbone: pCM188-MGA2p90 LEU2
+  promoters:
+  - tetO-CYC1
+  description: Yeast expression plasmid (CEN/ARS, LEU2) driving expression of truncated
+    Mga2 (p90 fragment). Expression is via a doxycycline repressible tetO-CYC1 promoter.
+  selection_markers:
+  - Carb, LEU2
+- ori: ColE1, CEN/ARS
+  backbone: pCM188-SPT23p90
+  promoters:
+  - tetO-CYC1
+  description: Yeast expression plasmid (CEN/ARS, URA3) driving expression of truncated
+    SPT23 (p90 fragment). Expression is via a doxycycline repressible tetO-CYC1 promoter.
+  selection_markers:
+  - Carb, URA3
+- ori: ColE1, CEN/ARS
+  backbone: pGREG523-pSPT23-mycSPT23
+  promoters:
+  - pSPT23
+  description: Yeast expression plasmid (CEN/ARS, HIS3) expression a C-terminal 13
+    x myc tagged SPT23. Expression is from the native SPT23 promoter.
+  selection_markers:
+  - Carb, HIS
+- ori: CEN4 ARS1/ARS416, high-copy-number ColE1/pMB1/pBR322/pUC origin of replication
+  backbone: pCM188-OLE1
+  promoters:
+  - tetO2-CYC1 promoter
+  description: plasmid allows doxycycline repressible expression of native  OLE1 gene
+    from S. cerevisiae BY4742 in yeast
+  selection_markers:
+  - ampR, URA3
+- ori: ColE1, CEN/ARS
+  backbone: pCM188-SPT23p90 LEU2
+  promoters:
+  - tetO-CYC1
+  description: Yeast expression plasmid (CEN/ARS, LEU2) driving expression of truncated
+    SPT23 (p90 fragment). Expression is via a doxycycline repressible tetO-CYC1 promoter.
+  selection_markers:
+  - Carb, LEU2
+bibliographicCitation: https://public-registry.jbei.org/folders/317
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00317
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

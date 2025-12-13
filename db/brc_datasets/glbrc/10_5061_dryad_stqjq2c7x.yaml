@@ -1,0 +1,38 @@
+brc: GLBRC
+date: '2023-06-19'
+title: 'Data from: Identification of anti-fungal bioactive terpenoids from the bioenergy
+  crop switchgrass (Panicum virgatum)'
+creator:
+- name: Xingxing Li
+  email: lixingxi@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+- name: Robert L. Last
+  email: lastr@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Panicum virgatum, Linnemania elongata, Trichoderma sp. and Fusarium sp.
+keywords:
+- Terpenes/pharmacology
+- Panicum
+- Antifungal Agents/pharmacology
+- Ecotype
+- Plant Breeding
+identifier: 10.5061/dryad.stqjq2c7x
+repository: Dryad
+description: To identify specific fungal growth-modulating metabolites, we tested
+  fractions from root extracts on three ecologically important fungal isolates – <i>Linnemania
+  elongata</i>, <i>Trichoderma</i> sp. and <i>Fusarium</i> sp.
+relatedItem:
+- title: Anti-fungal bioactive terpenoids in the bioenergy crop switchgrass (<i>Panicum
+    virgatum</i>) may contribute to ecotype-specific microbiome composition
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.nature.com/articles/s42003-023-05290-3
+analysisType: Raw data for LC-MS metabolomics; images of fungal bioassays
+bibliographicCitation: https://datadryad.org/dataset/doi:10.5061/dryad.stqjq2c7x
+schema_version: 0.1.7
+uid: GLBRC_10.5061/dryad.stqjq2c7x
+created_at: '2025-11-19T18:00:04.599Z'
+updated_at: '2025-12-10T06:00:05.197Z'

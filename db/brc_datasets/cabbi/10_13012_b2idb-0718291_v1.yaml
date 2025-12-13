@@ -1,0 +1,47 @@
+brc: CABBI
+date: '2022-03-14'
+title: Aerial Imagery Can Detect Nitrogen Fertilizer Effects on Biomass and Stand
+  Health of Miscanthus × giganteus
+creator:
+- name: DoKyoung Lee
+  email: leedk@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Thomas Voigt
+  email: tvoigt@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 183674
+  scientificName: Miscanthus x giganteus
+keywords:
+- Miscanthus
+- Weather data
+- Nitrogen
+identifier: 10.13012/B2IDB-0718291_V1
+repository: Illinois Data Bank
+description: Miscanthus × giganteus (Miscanthus) is a warm-season perennial grass
+  grown for bioenergy feedstock production. Nitrogen (N) fertilizer management is
+  crucial for the sustainability of Miscanthus production. In our two-year study (2018
+  and 2019), we investigated the role of vegetation indices (VIs) in evaluating N
+  fertilization (0 N, 56 N, 112 N, and 168 N kg ha−1) impacts on Miscanthus biomass
+  yield and stand health. The flight campaigns were conducted early, middle, and late
+  during the summer growing season. Among the VIs, mid-summer growing season NDRE
+  provided the best prediction of fresh biomass (R2 = 0.87 and 0.97) and dry biomass
+  (R2 = 0.89 and 0.97) in 2018 and 2019, respectively. The VIs generally showed that
+  it was possible to distinguish between 0 N and 168 N treatments, but neither 0 N
+  and 56 N kg ha−1 nor 112 N and 168 N kg ha−1 could be separated. The results from
+  this study highlight the importance of moderate application of N (112 kg N ha−1)
+  in improving and maintaining the stand health and biomass yield of Miscanthus over
+  time and suggest that mid-summer growing season VIs, NDRE in particular, can be
+  useful for assessment of Miscanthus stand health and biomass yield.
+relatedItem:
+- title: Aerial Imagery Can Detect Nitrogen Fertilizer Effects on Biomass and Stand
+    Health of Miscanthus x giganteus
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.3390/rs14061435
+bibliographicCitation: https://doi.org/10.13012/B2IDB-0718291_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-0718291_V1
+created_at: '2025-11-20T18:00:04.758Z'
+updated_at: '2025-12-10T06:00:05.196Z'

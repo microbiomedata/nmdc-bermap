@@ -1,0 +1,63 @@
+id: jbei:290
+brc: JBEI
+date: '2017-02-15'
+title: Thomas_et_al_2016
+creator:
+- name: Tong Wei
+  email: tongwei@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 64187
+  scientificName: Xanthomonas oryzae pv. oryzae
+- NCBITaxID: 4530
+  scientificName: Oryza sativa
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00290
+repository: ICE
+datasetName: Thomas_et_al_2016
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/290
+description: This dataset contains the plasmid pJP5603-hrpA1, which was used to generate
+  a gene knockout mutant in the rice pathogen *Xanthomonas oryzae* pv. *oryzae* strain
+  PXO99. The plasmid targets the `hrpA1` gene, which encodes a key structural component
+  of the Type III secretion system (T3SS) pilus. This genetic tool is therefore valuable
+  for investigating the molecular mechanisms of bacterial pathogenicity and T3SS function.
+relatedItem:
+- title: Thomas, N. C., Schwessinger, B., Liu, F., Chen, H., Wei, T., Nguyen, Y. P.,
+    Shaker, I. W. F., &amp; Ronald, P. C. (2016). "XA21-specific induction of stress-related
+    genes followingXanthomonasinfection of detached rice leaves". PeerJ, 4, e2446.
+    doi, 10.7717/peerj.2446
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Park, C., Bart, R., Chern, M., Canlas, P. E., Bai, W. &amp; Ronald, P. E.
+    (2010) "Overexpression of the Endoplasmic Reticulum Chaperone BiP3 Regulates XA21-Mediated
+    Innate Immunity in Rice". PLoS ONE 5: e9262. doi, 10.1371/journal.pone.0009262'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Schwessinger, B., Bahar, O., Thomas, N., Holton, N., Nekrasov, V., Ruan,
+    D., Canlas P. E., Daudi, A., Petzold, C. J., Singan, V. R., Kuo, R., Chovatia,
+    M., Daum, C., Heazlewood, J. L., Zipfel, C. &amp; Ronald, P. C. (2015). "Transgenic
+    Expression of the Dicotyledonous Pattern Recognition Receptor EFR in Rice Leads
+    to Ligand-Dependent Activation of Defense Responses". PLoS Pathogens 11: e1004809.
+    doi, 10.1371/journal.ppat.1004809'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pJP5603-hrpA1
+  promoters: []
+  description: pJP5603-hrpA1 was used to generate PXO99 hrpA1 mutant.
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/290
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00290
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

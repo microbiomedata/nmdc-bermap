@@ -1,0 +1,68 @@
+brc: CABBI
+date: '2021-01-07'
+title: Managing Flowering Time in Miscanthus and Sugarcane to Facilitate Intra- and
+  Intergeneric Crosses
+creator:
+- name: Erik Sacks
+  email: esacks@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 62337
+  scientificName: Miscanthus sinensis
+- NCBITaxID: 183674
+  scientificName: Miscanthus x giganteus
+- NCBITaxID: 154761
+  scientificName: Miscanthus floridulus
+keywords:
+- Miscanthus
+- Flowering
+- Culm Length
+identifier: 10.13012/B2IDB-1470836_V1
+repository: Illinois Data Bank
+description: Miscanthus is a close relative of saccharum and a potentially valuable
+  genetic resource for improving sugarcane. Differences in flowering time within and
+  between miscanthus and saccharum hinders intra- and interspecific hybridizations.
+  A series of greenhouse experiments were conducted over three years to determine
+  how to synchronize flowering time of saccharum and miscanthus genotypes. We found
+  that day length was an important factor influencing when miscanthus and saccharum
+  flowered. Sugarcane could be induced to flower in a central Illinois greenhouse
+  using supplemental lighting to reduce the rate at which days shortened during the
+  autumn and winter to 1 min d-1, which allowed us to synchronize the flowering of
+  some sugarcane genotypes with Miscanthus genotypes primarily from low latitudes.
+  In a complementary growth chamber experiment, we evaluated 33 miscanthus genotypes,
+  including 28 M. sinensis, 2 M. floridulus, and 3 M. ×giganteus collected from 20.9°
+  S to 44.9° N for response to three day lengths (10 h, 12.5 h, and 15 h). High latitude-adapted
+  M. sinensis flowered mainly under 15 h days, but unexpectedly, short days resulted
+  in short, stocky plants that did not flower; in some cases, flag leaves developed
+  under short days but heading did not occur. In contrast, for M. sinensis and M.
+  floridulus from low latitudes, shorter day lengths typically resulted in earlier
+  flowering, and for some low latitude genotypes, 15 h days resulted in no flowering.
+  However, the highest ratio of reproductive shoots to total number of culms was typically
+  observed for 12.5 h or 15 h days. Latitude of origin was significantly associated
+  with culm length, and the shorter the days, the stronger the relationship. Nearly
+  all entries achieved maximal culm length under the 15 h treatment, but the nearer
+  to the equator an accession originated, the less of a difference in culm length
+  between the short-day treatments and the 15 h day treatment. Under short days, short
+  culms for high-latitude accessions was achieved by different physiological mechanisms
+  for M. sinensis genetic groups from the mainland in comparison to those from Japan;
+  for mainland accessions, the mechanism was reduced internode length, whereas for
+  Japanese accessions the phyllochron under short days was greater than under long
+  days. Thus, for M. sinensis, short days typically hastened floral induction, consistent
+  with the expectations for a facultative short-day plant. However, for high latitude
+  accessions of M. sinensis, days less than 12.5 h also signaled that plants should
+  prepare for winter by producing many short culms with limited elongation and development;
+  moreover, this response was also epistatic to flowering. Thus, to flower M. sinensis
+  that originates from high latitudes synchronously with sugarcane, the former needs
+  day lengths &gt;12.5 h (perhaps as high as 15 h), whereas that the latter needs
+  day lengths &lt;12.5 h.
+relatedItem:
+- title: Managing Flowering Time in Miscanthus and Sugarcane to Facilitate Intra-
+    and Intergeneric Crosses
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1371/journal.pone.0240390
+bibliographicCitation: https://doi.org/10.13012/B2IDB-1470836_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-1470836_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

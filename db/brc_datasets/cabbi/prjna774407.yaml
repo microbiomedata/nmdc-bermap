@@ -1,0 +1,33 @@
+brc: CABBI
+date: '2021-10-25'
+title: Genome-wide transcriptional regulation in Saccharomyces cerevisiae in response
+  to carbon dioxide
+creator:
+- name: Jin, Yong-Su
+  email: ysjin@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Rao, Christopher
+  email: cvrao@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- Genomics
+- Transcriptomics
+identifier: PRJNA774407
+repository: NCBI BioProject
+description: Effect of CO2 on yeast transcriptional network during glucose fermentation
+relatedItem:
+- title: Genome-Wide Transcriptional Regulation in Saccharomyces cerevisiae in Response
+    to Carbon Dioxide
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: http://doi.org/10.1093/femsyr/foac032
+analysisType: Genomics
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA774407/
+schema_version: 0.1.1
+uid: CABBI_PRJNA774407
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

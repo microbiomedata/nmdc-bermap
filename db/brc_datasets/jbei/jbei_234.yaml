@@ -1,0 +1,193 @@
+id: jbei:234
+brc: JBEI
+date: '2016-03-05'
+title: de Michele et al. 2016
+creator:
+- name: Jeemeng Lao
+  email: jeemengl@usc.edu
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- AT3G45600.1
+- AT3G28040.1
+- AT3G27390.1
+- AT4G21450.1
+- AT3G16420.1
+- AT5G06320.1
+- AT1G80640.1
+- AT1G12080.2
+- AT1G51940.1
+- AT1G73650.3
+- AT2G38940.1
+- AT1G52100.1
+- AT2G18360.1
+- AT4G11860.1
+identifier: jbei:folder:00234
+repository: ICE
+datasetName: de Michele et al. 2016
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/234
+description: This dataset contains 28 plasmids designed to investigate the subcellular
+  localization of 14 different *Arabidopsis thaliana* proteins. Each gene is cloned
+  into a pBullet plasma membrane-targeting vector system as two separate constructs,
+  allowing for the expression of both N-terminal and C-terminal fusions. These constructs
+  are suitable for determining the membrane topology and localization of proteins
+  potentially involved in cell wall biosynthesis and transport processes relevant
+  to bioenergy.
+relatedItem: []
+analysisType: image_analysis
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pBullet-pm-n-AT4G11860.1
+  promoters: []
+  description: pBullet-pm-n-AT4G11860.1
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-n-AT4G21450.1
+  promoters: []
+  description: pBullet-pm-n-AT4G21450.1
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-n-AT3G28040.1
+  promoters: []
+  description: pBullet-pm-n-AT3G28040.1
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-n-AT3G16420.1
+  promoters: []
+  description: pBullet-pm-n-AT3G16420.1
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-n-AT1G80640.1
+  promoters: []
+  description: pBullet-pm-n-AT1G80640.1
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-n-AT2G38940.1
+  promoters: []
+  description: pBullet-pm-n-AT2G38940.1
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-n-AT2G18360.1
+  promoters: []
+  description: pBullet-pm-n-AT2G18360.1
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-n-AT3G27390.1
+  promoters: []
+  description: pBullet-pm-n-AT3G27390.1
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-n-AT5G06320.1
+  promoters: []
+  description: pBullet-pm-n-AT5G06320.1
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-n-AT3G45600.1
+  promoters: []
+  description: pBullet-pm-n-AT3G45600.1
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-n-AT1G51940.1
+  promoters: []
+  description: pBullet-pm-n-AT1G51940.1
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-n-AT1G12080.2
+  promoters: []
+  description: pBullet-pm-n-AT1G12080.2
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-c-AT3G28040.1
+  promoters: []
+  description: pBullet-pm-c-AT3G28040.1
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-n-AT1G73650.3
+  promoters: []
+  description: pBullet-pm-n-AT1G73650.3
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-c-AT4G11860.1
+  promoters: []
+  description: pBullet-pm-c-AT4G11860.1
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-c-AT5G06320.1
+  promoters: []
+  description: pBullet-pm-c-AT5G06320.1
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-c-AT4G21450.1
+  promoters: []
+  description: pBullet-pm-c-AT4G21450.1
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-c-AT3G45600.1
+  promoters: []
+  description: pBullet-pm-c-AT3G45600.1
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-c-AT3G27390.1
+  promoters: []
+  description: pBullet-pm-c-AT3G27390.1
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-n-AT1G52100.1
+  promoters: []
+  description: pBullet-pm-n-AT1G52100.1
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-c-AT2G18360.1
+  promoters: []
+  description: pBullet-pm-c-AT2G18360.1
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-c-AT2G38940.1
+  promoters: []
+  description: pBullet-pm-c-AT2G38940.1
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-c-AT1G12080.2
+  promoters: []
+  description: pBullet-pm-c-AT1G12080.2
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-c-AT1G80640.1
+  promoters: []
+  description: pBullet-pm-c-AT1G80640.1
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-c-AT3G16420.1
+  promoters: []
+  description: pBullet-pm-c-AT3G16420.1
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-c-AT1G51940.1
+  promoters: []
+  description: pBullet-pm-c-AT1G51940.1
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-c-AT1G73650.3
+  promoters: []
+  description: pBullet-pm-c-AT1G73650.3
+  selection_markers:
+  - Kan + Amp
+- backbone: pBullet-pm-c-AT1G52100.1
+  promoters: []
+  description: pBullet-pm-c-AT1G52100.1
+  selection_markers:
+  - Kan + Amp
+bibliographicCitation: https://public-registry.jbei.org/folders/234
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00234
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

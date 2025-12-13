@@ -1,0 +1,40 @@
+brc: GLBRC
+date: '2024-02-29'
+title: Tnseq to identify catabolism of b-5 linked aromatics by Novosphingobium aromaticivorans
+creator:
+- name: Daniel R. Noguera
+  email: dnoguera@wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: true
+- name: Timothy J. Donohue
+  email: tdonohue@bact.wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: false
+species:
+- NCBITaxID: 48935
+  scientificName: Novosphingobium aromaticivorans
+keywords:
+- aromatic compounds
+- genetics
+- genomics
+- lininolysis
+identifier: 'PRJNA1082384 '
+repository: NCBI BioProject
+description: This study investigates the catabolism of the b-5 linked aromatic dimer
+  dehydrodiconiferyl alcohol (DC-A) by the bacterium Novosphingobium aromaticivorans.
+  We used genome wide screens to identify candidate genes involved in DC-A catabolism.
+  Subsequent in vivo and in vitro analyses of these candidates elucidated a catabolic
+  pathway composed of four required gene products and several partially redundant
+  dehydrogenases that convert DC-A to aromatic monomers that can be funneled into
+  the central aromatic metabolic pathway of N. aromaticivorans.
+relatedItem:
+- title: RB-TnSeq barcode abundance data sets for <i>Novosphingobium aromaticivorans
+    </i>grown on the β-5-linked aromatic dimer dehydrodiconiferyl alcohol
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://journals.asm.org/doi/10.1128/mra.00844-24
+analysisType: raw RB-Tnseq reads
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1082384
+schema_version: 0.1.7
+uid: 'GLBRC_PRJNA1082384 '
+created_at: '2025-11-27T06:00:04.934Z'
+updated_at: '2025-12-10T06:00:05.198Z'

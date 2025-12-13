@@ -1,0 +1,29 @@
+brc: CBI
+date: '2022-03-01'
+title: Populus Trichocarpa Common Garden Genotypes
+active: true
+creator:
+- name: Stanton Martin
+  email: martins@ornl.gov
+  primaryContact: true
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER). Biological Systems Science Division
+keywords:
+- Populus Trichocarpa GWAS
+identifier: https://www.osti.gov/biblio/1846744
+dataset_url: https://labkey.ornl.gov/CBI/Martin/PUBLIC_DATA/Davis_Common_Garden_Genotypes/project-begin.view?
+description: This dataset consists of labeled images from Populus Trichocarpa genotypes
+  cultivated under both drought and control conditions in Davis, California. The treatment,
+  block, row, position and genotype are indicated on the tag.
+relatedItem: []
+contributors:
+- name: Ambarish Nag
+  email: ambarish.nag@nrel.gov
+  contributorType: DataCurator
+bibliographicCitation: https://doi.org/10.25983/1846744
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/1846744
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

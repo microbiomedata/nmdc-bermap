@@ -1,0 +1,93 @@
+id: jbei:394
+brc: JBEI
+date: '2017-05-02'
+title: Budin et. al, Science 2018
+creator:
+- name: Itay Budin
+  email: ibudin@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 1423
+  scientificName: Bacillus subtilis
+keywords: []
+identifier: jbei:folder:00394
+repository: ICE
+datasetName: Budin et. al, Science 2018
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/394
+description: This dataset provides seven E. coli plasmids for studying and engineering
+  cellular physiology, with a focus on membrane composition and stress response. The
+  plasmids enable the synthesis of branched-chain and unsaturated fatty acids, expression
+  of the cytochrome oxidase cyoABCD, and fluorescent monitoring of the heat shock
+  response. Additional plasmids allow for visualizing the localization of the AcrB
+  efflux pump and the periplasmic protein MBP.
+relatedItem: []
+analysisType: image_analysis
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: p15a
+  backbone: pBbA1a-SD2-cyoABCD
+  promoters:
+  - pBAD
+  description: Plasmid for inducible expression of cyoABCD in E. coli
+  selection_markers: []
+- ori: BBR1
+  backbone: pBbB5k-acrAB-GFP
+  promoters:
+  - lac UV5
+  description: Plasmid for expression of acrA, acrB inner membrane protein fused to
+    sfGFP. Features a his tag and a TEV linker between acrB and sfGFP.
+  selection_markers: []
+- ori: BBR1
+  backbone: pCLPB-GFP
+  promoters:
+  - pCLPB
+  description: Native E. coli clpB promoter driving expression of GFP. Suitable for
+    monitoring heat shock response in E. coli.
+  selection_markers:
+  - kanamycin
+- ori: BBR1
+  backbone: pBbB5k-bkd-bFabH2
+  promoters:
+  - lac UV5
+  description: 'Plasmid for expression of branched chain esterified fatty acids. Includes
+    five genes from B. subtilus: the four genes of the bkd operon (IpdV, bkdAA,bkdAB,
+    bkdB) and fabH2. Features a introduced strong shine delgarno sequence in front
+    of bfabH2. Leaky expression is sufficient to convert 10-30% of cellular esterified
+    fatty acids into branched chain fatty acids.'
+  selection_markers: []
+- ori: p15A
+  backbone: pBAD30-fabB-1
+  promoters:
+  - pBAD
+  description: E. coli fabB cloned into pBAD30 with a truncated shine delgarno sequence
+    (GGAGG). Appropriate for manipulating lipid unsaturation in non-glucose media.
+  selection_markers: []
+- ori: p15A
+  backbone: pBAD30-fabB-0
+  promoters:
+  - pBAD
+  description: E. coli fabB cloned into pBAD30 with a full strength shine delgarno
+    sequence (AGGAGG). Appropriate for manipulating lipid unsaturation in glucose
+    media, where pBAD activity is repressed.
+  selection_markers: []
+- ori: BBR1
+  backbone: pBbB5k-MBP-RFP
+  promoters:
+  - lac UV5
+  description: Plasmid for expression of maltose binding protein (MBP, E. coli gene
+    MalE) fused to a c-terminal RFP. Suitable for imaging localization of periplasmic
+    MBP.
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/394
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00394
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

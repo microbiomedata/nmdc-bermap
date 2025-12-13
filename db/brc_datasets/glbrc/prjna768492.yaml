@@ -1,0 +1,38 @@
+brc: GLBRC
+date: '2021-10-04'
+title: bioreactor sludge metagenome
+creator:
+- name: Daniel R. Noguera
+  email: dnoguera@wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: true
+species:
+- NCBITaxID: null
+  scientificName: Multiple species, metagenome
+keywords:
+- microbiome
+- dairy coproduct
+- fermentation
+- lactic
+- succinic
+- butyric
+- hexanoic
+- chain elongation
+identifier: 'PRJNA768492 '
+repository: NCBI BioProject
+description: Anaerobic fermentation bioreactor microbial communities from Madison,
+  Wisconsin, United States. The goal of this study is to characterize a central set
+  of genes relevant to medium chain fatty acid (MCFA) production to guide screens
+  of putative MCFA-producing microorganisms from additional environments or grown
+  on different substrates.
+relatedItem:
+- title: A metagenome-level analysis of a microbial community fermenting ultra-filtered
+    milk permeate
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.frontiersin.org/articles/10.3389/fbioe.2023.1173656/full
+analysisType: Metagenome sequencing
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA768492
+schema_version: 0.1.7
+uid: 'GLBRC_PRJNA768492 '
+created_at: '2025-11-19T18:00:04.599Z'
+updated_at: '2025-12-10T06:00:05.197Z'

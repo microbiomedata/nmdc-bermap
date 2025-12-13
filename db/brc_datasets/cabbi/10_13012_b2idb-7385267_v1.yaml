@@ -1,0 +1,58 @@
+brc: CABBI
+date: '2019-03-22'
+title: 'Winter Hardiness of Miscanthus (III): Genome‐Wide Association and Genomic
+  Prediction for Overwintering Ability in Miscanthus sinensis'
+creator:
+- name: Erik Sacks
+  email: esacks@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Stephen Long
+  email: slong@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 62337
+  scientificName: Miscanthus sinensis
+keywords:
+- Miscanthus sinensis
+- Overwintering
+- Field Trials
+- Phenotypic Data
+identifier: 10.13012/B2IDB-7385267_V1
+repository: Illinois Data Bank
+description: Overwintering ability is an important selection criterion for Miscanthus
+  breeding in temperate regions. Insufficient overwintering ability of the currently
+  leading Miscanthus biomass cultivar, M. ×giganteus (M×g) ‘1993–1780′, in regions
+  where average annual minimum temperatures are −26.1°C (USDA hardiness zone 5) or
+  lower poses a pressing need to develop new cultivars with superior cold tolerance.
+  To facilitate breeding of Miscanthus, this study characterized phenotypic and genetic
+  variation of overwintering ability in an M. sinensis germplasm panel consisting
+  of 564 accessions, evaluated in field trials at three locations in North America
+  and two in Asia. Genome‐wide association (GWA) and genomic prediction analyses were
+  performed. The Korea/N China M. sinensis genetic group is a valuable gene pool for
+  cold tolerance. The Yangtze‐Qinling, Southern Japan, and Northern Japan genetic
+  groups were also potential sources of cold tolerance. A total of 73 marker–trait
+  associations were detected for overwintering ability. Estimated breeding value for
+  overwintering ability based on these 73 markers could explain 55% of the variation
+  for first winter overwintering ability among M. sinensis. Average genomic prediction
+  ability for overwintering ability across 50 fivefold cross‐validations was high
+  (~0.73) after accounting for population structure. Common genomic regions for overwintering
+  ability were detected by GWA analyses and a previous parallel QTL mapping study
+  using three interconnected biparental F1 populations. One QTL on Miscanthus LG 8
+  encompassed five GWA hits and a known cold‐responsive gene, COR47. The other overwintering
+  ability QTL on Miscanthus LG 11 contained two GWA hits and three known cold stress‐related
+  genes, carboxylesterase 13 (CEX13), WRKY2 transcription factor, and cold shock domain
+  (CSDP1). Miscanthus accessions collected from high latitude locations with cold
+  winters had higher rates of overwintering, and more alleles for overwintering, than
+  accessions collected from southern locations with mild winters.
+relatedItem:
+- title: 'Winter Hardiness of Miscanthus (III): Genome‐Wide Association and Genomic
+    Prediction for Overwintering Ability in Miscanthus sinensis'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/gcbb.12615
+bibliographicCitation: https://doi.org/10.13012/B2IDB-7385267_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-7385267_V1
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-10T06:00:05.196Z'

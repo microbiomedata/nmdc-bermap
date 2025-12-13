@@ -1,0 +1,856 @@
+id: jbei:385
+brc: JBEI
+date: '2018-04-12'
+title: Opgenorth et al. 2019
+creator:
+- name: Garima Goyal
+  email: ggoyal@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Nathan Hillson
+  email: njhillson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Ee-Been Goh
+  email: egoh@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Yan Kung
+  email: yankung@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Takuya Okada
+  email: tokada@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Eric Steen
+  email: ejsteen@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Robert Haushalter
+  email: rwhaushalter@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 272131
+  scientificName: Nostoc punctiforme
+- NCBITaxID: 1270
+  scientificName: Micrococcus luteus
+- NCBITaxID: 3438
+  scientificName: Umbellularia californica
+- NCBITaxID: 2743
+  scientificName: Marinobacter aquaeolei
+keywords:
+- plant thioesterase
+- E.coli fadB
+- M.luteus acyl-CoA oxidase
+- ACP reductase
+- Mlut_11700
+- single plasmid
+- UcFatB1
+- CoA reductase
+- codon-optimized aco
+- methyl ketones
+identifier: jbei:folder:00385
+repository: ICE
+datasetName: Opgenorth et al. 2019
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/385
+description: This dataset comprises 127 plasmids designed for the metabolic engineering
+  of *E. coli*, with a primary focus on producing the biofuel dodecanol. The collection
+  systematically explores the optimization of biosynthetic pathways by expressing
+  key enzymes, such as thioesterases and reductases (e.g., `fatB`, `Maqu_2220`), under
+  the control of varied ribosome binding sites (RBS). These constructs represent a
+  modular toolkit, including many Level 0 and Level 1 parts, for assembling and fine-tuning
+  gene expression to improve biochemical production.
+relatedItem:
+- title: Goh, E. B., E. E. Baidoo, J. D. Keasling, and H. R. Beller. Engineering of
+    bacterial methyl ketone synthesis for biofuels. 2011. Appl Environ Microbiol.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Haushalter, R. W., Kim, W., Chavkin, T. A., The, L., Garber, M. E., Nhan,
+    M., Petzold, C. J., Katz, L., &amp; Keasling, J. D. (2014). “Production of anteiso-branched
+    fatty acids in Escherichia coli; next generation biofuels with improved cold-flow
+    properties”. [Journal article]. Metab Eng, 20(14), 00116-00115. doi, 10.1016/j.ymben.2014.09.002
+    http://www.ncbi.nlm.nih.gov/pubmed/25250846
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Haushalter, R. W., Groff, D., Deutsch, S., The, L., Chavkin, T. A., Brunner,
+    S. F., Katz, L., &amp; Keasling, J. D. (2015). "Development of an orthogonal fatty
+    acid biosynthesis system in E. coli for oleochemical production". Metab Eng. doi,
+    10.1016/j.ymben.2015.04.003 http://www.ncbi.nlm.nih.gov/pubmed/25887638
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Lee TS, Krupa RA, Zhang F, Hajimorad M, Holtz WJ, Prasad N, Lee SK, Keasling
+    JD. BglBrick vectors and datasheets: A synthetic biology platform for gene expression.
+    J Biol Eng. 2011 Sep 20;5:12. doi: 10.1186/1754-1611-5-12.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors:
+- name: Taek Soon Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+- name: Rachel Krupa
+  email: rakrupa@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pDVA02493
+  promoters: []
+  description: single-gene operons for fatB with variations in the RBS
+  selection_markers:
+  - Kan
+- backbone: pDVA02496
+  promoters: []
+  description: single-gene operons for fatB with variations in the RBS
+  selection_markers:
+  - Kan
+- backbone: pDVA02492
+  promoters: []
+  description: single-gene operons for fatB with variations in the RBS
+  selection_markers:
+  - Kan
+- backbone: pDVA02491
+  promoters: []
+  description: single-gene operons for fatB with variations in the RBS
+  selection_markers:
+  - Kan
+- backbone: pDVA02494
+  promoters: []
+  description: single-gene operons for fatB with variations in the RBS
+  selection_markers:
+  - Kan
+- ori: pUC ori
+  backbone: pSTART_Chlor
+  promoters: []
+  description: Derivative of TNT-cloning system pSTART, with attL1/attL2, GoldenBraid
+    2.0 sites, LacZ_alpha
+  selection_markers: []
+- backbone: pDVA02495
+  promoters: []
+  description: single-gene operons for fatB with variations in the RBS
+  selection_markers:
+  - Kan
+- ori: p15a
+  backbone: pEG955
+  promoters:
+  - PLacUV5
+  description: Removed 'tesA gene and SLIC cloned UcFatB1, E. coli fadB and Mlut_11700
+    genes into pKS1
+  selection_markers:
+  - Chloramphenicol (25)
+- ori: colE1
+  backbone: pEG1675
+  promoters:
+  - pBad
+  - pTrc
+  - lacUV5
+  description: Methyl ketone pathway on a single plasmid with codon-optimized aco
+    gene.
+  selection_markers: []
+- backbone: pET28-NpADwt
+  promoters:
+  - T7
+  description: pET28 with thrombin-cleavable, N-terminal His-tagged WT aldehyde decarbonylase
+    gene from Nostoc punctiforme
+  selection_markers:
+  - kan
+- backbone: pDVA02296
+  promoters: []
+  description: Level-1 second round of construct designs (C2 15-24) for producing
+    dodecanol in E. coli. Only includes Maqu_2220 variants
+  selection_markers:
+  - Kan
+- backbone: pDVA02288
+  promoters: []
+  description: Level-1 second round of construct designs (C2 15-24) for producing
+    dodecanol in E. coli. Only includes Maqu_2220 variants
+  selection_markers:
+  - Kan
+- backbone: pDVA02287
+  promoters: []
+  description: Level-1 second round of construct designs (C2 15-24) for producing
+    dodecanol in E. coli. Only includes Maqu_2220 variants
+  selection_markers:
+  - Kan
+- backbone: pDVA02290
+  promoters: []
+  description: Level-1 second round of construct designs (C2 15-24) for producing
+    dodecanol in E. coli. Only includes Maqu_2220 variants
+  selection_markers:
+  - Kan
+- backbone: pDVA02292
+  promoters: []
+  description: Level-1 second round of construct designs (C2 15-24) for producing
+    dodecanol in E. coli. Only includes Maqu_2220 variants
+  selection_markers:
+  - Kan
+- backbone: pDVA02291
+  promoters: []
+  description: Level-1 second round of construct designs (C2 15-24) for producing
+    dodecanol in E. coli. Only includes Maqu_2220 variants
+  selection_markers:
+  - Kan
+- backbone: pDVA02295
+  promoters: []
+  description: Level-1 second round of construct designs (C2 15-24) for producing
+    dodecanol in E. coli. Only includes Maqu_2220 variants
+  selection_markers:
+  - Kan
+- backbone: pDVA02289
+  promoters: []
+  description: Level-1 second round of construct designs (C2 15-24) for producing
+    dodecanol in E. coli. Only includes Maqu_2220 variants
+  selection_markers:
+  - Kan
+- backbone: pDVA02293
+  promoters: []
+  description: Level-1 second round of construct designs (C2 15-24) for producing
+    dodecanol in E. coli. Only includes Maqu_2220 variants
+  selection_markers:
+  - Kan
+- backbone: pDVA02294
+  promoters: []
+  description: Level-1 second round of construct designs (C2 15-24) for producing
+    dodecanol in E. coli. Only includes Maqu_2220 variants
+  selection_markers:
+  - Kan
+- backbone: pDVA02284
+  promoters: []
+  description: Level-1 second round of construct designs (C2 12-14) for producing
+    dodecanol in E. coli. Only includes Maqu_2507 variants.
+  selection_markers:
+  - Kan
+- backbone: pDVA02277
+  promoters: []
+  description: Level-1 second round of construct designs (C2 5-11) for producing dodecanol
+    in E. coli. Only includes Maqu_2507 variants.
+  selection_markers:
+  - Kan
+- backbone: pDVA02285
+  promoters: []
+  description: Level-1 second round of construct designs (C2 12-14) for producing
+    dodecanol in E. coli. Only includes Maqu_2507 variants.
+  selection_markers:
+  - Kan
+- backbone: pDVA02279
+  promoters: []
+  description: Level-1 second round of construct designs (C2 5-11) for producing dodecanol
+    in E. coli. Only includes Maqu_2507 variants.
+  selection_markers:
+  - Kan
+- backbone: pDVA02286
+  promoters: []
+  description: Level-1 second round of construct designs (C2 12-14) for producing
+    dodecanol in E. coli. Only includes Maqu_2507 variants.
+  selection_markers:
+  - Kan
+- backbone: pDVA02280
+  promoters: []
+  description: Level-1 second round of construct designs (C2 5-11) for producing dodecanol
+    in E. coli. Only includes Maqu_2507 variants.
+  selection_markers:
+  - Kan
+- backbone: pDVA02283
+  promoters: []
+  description: Level-1 second round of construct designs (C2 5-11) for producing dodecanol
+    in E. coli. Only includes Maqu_2507 variants.
+  selection_markers:
+  - Kan
+- backbone: pDVA02278
+  promoters: []
+  description: Level-1 second round of construct designs (C2 5-11) for producing dodecanol
+    in E. coli. Only includes Maqu_2507 variants.
+  selection_markers:
+  - Kan
+- backbone: pDVA02274
+  promoters: []
+  description: Level-1 second round of construct designs (C2 1-4) for producing dodecanol
+    in E. coli. Only includes Maqu_2507 variants.
+  selection_markers:
+  - Kan
+- backbone: pDVA02282
+  promoters: []
+  description: Level-1 second round of construct designs (C2 5-11) for producing dodecanol
+    in E. coli. Only includes Maqu_2507 variants.
+  selection_markers:
+  - Kan
+- backbone: pDVA02281
+  promoters: []
+  description: Level-1 second round of construct designs (C2 5-11) for producing dodecanol
+    in E. coli. Only includes Maqu_2507 variants.
+  selection_markers:
+  - Kan
+- backbone: pDVA02247
+  promoters: []
+  description: Design to construct the Level-0 inserts for Ajinomoto 2-fragment (e.g.
+    RBS + CDS) inserts for C2_12_24.
+  selection_markers:
+  - None
+  - Chloramphenicol
+- backbone: pDVA02276
+  promoters: []
+  description: Level-1 second round of construct designs (C2 1-4) for producing dodecanol
+    in E. coli. Only includes Maqu_2507 variants.
+  selection_markers:
+  - Kan
+- backbone: pDVA02245
+  promoters: []
+  description: Design to construct the Level-0 inserts for Ajinomoto 2-fragment (e.g.
+    RBS + CDS) inserts for C2_12_24.
+  selection_markers:
+  - None
+  - Chloramphenicol
+- backbone: pDVA02273
+  promoters: []
+  description: Level-1 second round of construct designs (C2 1-4) for producing dodecanol
+    in E. coli. Only includes Maqu_2507 variants.
+  selection_markers:
+  - Kan
+- backbone: pDVA02275
+  promoters: []
+  description: Level-1 second round of construct designs (C2 1-4) for producing dodecanol
+    in E. coli. Only includes Maqu_2507 variants.
+  selection_markers:
+  - Kan
+- backbone: pDVA02250
+  promoters: []
+  description: Design to construct the Level-0 inserts for Ajinomoto 2-fragment (e.g.
+    RBS + CDS) inserts for C2_12_24.
+  selection_markers:
+  - None
+  - Chloramphenicol
+- backbone: pDVA02252
+  promoters: []
+  description: Design to construct the Level-0 inserts for Ajinomoto 2-fragment (e.g.
+    RBS + CDS) inserts for C2_12_24.
+  selection_markers:
+  - None
+  - Chloramphenicol
+- backbone: pDVA02244
+  promoters: []
+  description: Design to construct the Level-0 inserts for Ajinomoto 2-fragment (e.g.
+    RBS + CDS) inserts for C2_12_24.
+  selection_markers:
+  - Chloramphenicol
+  - None
+- backbone: pDVA02248
+  promoters: []
+  description: Design to construct the Level-0 inserts for Ajinomoto 2-fragment (e.g.
+    RBS + CDS) inserts for C2_12_24.
+  selection_markers:
+  - Chloramphenicol
+  - None
+- backbone: pDVA02249
+  promoters: []
+  description: Design to construct the Level-0 inserts for Ajinomoto 2-fragment (e.g.
+    RBS + CDS) inserts for C2_12_24.
+  selection_markers:
+  - Chloramphenicol
+  - None
+- backbone: pDVA02246
+  promoters: []
+  description: Design to construct the Level-0 inserts for Ajinomoto 2-fragment (e.g.
+    RBS + CDS) inserts for C2_12_24.
+  selection_markers:
+  - None
+  - Chloramphenicol
+- backbone: pDVA02251
+  promoters: []
+  description: Design to construct the Level-0 inserts for Ajinomoto 2-fragment (e.g.
+    RBS + CDS) inserts for C2_12_24.
+  selection_markers:
+  - Chloramphenicol
+  - None
+- backbone: pDVA02241
+  promoters: []
+  description: Design to construct the Level-0 inserts for Ajinomoto dodecanol project
+    for those 3-fragment (e.g. RBS + StartATG + CDS) inserts that are either going
+    to be derived from PCR or from synthetic inserts. UcFatB1 for C2 5-9
+  selection_markers:
+  - None
+  - Chloramphenicol
+- backbone: pDVA02243
+  promoters: []
+  description: Design to construct the Level-0 pBbA1k Vector Backbone for C2_12-14
+  selection_markers:
+  - Kanamycin
+  - None
+- backbone: pDVA02239
+  promoters: []
+  description: Design to construct the Level-0 inserts for Ajinomoto dodecanol project
+    for those 3-fragment (e.g. RBS + StartATG + CDS) inserts that are either going
+    to be derived from PCR or from synthetic inserts. UcFatB1 for C2 5-9
+  selection_markers:
+  - None
+  - Chloramphenicol
+- backbone: pDVA02240
+  promoters: []
+  description: Design to construct the Level-0 inserts for Ajinomoto dodecanol project
+    for those 3-fragment (e.g. RBS + StartATG + CDS) inserts that are either going
+    to be derived from PCR or from synthetic inserts. UcFatB1 for C2 5-9
+  selection_markers:
+  - None
+  - Chloramphenicol
+- backbone: pDVA02237
+  promoters: []
+  description: Design to construct the Level-0 T7 pTrc insert for C2_1-4
+  selection_markers:
+  - Chloramphenicol
+  - None
+- backbone: pDVA02233
+  promoters: []
+  description: Design to construct the Level-0 UcFatB1 inserts for C2_1-4
+  selection_markers:
+  - Chloramphenicol
+  - None
+- backbone: pDVA02242
+  promoters: []
+  description: Design to construct the Level-0 inserts for Ajinomoto dodecanol project
+    for those 3-fragment (e.g. RBS + StartATG + CDS) inserts that are either going
+    to be derived from PCR or from synthetic inserts. UcFatB1 for C2 5-9
+  selection_markers:
+  - None
+  - Chloramphenicol
+- backbone: pDVA02238
+  promoters: []
+  description: Design to construct the Level-0 inserts for Ajinomoto dodecanol project
+    for those 3-fragment (e.g. RBS + StartATG + CDS) inserts that are either going
+    to be derived from PCR or from synthetic inserts. UcFatB1 for C2 5-9
+  selection_markers:
+  - Chloramphenicol
+  - None
+- backbone: pDVA02235
+  promoters: []
+  description: Design to construct the Level-0 UcFatB1 inserts for C2_1-4
+  selection_markers:
+  - None
+  - Chloramphenicol
+- backbone: pDVA02236
+  promoters: []
+  description: Design to construct the Level-0 UcFatB1 inserts for C2_1-4
+  selection_markers:
+  - None
+  - Chloramphenicol
+- backbone: pDVA02234
+  promoters: []
+  description: Design to construct the Level-0 UcFatB1 inserts for C2_1-4
+  selection_markers:
+  - None
+  - Chloramphenicol
+- backbone: pDVA02232
+  promoters: []
+  description: Design to construct the Level-0 pBbA1k T7 term Vector Backbone for
+    C2_1-4
+  selection_markers:
+  - None
+  - Kanamycin
+- backbone: pDVA02121
+  promoters: []
+  description: Single gene expression constructs
+  selection_markers:
+  - Kan
+- backbone: pDVA02119
+  promoters: []
+  description: Single gene expression constructs
+  selection_markers:
+  - Kan
+- backbone: pDVA02118
+  promoters: []
+  description: Single gene expression constructs
+  selection_markers:
+  - Kan
+- backbone: pDVA02120
+  promoters: []
+  description: Single gene expression constructs
+  selection_markers:
+  - Kan
+- backbone: pDVA02122
+  promoters: []
+  description: Single gene expression constructs
+  selection_markers:
+  - Kan
+- backbone: pDVA02114
+  promoters: []
+  description: single gene expression constructs. genes contain full stop codon
+  selection_markers:
+  - Kan
+- backbone: pDVA02113
+  promoters: []
+  description: single gene expression constructs. genes contain full stop codon
+  selection_markers:
+  - Kan
+- backbone: pDVA02115
+  promoters: []
+  description: single gene expression constructs. genes contain full stop codon
+  selection_markers:
+  - Kan
+- backbone: pDVA02117
+  promoters: []
+  description: single gene expression constructs. genes contain full stop codon
+  selection_markers:
+  - Kan
+- backbone: pDVA02111
+  promoters: []
+  description: single gene expression constructs. genes contain full stop codon
+  selection_markers:
+  - Kan
+- backbone: pDVA02116
+  promoters: []
+  description: single gene expression constructs. genes contain full stop codon
+  selection_markers:
+  - Kan
+- backbone: pDVA02104
+  promoters: []
+  description: Different RBSs with acr1
+  selection_markers:
+  - Kan
+- backbone: pDVA02112
+  promoters: []
+  description: single gene expression constructs. genes contain full stop codon
+  selection_markers:
+  - Kan
+- backbone: pDVA02107
+  promoters: []
+  description: Different RBSs with acr1
+  selection_markers:
+  - Kan
+- backbone: pDVA02105
+  promoters: []
+  description: Different RBSs with acr1
+  selection_markers:
+  - Kan
+- backbone: pDVA02102
+  promoters: []
+  description: Different RBSs with acr1
+  selection_markers:
+  - Kan
+- backbone: pDVA02103
+  promoters: []
+  description: Different RBSs with acr1
+  selection_markers:
+  - Kan
+- backbone: pDVA02110
+  promoters: []
+  description: Different RBSs with acr1
+  selection_markers:
+  - Kan
+- backbone: pDVA02099
+  promoters: []
+  description: Different RBSs with acr1
+  selection_markers:
+  - Kan
+- backbone: pDVA02108
+  promoters: []
+  description: Different RBSs with acr1
+  selection_markers:
+  - Kan
+- backbone: pDVA02101
+  promoters: []
+  description: Different RBSs with acr1
+  selection_markers:
+  - Kan
+- backbone: pDVA02106
+  promoters: []
+  description: Different RBSs with acr1
+  selection_markers:
+  - Kan
+- backbone: pDVA02109
+  promoters: []
+  description: Different RBSs with acr1
+  selection_markers:
+  - Kan
+- backbone: pDVA02087
+  promoters: []
+  description: different RBSs for maqu_2220
+  selection_markers:
+  - Kan
+- backbone: pDVA02100
+  promoters: []
+  description: Different RBSs with acr1
+  selection_markers:
+  - Kan
+- backbone: pDVA02091
+  promoters: []
+  description: different RBSs for maqu_2220
+  selection_markers:
+  - Kan
+- backbone: pDVA02088
+  promoters: []
+  description: different RBSs for maqu_2220
+  selection_markers:
+  - Kan
+- backbone: pDVA02093
+  promoters: []
+  description: different RBSs for maqu_2220
+  selection_markers:
+  - Kan
+- backbone: pDVA02089
+  promoters: []
+  description: different RBSs for maqu_2220
+  selection_markers:
+  - Kan
+- backbone: pDVA02095
+  promoters: []
+  description: different RBSs for maqu_2220
+  selection_markers:
+  - Kan
+- backbone: pDVA02092
+  promoters: []
+  description: different RBSs for maqu_2220
+  selection_markers:
+  - Kan
+- backbone: pDVA02094
+  promoters: []
+  description: different RBSs for maqu_2220
+  selection_markers:
+  - Kan
+- backbone: pDVA02098
+  promoters: []
+  description: different RBSs for maqu_2220
+  selection_markers:
+  - Kan
+- backbone: pDVA02097
+  promoters: []
+  description: different RBSs for maqu_2220
+  selection_markers:
+  - Kan
+- backbone: pDVA02090
+  promoters: []
+  description: different RBSs for maqu_2220
+  selection_markers:
+  - Kan
+- backbone: pDVA02084
+  promoters: []
+  description: maqu_2507 with different RBSs for dedecanol production
+  selection_markers:
+  - kan
+- backbone: pDVA02096
+  promoters: []
+  description: different RBSs for maqu_2220
+  selection_markers:
+  - Kan
+- backbone: pDVA02081
+  promoters: []
+  description: maqu_2507 with different RBSs for dedecanol production
+  selection_markers:
+  - kan
+- backbone: pDVA02085
+  promoters: []
+  description: maqu_2507 with different RBSs for dedecanol production
+  selection_markers:
+  - kan
+- backbone: pDVA02086
+  promoters: []
+  description: maqu_2507 with different RBSs for dedecanol production
+  selection_markers:
+  - kan
+- backbone: pDVA02078
+  promoters: []
+  description: maqu_2507 with different RBSs for dedecanol production
+  selection_markers:
+  - kan
+- backbone: pDVA02075
+  promoters: []
+  description: maqu_2507 with different RBSs for dedecanol production
+  selection_markers:
+  - kan
+- backbone: pDVA02079
+  promoters: []
+  description: maqu_2507 with different RBSs for dedecanol production
+  selection_markers:
+  - kan
+- backbone: pDVA02077
+  promoters: []
+  description: maqu_2507 with different RBSs for dedecanol production
+  selection_markers:
+  - kan
+- backbone: pDVA02083
+  promoters: []
+  description: maqu_2507 with different RBSs for dedecanol production
+  selection_markers:
+  - kan
+- backbone: pDVA02080
+  promoters: []
+  description: maqu_2507 with different RBSs for dedecanol production
+  selection_markers:
+  - kan
+- backbone: pDVA02082
+  promoters: []
+  description: maqu_2507 with different RBSs for dedecanol production
+  selection_markers:
+  - kan
+- backbone: pDVA02076
+  promoters: []
+  description: maqu_2507 with different RBSs for dedecanol production
+  selection_markers:
+  - kan
+- backbone: pDVA02042
+  promoters: []
+  description: Level-0 inserts for Ajinomoto dodecanol project
+  selection_markers:
+  - ChlorR
+  - None
+- backbone: pDVA02040
+  promoters: []
+  description: Level-0 inserts for Ajinomoto dodecanol project
+  selection_markers:
+  - ChlorR
+  - None
+- backbone: pDVA02032
+  promoters: []
+  description: Level-0 inserts for Ajinomoto dodecanol project
+  selection_markers:
+  - ChlorR
+  - None
+- backbone: pDVA02041
+  promoters: []
+  description: Level-0 inserts for Ajinomoto dodecanol project
+  selection_markers:
+  - ChlorR
+  - None
+- backbone: pDVA02035
+  promoters: []
+  description: Level-0 inserts for Ajinomoto dodecanol project
+  selection_markers:
+  - None
+  - ChlorR
+- backbone: pDVA02039
+  promoters: []
+  description: Level-0 inserts for Ajinomoto dodecanol project
+  selection_markers:
+  - ChlorR
+  - None
+- backbone: pDVA02038
+  promoters: []
+  description: Level-0 inserts for Ajinomoto dodecanol project
+  selection_markers:
+  - ChlorR
+  - None
+- backbone: pDVA02036
+  promoters: []
+  description: Level-0 inserts for Ajinomoto dodecanol project
+  selection_markers:
+  - ChlorR
+  - None
+- backbone: pDVA02030
+  promoters: []
+  description: Level-0 inserts for Ajinomoto dodecanol project
+  selection_markers:
+  - ChlorR
+  - None
+- backbone: pDVA02033
+  promoters: []
+  description: Level-0 inserts for Ajinomoto dodecanol project
+  selection_markers:
+  - None
+  - ChlorR
+- backbone: pDVA02037
+  promoters: []
+  description: Level-0 inserts for Ajinomoto dodecanol project
+  selection_markers:
+  - ChlorR
+  - None
+- backbone: pDVA02028
+  promoters: []
+  description: Level-0 inserts for Ajinomoto dodecanol project
+  selection_markers:
+  - None
+  - ChlorR
+- backbone: pDVA02034
+  promoters: []
+  description: Level-0 inserts for Ajinomoto dodecanol project
+  selection_markers:
+  - ChlorR
+  - None
+- backbone: pDVA02043
+  promoters: []
+  description: Level-0 inserts for Ajinomoto dodecanol project
+  selection_markers:
+  - None
+  - ChlorR
+- backbone: pDVA02029
+  promoters: []
+  description: Level-0 inserts for Ajinomoto dodecanol project
+  selection_markers:
+  - None
+  - ChlorR
+- backbone: pDVA02031
+  promoters: []
+  description: Level-0 inserts for Ajinomoto dodecanol project
+  selection_markers:
+  - None
+  - ChlorR
+- backbone: pDVA02027
+  promoters: []
+  description: Level-0 insert for Ajinomoto dodecanol project
+  selection_markers:
+  - ChlorR
+- backbone: pDVA02026
+  promoters: []
+  description: Level-0 insert for Ajinomoto dodecanol project
+  selection_markers:
+  - ChlorR
+- backbone: pDVA02024
+  promoters: []
+  description: Level-0 vector backbone for Ajinomoto dodecanol project
+  selection_markers:
+  - KanR
+  - None
+- backbone: pDVA02025
+  promoters: []
+  description: Level-0 vector backbone for Ajinomoto dodecanol project
+  selection_markers:
+  - KanR
+  - None
+- ori: pBBR1
+  backbone: pBbB5K-Maqu2220
+  promoters:
+  - LacUV5
+  description: Plasmid expressing the CoA/ACP-reductase Maqu2220 from Marinobacter
+    aquaeolei
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pBbB7k-GFP
+  promoters:
+  - T7
+  description: Biobrick with T7 and BBR1
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pBbA1k-RFP
+  promoters:
+  - Trc
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pBbE1k-RFP
+  promoters:
+  - Trc
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/385
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00385
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

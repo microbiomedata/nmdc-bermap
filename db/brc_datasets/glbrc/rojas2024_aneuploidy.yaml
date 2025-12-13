@@ -1,0 +1,34 @@
+brc: GLBRC
+date: '2024-07-09'
+title: Comparative modeling reveals the molecular determinants of aneuploidy fitness
+  cost in a wild yeast model
+creator:
+- name: Audrey Gasch
+  email: agasch@wisc.edu
+  affiliation: GLBRC - University of Wisconsin-Madison
+  primaryContact: true
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- aneuploidy
+- wild yeast
+identifier: Rojas2024_Aneuploidy
+repository: GitHub
+description: Although implicated as deleterious in many organisms, aneuploidy can
+  underlie rapid phenotypic evolution. However, aneuploidy will be maintained only
+  if the benefit outweighs the cost, which remains incompletely understood. To quantify
+  this cost and the molecular determinants behind it, we generated a panel of chromosome
+  duplications in Saccharomyces cerevisiae and applied comparative modeling and molecular
+  validation to understand aneuploidy toxicity.
+relatedItem:
+- title: Comparative modeling reveals the molecular determinants of aneuploidy fitness
+    cost in a wild yeast model
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.cell.com/cell-genomics/fulltext/S2666-979X(24)00267-2?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666979X24002672%3Fshowall%3Dtrue
+analysisType: Code
+bibliographicCitation: https://github.com/GLBRC/Rojas2024_Aneuploidy
+schema_version: 0.1.7
+uid: GLBRC_Rojas2024_Aneuploidy
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.197Z'

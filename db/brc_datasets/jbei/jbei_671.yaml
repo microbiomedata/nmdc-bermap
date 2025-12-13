@@ -1,0 +1,298 @@
+id: jbei:671
+brc: JBEI
+date: '2021-05-25'
+title: Lin et al. 2021
+creator:
+- name: Chien-Yuan Lin
+  email: chienyuanlin@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Aymerick Eudes
+  email: ageudes@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Patrick Shih
+  email: pmshih@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Jessica Trinh
+  email: jessicatrinh@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Mi Yeon Lee
+  email: miylee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+- NCBITaxID: 358
+  scientificName: Agrobacterium tumefaciens
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- '{L_AtAct2}'
+- '{T_tNos::RightBorder::Leu2}'
+- secondary cell wall
+- '{T_AtAct2}'
+- '{L_MAS}'
+- '{T_tAtRbcS}'
+- '{Kan::LeftBorder::35S:HygR::L_tOcs}'
+- '{L_tG7}'
+- '{L_tAtRbcS}'
+- '{P_AtC4H}'
+- '{T_MAS}'
+- '{T_tG7}'
+identifier: jbei:folder:00671
+repository: ICE
+datasetName: Lin et al. 2021
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/671
+description: This dataset provides a collection of 37 plasmids constituting a modular
+  cloning toolkit for the metabolic engineering of lignin biosynthesis in plants.
+  The vectors contain Level 0, 1, and 2 parts for assembling multigene constructs,
+  including coding sequences for lignin modification (LigA/B/C, AroG*, QsuB). These
+  constructs utilize vessel- and fiber-specific promoters (e.g., AtIRX5, AtCESA7)
+  to target gene expression to secondary cell walls, aiming to produce more easily
+  deconstructable biomass for bioenergy applications.
+relatedItem:
+- title: pms6126
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pms6116
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pms6117
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors:
+- name: Camille Chalvin
+  email: camillechalvin@hotmail.com
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: ColE1
+  backbone: '{C_LigC}'
+  promoters: []
+  description: Contains Level 0, BsaI {C_LigC}
+  selection_markers: []
+- ori: p15A
+  backbone: pAtREF8-LigB-AtAct2
+  promoters: []
+  description: pPMS028-{L_ AtRBC}{P_AtREF8}{C_Schl2-LigB}{T_AtAct2}, level 1
+  selection_markers: []
+- ori: p15A
+  backbone: pAtIRX8-LigA-AtRBC
+  promoters: []
+  description: pPMS028-{L_tMAS}{P_AtIRX8}{C_Schl2-LigA}{T_ AtRBC}, level 1
+  selection_markers: []
+- ori: p15A
+  backbone: pAtCESA7-LigC-tNOS
+  promoters: []
+  description: pPMS028-{L_AtAct2}{P_AtCESA7}{C_Schl2-LigC}{T_tNOS}, level 1
+  selection_markers: []
+- ori: pBR322
+  backbone: PMS074-At-PDC (5 genes)
+  promoters: []
+  description: '{L_tOcs-hyg}{P_AtIRX5}{C_Schl1-AroG*}{T_tG7}{P_C4H}{C_Schl1-QsuB}{T_MAS}                                    {P_AtIRX8}{C_Schl2-LigA}{T_AtRBC}{P_AtREF8}{C_Schl2-LigB}{T_AtAct2}{P_AtCESA7}{C_Schl2-LigC}{T_tNOS}'
+  selection_markers: []
+- ori: ColE1
+  backbone: '{C_LigB}'
+  promoters: []
+  description: Contains Level 0, BsaI {C_LigB}
+  selection_markers: []
+- ori: ColE1
+  backbone: '{C_LigA}'
+  promoters: []
+  description: Contains Level 0, BsaI {C_LigA}
+  selection_markers: []
+- ori: pBR322
+  backbone: PMS074-At-PDC
+  promoters: []
+  description: '{L_tOcs-hyg}{P_AtIRX5}{C_schl1-aroG}{T_tG7}{P_AtIRX8}{C_LigA}{T_AtAct2}{P_AtRef8}{C_LigB}{T_AtRBCS}{P_AtCesa7}{C_LigC}{T_tNos},
+    Level 2'
+  selection_markers:
+  - Cam
+- ori: pBR322
+  backbone: PMS074-At-aroG (hyg)
+  promoters: []
+  description: '{L_tOcs-hyg}{P_AtIRX5}{C_schl-aroG}{T_tNOS}, Level 2'
+  selection_markers:
+  - Cam
+- ori: pBR322
+  backbone: PMS057-QsuB
+  promoters: []
+  description: PMS057-{L_tOcs}{P_35S}{C_QsuB}{T_tNos}.
+  selection_markers: []
+- ori: p15A
+  backbone: At-aroG (Hyg)-Lvl 1
+  promoters: []
+  description: PMS028-{L_tOcs-hyg}{P_AtIRX5}{C_schl-aroG}{T_tNOS}, level 1
+  selection_markers:
+  - cm
+- ori: p15A
+  backbone: At-PDC-1c
+  promoters: []
+  description: PMS028-{L_tAtAct2}{P_AtRef8}{C_LigB}{T_AtRBCS}, level 1
+  selection_markers:
+  - cam
+- ori: pBR322
+  backbone: PMS057-LigC
+  promoters: []
+  description: PMS057-{L_tOcs}{P_35S}{C_LigC}{T_tNos}.
+  selection_markers: []
+- ori: p15A
+  backbone: At-PDC-1b
+  promoters: []
+  description: PMS028-{L_tG7}{P_AtIRX8}{C_LigA}{T_AtAct2}, level 1
+  selection_markers:
+  - Cam
+- ori: p15A
+  backbone: At-PDC-1d
+  promoters: []
+  description: PMS028-{L_AtRBCS}{P_AtCesa7}{C_LigC}{T_tNOS}, level 1
+  selection_markers:
+  - cam 5
+- ori: pBR322
+  backbone: PMS057-LigB
+  promoters: []
+  description: PMS057-{L_tOcs}{P_35S}{C_LigB}{T_tNos}.
+  selection_markers: []
+- ori: pBR322
+  backbone: PMS057-LigA
+  promoters: []
+  description: PMS057-{L_tOcs}{P_35S}{C_LigA}{T_tNos}.
+  selection_markers: []
+- ori: p15A
+  backbone: pPMS028-{L_tG7}{P_pAtC4H}{C_schl-QsuB}{T_MAS}
+  promoters: []
+  description: pPMS028-{L_tG7}{P_pAtC4H}{C_schl-QsuB}{T_MAS}, level 1
+  selection_markers: []
+- backbone: PMS057-schl-aroG
+  promoters: []
+  description: 'Contains PMS057-{L_tOcs}{P_35S}{C_schl-aroG}{T_tNos}
+
+    This plasmid is obtained from Khanh Vuu, with her name PMS057-6914.'
+  selection_markers: []
+- ori: p15A
+  backbone: pAtIRX5-aroG tOSC-Hyg
+  promoters: []
+  description: pPMS028-{L_tOcs hyg{P_pAtIRX5}{C_schl-aroG}{T_tG7}, level 1
+  selection_markers: []
+- ori: ColE1
+  backbone: pBca9145-pAtRef8
+  promoters: []
+  description: Level 0, BsaI {P-pAtRef8}
+  selection_markers: []
+- backbone: '{C_schl-aroG}'
+  promoters: []
+  description: 'BasI site to release {C_schl-aroG} (Level 0). This plasmid was obtained
+    from Khanh Vuu with her plasmid record number: 6914.'
+  selection_markers: []
+- backbone: pBca9145-schl-QsuB
+  promoters: []
+  description: Level 0 schl-QsuB, codon-optimized for sorghum, BsmBI
+  selection_markers:
+  - carb
+- ori: ColEI
+  backbone: pms6931
+  promoters: []
+  description: BsaI, {Kan::LeftBorder::35S:HygR::L_tOcs}
+  selection_markers:
+  - Carbenicillin
+- ori: ColE1
+  backbone: pCESA7 for jSTACK level 1 assembly
+  promoters: []
+  description: Promoter of AtCESA7 in vector 9145. Digest with BbsI for jSTACK level
+    1 assembly.
+  selection_markers:
+  - Carb
+- ori: ColEI
+  backbone: pms6929
+  promoters: []
+  description: BsaI, {T_tNos::RightBorder::Leu2}
+  selection_markers:
+  - Carbenicillin
+- ori: ColE1
+  backbone: pIRX5 for jSTACK level 1 assembly
+  promoters: []
+  description: Promoter of AtIRX5 in vector 9145. Digest with BsaI for jSTACK level
+    1 assembly.
+  selection_markers:
+  - Carb
+- ori: ColEI
+  backbone: pms5794
+  promoters: []
+  description: BsaI, {L_tG7}
+  selection_markers:
+  - Amp
+- ori: ColE1
+  backbone: pIRX8 for jSTACK level 1 assembly
+  promoters: []
+  description: Promoter of AtIRX8 in vector 9145. Digest with BsmBI for jSTACK level
+    1 assembly.
+  selection_markers:
+  - Carb
+- ori: ColEI
+  backbone: pms5793
+  promoters: []
+  description: BsaI, {T_tG7}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5100
+  promoters: []
+  description: BsaI, {L_AtAct2}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5069
+  promoters: []
+  description: BsaI, {L_MAS}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5068
+  promoters: []
+  description: BsaI, {L_tAtRbcS}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5090
+  promoters: []
+  description: BsaI, {T_AtAct2}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5066
+  promoters: []
+  description: BsaI, {T_MAS}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5065
+  promoters: []
+  description: BsaI, {T_tAtRbcS}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5059
+  promoters: []
+  description: BsaI, {P_AtC4H}
+  selection_markers:
+  - Amp
+bibliographicCitation: https://public-registry.jbei.org/folders/671
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00671
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

@@ -1,0 +1,29 @@
+brc: GLBRC
+date: '2022-01-24'
+title: Piromyces sp. TSL-2022a strain:E1
+creator:
+- name: Michelle A. O'Malley
+  email: momalley@ucsb.edu
+  affiliation: JBEI - UC Santa Barbara
+  primaryContact: true
+- name: John Ralph
+  email: jralph@wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: false
+species:
+- NCBITaxID: 2913424
+  scientificName: Piromyces sp. TSL-2022a
+keywords: []
+identifier: PRJNA800048
+repository: NCBI BioProject
+description: ITS1 and LSU regions from Piromyces macparvus
+relatedItem:
+- title: Lignin deconstruction by anaerobic fungi
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.nature.com/articles/s41564-023-01336-8
+analysisType: Amplicon sequencing
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA800048
+schema_version: 0.1.7
+uid: GLBRC_PRJNA800048
+created_at: '2025-11-19T18:00:04.599Z'
+updated_at: '2025-12-10T06:00:05.197Z'

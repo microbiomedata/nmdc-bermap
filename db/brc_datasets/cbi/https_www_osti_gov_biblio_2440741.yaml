@@ -1,0 +1,75 @@
+brc: CBI
+date: '2024-09-12'
+title: Lignin molecular weights of Populus trichocarpa residues after CELF pretreatment
+active: true
+creator:
+- name: Yunqiao Pu
+  email: puy1@ornl.gov
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: true
+- name: Priyanka Singh
+  affiliation: Center for Bioenergy Innovation (CBI) Center for Environmental Research
+    and Technology, Bourns College of Engineering, University of California Riverside,
+    Riverside, CA, USA
+  primaryContact: false
+- name: Charles Cai
+  affiliation: Center for Bioenergy Innovation (CBI) Center for Environmental Research
+    and Technology, Bourns College of Engineering, University of California Riverside,
+    Riverside, CA, USA
+  primaryContact: false
+- name: Charles Wyman
+  affiliation: Center for Bioenergy Innovation, Oak Ridge National Laboratory, Oak
+    Ridge, TN, USA Center for Environmental Research and Technology, Bourns College
+    of Engineering, University of California Riverside, Riverside, CA, USA
+  primaryContact: false
+- name: Arthur Ragauskas
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER)
+keywords:
+- Lignin
+- molecular weights
+- poplar
+- CELF
+- CBI
+identifier: https://www.osti.gov/biblio/2440741
+dataset_url: https://labkey.ornl.gov/labkey/CBI/ragauskas/Public Data/Lignin molecular
+  weights of Populus trichocarpa residues after CELF pretreatment/project-begin.view?
+description: Here we present a dataset of molecular weights of lignin from a woody
+  energy crop (Populus trichocarpa) residues after a series of co-solvent enhanced
+  lignocellulosic fractionation (CELF) pretreatment. The natural poplar variant GW-9947
+  from the Center for Bioenergy Innovation (CBI) was used. The poplar was knife milled
+  and passed through a 1 mm sieve and CELF pretreatment was performed in a Parr autoclave
+  reactor with 7.5 wt % solids loading, 0.5 wt% H2SO4 as catalyst at 150°C with various
+  time. Tetrahydrofuran was added in a 1:1 mass ratio with water as the pretreatment
+  solvent. Lignin was isolated from the pretreated samples after ball-milling in a
+  porcelain jar with ceramic balls via Retsch PM 200 at 580 rpm for 2.5 h followed
+  by enzymatic hydrolysis in acetate buffer (pH 4.8, 50 °C) for 48 h. The solid residue
+  was isolated by centrifugation and hydrolyzed again with freshly added buffer and
+  enzymes for another 48 h. After filtration, the solid residue was extracted twice
+  with 96% (v/v) 1,4-dioxane/water mixture at room temperature overnight. The extracts
+  were combined, rotary evaporated, and freeze-dried to recover lignin. The lignin
+  samples were then derivatized in an acetic anhydride/pyridine (1:1, v/v) mixture
+  and stirred at room temperature for 24 h. Ethanol was added to the reaction mixture,
+  left for 30 min and then removed with a rotary evaporator. The addition and removal
+  of ethanol was repeated at least 3 times until all traces of acetic acid were removed.
+  Acetylated lignin samples were then dissolved in tetrahydrofuran (THF) at a concentration
+  of 1.0 mg/mL. The molecular weight of acetylated lignin was measured by a gel permeation
+  chromatography (GPC) on a PSS-Polymer Standards Service (Warwick, RI, USA) GPC SECurity
+  1200 system featuring Agilent HPLC 1200 components equipped with four Waters Styragel
+  columns (HR1, HR2, HR4 and HR6) and an UV detector (270 nm). Tetrahydrofuran was
+  used as the mobile phase and flow rate was 0.3 mL/min. The Polymer Standards Service
+  WinGPC Unity software (Build 6807) was used for data processing for all the samples.
+  The data provides information about the effects of CELF pretreatment time at 150
+  ºC on lignin molecular weights.
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/2440741
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2440741
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

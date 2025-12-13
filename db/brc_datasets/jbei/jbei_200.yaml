@@ -1,0 +1,193 @@
+id: jbei:200
+brc: JBEI
+date: '2015-08-14'
+title: Hagen et al. 2015
+creator:
+- name: Andrew Hagen
+  email: arhagen@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 60894
+  scientificName: Saccharopolyspora spinosa
+- NCBITaxID: 1890
+  scientificName: Streptomyces antibioticus
+- NCBITaxID: 204925
+  scientificName: Streptomyces nanchangensis
+- NCBITaxID: 1928
+  scientificName: Streptomyces rochei
+- NCBITaxID: 66431
+  scientificName: Streptomyces thioluteus
+keywords:
+- reductive loop
+- dehydratase
+- borrelidin
+- adipic acid
+- extension module variant
+- PKS
+identifier: jbei:folder:00200
+repository: ICE
+datasetName: Hagen et al. 2015
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/200
+description: This collection of 17 plasmids documents the engineering of the Borrelidin
+  Polyketide Synthase (PKS) extension module, BorA2. The constructs feature systematic
+  domain swaps to explore PKS modularity, including the exchange of reductive loops
+  from four different synthases and the replacement of the native dehydratase (DH)
+  domain. These modifications aim to alter the catalytic function of the module for
+  producing novel bioactive compounds.
+relatedItem:
+- title: Hagen, A., Poust, S., Rond, T. d., Fortman, J. L., Katz, L., Petzold, C.
+    J., &amp; Keasling, J. D. (2015). "Engineering a Polyketide Synthase for In Vitro
+    Production of Adipic Acid". ACS Synthetic Biology. doi, 10.1021/acssynbio.5b00153
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pARH176
+  promoters: []
+  description: BorA2 extension module variant. Letter refers to reductive loop source
+    (AurB, IdmO, NanA2, SpnB), number refers to N-terminal junction.  xxxTE denotes
+    TE if present, "BorDH2" denotes DH swap with BorMod2
+  selection_markers:
+  - Kan
+- backbone: pARH164
+  promoters: []
+  description: BorA2 extension module variant. Letter refers to reductive loop source
+    (AurB, IdmO, NanA2, SpnB), number refers to N-terminal junction.  xxxTE denotes
+    TE if present, "BorDH2" denotes DH swap with BorMod2
+  selection_markers:
+  - Kan
+- ori: pSC101**
+  backbone: pARH149
+  promoters:
+  - ptet
+  description: BorA2 extension module variant. Letter refers to reductive loop source
+    (AurB, IdmO, NanA2, SpnB), number refers to N-terminal junction. xxxTE denotes
+    TE if present, "BorDH2" denotes DH swap with BorMod3
+  selection_markers:
+  - Kan
+- backbone: pARH162
+  promoters: []
+  description: BorA2 extension module variant. Letter refers to reductive loop source
+    (AurB, IdmO, NanA2, SpnB), number refers to N-terminal junction.  xxxTE denotes
+    TE if present, "BorDH2" denotes DH swap with BorMod2
+  selection_markers:
+  - Kan
+- backbone: pARH163
+  promoters: []
+  description: BorA2 extension module variant. Letter refers to reductive loop source
+    (AurB, IdmO, NanA2, SpnB), number refers to N-terminal junction.  xxxTE denotes
+    TE if present, "BorDH2" denotes DH swap with BorMod2
+  selection_markers:
+  - Kan
+- ori: pSC101
+  backbone: pARH142
+  promoters:
+  - pTet
+  description: BorA2 extension module variant. Letter refers to reductive loop source
+    (AurB, IdmO, NanA2, SpnB), number refers to N-terminal junction. xxxTE denotes
+    TE if present, "BorDH2" denotes DH swap with BorMod3
+  selection_markers:
+  - Kan
+- backbone: pARH159
+  promoters: []
+  description: BorA2 extension module variant. Letter refers to reductive loop source
+    (AurB, IdmO, NanA2, SpnB), number refers to N-terminal junction.  xxxTE denotes
+    TE if present, "BorDH2" denotes DH swap with BorMod2
+  selection_markers:
+  - Kan
+- ori: pSC101
+  backbone: pARH148
+  promoters:
+  - pTet
+  description: BorA2 extension module variant. Letter refers to reductive loop source
+    (AurB, IdmO, NanA2, SpnB), number refers to N-terminal junction. xxxTE denotes
+    TE if present, "BorDH2" denotes DH swap with BorMod3
+  selection_markers:
+  - Kan
+- ori: pSC101
+  backbone: pARH147
+  promoters:
+  - pTet
+  description: BorA2 extension module variant. Letter refers to reductive loop source
+    (AurB, IdmO, NanA2, SpnB), number refers to N-terminal junction. xxxTE denotes
+    TE if present, "BorDH2" denotes DH swap with BorMod3
+  selection_markers:
+  - Kan
+- ori: pSC101
+  backbone: pARH138
+  promoters:
+  - pTet
+  description: BorA2 extension module variant. Letter refers to reductive loop source
+    (AurB, IdmO, NanA2, SpnB), number refers to N-terminal junction. xxxTE denotes
+    TE if present, "BorDH2" denotes DH swap with BorMod3
+  selection_markers:
+  - Kan
+- ori: pSC101
+  backbone: pARH140
+  promoters:
+  - pTet
+  description: BorA2 extension module variant. Letter refers to reductive loop source
+    (AurB, IdmO, NanA2, SpnB), number refers to N-terminal junction. xxxTE denotes
+    TE if present, "BorDH2" denotes DH swap with BorMod3
+  selection_markers:
+  - Kan
+- ori: pSC101**
+  backbone: pARH143
+  promoters:
+  - pTet
+  description: Reductive loop from SpnB cloned into BorA2 at junction 2
+  selection_markers:
+  - Kan
+- ori: pSC101**
+  backbone: pARH139
+  promoters:
+  - pTet
+  description: Reductive loop from IdmO cloned into BorA2 at junction 2
+  selection_markers:
+  - Kan
+- ori: pSC101
+  backbone: pARH141
+  promoters:
+  - pTet
+  description: BorA2 extension module variant. Letter refers to reductive loop source
+    (AurB, IdmO, NanA2, SpnB), number refers to N-terminal junction. xxxTE denotes
+    TE if present, "BorDH2" denotes DH swap with BorMod3
+  selection_markers:
+  - Kan
+- ori: pSC101**
+  backbone: pARH137
+  promoters:
+  - pTet
+  description: Reductive loop from AurB cloned into BorA2 at junction 2
+  selection_markers:
+  - Kan
+- ori: pSC101
+  backbone: pARH136
+  promoters:
+  - pTet
+  description: BorA2 extension module variant. Letter refers to reductive loop source
+    (AurB, IdmO, NanA2, SpnB), number refers to N-terminal junction. xxxTE denotes
+    TE if present, "BorDH2" denotes DH swap with BorMod3
+  selection_markers:
+  - Kan
+- ori: pBR322_origin
+  backbone: pARH150
+  promoters:
+  - T7
+  description: BorDH2 (From "GSSA..." to "...VPRD") ordered as a gBlock and cloned
+    into pET28a
+  selection_markers:
+  - Kan
+bibliographicCitation: https://public-registry.jbei.org/folders/200
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00200
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

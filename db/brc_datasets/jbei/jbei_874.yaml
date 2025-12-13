@@ -1,0 +1,66 @@
+id: jbei:874
+brc: JBEI
+date: '2024-02-22'
+title: Flaviolin media optimization
+creator:
+- name: Matthew Incha
+  email: incha@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Matthias Schmidt
+  email: mschmidt@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 303
+  scientificName: Pseudomonas putida
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00874
+repository: ICE
+datasetName: Flaviolin media optimization
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/874
+description: This dataset provides a three-plasmid system for stable genomic engineering
+  in hosts such as *Pseudomonas putida*, likely for experiments related to flaviolin
+  production. The system utilizes PhiC31-mediated integration, comprising plasmids
+  to create a genomic attB landing site, express the integrase, and deliver a gene
+  of interest via an attP-carrying vector. This toolkit enables the creation of engineered
+  strains for bioproduction studies.
+relatedItem:
+- title: sART1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: ColE1
+  backbone: pMQ30 PP_5404-06::attB-phiC31
+  promoters: []
+  description: Replaces useless transposon with attB site for phiC31
+  selection_markers: []
+- ori: ColE1
+  backbone: pIS100
+  promoters:
+  - J23100
+  description: An integrative plasmid that can be cotransformed with pIS1 or another
+    PhiC31 expressing plasmid into P. putida with an attP landing pad. This should
+    work in any host with good electroporation protocols and a PhiC31 attB site in
+    the genome
+  selection_markers:
+  - KanR
+- ori: ColE1
+  backbone: pIS1
+  promoters: []
+  description: For integration of PhiC31-AttP-carrying plasmids
+  selection_markers: []
+bibliographicCitation: https://public-registry.jbei.org/folders/874
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00874
+created_at: '2025-11-18T20:03:56.772Z'
+updated_at: '2025-12-11T00:00:04.623Z'

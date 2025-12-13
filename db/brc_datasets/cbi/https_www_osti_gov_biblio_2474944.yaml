@@ -1,0 +1,46 @@
+brc: CBI
+date: '2024-10-28'
+title: University of Maryland Eastern Shore Common Garden
+active: true
+creator:
+- name: Nahom Ftwi
+  affiliation: University of Maryland Eastern Shore
+  primaryContact: true
+- name: Merle Thorpe
+  affiliation: University of Maryland Eastern Shore
+  primaryContact: false
+- name: Xuefeng Li
+  affiliation: University of Maryland Eastern Shore
+  primaryContact: false
+- name: Janna Kleinsasser
+  affiliation: University of Maryland Eastern Shore
+  primaryContact: false
+- name: Jonathan Cumming
+  email: jrcumming@umes.edu
+  affiliation: University of Maryland Eastern Shore
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER)
+keywords:
+- CBI
+- Populus
+- common garden
+- transgenic
+identifier: https://www.osti.gov/biblio/2474944
+dataset_url: https://labkey.ornl.gov/labkey/CBI/Cumming/PUBLIC_DATA/UMES_Common_Garden/project-begin.view?
+description: Located at the University of Maryland Eastern Shore, an HBCU (Historically
+  Black Colleges and Universities), this data set is composed of the geographic coordinates
+  of four transgenic Populus tremula x alba INRA 717-IB4 lines (CHX20, XBAT35, EXO70,
+  DIR18) as well as a wild type (WT), and Empty vector (EV)). Our site is monitored
+  by an ATOMS 41 weather station, which collects solar radiation, air temperature,
+  vapor and atmospheric pressure, precipitation, and other weather variables. We will
+  assess a suite of variables reflecting growth and performance, focusing on root
+  allocation and soil carbon sequestration.
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/2474944
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2474944
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

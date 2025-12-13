@@ -1,0 +1,18 @@
+bioenergy_research_centers:
+  - id: glbrc
+    name: Great Lakes Bioenergy Research Center
+    acronym: GLBRC
+    lead_institution: University of Wisconsin-Madison
+    established: 2007
+    keywords:
+      - BIOENERGY
+      - BIOFUELS
+
+genomic_science_sfas:
+  - id: enigma
+    name: "ENIGMA: Ecosystems and Networks Integrated with Genes and Molecular Assemblies"
+    acronym: ENIGMA
+    lead_institution: Lawrence Berkeley National Laboratory
+    keywords:
+      - MICROBIAL_ECOSYSTEMS
+      - DENITRIFICATION

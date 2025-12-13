@@ -1,0 +1,125 @@
+id: jbei:176
+brc: JBEI
+date: '2015-04-03'
+title: Ruegg et al. 2014
+creator:
+- name: Thomas Ruegg
+  email: tlruegg@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Eunmi Kim
+  email: emkim@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 1334193
+  scientificName: Enterobacter lignolyticus
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00176
+repository: ICE
+datasetName: Ruegg et al. 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/176
+description: This dataset comprises 12 plasmids designed to investigate the `eilA`/`eilR`
+  efflux pump system responsible for ionic liquid tolerance in *Enterobacter lignolyticus*.
+  The collection includes various constructs of the `eilA` pump, its `eilR` repressor,
+  and upstream regulatory regions, including promoter deletions and GFP reporter fusions,
+  to characterize the system's genetic regulation and function in conferring EMIM-Cl
+  tolerance.
+relatedItem:
+- title: Ruegg, T. L., Kim, E. M., Simmons, B. A., Keasling, J. D., Singer, S. W.,
+    Soon Lee, T., &amp; Thelen, M. P. (2014). “An auto-inducible mechanism for ionic
+    liquid resistance in microbial biofuel production”. [Research Support, Non-U.S.
+    Gov’t Research Support, U.S. Gov’t, Non-P.H.S.]. Nat Commun, 5, 3490. doi, 10.1038/ncomms4490
+    http://www.ncbi.nlm.nih.gov/pubmed/24667370
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: ColE1
+  backbone: pTR_7
+  promoters: []
+  description: E. lignolyticus eilR repressor plus intergenic region plus eilA
+  selection_markers:
+  - Amp
+- ori: SC101
+  backbone: pTR_10
+  promoters: []
+  description: E. lignolyticus eilA plus 67bp upstream
+  selection_markers:
+  - Cm
+- ori: SC101
+  backbone: pTR_12
+  promoters: []
+  description: E. lignolyticus eilA plus 15bp upstream
+  selection_markers:
+  - Cm
+- ori: SC101
+  backbone: pTR_11
+  promoters: []
+  description: E. lignolyticus eilA plus 44bp upstream
+  selection_markers:
+  - Cm
+- ori: SC101
+  backbone: pTR_9
+  promoters: []
+  description: E. lignolyticus eilA plus 92bp upstream
+  selection_markers:
+  - Cm
+- ori: SC101
+  backbone: pTR_2
+  promoters: []
+  description: E. lignolyticus eilA efflux pump plus upstream intergenic region (incl
+    native promoter)
+  selection_markers:
+  - Cm
+- ori: SC101
+  backbone: pTR_4
+  promoters: []
+  description: E. lignolyticus eilR repressor plus intergenic region plus eilA-gfp
+    fusion
+  selection_markers:
+  - Cm
+- ori: SC101
+  backbone: pTR_3
+  promoters: []
+  description: E. lignolyticus eilR repressor plus intergenic region plus eilA efflux
+    pump
+  selection_markers:
+  - Cm
+- ori: ColE1
+  backbone: pTR_6
+  promoters: []
+  description: E. lignolyticus intergenic region plus eilA
+  selection_markers:
+  - Amp
+- ori: SC101
+  backbone: pTR_5
+  promoters: []
+  description: E. lignolyticus intergenic region plus eilA-gfp fusion
+  selection_markers:
+  - Cm
+- ori: SC101
+  backbone: pTR_1
+  promoters: []
+  description: 2.6kb E. lignolyticus gDNA conferring EMIM-Cl tolerance
+  selection_markers:
+  - Cm
+- ori: SC101
+  backbone: pTR_8
+  promoters: []
+  description: E. lignolyticus eilR repressor plus intergenic region plus eilA
+  selection_markers:
+  - Amp
+bibliographicCitation: https://public-registry.jbei.org/folders/176
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00176
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.619Z'

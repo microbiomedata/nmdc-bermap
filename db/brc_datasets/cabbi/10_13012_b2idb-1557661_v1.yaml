@@ -1,0 +1,42 @@
+brc: CABBI
+date: '2019-09-01'
+title: Impact of Fractionation Process on the Technical and Economic Viability of
+  Corn Dry Grind Ethanol Process
+creator:
+- name: Vijay Singh
+  email: vsingh@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+keywords:
+- Feedstock Bioprocessing
+- Economics
+- Modeling
+identifier: 10.13012/B2IDB-1557661_V1
+repository: Illinois Data Bank
+description: Use of corn fractionation techniques in dry grind process increases the
+  number of coproducts, enhances their quality and value, generates feedstock for
+  cellulosic ethanol production and potentially increases profitability of the dry
+  grind process. The aim of this study is to develop process simulation models for
+  eight different wet and dry corn fractionation techniques recovering germ, pericarp
+  fiber and/or endosperm fiber, and evaluate their techno-economic feasibility at
+  the commercial scale. Ethanol yields for plants processing 1113.11 MT corn/day were
+  37.2 to 40 million gal for wet fractionation and 37.3 to 31.3 million gal for dry
+  fractionation, compared to 40.2 million gal for conventional dry grind process.
+  Capital costs were higher for wet fractionation processes ($92.85 to $97.38 million)
+  in comparison to conventional ($83.95 million) and dry fractionation ($83.35 to
+  $84.91 million) processes. Due to high value of coproducts, ethanol production costs
+  in most fractionation processes ($1.29 to $1.35/gal) were lower than conventional
+  ($1.36/gal) process. Internal rate of return for most of the wet (6.88 to 8.58%)
+  and dry fractionation (6.45 to 7.04%) processes was higher than the conventional
+  (6.39%) process. Wet fractionation process designed for germ and pericarp fiber
+  recovery was most profitable among the processes.
+relatedItem:
+- title: Impact of Fractionation Process on the Technical and Economic Viability of
+    the Corn Dry Grind Ethanol Process
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.3390/pr7090578
+bibliographicCitation: https://doi.org/10.13012/B2IDB-1557661_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-1557661_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

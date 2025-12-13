@@ -1,0 +1,50 @@
+brc: CABBI
+date: '2021-03-31'
+title: Technical and Economic Feasibility of an Integrated Ethanol and Anthocyanin
+  Coproduction Process Using Purple Corn Stover
+creator:
+- name: Vijay Singh
+  email: vsingh@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 4577
+  scientificName: Zea mays
+keywords:
+- Corn stover
+- Process economics
+- Free fatty acids
+identifier: 10.13012/B2IDB-3508511_V1
+repository: Illinois Data Bank
+description: The coproduction of high-value anthocyanin extract in the cellulosic
+  ethanol process would diversify the co-product market, increase revenue, and potentially
+  improve the economics of the process. The high anthocyanin concentration in the
+  cob and structural carbohydrates in residual stover make purple corn stover an attractive
+  source for anthocyanin and ethanol coproduction. This study aimed to develop simulation
+  models for processes integrating ethanol production and anthocyanin extraction using
+  purple corn stover, to evaluate their techno-economic feasibility, and to compare
+  their performance with the conventional ethanol production process using corn stover.
+  The annual ethanol production for plants processing 2000 MT dry feedstock / day
+  was 148.6 million L/year for the integrated processes compared with 222.6 million
+  L/year for the conventional process. Anthocyanin production in the modified processes
+  using dilute acid-based and water-based anthocyanin extraction processes was 1779
+  and 1099 MT/year, respectively. Capital investments for the integrated processes
+  ($448.1 to $443.8 million) were higher than the conventional process ($371.9 million).
+  Due to high revenue from anthocyanin extract, the ethanol production cost for the
+  integrated process using acid-based anthocyanin extraction ($0.36/L) was 34.5% lower
+  than conventional ethanol production ($0.55/L). The ethanol production cost for
+  the integrated process using water-based anthocyanin extraction ($0.68/L) was higher
+  than conventional ethanol production due to low ethanol and anthocyanin yields.
+  The minimum ethanol selling price for the integrated process using acid-based anthocyanin
+  extraction ($0.65/L) was also lower than the conventional process ($0.72/L), indicating
+  an improvement in economic performance.
+relatedItem:
+- title: Technical and Economic Feasibility of an Integrated Ethanol and Anthocyanin
+    Coproduction Process Using Purple Corn Stover
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1002/bbb.2212
+bibliographicCitation: https://doi.org/10.13012/B2IDB-3508511_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-3508511_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

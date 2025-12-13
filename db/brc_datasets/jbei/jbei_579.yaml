@@ -1,0 +1,1363 @@
+id: jbei:579
+brc: JBEI
+date: '2020-04-29'
+title: Belcher and Vuu et al. 2020
+creator:
+- name: Michael Belcher
+  email: belcherm@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Khanh Vuu
+  email: kvuu@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 358
+  scientificName: Agrobacterium tumefaciens
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- '{P_UAS4:Pistillata}'
+- '{P_UAS4:ASFT}'
+- '{P_UAS13:Pistillata}'
+- '{P_UAS4:GL2}'
+- '{P_UAS16:GL2}'
+- Level 0
+- '{P_UAS17:ASFT}'
+- '{P_UAS4:Shortroot}'
+- '{P_UAS17:Pistillata}'
+- '{P_UAS22:GL2}'
+- '{P_UAS13:ASFT}'
+- pms5935
+- '{P_UAS22:WUSHCEL}'
+- '{P_UAS17:WUSHCEL}'
+- '{P_UAS22:Shortroot}'
+- '{P_UAS13:Shortroot}'
+- '{PU_UAS10}'
+- '{P_UAS22:ASFT}'
+- '{P_UAS17:Shortroot}'
+- '{P_UAS16:Pistillata}'
+- '{P_UAS4:WUSHCEL}'
+- '{P_UAS16:WUSHCEL}'
+- '{P_UAS13:WUSHCEL}'
+- '{P_UAS13:GL2}'
+- '{P_UAS16:Shortroot}'
+- '{P_UAS22:Pistillata}'
+- '{P_UAS17:GL2}'
+- '{P_UAS16:ASFT}'
+identifier: jbei:folder:00579
+repository: ICE
+datasetName: Belcher and Vuu et al. 2020
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/579
+description: This dataset comprises a collection of 160 plasmids designed as a modular
+  synthetic biology toolkit for programmable gene expression in plants. The collection
+  features extensive libraries of synthetic promoters and synthetic transcription
+  factors, including defined activator and repressor constructs. These components
+  are used to build genetic circuits that regulate the expression of key plant developmental
+  genes, such as *WUSCHEL*, *PISTILLATA*, and *SHORTROOT*, for studying and engineering
+  plant systems.
+relatedItem:
+- title: pG1_12
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pG1_10
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pG1_11
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pG1_9
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pG1_6
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pG1_7
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pG1_5
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pG1_8
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pG1_4
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pG1_2
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pG1_1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pG1_3
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pY1_12
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pY1_11
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pY1_8
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pY1_10
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pY1_9
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pY1_7
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pY1_6
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pY1_4
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pY1_5
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pY1_1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pMA_12
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pMA_11
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pY1_3
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pY1_2
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pMA_10
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pMA_8
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pMA_7
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pMA_9
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pMA_6
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pMA_5
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pMA_2
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pMAlpha_12
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pMA_3
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pMA_4
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pMA_1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pMAlpha_11
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pMAlpha_8
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pMAlpha_7
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pMAlpha_9
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pMAlpha_10
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pMAlpha_6
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pMAlpha_5
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pMAlpha_3
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pMAlpha_4
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pMAlpha_2
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: pMAlpha_1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: G1-D2-SRDXn
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: G1-D1-SRDXn
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: G1-D1-SRDX
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: G1-SRDX
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: G1-D2-SRDX
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: G1-D1-C1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: G1-C1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: G1-D2-VP16
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: G1-D1-VP16
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: G1-D2-C1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: G1-D1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: G1-D2
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: G1-VP16
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Y1-D2-SRDXn
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: G1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Y1-D1-SRDX
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Y1-D2-SRDX
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Y1-D1-SRDXn
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Y1-SRDX
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Y1-C1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Y1-D2-C1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Y1-D1-C1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Y1-D2-VP16
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Y1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Y1-VP16
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Y1-D2
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Y1-D1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Y1-D1-VP16
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: M2-D-SRDXn
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: M2-C1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: M2-D-C1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: M2-D-SRDX
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: M2-SRDX
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: M2-D-VP16
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: M2
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: M2-D
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: M2-VP16
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: M1-D-SRDXn
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: M1-D-SRDX
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: M1-SRDX
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: M1-C1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: M1-D-VP16
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: M1-D-C1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: M1-VP16
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: MC-D2-SRDXn
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: M1-D
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: M1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: MC-D2-SRDX
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: MC-D1-SRDXn
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: MC-C1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: MC-D1-SRDX
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: M1-D2-C1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: MC-D1-C1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: MC-SRDX
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: MC-D2-VP16
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: MC-D1-VP16
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: MC-D2
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: MC-D1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: MC-VP16
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: MC
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors:
+- name: Patrick Shih
+  email: pmshih@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pBR322
+  backbone: pG1_12
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pG1_10
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pG1_11
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pms5247
+  promoters: []
+  description: Gal4-SV40-VP16, Synthetic activator
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pms6379
+  promoters: []
+  description: Gal4-SV40-SRDX, Synthetic repressor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pG1_9
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pG1_6
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pG1_7
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pG1_5
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pG1_8
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pG1_4
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pG1_2
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pG1_1
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pG1_3
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pY1_12
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pY1_11
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pY1_8
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pY1_10
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pY1_9
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pY1_7
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pY1_6
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pY1_4
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pY1_5
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pY1_1
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pMA_12
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pMA_11
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pY1_3
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pY1_2
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pMA_10
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pMA_8
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pMA_7
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pMA_9
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pMA_6
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pMA_5
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pMA_2
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pMAlpha_12
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pMA_3
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pMA_4
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pMA_1
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pMAlpha_11
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pMAlpha_8
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pMAlpha_7
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pMAlpha_9
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pMAlpha_10
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pMAlpha_6
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pMAlpha_5
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pMAlpha_3
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pMAlpha_4
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pMAlpha_2
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pMAlpha_1
+  promoters: []
+  description: Synthetic Promoter
+  selection_markers:
+  - Kan
+- ori: pVS1 oriV, pBR322
+  backbone: G1-D2-SRDXn
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pVS1 oriV, pBR322
+  backbone: G1-D1-SRDXn
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: G1-D1-SRDX
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: G1-SRDX
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: G1-D2-SRDX
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: G1-D1-C1
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: G1-C1
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: G1-D2-VP16
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: G1-D1-VP16
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: G1-D2-C1
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pVS1 oriV, pBR322
+  backbone: G1-D1
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pVS1 oriV, pBR322
+  backbone: G1-D2
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: G1-VP16
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pVS1 oriV, pBR322
+  backbone: Y1-D2-SRDXn
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: G1
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: Y1-D1-SRDX
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: Y1-D2-SRDX
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pVS1 oriV, pBR322
+  backbone: Y1-D1-SRDXn
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: Y1-SRDX
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: Y1-C1
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: Y1-D2-C1
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: Y1-D1-C1
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: Y1-D2-VP16
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: Y1
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: Y1-VP16
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pVS1 oriV, pBR322
+  backbone: Y1-D2
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pVS1 oriV, pBR322
+  backbone: Y1-D1
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: Y1-D1-VP16
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pVS1 oriV, pBR322
+  backbone: M2-D-SRDXn
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: M2-C1
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: M2-D-C1
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: M2-D-SRDX
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: M2-SRDX
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: M2-D-VP16
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: M2
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pVS1 oriV, pBR322
+  backbone: M2-D
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: M2-VP16
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pVS1 oriV, pBR322
+  backbone: M1-D-SRDXn
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: M1-D-SRDX
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: M1-SRDX
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: M1-C1
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: M1-D-VP16
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: M1-D-C1
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: M1-VP16
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pVS1 oriV, pBR322
+  backbone: MC-D2-SRDXn
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pVS1 oriV, pBR322
+  backbone: M1-D
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: M1
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: MC-D2-SRDX
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pVS1 oriV, pBR322
+  backbone: MC-D1-SRDXn
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: MC-C1
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: MC-D1-SRDX
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: MC-D2-C1
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: MC-D1-C1
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: MC-SRDX
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: MC-D2-VP16
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: MC-D1-VP16
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pVS1 oriV, pBR322
+  backbone: MC-D2
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pVS1 oriV, pBR322
+  backbone: MC-D1
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: MC-VP16
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: MC
+  promoters: []
+  description: Synthetic Transcription Factor
+  selection_markers:
+  - Kan
+- backbone: CCE10+A.t.Cab
+  promoters: []
+  description: BsaI, CCE10+A.t.Cab a.k.a. {PU_UAS10}
+  selection_markers:
+  - carbenicillin
+- ori: ColEI
+  backbone: CCE25+S.t.Prot
+  promoters: []
+  description: CCE25+S.t.Prot a.k.a. {PU_UAS25}
+  selection_markers:
+  - Carbenicillin
+- ori: pBR332
+  backbone: CCE04+A.t.RGF1
+  promoters: []
+  description: CCE04+A.t.RGF1 a.k.a {P_UAS4:U_AT3G24240}
+  selection_markers:
+  - Kanamycin
+- ori: pBR332
+  backbone: CCE02+A.t.PRK
+  promoters: []
+  description: CCE02+A.t.PRK a.k.a. {P_UAS2:U_PRK}
+  selection_markers:
+  - Kanamycin
+- ori: ColEI
+  backbone: CCE23+N.b.ATPs
+  promoters: []
+  description: CCE23+N.b.ATPs a.k.a. {PU_UAS23}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE22+M.s.GltSyn
+  promoters: []
+  description: '{PU_UAS22}'
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE24+Z.m.Triso
+  promoters: []
+  description: CCE24+Z.m.Triso a.k.a. {PU_UAS24}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE20+A.t.Adh
+  promoters: []
+  description: CCE20+A.t.Adh a.k.a. {PU_UAS20}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE21+A.m.Chalc
+  promoters: []
+  description: CCE21+A.m.Chalc a.k.a. {PU_UAS21}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE18+G.m.Nod
+  promoters: []
+  description: CCE18+G.m.Nod a.k.a. {PU_UAS18}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE17+G.m.Leghe
+  promoters: []
+  description: CCE17+G.m.Leghe a.k.a.{PU_UAS17}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE19+G.m.HSP
+  promoters: []
+  description: CCE19+G.m.HSP a.k.a. {PU_UAS19}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE16+R.c.Ricin
+  promoters: []
+  description: "CCE16+R.c.Ricin a.k.a. \n{PU_UAS16}"
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE15+P.s.Legu
+  promoters: []
+  description: CCE15+P.s.Legu a.k.a. {PU_UAS15}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE14+Z.m.Zein
+  promoters: []
+  description: CCE14+Z.m.Zein a.k.a.{PU_UAS14}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE13+H.v.Hord
+  promoters: []
+  description: CCE13+H.v.Hord a.k.a. {PU_UAS13}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE12+T.a.Glia
+  promoters: []
+  description: CCE12+T.a.Glia a.k.a. {PU_UAS12}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE06+G.m.RbcS
+  promoters: []
+  description: CCE06+G.m.RbcS a.k.a. {PU_UAS6}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE07+P.a.RbcS
+  promoters: []
+  description: CCE07+P.a.RbcS a.k.a. {PU_UAS7}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE09+P.s.Cab
+  promoters: []
+  description: CCE09+P.s.Cab a.k.a {PU_UAS9}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE08+T.a.RbcS
+  promoters: []
+  description: CCE08+T.a.RbcS a.k.a. {PU_UAS8}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE11+P.a.Cab
+  promoters: []
+  description: CCE11+P.a.Cab a.k.a. {PU_UAS11}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE05+D.c.Ext
+  promoters: []
+  description: CCE05+D.c.Ext a.k.a {PU_UAS4}
+  selection_markers:
+  - Carbenicillin
+- ori: pBR332
+  backbone: CCE03+A.t.WUS
+  promoters: []
+  description: CCE03+A.t.WUS a.k.a. {P_UAS3:U_WUSCHEL}
+  selection_markers:
+  - Kanamycin
+- ori: ColEI
+  backbone: CCE13+A.t.ASFT
+  promoters: []
+  description: BsaI, {P_UAS13:ASFT}
+  selection_markers:
+  - Carbenicillin
+- ori: pBR332
+  backbone: CCE01+A.t.PYK10
+  promoters: []
+  description: CCE01+A.t.Hp70 a.k.a. {P_UAS1:U_HSP70Aly}
+  selection_markers:
+  - Kanamycin
+- ori: ColEI
+  backbone: CCE04+A.t.ASFT
+  promoters: []
+  description: BsaI, {P_UAS4:ASFT}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE22+A.t.ASFT
+  promoters: []
+  description: BsaI, {P_UAS22:ASFT}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE13+A.t.Pist
+  promoters: []
+  description: BsaI, {P_UAS13:Pistillata}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE22+A.t.Pist
+  promoters: []
+  description: BsaI, {P_UAS22:Pistillata}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE17+A.t.ASFT
+  promoters: []
+  description: BsaI, {P_UAS17:ASFT}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE16+A.t.ASFT
+  promoters: []
+  description: BsaI, {P_UAS16:ASFT}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE04+A.t.Pist
+  promoters: []
+  description: BsaI, {P_UAS4:Pistillata}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE22+A.t.Srtrt
+  promoters: []
+  description: BsaI, {P_UAS22:Shortroot}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE17+A.t.Pist
+  promoters: []
+  description: BsaI, {P_UAS17:Pistillata}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE04+A.t.Srtrt
+  promoters: []
+  description: BsaI, {P_UAS4:Shortroot}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE16+A.t.Pist
+  promoters: []
+  description: BsaI, {P_UAS16:Pistillata}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE22+A.t.GL2
+  promoters: []
+  description: BsaI, {P_UAS22:GL2}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE17+A.t.Srtrt
+  promoters: []
+  description: BsaI, {P_UAS17:Shortroot}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE16+A.t.Srtrt
+  promoters: []
+  description: BsaI, {P_UAS16:Shortroot}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE04+A.t.GL2
+  promoters: []
+  description: BsaI, {P_UAS4:GL2}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE13+A.t.Srtrt
+  promoters: []
+  description: BsaI, {P_UAS13:Shortroot}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE17+A.t.GL2
+  promoters: []
+  description: BsaI, {P_UAS17:GL2}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE22+A.t.WUS
+  promoters: []
+  description: BsaI, {P_UAS22:WUSHCEL}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE04+A.t.WUS
+  promoters: []
+  description: BsaI, {P_UAS4:WUSHCEL}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE13+A.t.GL2
+  promoters: []
+  description: BsaI, {P_UAS13:GL2}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE16+A.t.GL2
+  promoters: []
+  description: BsaI, {P_UAS16:GL2}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE16+A.t.WUS
+  promoters: []
+  description: BsaI, {P_UAS16:WUSHCEL}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE17+A.t.WUS
+  promoters: []
+  description: BsaI, {P_UAS17:WUSHCEL}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: CCE13+A.t.WUS
+  promoters: []
+  description: BsaI, {P_UAS13:WUSHCEL}
+  selection_markers:
+  - Carbenicillin
+bibliographicCitation: https://public-registry.jbei.org/folders/579
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00579
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

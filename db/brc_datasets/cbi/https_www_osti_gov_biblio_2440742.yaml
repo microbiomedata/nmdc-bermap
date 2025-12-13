@@ -1,0 +1,58 @@
+brc: CBI
+date: '2024-09-12'
+title: Cellulose molecular weight of corn stover with cotreatment
+active: true
+creator:
+- name: Yunqiao Pu
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: true
+- name: Evert Holwerda
+  affiliation: Center for Bioenergy Innovation, Oak Ridge National Laboratory, Oak
+    Ridge, TN, USA Thayer School of Engineering, Dartmouth College, Hanover, NH, USA
+  primaryContact: false
+- name: Lee Lynd
+  affiliation: Center for Bioenergy Innovation, Oak Ridge National Laboratory, Oak
+    Ridge, TN, USA Thayer School of Engineering, Dartmouth College, Hanover, NH, USA
+  primaryContact: false
+- name: Arthur Ragauskas
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER). Biological Systems Science (BSS)
+keywords:
+- Cellulose
+- molecular weights
+- corn stover
+- cotreatment
+- CBI
+identifier: https://www.osti.gov/biblio/2440742
+dataset_url: https://labkey.ornl.gov/labkey/CBI/ragauskas/Public Data/Cellulose molecular
+  weight of corn stover with cotreatment/project-begin.view?
+description: Here we present a dataset of cellulose molecular weights from corn stover
+  after a cotreatment process. The corn stover sample was subjected to a combination
+  of mechanical disruption (ball milling) and consolidated bioprocessing (CBP) process
+  using the bacterium C. thermocellum at 60 grams/L solids loadings. Cellulose was
+  isolated from control, no cotreatment control, and cotreatment corn stover. Cellulose
+  was then derivatized using anhydrous pyridine and phenyl isocyanate over 48 h at
+  70 ºC. The reaction was quenched by anhydrous methanol. Methanol and water mixture
+  (7:3, v/v) was added dropwise to promote precipitation of the cellulose derivative.
+  The solids were collected by filtration and thoroughly washed with the methanol
+  and water mixture followed by water. The cellulose derivative was dried overnight
+  under vacuum at 40°C. The obtained cellulose tricarbanilates was then dissolved
+  in tetrahydrofuran (THF) at 1.0 mg/mL and the solution was filtered through a 0.45
+  µm PTFE filter and placed in an auto-sampler vial. The molecular weight of cellulose
+  was measured by Agilent GPC SECurity 1200 system equipped with four Waters Styragel
+  columns (i.e., HR0.5, HR2, HR4, and HR6) and a UV detector (270 nm). THF was used
+  as the mobile phase. Data collection and processing was performed by Polymer Standards
+  Service WinGPC Unity software (Build 6807). The molecular weight was calculated
+  relative to the polystyrene calibration curve. The data on molecular weights provided
+  information about the effects of cotreatment on corn stover cellulose molecular
+  changes.
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/2440742
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2440742
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

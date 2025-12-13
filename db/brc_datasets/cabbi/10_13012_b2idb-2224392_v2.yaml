@@ -1,0 +1,36 @@
+brc: CABBI
+date: '2020-09-07'
+title: BEPAM Model Code and CABBI Simulation Results for 'Assessing the Returns to
+  Land and Greenhouse Gas Savings from Producing Energy Crops on Conservation Reserve
+  Program Land'
+creator:
+- name: Khanna, Madhu
+  email: khanna1@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: DeLucia, Evan
+  email: delucia@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+keywords:
+- miscanthus
+- switchgrass
+- carbon sequestration
+- conservation reserve program
+- biofuel and environmental policy analysis model
+identifier: 10.13012/B2IDB-2224392_V2
+repository: Illinois Data Bank
+description: This dataset contains the BEPAM code and input data to analyze the combination
+  of biomass prices and CRP land rental payment reductions that can incentivize energy
+  crop production on CRP land and its potential to increase soil carbon stocks and
+  displace fossil fuel emissions.
+relatedItem:
+- title: Assessing the Returns to Land and Greenhouse Gas Savings from Producing Energy
+    Crops on Conservation Reserve Program Land
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1021/acs.est.0c06133
+bibliographicCitation: https://doi.org/10.13012/B2IDB-2224392_V2
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-2224392_V2
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.624Z'

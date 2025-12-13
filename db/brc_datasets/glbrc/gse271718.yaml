@@ -1,0 +1,31 @@
+brc: GLBRC
+date: '2024-08-19'
+title: Altering translation allows E. coli to overcome chemically stabilized G-quadruplexes
+creator:
+- name: James L. Keck
+  email: jlkeck@wisc.edu
+  affiliation: Biomolecular Chemistry Department, School of Medicine and Public Health,
+    University of Wisconsin-Madison, Madison, WI, 53706 United States 
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: GSE271718
+repository: GEO
+description: To investigate the effects of stabilizing G-quadruplexes on Escherichia
+  coli, cells were grown in the presence of the G-quadruplex stabilizing compound,
+  NMM, and RNA-seq was performed. This was done for the control cell strain (MG1655
+  dtolC) as well as a strain with a decrease in a translation elongation factor (MG1655
+  dtolC tufA::kan). TPM values were used for differential gene expression analysis
+  between each growth condition. All samples were grown and sequenced in triplicate.
+relatedItem:
+- title: Altering translation allows <i>E. coli</i> to overcome G-quadruplex stabilizers
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://academic.oup.com/nar/article/53/6/gkaf264/8107784
+analysisType: RNA-seq
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE271718
+schema_version: 0.1.7
+uid: GLBRC_GSE271718
+created_at: '2025-11-27T06:00:04.934Z'
+updated_at: '2025-12-10T06:00:05.198Z'

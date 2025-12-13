@@ -1,0 +1,75 @@
+id: jbei:480
+brc: JBEI
+date: '2019-07-26'
+title: Bouchez et al 2019
+creator:
+- name: Nurgul Kaplan
+  email: nkaplan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Aymerick Eudes
+  email: ageudes@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 1358
+  scientificName: Lactococcus lactis
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords: []
+identifier: jbei:folder:00480
+repository: ICE
+datasetName: Bouchez et al 2019
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/480
+description: This dataset provides five plasmids for the heterologous expression of
+  4-coumarate-CoA ligase 5 (4CL5) and HDT1 in different microbial chassis. The collection
+  features Gateway-compatible vectors and codon-optimized gene sequences for expression
+  in *Lactococcus lactis* and *Saccharomyces cerevisiae*. A key construct is an operon
+  designed for the co-expression of both enzymes in *L. lactis*, enabling metabolic
+  engineering strategies.
+relatedItem:
+- title: Eudes et al. Appl Microbiol Biotechnol. 201189(4):989-1000
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Eudes et al. Appl Microbiol Biotechnol. 2011 89(4):989-1000
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pDRf1-4CL5-GW
+  promoters: []
+  description: E. coli strain (ccdB survival) carrying the pDRf1-4CL5-GW plasmid
+  selection_markers:
+  - chloramphenicol, carbenicillin
+- backbone: pDONR-4CL5-HDT1
+  promoters: []
+  description: 4CL5-HDT1 operon codon-optimized for L. lactis
+  selection_markers: []
+- backbone: pDONOR-HDT1
+  promoters: []
+  description: pDONR b1-b2 containing codon-optimized HDT1 for S. cerevisiae expression
+  selection_markers: []
+- backbone: pDRf1-4CL5-PvuII
+  promoters: []
+  description: E. coli strain carrying the pDRf1-4CL5-PvuII plasmid
+  selection_markers:
+  - Carbenicillin
+- backbone: pPTPI-G14
+  promoters: []
+  description: Gateway compatible expression plasmid for L. lactis
+  selection_markers:
+  - Chloramphenicol (30)
+  - tetracycline
+bibliographicCitation: https://public-registry.jbei.org/folders/480
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00480
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

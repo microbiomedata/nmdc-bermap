@@ -1,0 +1,76 @@
+id: jbei:100
+brc: JBEI
+date: '2013-09-27'
+title: Goldberg et al. 2014
+creator:
+- name: Gregory Linshiz
+  email: glinshiz@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Mary Dunlop
+  email: mjdunlop@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- Kan GFP
+- Kan RFP
+identifier: jbei:folder:00100
+repository: ICE
+datasetName: Goldberg et al. 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/100
+description: The Goldberg et al. 2014 dataset consists of two bacterial expression
+  plasmids designed for reporter gene studies. These vectors enable the IPTG-inducible
+  expression of either Green Fluorescent Protein (GFP) or Red Fluorescent Protein
+  (RFP) from the pTac promoter. Both plasmids also carry a Kanamycin resistance gene
+  for antibiotic selection of transformants.
+relatedItem:
+- title: 'Unpublished results, Vivek Mutalik, Drew Endy, and Adam Arkin. Golberg,
+    A., Linshiz, G., Kravets, I., Stawski, N., Hillson, N.J., Yarmush, M.L., Marks,
+    R.S., and Konry, T. (2014) Cloud-Enabled Microscopy and Droplet Microfluidic Platform
+    for Specific Detection of Escherichia coli in Water. PLoS ONE 9(1): e86341. DOI:10.1371/journal.pone.0086341'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Baba, T.; Ara, T.; Hasegawa, M.; Takai, Y.; Okumura, Y.; Baba, M.; Datsenko,
+    K. A.; Tomita, M.; Wanner, B. L. &amp; Mori, H. Construction of it E. scherichia
+    coli K-12 in-frame, single-gene knockout mutants: the Keio collection Molecular
+    Systems Biology, 2006'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors:
+- name: Nathan Hillson
+  email: njhillson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: p15a
+  backbone: 'pFAB_SchPMK36GFP '
+  promoters:
+  - pTac
+  description: Plasmid contains Kanamycin selection marker, and expresses GFP from
+    pTac.
+  selection_markers:
+  - Kanamycin
+- ori: p15a
+  backbone: pFAB_SchPMK36RFP
+  promoters:
+  - pTac
+  description: Plasmid contains Kanamycin selection Marker, and expresses RFP from
+    pTac.
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/100
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00100
+created_at: '2025-11-18T20:03:56.767Z'
+updated_at: '2025-12-11T00:00:04.619Z'

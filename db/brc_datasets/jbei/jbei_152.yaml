@@ -1,0 +1,130 @@
+id: jbei:152
+brc: JBEI
+date: '2015-03-03'
+title: Woo et al. 2013
+creator:
+- name: Han Woo
+  email: hmwoo@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Taek Soon Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Rossana Chan
+  email: rchan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00152
+repository: ICE
+datasetName: Woo et al. 2013
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/152
+description: This dataset contains 14 BioBrick plasmids designed for the metabolic
+  engineering of the mevalonate (MVA) pathway for amorphadiene production. The plasmids
+  express amorphadiene synthase (ADS) and various MVA pathway enzymes, featuring different
+  gene variants such as codon-optimized and heterologous versions. The collection
+  enables pathway optimization by providing constructs with single genes, multiple
+  enzymes, and the complete MVA pathway on a single vector.
+relatedItem:
+- title: Woo, H. M., Murray, G. W., Batth, T. S., Prasad, N., Adams, P. D., Keasling,
+    J. D., Petzold, C. J., &amp; Lee, T. S. (2013). “Application of targeted proteomics
+    and biological parts assembly in E. coli to optimize the biosynthesis of an anti-malarial
+    drug precursor, amorpha-4,11-diene”. chemical engineering science, 103, 21-28.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Lee TS, Krupa RA, Zhang F, Hajimorad M, Holtz WJ, Prasad N, Lee SK, Keasling
+    JD. BglBrick vectors and datasheets: A synthetic biology platform for gene expression.
+    J Biol Eng. 2011 Sep 20;5:12. doi: 10.1186/1754-1611-5-12.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Dahl, R. H., Zhang, F., Alonso-Gutierrez, J., Baidoo, E., Batth, T. S., Redding-Johanson,
+    A. M., Petzold, C. J., Mukhopadhyay, A., Lee, T. S., Adams, P. D., &amp; Keasling,
+    J. D. (2013). “Engineering dynamic pathway regulation using stress-response promoters”.
+    [Research Support, U.S. Gov’t, Non-P.H.S.]. Nat Biotechnol, 31(11), 1039-1046.
+    doi, 10.1038/nbt.2689 http://www.ncbi.nlm.nih.gov/pubmed/24142050 http://www.nature.com/nbt/journal/v31/n11/pdf/nbt.2689.pdf
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: St-Woo134
+  promoters: []
+  description: pBbE1a-ADS-MK(o)-PMK(o)
+  selection_markers:
+  - Ampicillin
+- backbone: pBbE1a-ADS-HMGR(co)
+  promoters: []
+  description: "Pl-Woo16\tpBbE1a-ADS-HMGR(co)"
+  selection_markers: []
+- backbone: St-Woo135
+  promoters: []
+  description: pBbE1a-HMGS(o)-PMK(o)-T21-MK(co)
+  selection_markers:
+  - Ampicillin
+- backbone: pBbE1a-ADS-HMGR(o)
+  promoters: []
+  description: "Pl-Woo15\tpBbE1a-ADS-HMGR(o)"
+  selection_markers: []
+- backbone: pBbE1a-ADS-HMGR(sa)
+  promoters: []
+  description: "Pl-Woo18\tpBbE1a-ADS-HMGR(SA)"
+  selection_markers: []
+- backbone: pBbE1a-ADS-PMK(sa)
+  promoters: []
+  description: "Pl-Woo13\tpBbE1a-ADS-PMK(SA)"
+  selection_markers: []
+- backbone: pBbE1a-ADS-PMK(co)
+  promoters: []
+  description: "Pl-Woo11\tpBbE1a-ADS-PMK(co)"
+  selection_markers: []
+- backbone: pBbE1a-ADS-MK(sa)
+  promoters: []
+  description: "Pl-Woo6\tpBbE1a-ADS-MK(SA)"
+  selection_markers: []
+- backbone: pBbE1a-ADS-PMK(o)
+  promoters: []
+  description: "Pl-Woo9\tpBbE1a-ADS-PMK(o)"
+  selection_markers: []
+- backbone: pBbE1a-ADS-MK(co)
+  promoters: []
+  description: "Pl-Woo4\tpBbE1a-ADS-MK(co)"
+  selection_markers: []
+- backbone: pBbE1a-ADS-MK(o)
+  promoters: []
+  description: "Pl-Woo3\tpBbE1a-ADS-MK(o)"
+  selection_markers: []
+- ori: ColE1
+  backbone: pBbE1a-ADS
+  promoters: []
+  description: BglBricked Amorphadiene synthase
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pBbE1a-RFP
+  promoters:
+  - Trc
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: p15A
+  backbone: pBbA5c-MevT-MBIS
+  promoters:
+  - lacUV5
+  description: full mevalonate pathway in one biobrick plasmid
+  selection_markers:
+  - Chloramphenicol
+bibliographicCitation: https://public-registry.jbei.org/folders/152
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00152
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.619Z'

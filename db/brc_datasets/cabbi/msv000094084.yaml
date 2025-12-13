@@ -1,0 +1,45 @@
+brc: CABBI
+date: '2024-03-25'
+title: Selected ion monitoring for orbitrap-based metabolomics
+creator:
+- name: Rabinowitz, Joshua
+  email: joshr@princeton.edu
+  affiliation: Princeton University
+  primaryContact: true
+species:
+- NCBITaxID: 10090
+  scientificName: Mus musculus
+keywords:
+- selected ion monitoring
+- orbitrap
+- metabolomics
+- full scan
+- SIM
+identifier: MSV000094084
+repository: MassIVE
+description: Orbitrap mass spectrometry in full scan mode enables the simultaneous
+  detection of hundreds of metabolites and their isotope-labeled forms. Yet, sensitivity
+  remains limiting for many metabolites, including low-concentration species, poor
+  ionizers, and low-fractional-abundance isotope-labeled forms in isotope-tracing
+  studies. Here, we explore selected ion monitoring (SIM) as a means of sensitivity
+  enhancement. The analytes of interest are enriched in the orbitrap analyzer by using
+  the quadrupole as a mass filter to select particular ions. In tissue extracts, SIM
+  significantly enhances the detection of ions of low intensity, as indicated by improved
+  signal-to-noise (S/N) ratios and measurement precision. In addition, SIM improves
+  the accuracy of isotope-ratio measurements. SIM, however, must be deployed with
+  care, as excessive accumulation in the orbitrap of similar m/z ions can lead, via
+  space-charge effects, to decreased performance (signal loss, mass shift, and ion
+  coalescence). Ion accumulation can be controlled by adjusting settings including
+  injection time and target ion quantity. Overall, we suggest using a full scan to
+  ensure broad metabolic coverage, in tandem with SIM, for the accurate quantitation
+  of targeted low-intensity ions, and provide methods deploying this approach to enhance
+  metabolome coverage.
+relatedItem:
+- title: Selected Ion Monitoring for Orbitrap-Based Metabolomics
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.3390/metabo14040184
+bibliographicCitation: https://doi.org/10.25345/C5JH3DD3K
+schema_version: 0.1.1
+uid: CABBI_MSV000094084
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

@@ -1,0 +1,27 @@
+brc: CABBI
+date: '2022-05-11'
+title: Crystal structure of KRED mutant-F147L/L153Q/Y190P/L199A/M205F/M206F and 2-hydroxyisoindoline-1,3-dione
+  complex
+creator:
+- name: Zhao, Huimin
+  email: zhao5@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+keywords:
+- protein
+- structure coordinates
+- catalysis
+identifier: 7EJH
+repository: Protein Data Bank
+description: Crystal structure of KRED mutant-F147L/L153Q/Y190P/L199A/M205F/M206F
+  and 2-hydroxyisoindoline-1,3-dione complex
+relatedItem:
+- title: Photoinduced Chemomimetic Biocatalysis for Enantioselective Intermolecular
+    Radical Conjugate Addition
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1038/s41929-022-00777-4
+bibliographicCitation: https://doi.org/10.2210/pdb7ejh/pdb
+schema_version: 0.1.1
+uid: CABBI_7EJH
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.628Z'

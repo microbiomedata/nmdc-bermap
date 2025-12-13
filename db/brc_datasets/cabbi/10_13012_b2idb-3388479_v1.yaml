@@ -1,0 +1,42 @@
+brc: CABBI
+date: '2021-02-21'
+title: Simulated Land Allocation, Nitrogen Use, and Nitrogen Loss in the Mississippi
+  Atchafalaya River Basin for Various RFS2 (Renewable Fuel Standard) Policy Scenarios
+creator:
+- name: VanLoocke, Andy
+  email: andyvanl@iastate
+  affiliation: Iowa State University
+  primaryContact: true
+- name: Khanna, Madhu
+  email: khanna1@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Heaton, Emily A.
+  email: heaton6@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+keywords:
+- nitrogen leaching
+- bioethanol
+- bioenergy crops
+- agroibis
+- terrestrial hydrologic model biogeochemistry
+identifier: 10.13012/B2IDB-3388479_V1
+repository: Illinois Data Bank
+description: Total nitrogen leaching rates were calculated over the Mississippi Atchafalaya
+  River Basin (MARB) using an integrated economic-biophysical modeling approach. Land
+  allocation for corn production and total nitrogen application rates were calculated
+  for crop reporting districts using the Biofuel and Environmental Policy Analysis
+  Model (BEPAM) for 5 RFS2 policy scenarios. These were used as input in the Integrated
+  BIosphere Simulator-Agricultural Version (Agro-IBIS) and the Terrestrial Hydrologic
+  Model with Biogeochemistry (THMB) to calculate the nitrogen loss.
+relatedItem:
+- title: Water Quality Effects of Economically Viable Land Use Change in the Mississippi
+    River Basin under the Renewable Fuel Standard
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1021/acs.est.0c04358
+bibliographicCitation: https://doi.org/10.13012/B2IDB-3388479_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-3388479_V1
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.624Z'

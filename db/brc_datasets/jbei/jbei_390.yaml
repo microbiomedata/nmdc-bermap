@@ -1,0 +1,67 @@
+id: jbei:390
+brc: JBEI
+date: '2018-10-16'
+title: Thompson et al 2018 Glutarate Biosensors
+creator:
+- name: Mitchell Thompson
+  email: mthompson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00390
+repository: ICE
+datasetName: Thompson et al 2018 Glutarate Biosensors
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/390
+description: This dataset from Thompson et al. (2018) contains eight plasmids for
+  the construction and validation of whole-cell glutarate biosensors. The collection
+  features multiple reporter plasmids designed to detect glutarate, alongside vectors
+  for protein purification. A gene knockout (KO) plasmid is also provided, likely
+  for engineering the host strain to optimize sensor performance or pathway analysis.
+relatedItem: []
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pBADT-gcdR-J23110
+  promoters: []
+  description: Reporter
+  selection_markers: []
+- backbone: pET21 GcdR_pput
+  promoters: []
+  description: Pur
+  selection_markers: []
+- backbone: pBADT-gcdR-J23101
+  promoters: []
+  description: Reporter
+  selection_markers: []
+- backbone: pBADT-gcdR-J23119
+  promoters: []
+  description: None
+  selection_markers: []
+- backbone: pMQ30 DavT
+  promoters: []
+  description: KO
+  selection_markers: []
+- backbone: pET21b-CsiR_Pput
+  promoters: []
+  description: Purification
+  selection_markers: []
+- backbone: pBADT-csiR-PcsiD::RFP
+  promoters: []
+  description: reporter
+  selection_markers: []
+- backbone: pBADT-gcdR-PgcdH::RFP
+  promoters: []
+  description: reporter
+  selection_markers: []
+bibliographicCitation: https://public-registry.jbei.org/folders/390
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00390
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

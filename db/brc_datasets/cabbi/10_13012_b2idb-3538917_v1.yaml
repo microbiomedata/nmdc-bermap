@@ -1,0 +1,43 @@
+brc: CABBI
+date: '2025-02-21'
+title: Viral Delivery of Recombinases Activates Heritable Genetic Switches in Plants
+creator:
+- name: Daniel F. Voytas
+  email: voytas@umn.edu
+  affiliation: University of Minnesota
+  primaryContact: true
+species:
+- NCBITaxID: 4100
+  scientificName: Nicotiana benthamiana
+keywords:
+- Gene Editing
+- Nicotiana benthamiana
+- Viral vector
+identifier: 10.13012/B2IDB-3538917_V1
+repository: Illinois Data Bank
+description: Viral vectors provide an increasingly versatile platform for transformation-free
+  reagent delivery to plants. RNA viral vectors can be used to induce gene silencing,
+  overexpress proteins, or introduce gene editing reagents; however, they are often
+  constrained by carrying capacity or restricted tropism in germline cells. Site-specific
+  recombinases that catalyze precise genetic rearrangements are powerful tools for
+  genome engineering that vary in size and, potentially, efficacy in plants. In this
+  work, we show that viral vectors based on tobacco rattle virus (TRV) deliver and
+  stably express four recombinases ranging in size from ∼0.6 to ∼1.5 kb and achieve
+  simultaneous marker removal and reporter activation through targeted excision in
+  transgenic Nicotiana benthamiana lines. TRV vectors with Cre, FLP, CinH, and Integrase13
+  efficiently mediated recombination in infected somatic tissue and led to heritable
+  modifications at high frequency. An excision-activated Ruby reporter enabled simple
+  and high-resolution tracing of infected cell lineages without the need for molecular
+  genotyping. Together, our experiments broaden the scope of viral recombinase delivery
+  and offer insights into infection dynamics that may be useful in developing future
+  viral vectors.
+relatedItem:
+- title: Viral Delivery of Recombinases to Activate Heritable Genetic Switches in
+    Plants
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1093/plphys/kiaf073
+bibliographicCitation: https://doi.org/10.13012/B2IDB-3538917_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-3538917_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

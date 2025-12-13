@@ -1,0 +1,34 @@
+id: jbei:172
+brc: JBEI
+date: '2015-04-03'
+title: Yuzawa et al 2014
+creator:
+- name: Satoshi Yuzawa
+  email: syuzawa@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species: []
+keywords: []
+identifier: jbei:folder:00172
+repository: ICE
+datasetName: Yuzawa et al 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/172
+description: null
+relatedItem:
+- title: Bihlmaier C1, Welle E, Hofmann C, Welzel K, Vente A, Breitling E, Müller
+    M, Glaser S, Bechthold A. Biosynthetic gene cluster for the polyenoyltetramic
+    acid alpha-lipomycin. Antimicrob Agents Chemother. 2006 Jun;50(6):2113-21.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features: []
+bibliographicCitation: https://public-registry.jbei.org/folders/172
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00172
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.619Z'

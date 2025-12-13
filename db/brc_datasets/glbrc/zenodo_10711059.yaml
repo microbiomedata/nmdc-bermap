@@ -1,0 +1,36 @@
+brc: GLBRC
+date: '2024-02-26'
+title: 'mcharrison95/RF_for_Yeast_GenSpec: Random forest code for y1000+ paper'
+creator:
+- name: Chris Todd Hittinger
+  email: cthittinger@wisc.edu
+  affiliation: GLBRC - University of Wisconsin-Madison
+  primaryContact: true
+- name: Antonis Rokas
+  email: antonis.rokas@vanderbilt.edu
+  affiliation: Department of Biological SciencesVanderbilt University Nashville TN
+    37235 USA
+  primaryContact: false
+species: []
+keywords:
+- Carbon/metabolism
+- Genome
+- Fungal nitrogen/metabolism
+- metabolic networks and pathways/genetics
+- ascomycota/genetics/metabolism
+identifier: zenodo.10711059
+repository: Zenodo
+description: Random forest code for predicting generalists and specialists from gene
+  annotations for the paper "Genomic and ecological factors shaping specialism and
+  generalism across an entire subphylum"
+relatedItem:
+- title: Genomic factors shape carbon and nitrogen metabolic niche breadth across
+    Saccharomycotina yeasts
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.science.org/doi/10.1126/science.adj4503
+analysisType: Code
+bibliographicCitation: https://zenodo.org/records/10711059
+schema_version: 0.1.7
+uid: GLBRC_zenodo.10711059
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.197Z'

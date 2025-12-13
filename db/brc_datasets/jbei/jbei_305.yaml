@@ -1,0 +1,35 @@
+id: jbei:305
+brc: JBEI
+date: '2017-04-07'
+title: Tsai_et_al_2017
+creator:
+- name: Yi-Lin Tsai
+  email: yilintsai@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species: []
+keywords: []
+identifier: jbei:folder:00305
+repository: ICE
+datasetName: Tsai_et_al_2017
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/305
+description: null
+relatedItem:
+- title: 'Tsai AY-L, Chan K, Ho C-Y, Canam T, Capron R, Master ER, et al. (2017) Transgenic
+    expression of fungal accessory hemicellulases in Arabidopsis thaliana triggers
+    transcriptional patterns related to biotic stress and defense response. PLoS ONE
+    12(3): e0173094. doi:10.1371/journal.pone.0173094'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features: []
+bibliographicCitation: https://public-registry.jbei.org/folders/305
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00305
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

@@ -1,0 +1,35 @@
+brc: GLBRC
+date: '2023-06-16'
+title: Comparative modeling reveals the molecular determinants of aneuploidy fitness
+  cost in a wild yeast model
+creator:
+- name: Audrey Gasch
+  email: agasch@wisc.edu
+  affiliation: GLBRC - University of Wisconsin-Madison
+  primaryContact: true
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- Cnv
+- aneuploidy
+- balance hypothesis
+- dosage-sensitive genes
+- driver genes
+- genic load
+- snoRNA
+- tRNA
+identifier: PRJNA984736
+repository: NCBI BioProject
+description: YPS1009-derivative strain genome assembly in NCBI, BioProject
+relatedItem:
+- title: Comparative modeling reveals the molecular determinants of aneuploidy fitness
+    cost in a wild yeast model
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.cell.com/cell-genomics/fulltext/S2666-979X(24)00267-2
+analysisType: DNA sequence
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA984736
+schema_version: 0.1.7
+uid: GLBRC_PRJNA984736
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.198Z'

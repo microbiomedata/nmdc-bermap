@@ -1,0 +1,48 @@
+brc: CABBI
+date: '2023-04-17'
+title: Application of Time-Domain 1H NMR for Investigating Dynamics of Vegetative
+  Lipids in Bioenergy Crops at Different Developmental Stages
+creator:
+- name: Vijay Singh
+  email: vsingh@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 4558
+  scientificName: Sorghum bicolor
+keywords:
+- Lipids
+- Fatty acid composition
+- 1H-NMR spectroscopy
+identifier: 10.13012/B2IDB-3309028_V1
+repository: Illinois Data Bank
+description: Sweet sorghum is typically cultivated for the food and fodder market.
+  Recently, sweet sorghum varieties are being metabolically transitioned to enhance
+  energy density by accumulating oil droplets in their vegetative tissues for bioenergy
+  applications. Owing to the high biomass yield of sorghum, the transgenic lines can
+  compete with oil-seed crops for biodiesel yield per unit area. In the initial phase
+  of transgenic development, a high-throughput phenotyping method can bridge the gap
+  between the production pipeline and analysis to improve the efficiency of the process.
+  To meet the requirement, the present study extends the application of time-domain
+  1H-NMR spectroscopy for rapid quantification and characterization of the total in-situ
+  lipids of sweet sorghum ‘ramada’ to lay the groundwork for analyzing the upcoming
+  large quantity of transgenic samples. NMR technology has been successfully established
+  for analyzing lipid contents of vegetative tissues of non-transgenic variety. The
+  multiexponential analysis of spin-lattice (T1) relaxation spectra obtained from
+  TD-NMR aided the investigation of the dynamics of the free and bound lipid fraction
+  with plant development. The total lipid concentration of bagasse and leaves of non-transgenic
+  sweet sorghum remained unchanged throughout the plant development. Leaves displayed
+  a higher percentage of bound lipids as compared to bagasse. A significant variation
+  in the lipid concentration of juice was observed at the different growth stages
+  with a maximum lipid accumulation of 1.21 ± 0.04% w/w at the boot stage that decreased
+  with further maturity of the plant.
+relatedItem:
+- title: Application of Time-Domain 1H NMR for Investigating Dynamics of Vegetative
+    Lipids in Bioenergy Crops at Different Developmental Stages
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1089/ind.2022.0039
+bibliographicCitation: https://doi.org/10.13012/B2IDB-3309028_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-3309028_V1
+created_at: '2025-11-20T18:00:04.759Z'
+updated_at: '2025-12-10T06:00:05.196Z'

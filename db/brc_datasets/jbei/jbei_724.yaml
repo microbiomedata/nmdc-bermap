@@ -1,0 +1,199 @@
+id: jbei:724
+brc: JBEI
+date: '2021-11-23'
+title: Wang_et al_2022
+creator:
+- name: Xi Wang
+  email: xiwang@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 303
+  scientificName: Pseudomonas putida
+- NCBITaxID: 1351
+  scientificName: Enterococcus faecalis
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+- NCBITaxID: 1280
+  scientificName: Staphylococcus aureus
+keywords: []
+identifier: jbei:folder:00724
+repository: ICE
+datasetName: Wang_et al_2022
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/724
+description: This dataset provides 26 plasmids for the metabolic engineering of monoterpene
+  production, such as cineole and limonene. The collection includes expression constructs
+  for various heterologous mevalonate (MVA) pathways and terpene synthases, as well
+  as knockout plasmids designed to optimize precursor supply by modifying central
+  carbon metabolism.
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: BBR1
+  backbone: pBbB1k-trGPPS-CS
+  promoters: []
+  description: pBbB1k-trGPPS-CS
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pBbB5k-MvaSef-MvaEef-T1-MKsc-PMDsc
+  promoters: []
+  description: pBbB5k-MvaSef-MvaEef-T1-MKsc-PMDsc
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pBbB5k-AtoB-HMGSsa-HMGRsa -T1-MKsc-PMDsc
+  promoters: []
+  description: pBbB5k-AtoB-HMGSsa-HMGRsa -T1-MKsc-PMDsc
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pK18-gltA
+  promoters: []
+  description: pK18-gltA
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pK18-gntZ
+  promoters: []
+  description: pK18-gntZ
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pK18-hbdH
+  promoters: []
+  description: pK18-hbdH
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pK18-mvaB
+  promoters: []
+  description: pK18-mvaB
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pBbB5k-MvaSef-MvaEef-T1-MKmm-PMDHKQ-crc
+  promoters: []
+  description: pBbB5k-MvaSef-MvaEef-T1-MKmm-PMDHKQ-crc
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pK18-aceA
+  promoters: []
+  description: pK18-aceA
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pBbB1k-crc
+  promoters: []
+  description: pBbB1k-crc
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pK18-crc
+  promoters: []
+  description: pK18-crc
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pK18-pycAB
+  promoters: []
+  description: pK18-pycAB
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pK18-phaABC
+  promoters: []
+  description: pK18-phaABC
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pK18-ppc
+  promoters: []
+  description: pK18-ppc
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pBbB5k-MTSA-T1-MKsc-PMK-PMDsc-idiy-ispA-T1-EizS
+  promoters: []
+  description: pBbB5k-MTSA-T1-MKsc-PMK-PMDsc-idiy-ispA-T1-EizS
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pBbB1k-EizS
+  promoters: []
+  description: pBbB1k-EizS
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pBbB5k-MTSA-T1-MKsc-PMK-PMDsc-idi-ispA-T1-EizS
+  promoters: []
+  description: pBbB5k-MTSA-T1-MKsc-PMK-PMDsc-idi-ispA-T1-EizS
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pBbB5k-MTSA-T1-MKsc-PMK-PMDsc-idi-T1-trGPPS-CS
+  promoters: []
+  description: pBbB5k-MTSA-T1-MKsc-PMK-PMDsc-idi-T1-trGPPS-CS
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pBbB5k-MTSA-T1-MKsc-PMK-PMDsc-idi-T1-trGPPS-LS
+  promoters: []
+  description: pBbB5k-MTSA-T1-MKsc-PMK-PMDsc-idi-T1-trGPPS-LS
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pBbB1k-trGPPS-LS
+  promoters: []
+  description: pBbB1k-trGPPS-LS
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pBbB5k-MvaSef-MvaEef-T1-MKmm-PMDHKQ
+  promoters: []
+  description: pBbB5k-MvaSef-MvaEef-T1-MKmm-PMDHKQ
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pBbB5k-MvaSef-MvaEef-T1-MKsc-PMDHKQ
+  promoters: []
+  description: pBbB5k-MvaSef-MvaEef-T1-MKsc-PMDHKQ
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pBbB5k-MTSA-T1-MKsc-PMK-PMDsc-NudB
+  promoters: []
+  description: pBbB5k-MTSA-T1-MKsc-PMK-PMDsc-NudB
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pBbB5k-MvaSef-MvaEef-T1-MKmm-PMDsc
+  promoters: []
+  description: pBbB5k-MvaSef-MvaEef-T1-MKmm-PMDsc
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pBbB5k-AtoB-HMGSsc-HMGRsc-T1-MKsc-PMDsc
+  promoters: []
+  description: pBbB5k-AtoB-HMGSsc-HMGRsc-T1-MKsc-PMDsc
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pBbB1k-NudB
+  promoters: []
+  description: pBbB1k-NudB
+  selection_markers:
+  - Kan
+bibliographicCitation: https://public-registry.jbei.org/folders/724
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00724
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

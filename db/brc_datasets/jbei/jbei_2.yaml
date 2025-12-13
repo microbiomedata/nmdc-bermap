@@ -1,0 +1,129 @@
+id: jbei:2
+brc: JBEI
+date: '2009-11-24'
+title: Hillson et al. 2012
+creator:
+- name: Nathan Hillson
+  email: njhillson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00002
+repository: ICE
+datasetName: Hillson et al. 2012
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/2
+description: This dataset comprises a suite of 11 plasmids for protein expression
+  and genome engineering in *E. coli*. The collection features a series of arabinose-inducible
+  (PBAD) GFPuv reporter constructs designed to systematically test the effects of
+  different signal peptides, linker lengths, and degradation tags on protein localization
+  and stability. Additionally, the dataset includes a template plasmid for lambda
+  red-mediated chromosomal recombination, containing KanR and sacB markers for selection.
+relatedItem:
+- title: 'Hillson, N.J., Rosengarten, R.D., and Keasling J.D. (2012) j5 DNA Assembly
+    Design Automation Software. ACS Synthetic Biology 1 (1), 14-21. DOI: 10.1021/sb2000116'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Rapid and efficient construction of markerless deletions in the Escherichia
+    coli genome. Yu BJ, Kang KH, Lee JH, Sung BH, Kim MS, Kim SC. Nucleic Acids Res.
+    2008 Aug;36(14):e84.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: image_analysis
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pUC
+  backbone: pGFPuv_sig.pep
+  promoters:
+  - Lac
+  description: pGFPuv from Clontech with a c-terminal localization tag constructed
+    by Jay Kinney in Cheryl Kerfeld's group
+  selection_markers:
+  - Ampicillin
+- ori: pSC101ts
+  backbone: pSKI
+  promoters: []
+  description: A plasmid PCR template for generating linear DNA fragments containing
+    the KanR and sacB genes, as well as an I-SceI recognition site, to be flanked
+    by E. coli homologous sequences to direct the chromosomal recombination in coordination
+    with the lamda red and I-SceI systems carried on the pREDI plasmid. Note, this
+    is not the original pSKI published, but was derived from pSCI. However, it essentially
+    has the same functionality of the original pSKI.
+  selection_markers:
+  - Kanamycin
+  - sacB
+- ori: pSC101
+  backbone: pRDR00007
+  promoters:
+  - Arabinose
+  description: 'PBAD driven GFPuv variant: sig2 + short linker + GFPuv + ssrA'
+  selection_markers:
+  - Chloramphenicol
+- ori: pSC101
+  backbone: pRDR00003
+  promoters:
+  - Arabinose
+  description: 'PBAD driven GFPuv variant: sig1 + short linker + GFPuv + ssrA'
+  selection_markers:
+  - Chloramphenicol
+- ori: pSC101
+  backbone: pRDR00008
+  promoters:
+  - Arabinose
+  description: 'PBAD driven GFPuv variant: sig2 + short linker + GFPuv + ssrA enhanced'
+  selection_markers:
+  - Chloramphenicol
+- ori: pSC101
+  backbone: pNJH00010
+  promoters:
+  - Arabinose
+  description: PBAD driven GFPuv with a cterminal peptide tag (as constructed by Jay
+    Kinney in Cheryl Kerfeld's lab).
+  selection_markers:
+  - Chloramphenicol
+- ori: pSC101
+  backbone: pRDR00001
+  promoters:
+  - Arabinose
+  description: 'PBAD driven GFPuv variant: sig1 + long linker + GFPuv + ssrA'
+  selection_markers:
+  - Chloramphenicol
+- ori: pSC101
+  backbone: pRDR00004
+  promoters:
+  - Arabinose
+  description: 'PBAD driven GFPuv variant: sig1 + short linker + GFPuv + ssrA enhanced'
+  selection_markers:
+  - Chloramphenicol
+- ori: pSC101
+  backbone: pRDR00002
+  promoters:
+  - Arabinose
+  description: 'PBAD driven GFPuv variant: sig1 + long linker + GFPuv + ssrA enhanced'
+  selection_markers:
+  - Chloramphenicol
+- ori: pSC101
+  backbone: pRDR00006
+  promoters:
+  - Arabinose
+  description: 'PBAD driven GFPuv variant: sig2 + long linker + GFPuv + ssrA enhanced'
+  selection_markers:
+  - Chloramphenicol
+- ori: pSC101
+  backbone: pRDR00005
+  promoters:
+  - Arabinose
+  description: 'PBAD driven GFPuv variant: sig2 + long linker + GFPuv + ssrA'
+  selection_markers:
+  - Chloramphenicol
+bibliographicCitation: https://public-registry.jbei.org/folders/2
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00002
+created_at: '2025-11-18T20:03:56.767Z'
+updated_at: '2025-12-11T00:00:04.619Z'

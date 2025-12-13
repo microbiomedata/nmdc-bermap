@@ -1,0 +1,35 @@
+brc: GLBRC
+date: '2017-10-06'
+title: 'Seasonal dynamics of switchgrass and miscanthus phyllosphere microbiota: community
+  structure and function '
+creator:
+- name: Ashley Shade
+  email: ashley.shade@cnrs.fr
+  affiliation: Laboratoire Ecologie Microbienne at the University of Lyon, France
+  primaryContact: true
+- name: Adina Howe
+  email: adina@iastate.edu
+  affiliation: CABBI - University of Illinois
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Multispecies
+keywords:
+- Seasons
+- Microbiota/genetics
+- bacteria/genetics
+- metagenomce
+- panicum
+identifier: '503249'
+repository: JGI Data Portal
+description: null
+relatedItem:
+- title: Seasonal activities of the phyllosphere microbiome of perennial crops
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.nature.com/articles/s41467-023-36515-y
+analysisType: Raw and processed metagenome data; metatranscriptome data
+bibliographicCitation: https://data.jgi.doe.gov/search?q=503249
+schema_version: 0.1.7
+uid: GLBRC_503249
+created_at: '2025-11-21T01:31:06.795Z'
+updated_at: '2025-12-10T06:00:05.197Z'

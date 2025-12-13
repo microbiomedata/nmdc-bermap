@@ -1,0 +1,36 @@
+brc: GLBRC
+date: '2024-10-26'
+title: Rainfall events stimulate episodic associative nitrogen fixation in switchgrass
+creator:
+- name: Carmella Vizza
+  email: cvizza@hpu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+- name: G. Philip Robertson
+  email: robert30@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: false
+species:
+- NCBITaxID: 38727
+  scientificName: Panicum virgatum
+keywords:
+- Associative nitrogen fixation
+- free-living nitrogen fixation
+- non-symbiotic nitrogen fixation
+- soil moisture
+- plant phenology
+- Panicum virgatum
+identifier: 10.5061/dryad.s7h44j1h3
+repository: Dryad
+description: 'Data from: Rainfall events stimulate episodic associative nitrogen fixation
+  in switchgrass'
+relatedItem:
+- title: Rainfall events stimulate episodic associative nitrogen fixation in switchgrass
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1007/s10533-024-01180-w
+analysisType: Field data
+bibliographicCitation: https://datadryad.org/stash/dataset/doi:10.5061/dryad.s7h44j1h3
+schema_version: 0.1.7
+uid: GLBRC_10.5061/dryad.s7h44j1h3
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.198Z'

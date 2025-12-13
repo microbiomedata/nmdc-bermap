@@ -1,0 +1,79 @@
+id: jbei:238
+brc: JBEI
+date: '2016-04-15'
+title: Pereira et al. 2016
+creator:
+- name: Richard Heins
+  email: raheins@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords: []
+identifier: jbei:folder:00238
+repository: ICE
+datasetName: Pereira et al. 2016
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/238
+description: This dataset provides five plasmids based on the pVP16 vector, engineered
+  for controlled protein expression and purification. These plasmids enable the C-terminal
+  fusion of a gene of interest to an inducible protease tag (CPD). Upon induction,
+  the CPD protease facilitates cleavage at a specific leucine residue, allowing for
+  the removal of the fusion tag. The different plasmid versions contain successive
+  mutations to eliminate off-target leucine cleavage sites, thereby improving the
+  specificity of the system.
+relatedItem: []
+analysisType: affinity_purification
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pLigN-CPDv4
+  promoters: []
+  description: Modification of pVP16 such that gene of interest is fused at the C-terminal
+    side to a inducible protease (CPD) that cleaves after a leucine located in-between
+    the domains. Versions (e.g. v3, v4) refer to successive mutations to remove leucines
+    found in the C-terminal tag and at the C-terminal end of CPD itself.
+  selection_markers:
+  - Kan
+- backbone: pLigG-CPDv3
+  promoters: []
+  description: Modification of pVP16 such that gene of interest is fused at the C-terminal
+    side to a inducible protease (CPD) that cleaves after a leucine located in-between
+    the domains. Versions (e.g. v3, v4) refer to successive mutations to remove leucines
+    found in the C-terminal tag and at the C-terminal end of CPD itself.
+  selection_markers:
+  - Kan
+- backbone: pLigD-CPDv3
+  promoters: []
+  description: Modification of pVP16 such that gene of interest is fused at the C-terminal
+    side to a inducible protease (CPD) that cleaves after a leucine located in-between
+    the domains. Versions (e.g. v3, v4) refer to successive mutations to remove leucines
+    found in the C-terminal tag and at the C-terminal end of CPD itself.
+  selection_markers:
+  - Kan
+- backbone: pLigO-CPDv3
+  promoters: []
+  description: Modification of pVP16 such that gene of interest is fused at the C-terminal
+    side to a inducible protease (CPD) that cleaves after a leucine located in-between
+    the domains. Versions (e.g. v3, v4) refer to successive mutations to remove leucines
+    found in the C-terminal tag and at the C-terminal end of CPD itself.
+  selection_markers:
+  - Kan
+- backbone: pLigL-CPDv3
+  promoters: []
+  description: Modification of pVP16 such that gene of interest is fused at the C-terminal
+    side to a inducible protease (CPD) that cleaves after a leucine located in-between
+    the domains. Versions (e.g. v3, v4) refer to successive mutations to remove leucines
+    found in the C-terminal tag and at the C-terminal end of CPD itself.
+  selection_markers:
+  - Kan
+bibliographicCitation: https://public-registry.jbei.org/folders/238
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00238
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

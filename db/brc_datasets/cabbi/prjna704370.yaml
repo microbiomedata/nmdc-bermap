@@ -1,0 +1,31 @@
+brc: CABBI
+date: '2021-02-23'
+title: Multiallelic, targeted mutagenesis of magnesium chelatase with CRISPR-Cas9
+  provides a rapidly scorable phenotype in highly polyploid sugarcane
+creator:
+- name: Altpeter, Fredy
+  email: altpeter@ufl.edu
+  affiliation: University of Florida
+  primaryContact: true
+species:
+- NCBITaxID: 4546
+  scientificName: Saccharum spp. hybrid
+keywords:
+- Genomics
+- Sugarcane
+identifier: PRJNA704370
+repository: NCBI BioProject
+description: Study aimed to achieve high levels of multiallelic targeted mutagenesis
+  in sugarcane using CRISPR/Cas9 to target the chlorophyll synthesis gene magnesium
+  chelatase.
+relatedItem:
+- title: Multiallelic, Targeted Mutagenesis of Magnesium Chelatase with CRISPR-Cas9
+    Provides a Rapidly Scorable Phenotype in Highly Polyploid Sugarcane
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: http://doi.org/10.3389/fgeed.2021.654996
+analysisType: Genomics
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA704370
+schema_version: 0.1.1
+uid: CABBI_PRJNA704370
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

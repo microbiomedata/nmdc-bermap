@@ -1,0 +1,53 @@
+brc: CABBI
+date: '2021-02-24'
+title: Reactive Species and Reaction Pathways for the Oxidative Cleavage of 4-Octene
+  and Oleic Acid with H2O2 over Tungsten Oxide Catalysts
+creator:
+- name: David W. Flaherty
+  email: dflaherty3@gatech.edu
+  affiliation: Georgia Institute of Technology
+  primaryContact: true
+keywords:
+- Oxidative cleavage
+- UV-vis spectra
+- Raman spectra
+identifier: 10.13012/B2IDB-6782711_V1
+repository: Illinois Data Bank
+description: Oxidative cleavage of carbon–carbon double bonds (C═C) in alkenes and
+  fatty acids produces aldehydes and acids valued as chemical intermediates. Solid
+  tungsten oxide catalysts are low cost, nontoxic, and selective for the oxidative
+  cleavage of C═C bonds with hydrogen peroxide (H2O2) and are, therefore, a promising
+  option for continuous processes. Despite the relevance of these materials, the elementary
+  steps involved and their sensitivity to the form of W sites present on surfaces
+  have not been described. Here, we combine in situ spectroscopy and rate measurements
+  to identify significant steps in the reaction and the reactive species present on
+  the catalysts and examine differences between the kinetics of this reaction on isolated
+  W atoms grafted to alumina and on those exposed on crystalline WO3 nanoparticles.
+  Raman spectroscopy shows that W–peroxo complexes (W–(η2-O2)) formed from H2O2 react
+  with alkenes in a kinetically relevant step to produce epoxides, which undergo hydrolysis
+  at protic surface sites. Subsequently, the CH3CN solvent deprotonates diols to form
+  alpha-hydroxy ketones that react to form aldehydes and water following nucleophilic
+  attack of H2O2. Turnover rates for oxidative cleavage, determined by in situ site
+  titrations, on WOx–Al2O3 are 75% greater than those on WO3 at standard conditions.
+  These differences reflect the activation enthalpies (ΔH‡) for the oxidative cleavage
+  of 4-octene that are much lower than those for the isolated WOx sites (36 ± 3 and
+  60 ± 6 kJ·mol–1 for WOx–Al2O3 and WO3, respectively) and correlate strongly with
+  the difference between the enthalpies of adsorption for epoxyoctane (ΔHads,epox),
+  which resembles the transition state for epoxidation. The WOx–Al2O3 catalysts mediate
+  oxidative cleavage of oleic acid with H2O2 following a mechanism comparable to that
+  for the oxidative cleavage of 4-octene. The WO3 materials, however, form only the
+  epoxide and do not cleave the C–C bond or produce aldehydes and acids. These differences
+  reflect the distinct site requirements for these reaction pathways and indicate
+  that acid sites required for diol formation are strongly inhibited by oleic acids
+  and epoxides on WO3 whereas the Al2O3 support provides sites competent for this
+  reaction and increase the yield of the oxidative cleavage products.
+relatedItem:
+- title: Reactive Species and Reaction Pathways for the Oxidative Cleavage of 4-Octene
+    and Oleic Acid with H2O2 over Tungsten Oxide Catalysts
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1021/acscatal.0c05393
+bibliographicCitation: https://doi.org/10.13012/B2IDB-6782711_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-6782711_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

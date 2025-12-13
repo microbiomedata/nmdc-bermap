@@ -1,0 +1,185 @@
+id: jbei:193
+brc: JBEI
+date: '2015-05-21'
+title: George et al. 2014
+creator:
+- name: Kevin George
+  email: kwgeorge@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Howard Chou
+  email: hchou@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- 2B-rv
+- pBbB8k-NudB
+- 3D
+- 3B
+- 2D
+- 1D
+- 2A
+- 2C
+- pTrc99A-NudB-PMD-MKco
+- 2B
+- pTrc99A-NudB-PMD
+- 2B-T7
+- 3A
+- 2A-T7
+- 1C
+- 3C
+identifier: jbei:folder:00193
+repository: ICE
+datasetName: George et al. 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/193
+description: This dataset comprises 19 plasmids designed for the metabolic engineering
+  and optimization of the mevalonate (MVA) pathway. The collection systematically
+  explores strategies to improve pathway flux, including codon optimization of key
+  enzymes (HMGS, HMGR, PMK, MK), variations in gene order, and tuning expression with
+  different promoters (T7, trc). Several constructs also incorporate the NudB phosphatase,
+  likely to mitigate the toxicity of pathway intermediates and improve final product
+  titers.
+relatedItem:
+- title: George, K. W., Chen, A., Jain, A., Batth, T. S., Baidoo, E. E., Wang, G.,
+    Adams, P. D., Petzold, C. J., Keasling, J. D., &amp; Lee, T. S. (2014). “Correlation
+    analysis of targeted proteins and metabolites to assess and engineer microbial
+    isopentenol production”. Biotechnol Bioeng, 111(8), 1648-1658.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Chou HH, Keasling JD. 2012. Synthetic pathway for production of five-carbon
+    alcohols from isopentenyl diphosphate. Appl Environ Microbiol 78:7849–7855.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: George, K. W., Chen, A., Jain, A., Batth, T. S., Baidoo, E. E., Wang, G.,
+    Adams, P. D., Petzold, C. J., Keasling, J. D., &amp; Lee, T. S. (2014). “Correlation
+    analysis of targeted proteins and metabolites to assess and engineer microbial
+    isopentenol production”. Biotechnol Bioeng, 111(8), 1648-1658. Also used in Shi,
+    J., George, K. W., Sun, N., He, W., Li, C., Stavila, V., Keasling, J. D., Simmons,
+    B. A., Lee, T. S., &amp; Singh, S. (2015). "Impact of Pretreatment Technologies
+    on Saccharification and Isopentenol Fermentation of Mixed Lignocellulosic Feedstocks".
+    BioEnergy Research, 1-10. doi, 10.1007/s12155-015-9588-z http://dx.doi.org/10.1007/s12155-015-9588-z
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pTrc99A-NudB-PMD-MKco
+  promoters: []
+  description: PMD-MKco cloned downstream of Howard's NudB construct
+  selection_markers:
+  - Carb
+- backbone: MevTsa-PMKco-MKco
+  promoters: []
+  description: MevTsa with PMKco-MKco
+  selection_markers:
+  - Cm
+- backbone: MevTsa-T1002-Ptrc-PMKco-MKco
+  promoters: []
+  description: MevTsa with supplemental trc promoter driving PMKco-MKco
+  selection_markers:
+  - Cm
+- backbone: MevTsa-T1002-Ptrc-MKco-PMKco
+  promoters: []
+  description: MevTsa with supplemental trc promoter driving MKco-PMKco
+  selection_markers:
+  - Cm
+- backbone: pBbB8k-NudB
+  promoters: []
+  description: NudB in an arabinose inducible promoter
+  selection_markers:
+  - Kanamycin
+- backbone: MevTaco-rPMKco-MKco
+  promoters: []
+  description: MevT with codon optimized HMGS and HMGR but original atoB followed
+    by a RBS variant of PMKco and MKco
+  selection_markers:
+  - Cm
+- backbone: MevTaco-T1002-T7-PMKco-MKco
+  promoters: []
+  description: MevT with codon optimized HMGS and HMGR but original atoB with supplemental
+    T7 promoter driving PMKco-MKco
+  selection_markers:
+  - Cm
+- backbone: pBbA5c-MevTaco-T1002-Ptrc-MKco-PMKco
+  promoters: []
+  description: MevT with codon optimized HMGS and HMGR but original atoB with supplemental
+    trc promoter driving MKco-PMKco
+  selection_markers:
+  - Cm
+- backbone: MevTaco-T1002-T7-MKco-PMKco
+  promoters: []
+  description: MevTaco with T7 promoter driving MKco-PMKco
+  selection_markers:
+  - Cm
+- backbone: MevTaco-T1002-Ptrc-PMKco-MKco
+  promoters: []
+  description: MevT with codon optimized HMGS and HMGR but original atoB with supplemental
+    trc promoter driving PMKco-MKco
+  selection_markers:
+  - Cm
+- backbone: pBbA5c-MevTaco-PMKco-MKco
+  promoters: []
+  description: MevT with codon optimized HMGS and HMGR but original atoB with PMKco-MKco
+    cloned downstream
+  selection_markers:
+  - Cm
+- backbone: pBbA5c-MevTo-T1002-Ptrc-PMKco-MKco
+  promoters: []
+  description: MevTo with supplemental Ptrc promoter driving PMKco-MKco cloned from
+    pKWG0012
+  selection_markers:
+  - Cm
+- backbone: pBbA5c-MevTaco-MKco-PMKco
+  promoters: []
+  description: MevT with codon optimized HMGS and HMGR but original AtoB with MKco
+    and PMKco downstream cloned from pKWG0011
+  selection_markers:
+  - Cm
+- ori: p15A
+  backbone: pBbA5c-MevTo-PMKco-MKco
+  promoters:
+  - T7 lac
+  description: MevTo with PMKco-MKco cloned from pKWG0012
+  selection_markers:
+  - Cm
+- backbone: pBbA5c-MevTo-T1002-Ptrc-MKco-PMKco
+  promoters: []
+  description: MevTo with supplemental Ptrc promoter driving MKco-PMKco cloned from
+    pKWG0011
+  selection_markers:
+  - Cm
+- backbone: pNudB
+  promoters: []
+  description: NudB
+  selection_markers:
+  - Amp
+- ori: p15A
+  backbone: pBbA5c-MevTo-MKco-PMKco
+  promoters:
+  - PlacUV5
+  description: MevT original with MKco and PMKco cloned from pKWG0011.
+  selection_markers:
+  - Cm
+- backbone: MevTsa-MKco-PMKco
+  promoters: []
+  description: MevTsa with MKco-PMKco
+  selection_markers:
+  - Cm
+- backbone: pTrc99A-NudB-PMD
+  promoters: []
+  description: PMD cloned downstream of Howard's NudB construct
+  selection_markers:
+  - Carb
+bibliographicCitation: https://public-registry.jbei.org/folders/193
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00193
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

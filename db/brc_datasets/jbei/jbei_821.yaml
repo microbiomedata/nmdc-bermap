@@ -1,0 +1,283 @@
+id: jbei:821
+brc: JBEI
+date: '2023-09-27'
+title: Aspergillus oryzae synbio paper
+creator:
+- name: Vayu Maini Rekdal
+  email: vayumainirekdal@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 5062
+  scientificName: Aspergillus oryzae
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 3847
+  scientificName: Glycine max
+keywords: []
+identifier: jbei:folder:00821
+repository: ICE
+datasetName: Aspergillus oryzae synbio paper
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/821
+description: This dataset provides 40 plasmids for synthetic biology applications
+  in the filamentous fungus *Aspergillus oryzae*. The collection is designed for engineering
+  metabolic pathways, featuring expression cassettes for the heme and ergothioneine
+  biosynthetic pathways, as well as for producing soy leghemoglobin. It also includes
+  a suite of tools for characterizing promoters and controlling gene expression, such
+  as a Bm3R1-VP16 synthetic transcription factor system and vectors for targeted integration
+  at multiple neutral genomic loci.
+relatedItem: []
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: ColE1
+  backbone: pTWIST_chro2-2_pTEF1-Egt2-TamyB
+  promoters: []
+  description: Plasmid harboring A. oryzae ergothioneine biosynthetic enzyme Egt2
+    under pTEF1 promoter for integration at chro2-2 neutral locus
+  selection_markers: []
+- ori: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication
+  backbone: pTWIST_chro6-2_BmVp_UAS_Ao0583_legH
+  promoters: []
+  description: Plasmid carrying both Bm3R1-VP16 sTF and gene (soy LegH C2) expressed
+    from Ao0583 core promoter with 6x UAS at chro6-2 locus
+  selection_markers: []
+- ori: ColE1
+  backbone: pTWIST_chro5-1_pAmyB_hemC
+  promoters: []
+  description: Plasmid harboring A. oryzae heme biosynthetic enzyme hemC under the
+    expression of the pAmyB promoter for integration at chro5-1 neutral locus in A.
+    oryzae
+  selection_markers: []
+- ori: ColE1
+  backbone: pTWIST_chro7-1_pTEF1-CPO
+  promoters: []
+  description: Plasmid harboring A. oryzae heme biosynthetic enzyme CPO under the
+    expression of the pTEF1 promoter for integration at chro7-1 neutral locus in A.
+    oryzae
+  selection_markers: []
+- ori: ColE1
+  backbone: pTWIST_chro1-3_pTEF1-LegH-TamyB
+  promoters: []
+  description: Plasmid harboring soy leghemoglobin LegH under pTEF1 promoter for integration
+    at chro1-3 neutral locus in A. oryzae
+  selection_markers: []
+- ori: ColE1
+  backbone: pTWIST_chro1-2-pAmyB_ALASdHRM
+  promoters: []
+  description: Plasmid harboring A. oryzae heme biosynthetic enzyme ALAS Heme Regulatory
+    Motif (HRM) mutant under the expression of the pAmyB promoter for integration
+    at chro1-2 neutral locus in A. oryzae
+  selection_markers: []
+- ori: ColE1
+  backbone: pTWIST_chro1-3_TtrpC-Egt1-p4_2-Egt2-TamyB
+  promoters: []
+  description: Plasmid harboring A. oryzae ergothioneine biosynthetic enzymes Egt1
+    and Egt2 under p4-2 endogenous bidirectional promoter for integration at chro1-3
+    neutral locus
+  selection_markers: []
+- ori: Carbenicillin in E. coli
+  backbone: pTWIST_chro2-2_pTEF1_UROD
+  promoters: []
+  description: Plasmid harboring A. oryzae heme biosynthetic enzyme UROD under the
+    expression of the pTEF1 promoter for integration at chro2-2 neutral locus in A.
+    oryzae
+  selection_markers: []
+- ori: ColE1
+  backbone: pTWIST_chro1-3_pTEF1-Egt1-TamyB
+  promoters: []
+  description: Plasmid harboring A. oryzae ergothioneine biosynthetic enzyme Egt1
+    under pTEF1 promoter for integration at chro1-3 neutral locus
+  selection_markers: []
+- ori: ColE1
+  backbone: pTWIST_chro1-3-DC_TGRT_p4-2
+  promoters: []
+  description: Plasmid for evaluation of candidate bidirectional promoter in A. oryzae
+  selection_markers: []
+- ori: ColE1
+  backbone: pTWIST_chro1-3-DC_TGRT_p2-1
+  promoters: []
+  description: Plasmid for evaluation of candidate bidirectional promoter in A. oryzae
+  selection_markers: []
+- ori: ColE1
+  backbone: pTWIST_chro2-2_An_201205-mCherry-TamyB
+  promoters: []
+  description: Plasmid for evaluating core promoter expression using Bm3R1 - VP16
+    synthetic transcription factor system with An201205 core promoter but NO UAS (negative
+    control)
+  selection_markers: []
+- ori: ColE1
+  backbone: pTWIST_niaD_pAmyB-mCherry-TamyB_nopyrG
+  promoters: []
+  description: plasmid for niaD locus in Aspergillus oryzae containing mcherry under
+    the pAmyB promoter. This plasmid has the pyrG marker for selection in A. oryzae
+    removed, facilitating dual transformation at two separate loci.
+  selection_markers: []
+- ori: ColE1
+  backbone: pTWIST_niaD_pAmyB-GFP-TamyB
+  promoters: []
+  description: plasmid for niaD locus in Aspergillus oryzae containing GFP under the
+    pAmyB promoter
+  selection_markers: []
+- ori: ColE1
+  backbone: pTWIST_chro4_1-DC_GFP
+  promoters: []
+  description: Neutral locus plasmid for integration at chro4-1 neutral locus in A.
+    oryzae
+  selection_markers: []
+- ori: ColE1
+  backbone: pTWIST_amyA_pTEF1-GFP-TamyB
+  promoters: []
+  description: plasmid for amyA locus in Aspergillus oryzae containing GFP under the
+    pTEF1 promoter
+  selection_markers: []
+- ori: ColE1
+  backbone: pTWIST_yA_pAmyB-GFP-TamyB
+  promoters: []
+  description: plasmid targeting yA locus in Aspergillus oryzae containing GFP under
+    the pAmyB promoter
+  selection_markers:
+  - Carb
+- ori: ColE1
+  backbone: pTWIST_niaD_pAmyB-mCherry-TamyB
+  promoters: []
+  description: plasmid for niaD locus in Aspergillus oryzae containing mcherry under
+    the pAmyB promoter
+  selection_markers: []
+- ori: ColE1
+  backbone: pTWIST_wA_pAmyB-GFP-TamyB
+  promoters: []
+  description: Targeting plasmid for wA locus in Aspergillus oryzae containing GFP
+    under the pAmyB promoter
+  selection_markers: []
+- ori: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication
+  backbone: pTWIST_chro1-3_pTEF1-eGFP
+  promoters: []
+  description: Neutral locus plasmid targeting chro1-3 in a oryzae
+  selection_markers: []
+- ori: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication
+  backbone: pTWIST_chro6-2_pTEF1-eGFP
+  promoters: []
+  description: Neutral locus plasmid targeting integration at chro6-2 locus in A.
+    oryzae
+  selection_markers: []
+- ori: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication
+  backbone: pTWIST_chro1-2_pTEF1-eGFP
+  promoters: []
+  description: Neutral locus plasmid targeting integration at chro1-2 locus in A.
+    oryzae
+  selection_markers: []
+- ori: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication
+  backbone: chro1-2_An008cp_Bm-Vp
+  promoters: []
+  description: Plasmid for expressing Bm3R1-VP16 sTF from An008 core promoter at chro1-2
+    locus in A. oryzae
+  selection_markers: []
+- ori: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication
+  backbone: pTWIST_chro6-1_pTEF1-eGFP
+  promoters: []
+  description: Neutral locus plasmid targeting integration at chro6-1 locus in A.
+    oryzae
+  selection_markers: []
+- ori: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication
+  backbone: pTWIST_chro2-2_pTEF1-eGFP
+  promoters: []
+  description: Neutral locus plasmid targeting chro2-2 in A. oryzae
+  selection_markers:
+  - Carb
+- ori: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication
+  backbone: pTWIST_chro7-1_pTEF1-eGFP
+  promoters: []
+  description: Neutral locus plasmid targeting integration at chro7-1 locus in A.
+    oryzae
+  selection_markers: []
+- ori: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication
+  backbone: pTWIST_chro2-2:Ptef1-mCherry-TamyB
+  promoters: []
+  description: Plasmid for evaluating promoter strength
+  selection_markers: []
+- ori: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication
+  backbone: pTWIST_chro1-3_TGRT_Ao-hhf-2xUAS-v1-gpdA
+  promoters: []
+  description: Plasmid for synthetic bidirectional promoter with hhf / gpdA core promtoers,
+    driving GFP and RFP expression
+  selection_markers: []
+- ori: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication
+  backbone: pTWIST_chro2-2:PamyB-mCherry-TamyB
+  promoters: []
+  description: Plasmid for evaluating promoter strength
+  selection_markers: []
+- ori: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication
+  backbone: pTWIST_chro5-1_pTEF1-eGFP
+  promoters: []
+  description: Neutral locus plasmid targeting integration at chro5-1 locus in A.
+    oryzae
+  selection_markers: []
+- ori: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication
+  backbone: pTWIST_chro2-2:UAS_6xBm3R1_v1-CP_Ao_prxA-mCherry-TamyB
+  promoters: []
+  description: Plasmid for evaluating core promoter expression using Bm3R1 - VP16
+    synthetic transcription factor system
+  selection_markers: []
+- ori: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication
+  backbone: pTWIST_chro2-2:UAS_6xBm3R1_v1-CP_Ao_hhfA-mCherry-TamyB
+  promoters: []
+  description: Plasmid for evaluating core promoter expression using Bm3R1 - VP16
+    synthetic transcription factor system
+  selection_markers: []
+- ori: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication
+  backbone: pTWIST_chro2-2:UAS_6xBm3R1_v1-CP_Ao_pdcA-mCherry-TamyB
+  promoters: []
+  description: Plasmid for evaluating core promoter expression using Bm3R1 - VP16
+    synthetic transcription factor system
+  selection_markers: []
+- ori: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication
+  backbone: pTWIST_chro2-2:UAS_6xBm3R1_v1-CP_Ao_0336-mCherry-TamyB
+  promoters: []
+  description: Plasmid for evaluating core promoter expression using Bm3R1 - VP16
+    synthetic transcription factor system
+  selection_markers: []
+- ori: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication
+  backbone: pTWIST_chro2-2:UAS_6xBm3R1_v1-CP_Ao_gpdA-mCherry-TamyB
+  promoters: []
+  description: Plasmid for evaluating core promoter expression using Bm3R1 - VP16
+    synthetic transcription factor system
+  selection_markers: []
+- ori: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication
+  backbone: pTWIST_chro2-2:UAS_6xBm3R1_v1-CP_Ao_0583-mCherry-TamyB
+  promoters: []
+  description: Plasmid for evaluating core promoter expression using Bm3R1 - VP16
+    synthetic transcription factor system
+  selection_markers: []
+- ori: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication
+  backbone: pTWIST_chro2-2:UAS_6xBm3R1_v1-CP_Ao_0666-mCherry-TamyB
+  promoters: []
+  description: Plasmid for evaluating core promoter expression using Bm3R1 - VP16
+    synthetic transcription factor system
+  selection_markers: []
+- ori: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication
+  backbone: pTWIST_chro2-2:UAS_6xBm3R1_v1-CP_Ao_aspnd1-mCherry-TamyB
+  promoters: []
+  description: Plasmid for evaluating core promoter expression using Bm3R1 - VP16
+    synthetic transcription factor system
+  selection_markers: []
+- ori: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication
+  backbone: pTWIST_chro2-2:UAS_6xBm3R1_v1-CP_An_201205-mCherry-TamyB
+  promoters: []
+  description: Plasmid for evaluating core promoter expression using Bm3R1 - VP16
+    synthetic transcription factor system
+  selection_markers: []
+- ori: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication
+  backbone: pTWIST_chro2-2:UAS_6xBm3R1_v1-CP_Ao_amy1-mCherry-TamyB
+  promoters: []
+  description: high-copy-number ColE1/pMB1/pBR322/pUC origin of replication
+  selection_markers: []
+bibliographicCitation: https://public-registry.jbei.org/folders/821
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00821
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

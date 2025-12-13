@@ -1,0 +1,97 @@
+id: jbei:401
+brc: JBEI
+date: '2018-12-11'
+title: Dong et al. 2019
+creator:
+- name: Jie Dong
+  email: jiedong@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Alberto Rodriguez
+  email: alberto@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Jana Mueller
+  email: jmueller@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Jamie Meadows
+  email: jmeadows@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Sarah Richardson
+  email: smrichardson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Ee-Been Goh
+  email: egoh@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 303
+  scientificName: Pseudomonas putida
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 1270
+  scientificName: Micrococcus luteus
+keywords: []
+identifier: jbei:folder:00401
+repository: ICE
+datasetName: Dong et al. 2019
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/401
+description: This dataset provides genetic tools for the metabolic engineering of
+  *Pseudomonas putida* to control fatty acid and polyhydroxyalkanoate (PHA) production.
+  The collection includes suicide plasmids for deleting key genes in PHA metabolism
+  (`phaC1`, `phaZ`, `phaC2`) and fatty acid beta-oxidation (`FadAB`). A broad-host-range
+  expression vector is also provided to express a heterologous fatty acid pathway
+  using genes such as *'tesA*, *fadB*, and *fadM*.
+relatedItem:
+- title: Ouyang et al., Macromol. Biosci. 2007, 7, 227–233
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Ouyang et al., Biomacromolecules 2007, 8, 2504-2511
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: http://www.atcc.org/Products/All/47055.aspx
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pJD01
+  promoters: []
+  description: Suicide plasmid for knockout phaC1, phaZ, and phaC2 in Pseudomonas
+    putida KT2440, mt-2 or KT2442
+  selection_markers:
+  - Kan
+- backbone: pJD02
+  promoters: []
+  description: Suicide plasmid for knocking out FadAB in Pseudomonas putida KT2440,
+    mt-2 or KT2442
+  selection_markers:
+  - Kan
+- backbone: pJM20
+  promoters: []
+  description: Broad host range vector pBBR1-MCS2 containing 'tesA (E. coli), fadB
+    (E. coli), Mlut_11700 (M. luteus) and fadM (E. coli)  under control of BAD promoter
+  selection_markers:
+  - KanR
+- backbone: pK18mobsacB
+  promoters: []
+  description: suicide vector
+  selection_markers:
+  - kan sacB
+bibliographicCitation: https://public-registry.jbei.org/folders/401
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00401
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

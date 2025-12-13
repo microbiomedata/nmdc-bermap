@@ -1,0 +1,35 @@
+brc: GLBRC
+date: '2022-03-28'
+title: phyllosphere metagenome
+creator:
+- name: Adina Howe
+  email: adina@iastate.edu
+  affiliation: CABBI - University of Illinois
+  primaryContact: true
+- name: Ashley Shade
+  email: ashley.shade@cnrs.fr
+  affiliation: Laboratoire Ecologie Microbienne at the University of Lyon, France
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Multispecies
+keywords:
+- Seasons
+- Microbiota/genetics
+- bacteria/genetics
+- metagenomce
+- panicum
+identifier: PRJNA800073
+repository: NCBI BioProject
+description: Genome-centric analyses of seasonal phyllosphere microbiome activities
+  in perennial crops
+relatedItem:
+- title: Seasonal activities of the phyllosphere microbiome of perennial crops
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.nature.com/articles/s41467-023-36515-y
+analysisType: metagenome assembled genomes
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA800073
+schema_version: 0.1.7
+uid: GLBRC_PRJNA800073
+created_at: '2025-11-19T18:00:04.600Z'
+updated_at: '2025-12-10T06:00:05.197Z'

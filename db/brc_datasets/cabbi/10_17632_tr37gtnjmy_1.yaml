@@ -1,0 +1,41 @@
+brc: CABBI
+date: '2022-03-08'
+title: Photosynthesis in Aging Perennial and Leaf Nitrogen
+creator:
+- name: Heaton, Emily
+  email: heaton6@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 183674
+  scientificName: Miscanthus x giganteus
+keywords:
+- miscanthus
+- photosynthesis
+- aging effects
+- nitrogen
+identifier: 10.17632/tr37gtnjmy.1
+repository: Mendeley Data
+description: 'Perennial energy grasses are a fundamental component of the emerging
+  bioeconomy. While their yield dynamics and environmental services are being widely
+  studied, little attention has been given to how the physiological changes associated
+  with perenniality (e.g., nutrient cycling) that underpin yield and environmental
+  services, change as a function of age. Across species, perennial grasses show a
+  photosynthetic decline as a function of stand age, however, the physiological drivers
+  of this age-related decline are poorly understood. In this manuscript we ask: by
+  how much does nitrogen dilution in larger older plants contribute to this photosynthetic
+  decline? Our results support the hypothesis that nitrogen dilution did not limit
+  photosynthesis in mature stands. Compared per unit of area-based leaf nitrogen,
+  photosynthesis of fertilized mature stands was still 26% lower than unfertilized
+  juvenile stands. We hypothesize that the lack of late-season carbohydrate sinks
+  may instead drive the age-related decline in photosynthesis.'
+relatedItem:
+- title: Photosynthetic Decline in Aging Perennial Grass is Not Fully Explained by
+    Leaf Nitrogen
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1093/jxb/erac382
+bibliographicCitation: https://doi.org/10.17632/tr37gtnjmy.1
+schema_version: 0.1.1
+uid: CABBI_10.17632/tr37gtnjmy.1
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.626Z'

@@ -1,0 +1,132 @@
+id: jbei:195
+brc: JBEI
+date: '2015-05-21'
+title: Haushalter et al. 2015
+creator:
+- name: William Holtz
+  email: wjholtz@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Robert Haushalter
+  email: rwhaushalter@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Dan Groff
+  email: djgroff@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 1718
+  scientificName: Corynebacterium glutamicum
+- NCBITaxID: 37329
+  scientificName: Nocardia farcinica
+- NCBITaxID: 1270
+  scientificName: Micrococcus luteus
+- NCBITaxID: 2743
+  scientificName: Marinobacter aquaeolei
+- NCBITaxID: 1680
+  scientificName: Bifidobacterium adolescentis
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- tuberculosis fatty acid synthesis
+- CoA reductase
+- ACP reductase
+identifier: jbei:folder:00195
+repository: ICE
+datasetName: Haushalter et al. 2015
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/195
+description: This dataset comprises nine plasmids for engineering fatty acid metabolism
+  and producing advanced biofuels. The collection centers on the expression of diverse,
+  large type I fatty acid synthases (FAS) from various bacterial sources, including
+  *Corynebacterium glutamicum* and *Nocardia farcinica*. These plasmids enable the
+  construction of synthetic pathways for producing intermediates like acyl-CoAs and
+  final products such as methyl ketones.
+relatedItem:
+- title: Haushalter, R. W., Groff, D., Deutsch, S., The, L., Chavkin, T. A., Brunner,
+    S. F., Katz, L., &amp; Keasling, J. D. (2015). "Development of an orthogonal fatty
+    acid biosynthesis system in E. coli for oleochemical production". Metab Eng. doi,
+    10.1016/j.ymben.2015.04.003 http://www.ncbi.nlm.nih.gov/pubmed/25887638
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: ColE1
+  backbone: pBbE0c-RFP
+  promoters: []
+  description: BglBrick vector based on the work of Rachel Krupa w/constitutive RFP
+    cassette
+  selection_markers:
+  - Chloramphenicol
+- ori: colE1
+  backbone: E5C.tesA.fadD
+  promoters:
+  - LacUV5
+  description: E5C expressing 'tesA and fadD in a single operon. Produces acyl-CoAs
+    in vivo
+  selection_markers:
+  - Chloramphenicol
+- ori: pBBR1
+  backbone: B5K.MK
+  promoters:
+  - lacUV5
+  description: expresses fadM in one operon, and fadB + M.lut coA oxidase in a second
+    operon. Produces methyl ketones from acyl-CoAs
+  selection_markers:
+  - kanamycin
+- ori: ColE1
+  backbone: E5C.cgFAS1B
+  promoters:
+  - lac UV5
+  description: Expresses type I FAS from C. glutamicum FAS1B (YP_225128.1, 8907 bp)
+  selection_markers:
+  - Chloramphenicol
+- ori: ColE1
+  backbone: E5C.nfFAS
+  promoters:
+  - lacUV5
+  description: Expresses the type I FAS from Norcadia farcinica
+  selection_markers:
+  - Chloremphenicol
+- ori: ColE1
+  backbone: pBBE5C-M. tuberculosis Fas1
+  promoters:
+  - lacUV5
+  description: BB vector E5C with TB FAS in the BGL-brick site
+  selection_markers:
+  - Cm
+- ori: ColE1
+  backbone: E5C.cgFAS1A
+  promoters:
+  - LacUV5
+  description: plasmid expressing codon optimized C. glutamicum FAS1A (YP_226736.1,
+    8988 bp)
+  selection_markers:
+  - Chlorampenicol
+- ori: pBBR1
+  backbone: pBbB5K-Maqu2220
+  promoters:
+  - LacUV5
+  description: Plasmid expressing the CoA/ACP-reductase Maqu2220 from Marinobacter
+    aquaeolei
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: "pBBE5C-B. Adol fas\t"
+  promoters:
+  - lacUV5
+  description: 'pBBE5C with B. Adol FAS '
+  selection_markers:
+  - Chloramphenicol
+bibliographicCitation: https://public-registry.jbei.org/folders/195
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00195
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

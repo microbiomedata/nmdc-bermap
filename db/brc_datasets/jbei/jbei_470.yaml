@@ -1,0 +1,114 @@
+id: jbei:470
+brc: JBEI
+date: '2018-10-16'
+title: Leynaud-Kieffer_et_al_2019
+creator:
+- name: Laure Leynaud-Kieffer
+  email: laureleynaudkieffer@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Saori Campen
+  email: sacampen@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 5061
+  scientificName: Aspergillus niger
+- NCBITaxID: 1314
+  scientificName: Streptococcus pyogenes
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 162425
+  scientificName: Aspergillus nidulans
+keywords:
+- cDNA008
+- A.niger
+- Cas9 plasmid
+- cDNA010
+- mstC
+- pyrG
+- Cas9 Aspergillus niger pyrG
+- A. niger
+- glaA
+- albA
+- cDNA009
+- cDNA006
+- hph
+- Beta-glucosidase
+identifier: jbei:folder:00470
+repository: ICE
+datasetName: Leynaud-Kieffer_et_al_2019
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/470
+description: This dataset provides a collection of six plasmids for CRISPR-Cas9-based
+  genome engineering in the industrial fungus *Aspergillus niger*. The tools include
+  Cas9 expression vectors utilizing either *pyrG* or *hph* selection markers and donor
+  DNA templates for the deletion, disruption, or replacement of key genes such as
+  *glaA*, *mstC*, and *albA*. These resources enable advanced strain development for
+  industrial biotechnology and bioenergy applications.
+relatedItem:
+- title: 'Chiang YM, Meyer KM, Praseuth M, Baker SE, Bruno KS, Wang CCC. 2011 Characterization
+    of a polyketide synthase in Aspergillus niger whose product is a precursor for
+    both dihydroxynaphthalene (DHN) melanin and naphtho-y-pyrone. Fungal Genet Biol.
+    2011 48(4): 430-437.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pFC330
+  promoters: []
+  description: 'Plasmid used to express Cas9 into Aspergillus Niger, using the PyrG
+    fungal marker.
+
+    Plasmid containing Cas9 cassette codon optimized for Aspergillus niger derived
+    from S. pyogenes. AmpR for replication into DH10b, ori replication origin. AMA1
+    element for Aspergillus. Aspergillus nidulans tef1 promoter. SV40 nulear localization
+    signal. Aspergillus nidulans tef1 terminator. Fungal marker: PyrG.'
+  selection_markers:
+  - pyrG
+  - Amp
+- ori: ori
+  backbone: pllk039
+  promoters: []
+  description: In pUC57, the amplicon cDNA010 is made to be amplified and inserted
+    in A. niger and then excised to let a strain A. niger DmstC pyrG (-)
+  selection_markers:
+  - Ampicillin
+- ori: ori
+  backbone: pllk038
+  promoters: []
+  description: The amplicon cDNA009 is in the pUC57 made to be amplified and transform
+    in A. niger to delete glaA and replace with Beta-Glucosidase using the pyrG marker.
+  selection_markers:
+  - Ampicillin
+- ori: ori
+  backbone: pllk036
+  promoters: []
+  description: In pUC57, the amplicon cDNA008 is made to be inserted in A. niger and
+    then excised to let a strain A. niger albA(-) pyrG (-)
+  selection_markers:
+  - Ampicillin
+- ori: ori
+  backbone: pllk034
+  promoters: []
+  description: Contain cDNA006 amplicon (at the PacI/Nt.BbvCI) that has been integrated
+    in A. niger to disrupt the gene of albA by inserting a stop codon.
+  selection_markers:
+  - Ampicillin
+- backbone: pFC332
+  promoters: []
+  description: plasmid containing codon optimized Cas9 for Aspergillus niger with
+    hph marker, AMA1 cassette
+  selection_markers:
+  - hygromycin
+  - Ampicillin
+bibliographicCitation: https://public-registry.jbei.org/folders/470
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00470
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

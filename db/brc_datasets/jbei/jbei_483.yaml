@@ -1,0 +1,134 @@
+id: jbei:483
+brc: JBEI
+date: '2019-08-12'
+title: Blake-Hedges et al. 2019
+creator:
+- name: Jacquelyn Blake-Hedges
+  email: jblakehedges@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 83656
+  scientificName: Streptomyces tsukubensis
+- NCBITaxID: 303
+  scientificName: Pseudomonas putida
+- NCBITaxID: 279262
+  scientificName: Nocardia mexicana
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00483
+repository: ICE
+datasetName: Blake-Hedges et al. 2019
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/483
+description: This dataset contains 11 expression plasmids for characterizing enzymes
+  involved in acyl-CoA metabolism and polyketide biosynthesis. The collection primarily
+  features wild-type and a series of site-directed mutants of the *Streptomyces tsukubensis*
+  polyketide synthase proteins TcsA and TcsD, designed to probe enzyme function. It
+  also includes plasmids expressing acyl-CoA dehydrogenases from *Pseudomonas putida*
+  and *Nocardia mexicana* and an acyl carrier protein.
+relatedItem:
+- title: Blake-Hedges et al 2019
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: affinity_purification
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: ColE1
+  backbone: pBbE7a-PP2216-6xHis
+  promoters:
+  - T7
+  description: PP2216 short/medium-chain acyl-CoA dehydrogenase cloned from Pseudomonas
+    putida KT2440 gDNA into pBbE7a with a C-terminal linker-6xHis tag
+  selection_markers:
+  - Carbenicillin
+- ori: ColE1
+  backbone: pet28a-TcsD F79AI363A
+  promoters:
+  - T7
+  description: TcsD from S. tsukubensis cloned into expression plasmid pet28a, F79AI363A
+    mutant
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pBbE7a-NmexACAD-6xHis
+  promoters:
+  - T7
+  description: pBbE7a bearing the gamma,delta-acyl-CoA dehydrogenase DFR68_RS32290
+    (WP_068019852.1) from Nocardia mexicana NBRC 108244 which was codon-optimized
+    for E. coli and has a C-terminal 6xHis tag
+  selection_markers:
+  - Carbenicillin
+- ori: ColE1
+  backbone: pet28a-TcsA S98A
+  promoters:
+  - T7
+  description: TcsA S. tsukubensis cloned into expression plasmid pet28a, Serine 98
+    (AT active site serine) mutated to alanine to inactivate
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pBbE7a-NmexACP-6xHis
+  promoters:
+  - T7
+  description: pBbE7a bearing the acyl carrier protein DFR68_RS32295 (WP_068019854.1)
+    which was codon-optimized for E. coli and has a C-terminal 6xHis tag
+  selection_markers:
+  - Carbenicillin
+- ori: ColE1
+  backbone: pet28a-TcsA
+  promoters:
+  - T7
+  description: TcsA wild type sequence from S. tsukubensis cloned into expression
+    plasmid pet28a
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pet28a-TcsD F79A
+  promoters:
+  - T7
+  description: TcsD from S. tsukubensis cloned into expression plasmid pet28a, F79A
+    mutant
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pet28a-TcsD I363A
+  promoters:
+  - T7
+  description: TcsD from S. tsukubensis cloned into expression plasmid pet28a, I363A
+    mutant
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pet28a-TcsD F79AL83A
+  promoters:
+  - T7
+  description: TcsD from S. tsukubensis cloned into expression plasmid pet28a, F79AL83A
+    mutant
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pet28a-TcsD L83A
+  promoters:
+  - T7
+  description: TcsD from S. tsukubensis cloned into expression plasmid pet28a, L83A
+    mutant
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pet28a-TcsD
+  promoters:
+  - T7
+  description: TcsD wild type sequence from S. tsukubensis cloned into expression
+    plasmid pet28a
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/483
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00483
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.622Z'

@@ -1,0 +1,38 @@
+brc: GLBRC
+date: '2024-06-25'
+title: The influence of the number of tree searches on maximum likelihood inference
+  in phylogenomics
+creator:
+- name: Xing-Xing Shen
+  email: xingxingshen@zju.edu.cn
+  affiliation: Zhejiang University
+  primaryContact: true
+- name: Chris Todd Hittinger
+  email: cthittinger@wisc.edu
+  affiliation: GLBRC - University of Wisconsin-Madison
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Multispecies
+keywords:
+- heuristic tree search
+- hil climbing
+- local optima
+- maximum likelihood
+- phylogenomics
+- species tree estimation
+identifier: 10.6084/m9.figshare.17086259
+repository: FigShare
+description: This repository contains 19,414 multiple sequence alignments from 15
+  phylogenomic studies, all gene trees, and 20,000 simulated genes and trees.
+relatedItem:
+- title: The influence of the number of tree searches on maximum likelihood inference
+    in phylogenomics
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://academic.oup.com/sysbio/advance-article/doi/10.1093/sysbio/syae031/7700958
+analysisType: Code, Phylogenomic analyses
+bibliographicCitation: http://dx.doi.org/10.6084/m9.figshare.17086259
+schema_version: 0.1.7
+uid: GLBRC_10.6084/m9.figshare.17086259
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.197Z'

@@ -1,0 +1,37 @@
+brc: GLBRC
+date: '2022-09-14'
+title: Arabidopsis thaliana strain:Col-0 Raw sequence reads
+creator:
+- name: Federica Brandizzi
+  email: fb@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+species:
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+keywords:
+- Humans
+- Proteasome Endopeptidase Complex/metabolism
+- Arabidopsis Proteins/genetics/metabolism
+- Proteotoxic Stress
+- Protein Serine-Threonine Kinases/genetics/metabolism
+- Arabidopsis/metabolism
+- Basic-Leucine Zipper Transcription Factors/genetics/metabolism
+- Endoplasmic Reticulum/metabolism
+identifier: PRJNA880604
+repository: NCBI BioProject
+description: To investigate transcriptome changes in pir1-1 mutants, we performed
+  RNA sequencing (RNA-seq) analyses in Col-0 and pir1-1at 24 h of adaptive endoplasmic
+  reticulum stress in three biological replicates. Mock controls, which were treated
+  with DMSO, are included.
+relatedItem:
+- title: An IRE1-proteasome system signalling cohort controls cell fate determination
+    in unresolved proteotoxic stress of the plant endoplasmic reticulum
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.nature.com/articles/s41477-023-01480-3
+analysisType: raw sequence reads; RNA-seq
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA880604
+schema_version: 0.1.7
+uid: GLBRC_PRJNA880604
+created_at: '2025-11-19T18:00:04.599Z'
+updated_at: '2025-12-10T06:00:05.197Z'

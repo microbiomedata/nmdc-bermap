@@ -1,0 +1,44 @@
+brc: GLBRC
+date: '2019-08-05'
+title: 'BaRTv1.0: an improved barley reference transcript dataset to determine accurate
+  changes in the barley transcriptome using RNA-seq'
+creator:
+- name: Claire Halpin
+  email: c.halpin@dundee.ac.uk
+  affiliation: Division of Plant Sciences, School of Life Sciences, University of
+    Dundee at the James Hutton Institute, Dundee, United Kingdom
+  primaryContact: true
+- name: John Ralph
+  email: jralph@wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Barley
+keywords:
+- ferulate 5-hydroxylase
+- lignin
+- barley
+- RNAi
+- S/G
+- straw
+- biosynthetic pathway
+- bioeconomy
+identifier: zenodo.3360434
+repository: Zenodo
+description: A high confidence barley reference transcript dataset consisting of 60,444
+  genes with 177,240 transcripts has been generated. Compared to current barley transcripts,
+  BaRTv1.0 transcripts are generally longer, have less fragmentation and improved
+  gene models that are well supported by splice junction reads. Precise transcript
+  quantification using BaRTv1.0 allows routine analysis of gene expression and AS.
+relatedItem:
+- title: Downregulation of barley ferulate 5-hydroxylase dramatically alters straw
+    lignin structure without impact on mechanical properties
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.frontiersin.org/articles/10.3389/fpls.2022.1125003/full
+analysisType: RNA-seq
+bibliographicCitation: https://zenodo.org/records/3360434
+schema_version: 0.1.7
+uid: GLBRC_zenodo.3360434
+created_at: '2025-11-19T18:00:04.599Z'
+updated_at: '2025-12-10T06:00:05.197Z'

@@ -1,0 +1,36 @@
+brc: GLBRC
+date: '2024-08-29'
+title: Analysis of carbon capture at cellulosic biorefineries
+creator:
+- name: Christos T. Maravelias
+  email: maravelias@princeton.edu
+  affiliation: GLBRC - Princeton University
+  primaryContact: true
+species:
+- NCBITaxID: null
+  scientificName: NA
+keywords:
+- carbon capture and storage (CCS)
+- marginal lands
+- supply chain
+identifier: doi.org/10.6084/m9.figshare.24596394.v1
+repository: FigShare
+description: The large-scale production of cellulosic biofuels would involve spatially
+  distributed systems including biomass fields, logistics networks and biorefineries.
+  Better understanding of the interactions between landscape-related decisions and
+  the design of biorefineries with carbon capture and storage (CCS) in a supply chain
+  context is needed to enable efficient systems. Here we analyse the cost and greenhouse
+  gas mitigation potential for cellulosic biofuel supply chains in the US Midwest
+  using realistic spatially explicit land availability and crop productivity data
+  and consider fuel conversion technologies with detailed CCS design for their associated
+  CO2 streams.
+relatedItem:
+- title: Large-scale spatially explicit analysis of carbon capture at cellulosic biorefineries
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.nature.com/articles/s41560-024-01532-8
+analysisType: Field Data
+bibliographicCitation: doi.org/10.6084/m9.figshare.24596394.v1
+schema_version: 0.1.7
+uid: GLBRC_doi.org/10.6084/m9.figshare.24596394.v1
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.197Z'

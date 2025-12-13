@@ -1,0 +1,44 @@
+brc: CABBI
+date: '2022-10-10'
+title: Determining Spatially Varying Profit-Maximizing Management Practices for Miscanthus
+  and Switchgrass Production in the Rainfed United States
+creator:
+- name: Khanna, Madhu
+  email: khanna1@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 183674
+  scientificName: Miscanthus x giganteus
+- NCBITaxID: 38727
+  scientificName: Panicum virgatum L.
+keywords:
+- miscanthus
+- switchgrass
+- aging effects
+- nitrogen effects
+- yield
+identifier: 10.13012/B2IDB-9793873_V1
+repository: Illinois Data Bank
+description: The compiled datasets include county-level variables used for simulating
+  miscanthus and switchgrass production in 2287 counties across the rainfed U.S. including
+  five-year (2012-16) averaged growing season degree days (GDD), five-year (2012-16)
+  averaged growing season cumulative precipitation, National Commodity Crop Productivity
+  Index (NCCPI) values, regional dummies (only for miscanthus), the regional-level
+  random effect of the yield response function, N price, land cash rent, the first
+  year fixed cost (only for switchgrass), and separate datasets for simulating an
+  alternative model assuming a constant N rate. The GAMS codes are used to run the
+  simulation to obtain the main results including the age-varying profit-maximizing
+  N rate, biomass yields, and annual profits for miscanthus and switchgrass production
+  across counties in the rainfed U.S. The STATA codes are used to merge and analyze
+  simulation results and create summary statistics tables and key figures.
+relatedItem:
+- title: Determining Spatially Varying Profit-Maximizing Management Practices for
+    Miscanthus and Switchgrass Production in the Rainfed United States
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/gcbb.13021
+bibliographicCitation: https://doi.org/10.13012/B2IDB-9793873_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-9793873_V1
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.628Z'

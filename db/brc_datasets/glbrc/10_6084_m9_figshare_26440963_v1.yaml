@@ -1,0 +1,37 @@
+brc: GLBRC
+date: '2025-04-17'
+title: YeastConvergence2025
+creator:
+- name: Antonis Rokas
+  email: antonis.rokas@vanderbilt.edu
+  affiliation: Department of Biological SciencesVanderbilt University Nashville TN
+    37235 USA
+  primaryContact: true
+- name: Chris Todd Hittinger
+  email: chittinger@wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Sacharomycotina
+keywords:
+- convergent evolution
+- parallelism
+- gene family evolution
+identifier: 10.6084/m9.figshare.26440963.v1
+repository: FigShare
+description: Supplementary data for Convergent expansions of keystone gene families
+  drive metabolic innovation in Saccharomycotina yeasts
+relatedItem:
+- title: Convergent expansions of keystone gene families drive metabolic innovation
+    in Saccharomycotina yeasts
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.pnas.org/doi/10.1073/pnas.2500165122
+analysisType: Time calibrated phylogeny, gene family orthogroup size, matrix of metabolic
+  traits, utput directory of generax run for OG0004465 (SUC) gene family evolutionary
+  history, Summary statistics for each modified phylogenetic logistic regression test
+bibliographicCitation: https://figshare.com/articles/dataset/YeastConvergence2025/26440963
+schema_version: 0.1.7
+uid: GLBRC_10.6084/m9.figshare.26440963.v1
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.198Z'

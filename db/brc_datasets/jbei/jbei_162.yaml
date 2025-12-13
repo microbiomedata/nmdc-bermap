@@ -1,0 +1,85 @@
+id: jbei:162
+brc: JBEI
+date: '2015-03-23'
+title: Hagen et al. 2014
+creator:
+- name: Andrew Hagen
+  email: arhagen@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 146923
+  scientificName: Streptomyces parvulus
+keywords:
+- diacid
+- borrelidin
+- loading module
+- ACP
+- PKS
+identifier: jbei:folder:00162
+repository: ICE
+datasetName: Hagen et al. 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/162
+description: This dataset provides three plasmids for the heterologous expression
+  of the Borrelidin biosynthesis pathway in *E. coli*. The plasmids contain *E. coli*
+  codon-optimized genes from *Streptomyces parvulus* encoding key components of the
+  Borrelidin polyketide synthase (PKS). These components include the loading module's
+  acyl carrier protein (ACP) and the first two extension modules (BorA1 and BorA2),
+  which are essential for initiating the assembly of this polyketide natural product.
+relatedItem:
+- title: 'Hagen, Andrew, et al. "In Vitro Analysis of Carboxyacyl Substrate Tolerance
+    in the Loading and First Extension Modules of Borrelidin Polyketide Synthase."
+    Biochemistry 53.38 (2014): 5975-5977.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Hagen, A., Poust, S., de Rond, T., Yuzawa, S., Katz, L., Adams, P. D., Petzold,
+    C. J., &amp; Keasling, J. D. (2014). “In Vitro Analysis of Carboxyacyl Substrate
+    Tolerance in the Loading and First Extension Modules of Borrelidin Polyketide
+    Synthase”. Biochemistry, 53(38), 5975-5977. doi, 10.1021/bi500951c http://dx.doi.org/10.1021/bi500951c
+    http://pubs.acs.org/doi/pdfplus/10.1021/bi500951c
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Olano, C. et al. Biosynthesis of the Angiogenesis Inhibitor Borrelidin by
+    Streptomyces parvulus Tü4055. Chemistry &amp; Biology 11, 87–97 (2004). Hagen,
+    Andrew, et al. "In Vitro Analysis of Carboxyacyl Substrate Tolerance in the Loading
+    and First Extension Modules of Borrelidin Polyketide Synthase." Biochemistry 53.38
+    (2014): 5975-5977.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pSC101
+  backbone: pARH098
+  promoters:
+  - ptet
+  description: E. coli codon-optimized version of the BorA1 gene from S. parvulus
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pARH110
+  promoters:
+  - T7
+  description: The E. coli codon optimized ACP plus C-terminal linker from Borrelidin
+    PKS' loading module
+  selection_markers:
+  - Kan
+- ori: pSC101*
+  backbone: pARH100
+  promoters:
+  - pTet
+  description: Codon-optimized ORF of Borrelidin module 2 (BorA2) from Streptomyces
+    parvulus
+  selection_markers:
+  - Kan
+bibliographicCitation: https://public-registry.jbei.org/folders/162
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00162
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.619Z'

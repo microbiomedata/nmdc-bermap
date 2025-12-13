@@ -1,0 +1,21 @@
+brc: CABBI
+date: '2022-03-01'
+title: AmeriFlux US-UiD University of Illinois Restored Native Prairie, Dataset (2008-2024)
+creator:
+- name: Bernacchi, Carl J.
+  email: bernacch@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+keywords:
+- native prairie
+- carbon flux
+identifier: US-UiD
+repository: AmeriFlux
+description: Site harvested annually with a mower during winters starting 2009. No
+  fertilizer was applied, and not irrigated. Measurements were paused on March 23,
+  2016 and resumed in June 2024.
+bibliographicCitation: https://doi.org/10.17190/AMF/1987605
+schema_version: 0.1.1
+uid: CABBI_US-UiD
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.626Z'

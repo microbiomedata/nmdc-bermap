@@ -1,0 +1,45 @@
+brc: CABBI
+date: '2025-09-18'
+title: A 13-year Record Indicates Differences in the Duration and Depth of Soil Carbon
+  Accrual Among Potential Bioenergy Crops
+creator:
+- name: Evan DeLucia
+  email: delucia@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Carl Bernacchi
+  email: bernacch@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 3847
+  scientificName: Glycine max
+- NCBITaxID: 4577
+  scientificName: Zea mays
+- NCBITaxID: 183674
+  scientificName: Miscanthus x giganteus
+- NCBITaxID: 38727
+  scientificName: Panicum virgatum
+keywords:
+- soil organic carbon
+- carbon stable isotope ratios
+- litter
+- belowground biomass
+identifier: 10.13012/B2IDB-2312795_V1
+repository: Illinois Data Bank
+description: Data sets for material included in 'A 13-year record indicates differences
+  in the duration and depth of soil carbon accrual among potential bioenergy crops'
+  by Kantola et al., 2025, in Global Change Biology Bioenergy. Data include soil organic
+  carbon (SOC), carbon stable isotope ratios, annual belowground biomass, and annual
+  post-harvest litter for four crops, maize/soybean, miscanthus, switchgrass, and
+  prairie, between 2008 and 2021.
+relatedItem:
+- title: A 13-Year Record Indicates Differences in the Duration and Depth of Soil
+    Carbon Accrual Among Potential Bioenergy Crops
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/gcbb.70080
+bibliographicCitation: https://doi.org/10.13012/B2IDB-2312795_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-2312795_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

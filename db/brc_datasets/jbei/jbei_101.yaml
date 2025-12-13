@@ -1,0 +1,287 @@
+id: jbei:101
+brc: JBEI
+date: '2013-10-18'
+title: Linshiz et al. 2014
+creator:
+- name: Garima Goyal
+  email: ggoyal@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Sean Poust
+  email: spoust@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Changhao Bi
+  email: changhaobi@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Nathan Hillson
+  email: njhillson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Ee-Been Goh
+  email: egoh@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- fadB
+- Mlut_11700
+- beta-ketoacyl CoA overproducing
+identifier: jbei:folder:00101
+repository: ICE
+datasetName: Linshiz et al. 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/101
+description: This dataset contains 33 plasmids for synthetic biology and metabolic
+  engineering applications. The collection is centered around a combinatorial library
+  of various promoters and bicistronic design (BCD) elements fused to a GFP reporter
+  for quantifying gene expression strength. It also includes expression plasmids for
+  producing the bioproducts amorphadiene and isopentenol, alongside specific gene
+  mutants and cloning vectors.
+relatedItem:
+- title: 'Linshiz, G., Stawski, N., Goyal, G., Bi, C., Poust, S., Sharma, M., Mutalik,
+    V., Keasling, J.D., and Hillson, N.J. (2014) PR-PR Cross-Platform Laboratory Automation
+    System. ACS Synthetic Biology. DOI: 10.1021/sb4001728'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Keating, T. A., Miller, D. A., and Walsh, C. T. (2000) Expression, purification,
+    and characterization of HMWP2, a 229 kDa, six domain protein subunit of Yersiniabactin
+    synthetase., Biochemistry 39, 4729–39.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Bi, C., Su, P., Müller, J., Yeh, Y.C., Chhabra, S.R., Beller, H.R., Singer,
+    S.W., and Hillson, N.J. (2013) Development of a broad-host synthetic biology toolbox
+    for ralstonia eutropha and its application to engineering hydrocarbon biofuel
+    production. Microbial Cell Factories 12:107. DOI: 10.1186/1475-2859-12-107.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Goh, E. B., Baidoo, E. E., Keasling, J. D., and Beller, H. R. (2012) Engineering
+    of bacterial methyl ketone synthesis for biofuels, Appl Environ Microbiol 78,
+    70-80.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Invitrogen. Rual et al, Genome Res. 14:2128-2135, 2004.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pProm2_BCD20-GFP
+  promoters: []
+  description: Promoter2 with BCD20-gfp
+  selection_markers:
+  - Kanamycin
+- ori: f1, pBR322
+  backbone: pHMWP2.CH8-S1439A-Q1564*
+  promoters:
+  - T7 lac
+  description: pHMWP2.CH8-S1439A with stop codon mutation at HMWP2 coding sequence
+    position Q1564.
+  selection_markers:
+  - kan
+- backbone: pMBIS
+  promoters: []
+  description: one of a two plasmid system for amorphadiene production
+  selection_markers:
+  - Kanamycin
+- backbone: pKTMEAD
+  promoters: []
+  description: one of a two plasmid system for amorphadiene production
+  selection_markers:
+  - Chloramphenicol
+- ori: p15A
+  backbone: p530spec
+  promoters:
+  - PLacUV5
+  description: PlacUV5-LtesA-fadB-mlut
+  selection_markers:
+  - spectinomycin
+- ori: pBBR1MCS
+  backbone: pIsopen
+  promoters:
+  - pBAD
+  description: pBBR1 based expression plasmid for isopentenol production
+  selection_markers:
+  - Kanamycin
+- ori: pBBR1MCS
+  backbone: pIsopenOPT
+  promoters:
+  - pBAD
+  description: pBBR1 based expression plasmid for isopentenol production
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pProm11_BCD21-GFP
+  promoters: []
+  description: Promoter11 with BCD21-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pProm11_BCD20-GFP
+  promoters: []
+  description: Promoter11 with BCD20-gfp
+  selection_markers:
+  - Kanamycin
+- backbone: pBADTrfp
+  promoters:
+  - pBAD
+  description: Derived from pBBR1MCS;  kanR, PBAD - T7 stem loop – rfp
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pProm2_BCD1-GFP
+  promoters: []
+  description: Promoter2 with BCD1-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15
+  backbone: pProm1_BCD20-GFP
+  promoters: []
+  description: Promoter1 with BCD20-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pProm11_BCD1-GFP
+  promoters: []
+  description: Promoter11 with BCD1-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pProm11_BCD2-GFP
+  promoters: []
+  description: Promoter11 with BCD2-gfp
+  selection_markers:
+  - Kanamycin
+- ori: f1, pBR322
+  backbone: pHMWP2.CH8-S1439A
+  promoters:
+  - T7 lac
+  description: 'pHMWP2.CH8-S1439A '
+  selection_markers:
+  - Kan
+- ori: p15A
+  backbone: pProm9_BCD21-GFP
+  promoters: []
+  description: Promoter9 with BCD21-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pProm9_BCD20-GFP
+  promoters: []
+  description: Promoter9 with BCD20-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pProm9_BCD2-GFP
+  promoters: []
+  description: Promoter9 with BCD2-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pProm2_BCD21-GFP
+  promoters: []
+  description: Promoter2 with BCD21-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pProm1_BCD1-GFP
+  promoters: []
+  description: Promoter1 with BCD1-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15a
+  backbone: pEG530
+  promoters:
+  - PlacUV5
+  description: Cloning of fadB &amp; Mlut_11700 downstream of ltesA in pKS1 for overproduction
+    of beta-ketoacyl CoA
+  selection_markers:
+  - Chloramphenicol (25)
+- ori: p15A
+  backbone: pProm9_BCD1-GFP
+  promoters: []
+  description: Promoter9 with BCD1-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pProm2_BCD2-GFP
+  promoters: []
+  description: Promoter2 with BCD2-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pFAB4932
+  promoters: []
+  description: Vivek Mutalik and Monica Sharma Promoter_BCD-GFP combinatorial library
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pProm1_BCD21-GFP
+  promoters: []
+  description: Promoter1 with BCD21-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pProm1_BCD2-GFP
+  promoters: []
+  description: Promoter1 with BCD2-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pFAB4924
+  promoters: []
+  description: Vivek Mutalik and Monica Sharma Promoter_BCD-GFP combinatorial library
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pFAB4882
+  promoters: []
+  description: Vivek Mutalik and Monica Sharma Promoter_BCD-GFP combinatorial library
+  selection_markers:
+  - Kanamycin
+- ori: pBR322
+  backbone: pDONR223
+  promoters: []
+  description: Gateway cloning vector. Requires ccdB resistant strain of bacteria.
+  selection_markers:
+  - Chlorampenicol
+  - Spectinomycin
+- ori: p15A
+  backbone: pFAB4883
+  promoters: []
+  description: Vivek Mutalik and Monica Sharma Promoter_BCD-GFP combinatorial library
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pFAB4884
+  promoters: []
+  description: Vivek Mutalik and Monica Sharma Promoter_BCD-GFP combinatorial library
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pFAB4877
+  promoters: []
+  description: Vivek Mutalik and Monica Sharma Promoter_BCD-GFP combinatorial library
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pFAB4876
+  promoters: []
+  description: Vivek Mutalik and Monica Sharma Promoter_BCD-GFP combinatorial library
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/101
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00101
+created_at: '2025-11-18T20:03:56.767Z'
+updated_at: '2025-12-11T00:00:04.619Z'

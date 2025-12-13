@@ -1,0 +1,55 @@
+brc: CABBI
+date: '2022-06-21'
+title: 'Attributing Differences of Solar-Induced Chlorophyll Fluorescence (SIF)-Gross
+  Primary Production (GPP) Relationships between Two C4 Crops: Corn and Miscanthus'
+creator:
+- name: Kaiyu Guan
+  email: kaiyug@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Elizabeth Ainsworth
+  email: ainswort@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Carl Bernacchi
+  email: bernacch@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 183674
+  scientificName: Miscanthus x giganteus
+- NCBITaxID: 4577
+  scientificName: Zea mays
+keywords:
+- Miscanthus
+- GPP and APAR relationships
+- Leaf assimilation
+identifier: 10.13012/B2IDB-2233960_V1
+repository: Illinois Data Bank
+description: Information to characterize the solar-induced chlorophyll fluorescence
+  (SIF)-gross primary production (GPP) relationship in C4 cropping systems remains
+  limited. The annual C4 crop corn and perennial C4 crop miscanthus differ in phenology,
+  canopy structure and leaf physiology. Investigating the SIF-GPP relationships in
+  these species could deepen our understanding of SIF-GPP relationships within C4
+  crops. Using in situ canopy SIF and GPP measurements for both species along with
+  leaf-level measurements, we found considerable differences in the SIF-GPP relationships
+  between corn and miscanthus, with a stronger SIF-GPP relationship and higher slope
+  of SIF-GPP observed in corn compared to miscanthus. These differences were mainly
+  caused by leaf physiology. For miscanthus, high non-photochemical quenching (NPQ)
+  under high light, temperature and water vapor deficit (VPD) conditions caused a
+  large decline of fluorescence yield (ΦF), which further led to a SIF midday depression
+  and weakened the SIF-GPP relationship. The larger slope in corn than miscanthus
+  was mainly due to its higher GPP in mid-summer, largely attributed to the higher
+  leaf photosynthesis and less NPQ. Our results demonstrated variation of the SIF-GPP
+  relationship within C4 crops and highlighted the importance of leaf physiology in
+  determining canopy SIF behaviors and SIF-GPP relationships.
+relatedItem:
+- title: 'Attributing Differences of Solar-Induced Chlorophyll Fluorescence (SIF)-Gross
+    Primary Production (GPP) Relationships Between Two C4 Crops: Corn and Miscanthus'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1016/j.agrformet.2022.109046
+bibliographicCitation: https://doi.org/10.13012/B2IDB-2233960_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-2233960_V1
+created_at: '2025-11-20T18:00:04.759Z'
+updated_at: '2025-12-10T06:00:05.196Z'

@@ -1,0 +1,45 @@
+brc: CABBI
+date: '2022-06-29'
+title: Efficient Delivery of a DNA Aptamer-Based Biosensor into Plant Cells for Glucose
+  Sensing through Thiol-Mediated Uptake
+creator:
+- name: Yi Lu
+  email: yi.lu@utexas.edu
+  affiliation: University of Texas Austin
+  primaryContact: true
+- name: Li-Qing Chen
+  email: lqchen77@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+keywords:
+- Oligonucleotide sequences
+- DNA Aptamer
+- Biosensors
+identifier: 10.13012/B2IDB-6284123_V1
+repository: Illinois Data Bank
+description: DNA aptamers have been widely used as biosensors for detecting a variety
+  of targets. Despite decades of success, they have not been applied to monitor any
+  targets in plants, even though plants are a major platform for providing oxygen,
+  food, and sustainable products ranging from energy fuels to chemicals, and high-value
+  products such as pharmaceuticals. A major barrier to progress is a lack of efficient
+  methods to deliver DNA into plant cells. We herein report a thiol-mediated uptake
+  method that more efficiently delivers DNA into Arabidopsis and tobacco leaf cells
+  than another state-of-the-art method, DNA nanostructures. Such a method allowed
+  efficient delivery of a glucose DNA aptamer sensor into Arabidopsis for sensing
+  glucose. This demonstration opens a new avenue to apply DNA aptamer sensors for
+  functional studies of various targets, including metabolites, plant hormones, metal
+  ions, and proteins in plants for a better understanding of the biodistribution and
+  regulation of these species and their functions.
+relatedItem:
+- title: Efficient Delivery of a DNA Aptamer-Based Biosensor into Plant Cells for
+    Glucose Sensing through Thiol-Mediated Uptake
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1126/sciadv.abo0902
+bibliographicCitation: https://doi.org/10.13012/B2IDB-6284123_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-6284123_V1
+created_at: '2025-11-20T18:00:04.759Z'
+updated_at: '2025-12-10T06:00:05.196Z'

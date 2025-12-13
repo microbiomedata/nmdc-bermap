@@ -1,0 +1,961 @@
+id: jbei:171
+brc: JBEI
+date: '2015-04-03'
+title: Dahl et al. 2013
+creator:
+- name: Robert Dahl
+  email: rhdahl@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Rossana Chan
+  email: rchan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: William Holtz
+  email: wjholtz@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: filemakerimport
+  email: filemakerimport
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Taek Soon Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- Amorphadiene
+- FPP responsive
+- synthetic amorphadiene synthase
+- rstA
+identifier: jbei:folder:00171
+repository: ICE
+datasetName: Dahl et al. 2013
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/171
+description: This dataset contains a collection of 122 plasmids designed for the metabolic
+  engineering of *E. coli* for amorphadiene production. The collection features a
+  large promoter library systematically characterized using a Red Fluorescent Protein
+  (RFP) reporter. These promoters were subsequently used to tune the expression of
+  amorphadiene synthase (ADS) and upstream mevalonate pathway genes, providing a toolkit
+  for optimizing sesquiterpene biosynthesis.
+relatedItem:
+- title: Dahl, R. H., Zhang, F., Alonso-Gutierrez, J., Baidoo, E., Batth, T. S., Redding-Johanson,
+    A. M., Petzold, C. J., Mukhopadhyay, A., Lee, T. S., Adams, P. D., &amp; Keasling,
+    J. D. (2013). “Engineering dynamic pathway regulation using stress-response promoters”.
+    [Research Support, U.S. Gov’t, Non-P.H.S.]. Nat Biotechnol, 31(11), 1039-1046.
+    doi, 10.1038/nbt.2689 http://www.ncbi.nlm.nih.gov/pubmed/24142050 http://www.nature.com/nbt/journal/v31/n11/pdf/nbt.2689.pdf
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: inactive ADS. Dahl, R. H., Zhang, F., Alonso-Gutierrez, J., Baidoo, E., Batth,
+    T. S., Redding-Johanson, A. M., Petzold, C. J., Mukhopadhyay, A., Lee, T. S.,
+    Adams, P. D., &amp; Keasling, J. D. (2013). “Engineering dynamic pathway regulation
+    using stress-response promoters”. [Research Support, U.S. Gov’t, Non-P.H.S.].
+    Nat Biotechnol, 31(11), 1039-1046. doi, 10.1038/nbt.2689 http://www.ncbi.nlm.nih.gov/pubmed/24142050
+    http://www.nature.com/nbt/journal/v31/n11/pdf/nbt.2689.pdf
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: http://www.ncbi.nlm.nih.gov/pubmed/12778056?dopt=Abstract
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: http://www.ncbi.nlm.nih.gov/pubmed/12778056?dopt=Abstract
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Robert Dahl's thesis
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Lee TS, Krupa RA, Zhang F, Hajimorad M, Holtz WJ, Prasad N, Lee SK, Keasling
+    JD. BglBrick vectors and datasheets: A synthetic biology platform for gene expression.
+    J Biol Eng. 2011 Sep 20;5:12. doi: 10.1186/1754-1611-5-12.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors:
+- name: Doug Pitera
+  email: dkalman@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: p15a
+  backbone: padd-RFP
+  promoters:
+  - add
+  description: add promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pBbA5c-AtoB-HMGS
+  promoters:
+  - lacUV5
+  description: AtoB and HMGS from mevalonate pathway in biobrick format
+  selection_markers:
+  - Chloramphenicol
+- ori: p15A
+  backbone: pBbA5c-MevT
+  promoters:
+  - lacUV5
+  description: pMevT in biobrick format
+  selection_markers:
+  - Chloramphenicol
+- ori: ColE1
+  backbone: pBbE0a
+  promoters: []
+  description: An empty BglBrick vector based on the work of Rachel Krupa.
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: padd-ADS
+  promoters:
+  - add
+  description: add promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: 'pconst #4-RFP'
+  promoters:
+  - J23107
+  description: constitutive promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: p15a
+  backbone: 'pconst #5-RFP'
+  promoters:
+  - J23110
+  description: constitutive promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: p15a
+  backbone: 'pconst #6-RFP'
+  promoters:
+  - J23117
+  description: constitutive promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: p15a
+  backbone: 'pconst #7-RFP'
+  promoters:
+  - J23109
+  description: constitutive promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pBbA0k-RFP
+  promoters: []
+  description: BglBrick vector based on the work of Rachel Krupa w/constitutive RFP
+    cassette
+  selection_markers:
+  - Kanamycin
+- ori: p15a
+  backbone: 'pconst #3-RFP'
+  promoters:
+  - J23101
+  description: constitutive promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: p15a
+  backbone: 'pconst #2-RFP'
+  promoters:
+  - J23104
+  description: constitutive promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pbbADSmut
+  promoters: []
+  description: biobrick inactive ADS
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pADSmut1
+  promoters: []
+  description: ''
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: 'pconst #1-RFP'
+  promoters:
+  - J23119
+  description: constitutive promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: p15a
+  backbone: pslp-MevT-MBIS
+  promoters:
+  - slp
+  description: slp promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: pBBR1MCS
+  backbone: pMBIS
+  promoters:
+  - Lac
+  description: "Mevalonate kinase, phosphomevalonate kinase, mevalonate pyrophosphate\
+    \ decarboxylatse, IPP isomerase, FPP synthase\r\nComments: Doesn't contain lacI/\
+    \ ERG1, ERG8, MVD1: S. cerevisiae/ idi: E. Coli"
+  selection_markers:
+  - Tetracycline
+- ori: p15a
+  backbone: 'pconst #5-MevT-MBIS'
+  promoters:
+  - J23110
+  description: constitutive promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15A
+  backbone: pBbA1c-MevT-MBIS
+  promoters: []
+  description: BglBricked Mev pathway - MevT and MBIS (original) under Ptrc
+  selection_markers:
+  - Chloramphenicol
+- ori: pACYC
+  backbone: pMevT
+  promoters:
+  - Lac
+  description: Culture on Cm and 0.1% Glucose! This plasmid does not contain LacI,
+    therefore the operon is constitutively expressed unless the strain is grown with
+    glucose. We have noticed plasmid instability due to the high expression of this
+    operon. pMevT is also known as pLac33MevT in lab books and notes.
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: paroF-MevT-MBIS
+  promoters:
+  - aroF
+  description: different aroF promoter sequence expressing MevT-MBIS, biobrick construction,
+    no improvement
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: pfabA-MevT-MBIS
+  promoters:
+  - fabA
+  description: fabA promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: 'pconst #7-MevT-MBIS'
+  promoters:
+  - J23109
+  description: constitutive promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: 'pconst #6-MevT-MBIS'
+  promoters:
+  - J23117
+  description: constitutive promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: pyihE-MevT-MBIS
+  promoters:
+  - yihE
+  description: yihE promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: 'pconst #3-MevT-MBIS'
+  promoters:
+  - J23101
+  description: constitutive promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: pxasA-MevT-MBIS
+  promoters:
+  - xasA
+  description: xasA promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: 'pconst #4-MevT-MBIS'
+  promoters:
+  - J23107
+  description: constitutive promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: 'pconst #2-MevT-MBIS'
+  promoters:
+  - J23104
+  description: constitutive promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: pthiM-MevT-MBIS
+  promoters:
+  - thiM
+  description: thiM promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: ppykA-MevT-MBIS
+  promoters:
+  - pykA
+  description: pykA promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: padd-MevT-MBIS
+  promoters:
+  - add
+  description: add promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: patpI-MevT-MBIS
+  promoters:
+  - atpI
+  description: atpI promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: ppspA-MevT-MBIS
+  promoters:
+  - pspA
+  description: pspA promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: pfabH-MevT-MBIS
+  promoters:
+  - fabH
+  description: fabH promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: paroF-MevT-MBIS
+  promoters:
+  - aroF
+  description: aroF promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: ppaaA-MevT-MBIS
+  promoters:
+  - paaA
+  description: paaA promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: pcsgB-MevT-MBIS
+  promoters:
+  - csgB
+  description: csgB promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: posmY-MevT-MBIS
+  promoters:
+  - osmY
+  description: osmY promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: pentC-MevT-MBIS
+  promoters:
+  - entC
+  description: entC promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: phyfA-MevT-MBIS
+  promoters:
+  - hyfA
+  description: hyfA promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: pbolA-MevT-MBIS
+  promoters:
+  - bolA
+  description: bolA promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: pispU-MevT-MBIS
+  promoters:
+  - ispU
+  description: ispU promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: pBbA0c-MevT-MBIS
+  promoters: []
+  description: biobrick MevT-MBIS operon in empty vector, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: pcitA-MevT-MBIS
+  promoters:
+  - citA
+  description: citA promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: ppaaA-RFP
+  promoters:
+  - paaA
+  description: paaA promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pmgrB-ADS
+  promoters:
+  - mgrB
+  description: mgrB promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: pmgrB-RFP
+  promoters:
+  - mgrB
+  description: mgrB promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: ppaaA-ADS
+  promoters:
+  - paaA
+  description: paaA promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: pyrbL-MevT-MBIS
+  promoters:
+  - yrbL
+  description: yrbL promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: pgadE-MevT-MBIS
+  promoters:
+  - gadE
+  description: the gadE intergenic region was cloned from E. coli and put in front
+    of MevT-MBIS (using pBbA0c araC and pBAD removed)
+  selection_markers:
+  - Chloramphenicol
+- ori: ColE1
+  backbone: prstA-ADS-term
+  promoters:
+  - rstA
+  description: Biobricked construction of rstA promoter followed by AGGAGG RBS (507),
+    Amorphadiene Synthase, and dblTerm
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: prstA-ADSmut
+  promoters:
+  - rstA
+  description: rstA promoter expressing inactive ADS
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: prstA-MevT-MBIS
+  promoters:
+  - rstA
+  description: rstA promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: prstA-RFP
+  promoters:
+  - rstA
+  description: rstA promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: p15a
+  backbone: paroF-RFP
+  promoters:
+  - aroF
+  description: aroF promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: p15a
+  backbone: pxseB-RFP
+  promoters:
+  - xseB
+  description: xseB promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pxseB-ADS
+  promoters:
+  - xseB
+  description: xseB promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: patpI-ADS
+  promoters:
+  - atpI
+  description: atpI promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: patpI-RFP
+  promoters:
+  - atpI
+  description: atpI promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: paroF-ADS
+  promoters:
+  - aroF
+  description: aroF promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: pfabA-RFP
+  promoters:
+  - fabA
+  description: fabA promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pfabA-ADS
+  promoters:
+  - fabA
+  description: fabA promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: pentC-RFP-v2
+  promoters:
+  - entC
+  description: entC promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pentC-ADS
+  promoters:
+  - entC
+  description: entC promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: pfabB-RFP
+  promoters:
+  - fabB
+  description: fabB promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: p15a
+  backbone: paccD-MevT-MBIS
+  promoters:
+  - accD
+  description: accD promoter expressing MevT-MBIS operon, biobrick construction
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: paccD-RFP
+  promoters:
+  - accD
+  description: accD promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pfabH-ADS
+  promoters:
+  - fabH
+  description: fabH promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: pfabH-RFP
+  promoters:
+  - fabH
+  description: fabH promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: p15a
+  backbone: pfadB-RFP
+  promoters:
+  - fadB
+  description: fadB promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pfadB-ADS
+  promoters:
+  - fadB
+  description: fadB promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: pmiaA-RFP
+  promoters:
+  - miaA
+  description: miaA promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pfabB-ADS
+  promoters:
+  - fabB
+  description: fabB promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pmiaA-ADS
+  promoters:
+  - miaA
+  description: miaA promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: pdxr-RFP
+  promoters:
+  - dxr
+  description: dxr promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: p15a
+  backbone: psdhC-RFP
+  promoters:
+  - sdhC
+  description: sdhC promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pispU-ADS
+  promoters:
+  - ispU
+  description: ispU promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: pispU-RFP
+  promoters:
+  - ispU
+  description: ispU promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pdxr-ADS
+  promoters:
+  - dxr
+  description: dxr promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: psdhC-ADS
+  promoters:
+  - sdhC
+  description: sdhC promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: psucA-RFP
+  promoters:
+  - sucA
+  description: sucA promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: psucA-ADS
+  promoters:
+  - sucA
+  description: sucA promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pflgB-ADS
+  promoters:
+  - flgB
+  description: flgB promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: pflgB-RFP
+  promoters:
+  - flgB
+  description: flgB promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: p15a
+  backbone: ppurM-RFP
+  promoters:
+  - purM
+  description: purM promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: p15a
+  backbone: pgadE-RFP
+  promoters:
+  - gadE
+  description: gadE promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pgadE-ADS
+  promoters:
+  - gadE
+  description: gadE promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: ppurM-ADS
+  promoters:
+  - purM
+  description: purM promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: ppurH-ADS
+  promoters:
+  - purH
+  description: purH promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: pompF-RFP
+  promoters:
+  - ompF
+  description: ompF promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pompF-ADS
+  promoters:
+  - ompF
+  description: ompF promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pbolA-ADS
+  promoters:
+  - bolA
+  description: bolA promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: pbolA-RFP
+  promoters:
+  - bolA
+  description: bolA promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pmdtE-ADS
+  promoters:
+  - mdtE
+  description: mdtE promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: pmdtE-RFP
+  promoters:
+  - mdtE
+  description: mdtE promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: p15a
+  backbone: ppspA-RFP
+  promoters:
+  - pspA
+  description: pspA promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pibpA-ADS
+  promoters:
+  - ibpA
+  description: ibpA promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: pibpA-RFP
+  promoters:
+  - ibpA
+  description: ibpA promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: p15a
+  backbone: pydcS-RFP
+  promoters:
+  - ydcS
+  description: ydcS promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: ppspA-ADS
+  promoters:
+  - pspA
+  description: pspA promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: pychH-RFP
+  promoters:
+  - ychH
+  description: ychH promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pydcS-ADS
+  promoters:
+  - ydcS
+  description: ydcS promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pychH-ADS
+  promoters:
+  - ychH
+  description: ychH promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pycjM-ADS
+  promoters:
+  - ycjM
+  description: ycjM promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: pyqjF-RFP
+  promoters:
+  - yqjF
+  description: yqjF promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: p15a
+  backbone: pycjM-RFP
+  promoters:
+  - ycjM
+  description: ycjM promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pbbADS
+  promoters: []
+  description: biobrick ADS with rbs in empty vector for promoter insertion, no lacIq
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pyqjF-ADS
+  promoters:
+  - yqjF
+  description: yqjF promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pybjG-ADS
+  promoters:
+  - ybjG
+  description: ybjG promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: pybjG-RFP
+  promoters:
+  - ybjG
+  description: ybjG promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pphoP-ADS
+  promoters:
+  - phoP
+  description: phoP promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pslyB-ADS
+  promoters:
+  - slyB
+  description: slyB promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: pslyB-RFP
+  promoters:
+  - slyB
+  description: slyB promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: p15a
+  backbone: pyrbL-RFP
+  promoters:
+  - yrbL
+  description: yrbL promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pyrbL-ADS
+  promoters:
+  - yrbL
+  description: yrbL promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pmgtA-ADS
+  promoters:
+  - mgtA
+  description: mgtA promoter expressing ADS, biobrick construction
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: pmgtA-RFP
+  promoters:
+  - mgtA
+  description: mgtA promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pBbA5c-MevT-MBIS
+  promoters:
+  - lacUV5
+  description: full mevalonate pathway in one biobrick plasmid
+  selection_markers:
+  - Chloramphenicol
+- ori: ColE1
+  backbone: pADS
+  promoters:
+  - Trc
+  description: pADS contains the codon-optimized amorphadiene synthase gene from Artemisia
+    annua
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: pphoP-RFP
+  promoters:
+  - phoP
+  description: phoP promoter expressing RFP, biobrick construction
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pBbA5k-RFP
+  promoters:
+  - lacUV5
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pBbA1k-RFP
+  promoters:
+  - Trc
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/171
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00171
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.619Z'

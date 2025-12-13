@@ -1,0 +1,331 @@
+id: jbei:860
+brc: JBEI
+date: '2024-04-15'
+title: Winegar et al. 2024
+creator:
+- name: Peter Winegar
+  email: phwinegar@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+- NCBITaxID: 29760
+  scientificName: Vitis vinifera
+- NCBITaxID: 4558
+  scientificName: Sorghum vulgare
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+- scientificName: Vitis nigra
+- scientificName: Dioscorea zingiberensis
+- NCBITaxID: 3888
+  scientificName: Pisum sativum
+- NCBITaxID: 35608
+  scientificName: Artemisia annua
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 4081
+  scientificName: Solanum lycopersicum
+- NCBITaxID: 4530
+  scientificName: Oryza sativa
+- NCBITaxID: 89639
+  scientificName: Ipomoea asarifolia
+keywords:
+- Steroidal alkaloid
+- KanMX
+- Verazine
+identifier: jbei:folder:00860
+repository: ICE
+datasetName: Winegar et al. 2024
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/860
+description: This dataset provides 38 plasmids for metabolic engineering in *Saccharomyces
+  cerevisiae*, with a focus on reconstituting specialized metabolic pathways. The
+  collection enables the screening of diverse cytochrome P450 (CYP) enzymes and their
+  reductase (CPR) partners from various organisms, particularly for sterol and brassinosteroid
+  biosynthesis. The set also includes constructs for engineering the native yeast
+  ergosterol pathway and a CRISPR/Cas9 plasmid for genome editing.
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-41
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-mCherry–VcCYP90G1v3-pGAL10/pGAL1-VcGABAT1v2-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-42
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-empty-pGAL10/pGAL1-SvMSBP-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-40
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-VcCYP90G1v3-pGAL10/pGAL1-VcGABAT1v2-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-39
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-VcCYP90G1v3-pGAL10/pGAL1-VcGABAT1v2–mCherry-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-38
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-empty-pGAL10/pGAL1-VcGABAT1v2-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-37
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-AtCPR-pGAL10/pGAL1-VnCYP94N2
+    (amino acids 1-30)–VcCYP94N1v23 (amino acids 31-514)–mCherry-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-35
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-AtCPR-pGAL10/pGAL1-VcCYP94N1v2–mCherry-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-36
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-AtCPR-pGAL10/pGAL1-VnCYP94N2–mCherry-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-34
+  promoters:
+  - pGAL1/10
+  description: "A pESC_URA plasmid that contains the synthetic gene construct tADH1-AtCPR-pGAL10/pGAL1-VnCYP94N2(amino\
+    \ acids 1-30)–VcCYP94N1v23(amino\n  acids 31-514)-tCYC1."
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-33
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-AtCPR-pGAL10/pGAL1-VnCYP94N2-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-32
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-AtCPR-pGAL10/pGAL1-VcCYP94N1v2-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-28
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-DzCPR-pGAL10/pGAL1-DzCYP90B71-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-27
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-PsCPR-pGAL10/pGAL1-DzCYP90B71-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-26
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-AtCPR-pGAL10/pGAL1-DzCYP90B71-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-25
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-AaCPR-pGAL10/pGAL1-DzCYP90B71-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-23
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-EcCPR-pGAL10/pGAL1-DzCYP90B71–mCherry-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-22
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-EcCPR-pGAL10/pGAL1-SlCYP724B2-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-21
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-EcCPR-pGAL10/pGAL1-OsCYP724B1-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-19
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-EcCPR-pGAL10/pGAL1-IaCYP708A15v2-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-29
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-mCherry–AtCPR-pGAL10/pGAL1-DzCYP90B71-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-20
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-EcCPR-pGAL10/pGAL1-AtCYP724A1-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-24
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-EcCPR-pGAL10/pGAL1-DzCYP90B71-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-17
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-EcCPR-pGAL10/pGAL1-PpCYP90B52-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-18
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-EcCPR-pGAL10/pGAL1-DzCYP90B71-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-16
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-EcCPR-pGAL10/pGAL1-TfCYP90B51-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-15
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-EcCPR-pGAL10/pGAL1-SlCYP90B3-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-13
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-EcCPR-pGAL10/pGAL1-AtCYP90B1-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-10
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-EcCPR-pGAL10/pGAL1-VcCYP90B27v1–mCherry-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-14
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-EcCPR-pGAL10/pGAL1-OsCYP90B2-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-9
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-EcCPR-pGAL10/pGAL1-VcCYP90B27v1-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-12
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-EcCPR-pGAL10/pGAL1-ArCYP71D443-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-11
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-EcCPR-pGAL10/pGAL1-PpCYP90B27-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-8
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-StDHCR7-pGAL10/pGAL1-GgDHCR24-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-7
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-DrDHCR7-pGAL10/pGAL1-GgDHCR24-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-6
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-StDHCR7-pGAL10/pGAL1-DrDHCR24-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-4
+  promoters:
+  - pGAL2
+  - pGAL1/10
+  - and pGAL7
+  description: A pESC_URA plasmid that contains the synthetic gene construct pGAL2-ERG1-tADH1-ERG9-pGAL10/pGAL1-ERG20-tCYC1-ERG7-pGAL7.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: p426_Cas9_gRNA-KanMX
+  promoters:
+  - T7
+  description: All-in-one CRISPR plasmid for integrating, deleting, or replacing a
+    gene in S. cerevisiae. High-copy, URA3 plasmid contains human codon-optimized
+    Cas9 and a guide RNA targeting the KanMX marker (TTACTCACCACTGCGATCCC).
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+- ori: 2µ ori, ori, and f1 ori
+  backbone: pESC_URA_PW-5
+  promoters:
+  - pGAL1/10
+  description: A pESC_URA plasmid that contains the synthetic gene construct tADH1-DrDHCR7-pGAL10/pGAL1-DrDHCR24-tCYC1.
+  selection_markers:
+  - Plasmid w/ URA3 and AmpR
+bibliographicCitation: https://public-registry.jbei.org/folders/860
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00860
+created_at: '2025-11-18T20:03:56.772Z'
+updated_at: '2025-12-11T00:00:04.623Z'

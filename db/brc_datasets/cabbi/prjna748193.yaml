@@ -1,0 +1,43 @@
+brc: CABBI
+date: '2021-07-20'
+title: Complete and efficient conversion of plant cell wall hemicellulose into high-value
+  bioproducts by engineered yeast
+creator:
+- name: Jin, Yong-Su
+  email: ysjin@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- Genomics
+- Saccharomyces cerevisiae
+- triacetic acid lactone
+identifier: PRJNA748193
+repository: NCBI BioProject
+description: Plant cell wall hydrolysates contain not only sugars but also substantial
+  amounts of acetate, a fermentation inhibitor that hinders bioconversion of lignocellulose.
+  Despite the toxic and non-consumable nature of acetate during glucose metabolism,
+  we demonstrate that acetate can be rapidly co-consumed with xylose by engineered
+  Saccharomyces cerevisiae. The co-consumption led to a metabolic re-configuration
+  that boosts the synthesis of acetyl-CoA derived bioproducts, including triacetic
+  acid lactone (TAL) and vitamin A, in engineered strains. Notably, by co-feeding
+  xylose and acetate, an enginered strain produced 23.91 g/L TAL with a productivity
+  of 0.29 g/L/h in bioreactor fermentation, being the highest productivity reported
+  for TAL biosynthesis. This strain also completely converted a hemicellulose hydrolysate
+  of switchgrass into 3.55 g/L TAL. These findings establish an innovative strategy
+  that not only transforms an inhibitor into a valuable substrate but also expands
+  the capacity of acetyl-CoA supply in S. cerevisiae for efficient bioconversion of
+  cellulosic biomass.
+relatedItem:
+- title: Complete and Efficient Conversion of Plant Cell Wall Hemicellulose into High-Value
+    Bioproducts by Engineered Yeast
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: http://doi.org/10.1038/s41467-021-25241-y
+analysisType: Genomics
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA748193/
+schema_version: 0.1.1
+uid: CABBI_PRJNA748193
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

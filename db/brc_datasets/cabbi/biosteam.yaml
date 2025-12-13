@@ -1,0 +1,37 @@
+brc: CABBI
+date: '2020-01-30'
+title: BioSTEAM and BioSTEAM-LCA
+creator:
+- name: Guest, Jeremy
+  email: jsguest@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+keywords:
+- Techno-economic analysis
+- Life cycle assessment
+- modeling
+identifier: biosteam
+repository: GitHub
+description: BioSTEAM is a fast and flexible package for the design, simulation, and
+  techno-economic analysis of biorefineries under uncertainty. BioSTEAM’s framework
+  is built to streamline and automate early-stage technology evaluations and to enable
+  rigorous sensitivity and uncertainty analyses. The long-term growth and maintenance
+  of BioSTEAM is supported through both community-led development and the research
+  institutions invested in BioSTEAM. Through the open-source and community-lead platform,
+  BioSTEAM aims to foster communication and transparency within the biorefinery research
+  community for an integrated effort to expedite the evaluation of candidate biofuels
+  and bioproducts.
+relatedItem:
+- title: 'BioSTEAM: A Fast and Flexible Platform for the Design, Simulation, and Techno-Economic
+    Analysis of Biorefineries under Uncertainty'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: http://doi.org/10.1021/acssuschemeng.9b07040
+- title: Bioindustrial-Park
+  relatedItemType: Software
+  relatedItemIdentifier: https://github.com/BioSTEAMDevelopmentGroup/Bioindustrial-Park
+analysisType: Code
+bibliographicCitation: https://github.com/BioSTEAMDevelopmentGroup/biosteam
+schema_version: 0.1.1
+uid: CABBI_biosteam
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

@@ -1,0 +1,43 @@
+brc: GLBRC
+date: '2023-07-11'
+title: Functional and genomic diversity of the sorghum phyllosphere microbiome
+creator:
+- name: Ashley Shade
+  email: ashley.shade@cnrs.fr
+  affiliation: Laboratoire Ecologie Microbienne at the University of Lyon, France
+  primaryContact: true
+species:
+- NCBITaxID: null
+  scientificName: 94 species
+keywords:
+- agroecosystems
+- bioenergy
+- diazotrophs
+- exudates
+- genomes
+- host-microbiota
+- phyllosphere
+- plant microbiome
+identifier: Gs0157305
+repository: JGI Gold
+description: A collection of 47 bacteria isolated from the mucilage of aerial roots
+  of energy sorghum is available at the Great Lakes Bioenergy Research Center, Michigan
+  State University, Michigan, USA. We enriched bacteria with putative plant-beneficial
+  phenotypes and included information on phenotypic diversity, taxonomy, and whole
+  genome sequences.
+relatedItem:
+- title: M.E. Mechan-Llontop et al. "Genome-sequenced bacterial collection from sorghum
+    aerial root mucilage" Microbiology Resource Announcements 12:e00468-23 (2023)
+    [DOI:10.1128/MRA.00468-23]
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://journals.asm.org/doi/10.1128/mra.00468-23
+- title: M.E. Mechan-Llontop et al. "Genome-sequenced bacterial collection from sorghum
+    epicuticular wax" Microbiology Resource Announcements 12:e00484-23 (2023) [DOI:10.1128/MRA.00484-23]
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://journals.asm.org/doi/10.1128/mra.00484-23
+analysisType: Metagenomics
+bibliographicCitation: https://gold.jgi.doe.gov/study?id=Gs0157305
+schema_version: 0.1.7
+uid: GLBRC_Gs0157305
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.197Z'

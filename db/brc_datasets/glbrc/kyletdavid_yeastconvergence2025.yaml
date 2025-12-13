@@ -1,0 +1,35 @@
+brc: GLBRC
+date: '2024-08-01'
+title: KyleTDavid/YeastConvergence2025
+creator:
+- name: Antonis Rokas
+  email: antonis.rokas@vanderbilt.edu
+  affiliation: Department of Biological SciencesVanderbilt University Nashville TN
+    37235 USA
+  primaryContact: true
+- name: Chris Todd Hittinger
+  email: chittinger@wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Sacharomycotina
+keywords:
+- convergent evolution
+- parallelism
+- gene family evolution
+identifier: KyleTDavid/YeastConvergence2025
+repository: GitHub
+description: Scripts to replicate Convergent expansions of keystone gene families
+  drive metabolic innovation in Saccharomycotina yeasts
+relatedItem:
+- title: Convergent expansions of keystone gene families drive metabolic innovation
+    in Saccharomycotina yeasts
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.pnas.org/doi/10.1073/pnas.2500165122
+analysisType: Code
+bibliographicCitation: https://github.com/KyleTDavid/YeastConvergence2025
+schema_version: 0.1.7
+uid: GLBRC_KyleTDavid/YeastConvergence2025
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.198Z'

@@ -1,0 +1,34 @@
+brc: CABBI
+date: '2022-09-07'
+title: Assessing Marginal Land Availability Based on Land Use Change Information in
+  the Contiguous United States
+creator:
+- name: Guan, Kaiyu
+  email: kaiyug@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Khanna, Madhu
+  email: khanna1@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+keywords:
+- marginal land
+- remote sensing
+- land use change
+- Cropland Data Layer
+identifier: 10.13012/B2IDB-6395937_V1
+repository: Illinois Data Bank
+description: The availability of economically marginal land for energy crops is identified
+  using the Cropland Data Layer and other soil, wind, climate data resources. Permanent
+  grassland, cropland and the estimated productivity are also identified. All data
+  are recognized on a 30m spatial resolution across the contiguous United States.
+relatedItem:
+- title: Assessing Marginal Land Availability Based on Land Use Change Information
+    in the Contiguous United States
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1021/acs.est.1c02236
+bibliographicCitation: https://doi.org/10.13012/B2IDB-6395937_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-6395937_V1
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.628Z'

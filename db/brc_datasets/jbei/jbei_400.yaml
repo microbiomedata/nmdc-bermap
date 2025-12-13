@@ -1,0 +1,50 @@
+id: jbei:400
+brc: JBEI
+date: '2018-11-14'
+title: Sechet et al. 2018
+creator:
+- name: Julien Sechet
+  email: jsechet@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Mi Yeon Lee
+  email: miylee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 358
+  scientificName: Agrobacterium tumefaciens
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+keywords:
+- RNAi
+identifier: jbei:folder:00400
+repository: ICE
+datasetName: Sechet et al. 2018
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/400
+description: This dataset contains a single plasmid construct designed for the constitutive
+  RNAi-mediated silencing of the GONST3 gene. The construct, built on the pHellsgate12
+  vector, targets a putative Golgi-localized nucleotide sugar transporter (GONST).
+  This reagent is intended for functional studies investigating the role of GONST3
+  in plant cell wall biosynthesis.
+relatedItem: []
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: GONST3 pHellsgate12
+  promoters: []
+  description: ' constitutive RNAi (pHellsgate12) of GONST3'
+  selection_markers:
+  - Spec
+bibliographicCitation: https://public-registry.jbei.org/folders/400
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00400
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

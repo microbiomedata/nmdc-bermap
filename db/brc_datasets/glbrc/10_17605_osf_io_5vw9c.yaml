@@ -1,0 +1,32 @@
+brc: GLBRC
+date: '2022-10-20'
+title: GLBRC_Switchgrass_2018_Microbiome
+creator:
+- name: Lukas P. Bell-Dereske
+  email: lukas.dereske@gmail.com
+  affiliation: W.K. Kellogg Biological Station, Michigan State University, Hickory
+    Corners, MI, USA
+  primaryContact: true
+- name: Sarah E. Evans
+  email: evanssa6@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Multiple species, metagenome
+keywords: []
+identifier: 10.17605/OSF.IO/5VW9C
+repository: Open Science Framework
+description: Data for the manuscript Bell-Dereske et al. Variation in root and soil
+  microbiome over space and time in a single plant host. Bacterial and fungal communities
+  from switchgrass roots and soils.
+relatedItem:
+- title: Regional biogeography versus intra-annual dynamics of the root and soil microbiome
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://environmentalmicrobiome.biomedcentral.com/articles/10.1186/s40793-023-00504-x#Fun
+analysisType: Processed data
+bibliographicCitation: https://osf.io/5vw9c/
+schema_version: 0.1.7
+uid: GLBRC_10.17605/OSF.IO/5VW9C
+created_at: '2025-11-21T01:31:06.795Z'
+updated_at: '2025-12-10T06:00:05.197Z'

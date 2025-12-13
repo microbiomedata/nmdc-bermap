@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOE BER Research Programs Browser</title>
+    <style>
+        {% include 'styles.css.j2' %}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>DOE BER Research Programs</h1>
+            <p class="subtitle">Bioenergy Research Centers, Scientific Focus Areas, and User Facilities</p>
+        </header>
+
+        <div class="controls">
+            <input type="text" class="search-box" placeholder="Search programs..." id="searchBox">
+            <button onclick="expandAll()">Expand All</button>
+            <button onclick="collapseAll()">Collapse All</button>
+            <button onclick="expandLevel(1)">Categories Only</button>
+        </div>
+
+        <main>
+            {% block content %}{% endblock %}
+        </main>
+
+        <footer>
+            <p class="metadata">
+                Compiled: {{ metadata.compiled_date | default('Unknown') }} |
+                <a href="https://github.com/nmdc/nmdc-sfas-brcs">Source</a>
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        {% include 'scripts.js.j2' %}
+    </script>
+</body>
+</html>

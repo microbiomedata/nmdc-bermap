@@ -1,0 +1,557 @@
+id: jbei:552
+brc: JBEI
+date: '2020-03-23'
+title: Genee et al. 2020
+creator:
+- name: Nathan Hillson
+  email: njhillson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species: []
+keywords: []
+identifier: jbei:folder:00552
+repository: ICE
+datasetName: Genee et al. 2020
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/552
+description: This dataset from Genee et al. 2020 comprises 65 plasmids that represent
+  combinatorial variants of an engineered thiamine biosynthesis pathway. These constructs
+  were created to explore different genetic configurations for studying and optimizing
+  the production of thiamine (Vitamin B1). The collection of pathway variants provides
+  a valuable resource for metabolic engineering and synthetic biology applications
+  related to vitamin production.
+relatedItem:
+- title: Genee et al. 2020 (in revision)
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pBR322
+  backbone: V16
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2084
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: V15
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2083
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: V8
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2076
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: V11
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2079
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: V9
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2077
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: V12
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2080
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: V14
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2082
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: V13
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2081
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: V10
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2078
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: V7
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2075
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: V6
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2074
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: V5
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2073
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: V2
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2070
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS10_E2
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2065
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: V3
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2071
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS10_D4
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2068
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS10_D3
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2066
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: V1
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2069
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_F5
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2064
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS10_F2
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2067
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS10_B4
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2063
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: V4
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2072
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS10_H4
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2059
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_F4
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2058
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_F3
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2056
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_H2
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2055
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_A4
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2057
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS10_G3
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2062
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_C6
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2054
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_H4
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2061
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_E5
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2060
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_D4
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2053
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_B2
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2052
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_E3
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2050
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_G1
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2042
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_D2
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2048
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_C3
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2049
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_B4
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2046
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_D3
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2045
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_C5
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2051
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_F1
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2043
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_E4
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2047
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_E2
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2044
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_B5
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2033
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_C2
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2040
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS10_G5
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2039
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_A5
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2032
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_C4
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2037
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_E1
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2041
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_B6
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2038
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_G4
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2035
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_D6
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2034
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_G2
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2036
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_H3
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2031
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_C1
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2024
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_A3
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2023
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_B1
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2022
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_A6
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2028
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_D1
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2025
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_G3
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2026
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_H5
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2027
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_D5
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2029
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS10_B5
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2030
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_H1
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2021
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: TS11_A2
+  promoters:
+  - apFABXXX
+  description: Combinatorial variant of thiamine pathway construct described in Genee
+    et al. 2020
+  selection_markers:
+  - KanR
+bibliographicCitation: https://public-registry.jbei.org/folders/552
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00552
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

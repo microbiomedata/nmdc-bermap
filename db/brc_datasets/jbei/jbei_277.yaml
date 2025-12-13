@@ -1,0 +1,1500 @@
+id: jbei:277
+brc: JBEI
+date: '2017-01-06'
+title: Dossani et al. 2017
+creator:
+- name: Nathan Hillson
+  email: njhillson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Amanda Reider Apel
+  email: arreiderapel@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Zain Dossani
+  email: zydossani@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00277
+repository: ICE
+datasetName: Dossani et al. 2017
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/277
+description: This dataset comprises 241 plasmids designed for molecular studies in
+  *Saccharomyces cerevisiae*. The collection primarily consists of 240 derivatives
+  of the pRS426yeGFP high-copy expression vector, enabling protein expression and
+  localization analysis via a yeast-enhanced Green Fluorescent Protein (yeGFP) reporter.
+  Additionally, the set includes a specialized yeast two-hybrid bait plasmid containing
+  the hER-VP16 inducible activator, designed for studying protein-protein interactions.
+relatedItem:
+- title: Dossani et al. (2017) A combinatorial approach to a suite of Synthetic Transcriptional
+    Factor-Promoter pairs for yeast metabolic engineering.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: image_analysis
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xcolE1Zrt1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xcolE1Hem13short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xcolE1Ssl1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xcolE1Zrt1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xcolE1Ssl1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xcolE1Gcn4long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xcolE1Cup1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xcolE1Cup1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xcolE1Hem13long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xcolE1Gcn4short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xcolE1Hhf2long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xcolE1Tef1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xcolE1Hhf2short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xcolE1Spo13short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xcolE1Tef1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xcolE1Leu2short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xcolE1Spo13long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xcolE1Gal1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xcolE1Leu2long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xcolE1Gal1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xuvrASsl1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xuvrAZrt1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xuvrASsl1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xuvrAZrt1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xuvrACup1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xuvrAGcn4short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xuvrAHem13long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xuvrACup1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xuvrAHem13short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xuvrAHhf2long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xuvrATef1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xuvrAGcn4long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xuvrATef1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xuvrAHhf2short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xuvrALeu2long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xuvrALeu2short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xuvrASpo13long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xuvrAGal1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xuvrASpo13short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xuvrAGal1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xumuDCSsl1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xumuDCZrt1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xumuDCZrt1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xumuDCSsl1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xumuDCHem13short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xumuDCHem13long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xumuDCCup1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xumuDCGcn4long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xumuDCCup1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xumuDCHhf2short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xumuDCGcn4short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xumuDCHhf2long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xumuDCTef1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xumuDCLeu2short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xumuDCTef1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xumuDCSpo13long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xumuDCSpo13short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xconsensusSsl1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xumuDCGal1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xumuDCGal1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xconsensusSsl1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xumuDCLeu2long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xconsensusZrt1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xconsensusHem13short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xconsensusZrt1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xconsensusCup1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xconsensusHem13long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xconsensusCup1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xconsensusGcn4long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xconsensusGcn4short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xconsensusHhf2short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xconsensusTef1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xconsensusSpo13short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xconsensusTef1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xconsensusHhf2long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xconsensusSpo13long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xconsensusGal1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xconsensusLeu2short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xconsensusLeu2long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 3xconsensusGal1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xcolE1Ssl1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xcolE1Hem13short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xcolE1Ssl1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xcolE1Zrt1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xcolE1Zrt1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xcolE1Hem13long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xcolE1Cup1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xcolE1Cup1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xcolE1Gcn4short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xcolE1Hhf2short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xcolE1Gcn4long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xcolE1Hhf2long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xcolE1Spo13long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xcolE1Tef1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xcolE1Tef1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xcolE1Spo13short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xcolE1Leu2short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xcolE1Leu2long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xcolE1Gal1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xcolE1Gal1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xuvrASsl1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xuvrASsl1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xuvrAHem13short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xuvrAZrt1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xuvrAZrt1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xuvrACup1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xuvrAHem13long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xuvrACup1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xuvrAHhf2short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xuvrAGcn4short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xuvrAGcn4long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xuvrATef1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xuvrATef1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xuvrAHhf2long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xuvrASpo13short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xuvrALeu2short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xuvrASpo13long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xuvrALeu2long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xuvrAGal1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xumuDCSsl1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xumuDCSsl1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xuvrAGal1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xumuDCZrt1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xumuDCCup1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xumuDCHem13short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xumuDCHem13long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xumuDCZrt1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xumuDCCup1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xumuDCGcn4long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xumuDCGcn4short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xumuDCHhf2short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xumuDCTef1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xumuDCHhf2long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xumuDCTef1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xumuDCSpo13short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xumuDCSpo13long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xumuDCLeu2long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xumuDCLeu2short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xconsensusSsl1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xconsensusSsl1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xumuDCGal1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xumuDCGal1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xconsensusZrt1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xconsensusZrt1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xconsensusHem13short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xconsensusHem13long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xconsensusCup1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xconsensusCup1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xconsensusGcn4long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xconsensusGcn4short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xconsensusHhf2short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xconsensusHhf2long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xconsensusTef1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xconsensusSpo13short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xconsensusTef1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xconsensusLeu2short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xconsensusGal1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xconsensusSpo13long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xconsensusLeu2long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xcolE1Ssl1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 2xconsensusGal1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xcolE1Ssl1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xcolE1Zrt1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xcolE1Zrt1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xcolE1Hem13short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xcolE1Cup1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xcolE1Hem13long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xcolE1Cup1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xcolE1Hhf2long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xcolE1Tef1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xcolE1Gcn4long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xcolE1Hhf2short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xcolE1Gcn4short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xcolE1Spo13long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xcolE1Leu2long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xcolE1Tef1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xcolE1Leu2short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xcolE1Spo13short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xcolE1Gal1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xuvrASsl1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xuvrASsl1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xcolE1Gal1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xuvrAZrt1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xuvrAZrt1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xuvrAHem13short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xuvrAGcn4short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xuvrAHem13long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xuvrACup1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xuvrACup1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xuvrATef1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xuvrATef1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xuvrAHhf2long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xuvrAGcn4long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xuvrAHhf2short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xuvrASpo13short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xuvrASpo13long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xuvrALeu2long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xuvrAGal1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xuvrAGal1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xuvrALeu2short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xumuDCHem13short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xumuDCZrt1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xumuDCSsl1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xumuDCSsl1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xumuDCZrt1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xumuDCHem13long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xumuDCGcn4short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xumuDCCup1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xumuDCCup1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xumuDCHhf2long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xumuDCHhf2short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xumuDCGcn4long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xumuDCTef1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xumuDCTef1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xumuDCGal1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xumuDCLeu2long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xumuDCSpo13long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xumuDCLeu2short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xumuDCSpo13short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xconsensusSsl1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xconsensusSsl1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xconsensusZrt1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xumuDCGal1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xconsensusZrt1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xconsensusHem13long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xconsensusHem13short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xconsensusCup1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xconsensusCup1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xconsensusGcn4short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xconsensusHhf2short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xconsensusGcn4long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xconsensusTef1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xconsensusHhf2long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xconsensusSpo13short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xconsensusSpo13long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xconsensusTef1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xconsensusLeu2short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xconsensusGal1short
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xconsensusGal1long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- ori: colE1, f1, m13, 2 micron
+  backbone: 1xconsensusLeu2long
+  promoters: []
+  description: pRS426yeGFP derivative plasmid
+  selection_markers:
+  - URA3, AmpR
+- backbone: pLexA-hER-VP16
+  promoters:
+  - ADH1
+  description: hER-VP16 fragment was cloned from pRS414-GAL4-hER-VP16 into pKW1314
+    (aka pJF1000, derivative of pEG202 2-hybrid bait plasmid) linearized with EcoRI/SalI
+  selection_markers:
+  - HIS3
+  - Ampicillin
+bibliographicCitation: https://public-registry.jbei.org/folders/277
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00277
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

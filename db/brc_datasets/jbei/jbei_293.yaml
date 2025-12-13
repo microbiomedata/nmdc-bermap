@@ -1,0 +1,80 @@
+id: jbei:293
+brc: JBEI
+date: '2016-08-17'
+title: Hollinshead et al. 2016
+creator:
+- name: Heather Jensen
+  email: hmjensen@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Sarah Rodriguez
+  email: srodriguez@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Adrienne Schlatter
+  email: afschlatter@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Whitney Hollinshead
+  email: whollinshead@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Rachel Krupa
+  email: rakrupa@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- biobrick
+- YFP
+identifier: jbei:folder:00293
+repository: ICE
+datasetName: Hollinshead et al. 2016
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/293
+description: This dataset provides two plasmids for metabolic engineering and gene
+  expression studies in *E. coli*. The primary construct is designed to overexpress
+  the Entner-Doudoroff (ED) pathway, containing the `eda` and `edd` genes from *E.
+  coli* MG1655. A second plasmid serves as a reporter, featuring a BioBrick-compatible
+  Yellow Fluorescent Protein (YFP) regulated by the lacUV5 promoter.
+relatedItem:
+- title: Baba et al., 2003 and Datsenko and Wanner, 1997
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors:
+- name: Rachel Krupa
+  email: rakrupa@gmail.com
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: ColE1
+  backbone: pBbE5c-YFP
+  promoters:
+  - lacUV5
+  description: Biobricked YFP in lacUV5/colE1 plasmid
+  selection_markers:
+  - Chloramphenicol
+- ori: ColE1
+  backbone: pBbE5c-edESC
+  promoters:
+  - placUV5
+  description: overexpression of eda &amp; edd from MG1655 (gene insert region from
+    beginning of eda to end of edd)
+  selection_markers: []
+bibliographicCitation: https://public-registry.jbei.org/folders/293
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00293
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

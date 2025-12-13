@@ -1,0 +1,96 @@
+id: jbei:221
+brc: JBEI
+date: '2015-11-12'
+title: Rautengarten et al. 2014
+creator:
+- name: Mi Yeon Lee
+  email: miylee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00221
+repository: ICE
+datasetName: Rautengarten et al. 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/221
+description: This dataset contains seven plasmids for studying the Arabidopsis UDP-L-rhamnose
+  synthase (RHM1), an enzyme essential for synthesizing the pectin component rhamnogalacturonan
+  I. The collection features wild-type (RHM1D) and engineered (RHM1ER) versions of
+  the RHM1 gene cloned into the pYES-DEST52 yeast expression vector for functional
+  characterization. These constructs are key resources for investigating plant cell
+  wall biosynthesis.
+relatedItem:
+- title: AT1G34020, URGT6
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: AT4G39390, URGT4
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: AT1G76670, URGT1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: AT5G42420, URGT3
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: AT4G09810, URGT5
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors:
+- name: Carsten Rautengarten
+  email: 'crautengarten@lbl.gov '
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: NST5
+  promoters: []
+  description: pYES-DEST52
+  selection_markers:
+  - Amp
+- backbone: NST7
+  promoters: []
+  description: pYES-DEST52
+  selection_markers:
+  - Amp
+- backbone: TP23
+  promoters: []
+  description: pYES-DEST52
+  selection_markers:
+  - Amp
+- backbone: NST4
+  promoters: []
+  description: pYES-DEST52
+  selection_markers:
+  - Amp
+- backbone: NST9
+  promoters: []
+  description: pYES-DEST52
+  selection_markers:
+  - Amp
+- backbone: RHM1D
+  promoters: []
+  description: RHM1D
+  selection_markers:
+  - Unknown
+- backbone: RHM1ER
+  promoters: []
+  description: RHM1ER
+  selection_markers:
+  - Unknown
+bibliographicCitation: https://public-registry.jbei.org/folders/221
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00221
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

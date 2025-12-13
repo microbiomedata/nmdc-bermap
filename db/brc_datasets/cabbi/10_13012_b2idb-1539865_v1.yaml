@@ -1,0 +1,45 @@
+brc: CABBI
+date: '2022-06-14'
+title: Metabolic Engineering of Oleaginous Yeast Rhodotorula toruloides for Overproduction
+  of Triacetic Acid Lactone
+creator:
+- name: Huimin Zhao
+  email: zhao5@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 2872729
+  scientificName: Rhodotorula toruloides
+keywords:
+- Rhodotorula toruloides
+- DNA sequences
+- Plasmids
+identifier: 10.13012/B2IDB-1539865_V1
+repository: Illinois Data Bank
+description: The plant-sourced polyketide triacetic acid lactone (TAL) has been recognized
+  as a promising platform chemical for the biorefinery industry. However, its practical
+  application was rather limited due to low natural abundance and inefficient cell
+  factories for biosynthesis. Here, we report the metabolic engineering of oleaginous
+  yeast Rhodotorula toruloides for TAL overproduction. We first introduced a 2-pyrone
+  synthase gene from Gerbera hybrida (GhPS) into R. toruloides and investigated the
+  effects of different carbon sources on TAL production. We then systematically employed
+  a variety of metabolic engineering strategies to increase the flux of acetyl-CoA
+  by enhancing its biosynthetic pathways and disrupting its competing pathways. We
+  found that overexpression of ATP-citrate lyase (ACL1) improved TAL production by
+  45% compared to the GhPS overexpressing strain, and additional overexpression of
+  acetyl-CoA carboxylase (ACC1) further increased TAL production by 29%. Finally,
+  we characterized the resulting strain I12-ACL1-ACC1 using fed-batch bioreactor fermentation
+  in glucose or oilcane juice medium with acetate supplementation and achieved a titer
+  of 28 or 23 g/L TAL, respectively. This study demonstrates that R. toruloides is
+  a promising host for the production of TAL and other acetyl-CoA-derived polyketides
+  from low-cost carbon sources.
+relatedItem:
+- title: Metabolic Engineering of Oleaginous Yeast Rhodotorula toruloides for Overproduction
+    of Triacetic Acid Lactone
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1002/bit.28159
+bibliographicCitation: https://doi.org/10.13012/B2IDB-1539865_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-1539865_V1
+created_at: '2025-11-20T18:00:04.759Z'
+updated_at: '2025-12-10T06:00:05.196Z'

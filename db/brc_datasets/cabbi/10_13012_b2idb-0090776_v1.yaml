@@ -1,0 +1,36 @@
+brc: CABBI
+date: '2018-09-11'
+title: Increasing Ethanol Yield through Fiber Conversion in Corn Dry Grind Process
+creator:
+- name: Vijay Singh
+  email: vsingh@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 4577
+  scientificName: Zea mays
+keywords:
+- Cellulosic ethanol
+- Corn fiber
+- Dry grind
+identifier: 10.13012/B2IDB-0090776_V1
+repository: Illinois Data Bank
+description: Conversion of corn fiber to ethanol in the dry grind process could increase
+  ethanol yields, reduce downstream processing costs and improve overall process profitability.
+  This work investigates the in-situ conversion of corn fiber into ethanol (cellulase
+  addition during simultaneous saccharification and fermentation) during dry grind
+  process. Addition of 30 FPU/g fiber cellulase resulted in 4.6% increase in ethanol
+  yield compared to the conventional process. Use of excess cellulase (120 FPU/g fiber)
+  resulted in incomplete fermentation and lower ethanol yield compared to the conventional
+  process. Multiple factors including high concentrations of ethanol and phenolic
+  compounds were responsible for yeast stress and incomplete fermentation in excess
+  cellulase experiments.
+relatedItem:
+- title: Increasing Ethanol Yield through Fiber Conversion in Corn Dry Grind Process
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1016/j.biortech.2018.09.120
+bibliographicCitation: https://doi.org/10.13012/B2IDB-0090776_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-0090776_V1
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-10T06:00:05.195Z'

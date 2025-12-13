@@ -1,0 +1,40 @@
+brc: GLBRC
+date: '2025-07-31'
+title: Genomic factors limiting the diversity of Saccharomycotina plant pathogens
+creator:
+- name: Abigail Leavitt LaBella
+  email: alabell3@charlotte.edu
+  affiliation: North Carolina Research Center (NCRC), Department of Bioinformatics
+    and Genomics, The University of North Carolina at Charlotte, Kannapolis, NC 28081,
+    USA
+  primaryContact: true
+- name: Chris Todd Hittinger
+  email: chittinger@wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: false
+species:
+- NCBITaxID: 147537
+  scientificName: Saccharomycotina
+keywords:
+- Saccharomycotina
+- phytopathogen
+- reverse ecology
+identifier: 10.6084/m9.figshare.c.7691546.v1
+repository: FigShare
+description: We compared the genomes of 12 plant-pathogenic Saccharomycotina strains
+  to 360 plant-associated strains to identify features unique to the phytopathogens.
+  Characterization of the oxylipin synthesis genes, a compound believed to be involved
+  in <i>Eremothecium </i>pathogenicity, did not reveal any differences in gene presence
+  within or between the plant-pathogenic and plant-associated strains. A reverse-ecological
+  approach, however, revealed that plant pathogens lack several metabolic enzymes
+  known to assist other phytopathogens in overcoming plant defenses. 
+relatedItem:
+- title: Genomic factors limiting the diversity of Saccharomycotina plant pathogens
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://academic.oup.com/g3journal/advance-article/doi/10.1093/g3journal/jkaf184/8232741?login=true
+analysisType: Phylogeny, pathway enrichment analysis
+bibliographicCitation: https://figshare.com/collections/Genomic_factors_limiting_the_diversity_of_Saccharomycotina_plant_pathogens/7691546
+schema_version: 0.1.7
+uid: GLBRC_10.6084/m9.figshare.c.7691546.v1
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.198Z'

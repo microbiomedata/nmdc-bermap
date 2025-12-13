@@ -1,0 +1,37 @@
+brc: CBI
+date: '2024-07-02'
+title: Phenotypic data of Populus species selected for genomic selection and breeding
+  program using the Advanced Plant Phenotyping Laboratory at ORNL
+active: true
+creator:
+- name: Jin-Gui Chen
+  email: chenj@ornl.gov
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States),
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: true
+- name: Tao Yao
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Gerald Tuskan
+  email: tuskanga@ornl.gov
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER). Earth &amp; Environmental Systems Science (EESS)
+keywords:
+- plant phenotyping imagery hyperspectral multi modal multispectral flourescent
+identifier: https://www.osti.gov/biblio/2382819
+dataset_url: https://labkey.ornl.gov/labkey/APPL/Chen/PUBLIC_DATA/project-begin.view?
+description: This dataset contains the phenotypic measurements of Populus genotypes
+  selected for genomic selection and breeding program. Populus species in this study
+  includes P. trichocarpa, P. deltoides and a hybrid between these two species.
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/2382819
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2382819
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

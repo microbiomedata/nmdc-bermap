@@ -1,0 +1,54 @@
+brc: CABBI
+date: '2021-05-04'
+title: Renewable Linear Alpha-Olefins by Base-Catalyzed Dehydration of Biologically-Derived
+  Fatty Alcohols
+creator:
+- name: George Huber
+  email: gwhuber@wisc.edu
+  affiliation: University of Wisconsin - Madison
+  primaryContact: true
+- name: Brian Pfleger
+  email: pfleger@wisc.edu
+  affiliation: University of Wisconsin - Madison
+  primaryContact: false
+- name: Jeremy Guest
+  email: jsguest@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+keywords:
+- Linear Alpha-Olefins
+- TEA/LCA
+- alcohol conversions
+identifier: 10.13012/B2IDB-4438634_V1
+repository: Illinois Data Bank
+description: Base catalysts were studied for the dehydration of fatty alcohols to
+  linear alpha olefins (LAOs). For the gas phase dehydration of 1-octanol to 1-octene,
+  15% Cs/SiO2 catalyst was 56% selective at 10% conversion. Diluting a feed of C8,
+  C10, and C14 fatty alcohols to 50% in undecane increased the selectivity to alpha
+  olefins to 77–99%. 15% Cs/SiO2 was further investigated for the gas phase dehydration
+  of a 4.2 g L−1 mixed C8–C14 fatty alcohol in tridecane feed and showed linear alpha
+  olefin selectivities of 78–100% at initial conversions of 51–91% with the conversion
+  lowering to 32–77% over 30 h. Catalytic activity was totally regenerated through
+  calcination. A feed of biologically derived alcohols was produced with E. coli strain
+  CM24 transformed with three plasmids (pBTRCk–pVHb–maACR, pACYC–pVHb–seFadBA, pTRC99A–pVHb–tdTER–fdh)
+  which yielded a 5.5 g L−1 of C8–C14 fatty alcohol in tridecane. This biologically-derived
+  feed was successfully dehydrated to linear alpha olefins over 15% Cs/SiO2 at selectivities
+  of 60–100% with initial conversions of 35–75% which decreased to 22–55% over 30
+  h. Techno-economic analysis (TEA) of the integrated process for fatty alcohol production
+  and subsequent dehydration to alpha olefins was conducted across the potential fermentation
+  TRY (titer, rate, yield) landscape. Baseline fermentation performance resulted in
+  a minimum product selling price (MPSP) double the market price for LAOs due to low
+  titers and high costs associated with managing water and tridecane solvent flows
+  through the system. However, targeted improvements in fermentation performance (e.g.,
+  achieving 40 g L−1 titer, 0.5 g L−1 h−1 productivity, 80% theoretical yield) can
+  enable financially viable production of biologically derived LAOs.
+relatedItem:
+- title: Renewable Linear Alpha-Olefins by Base-Catalyzed Dehydration of Biologically-Derived
+    Fatty Alcohols
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1039/D1GC00243K
+bibliographicCitation: https://doi.org/10.13012/B2IDB-4438634_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-4438634_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

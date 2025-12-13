@@ -1,0 +1,36 @@
+brc: GLBRC
+date: '2025-02-26'
+title: Novosphingobium aromaticivorans DSM 12444 DAP Seq epigenomics
+creator:
+- name: Timothy J. Donohue
+  email: tdonohue@bact.wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: true
+- name: Daniel R. Noguera
+  email: dnoguera@wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: false
+species:
+- NCBITaxID: 279238
+  scientificName: Novosphingobium aromaticivorans DSM12444
+keywords:
+- transcription factor
+- aromatic metabolism
+- DAP-seq
+- bacteria
+identifier: PRJNA1228656
+repository: NCBI BioProject
+description: DNA affinity purification sequencing (DAP-seq) to identify putative transcriptional
+  regulators of aromatic metabolism in Novosphingobium aromaticivorans
+relatedItem:
+- title: Using DNA affinity purification sequencing (DAP-seq) to identify <i>in vitro</i>
+    binding sites of potential <i>Novosphingobium aromaticivorans </i>DSM12444 transcription
+    factors
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://journals.asm.org/doi/10.1128/mra.00260-25
+analysisType: DAP-seq, epigenomics
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1228656/
+schema_version: 0.1.7
+uid: GLBRC_PRJNA1228656
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.198Z'

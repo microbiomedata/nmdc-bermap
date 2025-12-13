@@ -1,0 +1,296 @@
+id: jbei:421
+brc: JBEI
+date: '2018-06-13'
+title: Eiben et al. 2019
+creator:
+- name: filemakerimport
+  email: filemakerimport
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Christopher Eiben
+  email: ceiben@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Xinkai Xie
+  email: xxie@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Nathan Hillson
+  email: njhillson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Taek Soon Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Andrew Hagen
+  email: arhagen@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Jorge Alonso-Gutierrez
+  email: jalonso-gutierrez@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Danielle Kalman
+  email: dkalman@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- scientificName: Acinetobacter strain RA3849
+- scientificName: Streptomyces coelicolor A3(2)
+- NCBITaxID: 7091
+  scientificName: Bombyx mori
+- scientificName: Choristoneura fumiferana
+- NCBITaxID: 46611
+  scientificName: Abies grandis
+- NCBITaxID: 29719
+  scientificName: Mentha spicata
+keywords:
+- Juvenile Hormones
+- Propionate
+- Terpenes
+- FPP
+- Mevalonate Pathway
+- HIPP
+- Juvenile Hormone
+- MBP
+- JH
+- solubility tag
+- homoisopentenyl pyrophosphate
+- propionate
+- BHFPP
+- GPP
+- maltose binding protein
+- HFPP
+- HDMAPP
+- Bombyx mori
+- 6xHis tag
+- Mevalonate
+- homodimethylallyl pyrophosphate
+- THFPP
+- BHGPP
+- Sesquiterpene Synthase
+- HGPP
+identifier: jbei:folder:00421
+repository: ICE
+datasetName: Eiben et al. 2019
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/421
+description: This dataset comprises 20 plasmids designed for the metabolic engineering
+  of terpene and isoprenoid biosynthesis in *E. coli*. The collection features individual
+  enzymes and multi-gene operons for the mevalonate (MVA) pathway, farnesyl pyrophosphate
+  (FPP) synthases, and various terpene synthases to produce molecules like epi-isozizaene
+  and humulene. Key genes are sourced from diverse organisms including insects, plants,
+  and bacteria, and are frequently codon-optimized and cloned into IPTG-inducible
+  pET vectors with affinity tags for purification.
+relatedItem:
+- title: Nature 440, Apr 20, 2006, pp1078-1082, US Patent Application No. 60/687390
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Peralta-Yahya PP, Ouellet M, Chan R, Mukhopadhyay A, Keasling JD, Lee TS.
+    Identification and microbial production of a terpene-based advanced biofuel. Nat
+    Commun. 2011 Sep 27;2:483. doi: 10.1038/ncomms1494. PubMed PMID: 21952217; PubMed
+    Central PMCID: PMC3195254.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Alonso-Gutierrez, J., Chan, R., Batth, T. S., Adams, P. D., Keasling, J.
+    D., Petzold, C. J. and Lee, T. S. (2013). “Metabolic engineering of Escherichia
+    coli for limonene and perillyl alcohol production.” Metab Eng. 19C: 33-41.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: affinity_purification
+contributors:
+- name: Chris Eiben
+  email: christopherbeiben@gmail.com
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pMMB-PHA
+  promoters: []
+  description: ''
+  selection_markers:
+  - Chloramphenicol
+- ori: pBR322
+  backbone: pET29bmHMGS
+  promoters:
+  - T7
+  description: pET29 with HMGS gene from Bombyx mori (silk worm), codon optimized
+    for E. coli. C terminal 6xHis tag with Tev protease site. Induce with IPTG
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pET29bmMEVPK
+  promoters:
+  - T7
+  description: pET29 with an Mevalonate-phosphate Kinase gene from Bombyx mori (silk
+    worm), codon optimized for E. coli. C terminal 6xHis tag with Tev protease site.
+    Induce with IPTG
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pET29bmHMGR_truncated
+  promoters:
+  - T7
+  description: pET29 with an N-terminally truncated HMGR gene from Bombyx mori (silk
+    worm), codon optimized for E. coli. C terminal 6xHis tag with Tev protease site.
+    Induce with IPTG
+  selection_markers:
+  - Kan
+- ori: p15A
+  backbone: pJH122
+  promoters: []
+  description: As pBbA5c-MevT(CO)-T1-MBIS(CO, ispA) but with the thiolase PhaA from
+    Acinetobacter strain RA3849 instead of the thiolase AtoB from Escherichia coli.
+  selection_markers:
+  - Chloramphenicol (E.coli)
+- backbone: pET29bmMEVK
+  promoters: []
+  description: pET29 with an Mevalonate Kinase gene from Bombyx mori (silk worm),
+    codon optimized for E coli. C terminal His tag with Tev protease site. Induce
+    with IPTG
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pET29bmMEVPPD
+  promoters:
+  - T7
+  description: pET29 with an Mevalonate-pyrophosphate Decarboxylase gene from Bombyx
+    mori (silk worm), codon optimized for E. coli. C terminal 6xHis tag with Tev protease
+    site. Induce with IPTG
+  selection_markers: []
+- ori: pBR322
+  backbone: pET29bmIPPI
+  promoters:
+  - T7
+  description: pET29 with an Isopentenyl-pyrophosphate Isomerase gene from Bombyx
+    mori (silk worm), codon optimized for E. coli. C terminal 6xHis tag with Tev protease
+    site. Induce with IPTG
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pET28cfFPPS2
+  promoters:
+  - T7
+  description: pET28 with an FPP synthase 2 gene from Choristoneura fumiferana (eastern
+    spruce budworm) native coding sequence. N-terminal 6xHis tag with thrombin cleavage
+    site. Induce with IPTG
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pET29cfFPPS1
+  promoters:
+  - T7
+  description: pET29 with a FPP synthase 1 gene from Choristoneura fumiferana (eastern
+    spruce budworm) codon optimized for E. coli. C terminal 6xHis tag with Tev protease
+    site. Induce with IPTG
+  selection_markers: []
+- ori: pBR322
+  backbone: pET28scEpiisozizaene
+  promoters:
+  - T7
+  description: pET28 with epiisozizaene synthase from Streptomyces coelicolor A3(2)
+    native sequence driven by at T7 promoter. N-terminal 6xHis Tag. Induce with IPTG.
+  selection_markers: []
+- ori: pBR322
+  backbone: pET29bmHMGR
+  promoters:
+  - T7
+  description: pET29 with an full length HMGR gene from Bombyx mori (silk worm), codon
+    optimized for E coli. C terminal 6xHis tag with Tev protease site. Induce with
+    IPTG.
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pJH39
+  promoters:
+  - pTrc
+  description: One half of a two plasmid system to make novel terpenes. Pair with
+    pJH10. pJH39 contains an operon with two FPP synthase gene from Lepidoptera and
+    gama humulene synthase (Abies grandis) mutant (S484A, Y566F) with an MBP tag driven
+    by an IPTG inducible promoter. The plasmid derives from colony A of 4 possible
+    colonies I picked during construction, so a synonym name is pJH39A.
+  selection_markers:
+  - Amp
+  - Carb
+- ori: ColE1
+  backbone: pJH15
+  promoters:
+  - pTrc
+  description: "This plasmid contains FPPS1 (with his tag) and FPPS2 (with his tag)\
+    \ from Choristoneura fumiferana\n for the production of FPP and FPP homologues\
+    \ in an operon with epi-Isozizaene synthase  (with his tag). IPTG inducible. Inspired\
+    \ by JBEI-6408."
+  selection_markers:
+  - Amp
+- ori: pBR322
+  backbone: pET28b-plus
+  promoters:
+  - T7
+  description: Standard pET-28b(+) plasmid without anything cloned in it. Has strong
+    T7 promoter inducible by IPTG. Offers multiple positions for a 6xHis tag including
+    at a N-terminal position followed by a thrombin protease site.
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pTrcHumulene
+  promoters:
+  - pTrc
+  description: alpha-humulene synthase gene cloned under pTrc
+  selection_markers:
+  - Ampicillin
+- ori: p15A
+  backbone: pJH10
+  promoters:
+  - LacUV5 + pTrc
+  description: Expression plasmid for producing HIPP and HDMAPP in E. coli.
+  selection_markers: []
+- ori: ColE1
+  backbone: pET29b-plus
+  promoters:
+  - T7
+  description: DOE JGI DNA Synthesis Program standard vector. Insertion at EcoRV site.
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pBbA5c-MevT(CO)-T1-MBIS(CO, ispA)
+  promoters: []
+  description: BglBricked Mev pathway - MevT(CO), Term-Ptrc, MBIS (codon optimized
+    and original ispA)
+  selection_markers:
+  - Chloramphenicol
+- ori: pBR322
+  backbone: pET28a-MBP
+  promoters:
+  - T7
+  description: A modification of the pET28a vector wherein a N-terminal 6xHis/MBP
+    is cloned into the NcoI/NdeI site of the vector such that subsequent ORFs cloned
+    into the NdeI site will have this solubility fusion which is cleavable with thrombin.
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pBbE1a-GPPS-LS
+  promoters:
+  - pTrc
+  description: Codon optimized and truncated GPPS and LS from Abies grandis and Mentha
+    spicata, respectively
+  selection_markers:
+  - Amp
+bibliographicCitation: https://public-registry.jbei.org/folders/421
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00421
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

@@ -1,0 +1,41 @@
+brc: GLBRC
+date: '2022-07-01'
+title: Aureobasidium pullulans strain CRUB 1823, whole genome shotgun sequencing project
+creator:
+- name: Nicolás Bellora
+  email: nbellora@gmail.com
+  affiliation: Laboratorio de Genómica Computacional, Instituto de Tecnologías Nucleares
+    para la Salud (INTECNUS), Consejo Nacional de Investigaciones Científicas y Técnicas
+    (CONICET), San Carlos de Bariloche, Argentina
+  primaryContact: true
+- name: Chris Todd Hittinger
+  email: chittinger@wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Aureobasidium pullulans strain CRUB 1823
+keywords:
+- Ascomycota/genetics
+- Saccharomyces cerevisiae
+- Aureobasidium
+- Genomics
+- RNA-seq
+- extremophiles
+- genetic speciation
+- oxidative stress
+identifier: JAMRJK000000000.1
+repository: GenBank
+description: Aureobasidium pullulans strain CRUB 1823, whole genome shotgun sequencing
+  project.
+relatedItem:
+- title: Assembly and comparative genome analysis of a Patagonian <i>Aureobasidium
+    pullulans</i> isolate reveals unexpected intraspecific variation
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://onlinelibrary.wiley.com/doi/10.1002/yea.3853
+analysisType: Whole genome shotgun sequencing project
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/nuccore/JAMRJK000000000
+schema_version: 0.1.7
+uid: GLBRC_JAMRJK000000000.1
+created_at: '2025-11-19T18:00:04.599Z'
+updated_at: '2025-12-10T06:00:05.197Z'

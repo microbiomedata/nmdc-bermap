@@ -1,0 +1,33 @@
+brc: GLBRC
+date: '2022-11-24'
+title: Macroevolutionary diversity of traits and genomes in the model yeast genus
+  Saccharomyces
+creator:
+- name: Chris Todd Hittinger
+  email: chittinger@wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: true
+species:
+- NCBITaxID: null
+  scientificName: Multispecies
+keywords:
+- Saccharomyces cerevisiae/genetics
+- phylogeny
+- saccharomyces/genetics
+- biodiversity
+- phenotype
+identifier: 10.6084/m9.figshare.17185874
+repository: FigShare
+description: Assemblies, raw data, scripts and command lines to perform analyses are
+  described in https://github.com/PerisD/Sac2.0
+relatedItem:
+- title: Macroevolutionary diversity of traits and genomes in the model yeast genus
+    <i>Saccharomyces</i>
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.nature.com/articles/s41467-023-36139-2
+analysisType: Genome assemblies, raw data, code, command lines
+bibliographicCitation: https://figshare.com/articles/dataset/A_genome-informed_higher_rank_classification_of_the_biotechnologically_important_fungal_subphylum_Saccharomycotina/19374350
+schema_version: 0.1.7
+uid: GLBRC_10.6084/m9.figshare.17185874
+created_at: '2025-11-19T18:00:04.600Z'
+updated_at: '2025-12-10T06:00:05.197Z'

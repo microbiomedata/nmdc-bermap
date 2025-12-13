@@ -1,0 +1,76 @@
+brc: CBI
+date: '2024-08-01'
+title: Five-year yield and physiology data for Populus deltoides grown in South Carolina
+active: true
+creator:
+- name: Gerald A. Tuskan
+  email: tuskanga@ornl.gov
+  orcid: 0000000301061289
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: true
+- name: Stan D. Wullschleger
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)
+  primaryContact: false
+- name: Paul J Hanson
+  email: hansonpj@ornl.gov
+  orcid: 0000000172933561
+  primaryContact: false
+- name: Melissa A Cregger
+  email: creggerma@ornl.gov
+  orcid: 000000018329366X
+  affiliation: Oak Ridge, TN (United States). Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: John L. Field
+  email: fieldjl@ornl.gov
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Brandon P Sloan
+  email: sloanbp@ornl.gov
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Michael W. Cunningham
+  affiliation: International Paper Company, Memphis TN
+  primaryContact: false
+- name: Bert M. Craig
+  affiliation: International Paper Company
+  primaryContact: false
+- name: Jim L Rakestraw
+  affiliation: International Paper Company, Memphis TN
+  primaryContact: false
+- name: Timothy J Tschaplinski
+  email: tschaplinstj@ornl.gov
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Basic Energy Sciences (BES)
+keywords:
+- Populus deltoides
+- Drip irrigation
+- N fertigation
+- soil water
+- biomass yield
+- soil carbon
+identifier: https://www.osti.gov/biblio/2424801
+dataset_url: https://labkey.ornl.gov/labkey/CBI/Tuskan/PUBLIC_DATA/CRADA/project-begin.view?
+description: A 6-year study in Sumter Co., SC, to determine crown and leaf attributes,
+  supplemental water and fertilization effects on dry weight productivity, and clonal
+  variation accounts in biomass traits. Eight commercially available clones -- ‘ST148’,
+  ‘S2C20’, ‘3167’, ‘ST72’ ‘20WV’, ‘S7C1’, ‘ST70’, and ‘S7C15’, were studied. Drip
+  irrigation rates were used to maintain soil tension of 33 kPa at 15% volumetric
+  soil moisture or 1500 kPa at 10%. Application of macro- and micronutrients occurred
+  via drip irrigation at a high and low rate. The high rate included an initial application
+  of 85 kg elemental nitrogen ha-1, which increased to 182 kg ha-1 at age 3, which
+  then was reduced to 135 kg ha-1 for remainder of the study. The low treatment received
+  50% (w/v) of the high treatment. Individual tree measurements across time are provided
+  in this dataset.
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/2424801
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2424801
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

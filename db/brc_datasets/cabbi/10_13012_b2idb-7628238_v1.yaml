@@ -1,0 +1,66 @@
+brc: CABBI
+date: '2025-07-23'
+title: Evaluating the Industrial Potential of Emerging Biomass Pretreatment Technologies
+  in Bioethanol Production and Lipid Recovery from Transgenic Sugarcane
+creator:
+- name: Vijay Singh
+  email: vsingh@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Fredy Altpeter
+  email: altpeter@ufl.edu
+  affiliation: University of Florida
+  primaryContact: false
+- name: John Shanklin
+  email: shanklin@bnl.gov
+  affiliation: Brookhaven National Laboratory
+  primaryContact: false
+species:
+- NCBITaxID: 4547
+  scientificName: Saccharum officinarum
+keywords:
+- sugarcane
+- oilcane
+- lipids
+- feedstock bioprocessing
+identifier: 10.13012/B2IDB-7628238_V1
+repository: Illinois Data Bank
+description: The selection of pretreatment methods is critical to achieving high product
+  yields during bioconversion of lignocellulosic biomass. Hydrothermal, soaking-in-aqueous
+  ammonia, and ionic liquid pretreatment methods are viable candidates for minimizing
+  sugar decomposition, permitting the effective hydrolysis of structural carbohydrates,
+  and producing a fermentable substrate suitable for achieving industrial ethanol
+  titers and yields. In this study, the effect of these three pretreatment methods
+  on non-modified sugarcane cultivar CP88-1762 and two transgenic lipid-accumulating
+  sugarcane lines, oilcane 1565 and oilcane 1566, were investigated and compared in
+  terms of lipid recovery, sugar yield, and ethanol yields within the lignocellulosic
+  biomass conversion pipeline. Fed-batch enzymatic hydrolysis at high solid loading
+  yielded hydrolysates capable of supporting industrial bioethanol titers across all
+  conditions. The highest sugar yields were obtained on ammonia-pretreated biomass
+  hydrolysate (253.73 g L−1), followed by hydrothermally pretreated hydrolysate (213.10
+  g L−1) and ionic liquid-pretreated hydrolysate (154.20 g L−1). Commercially viable
+  ethanol titers of 100.62 g L−1, 64.47 g L−1, and 52.95 g L−1 were achieved from
+  ammonia, hydrothermal, and ionic liquid pretreated hydrolysate with the corresponding
+  ethanol productivities of 2.08 g L−1 h−1, 0.53 g L−1 h−1, and 0.36 g L−1 h−1. The
+  lower acetic acid concentration in ammonia-pretreated hydrolysate may have enhanced
+  its fermentability relative to the hydrothermal pretreatment condition, as indicated
+  by the differences in ethanol titer and productivity. Lower sugar yields and ethanol
+  productivities under the ionic liquid conditions likely resulted from the inhibitory
+  effect of cholinium lysinate. Oilcane 1565 and oilcane 1566 bagasse accumulated
+  over 16- and 3 times higher lipids than the non-modified sugarcane CP88-1762. The
+  total fatty acid content in the oilcane samples was reduced in ammonia and ionic
+  liquid-pretreated bagasse relative to the hydrothermal pretreatment condition. While
+  all pretreatment techniques tested are industrially viable, the observed differences
+  in titer, productivity, and lipid content indicate that careful selection and validation
+  of upstream processing methods can contribute to improved economic and environmental
+  outcomes.
+relatedItem:
+- title: Evaluating the Industrial Potential of Emerging Biomass Pretreatment Technologies
+    in Bioethanol Production and Lipid Recovery from Transgenic Sugarcane
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1039/d5se00519a
+bibliographicCitation: https://doi.org/10.13012/B2IDB-7628238_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-7628238_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

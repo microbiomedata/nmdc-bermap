@@ -1,0 +1,32 @@
+brc: CABBI
+date: '2024-12-02'
+title: Genetic Basis of Non-Photochemical Quenching and Photosystem II Efficiency
+  Responses to Chilling in the Biomass Crop Miscanthus
+creator:
+- name: Sacks, Erik
+  email: esacks@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 183675
+  scientificName: Miscanthus sacchariflorus
+keywords:
+- field data
+- miscanthus
+- photosynthesis
+- genomics
+identifier: 10.6084/m9.figshare.27948354.v1
+repository: FigShare
+description: 209 genotypes of Miscanthus sacchariflorus, identifying significant variations
+  in NPQ and ΦPSII traits under warm and chilling conditions in 3 growing seasons
+  2017, 2019 and 2020.
+relatedItem:
+- title: Genetic Basis of Non-Photochemical Quenching and Photosystem II Efficiency
+    Responses to Chilling in the Biomass Crop Miscanthus
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/gcbb.70015
+bibliographicCitation: https://doi.org/10.6084/m9.figshare.27948354.v1
+schema_version: 0.1.1
+uid: CABBI_10.6084/m9.figshare.27948354.v1
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

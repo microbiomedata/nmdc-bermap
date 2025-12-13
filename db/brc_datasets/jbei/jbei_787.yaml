@@ -1,0 +1,88 @@
+id: jbei:787
+brc: JBEI
+date: '2022-10-10'
+title: Huang et al 2023
+creator:
+- name: Jing Huang
+  email: jinghuang@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 1883
+  scientificName: Streptomyces
+- NCBITaxID: 1888
+  scientificName: Streptomyces albus
+- NCBITaxID: 67301
+  scientificName: Streptomyces fragilis
+keywords: []
+identifier: jbei:folder:00787
+repository: ICE
+datasetName: Huang et al 2023
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/787
+description: This dataset provides expression and integration plasmids for metabolic
+  engineering in *E. coli* and *Streptomyces*. The collection features vectors for
+  expressing wild-type and evolved P450/CYP enzymes, as well as constructs for integrating
+  styrene biosynthesis pathways into the *S. albus* genome using the VWB integrase
+  system. A plasmid containing the azaserine biosynthetic gene cluster from *S. fragilis*
+  is also included for heterologous expression.
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: ColE1
+  backbone: pAZA037
+  promoters: []
+  description: plasmid containing P450-T2 genes under control of T7 promoter for expression
+    in E. coli
+  selection_markers: []
+- ori: ColE1
+  backbone: pAZA076
+  promoters: []
+  description: plasmid contains CYP203A1 WT gene under control of T7 promoter for
+    expression in E. coli
+  selection_markers:
+  - Kan (E. coli)
+- ori: p15A
+  backbone: pAZA132
+  promoters: []
+  description: plasmid containing 2 copies of evovled P50-T2 mutant gene and genes
+    for styrene biosynthesis in S. albus (spectinomycin resistance gene, VWB integrase
+    gene)
+  selection_markers: []
+- ori: p15A
+  backbone: pAZA138
+  promoters: []
+  description: This plasmid is for integrating genes for styrene biosynthesis into
+    Streptomyces (without PAD1), containing VWB_integrase and Spectinmoycin resistance
+    gene
+  selection_markers: []
+- ori: p15A
+  backbone: pAZA128
+  promoters: []
+  description: plasmid containing evolved P50-T2 mutant gene and genes for styrene
+    biosynthesis in S. albus (spectinomycin resistance gene, VWB integrase gene)
+  selection_markers:
+  - Spectinomycin 100 ug/mL
+- ori: p15A
+  backbone: pAZA121
+  promoters: []
+  description: plasmid containing genes for styrene biosynthesis in S. albus (spectinomycin
+    resistance gene, VWB integrase gene)
+  selection_markers: []
+- ori: p15A
+  backbone: pAZA007
+  promoters: []
+  description: plasmid containing azaserine gene cluster from S. fragilis (apramycin
+    resistance gene, phi C31 integrase gene)
+  selection_markers: []
+bibliographicCitation: https://public-registry.jbei.org/folders/787
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00787
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

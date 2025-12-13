@@ -1,0 +1,38 @@
+brc: GLBRC
+date: '2023-03-14'
+title: Pest suppression potential varies across ten bioenergy cropping systems
+creator:
+- name: Nathan L. Haan
+  email: nate.haan@uky.edu
+  affiliation: Department of Entomology, University of Kentucky, Lexington, Kentucky,
+    USA
+  primaryContact: true
+- name: Doug A. Landis
+  email: landisd@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Multiple cropping systems
+keywords:
+- bioenergy
+- ecosystem service
+- grassland
+- pest suppression
+- predation
+- sentinel prey
+identifier: zenodo.7733893
+repository: Zenodo
+description: Dataset and metadata for Haan, N.L., &amp; Landis, D.A. 2023. Pest suppression
+  potential varies across ten bioenergy cropping systems. <i>Global Change Biology
+  - Bioenergy</i>. 
+relatedItem:
+- title: Pest suppression potential varies across 10 bioenergy cropping systems
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://onlinelibrary.wiley.com/doi/10.1111/gcbb.13053
+analysisType: Field Data
+bibliographicCitation: https://zenodo.org/records/7733893
+schema_version: 0.1.7
+uid: GLBRC_zenodo.7733893
+created_at: '2025-11-19T18:00:04.599Z'
+updated_at: '2025-12-10T06:00:05.197Z'

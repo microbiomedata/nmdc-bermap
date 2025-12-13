@@ -1,0 +1,36 @@
+brc: GLBRC
+date: '2025-08-07'
+title: Shotgun proteomics of cell lysates and absolute quantification of E. coli,
+  Z. mobilis, C. thermocellum glycolytic proteins
+creator:
+- name: Daniel Amador-Noguez
+  email: amadornoguez@wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: true
+- name: Joshua J. Coon
+  email: jcoon@chem.wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Escherichia coli, Zymomonas mobilis, Clostridium thermocellum
+keywords:
+- proteomics
+- absolute quantification
+- DatasetType:Proteomics
+identifier: MSV000098743
+repository: MassIVE
+description: 'For E. coli, C. thermocellum, Z. mobilis: shotgun proteomics analyses
+  of tryptic digests of cell lysates; direct infusion of cell lysates spiked with
+  isotopically labelled peptides to perform absolute quantification of specific proteins
+  of interest, primarily related to glycolysis'
+relatedItem:
+- title: Thermodynamics shapes the <i>in vivo</i> enzyme burden on glycolytic pathways
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://journals.asm.org/doi/10.1128/mbio.01837-25
+analysisType: Proteomics
+bibliographicCitation: https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=MSV000098743
+schema_version: 0.1.7
+uid: GLBRC_MSV000098743
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.198Z'

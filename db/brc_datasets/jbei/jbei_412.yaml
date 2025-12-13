@@ -1,0 +1,127 @@
+id: jbei:412
+brc: JBEI
+date: '2019-01-16'
+title: Barajas et al. 2019
+creator:
+- name: Jesus Barajas
+  email: jfbarajas@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Sangeeta Nath
+  email: SNath@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 1836
+  scientificName: Saccharopolyspora erythraea
+- NCBITaxID: 1883
+  scientificName: Streptomyces
+- NCBITaxID: 1871
+  scientificName: Actinoplanes sp.
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00412
+repository: ICE
+datasetName: Barajas et al. 2019
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/412
+description: This dataset contains 13 plasmids for studying and engineering polyketide
+  synthase (PKS) dehydratase (DH) domains. The collection features wild-type DH domains
+  from the DEBS, Borrelidin, and Fluvirucin synthases, alongside chimeric versions
+  created through "loop swapping" to alter function. It also includes an inactivated
+  DH mutant created via site-directed mutagenesis and a set of *Streptomyces* expression
+  vectors.
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pBR322
+  backbone: pBK040 DEBS DH WT
+  promoters: []
+  description: pARH176 variant, without MBP. DebsDH WT
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pBK040 DEBS DH with BorA DH M2 loop
+  promoters: []
+  description: pARH176 variant, without MBP. DEBS DH Loop swap BorA DH M2.
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: WT pPK040
+  promoters:
+  - T7
+  description: pARH176 variant, without MBP.
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pBK040 FluA DH M1 with BorA DH M2 loop
+  promoters: []
+  description: pARH176 variant, without MBP. FluA DH1 Loop swap BorA DH2
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pBK040 BorA DH M3 with BorA DH M2 loop
+  promoters: []
+  description: pARH176 variant, without MBP. BorA DH M3 Loop swap BorA DH M2
+  selection_markers:
+  - kan
+- ori: pBR322
+  backbone: pBK040 BorA DH M3 with FluA DH M1 loop
+  promoters: []
+  description: pARH176 variant, without MBP. BorA DH M3 Loop swap FluA DH M1
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pPK040 DH Knockout
+  promoters: []
+  description: pARH176 variant, without MBP. BorADH2 inactivated H to F mutation.
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pBK040 BorA DH M2 with FluA DH M1 loop
+  promoters: []
+  description: pARH176 variant, without MBP. BorA DH M2  Loop swap FluA DH M1
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pBK040 Flu DH M1 WT
+  promoters: []
+  description: pARH176 variant, without MBP. FluDH M1 WT
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pBK040 BorA DH M3 WT
+  promoters: []
+  description: pARH176 variant, without MBP. BorA DH M3 WT
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: WT_pET28a_Flu_DH_M1
+  promoters: []
+  description: WT Fluvirucin dehydratase from module 1
+  selection_markers:
+  - kan
+- ori: pBR322
+  backbone: WT_pET28a_BorA_DH_M3
+  promoters: []
+  description: WT Borrelidin dehydratase module 3
+  selection_markers:
+  - Kan
+- ori: OriR/ RP4
+  backbone: pDVA00936
+  promoters: []
+  description: pAVint_pErmE, pAVint_GapDH, pAC1_pErmE, pAC1_GapDH,
+  selection_markers:
+  - Apramycin
+  - Strep resistant strains
+bibliographicCitation: https://public-registry.jbei.org/folders/412
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00412
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

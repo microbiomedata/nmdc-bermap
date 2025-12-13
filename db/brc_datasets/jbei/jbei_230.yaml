@@ -1,0 +1,54 @@
+id: jbei:230
+brc: JBEI
+date: '2015-11-13'
+title: Barajas et al. 2015
+creator:
+- name: Jesus Barajas
+  email: jfbarajas@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 34
+  scientificName: Myxococcus xanthus
+keywords:
+- MxaA R
+- Reductase
+identifier: jbei:folder:00230
+repository: ICE
+datasetName: Barajas et al. 2015
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/230
+description: This dataset provides a plasmid containing the gene for the terminal
+  reductase (R) domain from the MxaA non-ribosomal peptide synthetase (NRPS). This
+  domain is a key component of the biosynthetic machinery responsible for producing
+  the secondary metabolite myxalamid. The terminal reductase specifically catalyzes
+  the final step, the reductive release of the completed natural product from the
+  NRPS assembly line.
+relatedItem:
+- title: Barajas, J. F., Phelan, R. M., Schaub, A. J., Kliewer, J. T., Kelly, P. J.,
+    Jackson, D. R., Luo, R., Keasling, J. D., &amp; Tsai, S. C. (2015). "Comprehensive
+    Structural and Biochemical Analysis of the Terminal Myxalamid Reductase Domain
+    for the Engineered Production of Primary Alcohols". Chem Biol, 22(8), 1018-1029.
+    doi, 10.1016/j.chembiol.2015.06.022 http://www.ncbi.nlm.nih.gov/pubmed/26235055
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: F1 origin
+  backbone: Jesus Barajas
+  promoters:
+  - T7
+  description: Terminal reductase domain from the myxalamid MxaA NRPS module.
+  selection_markers:
+  - Kan
+bibliographicCitation: https://public-registry.jbei.org/folders/230
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00230
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

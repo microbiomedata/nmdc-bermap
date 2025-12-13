@@ -1,0 +1,31 @@
+brc: GLBRC
+date: '2023-04-23'
+title: B-Kristy/LTER-MCSE-Analysis
+creator:
+- name: Brandon Kristy
+  email: kristybr@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+- name: Sarah E. Evans
+  email: evanssa6@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Multispecies
+keywords: []
+identifier: B-Kristy/LTER-MCSE-Analysis
+repository: GitHub
+description: Code and data from 'Reduced soil diazotroph diversity decreases nitrogen
+  fixation rates, but depends on land management'
+relatedItem:
+- title: Reduced soil diazotroph diversity decreases nitrogen fixation rates but depends
+    on land management
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.sciencedirect.com/science/article/pii/S0929139325002902
+analysisType: Code, sequencing data and analyses
+bibliographicCitation: https://github.com/B-Kristy/LTER-MCSE-Analysis
+schema_version: 0.1.7
+uid: GLBRC_B-Kristy/LTER-MCSE-Analysis
+created_at: '2025-11-27T06:00:04.934Z'
+updated_at: '2025-12-10T06:00:05.198Z'

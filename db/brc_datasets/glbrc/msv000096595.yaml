@@ -1,0 +1,27 @@
+brc: GLBRC
+date: '2025-05-08'
+title: SPE-CZE-MS Quantifies Zeptomole Amounts of Phosphorylated Peptides
+creator:
+- name: Joshua J. Coon
+  email: jcoon@chem.wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: true
+species:
+- NCBITaxID: 10090
+  scientificName: Mus musculus
+keywords: []
+identifier: MSV000096595
+repository: MassIVE
+description: Using 225 phosphorylated peptide standards and phosphorylated peptide-enriched
+  mouse brain tissue, we investigate microchip-based SPE-CZE functionality, quantitative
+  performance, and complementarity to nano-LC-MS analysis. 
+relatedItem:
+- title: SPE-CZE-MS quantifies zeptomole amounts of phosphorylated peptides
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://pubs.acs.org/doi/10.1021/acs.jproteome.5c00194?ref=PDF
+analysisType: Proteomics
+bibliographicCitation: https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=92843358b2c34d5a929b116f2f8533e8
+schema_version: 0.1.7
+uid: GLBRC_MSV000096595
+created_at: '2025-11-27T06:00:04.934Z'
+updated_at: '2025-12-10T06:00:05.198Z'

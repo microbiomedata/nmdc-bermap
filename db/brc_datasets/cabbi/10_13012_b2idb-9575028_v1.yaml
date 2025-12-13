@@ -1,0 +1,54 @@
+brc: CABBI
+date: '2025-08-02'
+title: Data for 'Decompartmentalization of the yeast mitochondrial metabolism to improve
+  chemical production in Issatchenkia orientalis'
+creator:
+- name: Huimin Zhao
+  email: zhao5@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Joshua Rabinowitz
+  email: joshr@princeton.edu
+  affiliation: Princeton University
+  primaryContact: false
+- name: Jeremy Guest
+  email: jsguest@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 4909
+  scientificName: Issatchenkia orientalis
+keywords:
+- Issatchenkia orientalis
+- LC-MS
+- Metabolites
+identifier: 10.13012/B2IDB-9575028_V1
+repository: Illinois Data Bank
+description: Microbial production of chemicals may suffer from inadequate cofactor
+  provision, a challenge further exacerbated in yeasts due to compartmentalized cofactor
+  metabolism. Here, we perform cofactor engineering through the decompartmentalization
+  of mitochondrial metabolism to improve succinic acid (SA) production in Issatchenkia
+  orientalis. We localize the reducing equivalents of mitochondrial NADH to the cytosol
+  through cytosolic expression of its pyruvate dehydrogenase (PDH) complex and couple
+  a reductive tricarboxylic acid pathway with a glyoxylate shunt, partially bypassing
+  an NADH-dependent malate dehydrogenase to conserve NADH. Cytosolic SA production
+  reaches a titer of 104 g/L and a yield of 0.85 g/g glucose, surpassing the yield
+  of 0.66 g/g glucose constrained by cytosolic NADH availability. Additionally, expressing
+  cytosolic PDH, we expand our I. orientalis platform to enhance acetyl-CoA-derived
+  citramalic acid and triacetic acid lactone production by 1.22- and 4.35-fold, respectively.
+  Our work establishes I. orientalis as a versatile platform to produce markedly reduced
+  and acetyl-CoA-derived chemicals.
+relatedItem:
+- title: GNPS – Decompartmentalization of the Yeast Mitochondrial Metabolism to Improve
+    Chemical Production in Issatchenkia orientalis
+  relatedItemType: Dataset
+  relatedItemIdentifier: https://doi.org/doi:10.25345/C5TX35K3J
+- title: Decompartmentalization of the Yeast Mitochondrial Metabolism to Improve Chemical
+    Production in Issatchenkia orientalis
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1038/s41467-025-62304-w
+bibliographicCitation: https://doi.org/10.13012/B2IDB-9575028_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-9575028_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

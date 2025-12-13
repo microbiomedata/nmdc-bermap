@@ -1,0 +1,35 @@
+brc: GLBRC
+date: '2024-08-06'
+title: RNA-seq of Hanseniaspora, a yeast in the Saccharomycotina subphylum
+creator:
+- name: Abigail Leavitt LaBella
+  email: alabell3@charlotte.edu
+  affiliation: North Carolina Research Center (NCRC), Department of Bioinformatics
+    and Genomics, The University of North Carolina at Charlotte, Kannapolis, NC 28081,
+    USA
+  primaryContact: true
+- name: Chris Todd Hittinger
+  email: cthittinger@wisc.edu
+  affiliation: GLBRC - University of Wisconsin-Madison
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Hanseniaspora
+keywords:
+- yeast
+- codon bias
+- RNA-seq
+identifier: PRJNA1144926
+repository: NCBI BioProject
+description: Comparison of gene expression in fermentable vs nonfermentable carbon
+  source across 2 Hanseniaspora species representing divergent metabolic traits.
+relatedItem:
+- title: Genomic factors shaping codon usage across the Saccharomycotina subphylum
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://academic.oup.com/g3journal/article/14/11/jkae207/7746026?login=false
+analysisType: RNA-seq
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1144926/
+schema_version: 0.1.7
+uid: GLBRC_PRJNA1144926
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.197Z'

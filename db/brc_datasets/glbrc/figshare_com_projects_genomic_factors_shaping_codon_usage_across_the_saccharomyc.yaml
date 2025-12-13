@@ -1,0 +1,39 @@
+brc: GLBRC
+date: '2024-06-13'
+title: Code for determining code usage and other analyses across the Saccharomycotina
+  subphylum
+creator:
+- name: Abigail Leavitt LaBella
+  email: alabell3@charlotte.edu
+  affiliation: North Carolina Research Center (NCRC), Department of Bioinformatics
+    and Genomics, The University of North Carolina at Charlotte, Kannapolis, NC 28081,
+    USA
+  primaryContact: true
+- name: Chris Todd Hittinger
+  email: cthittinger@wisc.edu
+  affiliation: GLBRC - University of Wisconsin-Madison
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Saccharomycotina subphylum
+keywords:
+- yeast
+- random forest model
+- condon bias
+identifier: figshare.com/projects/Genomic_factors_shaping_codon_usage_across_the_Saccharomycotina_subphylum/187236
+repository: FigShare
+description: 'We characterized codon usage across 1,154 strains from 1,051 species
+  from the fungal subphylum Saccharomycotina to gain insight into the biases, molecular
+  mechanisms, evolution, and genomic features contributing to codon usage patterns.
+  We found a general preference for A/T-ending codons and correlations between codon
+  usage bias, GC content, and tRNA-ome size. '
+relatedItem:
+- title: Genomic factors shaping codon usage across the Saccharomycotina subphylum
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://academic.oup.com/g3journal/article/14/11/jkae207/7746026?login=false
+analysisType: Code
+bibliographicCitation: https://figshare.com/projects/Genomic_factors_shaping_codon_usage_across_the_Saccharomycotina_subphylum/187236
+schema_version: 0.1.7
+uid: GLBRC_figshare.com/projects/Genomic_factors_shaping_codon_usage_across_the_Saccharomycotina_subphylum/187236
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.197Z'

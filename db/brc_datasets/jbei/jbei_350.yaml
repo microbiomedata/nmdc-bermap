@@ -1,0 +1,155 @@
+id: jbei:350
+brc: JBEI
+date: '2018-01-15'
+title: Alonso-Gutierrez et al. 2017
+creator:
+- name: Jorge Alonso-Gutierrez
+  email: jalonso-gutierrez@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Daisuke Koma
+  email: daikoma@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Sarah Richardson
+  email: smrichardson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Taek Soon Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Robert Dahl
+  email: rhdahl@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Han Woo
+  email: hmwoo@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- pMCK-g47
+- rstA
+- FPP responsive
+- pMCK-g48
+- pMCC-g48
+- Bisabolene
+- pMCC-g44
+identifier: jbei:folder:00350
+repository: ICE
+datasetName: Alonso-Gutierrez et al. 2017
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/350
+description: This dataset provides a collection of plasmids for the metabolic engineering
+  of *E. coli* to produce bisabolene. It features a modular set of KIKO vectors for
+  the stable chromosomal integration of the complete mevalonate pathway. The collection
+  also includes a plasmid containing a bisabolene synthase driven by an FPP-responsive
+  promoter and a vector for engineering sucrose utilization.
+relatedItem:
+- title: 'GenBank Accession Number ??? in "Knock-in/Knock-out (KIKO) vectors for rapid
+    integration of large DNA sequences, including whole metabolic pathways, onto the
+    Escherichia coli chromosome at well-characterised loci" Sabri S, Steen JA, Bongers
+    M, Nielsen LK, Vickers CE. Microb Cell Fact. 2013 Jun 24;12:60. doi: 10.1186/1475-2859-12-60.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: p15A; pCASE1
+  backbone: pMCC-gCrM-M'
+  promoters: []
+  description: pMCC-g48
+  selection_markers:
+  - Cm
+- ori: R6K origin
+  backbone: pKIKO_Cm_poxB_PgadE-MevT
+  promoters: []
+  description: KIKO plasmid for the integration of the MevT operon (original) at the
+    poxB gene.  Only replicates in air cell!!!
+  selection_markers:
+  - Chloramphenicol
+- ori: R6Kori
+  backbone: pKIKO-lacZKm-T1006-Ptrc_4124_-MK-PMK-PMD_3120
+  promoters: []
+  description: KIKO vector containing the medium portion of the mevalonate pathway
+    (MK-PMK-PMD) under the control of Ptrc for its integration at the lacZ site of
+    the DH1 E. coli genome. Be aware these plasmids only replicate in pir cells and
+    therefore they cannot replicate in conventional E. coli strains
+  selection_markers:
+  - Kanamycin
+- ori: R6Kori
+  backbone: pKIKO-rbsAR_Km_3361_LacI_Ptrc-BIS_2872-idi-ispA
+  promoters: []
+  description: KIKO vector containing the bottom portion of the mevalonate pathway
+    under the control of Ptrc for its integration at the abs site of the DH1 E. coli
+    genome. Be aware these plasmids only replicate in pir cells and therefore they
+    cannot replicate in conventional E. coli strains
+  selection_markers:
+  - Kanamycin
+- ori: p15A; pCASE1
+  backbone: pMCC-gCrB-B'
+  promoters: []
+  description: pMCC-g44
+  selection_markers:
+  - Cm
+- ori: p15A; pCASE1
+  backbone: ''
+  promoters: []
+  description: pMCC-g44
+  selection_markers:
+  - Cm
+- ori: p15A; pCASE1
+  backbone: ''
+  promoters: []
+  description: pMCK-g48
+  selection_markers:
+  - Km
+- ori: p15A; pCASE1
+  backbone: pMCK-gCrM-M'
+  promoters: []
+  description: pMCK-g48
+  selection_markers:
+  - Km
+- ori: p15A; pCASE1
+  backbone: pMCK-gCrT-T'
+  promoters: []
+  description: pMCK-g47
+  selection_markers:
+  - Km
+- ori: p15A; pCASE1
+  backbone: ''
+  promoters: []
+  description: pMCK-g47
+  selection_markers:
+  - Km
+- ori: 'R6K '
+  backbone: pKIKOarsBΩcscAKB_Cm
+  promoters: []
+  description: pKIKO plasmid with csc genes in pKIKOarsB_Cm vector for ready chromosomal
+    integration - Sabri/Steen et al)) = pKIKOarsBCm (EcoRI; 3,771) ΩpCSCX (EcoRI;
+    4,064; cscAKB)
+  selection_markers:
+  - Cm
+- ori: ColE1
+  backbone: prstA-BIS-co
+  promoters:
+  - rstA
+  description: FPP responsive, rstA promoter, driving codon-optimized Bisabolene synthase
+  selection_markers:
+  - Ampicillin
+bibliographicCitation: https://public-registry.jbei.org/folders/350
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00350
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

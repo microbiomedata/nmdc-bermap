@@ -1,0 +1,53 @@
+brc: GLBRC
+date: '2022-01-02'
+title: Vanderwaltozyma urihicola sp. nov., a yeast species isolated from rotting wood
+  and beetles in a Brazilian Amazonian rainforest biome
+creator:
+- name: Carlos A. Rosa
+  email: carlrosa@icb.ufmg.br
+  affiliation: Universidade Federal de Minas Gerais, Belo Horizonte, MG, 31270-901,
+    Brazil
+  primaryContact: true
+- name: Chris Todd Hittinger
+  email: cthittinger@wisc.edu
+  affiliation: GLBRC - University of Wisconsin-Madison
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Vanderwaltozyma urihicola sp. nov.
+keywords:
+- Coleoptera/microbiology
+- Animals
+- Brazil
+- Phylogeny
+- Wood/microbiology
+- Rainforest
+- DNA
+- Fungal/genetics
+- Sequence Analysis
+- DNA Mycological Typing Techniques
+- 'Saccharomycetales/genetics/classification/isolation &amp; purification
+
+  DNA'
+- Ribosomal Spacer/genetics
+- Larva/microbiology
+- Amazonian Forest
+- Vanderwaltozyma urihicola sp. nov.
+- passalid beetle
+- rotting wood
+- soil
+identifier: OM095314
+repository: GenBank
+description: Vanderwaltozyma sp. isolate UFMG-CM-Y7006 internal transcribed spacer
+  2 and large subunit ribosomal RNA gene, partial sequence
+relatedItem:
+- title: Vanderwaltozyma urihicola sp. nov., a yeast species isolated from rotting
+    wood and beetles in a Brazilian Amazonian rainforest biome
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/ijsem.0.006718
+analysisType: D1/D2 large subunit rRNA sequencing
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/nuccore/OM095314
+schema_version: 0.1.7
+uid: GLBRC_OM095314
+created_at: '2025-11-27T06:00:04.934Z'
+updated_at: '2025-12-10T06:00:05.198Z'

@@ -1,0 +1,32 @@
+brc: GLBRC
+date: '2022-06-09'
+title: 'Kellogg Biological Station, Biofuel Cropping System Experiment '
+creator:
+- name: Nathan L. Haan
+  email: nate.haan@uky.edu
+  affiliation: Department of Entomology, University of Kentucky, Lexington, Kentucky,
+    USA
+  primaryContact: true
+- name: Doug A. Landis
+  email: landisd@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Multiple species, metagenome
+keywords: []
+identifier: 'PRJNA847575 '
+repository: NCBI BioProject
+description: High-throughput amplicon sequencing of the ITS, 16S and 18S regions from
+  soil, roots and leaves DNAs of the 50 plots present in the BCSE (Biofuel Cropping
+  System Experiment) experiment at Kellogg Biological Station.
+relatedItem:
+- title: Contrasting effects of bioenergy crops on biodiversity
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.science.org/doi/abs/10.1126/sciadv.adh7960
+analysisType: Raw sequence reads; Targeted loci environmental
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA847575
+schema_version: 0.1.7
+uid: 'GLBRC_PRJNA847575 '
+created_at: '2025-11-19T18:00:04.599Z'
+updated_at: '2025-12-10T06:00:05.197Z'

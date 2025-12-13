@@ -1,0 +1,169 @@
+id: jbei:157
+brc: JBEI
+date: '2015-03-11'
+title: Alonso-Gutierrez et al., 2013
+creator:
+- name: Danielle Kalman
+  email: dkalman@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Jorge Alonso-Gutierrez
+  email: jalonso-gutierrez@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Dwight Kuo
+  email: dkuo@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Rossana Chan
+  email: rchan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: filemakerimport
+  email: filemakerimport
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Taek Soon Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+- NCBITaxID: 46611
+  scientificName: Abies grandis
+- NCBITaxID: 29719
+  scientificName: Mentha spicata
+keywords: []
+identifier: jbei:folder:00157
+repository: ICE
+datasetName: Alonso-Gutierrez et al., 2013
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/157
+description: This dataset contains 10 plasmids for engineering *E. coli* to produce
+  the monoterpene limonene and its derivative, perillyl alcohol. The constructs establish
+  a heterologous mevalonate pathway using genes from *S. cerevisiae* and *E. coli*
+  to supply isoprenoid precursors. Key plasmids feature various optimized and truncated
+  versions of geranyl pyrophosphate synthase (GPPS) and limonene synthase (LS), as
+  well as a P450 system for the oxidation of limonene.
+relatedItem:
+- title: 'Alonso-Gutierrez, J., Chan, R., Batth, T. S., Adams, P. D., Keasling, J.
+    D., Petzold, C. J. and Lee, T. S. (2013). “Metabolic engineering of Escherichia
+    coli for limonene and perillyl alcohol production.” Metab Eng. 19C: 33-41.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Alonso-Gutierrez J, Kim E.M., Batth TS, Cho N, Hu Q, Chan LJD, Petzold CJ,
+    Hillson NJ, Adams PD, Keasling JD, Garcia-Martin H, and Lee TS. (2014) Principal
+    component analysis of proteomics (PCAP) as a tool to direct metabolic engineering.
+    Metabolic Engineering. doi:10.1016/j.ymben.2014.11.011
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: http://www.ncbi.nlm.nih.gov/pubmed/12778056?dopt=Abstract
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: http://www.ncbi.nlm.nih.gov/pubmed/12778056?dopt=Abstract
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Alonso-Gutierrez J, Chan R, Batth TS, Adams PD, Keasling JD, Petzold CJ,
+    Lee TS. Metabolic engineering of Escherichia coli for limonene and perillyl alcohol
+    production. Metab Eng. 2013 Sep;19:33-41. doi: 10.1016/j.ymben.2013.05.004. Epub
+    2013 May 29. PubMed PMID: 23727191.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors:
+- name: Suzanne Ma
+  email: smma@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: ColE1
+  backbone: pBbE1a-GPPS-LS
+  promoters:
+  - pTrc
+  description: Codon optimized and truncated GPPS and LS from Abies grandis and Mentha
+    spicata, respectively
+  selection_markers:
+  - Amp
+- ori: p15a
+  backbone: pBbA5a-MTSA-T1-MBI(f)-T1002-Ptrc-trGPPS-LS
+  promoters: []
+  description: Aone plamid version for the production of limonene equivalent to pJBx021482
+    but with AmpR instead of CmR
+  selection_markers:
+  - Amp
+- backbone: pBbA5c-MTSA-T1-MBI(f)-T1002-Ptrc-trGPPS-LS
+  promoters: []
+  description: One plasmid version for the production of limonene (also known as "B")
+  selection_markers:
+  - Cm
+- backbone: pBbB8k-CYP153-FdR-Fd
+  promoters: []
+  description: Plasmid expressing, under the control of PBAD promotor,  P450 (ahpG)
+    and its associated Ferredoxin (ahpI) and Ferredoxin Reductase (ahpH) for the oxidation
+    of L-limonene to Perillyl Alcohol as desrcibed by van Beilen et. al (2005)
+  selection_markers:
+  - Kan
+- ori: f1, p15a
+  backbone: pMevT-Sc
+  promoters: []
+  description: E. coli (atoB), S. cerevisiae (HMGS), S. cerevisiae (tHMGR) in one
+    operon
+  selection_markers:
+  - Chloramphenicol
+- ori: p15A
+  backbone: pBbA5c-MevT-MBI
+  promoters:
+  - lacUV5
+  description: 'A plasmid that includes upper portion of mevalonate pathway as well
+    as mevalonate kinase, phosphomevalonate kinase, mevalonate pyrophosphate decarboxylatse
+    and IPP isomerase genes. '
+  selection_markers:
+  - Chloramphenicol
+- ori: pBBR1MCS
+  backbone: pMBI
+  promoters:
+  - Lac
+  description: "Mevalonate kinase, phosphomevalonate kinase, mevalonate pyrophosphate\
+    \ decarboxylatse, IPP isomerase\r\nComments: Doesn't contain lacI/ ERG1, ERG8,\
+    \ MVD1: S. cerevisiae/ idi: E. Coli"
+  selection_markers:
+  - Tetracycline
+- ori: p15A
+  backbone: pBbA5c-MTSA-T1-MBI(fixed)
+  promoters: []
+  description: BglBricked Mev pathway - MTSA under PlacUV5, dbl-Term, MBI (codon optimized
+    MK and PMK(fixed)) under Ptrc
+  selection_markers:
+  - Chloramphenicol
+- backbone: pTrc-GPPS(CO)-LS
+  promoters:
+  - Trc
+  description: A plasmid that has codon optimized geranylpyrophosphate synthase and
+    truncated limonene synthase.
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc-trGPPS(CO)-LS
+  promoters:
+  - Trc
+  description: A plasmid that has truncated codon optimized geranylpyrophosphate synthase
+    and truncated limonene synthase.
+  selection_markers:
+  - Ampicillin
+bibliographicCitation: https://public-registry.jbei.org/folders/157
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00157
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.619Z'

@@ -1,0 +1,163 @@
+id: jbei:191
+brc: JBEI
+date: '2015-05-21'
+title: Haushalter, et al. 2014
+creator:
+- name: Robert Haushalter
+  email: rwhaushalter@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Dan Groff
+  email: djgroff@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: filemakerimport
+  email: filemakerimport
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Eric Steen
+  email: ejsteen@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 90371
+  scientificName: Salmonella typhimurium
+- NCBITaxID: 1718
+  scientificName: Corynebacterium glutamicum
+- NCBITaxID: 1423
+  scientificName: Bacillus subtilis
+keywords:
+- branched fatty acid production
+- Bkd operon
+- branched fatty acids
+- Threonine
+- bFabH2
+identifier: jbei:folder:00191
+repository: ICE
+datasetName: Haushalter, et al. 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/191
+description: This dataset comprises eight plasmids for the metabolic engineering of
+  *E. coli* to produce branched-chain fatty acids (BCFAs). The constructs contain
+  key biosynthetic genes, including 'TesA, bFabH variants, and operons for branched-chain
+  amino acid degradation (bkd) and biosynthesis (ilv). These plasmids enable the production
+  of both iso- and anteiso-fatty acids through constitutive, inducible, and dynamically
+  regulated expression systems.
+relatedItem:
+- title: Haushalter, R. W., Kim, W., Chavkin, T. A., The, L., Garber, M. E., Nhan,
+    M., Petzold, C. J., Katz, L., &amp; Keasling, J. D. (2014). “Production of anteiso-branched
+    fatty acids in Escherichia coli; next generation biofuels with improved cold-flow
+    properties”. [Journal article]. Metab Eng, 20(14), 00116-00115. doi, 10.1016/j.ymben.2014.09.002
+    http://www.ncbi.nlm.nih.gov/pubmed/25250846
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: A.F. Cann, J.C. Liao. Production of 2-methyl-1-butanol in engineered Escherichia
+    coli Appl. Microbiol. Biotechnol., 81 (1) (2008), pp. 89–98
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Guyer et al. 1981 Cold Spring Harbor Symposium Quantitative Biology 45:135
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Cann and Liao. Production of 2-methyl-1-butanol in engineered Escherichia
+    coli. Appl Microbiol Biotechnol (2008) 81:89–98
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Lee TS, Krupa RA, Zhang F, Hajimorad M, Holtz WJ, Prasad N, Lee SK, Keasling
+    JD. BglBrick vectors and datasheets: A synthetic biology platform for gene expression.
+    J Biol Eng. 2011 Sep 20;5:12. doi: 10.1186/1754-1611-5-12.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors:
+- name: E. coli Genetic Stock Center
+  email: dkalman@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+- name: Taek Soon Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pBR322
+  backbone: pPhatty-W2
+  promoters:
+  - lacUV5
+  description: leaderless 'TesA, bFabH2, and the Bkd operon cloned into B5K as a single
+    operon. FadR constitutively expressed under Kanr promoter. Allows for production
+    of branched fatty acids in E.coli.
+  selection_markers:
+  - Kanamycin
+- ori: BBR
+  backbone: pHatty
+  promoters:
+  - lacUV5
+  description: B5K with lTesa in BB site, and fadR under the control of the KanR promoter
+  selection_markers:
+  - Kan
+- ori: pSC101
+  backbone: pCS49
+  promoters:
+  - lacO1
+  description: Gift from the lab of Prof. James C. Liao. Expresses the threonine biosynthetic
+    operon ThrABC using lacO1 promoter.
+  selection_markers: []
+- ori: colE1
+  backbone: pIlvGMCDA
+  promoters:
+  - LacO1
+  description: Expresses the genes IlvGMCDA as a single operon. IlvG and is from S.
+    typhimurium, IlvA from C. glutamicum. For prodcution of anteiso-branched fatty
+    acids in E.coli
+  selection_markers:
+  - Ampicillin
+- ori: p15A
+  backbone: pIlvC.28utr-bFabH2-p15a
+  promoters:
+  - pIlvC.28utr
+  description: bFabH2 expression dynamically regulated by pIlvC.28utr. Promoter is
+    the native promoter for the gene ilvC up to the RBS, then the same as pET28 from
+    the RBS to the start codon of bFabH2. Expression is induced by acetohydroxy acids,
+    intermediates in isoleucine and valine biosynthesis.
+  selection_markers:
+  - Chlorampenicol
+- ori: BR332
+  backbone: pPhatty bkd
+  promoters:
+  - LacUV5
+  description: '''TesA and the four genes of the B. subtilis bkd operon driven by
+    lacUV5 as a single operon. FadR constitutively expressed in an operon with kan
+    marker.'
+  selection_markers:
+  - kanamycin
+- ori: BR322
+  backbone: pPhatty.W1
+  promoters:
+  - LacUV5
+  description: Plasmid encoding 'tesA, bFabH1, and the four genes of the B. subtilis
+    bkd operon. Expressed as a single operon.
+  selection_markers:
+  - kanamycin
+- ori: p15A
+  backbone: pBbA5c-RFP
+  promoters:
+  - lacUV5
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+bibliographicCitation: https://public-registry.jbei.org/folders/191
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00191
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.619Z'

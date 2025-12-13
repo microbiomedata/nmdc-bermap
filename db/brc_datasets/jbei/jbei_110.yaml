@@ -1,0 +1,936 @@
+id: jbei:110
+brc: JBEI
+date: '2014-03-06'
+title: Lao et al. 2014 B
+creator:
+- name: Jeemeng Lao
+  email: jlao@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 4530
+  scientificName: Oryza sativa
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 358
+  scientificName: Agrobacterium tumefaciens
+keywords:
+- LOC_Os02g22650.1
+- LOC_Os10g21890.1
+- LOC_Os01g34880.1
+- LOC_Os06g04200.1
+- LOC_Os10g35020.1
+- LOC_Os06g40060.2
+- LOC_Os02g49332.1
+- LOC_Os01g11070.1
+- LOC_Os03g37010.1
+- LOC_Os06g49810.1
+- LOC_Os03g63270.1
+- LOC_Os03g15840.1
+- LOC_Os04g55670.1
+- LOC_Os10g20090.1
+- LOC_Os01g48440.1
+- LOC_Os10g20260.1
+- LOC_Os01g03160.1
+- LOC_Os01g02930.1
+- LOC_Os01g39810.3
+- LOC_Os02g06840.1
+- LOC_Os04g48480.1
+- LOC_Os10g10080.1
+- LOC_Os03g05070.1
+- LOC_Os03g18820.1
+- LOC_Os02g02620.1
+- LOC_Os06g02260.1
+- LOC_Os02g52630.1
+- LOC_Os03g16140.4
+- LOC_Os12g31480.1
+- LOC_Os07g46380.1
+- LOC_Os04g46050.1
+- LOC_Os01g65780.3
+- LOC_Os09g30280.1
+- LOC_Os02g22190.1
+- LOC_Os02g09930.1
+- LOC_Os01g07720.4
+- LOC_Os02g17534.1
+- LOC_Os03g05110.1
+- LOC_Os02g32110.1
+- LOC_Os01g70180.2
+- LOC_Os01g07720.2
+- LOC_Os01g65780.1
+- LOC_Os06g27560.1
+- LOC_Os03g21250.1
+- LOC_Os08g06380.1
+- LOC_Os03g40270.1
+- LOC_Os02g09170.1
+- LOC_Os08g02370.1
+- LOC_Os10g10080.3
+- LOC_Os01g31370.1
+- LOC_Os01g48200.1
+- LOC_Os01g72610.1
+- LOC_Os08g39380.1
+- LOC_Os01g34930.1
+- LOC_Os01g70190.1
+- LOC_Os03g02756.1
+- LOC_Os01g02940.6
+- LOC_Os07g09050.1
+- LOC_Os05g35200.4
+- LOC_Os07g19444.1
+- LOC_Os01g69220.1
+- LOC_Os07g36690.1
+- LOC_Os01g70200.1
+- LOC_Os10g30080.1
+- LOC_Os12g38930.1
+- LOC_Os02g39960.1
+- LOC_Os02g22650.2
+- LOC_Os02g32750.1
+- LOC_Os02g04250.3
+- LOC_Os02g32750.2
+- LOC_Os08g04790.1
+- LOC_Os02g09430.1
+- LOC_Os02g22380.1
+- LOC_Os11g36420.1
+- LOC_Os04g32670.1
+- LOC_Os01g70180.1
+- LOC_Os03g20120.1
+- LOC_Os02g44510.2
+- LOC_Os02g22480.2
+- LOC_Os06g49320.1
+- LOC_Os01g02940.1
+- LOC_Os05g44360.1
+- LOC_Os01g48440.3
+- LOC_Os01g04920.1
+- LOC_Os01g39810.1
+- LOC_Os01g02920.1
+- LOC_Os03g60700.1
+- LOC_Os09g36190.1
+- LOC_Os08g34020.1
+- LOC_Os06g12280.1
+- LOC_Os03g60939.1
+- LOC_Os02g04250.1
+- LOC_Os08g24750.1
+- LOC_Os02g07200.1
+- LOC_Os03g63280.1
+- LOC_Os04g37650.1
+- LOC_Os03g16140.1
+- LOC_Os02g51060.1
+- LOC_Os06g23420.2
+- LOC_Os07g09050.2
+- LOC_Os08g34580.1
+- LOC_Os06g28124.1
+- LOC_Os04g42760.1
+- LOC_Os04g46050.3
+- LOC_Os01g39810.4
+- LOC_Os02g49332.2
+- LOC_Os07g49370.1
+- LOC_Os06g47340.1
+- LOC_Os02g52640.1
+- LOC_Os01g52710.1
+- LOC_Os10g10080.2
+- LOC_Os07g43710.1
+identifier: jbei:folder:00110
+repository: ICE
+datasetName: Lao et al. 2014 B
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/110
+description: This dataset contains 112 expression plasmids, each carrying a unique
+  transcription factor from rice (*Oryza sativa*). These constructs were used in a
+  large-scale, gain-of-function screen to identify genes that enhance plant growth
+  and improve tolerance to abiotic stresses like drought, salt, and cold. The collection
+  represents a valuable resource of candidate genes for engineering desirable traits
+  in bioenergy and agricultural crops.
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os10g10080.2
+  promoters:
+  - T7
+  description: LOC_Os10g10080.2
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os10g30080.1
+  promoters:
+  - T7
+  description: LOC_Os10g30080.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os11g36420.1
+  promoters:
+  - T7
+  description: LOC_Os11g36420.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os10g10080.3
+  promoters:
+  - T7
+  description: LOC_Os10g10080.3
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os10g20090.1
+  promoters:
+  - T7
+  description: LOC_Os10g20090.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os12g38930.1
+  promoters:
+  - T7
+  description: LOC_Os12g38930.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os10g35020.1
+  promoters:
+  - T7
+  description: LOC_Os10g35020.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os10g20260.1
+  promoters:
+  - T7
+  description: LOC_Os10g20260.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os12g31480.1
+  promoters:
+  - T7
+  description: LOC_Os12g31480.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os10g21890.1
+  promoters:
+  - T7
+  description: LOC_Os10g21890.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os08g06380.1
+  promoters:
+  - T7
+  description: LOC_Os08g06380.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os10g10080.1
+  promoters:
+  - T7
+  description: LOC_Os10g10080.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os09g30280.1
+  promoters:
+  - T7
+  description: LOC_Os09g30280.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os09g36190.1
+  promoters:
+  - T7
+  description: LOC_Os09g36190.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os08g34580.1
+  promoters:
+  - T7
+  description: LOC_Os08g34580.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os08g34020.1
+  promoters:
+  - T7
+  description: LOC_Os08g34020.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os08g39380.1
+  promoters:
+  - T7
+  description: LOC_Os08g39380.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os08g04790.1
+  promoters:
+  - T7
+  description: LOC_Os08g04790.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os08g24750.1
+  promoters:
+  - T7
+  description: LOC_Os08g24750.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os08g02370.1
+  promoters:
+  - T7
+  description: LOC_Os08g02370.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os07g19444.1
+  promoters:
+  - T7
+  description: LOC_Os07g19444.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os07g43710.1
+  promoters:
+  - T7
+  description: LOC_Os07g43710.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os07g36690.1
+  promoters:
+  - T7
+  description: LOC_Os07g36690.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os07g49370.1
+  promoters:
+  - T7
+  description: LOC_Os07g49370.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os07g09050.1
+  promoters:
+  - T7
+  description: LOC_Os07g09050.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os07g46380.1
+  promoters:
+  - T7
+  description: LOC_Os07g46380.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os07g09050.2
+  promoters:
+  - T7
+  description: LOC_Os07g09050.2
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os06g49810.1
+  promoters:
+  - T7
+  description: LOC_Os06g49810.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os06g49320.1
+  promoters:
+  - T7
+  description: LOC_Os06g49320.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os06g28124.1
+  promoters:
+  - T7
+  description: LOC_Os06g28124.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os06g27560.1
+  promoters:
+  - T7
+  description: LOC_Os06g27560.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os06g12280.1
+  promoters:
+  - T7
+  description: LOC_Os06g12280.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os06g47340.1
+  promoters:
+  - T7
+  description: LOC_Os06g47340.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os06g04200.1
+  promoters:
+  - T7
+  description: LOC_Os06g04200.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os06g02260.1
+  promoters:
+  - T7
+  description: LOC_Os06g02260.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os05g44360.1
+  promoters:
+  - T7
+  description: LOC_Os05g44360.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os06g40060.2
+  promoters:
+  - T7
+  description: LOC_Os06g40060.2
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os06g23420.2
+  promoters:
+  - T7
+  description: LOC_Os06g23420.2
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os05g35200.4
+  promoters:
+  - T7
+  description: LOC_Os05g35200.4
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os04g46050.3
+  promoters:
+  - T7
+  description: LOC_Os04g46050.3
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os04g48480.1
+  promoters:
+  - T7
+  description: LOC_Os04g48480.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os04g55670.1
+  promoters:
+  - T7
+  description: LOC_Os04g55670.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os04g42760.1
+  promoters:
+  - T7
+  description: LOC_Os04g42760.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os04g46050.1
+  promoters:
+  - T7
+  description: LOC_Os04g46050.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os03g60939.1
+  promoters:
+  - T7
+  description: LOC_Os03g60939.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os03g63270.1
+  promoters:
+  - T7
+  description: LOC_Os03g63270.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os03g37010.1
+  promoters:
+  - T7
+  description: LOC_Os03g37010.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os03g63280.1
+  promoters:
+  - T7
+  description: LOC_Os03g63280.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os04g37650.1
+  promoters:
+  - T7
+  description: LOC_Os04g37650.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os04g32670.1
+  promoters:
+  - T7
+  description: LOC_Os04g32670.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os03g20120.1
+  promoters:
+  - T7
+  description: LOC_Os03g20120.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os03g18820.1
+  promoters:
+  - T7
+  description: LOC_Os03g18820.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os03g40270.1
+  promoters:
+  - T7
+  description: LOC_Os03g40270.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os03g21250.1
+  promoters:
+  - T7
+  description: LOC_Os03g21250.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os03g16140.4
+  promoters:
+  - T7
+  description: LOC_Os03g16140.4
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os03g60700.1
+  promoters:
+  - T7
+  description: LOC_Os03g60700.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os03g16140.1
+  promoters:
+  - T7
+  description: LOC_Os03g16140.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os03g15840.1
+  promoters:
+  - T7
+  description: LOC_Os03g15840.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os03g05110.1
+  promoters:
+  - T7
+  description: LOC_Os03g05110.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os03g05070.1
+  promoters:
+  - T7
+  description: LOC_Os03g05070.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os02g52630.1
+  promoters:
+  - T7
+  description: LOC_Os02g52630.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os02g49332.1
+  promoters:
+  - T7
+  description: LOC_Os02g49332.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os02g49332.2
+  promoters:
+  - T7
+  description: LOC_Os02g49332.2
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os02g52640.1
+  promoters:
+  - T7
+  description: LOC_Os02g52640.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os02g39960.1
+  promoters:
+  - T7
+  description: LOC_Os02g39960.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os03g02756.1
+  promoters:
+  - T7
+  description: LOC_Os03g02756.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os02g44510.2
+  promoters:
+  - T7
+  description: LOC_Os02g44510.2
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os02g51060.1
+  promoters:
+  - T7
+  description: LOC_Os02g51060.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os02g32750.2
+  promoters:
+  - T7
+  description: LOC_Os02g32750.2
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os02g32750.1
+  promoters:
+  - T7
+  description: LOC_Os02g32750.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os02g09170.1
+  promoters:
+  - T7
+  description: LOC_Os02g09170.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os02g22480.2
+  promoters:
+  - T7
+  description: LOC_Os02g22480.2
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os02g22650.2
+  promoters:
+  - T7
+  description: LOC_Os02g22650.2
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os02g22380.1
+  promoters:
+  - T7
+  description: LOC_Os02g22380.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os02g22190.1
+  promoters:
+  - T7
+  description: LOC_Os02g22190.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os02g22650.1
+  promoters:
+  - T7
+  description: LOC_Os02g22650.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os02g09930.1
+  promoters:
+  - T7
+  description: LOC_Os02g09930.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os02g32110.1
+  promoters:
+  - T7
+  description: LOC_Os02g32110.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os02g17534.1
+  promoters:
+  - T7
+  description: LOC_Os02g17534.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os02g09430.1
+  promoters:
+  - T7
+  description: LOC_Os02g09430.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os02g04250.3
+  promoters:
+  - T7
+  description: LOC_Os02g04250.3
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g70190.1
+  promoters:
+  - T7
+  description: LOC_Os01g70190.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os02g04250.1
+  promoters:
+  - T7
+  description: LOC_Os02g04250.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os02g06840.1
+  promoters:
+  - T7
+  description: LOC_Os02g06840.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g70180.1
+  promoters:
+  - T7
+  description: LOC_Os01g70180.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g70180.2
+  promoters:
+  - T7
+  description: LOC_Os01g70180.2
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g72610.1
+  promoters:
+  - T7
+  description: LOC_Os01g72610.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os02g02620.1
+  promoters:
+  - T7
+  description: LOC_Os02g02620.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g70200.1
+  promoters:
+  - T7
+  description: LOC_Os01g70200.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os02g07200.1
+  promoters:
+  - T7
+  description: LOC_Os02g07200.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g52710.1
+  promoters:
+  - T7
+  description: LOC_Os01g52710.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g65780.1
+  promoters:
+  - T7
+  description: LOC_Os01g65780.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g48440.3
+  promoters:
+  - T7
+  description: LOC_Os01g48440.3
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g48200.1
+  promoters:
+  - T7
+  description: LOC_Os01g48200.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g39810.1
+  promoters:
+  - T7
+  description: LOC_Os01g39810.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g69220.1
+  promoters:
+  - T7
+  description: LOC_Os01g69220.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g65780.3
+  promoters:
+  - T7
+  description: LOC_Os01g65780.3
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g48440.1
+  promoters:
+  - T7
+  description: LOC_Os01g48440.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g39810.3
+  promoters:
+  - T7
+  description: LOC_Os01g39810.3
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g39810.4
+  promoters:
+  - T7
+  description: LOC_Os01g39810.4
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g02940.6
+  promoters:
+  - T7
+  description: LOC_Os01g02940.6
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g34930.1
+  promoters:
+  - T7
+  description: LOC_Os01g34930.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g11070.1
+  promoters:
+  - T7
+  description: LOC_Os01g11070.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g07720.4
+  promoters:
+  - T7
+  description: LOC_Os01g07720.4
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g03160.1
+  promoters:
+  - T7
+  description: LOC_Os01g03160.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g04920.1
+  promoters:
+  - T7
+  description: LOC_Os01g04920.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g31370.1
+  promoters:
+  - T7
+  description: LOC_Os01g31370.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g07720.2
+  promoters:
+  - T7
+  description: LOC_Os01g07720.2
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g34880.1
+  promoters:
+  - T7
+  description: LOC_Os01g34880.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g02940.1
+  promoters:
+  - T7
+  description: LOC_Os01g02940.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g02930.1
+  promoters:
+  - T7
+  description: LOC_Os01g02930.1
+  selection_markers:
+  - Zeocin
+- ori: pBR322_origin
+  backbone: pDONRZeo_LOC_Os01g02920.1
+  promoters:
+  - T7
+  description: LOC_Os01g02920.1
+  selection_markers:
+  - Zeocin
+bibliographicCitation: https://public-registry.jbei.org/folders/110
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00110
+created_at: '2025-11-18T20:03:56.767Z'
+updated_at: '2025-12-11T00:00:04.619Z'

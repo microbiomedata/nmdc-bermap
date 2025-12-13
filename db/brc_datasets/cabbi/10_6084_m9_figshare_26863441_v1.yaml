@@ -1,0 +1,64 @@
+brc: CABBI
+date: '2024-08-28'
+title: Impact of Sugarcane Cultivation on C Cycling in Southeastern United States
+  Following Conversion from Grazed Pastures
+creator:
+- name: Gomez-Casanovas, Nuria
+  email: nuri.gomez-casanovas@ag.tamu.edu
+  affiliation: Texas A&amp;M University
+  primaryContact: true
+- name: DeLucia, Evan H.
+  email: delucia@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Yang, Wendy
+  email: yangw@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Bernacchi, Carl J.
+  email: bernacch@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 4547
+  scientificName: Saccharum officinarum
+keywords:
+- sugarcane
+- pastures
+- fluxes
+- subtropical
+identifier: 10.6084/m9.figshare.26863441.v1
+repository: FigShare
+description: The expansion of sugarcane, a tropical high-yielding feedstock, will
+  likely reshape the Southeastern United States (SE US) bioenergy landscape. However,
+  the sustainability of sugarcane, particularly as it displaces grazed pastures, is
+  highly uncertain. Here, we investigated how pasture conversion to sugarcane in subtropical
+  Florida impacts net ecosystem CO2 exchange (NEE) and net ecosystem carbon (C) balance
+  (NECB). Measurements were made over three full growth cycles (&gt; 3 years) in sugarcane—plant
+  cane, PC; first ratoon cane, FRC; second ratoon cane, SRC—and in improved (IM) and
+  semi-native (SN) pastures, which make up ca. 37% of agricultural land in the region.
+  Immediately following conversion, PC was a stronger net source of CO2 than pastures,
+  indicating the importance of CO2 losses related to land disturbance. Sugarcane,
+  however, shifted to a strong net sink of CO2 after first regrowth, and overall sugarcane
+  was a stronger net CO2 sink than pastures. Both stand age and low water availability
+  during cane emergence and tillering substantially decreased its potential gross
+  CO2 uptake. Accounting for all C gains and removals (i.e., NECB), greater frequency
+  of burn events and repeated harvest increased removals and overall made sugarcane
+  a stronger C source relative to pastures despite substantial C inputs from the previous
+  land use and a stronger CO2 sink strength. Time since conversion substantially reduced
+  C losses from sugarcane, and the NECB of SRC was similar to that of IM pasture but
+  lower than that of SN pasture, indicating a rapid shift in the NECB of cane. We
+  conclude that the C-balance implications following conversion will depend on the
+  proportion of IM versus SN pastures converted to sugarcane. Furthermore, our findings
+  suggest that no-burn harvest management strategies will be critical to the development
+  of a sustainable bioenergy landscape in SE US.
+relatedItem:
+- title: Impact of Sugarcane Cultivation on C Cycling in Southeastern United States
+    Following Conversion from Grazed Pastures
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://dx.doi.org/10.1111/gcbb.70003
+bibliographicCitation: https://doi.org/10.6084/m9.figshare.26863441.v1
+schema_version: 0.1.1
+uid: CABBI_10.6084/m9.figshare.26863441.v1
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

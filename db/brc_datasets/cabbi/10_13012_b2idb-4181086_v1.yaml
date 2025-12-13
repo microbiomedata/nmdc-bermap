@@ -1,0 +1,36 @@
+brc: CABBI
+date: '2019-05-23'
+title: 'Adopting Bioenergy Crops: Does Farmers’ Attitude Toward Loss Matter?'
+creator:
+- name: Madhu Khanna
+  email: khanna1@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+keywords:
+- Economics
+- Miscanthus
+- Switchgrass
+- Policy
+identifier: 10.13012/B2IDB-4181086_V1
+repository: Illinois Data Bank
+description: We apply prospect theory to examining farmers’ economic incentives to
+  divert a share of their land to bioenergy crops (miscanthus and switchgrass in this
+  study). Numerical simulation is conducted for 1,919 rain‐fed U.S. counties to identify
+  the impact of loss aversion on bioenergy crop adoption, and how this impact is influenced
+  by biomass price, discount rate, credit constraint status, and policy instruments.
+  Results show that ignoring farmer’s loss aversion causes overestimation of miscanthus
+  production but underestimation of switchgrass production, particularly when farmers
+  are credit constrained and have a high discount rate. We find that establishment
+  cost subsidy induces more miscanthus production whereas subsidized energy crop insurance
+  induces more switchgrass production. The efficacy of these two policy instruments,
+  measured by biomass production increased by per dollar of government outlay, depends
+  on the magnitude of farmers’ loss aversion and discount rate.
+relatedItem:
+- title: 'Adopting Bioenergy Crops: Does Farmers’ Attitude Toward Loss Matter?'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/agec.12501
+bibliographicCitation: https://doi.org/10.13012/B2IDB-4181086_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-4181086_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

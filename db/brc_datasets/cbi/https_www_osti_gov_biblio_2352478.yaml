@@ -1,0 +1,56 @@
+brc: CBI
+date: '2024-05-21'
+title: Comprehensive SNP Data for 1,323 GWAS Population in Populus trichocarpa and
+  Combined Annotation Files for P. trichocarpa v3.0 and v3.1
+active: true
+creator:
+- name: Meng Jun Shu
+  email: shum@ornl.gov
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)
+  primaryContact: true
+- name: Timothy Yates
+  affiliation: University of Tennessee, Knoxville
+  primaryContact: false
+- name: John Cai
+  affiliation: University of Tennessee, Knoxville
+  primaryContact: false
+- name: Sara Jawdy
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)
+  primaryContact: false
+- name: Gerald Tuskan
+  email: tuskanga@ornl.gov
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)
+  primaryContact: false
+- name: Jin-Gui Chen
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)
+  primaryContact: false
+- name: Wellington Muchero
+  affiliation: Oak Ridge National Laboratory
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER). Biological Systems Science (BSS)
+keywords:
+- Populus Trichocarpa SNPS GWAS
+identifier: https://www.osti.gov/biblio/2352478
+dataset_url: https://labkey.ornl.gov/labkey/CBI/Tuskan/PUBLIC_DATA/GWAS_SNPS_May_2024/project-begin.view?
+description: The VCF dataset includes genetic variations found in 1,323 Populus trichocarpa
+  genotypes, providing valuable information for scientists studying plant genetics.
+  Researchers have generated this dataset using whole-genome DNA short-read sequencing
+  on the Illumina Genome Analyzer, HiSeq 2000, and HiSeq 2500 platforms. This sequencing
+  effort ensured a minimum expected sequencing depth of 15×. The dataset comprises
+  more than 9.7 million single nucleotide polymorphisms (SNPs) and indel variants.
+  The combined annotation files are derived from P. trichocarpa v3.0 and v3.1. We
+  merged these files to create a comprehensive annotation file used for GWAS analysis.
+  In total, 38,830 genes overlapped between the two versions. For overlapping genes,
+  we defined the start as the smaller and the end as the larger among the two versions
+  to increase the likelihood of locating candidate genetic loci. Additionally, we
+  included 2,505 unique genes from v3.0 and 4,120 unique genes from v3.1, resulting
+  in a total of 45,455 genes in the updated annotation file.
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/2352478
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2352478
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

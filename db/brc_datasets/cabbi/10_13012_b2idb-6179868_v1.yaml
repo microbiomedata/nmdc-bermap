@@ -1,0 +1,47 @@
+brc: CABBI
+date: '2020-10-07'
+title: 'Biodiesel Production from Engineered Sugarcane Lipids under Uncertain Feedstock
+  Compositions: Process Design and Techno-Economic Analysis'
+creator:
+- name: Vijay Singh
+  email: vsingh@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 4547
+  scientificName: Saccharum officinarum
+keywords:
+- Modeling
+- Sugarcane lipids
+- Economic analysis
+identifier: 10.13012/B2IDB-6179868_V1
+repository: Illinois Data Bank
+description: 'In this study, different process schemes were designed and evaluated
+  for biodiesel production from engineered cane lipids with uncertain fatty acid compositions.
+  Four different process schemes were compared under (i) thermal glycerolysis and
+  (ii) enzymatic glycerolysis approaches. These schemes were based on the biodiesel
+  yield and economic indicators such as the net present value (NPV) and the minimum
+  selling price (MSP) of biodiesel. A scheme with polar lipid separation under thermal
+  glycerolysis resulted in the maximum NPV ($96.5 million) and minimum MSP ($1107/ton
+  biodiesel), respectively. Through local sensitivity analysis, it was concluded that
+  the cane lipid percentage is the most significant factor influencing process economics.
+  A conjoint analysis of the lipid procurement price and cane lipid percent suggested
+  that 15% cane lipids with a low lipid procurement price ($0.536/kg) results in a
+  positive NPV. When the cane lipid price is higher (&gt;$0.80/kg), a 20% lipid content
+  should be considered to achieve a positive NPV. At 20% cane lipids, the worst-case
+  and best-case scenarios were evaluated by analyzing the interplay of the three most
+  important parameters, The best-case scenario revealed that the minimum NPV under
+  any process scheme could yield more than $100 million (or MSP: $0.80/L), and the
+  worst-case analysis showed that losses incurred by the plant could be as high as
+  $80 million (MSP: $1.36/L). A Monte Carlo simulation indicated that there is a 70%
+  chance of the plant being profitable (NPV &gt; 0).'
+relatedItem:
+- title: 'Biodiesel Production from Engineered Sugarcane Lipids under Uncertain Feedstock
+    Compositions: Process Design and Techno-Economic Analysis'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1016/j.apenergy.2020.115933
+bibliographicCitation: https://doi.org/10.13012/B2IDB-6179868_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-6179868_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

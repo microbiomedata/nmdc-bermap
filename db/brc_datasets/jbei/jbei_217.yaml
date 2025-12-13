@@ -1,0 +1,113 @@
+id: jbei:217
+brc: JBEI
+date: '2015-10-28'
+title: Zuo et al. 2014
+creator:
+- name: Randy Ruan
+  email: rruan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 4530
+  scientificName: Oryza sativa
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 358
+  scientificName: Agrobacterium tumefaciens
+keywords: []
+identifier: jbei:folder:00217
+repository: ICE
+datasetName: Zuo et al. 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/217
+description: This dataset contains nine plasmids designed to study protein kinase
+  signaling in rice, focusing on immunity and development. The constructs enable functional
+  analysis and interaction studies of the key receptor kinases XA21, OsBRI1, and OsSERK1
+  using protein expression, yeast two-hybrid, and in planta assays. Additionally,
+  the collection includes vectors for the overexpression and RNAi-mediated silencing
+  of the gene Os08g07760 to investigate its biological role.
+relatedItem:
+- title: Zuo, S., Zhou, X., Chen, M., Zhang, S., Schwessinger, B., Ruan, D., Yuan,
+    C., Wang, J., Chen, X., &amp; Ronald, P. C. (2014). “OsSERK1 regulates rice development
+    but not immunity to Xanthomonas oryzae pv. oryzae or Magnaporthe oryzae”. J Integr
+    Plant Biol, 56(12), 1179-1192. doi, 10.1111/jipb.12290
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pBR322
+  backbone: His-Nus-Xa21K668KE
+  promoters:
+  - T7
+  description: express His-Nus tagged XA21k668 kinase inactive mutant Protein
+  selection_markers:
+  - Ampicillin
+- ori: pUC
+  backbone: pENTROsBRK1K735
+  promoters:
+  - T7
+  description: OsBRI1( LOC_Os01g52050) kinase part with stop codon in pENTR vector
+  selection_markers:
+  - KAN
+- ori: pBR322
+  backbone: His-Nus-Xa21K668
+  promoters:
+  - T7
+  description: express His-Nus tagged XA21k668 kinase Protein
+  selection_markers:
+  - Ampicillin
+- ori: 2 micron
+  backbone: LexA-OsSERK1JMK
+  promoters:
+  - ADH1
+  description: OsSerk1 JM and kinase domain in LexA vector for Y2H test.
+  selection_markers:
+  - Ampicillin
+- ori: pUC
+  backbone: pENTROsSerk1JMK
+  promoters:
+  - T7
+  description: OsSerk1 intracellular domain with STOP codon in pENTR Topo vector
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: UbiC1300-OsSerk1ox
+  promoters:
+  - CaMV 35S
+  description: Os08g07760cwoS cloned to pCambia 1300 with Ubi promoter to express
+    the gene in planta
+  selection_markers:
+  - KAN
+- ori: pBR322
+  backbone: GST-OsSerk1JMK
+  promoters:
+  - T7
+  description: gus tagged OsSerk1 protein
+  selection_markers:
+  - Ampicillin
+- ori: pUC
+  backbone: pANDA-OsSerk1RNAi
+  promoters:
+  - Ubiquitin
+  description: 432 bp of Os08g07760 cloned to PANDA vector for RNA silencing
+  selection_markers:
+  - Hygromycin + kanamycin
+- ori: pBR322
+  backbone: pB42AD-OsBRK1K735
+  promoters:
+  - ADH1
+  description: OsBRI1( LOC_Os01g52050) intracellular part with stop codon in Y2H prey
+    vector
+  selection_markers:
+  - Ampicillin
+bibliographicCitation: https://public-registry.jbei.org/folders/217
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00217
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

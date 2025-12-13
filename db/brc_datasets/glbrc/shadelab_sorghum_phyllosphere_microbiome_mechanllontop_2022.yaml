@@ -1,0 +1,42 @@
+brc: GLBRC
+date: '2022-07-05'
+title: ShadeLab/Sorghum_phyllosphere_microbiome_MechanLlontop_2022
+creator:
+- name: Ashley Shade
+  email: ashley.shade@cnrs.fr
+  affiliation: Laboratoire Ecologie Microbienne at the University of Lyon, France
+  primaryContact: true
+- name: John Mullet
+  email: john.mullet@ag.tamu.edu
+  affiliation: GLBRC - Texas A&amp;M University
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Phyllosphere metagenome
+keywords:
+- Ecology
+- Microbiome
+- Plants
+- Rhizosphere and phyllosphere
+- Agriculture
+identifier: ShadeLab/Sorghum_phyllosphere_microbiome_MechanLlontop_2022
+repository: GitHub
+description: Phyllosphere exudates create specialized microhabitats that shape microbial
+  community diversity. We explored the microbiome associated with two sorghum phyllosphere
+  exudates, the epicuticular wax and aerial root mucilage. We assessed the microbiome
+  associated with the wax from sorghum plants over two growth stages, and the root
+  mucilage additionally from nitrogen-fertilized and non-fertilized plants. In parallel,
+  we isolated and characterized hundreds of bacteria from wax and mucilage, and integrated
+  data from cultivation-independent and cultivation-dependent approaches to gain insights
+  into exudate diversity and bacterial phenotypes. 
+relatedItem:
+- title: Phyllosphere exudates select for distinct microbiome members in sorghum epicuticular
+    wax and aerial root mucilage
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://apsjournals.apsnet.org/doi/abs/10.1094/PBIOMES-08-22-0046-FI
+analysisType: Code
+bibliographicCitation: https://github.com/ShadeLab/Sorghum_phyllosphere_microbiome_MechanLlontop_2022
+schema_version: 0.1.7
+uid: GLBRC_ShadeLab/Sorghum_phyllosphere_microbiome_MechanLlontop_2022
+created_at: '2025-11-19T18:00:04.599Z'
+updated_at: '2025-12-10T06:00:05.197Z'

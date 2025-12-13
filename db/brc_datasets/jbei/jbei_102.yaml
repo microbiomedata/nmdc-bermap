@@ -1,0 +1,342 @@
+id: jbei:102
+brc: JBEI
+date: '2015-04-07'
+title: Chijioke et al. 2013
+creator:
+- name: Chijioke Joshua
+  email: cjjoshua@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 2285
+  scientificName: Sulfolobus acidocaldarius
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00102
+repository: ICE
+datasetName: Chijioke et al. 2013
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/102
+description: This dataset provides a collection of 36 plasmids for genetic engineering
+  of the thermoacidophilic archaeon *Sulfolobus acidocaldarius*. The collection features
+  a suicide vector designed to knock out the glcSTUV glucose transporter gene cluster.
+  The remaining plasmids are pRN1/pBluescript-based shuttle vectors, enabling gene
+  manipulation and expression studies in both *Sulfolobus* and *E. coli*.
+relatedItem:
+- title: Joshua, C. J., Perez, L. D., &amp; Keasling, J. D. (2013). “Functional characterization
+    of the origin of replication of pRN1 from Sulfolobus islandicus REN1H1″. [Research
+    Support, U.S. Gov’t, Non-P.H.S.]. PLoS One, 8(12), e84664. doi, 10.1371/journal.pone.0084664
+    http://www.ncbi.nlm.nih.gov/pubmed/24376833 http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0084664&amp;representation=PDF
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pMB1
+  backbone: pGlcSTUV_ko
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: 'Suicide vector for knocking out glcSTUV gene cluster from Sulfolobus
+    acidocaldarius '
+  selection_markers:
+  - AmpR
+- ori: pRN1 and pMB1
+  backbone: pRSP1-G5
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - pyrE (ura+)
+  - AmpR
+  - LacS
+- ori: pRN1 and pMB1
+  backbone: pRSP1-G4
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - LacS
+  - AmpR
+  - pyrE (ura+)
+- ori: pRN1 and pMB1
+  backbone: pRSP1-G3
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - LacS
+  - AmpR
+  - pyrE (ura+)
+- ori: pRN1 and pMB1
+  backbone: pRSP1-G2
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - pyrE (ura+)
+  - AmpR
+  - LacS
+- ori: pRN1 and pMB1
+  backbone: pRSP1-G1
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - LacS
+  - pyrE (ura+)
+  - AmpR
+- ori: pRN1 and pMB1
+  backbone: pRSP1-L4
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - AmpR
+  - pyrE (ura+)
+  - LacS
+- ori: pRN1 and pMB1
+  backbone: pRSP1-L3
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - AmpR
+  - pyrE (ura+)
+  - LacS
+- ori: pRN1 and pMB1
+  backbone: pRSP1-A2
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - pyrE (ura+)
+  - AmpR
+  - LacS
+- ori: pRN1 and pMB1
+  backbone: pRSP1-L2
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - LacS
+  - AmpR
+  - pyrE (ura+)
+- ori: pRN1 and pMB1
+  backbone: pRSP1e
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - LacS
+  - AmpR
+  - pyrE (ura+)
+- ori: pRN1 and pMB1
+  backbone: pRSP1-L1
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - AmpR
+  - LacS
+  - pyrE (ura+)
+- ori: pRN1 and pMB1
+  backbone: pRSP1-G8
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - LacS
+  - AmpR
+  - pyrE (ura+)
+- ori: pRN1 and pMB1
+  backbone: pRSP1-NO
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - LacS
+  - AmpR
+  - pyrE (ura+)
+- ori: pRN1 and pMB1
+  backbone: pRSP1a
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - AmpR
+  - pyrE (ura+)
+  - LacS
+- ori: pRN1 and pMB1
+  backbone: pRSP1c
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - AmpR
+  - pyrE (ura+)
+  - LacS
+- ori: pRN1 and pMB1
+  backbone: pRSP1d
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - LacS
+  - pyrE (ura+)
+  - AmpR
+- ori: pRN1 and pMB1
+  backbone: pRSP1-G7
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - pyrE (ura+)
+  - LacS
+  - AmpR
+- ori: pRN1 and pMB1
+  backbone: pRSP1-G6
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - pyrE (ura+)
+  - LacS
+  - AmpR
+- ori: pRN1 and pMB1
+  backbone: pRSP1-A1
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - LacS
+  - AmpR
+  - pyrE (ura+)
+- ori: pRN1 and pMB1
+  backbone: pRSP2-CL
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - AmpR, pyrE (ura+), LacS
+- ori: pRN1 and pMB1
+  backbone: pRSP1-A3
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - LacS
+  - AmpR
+  - pyrE (ura+)
+- ori: pRN1 and pMB1
+  backbone: pRSP1-A7
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - pyrE (ura+)
+  - LacS
+  - AmpR
+- ori: pRN1 and pMB1
+  backbone: pRSP7
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - AmpR, pyrE (ura+), LacS
+- ori: pRN1 and pMB1
+  backbone: pRSP3-NO
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - AmpR
+  - LacS
+  - pyrE (ura+)
+- ori: pRN1 and pMB1
+  backbone: pRSP10
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - AmpR, pyrE (ura+), LacS
+- ori: pRN1 and pMB1
+  backbone: pRSP10b
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - AmpR, pyrE (ura+), LacS
+- ori: pRN1 and pMB1
+  backbone: pRSP3
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - AmpR, pyrE (ura+), LacS
+- ori: pRN1 and pMB1
+  backbone: pRSP1b
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - AmpR
+  - LacS
+  - pyrE (ura+)
+- ori: pRN1 and pMB1
+  backbone: pRSP1-CL
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - AmpR, pyrE (ura+), LacS
+- ori: pRN1 and pMB1
+  backbone: pRSP9
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - AmpR, pyrE (ura+), LacS
+- ori: pRN1 and pMB1
+  backbone: pRSP4
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - AmpR, pyrE (ura+), LacS
+- ori: pRN1 and pMB1
+  backbone: pRSP2
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - AmpR, pyrE (ura+), LacS
+- ori: pRN1 and pMB1
+  backbone: pRSP1
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - AmpR, pyrE (ura+), LacS
+- ori: pRN1 and pMB1
+  backbone: pRSP6
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - AmpR, pyrE (ura+), LacS
+- ori: pRN1 and pMB1
+  backbone: pRSP5
+  promoters:
+  - Sulfolobus solfataricus thsB
+  description: pRN1 and pBluescript based Sulfolobus shuttle vector
+  selection_markers:
+  - AmpR, pyrE (ura+), LacS
+bibliographicCitation: https://public-registry.jbei.org/folders/102
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00102
+created_at: '2025-11-18T20:03:56.767Z'
+updated_at: '2025-12-11T00:00:04.619Z'

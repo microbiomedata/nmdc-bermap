@@ -1,0 +1,242 @@
+id: jbei:929
+brc: JBEI
+date: '2025-05-15'
+title: Tang et al 2025
+creator:
+- name: Matthew Szarzanowicz
+  email: mszarzanowicz@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Sophia Tang
+  email: sophiatang@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Andy Zhou
+  email: andyzhou@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Chien-Yuan Lin
+  email: chienyuanlin@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- scientificName: Plantae
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 358
+  scientificName: Agrobacterium tumefaciens
+keywords: []
+identifier: jbei:folder:00929
+repository: ICE
+datasetName: Tang et al 2025
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/929
+description: This dataset contains 34 plasmids designed for plant synthetic biology
+  and metabolic engineering. The collection features a systematic series of constructs
+  for testing and optimizing the Ruby visual reporter system by varying gene orientation
+  and regulatory elements. It also includes vectors for bioenergy applications, expressing
+  key enzymes for modifying the lignin and shikimate pathways, such as LigA/B/C and
+  a feedback-resistant aroG.
+relatedItem: []
+analysisType: Expression profiling
+contributors:
+- name: Liam Kirkpatrick
+  email: ldkirkpatrick@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pVS1
+  backbone: pCH5_Ruby_Hyg_pVS1_WT
+  promoters: []
+  description: pVS1_WT ORI. Plant selection vector with hygromycin selection. Expresses
+    the Ruby reporter with a strong constitutive pCH5 promoter.
+  selection_markers: []
+- ori: pSa
+  backbone: PCM2:mCherry
+  promoters: []
+  description: pSa R-&gt;
+  selection_markers: []
+- ori: BBR1
+  backbone: PCM2:mCherry
+  promoters: []
+  description: BBR1 R-&gt;
+  selection_markers:
+  - kanamycin
+- ori: pSa
+  backbone: PCM2:eGFP
+  promoters: []
+  description: pSa G-&gt;
+  selection_markers: []
+- ori: BBR1
+  backbone: PCM2:eGFP
+  promoters: []
+  description: BBR1 G-&gt;
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: PCH5:GT
+  promoters: []
+  description: glucosyltransferase (GT) from RUBY reporter
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: PCH5:DODA
+  promoters: []
+  description: DODA from RUBY reporter
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: PCH5:CYP79AD1
+  promoters: []
+  description: CYP79AD1 from RUBY reporter
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: PCM2:mCherry_REVTOCS_PCM2:eGFP
+  promoters: []
+  description: R-&gt; REVTOCS G-&gt;
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: PCM2:eGFP_REVTOCS_mCherry:PCM2
+  promoters: []
+  description: G-&gt; REVTOCS &lt;-R
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: PCM2:eGFP_REVTOCS_PCM2:mCherry
+  promoters: []
+  description: G-&gt; REVTOCS R-&gt;
+  selection_markers:
+  - Spectinomycin
+- ori: pVS1 oriV
+  backbone: PCM1:mCherry
+  promoters: []
+  description: R-&gt;
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: PCH4:mCherry
+  promoters: []
+  description: R-&gt;
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: PCH5:mCherry
+  promoters: []
+  description: R-&gt;
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: PCL1:mCherry
+  promoters: []
+  description: R-&gt;
+  selection_markers:
+  - spectinomycin
+- ori: pVS1 oriV
+  backbone: PCH5:eGFP
+  promoters: []
+  description: G-&gt;
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: PCL2:mCherry
+  promoters: []
+  description: R-&gt;
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: PCL2:eGFP
+  promoters: []
+  description: G-&gt;
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: eGFP:PCM2_PCM2:mCherry
+  promoters: []
+  description: '&lt;-GR-&gt;'
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: mCherry:PCM2_PCM2:eGFP
+  promoters: []
+  description: '&lt;-RG-&gt;'
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: mCherry:PCM2_eGFP:PCM2
+  promoters: []
+  description: '&lt;-R&lt;-G'
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: eGFP:PCM2_mCherry:PCM2
+  promoters: []
+  description: '&lt;-G&lt;-R'
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: PCM2:mCherry_PCM2:eGFP
+  promoters: []
+  description: R-&gt;G-&gt;
+  selection_markers:
+  - spectinomycin
+- ori: pVS1 oriV
+  backbone: PCM2:eGFP_mCherry:PCM2
+  promoters: []
+  description: G-&gt;&lt;-R
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: PCM2:eGFP_PCM2:mCherry
+  promoters: []
+  description: G-&gt; R-&gt;
+  selection_markers:
+  - spectinomycin
+- ori: pVS1 oriV
+  backbone: PCM2:eGFP
+  promoters: []
+  description: G-&gt;
+  selection_markers:
+  - spectinomycin
+- ori: pVS1 oriV
+  backbone: PCM2:mCherry
+  promoters: []
+  description: R-&gt;
+  selection_markers:
+  - spectinomycin
+- ori: pVS1 oriV
+  backbone: PCM2:mCherry_eGFP:PCM2
+  promoters: []
+  description: R-&gt;&lt;-G
+  selection_markers: []
+- ori: pVS1 oriV, pBR322
+  backbone: pCM2-GFP
+  promoters:
+  - pCM2
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCM2-GFP
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pBR322
+  backbone: PMS057-QsuB
+  promoters: []
+  description: PMS057-{L_tOcs}{P_35S}{C_QsuB}{T_tNos}.
+  selection_markers: []
+- ori: pBR322
+  backbone: PMS057-LigC
+  promoters: []
+  description: PMS057-{L_tOcs}{P_35S}{C_LigC}{T_tNos}.
+  selection_markers: []
+- ori: pBR322
+  backbone: PMS057-LigB
+  promoters: []
+  description: PMS057-{L_tOcs}{P_35S}{C_LigB}{T_tNos}.
+  selection_markers: []
+- ori: pBR322
+  backbone: PMS057-LigA
+  promoters: []
+  description: PMS057-{L_tOcs}{P_35S}{C_LigA}{T_tNos}.
+  selection_markers: []
+- backbone: PMS057-schl-aroG
+  promoters: []
+  description: 'Contains PMS057-{L_tOcs}{P_35S}{C_schl-aroG}{T_tNos}
+
+    This plasmid is obtained from Khanh Vuu, with her name PMS057-6914.'
+  selection_markers: []
+bibliographicCitation: https://public-registry.jbei.org/folders/929
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00929
+created_at: '2025-11-18T20:03:56.772Z'
+updated_at: '2025-12-11T00:00:04.623Z'

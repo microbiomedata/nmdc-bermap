@@ -1,0 +1,244 @@
+id: jbei:147
+brc: JBEI
+date: '2015-02-25'
+title: Javidpour et al. 2014
+creator:
+- name: Pouya Javidpour
+  email: pjavidpour@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Ee-Been Goh
+  email: egoh@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Eric Steen
+  email: ejsteen@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Rachel Krupa
+  email: rakrupa@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 161544
+  scientificName: Bacillus sp. SG-1
+- NCBITaxID: 164546
+  scientificName: Cupriavidus taiwanensis
+- scientificName: Plesiocystis pacifica SIR-1
+- scientificName: Acholeplasma laidlawii PG-8A
+- NCBITaxID: 1270
+  scientificName: Micrococcus luteus
+keywords:
+- fadB
+- pKS1
+- NADH-dependant fabG
+- '''ltesA'
+- fadM
+- Mlut_11700
+- NADH-dependent
+- thioesterase
+- tesA
+- beta-ketoacyl CoA overproducing
+- TesA
+- C.taiwanensis FabG
+- '''tesA'
+- fabG
+- fatty acid
+- C. taiwanensis FabG
+- E. coli fadM
+- LtesA
+identifier: jbei:folder:00147
+repository: ICE
+datasetName: Javidpour et al. 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/147
+description: This dataset comprises 17 plasmids designed for the metabolic engineering
+  of fatty acid pathways in *E. coli*. The collection features a variety of 3-ketoacyl-ACP
+  reductase (fabG) orthologs from diverse bacterial sources, intended for screening
+  enzyme performance. Key constructs combine thioesterase ('tesA) and fatty acid degradation
+  enzymes (fadM) to enable the production of valuable biochemicals, such as methyl
+  ketones and beta-ketoacyl CoA.
+relatedItem:
+- title: Javidpour, P., Pereira, J. H., Goh, E. B., McAndrew, R. P., Ma, S. M., Friedland,
+    G. D., Keasling, J. D., Chhabra, S. R., Adams, P. D., &amp; Beller, H. R. (2014).
+    “Biochemical and structural studies of NADH-dependent FabG used to increase the
+    bacterial production of fatty acids under anaerobic conditions”. [Research Support,
+    U.S. Gov’t, Non-P.H.S.]. Appl Environ Microbiol, 80(2), 497-505. doi, 10.1128/AEM.03194-13
+    http://www.ncbi.nlm.nih.gov/pubmed/24212572 http://aem.asm.org/content/80/2/497.full.pdf
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Javidpour, P., Pereira, J.H., Goh, E-B, McAndrew, R.P., Ma, S.M., Friedland,
+    G.D., Keasling, J.D., Chhabra, S.R., Adam, P.D., and Beller, H.R. Biochemical
+    and Structural Studies of NADH-Dependent FabG Used to Increase the Bacterial Production
+    of Fatty Acids under Anaerobic Conditions. 2013. Appl. Environ. Microbiol.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Goh, E. B., E. E. Baidoo, J. D. Keasling, and H. R. Beller. Engineering of
+    bacterial methyl ketone synthesis for biofuels. 2011. Appl Environ Microbiol.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Goh, E. B., Baidoo, E. E., Keasling, J. D., and Beller, H. R. (2012) Engineering
+    of bacterial methyl ketone synthesis for biofuels, Appl Environ Microbiol 78,
+    70-80.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: http://www.nature.com/nature/journal/v463/n7280/pdf/nature08721.pdf
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Lee TS, Krupa RA, Zhang F, Hajimorad M, Holtz WJ, Prasad N, Lee SK, Keasling
+    JD. BglBrick vectors and datasheets: A synthetic biology platform for gene expression.
+    J Biol Eng. 2011 Sep 20;5:12. doi: 10.1186/1754-1611-5-12.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors:
+- name: Taek Soon Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: p15a
+  backbone: pPJ135
+  promoters:
+  - lacUV5
+  description: Bacillus sp. SG-1 fabG with N-terminal His-tag, downstream of 'tesA
+    in pKS1. lacI has been inserted into the vector.
+  selection_markers:
+  - Chloramphenicol
+- ori: ColE1
+  backbone: pEG1600
+  promoters:
+  - pBad
+  description: C.taiwanensis fabG gene clone under pBad promoter
+  selection_markers:
+  - Kanamycin (50)
+- ori: oriV
+  backbone: pEG1635
+  promoters:
+  - pTrc
+  description: araC-pBad-Ctai_fabG clone into vector containing fadM for anaerobic
+    production of methyl ketones
+  selection_markers:
+  - Kanamycin (50)
+- ori: p15a
+  backbone: pPJ137
+  promoters:
+  - lacUV5
+  description: P. pacifica SIR-1 fabG with N-terminal His-tag, downstream of 'tesA
+    in pKS1. lacI has been inserted into the vector.
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: pPJ134
+  promoters:
+  - lacUV5
+  description: A. laidlawii PG-8A fabG with N-terminal His-tag, downstream of 'tesA
+    in pKS1. lacI has been inserted into vector.
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: pPJ136
+  promoters:
+  - lacUV5
+  description: 'C. taiwanensis fabG with N-terminal His-tag, downstream of ''tesA
+    in pKS1. lacI has been inserted into the vector.
+
+    '
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: pPJ132
+  promoters:
+  - lacUV5
+  description: pKS1 with lacI inserted
+  selection_markers:
+  - Chloramphenicol
+- ori: p15a
+  backbone: pPJ133
+  promoters:
+  - lacUV5
+  description: Codon optimized E. coli fabG with N-terminal His-tag, downstream of
+    'tesA in pKS1. lacI has been inserted into vector. Used as control for anaerobic
+    experiments.
+  selection_markers:
+  - Chloramphenicol
+- ori: pBR322
+  backbone: pPJ103
+  promoters:
+  - T7
+  description: Plesiocystis pacifica SIR-1 fabG with N-terminal His-tag in pET24
+  selection_markers:
+  - Kanamycin (50)
+- ori: oriV
+  backbone: pEG855
+  promoters:
+  - pTrc
+  description: Overexpression of E. coli fadM in the pEC-XK99E vector
+  selection_markers:
+  - Kanamycin (50)
+- ori: pBR322
+  backbone: pPJ104
+  promoters:
+  - T7
+  description: Cupriavidus taiwanensis fabG with N-terminal His-tag in pET24
+  selection_markers:
+  - Kanamycin (50)
+- ori: p15a
+  backbone: pEG530
+  promoters:
+  - PlacUV5
+  description: Cloning of fadB &amp; Mlut_11700 downstream of ltesA in pKS1 for overproduction
+    of beta-ketoacyl CoA
+  selection_markers:
+  - Chloramphenicol (25)
+- ori: p15A
+  backbone: pKS1
+  promoters:
+  - PlacUV5
+  description: Medium chain acyl-acp thioesterase native to e.coli, but lacking the
+    periplasmic targeting region
+  selection_markers:
+  - Chloramphenicol
+- ori: pBR322
+  backbone: pPJ102
+  promoters:
+  - T7
+  description: Bacillus sp. SG-1 fabG with N-terminal His-tag in pET24
+  selection_markers:
+  - Kanamycin (50)
+- ori: pBR322
+  backbone: pPJ101
+  promoters:
+  - T7
+  description: Acholeplasma laidlawii PG-8A fabG with N-terminal His-tag in pET24
+  selection_markers:
+  - Kanamycin (50)
+- ori: pBR322
+  backbone: pPJ100
+  promoters:
+  - T7
+  description: Escherichia coli fabG with N-terminal His-tag in pET24
+  selection_markers:
+  - Kanamycin (50)
+- ori: ColE1
+  backbone: pBbE8k-RFP
+  promoters:
+  - BAD
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/147
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00147
+created_at: '2025-11-18T20:03:56.767Z'
+updated_at: '2025-12-11T00:00:04.619Z'

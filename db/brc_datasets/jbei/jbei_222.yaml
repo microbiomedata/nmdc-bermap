@@ -1,0 +1,532 @@
+id: jbei:222
+brc: JBEI
+date: '2016-01-12'
+title: Javidpour et al. 2016
+creator:
+- name: Pouya Javidpour
+  email: pjavidpour@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- scientificName: Kuenenia stuttgartiensis
+keywords:
+- ladderane
+identifier: jbei:folder:00222
+repository: ICE
+datasetName: Javidpour et al. 2016
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/222
+description: This collection of 97 plasmids was created to identify and characterize
+  genes involved in the biosynthesis of ladderane lipids. The set includes constructs
+  for the synthesis of candidate genes, the expression of individual proteins for
+  biochemical analysis, and the assembly of multi-gene operons to reconstitute the
+  pathway. Key plasmids were also designed for in vivo functional characterization,
+  such as testing for desaturase activity in a lycopene-producing host.
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: kustd1389
+  promoters: []
+  description: ' JGI plasmid with synthesized kustd1389'
+  selection_markers:
+  - Kan
+- backbone: kustd1391
+  promoters: []
+  description: ' JGI plasmid with synthesized kustd1391'
+  selection_markers:
+  - Kan
+- backbone: kustd1387
+  promoters: []
+  description: ' JGI plasmid with synthesized kustd1387'
+  selection_markers:
+  - Kan
+- backbone: kustd1388
+  promoters: []
+  description: ' JGI plasmid with synthesized kustd1388'
+  selection_markers:
+  - Kan
+- backbone: kustd1390
+  promoters: []
+  description: ' JGI plasmid with synthesized kustd1390'
+  selection_markers:
+  - Kan
+- backbone: kustd1386
+  promoters: []
+  description: ' JGI plasmid with synthesized kustd1386'
+  selection_markers:
+  - Kan
+- backbone: kuste3608
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste3608'
+  selection_markers:
+  - Kan
+- backbone: kuste3606
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste3606'
+  selection_markers:
+  - Kan
+- backbone: kuste3605
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste3605'
+  selection_markers:
+  - Kan
+- backbone: kuste3604
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste3604'
+  selection_markers:
+  - Kan
+- backbone: kuste3607
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste3607'
+  selection_markers:
+  - Kan
+- backbone: kuste3350
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste3350'
+  selection_markers:
+  - Kan
+- backbone: kuste3349
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste3349'
+  selection_markers:
+  - Kan
+- backbone: kuste3352
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste3352'
+  selection_markers:
+  - Kan
+- backbone: kuste3603
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste3603'
+  selection_markers:
+  - Kan
+- backbone: kuste3351
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste3351'
+  selection_markers:
+  - Kan
+- backbone: kuste3348
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste3348'
+  selection_markers:
+  - Kan
+- backbone: kuste3346
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste3346'
+  selection_markers:
+  - Kan
+- backbone: kuste3344
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste3344'
+  selection_markers:
+  - Kan
+- backbone: kuste3345
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste3345'
+  selection_markers:
+  - Kan
+- backbone: kuste3347
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste3347'
+  selection_markers:
+  - Kan
+- backbone: kuste3339
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste3339'
+  selection_markers:
+  - Kan
+- backbone: kuste3343
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste3343'
+  selection_markers:
+  - Kan
+- backbone: kuste3341
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste3341'
+  selection_markers:
+  - Kan
+- backbone: kuste3342
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste3342'
+  selection_markers:
+  - Kan
+- backbone: kuste3340
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste3340'
+  selection_markers:
+  - Kan
+- backbone: kuste2805
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste2805'
+  selection_markers:
+  - Kan
+- backbone: kuste3336
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste3336'
+  selection_markers:
+  - Kan
+- backbone: kuste3338
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste3338'
+  selection_markers:
+  - Kan
+- backbone: kuste3337
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste3337'
+  selection_markers:
+  - Kan
+- backbone: kuste3335
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste3335'
+  selection_markers:
+  - Kan
+- backbone: kuste2803
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste2803'
+  selection_markers:
+  - Kan
+- backbone: kuste2804
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste2804'
+  selection_markers:
+  - Kan
+- backbone: kuste2802
+  promoters: []
+  description: ' JGI plasmid with synthesized kuste2802'
+  selection_markers:
+  - Kan
+- backbone: N-His-3338
+  promoters: []
+  description: for expression of N-His-3338
+  selection_markers:
+  - Kan
+- backbone: N-His-3347
+  promoters: []
+  description: for expression of N-His-3347
+  selection_markers:
+  - Kan
+- backbone: MBP-3338
+  promoters: []
+  description: for expression of MBP-3338
+  selection_markers:
+  - Kan
+- backbone: MBP-3347
+  promoters: []
+  description: for expression of MBP-3347
+  selection_markers:
+  - Kan
+- backbone: tagless 2803
+  promoters: []
+  description: for expression of tagless 2803
+  selection_markers:
+  - Kan
+- backbone: tagless 3343
+  promoters: []
+  description: for expression of tagless 3343
+  selection_markers:
+  - Kan
+- backbone: tagless 3342
+  promoters: []
+  description: for expression of tagless 3342
+  selection_markers:
+  - Kan
+- backbone: C-His-3608
+  promoters: []
+  description: for expression of C-His-3608
+  selection_markers:
+  - Kan
+- backbone: tagless 3608
+  promoters: []
+  description: for expression of tagless 3608
+  selection_markers:
+  - Kan
+- backbone: N-His-3343
+  promoters: []
+  description: for expression of N-His-3343
+  selection_markers:
+  - Kan
+- backbone: C-His-2803
+  promoters: []
+  description: for expression of C-His-2803
+  selection_markers:
+  - Kan
+- backbone: C-His-3342
+  promoters: []
+  description: for expression of C-His-3342
+  selection_markers:
+  - Kan
+- backbone: C-His-3343
+  promoters: []
+  description: for expression of C-His-3343
+  selection_markers:
+  - Kan
+- backbone: N-His-3608
+  promoters: []
+  description: for expression of N-His-3608
+  selection_markers:
+  - Kan
+- backbone: MBP-3608
+  promoters: []
+  description: for expression of MBP-3608
+  selection_markers:
+  - Kan
+- backbone: MBP-3343
+  promoters: []
+  description: for expression of MBP-3343
+  selection_markers:
+  - Kan
+- backbone: N-His-2803
+  promoters: []
+  description: for expression of N-His-2803
+  selection_markers:
+  - Kan
+- backbone: N-His-3342
+  promoters: []
+  description: for expression of N-His-3342
+  selection_markers:
+  - Kan
+- backbone: MBP-3342
+  promoters: []
+  description: for expression of MBP-3342
+  selection_markers:
+  - Kan
+- backbone: MBP-2803
+  promoters: []
+  description: for expression of MBP-2803
+  selection_markers:
+  - Kan
+- backbone: C-StrepII-3607
+  promoters: []
+  description: for expression of C-StrepII-3607
+  selection_markers:
+  - Kan
+- backbone: N-StrepII-3607
+  promoters: []
+  description: for expression of N-StrepII-3607
+  selection_markers:
+  - Kan
+- backbone: N-8xHis-StrepII-MBP-3607
+  promoters: []
+  description: for expression of N-8xHis-StrepII-MBP-3607
+  selection_markers:
+  - Kan
+- backbone: N-StrepII-EcAcpP
+  promoters: []
+  description: carries N-StrepII-EcAcpP
+  selection_markers:
+  - Kan
+- backbone: C-His-CrtI
+  promoters: []
+  description: for expression of C-His-CrtI
+  selection_markers:
+  - Kan
+- backbone: N-His-CrtI
+  promoters: []
+  description: for expression of N-His-CrtI
+  selection_markers:
+  - Kan
+- backbone: C-His-3607
+  promoters: []
+  description: for expression of C-His-3607
+  selection_markers:
+  - Kan
+- backbone: C-His-3336
+  promoters: []
+  description: for expression of C-His-3336
+  selection_markers:
+  - Kan
+- backbone: N-His-3607
+  promoters: []
+  description: for expression of N-His-3607
+  selection_markers:
+  - Kan
+- backbone: N-His-3336
+  promoters: []
+  description: for expression of N-His-3336
+  selection_markers:
+  - Kan
+- backbone: MBP-CrtI
+  promoters: []
+  description: for expression of MBP-CrtI
+  selection_markers:
+  - Kan
+- backbone: operons 1+2 (pLadd)
+  promoters: []
+  description: operons 1+2 (pLadd)
+  selection_markers:
+  - ''
+- backbone: MBP-3607
+  promoters: []
+  description: for expression of MBP-3607
+  selection_markers:
+  - Kan
+- backbone: MBP-3336
+  promoters: []
+  description: for expression of MBP-3336
+  selection_markers:
+  - Kan
+- backbone: operon 2 final
+  promoters: []
+  description: operon 2 final
+  selection_markers:
+  - ''
+- backbone: operon 1 final
+  promoters: []
+  description: operon 1 final
+  selection_markers:
+  - ''
+- backbone: NEW operon 6 final
+  promoters: []
+  description: NEW operon 6 final
+  selection_markers:
+  - ''
+- backbone: NEW operon 8 final
+  promoters: []
+  description: NEW operon 8 final
+  selection_markers:
+  - ''
+- backbone: NEW operon 10 final
+  promoters: []
+  description: NEW operon 10 final
+  selection_markers:
+  - ''
+- backbone: NEW operon 7 final
+  promoters: []
+  description: NEW operon 7 final
+  selection_markers:
+  - ''
+- backbone: NEW operon 3 final
+  promoters: []
+  description: NEW operon 3 final
+  selection_markers:
+  - ''
+- backbone: NEW operon 5 final
+  promoters: []
+  description: NEW operon 5 final
+  selection_markers:
+  - ''
+- backbone: operon 11 genes
+  promoters: []
+  description: operon 11 genes
+  selection_markers:
+  - ''
+- backbone: operon 10 genes
+  promoters: []
+  description: operon 10 genes
+  selection_markers:
+  - ''
+- backbone: NEW operon 4 final
+  promoters: []
+  description: NEW operon 4 final
+  selection_markers:
+  - ''
+- backbone: operon 9 genes
+  promoters: []
+  description: operon 9 genes
+  selection_markers:
+  - ''
+- backbone: operon 8 genes
+  promoters: []
+  description: operon 8 genes
+  selection_markers:
+  - ''
+- backbone: operon 6 genes
+  promoters: []
+  description: operon 6 genes
+  selection_markers:
+  - ''
+- backbone: operon 7 genes
+  promoters: []
+  description: operon 7 genes
+  selection_markers:
+  - ''
+- backbone: operon 5 genes
+  promoters: []
+  description: operon 5 genes
+  selection_markers:
+  - ''
+- backbone: operon 4 genes
+  promoters: []
+  description: operon 4 genes
+  selection_markers:
+  - ''
+- backbone: operon 3 genes
+  promoters: []
+  description: operon 3 genes
+  selection_markers:
+  - ''
+- backbone: pLyc-kuste3607
+  promoters: []
+  description: pLyc with kuste3607 in place of crtI
+  selection_markers:
+  - Chloramphenicol
+- backbone: pLyc-kuste3336
+  promoters: []
+  description: pLyc with kuste3336 in place of crtI
+  selection_markers:
+  - Chloramphenicol
+- backbone: NEW operon 10 gblock vector
+  promoters: []
+  description: Shuttle plasmid with Tet promoter and terminator for ladderane operon
+    10 genes
+  selection_markers:
+  - Kanamycin
+- backbone: NEW operon 8 gblock vector
+  promoters: []
+  description: Shuttle plasmid with Tet promoter and terminator for ladderane operon
+    8 genes
+  selection_markers:
+  - Kanamycin
+- backbone: pLyc-no-crtI
+  promoters: []
+  description: pLyc without crtI gene. Used as negative control for lycopene assay
+    of ladderane desaturases.
+  selection_markers:
+  - Cm
+- backbone: NEW operon 6 gblock vector
+  promoters: []
+  description: Shuttle plasmid with Tet promoter and terminator for ladderane operon
+    6 genes
+  selection_markers:
+  - Kanamycin
+- backbone: NEW operon 5 gblock vector
+  promoters: []
+  description: Shuttle plasmid with Tet promoter and terminator for ladderane operon
+    5 genes
+  selection_markers:
+  - Kanamycin
+- backbone: NEW operon 3 gblock vector
+  promoters: []
+  description: Shuttle plasmid with Tet promoter and terminator for ladderane operon
+    3 genes
+  selection_markers:
+  - Kanamycin
+- backbone: NEW operon 4 gblock vector
+  promoters: []
+  description: Shuttle plasmid with Tet promoter and terminator for ladderane operon
+    4 genes
+  selection_markers:
+  - Kanamycin
+- backbone: NEW operon 7 gblock vector
+  promoters: []
+  description: Shuttle plasmid with Tet promoter and terminator for ladderane operon
+    7 genes
+  selection_markers:
+  - Kanamycin
+- backbone: OLD operon 9 gblock vector
+  promoters: []
+  description: Has a weak promoter. Use the NEW version instead. Shuttle plasmid with
+    Tet promoter, BCD, and terminator for ladderane operon 9 genes
+  selection_markers:
+  - Kan
+bibliographicCitation: https://public-registry.jbei.org/folders/222
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00222
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

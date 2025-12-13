@@ -1,0 +1,88 @@
+id: jbei:18
+brc: JBEI
+date: '2012-08-09'
+title: Linshiz, et al. 2012
+creator:
+- name: Nathan Hillson
+  email: njhillson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00018
+repository: ICE
+datasetName: Linshiz, et al. 2012
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/18
+description: This dataset contains six plasmids designed as templates for validating
+  the PCR-based Accurate Rapid (PaR-PaR) cloning method. The collection includes one
+  target plasmid for colony PCR validation and five additional templates for general
+  PCR setup experiments. These plasmids function as essential controls and standards
+  for establishing and troubleshooting the PaR-PaR seamless gene assembly workflow.
+relatedItem:
+- title: Linshiz, G., Stawski, N., Poust, S., Bi, C., Keasling, J.D., and Hillson,
+    N.J. (2012) PaR-PaR Laboratory Automation platform. ACS Synthetic Biology, 2 (5),
+    216–222.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: BBR1
+  backbone: pj5_00047
+  promoters:
+  - PBAD
+  description: Target plasmid template for PaR-PaR colony PCR setup validation experiments.
+    Plasmid constructed by Changhao Bi.
+  selection_markers:
+  - Kanamycin
+- ori: pBR-322
+  backbone: pSY61234
+  promoters:
+  - T7
+  description: 'Plasmid template for PaR-PaR PCR setup validation experiments. Plasmid
+    constructed by Satoshi Yuzawa. '
+  selection_markers:
+  - Kanamycin
+- ori: pBR-322, f1
+  backbone: pSY055
+  promoters:
+  - T7
+  description: 'Plasmid template for PaR-PaR PCR setup validation experiments.  Plasmid
+    constructed by Satoshi Yuzawa. '
+  selection_markers:
+  - Kanamycin
+- ori: ' pBR-322, f1'
+  backbone: pSP5
+  promoters:
+  - T7
+  description: Plasmid template for PaR-PaR PCR setup validation experiments. Plasmid
+    constructed by Sean Poust.
+  selection_markers:
+  - Kanamycin
+- ori: pBR-322, f1
+  backbone: pSP8
+  promoters:
+  - T7
+  description: Plasmid template for PaR-PaR PCR setup validation experiments.  Plasmid
+    constructed by Sean Poust.
+  selection_markers:
+  - Kanamycin
+- ori: pBR-322, f1
+  backbone: pSY49
+  promoters:
+  - T7
+  description: 'Plasmid template for PaR-PaR PCR setup validation experiments.  Plasmid
+    constructed by Satoshi Yuzawa. '
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/18
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00018
+created_at: '2025-11-18T20:03:56.767Z'
+updated_at: '2025-12-11T00:00:04.619Z'

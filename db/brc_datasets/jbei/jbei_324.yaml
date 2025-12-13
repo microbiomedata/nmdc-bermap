@@ -1,0 +1,44 @@
+id: jbei:324
+brc: JBEI
+date: '2017-06-13'
+title: Welner_et_al_2017
+creator:
+- name: Yi-Lin Tsai
+  email: yilintsai@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 4530
+  scientificName: Oryza sativa
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00324
+repository: ICE
+datasetName: Welner_et_al_2017
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/324
+description: This dataset contains an expression plasmid for the production and purification
+  of Reversibly Glycosylated Protein 2 (OsRGP2) from *Oryza sativa* (rice). OsRGP2
+  is an enzyme implicated in the biosynthesis of cell wall polysaccharides, a critical
+  process for plant growth and biomass accumulation. The construct is designed for
+  heterologous expression in *E. coli*, featuring an N-terminal maltose binding protein
+  tag to facilitate purification for biochemical characterization.
+relatedItem: []
+analysisType: affinity_purification
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pVP16-TEV_OsRGP2
+  promoters: []
+  description: Oryza sativa Reversibly Glycosylated Proteins 2 (OsRGP2; Os04g0660400)
+    fused with N-terminal maltose binding protein under control of T5 promoter
+  selection_markers:
+  - Carb
+bibliographicCitation: https://public-registry.jbei.org/folders/324
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00324
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

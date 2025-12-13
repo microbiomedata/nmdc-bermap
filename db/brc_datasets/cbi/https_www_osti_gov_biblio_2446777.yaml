@@ -1,0 +1,77 @@
+brc: CBI
+date: '2024-09-18'
+title: Heteronuclear single quantum coherence (HSQC) NMR spectra of lignin isolated
+  from switchgrass residues after fermentation with milling
+active: true
+creator:
+- name: Rohit Kousika
+  affiliation: Department of Chemical and Biomolecular Engineering, University of
+    Tennessee Knoxville, Knoxville, TN, USA
+  primaryContact: true
+- name: Yunqiao Pu
+  email: puy1@ornl.gov
+  primaryContact: false
+- name: Madeline Hoey
+  affiliation: Thayer School of Engineering, Dartmouth College, Hanover, NH,
+  primaryContact: false
+- name: Evert Holwerda
+  affiliation: Thayer School of Engineering, Dartmouth College, Hanover, NH Center
+    for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Yannick Bomble
+  affiliation: Biosciences Center, National Renewable Energy Laboratory, Golden, CO.
+  primaryContact: false
+- name: Neal Hengge
+  affiliation: Biosciences Center, National Renewable Energy Laboratory, Golden, CO.
+  primaryContact: false
+- name: Art Ragauskas
+  affiliation: Department of Chemical and Biomolecular Engineering, University of
+    Tennessee Knoxville, Knoxville, TN, USA Joint Institute for Biological Sciences,
+    Bioscience Division, Oak Ridge National Laboratory, Oak Ridge, TN, USA Center
+    for Bioenergy Innovation, Oak Ridge National Laboratory, Oak Ridge, TN, USA
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER). Earth &amp; Environmental Systems Science (EESS)
+keywords:
+- Lignin
+- HSQC
+- Switchgrass
+- CBP
+- Ball mill
+- Disc mill.
+- CBI
+identifier: https://www.osti.gov/biblio/2446777
+dataset_url: https://labkey.ornl.gov/labkey/CBI/ragauskas/Public Data/Heteronuclear
+  single quantum coherence (HSQC) NMR spectra of lignin isolated from switchgrass
+  residues after fermentation with milling/project-begin.view?
+description: 'Here we present a curated dataset of two-dimensional heteronuclear single
+  quantum coherence (HSQC) nuclear magnetic resonance (NMR) spectra of lignin isolated
+  from a herbaceous energy crop (Panicum virgatum L.). The lowland variant “Timber”
+  switchgrass from Ernst seeds was used. The switchgrass was knife milled and passed
+  through a 2 mm sieve prior to consolidated bioprocessing (CBP) process. Switchgrass
+  was suspended in Milli-Q water and autoclaved for 90 min on liquid cycles. The residues
+  after autoclaving were then subjected to CBP using coculture of Clostridium thermocellum
+  (C. thermocellum DSM 1313 (LL1004)) and Thermoanaerobacterium thermosaccarolyticum
+  ( T. thermosaccharolyticum HG-8 ATCC 31960 (LL1244)). Once-fermented and twice-fermented
+  (FF) switchgrass were subjected to ball and disc milling in bioreactors at 55 °C
+  and 60, 48 grams/L solids loadings for primary and secondary fermentation respectively.
+  When fermentations were completed, the residual solids were rinsed with milli-Q
+  water. Lignin was isolated from the pretreated residues after ball-milling in a
+  porcelain jar with ceramic balls via Retsch PM 200 at 600 rpm for 2 h followed by
+  enzymatic hydrolysis in acetate buffer (pH 4.8, 50 °C) for 48 h. The dry lignin
+  samples were dissolved in deuterated dimethyl sulfoxide (d6) and characterized using
+  13C–1H HSQC in a Bruker Avance III HD 500-MHz NMR spectrometer. A standard Bruker
+  pulse sequence (hsqcetgpsisp.2) was used on a Prodigy platform cryoprobe. The spectra
+  were acquired with the following acquisition conditions: 230 ppm spectral width
+  in F1 (13C) dimension with 256 data points and 12 ppm spectral width in F2 (1H)
+  dimension with 2048 data points, a 90° pulse, with a C–H coupling constant of 145
+  Hz, a 1.0 s pulse delay, and 64 scans. Spectra were processed using the Bruker TopSpin
+  3.6 software.'
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/2446777
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2446777
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

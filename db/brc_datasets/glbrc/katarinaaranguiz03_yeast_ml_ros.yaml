@@ -1,0 +1,40 @@
+brc: GLBRC
+date: '2024-08-08'
+title: katarinaaranguiz03/Yeast_ML_ROS
+creator:
+- name: Chris Todd Hittinger
+  email: chittinger@wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: true
+- name: Antonis Rokas
+  email: antonis.rokas@vanderbilt.edu
+  affiliation: Department of Biological SciencesVanderbilt University Nashville TN
+    37235 USA
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Kluyveromyces lactis, Saccharomyces cerevisiae
+keywords:
+- Machine learning
+- oxidative stress/genetics/drug effects
+- reactive oxygen species/metabolism
+- Saccharomyces cerevisiae/genetics/metabolism/drug effects
+- Gene Expression Regulation
+- 'Fungal
+
+  Fungal Proteins/genetics/metabolism'
+identifier: katarinaaranguiz03/Yeast_ML_ROS
+repository: GitHub
+description: Code for "Machine learning reveals genes impacting oxidative stress resistance
+  across yeasts"
+relatedItem:
+- title: Machine learning reveals genes impacting oxidative stress resistance across
+    yeasts
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.nature.com/articles/s41467-025-60189-3
+analysisType: ML
+bibliographicCitation: https://github.com/katarinaaranguiz03/Yeast_ML_ROS
+schema_version: 0.1.7
+uid: GLBRC_katarinaaranguiz03/Yeast_ML_ROS
+created_at: '2025-11-27T06:00:04.934Z'
+updated_at: '2025-12-10T06:00:05.198Z'

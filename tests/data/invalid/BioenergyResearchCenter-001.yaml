@@ -1,0 +1,4 @@
+# Invalid - missing required 'name' field
+id: invalid_brc
+acronym: INVALID
+lead_institution: Some University

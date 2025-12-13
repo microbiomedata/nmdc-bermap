@@ -1,0 +1,42 @@
+brc: CABBI
+date: '2019-06-26'
+title: Development of a CRISPR/Cas9-Based Tool for Gene Deletion in Issatchenkia orientalis
+creator:
+- name: Huimin Zhao
+  email: zhao5@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 4909
+  scientificName: Issatchenkia orientalis
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- Issatchenkia orientalis
+- Saccharomyces cerevisiae
+- genome engineering
+identifier: 10.13012/B2IDB-4661029_V1
+repository: Illinois Data Bank
+description: The nonconventional yeast Issatchenkia orientalis has emerged as a potential
+  platform microorganism for production of organic acids due to its ability to grow
+  robustly under highly acidic conditions. However, lack of efficient genetic tools
+  remains a major bottleneck in metabolic engineering of this organism. Here we report
+  that the autonomously replicating sequence (ARS) from Saccharomyces cerevisiae (ScARS)
+  was functional for plasmid replication in I. orientalis, and the resulting episomal
+  plasmid enabled efficient genome editing by the CRISPR/Cas9 system. The optimized
+  CRISPR/Cas9-based system employed a fusion RPR1′-tRNA promoter for single guide
+  RNA (sgRNA) expression and could attain greater than 97% gene disruption efficiency
+  for various gene targets. Additionally, we demonstrated multiplexed gene deletion
+  with disruption efficiencies of 90% and 47% for double gene and triple gene knockouts,
+  respectively. This genome editing tool can be used for rapid strain development
+  and metabolic engineering of this organism for production of biofuels and chemicals.
+relatedItem:
+- title: Development of a CRISPR/Cas9-Based Tool for Gene Deletion in Issatchenkia
+    orientalis
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1128/mSphere.00345-19
+bibliographicCitation: https://doi.org/10.13012/B2IDB-4661029_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-4661029_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

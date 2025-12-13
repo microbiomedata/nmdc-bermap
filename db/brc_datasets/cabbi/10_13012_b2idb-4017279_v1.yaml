@@ -1,0 +1,51 @@
+brc: CABBI
+date: '2024-07-22'
+title: Reducing Stomatal Density by Expression of a Synthetic EPF Increases Leaf Intrinsic
+  Water Use Efficiency and Reduces Plant Water Use in a C4 Crop
+creator:
+- name: Leakey, Andrew D.B.
+  email: leakey@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Clemente, Thomas E.
+  email: tclemente1@unl.edu
+  affiliation: University of Nebraska Lincoln
+  primaryContact: false
+species:
+- NCBITaxID: 4558
+  scientificName: Sorghum bicolor
+keywords:
+- sorghum bicolor
+- water use efficiency
+- stomatal conductance
+- C4 photosynthesis
+identifier: 10.13012/B2IDB-4017279_V1
+repository: Illinois Data Bank
+description: Enhancing crop water use efficiency (WUE) is a key target trait for climatic
+  resilience and expanding cultivation on marginal lands. Engineering lower stomatal
+  density to reduce stomatal conductance (gs) has improved WUE in multiple C3 crop
+  species. However, reducing gs in C3 species often reduces photosynthetic carbon
+  gain. A different response is expected in C4 plants because they possess specialized
+  anatomy and biochemistry which concentrates CO2 at the site of fixation. This modifies
+  the photosynthesis (AN) relationship with intracellular CO2 concentration (ci) so
+  that photosynthesis is CO2-saturated and reductions in gs are unlikely to limit
+  AN. To test this hypothesis, genetic strategies were investigated to reduce stomatal
+  density in the C4 crop sorghum. Constitutive expression of a synthetic epidermal
+  patterning factor (EPF) transgenic allele in sorghum, led to reduced stomatal densities,
+  reduced gs, reduced plant water use and avoidance of stress during a period of water
+  deprivation. In addition, moderate reduction in stomatal density did not increase
+  stomatal limitation to AN. However, these positive outcomes were associated with
+  negative pleiotropic effects on reproductive development and photosynthetic capacity.
+  Avoiding pleiotropy by targeting expression of the transgene to specific tissues
+  could provide a pathway to improved agronomic outcomes.
+relatedItem:
+- title: Reducing Stomatal Density by Expression of a Synthetic Epidermal Patterning
+    Factor Increases Leaf Intrinsic Water Use Efficiency and Reduces Plant Water Use
+    in a C4 Crop
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://dx.doi.org/10.1093/jxb/erae289
+bibliographicCitation: https://doi.org/10.13012/B2IDB-4017279_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-4017279_V1
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

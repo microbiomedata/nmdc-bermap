@@ -1,0 +1,41 @@
+brc: CABBI
+date: '2023-07-26'
+title: Improved Net Carbon Budgets in the U.S. Midwest through Direct Measured Impacts
+  of Enhanced Weathering
+creator:
+- name: DeLucia, Evan H.
+  email: delucia@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Bernacchi, Carl
+  email: bernacch@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 183674
+  scientificName: Miscanthus x giganteus
+- NCBITaxID: 4577
+  scientificName: Zea mays
+- NCBITaxID: 3849
+  scientificName: Glycine max
+keywords:
+- Eddy covariance
+- miscanthus
+- maize/soybean
+- carbon balance
+identifier: 10.13012/B2IDB-1917166_V1
+repository: Illinois Data Bank
+description: This data set contains data used for “Improved Net Carbon Budgets in
+  the US Midwest through Direct Measured Impacts of Enhanced Weathering.” Data include
+  biomass, soil bulk densities, soil respiration measurements, soil lanthanide element
+  analysis, plant tissue analysis for major cations, and eddy covariance fluxes.
+relatedItem:
+- title: Improved Net Carbon Budgets in the U.S. Midwest through Direct Measured Impacts
+    of Enhanced Weathering
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/gcb.16903
+bibliographicCitation: https://doi.org/10.13012/B2IDB-1917166_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-1917166_V1
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.628Z'

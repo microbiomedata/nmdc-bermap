@@ -1,0 +1,39 @@
+brc: CABBI
+date: '2024-07-31'
+title: Improving Precision and Accuracy of Genetic Mapping with Genotyping-by-Sequencing
+  Data in Outcrossing Species
+creator:
+- name: Sacks, Erik J.
+  email: esacks@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 62337
+  scientificName: Miscanthus sinensis
+keywords:
+- HapMapParser
+- Genotyping simulator
+- miscanthus
+identifier: 10.13012/B2IDB-1435220_V
+repository: Illinois Data Bank
+description: This dataset contains all data and supplementary materials from “Improving
+  precision and accuracy of genetic mapping with genotyping-by-sequencing data in
+  outcrossing species”. An Excel file a list of all QTLs and linkage group length
+  (in cM) obtained with two different SNP-calling methods (Tassel-Uneak and Tassel-GBS),
+  genetic map-construction method (linkage-only and reference order-corrected) and
+  depth filters (12x, 20x, 30x and 40x) for genetic mapping of 18 biomass yield traits
+  in a biparental Miscanthus sinensis population using RAD-Seq SNPs is provided as
+  “Supplementary file 1”. A Perl script with the code for filtering VCF and HapMap-formatted
+  data files is provided as “Supplementary file 2”. Phenotype data used for QTL mapping
+  is provided as “Supplementary File 3”. A Perl script with the code for the simulation
+  study is provided as “Supplementary file 4”.
+relatedItem:
+- title: Improving Precision and Accuracy of Genetic Mapping with Genotyping-by-Sequencing
+    Data in Outcrossing Species
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://dx.doi.org/10.1111/gcbb.13167
+bibliographicCitation: https://doi.org/10.13012/B2IDB-1435220_V
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-1435220_V
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

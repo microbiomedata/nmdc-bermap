@@ -1,0 +1,27 @@
+brc: CABBI
+date: '2021-06-25'
+title: 'EnZymClass: Ensemble Method for Enzyme Classification'
+creator:
+- name: Maranas, Costas D.
+  email: cdm8@psu.edu
+  affiliation: The Pennsylvania State University
+  primaryContact: true
+keywords:
+- thioesterase
+- machine learning
+- medium-chain oleochemicals
+identifier: 10.5281/zenodo.5032482
+repository: Zenodo
+description: 'The dataset contains the EnZymClass application and the raw and sequence
+  data used in ''EnZymClass: Substrate specificity prediction tool of plant acyl-ACP
+  thioesterases based on ensemble learning'''
+relatedItem:
+- title: 'EnZymClass: Substrate specificity prediction tool of plant acyl-ACP thioesterases
+    based on ensemble learning'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1016/j.crbiot.2021.12.002
+bibliographicCitation: https://doi.org/10.5281/zenodo.5032482
+schema_version: 0.1.1
+uid: CABBI_10.5281/zenodo.5032482
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.624Z'

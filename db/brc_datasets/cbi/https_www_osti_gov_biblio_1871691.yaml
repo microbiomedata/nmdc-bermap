@@ -1,0 +1,59 @@
+brc: CBI
+date: '2022-06-09'
+title: Evaluating the Performance of Random Forest and Iterative Random Forest Based
+  Methods when Applied to Gene Expression Data
+active: true
+creator:
+- name: Angela M Walker
+  affiliation: Oak Ridge National Lab. (ORNL), Oak Ridge, TN (United States)
+  primaryContact: true
+- name: Ashley Cliff
+  affiliation: Oak Ridge National Lab. (ORNL), Oak Ridge, TN (United States)
+  primaryContact: false
+- name: Jonathon Romero
+  affiliation: Oak Ridge National Lab. (ORNL), Oak Ridge, TN (United States)
+  primaryContact: false
+- name: Manesh Shah
+  affiliation: Oak Ridge National Lab. (ORNL), Oak Ridge, TN (United States)
+  primaryContact: false
+- name: Piet Jones
+  affiliation: Oak Ridge National Lab. (ORNL), Oak Ridge, TN (United States)
+  primaryContact: false
+- name: Joao Gabriel Felipe Machado Gazola
+  affiliation: Oak Ridge National Lab. (ORNL), Oak Ridge, TN (United States)
+  primaryContact: false
+- name: Daniel Jacobson
+  affiliation: Oak Ridge National Lab. (ORNL), Oak Ridge, TN (United States)
+  primaryContact: false
+- name: David Kainer
+  email: kainerd@ornl.gov
+  affiliation: Oak Ridge National Lab. (ORNL), Oak Ridge, TN (United States)
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER). Biological Systems Science Division
+keywords:
+- iRF-Loop
+- expression network
+- Populus Trichocarpa
+identifier: https://www.osti.gov/biblio/1871691
+dataset_url: https://fair.ornl.gov/poplar/irF-LOOP.html
+description: Gene-to-gene networks, such as Gene Regulatory Networks (GRN) and Predictive
+  Expression Networks (PEN) capture relationships between genes and are beneficial
+  for use in downstream biological analyses. There exists multiple network inference
+  tools to produce these gene-to-gene networks from matrices of gene expression data.
+  Random Forest-Leave One Out Prediction (RF-LOOP) is a method that has been shown
+  to be efficient at producing these gene-to-gene networks, frequently known as GEne
+  Network Inference with Ensemble of trees (GENIE3). Here we validate that iterative
+  Random Forest-Leave One Out Prediction (iRF-LOOP) produces higher quality networks
+  than GENIE3. We use both synthetic and empirical networks from the Dialogue for
+  Reverse Engineering Assessment and Methods (DREAM) Challenges by Sage Bionetworks,
+  as well as two additional empirical networks created from Arabidopsis thaliana and
+  Populus trichocarpa expression data.
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/1871691
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/1871691
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

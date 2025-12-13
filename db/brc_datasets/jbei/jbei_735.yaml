@@ -1,0 +1,138 @@
+id: jbei:735
+brc: JBEI
+date: '2022-03-15'
+title: McGregor et al. 2021
+creator:
+- name: katalin kovacs
+  email: katalin.kovacs@nottingham.ac.uk
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 106590
+  scientificName: Cupriavidus necator
+- NCBITaxID: 536
+  scientificName: Chromobacterium violaceum
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 611307
+  scientificName: Chromobacterium sp. USM2
+keywords: []
+identifier: jbei:folder:00735
+repository: ICE
+datasetName: McGregor et al. 2021
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/735
+description: This dataset contains 10 plasmids designed for the metabolic engineering
+  of *Cupriavidus necator H16* for biopolymer production. The collection features
+  modular expression vectors that constitutively express a beta-alanine utilization
+  pathway alongside various CoA-transferases/ligases and polyhydroxyalkanoate (PHA)
+  polymerases from different bacterial sources. It also includes sacB-based deletion
+  vectors for knocking out the host's native PHA synthesis genes.
+relatedItem:
+- title: Biosynthesis of poly(3HB-co-3HP) with variable monomer composition in recombinant
+    C. necator H16 Callum McGregor, Nigel P. Minton and Katalin Kovács
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pBBR1
+  backbone: pCNCM17
+  promoters:
+  - PphaC and Ptrp
+  description: Modular, shuttle plasmid for constitutive (PphaC) expression of a beta-alanine
+    pyruvate aminotransferase (BAPAT) from Chromobacterium violaceum and a NADP-dependent
+    3-hydroxy acid dehydrogenase (ydfG) from E. coli and the constitutive expression
+    (Ptrp) of an acetate CoA-transferase (pct) and the poly(3-hydroxyalkanoate) polymerase
+    (phaC) from C. necator H16.
+  selection_markers:
+  - Tetracycline
+- ori: pBBR1
+  backbone: pCNCM21
+  promoters:
+  - PphaC and Ptrp
+  description: Modular, shuttle plasmid for constitutive (PphaC) expression of a beta-alanine
+    pyruvate aminotransferase (BAPAT) from Chromobacterium violaceum and a NADP-dependent
+    3-hydroxy acid dehydrogenase (ydfG) from E. coli and the constitutive expression
+    (Ptrp) of an acetate CoA-transferase (pct) from C. necator H16 and the poly(3-hydroxyalkanoate)
+    polymerase (phaC) from Chromobacterium sp. USM2.
+  selection_markers:
+  - Tetracycline
+- ori: pBBR1
+  backbone: pCNCM12
+  promoters:
+  - PphaC and Ptrp
+  description: Modular, shuttle plasmid for constitutive (PphaC) expression of a beta-alanine
+    pyruvate aminotransferase (BAPAT) from Chromobacterium violaceum and a NADP-dependent
+    3-hydroxy acid dehydrogenase (ydfG) from E. coli and the constitutive expression
+    (Ptrp) of a propionate-CoA ligase (prpE) from C.necator H16.
+  selection_markers:
+  - Tetracycline
+- ori: pBBR1
+  backbone: pCNCM15
+  promoters:
+  - PphaC and Ptrp
+  description: Modular, shuttle plasmid for constitutive (PphaC) expression of a beta-alanine
+    pyruvate aminotransferase (BAPAT) from Chromobacterium violaceum and a NADP-dependent
+    3-hydroxy acid dehydrogenase (ydfG) from E. coli and the constitutive expression
+    (Ptrp) of an acetate CoA-transferase from  E.coli
+  selection_markers:
+  - Tetracycline
+- ori: pBR-322
+  backbone: pCNCM_phaAB1
+  promoters: []
+  description: Deletion vector based on the sacB3 selection marker carrying the homology
+    arms flanking the phaAB1 operon of C. necator H16
+  selection_markers:
+  - Tetracycline
+- ori: pBBR1
+  backbone: pCNCM14
+  promoters:
+  - PphaC and Ptrp
+  description: Modular, shuttle plasmid for constitutive (PphaC) expression of a beta-alanine
+    pyruvate aminotransferase (BAPAT) from Chromobacterium violaceum and a NADP-dependent
+    3-hydroxy acid dehydrogenase (ydfG) from E. coli and the constitutive expression
+    (Ptrp) of a propionate-CoA ligase (prpE) from E. coli.
+  selection_markers:
+  - Tetracycline
+- ori: pBBR1
+  backbone: pCNCM0
+  promoters:
+  - phaC
+  description: Modular, shuttle plasmid for constitutive (PphaC) expression of a beta-alanine
+    pyruvate aminotransferase (BAPAT) from Chromobacterium violaceum and a NADP-dependent
+    3-hydroxy acid dehydrogenase (ydfG) from E. coli.
+  selection_markers:
+  - Tetracycline
+- ori: pBR-322
+  backbone: pCNCM_phaA
+  promoters: []
+  description: Deletion vector based on the sacB3 selection marker carrying the homology
+    arms flanking the phaA gene of C. necator H16.
+  selection_markers:
+  - Tetracycline
+- ori: pBBR1
+  backbone: pCNCM13
+  promoters:
+  - PphaC and Ptrp
+  description: Modular, shuttle plasmid for constitutive (PphaC) expression of a beta-alanine
+    pyruvate aminotransferase (BAPAT) from Chromobacterium violaceum and a NADP-dependent
+    3-hydroxy acid dehydrogenase (ydfG) from E. coli and the constitutive expression
+    (Ptrp) of an acetate CoA-transferase (pct) from Cupriavidus necator.
+  selection_markers:
+  - Tetracycline
+- ori: pBR-322
+  backbone: pCNCM_phaB1
+  promoters: []
+  description: Deletion vector based on the sacB3 selection marker carrying the homology
+    arms flanking the phaB1 gene of C. necator H16.
+  selection_markers:
+  - Tetracycline
+bibliographicCitation: https://public-registry.jbei.org/folders/735
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00735
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

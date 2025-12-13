@@ -1,0 +1,39 @@
+brc: CABBI
+date: '2025-05-09'
+title: Miscanthus Carbon Flux Data for SABR and UIEF
+creator:
+- name: Carl J. Bernacchi
+  email: bernacch@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Andy VanLoocke
+  email: andyvanl@iastate.edu
+  affiliation: Iowa State University
+  primaryContact: true
+- name: Emily Heaton
+  email: heaton6@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 183674
+  scientificName: Miscanthus x giganteus
+keywords:
+- Miscanthus
+- Eddy covariance
+identifier: 10.25380/iastate.26939863.v1
+repository: Iowa State University FigShare
+description: This eddy covariance (EC) gap-filled and partitioned flux dataset for
+  Miscanthus from the SABR and UIEF farms was collected to evaluate carbon fluxes
+  during the establishment phase of Miscanthus. The goal of this research is to quantify
+  net carbon exchange using the EC technique at two sites and assess how carbon uptake
+  varies with different planting densities. The dataset is contains two .csv files.
+relatedItem:
+- title: Advances in Miscanthus x giganteus Planting Techniques May Increase Carbon
+    Uptake in the Establishment Year
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/gcbb.70012
+bibliographicCitation: https://doi.org/10.25380/iastate.26939863.v1
+schema_version: 0.1.1
+uid: CABBI_10.25380/iastate.26939863.v1
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-10T06:00:05.195Z'

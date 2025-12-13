@@ -1,0 +1,42 @@
+brc: CABBI
+date: '2023-08-23'
+title: Yarrowia lipolytica strain NRRL Y-64008 small subunit ribosomal RNA gene, partial
+  sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal transcribed
+  spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial sequence
+creator:
+- name: Rao, Christopher V.
+  email: cvrao@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Jin, Yong-Su
+  email: ysjin@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Dien, Bruce S.
+  email: bruce.dien@ars.usda.gov
+  affiliation: USDA-ARS Peoria, IL
+  primaryContact: false
+species:
+- NCBITaxID: 4952
+  scientificName: Yarrowia lipolytica
+keywords:
+- Genomics
+- Yarrowia lipolytica
+- Genome Sequence
+identifier: ON114154.1
+repository: GenBank
+description: Yarrowia lipolytica strain NRRL Y-64008 small subunit ribosomal RNA gene,
+  partial sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene, and internal
+  transcribed spacer 2, complete sequence; and large subunit ribosomal RNA gene, partial
+  sequence.
+relatedItem:
+- title: Draft genome sequence of Yarrowia lipolytica NRRL Y-64008, an oleaginous
+    yeast capable of growing on lignocellulosic hydrolysates
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1128/MRA.00435-23
+analysisType: Genomics
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/nuccore/2214415206
+schema_version: 0.1.1
+uid: CABBI_ON114154.1
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

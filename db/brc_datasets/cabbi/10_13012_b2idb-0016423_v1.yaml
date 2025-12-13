@@ -1,0 +1,40 @@
+brc: CABBI
+date: '2021-03-09'
+title: OWD.2 TAG Expression
+creator:
+- name: John Shanklin
+  email: shanklin@bnl.gov
+  affiliation: Brookhaven National Laboratory
+  primaryContact: true
+species:
+- NCBITaxID: 1842
+  scientificName: Arabidopsis thaliana
+keywords:
+- Arabidopsis
+- OLEOSIN
+- TAG
+identifier: 10.13012/B2IDB-0016423_V1
+repository: Illinois Data Bank
+description: During the transformation of wild-type (WT) Arabidopsis thaliana, a T-DNA
+  containing OLEOSIN-GFP (OLE1-GFP) was inserted by happenstance within the GBSS1
+  gene, resulting in significant reduction in amylose and increase in leaf oil content
+  in the transgenic line (OG). The synergistic effect on oil accumulation of combining
+  gbss1 with the expression of OLE1-GFP was confirmed by transforming an independent
+  gbss1 mutant (GABI_914G01) with OLE1-GFP. The resulting OLE1-GFP/gbss1 transgenic
+  lines showed higher leaf oil content than the individual OLE1-GFP/WT or single gbss1
+  mutant lines. Further stacking of the lipogenic factors WRINKLED1, Diacylglycerol
+  O-Acyltransferase (DGAT1), and Cys-OLEOSIN1 (an engineered sesame OLEOSIN1) in OG
+  significantly elevated its oil content in mature leaves to 2.3% of dry weight, which
+  is 15 times higher than that in WT Arabidopsis. Inducible expression of the same
+  lipogenic factors was shown to be an effective strategy for triacylglycerol (TAG)
+  accumulation without incurring growth, development, and yield penalties.
+relatedItem:
+- title: Ectopic Expression of OLEOSIN 1 and Inactivation of GBSS1 Have a Synergistic
+    Effect on Oil Accumulation in Plant Leaves
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.3390/plants10030513
+bibliographicCitation: https://doi.org/10.13012/B2IDB-0016423_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-0016423_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

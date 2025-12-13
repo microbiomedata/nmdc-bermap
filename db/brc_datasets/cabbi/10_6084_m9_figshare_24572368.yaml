@@ -1,0 +1,55 @@
+brc: CABBI
+date: '2023-11-19'
+title: Grassland Intensification Effects Cascade to Alter Multifunctionality of Wetlands
+  Within Metaecosystems
+creator:
+- name: Boughton, Elizabeth H.
+  email: eboughton@archbold-station.org
+  affiliation: Archbold Biological Station
+  primaryContact: true
+- name: Bernacchi, Carl
+  email: bernacch@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: DeLucia, Evan H.
+  email: delucia@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Gomez-Casanovas, Nuria
+  email: nuri.gomez-casanovas@ag.tamu.edu
+  affiliation: Texas A&amp;M University
+  primaryContact: false
+keywords:
+- land-use intensification
+- agricultural landscapes
+- grasslands
+identifier: 10.6084/m9.figshare.24572368
+repository: FigShare
+description: Securing food production while safeguarding ecosystem stability and resilience
+  remains a grand challenge in the Anthropocene. Sustainable agricultural intensification
+  holds promise in achieving ecosystem service multifunctionality beyond food production,
+  yet empirical evidence remains tenuous, especially regarding consequences for the
+  metaecosystems (i.e., spatially coupled ecosystems connected by flows across ecosystem
+  boundaries). Here we synthesized long-term datasets encompassing 53 physical, chemical,
+  and biological indicators, comprising &gt;11,000 field measurements, to understand
+  effects of land-use intensification on multiple ecosystem services of spatially
+  connected grasslands and wetlands. The management practices applied to grasslands
+  were not directly imposed on wetlands, except for grazing intensity. Our results
+  revealed that intensification promoted high-quality forage and livestock production
+  in both grasslands and wetlands, but at the expense of water quality regulation,
+  methane mitigation, non-native species invasion resistance, and biodiversity, and
+  further weakened relationships among ecosystem services. Such intensification effects
+  on grasslands cascaded to alter multifunctionality of embedded natural wetlands
+  within the metaecosystems to a similar extent. Our results highlight the need to
+  integrate holistic and systematic perspectives into land-use intensification strategies
+  to achieve multifunctional agricultural landscapes.
+relatedItem:
+- title: Grassland Intensification Effects Cascade to Alter Multifunctionality of
+    Wetlands Within Metaecosystems
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1038/s41467-023-44104-2
+bibliographicCitation: https://doi.org/10.6084/m9.figshare.24572368
+schema_version: 0.1.1
+uid: CABBI_10.6084/m9.figshare.24572368
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

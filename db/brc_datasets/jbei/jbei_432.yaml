@@ -1,0 +1,63 @@
+id: jbei:432
+brc: JBEI
+date: '2019-01-10'
+title: Barthel_et_al_2019a
+creator:
+- name: Sebastian Palluk
+  email: spalluk@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Sebastian Barthel
+  email: sbarthel@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 303
+  scientificName: Pseudomonas putida
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- back to consensus
+- TdT
+- thermostable
+identifier: jbei:folder:00432
+repository: ICE
+datasetName: Barthel_et_al_2019a
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/432
+description: This dataset contains three plasmids developed for metabolic engineering
+  applications in bioenergy research. One plasmid is designed to express the wild-type
+  enzyme MTdTwt, likely involved in methanol utilization pathways. The other two plasmids
+  are documented as components of the engineered strains JBx_093223 and JBx_093243,
+  indicating their use in constructing and testing specific microbial designs.
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pET19-MTdTwt
+  promoters:
+  - T7-lac
+  description: Plasmid coding for MTdTwt
+  selection_markers:
+  - Carbenicillin
+- backbone: murine MTdTc302-evo
+  promoters:
+  - T7
+  description: see strain JBx_093223
+  selection_markers:
+  - Carbenicillin
+- backbone: murine MTdT-evo
+  promoters:
+  - T7
+  description: see strain JBx_093243
+  selection_markers:
+  - Carbenicillin
+bibliographicCitation: https://public-registry.jbei.org/folders/432
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00432
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

@@ -1,0 +1,39 @@
+brc: CABBI
+date: '2019-04-01'
+title: Proteotoxicity from aberrant ribosome biogenesis compromises cell fitness
+creator:
+- name: Wuhr, Martin
+  email: wuhr@princeton.edu
+  affiliation: Lewis-Sigler Institute for Integrative Genomics, Princeton University
+  primaryContact: true
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- proteomics
+- RNA Sequencing
+identifier: GSE114077
+repository: GEO
+description: To achieve maximal growth, cells must manage a massive economy of ribosomal
+  proteins (r-proteins) and RNAs (rRNAs) to produce thousands of ribosomes every minute.
+  Although ribosomes are essential in all cells, natural disruptions to ribosome biogenesis
+  lead to heterogeneous phenotypes. Here, we model these perturbations in Saccharomyces
+  cerevisiae and show that challenges to ribosome biogenesis result in acute loss
+  of proteostasis. Imbalances in the synthesis of r-proteins and rRNAs lead to the
+  rapid aggregation of newly synthesized orphan r-proteins and compromise essential
+  cellular processes, which cells alleviate by activating proteostasis genes. Exogenously
+  bolstering the proteostasis network increases cellular fitness in the face of challenges
+  to ribosome assembly, demonstrating the direct contribution of orphan r-proteins
+  to cellular phenotypes. We propose that ribosome assembly is a key vulnerability
+  of proteostasis maintenance in proliferating cells that may be compromised by diverse
+  genetic, environmental, and xenobiotic perturbations that generate orphan r-proteins.
+relatedItem:
+- title: Proteotoxicity from Aberrant Ribosome Biogenesis Compromises Cell Fitness
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: http://doi.org/10.7554/eLife.43002
+analysisType: Genomics
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=gse114077
+schema_version: 0.1.1
+uid: CABBI_GSE114077
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

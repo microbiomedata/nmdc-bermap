@@ -1,0 +1,45 @@
+brc: CABBI
+date: '2021-10-30'
+title: 'Adoption of Perennial Energy Crops in the U.S. Midwest: Causal and Heterogeneous
+  Determinants'
+creator:
+- name: Ximing Cai
+  email: xmcai@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Madhu Khanna
+  email: khanna1@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+keywords:
+- Farmer surveys
+- Policy
+- Adoption decisions
+identifier: 10.13012/B2IDB-4131696_V1
+repository: Illinois Data Bank
+description: The success of a bioenergy policy relies largely on the wide adoption
+  of perennial energy crops at the farm scale. This study uses survey data to examine
+  potential adoption decisions by farmers in the U.S. Midwest and the causal effects
+  of various direct and indirect influencing factors, especially heterogeneous preferences
+  of farmers. A Bayesian network (BN) model is developed to delineate the causal relationship
+  between farmers adoption decisions and the influencing factors. We find a dominating
+  role of economic factors and a non-negligible impact of non-economic factors, such
+  as the perceived environmental benefits and the extent of familiarity with perennial
+  energy crops. To examine the effect of heterogeneity in farmer preferences, we classify
+  the surveyed farmers into four categories based on their attitudes toward the economic,
+  social, and environmental dimensions of perennial energy crops. We identified statistically
+  significant between-group differences in the responses of the four types of farmers
+  to the various influencing factors. Our findings contribute to disentangling the
+  complicated motivations that will influence perennial energy crop adoption decisions
+  and provide implications for more targeted policy development that need to consider
+  the heterogeneous drivers of farmer decisions about land use.
+relatedItem:
+- title: 'Adoption of Perennial Energy Crops in the U.S. Midwest: Causal and Heterogeneous
+    Determinants'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1016/j.biombioe.2021.106275
+bibliographicCitation: https://doi.org/10.13012/B2IDB-4131696_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-4131696_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

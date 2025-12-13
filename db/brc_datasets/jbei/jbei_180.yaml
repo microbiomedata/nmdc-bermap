@@ -1,0 +1,170 @@
+id: jbei:180
+brc: JBEI
+date: '2015-04-07'
+title: Yuzawa et al 2016
+creator:
+- name: Satoshi Yuzawa
+  email: syuzawa@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Ericka Mendez
+  email: erickamendez@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 29829
+  scientificName: Lipomyces starkeyi
+- NCBITaxID: 1836
+  scientificName: Saccharopolyspora erythraea
+- NCBITaxID: 60894
+  scientificName: Saccharopolyspora spinosa
+- NCBITaxID: 1890
+  scientificName: Streptomyces antibioticus
+- NCBITaxID: 158786
+  scientificName: Lyngbya majuscula
+- NCBITaxID: 1912
+  scientificName: Streptomyces hygroscopicus
+- NCBITaxID: 56
+  scientificName: Sorangium cellulosum
+- NCBITaxID: 146923
+  scientificName: Streptomyces parvulus
+keywords: []
+identifier: jbei:folder:00180
+repository: ICE
+datasetName: Yuzawa et al 2016
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/180
+description: This dataset contains 16 plasmids created to investigate the engineering
+  of polyketide synthases (PKSs). The collection focuses on swapping acyltransferase
+  (AT) domains in the LipPks1 and DEBS Module 6 systems to alter substrate specificity
+  and generate novel polyketides. It also includes variants that systematically test
+  the effect of different docking domain boundaries on chimeric PKS function and the
+  impact of ketoreductase (KR) domain inactivation.
+relatedItem:
+- title: Murli S, Kennedy J, Dayem LC, Carney JR, Kealey JT. Metabolic engineering
+    of Escherichia coli for improved 6-deoxyerythronolide B production. J Ind Microbiol
+    Biotechnol. 2003 Aug;30(8):500-9. Epub 2003 Jul 26.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pBR322
+  backbone: pSY087
+  promoters: []
+  description: LIPS M1+TE (KR null)
+  selection_markers: []
+- ori: pBR322
+  backbone: pSY092
+  promoters:
+  - T7
+  description: AT-swapped His-LipPks1+TE with D1 boundary, AT = SPIS M2
+  selection_markers:
+  - Kan
+- backbone: pSY088
+  promoters:
+  - T7
+  description: L2 (KR null)
+  selection_markers: []
+- ori: pBR322
+  backbone: pSY091
+  promoters:
+  - T7
+  description: AT-swapped His-LipPks1+TE with D1 boundary, AT = INDS M9
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pSY093
+  promoters:
+  - T7
+  description: AT-swapped His-LipPks1+TE with D1 boundary, AT = CURS M7
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pSY089
+  promoters:
+  - T7
+  description: AT-swapped His-LipPks1+TE with D1 boundary, AT = RAPS M2
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pSY090
+  promoters:
+  - T7
+  description: AT-swapped His-LipPks1+TE with D1 boundary, AT = EPOS M4
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pSY075
+  promoters:
+  - T7
+  description: AT-swapped His-LipPks1+TE with D1 boundary, AT = BORS M1
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pSY074
+  promoters:
+  - T7
+  description: His-LipPks1+TE
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pSY127
+  promoters:
+  - T7
+  description: AT-swapped DEBS Module 6+TE-His with D0 boundary, AT = EPOS M4
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pSY126
+  promoters:
+  - T7
+  description: DEBS Module 6+TE-His
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pSY125
+  promoters:
+  - T7
+  description: AT-swapped DEBS Module 6+TE-His with D4 boundary, AT = EPOS M4
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pSY123
+  promoters:
+  - T7
+  description: AT-swapped DEBS Module 6+TE-His with D2 boundary, AT = EPOS M4
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pSY124
+  promoters:
+  - T7
+  description: AT-swapped DEBS Module 6+TE-His with D3 boundary, AT = EPOS M4
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pSY122
+  promoters:
+  - T7
+  description: AT-swapped DEBS Module 6+TE-His with D1 boundary, AT = EPOS M4
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pSY121
+  promoters:
+  - T7
+  description: DEBS Module 6+TE-His (A to D mutation to create a Sal I site)
+  selection_markers:
+  - Kan
+bibliographicCitation: https://public-registry.jbei.org/folders/180
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00180
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.619Z'

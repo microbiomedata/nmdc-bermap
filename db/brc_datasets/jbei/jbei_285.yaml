@@ -1,0 +1,187 @@
+id: jbei:285
+brc: JBEI
+date: '2017-01-18'
+title: Eudes et al 2016c
+creator:
+- name: Emilie Rennie
+  email: earennie@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Veronica Teixeira Benites
+  email: veronicabenites@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Nurgul Kaplan
+  email: nkaplan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Aymerick Eudes
+  email: ageudes@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Angela Tarver
+  email: amtarver@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00285
+repository: ICE
+datasetName: Eudes et al 2016c
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/285
+description: This collection contains 16 plasmids designed for the metabolic engineering
+  of the phenylpropanoid pathway in yeast. The dataset features Gateway-compatible
+  and pDRf1-based vectors for the constitutive expression of key biosynthetic enzymes,
+  including various transferases (HCT, HQT), lyases (TAL), and ligases (4CL). These
+  constructs carry genes from diverse plant and microbial sources and are intended
+  for modifying lignin-related metabolic pathways.
+relatedItem:
+- title: Plant Cell. 2014 Aug;26(8):3314-25.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Eudes et al. Appl Microbiol Biotechnol. 201189(4):989-1000
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Eudes et al. Appl Microbiol Biotechnol. 2011 89(4):989-1000
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Master_C1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Master_F10
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Master_G1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Master_F11
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Master_C3
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Master_F1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Master_C7
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Master_B7
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Master_E4
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Master_A6
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Master_C6
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors:
+- name: David Robinson
+  email: dsrobinson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pRS423
+  promoters:
+  - TDH3
+  description: Gateway-enabled vector for constitutive expression in yeast
+  selection_markers:
+  - Carbenicillin in E. coli, -His in yeast
+- backbone: '45'
+  promoters: []
+  description: pDR::4CL5::DsRED::carb.gb
+  selection_markers:
+  - Carb
+- backbone: pDRf1-4CL5-GW
+  promoters: []
+  description: E. coli strain (ccdB survival) carrying the pDRf1-4CL5-GW plasmid
+  selection_markers:
+  - chloramphenicol, carbenicillin
+- backbone: pDRf1-4CL5-PvuII
+  promoters: []
+  description: E. coli strain carrying the pDRf1-4CL5-PvuII plasmid
+  selection_markers:
+  - Carbenicillin
+- backbone: '40'
+  promoters: []
+  description: pRS423::TAL::His.gb
+  selection_markers:
+  - Carb
+- backbone: NtHQT
+  promoters: []
+  description: pDRf1-DsRED-drop_PmlI vector with NtHQT insert
+  selection_markers:
+  - Carbenicillin
+- backbone: LaAT1
+  promoters: []
+  description: pDRf1-DsRED-drop_PmlI vector with LaAT1 insert
+  selection_markers:
+  - Carbenicillin
+- backbone: AtSCT
+  promoters: []
+  description: pDRf1-DsRED-drop_PmlI vector with AtSCT insert
+  selection_markers:
+  - Carbenicillin
+- backbone: BPBT
+  promoters: []
+  description: pDRf1-DsRED-drop_PmlI vector with BPBT insert
+  selection_markers:
+  - Carbenicillin
+- backbone: EcCS
+  promoters: []
+  description: pDRf1-DsRED-drop_PmlI vector with EcCS insert
+  selection_markers:
+  - Carbenicillin
+- backbone: TpHCT2
+  promoters: []
+  description: pDRf1-DsRED-drop_PmlI vector with TpHCT2 insert
+  selection_markers:
+  - Carbenicillin
+- backbone: AsFMT
+  promoters: []
+  description: pDRf1-DsRED-drop_PmlI vector with AsFMT insert
+  selection_markers:
+  - Carbenicillin
+- backbone: OsHCT4
+  promoters: []
+  description: pDRf1-DsRED-drop_PmlI vector with OsHCT4 insert
+  selection_markers:
+  - Carbenicillin
+- backbone: AtSDT
+  promoters: []
+  description: pDRf1-DsRED-drop_PmlI vector with AtSDT insert
+  selection_markers:
+  - Carbenicillin
+- backbone: AtHHT3
+  promoters: []
+  description: pDRf1-DsRED-drop_PmlI vector with AtHHT3 insert
+  selection_markers:
+  - Carbenicillin
+- backbone: HvACT
+  promoters: []
+  description: pDRf1-DsRED-drop_PmlI vector with HvACT insert
+  selection_markers:
+  - Carbenicillin
+bibliographicCitation: https://public-registry.jbei.org/folders/285
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00285
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.621Z'

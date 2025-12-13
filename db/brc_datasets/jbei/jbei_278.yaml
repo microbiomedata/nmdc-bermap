@@ -1,0 +1,161 @@
+id: jbei:278
+brc: JBEI
+date: '2016-03-25'
+title: Eudes et. al. 2016
+creator:
+- name: Sasha Yogiswara
+  email: syogiswara@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+- NCBITaxID: 358
+  scientificName: Agrobacterium tumefaciens
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+- scientificName: Panicum virgatum
+- scientificName: Physcomitrella patens
+- scientificName: Selaginella moellendorffii
+- NCBITaxID: 3694
+  scientificName: Populus trichocarpa
+- NCBITaxID: 3347
+  scientificName: Pinus radiata
+- scientificName: Saccharothrix espanaensis
+keywords: []
+identifier: jbei:folder:00278
+repository: ICE
+datasetName: Eudes et. al. 2016
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/278
+description: This collection of 21 plasmids was developed to study and engineer the
+  lignin biosynthesis pathway for bioenergy applications. The constructs contain various
+  orthologs of hydroxycinnamoyl-CoA:shikimate hydroxycinnamoyl transferase (HCT) from
+  diverse plant species, as well as genes like `pobA` and `ubiC` for lignin modification.
+  These plasmids are designed for enzyme characterization and for creating transgenic
+  plants with altered lignin composition to improve biomass deconstruction.
+relatedItem: []
+analysisType: not specified
+contributors:
+- name: Aymerick Eudes
+  email: ageudes@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pDNR3-2 pobA
+  promoters: []
+  description: pDNR3-2 pobA
+  selection_markers:
+  - zeo
+- backbone: pTKan pCesa4::schl-ubiC
+  promoters: []
+  description: pTKan pCesa4::schl-ubiC
+  selection_markers:
+  - spect / kan
+- backbone: pTKan pC4H::schl-pobA
+  promoters: []
+  description: pTKan pC4H::schl-pobA
+  selection_markers:
+  - spect / kan
+- backbone: pDNR1-2 PvHCT2a E. coli codon-optimized
+  promoters: []
+  description: pDNR1-2 PvHCT2a E. coli codon-optimized
+  selection_markers:
+  - zeo
+- backbone: pTKan pCesa4::schl-ubiC-pC4H::schl-pobA
+  promoters: []
+  description: pTKan pCesa4::schl-ubiC-pC4H::schl-pobA
+  selection_markers:
+  - spect / kan
+- backbone: pSKB3 PvHCT2a
+  promoters: []
+  description: pSKB3 PvHCT2a
+  selection_markers:
+  - kan
+- backbone: pDNR1-2 schl-ubiC
+  promoters: []
+  description: pDNR1-2 schl-ubiC
+  selection_markers:
+  - zeo
+- backbone: pDR 4CL5-PpHCT1
+  promoters: []
+  description: pDR 4CL5-PpHCT1
+  selection_markers:
+  - carb
+- backbone: pDEST17 PvHCT2a
+  promoters: []
+  description: pDEST17 PvHCT2a
+  selection_markers:
+  - carb
+- backbone: pDNR1-4 schl-ubiC
+  promoters: []
+  description: pDNR1-4 schl-ubiC
+  selection_markers:
+  - zeo
+- backbone: pDR 4CL5-SmHCT1a
+  promoters: []
+  description: pDR 4CL5-SmHCT1a
+  selection_markers:
+  - carb
+- backbone: pDR 4CL5-PvHCT2a
+  promoters: []
+  description: pDR 4CL5-PvHCT2a
+  selection_markers:
+  - carb
+- backbone: pDR 4CL5-PtHCT6
+  promoters: []
+  description: pDR 4CL5-PtHCT6
+  selection_markers:
+  - carb
+- backbone: pDR 4CL5-PrHCT
+  promoters: []
+  description: pDR 4CL5-PrHCT
+  selection_markers:
+  - carb
+- backbone: pDR 4CL5-AtHCT
+  promoters: []
+  description: pDR 4CL5-AtHCT
+  selection_markers:
+  - carb
+- backbone: pDNR1-2 PpHCT1
+  promoters: []
+  description: pDNR1-2 PpHCT1
+  selection_markers:
+  - zeo
+- backbone: pDNR1-2 SmHCT1a
+  promoters: []
+  description: pDNR1-2 SmHCT1a
+  selection_markers:
+  - zeo
+- backbone: pDNR1-2 PrHCT
+  promoters: []
+  description: pDNR1-2 PrHCT
+  selection_markers:
+  - zeo
+- backbone: pDNR1-2 AtHCT
+  promoters: []
+  description: pDNR1-2 AtHCT
+  selection_markers:
+  - kan
+- backbone: pDNR1-2 PvHCT2a  yeast codon-optimized
+  promoters: []
+  description: pDNR1-2 PvHCT2a  yeast codon-optimized
+  selection_markers:
+  - zeo
+- backbone: pDNR1-2 PtHCT6
+  promoters: []
+  description: pDNR1-2 PtHCT6
+  selection_markers:
+  - zeo
+bibliographicCitation: https://public-registry.jbei.org/folders/278
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00278
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

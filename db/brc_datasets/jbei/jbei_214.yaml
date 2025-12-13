@@ -1,0 +1,127 @@
+id: jbei:214
+brc: JBEI
+date: '2015-10-19'
+title: Ebert et al., 2015
+creator:
+- name: Mi Yeon Lee
+  email: miylee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 358
+  scientificName: Agrobacterium tumefaciens
+keywords:
+- UDP-Xylose Transporter
+identifier: jbei:folder:00214
+repository: ICE
+datasetName: Ebert et al., 2015
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/214
+description: This dataset consists of nine plasmids designed for the expression and
+  characterization of three distinct UDP-Xylose Transporters (versions 1, 2, and 3).
+  These transporters are crucial for delivering UDP-xylose, a precursor for xylan
+  biosynthesis within the plant cell wall. The collection contains Gateway-compatible
+  entry clones and destination vectors for heterologous expression and functional
+  studies in both plants and yeast.
+relatedItem:
+- title: Ebert et al., 2015
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: AT2G30460
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: from Joshua Heazlewood
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: AT2G28315
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: AT1G06890
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors:
+- name: 'Berit Ebert '
+  email: bebert@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+- name: Berit Ebert
+  email: 'bebert@lbl.gov '
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+- name: Carsten Rautengarten
+  email: 'crautengarten@lbl.gov '
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+- name: Carsten Rautengarten
+  email: crautengarten@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pENTR-UXT2
+  promoters: []
+  description: UDP-Xylose Transporter2 in pENTR/SD/D no stop
+  selection_markers:
+  - Kan
+- backbone: pEarleyGate101_UXT1
+  promoters: []
+  description: UDP-Xylose Transporter1 in pEarleyGate 101
+  selection_markers:
+  - Kan
+- backbone: pEarleyGate101_UXT2
+  promoters: []
+  description: UDP-Xylose Transporter2 in pEarleyGate 101
+  selection_markers:
+  - Kan
+- backbone: pEarleyGate101_UXT3
+  promoters: []
+  description: UDP-Xylose Transporter3 in pEarleyGate 101
+  selection_markers:
+  - Kan
+- backbone: pENTR-UXT3
+  promoters: []
+  description: UDP-Xylose Transporter3 in pENTR/SD/D no stop
+  selection_markers:
+  - Kan
+- backbone: pENTR-UXT1
+  promoters: []
+  description: UDP-Xylose Transporter1 in pENTR/SD/D no stop
+  selection_markers:
+  - Kan
+- backbone: UXT2/NST12
+  promoters: []
+  description: pYES-DEST52
+  selection_markers:
+  - Amp
+- backbone: UXT1/NST11
+  promoters: []
+  description: pYES-DEST52
+  selection_markers:
+  - Amp
+- backbone: UXT3/NST10
+  promoters: []
+  description: pYES-DEST52
+  selection_markers:
+  - Amp
+bibliographicCitation: https://public-registry.jbei.org/folders/214
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00214
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

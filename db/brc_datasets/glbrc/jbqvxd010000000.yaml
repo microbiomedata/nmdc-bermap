@@ -1,0 +1,38 @@
+brc: GLBRC
+date: '2025-07-29'
+title: Tilletia maclaganii strain Tm001 NY21, whole genome shotgun sequencing project
+creator:
+- name: Gian Maria Niccolò Benucci
+  email: benucci@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+- name: David B. Lowry
+  email: dlowry@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: false
+species:
+- NCBITaxID: 1031713
+  scientificName: Tilletia maclaganii
+keywords:
+- Eukaryota
+- Fungi
+- Dikarya
+- Basidiomycota
+- Ustilaginomycotina
+- Exobasidiomycetes
+- Tilletiales
+- Tilletiaceae
+- Tilletia
+identifier: JBQVXD010000000
+repository: GenBank
+description: 'GenBank: JBQVXD000000000.1'
+relatedItem:
+- title: Draft genome of the switchgrass head smut pathogen <i>Tilletia maclaganii</i>
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://journals.asm.org/doi/10.1128/mra.00991-25
+analysisType: Whole genome shotgun sequencing
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/nuccore/JBQVXD000000000/
+schema_version: 0.1.7
+uid: GLBRC_JBQVXD010000000
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.198Z'

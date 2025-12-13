@@ -1,0 +1,210 @@
+id: jbei:631
+brc: JBEI
+date: '2020-03-11'
+title: Gauttam et al 2021
+creator:
+- name: Rahul Gauttam
+  email: rgauttam@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 303
+  scientificName: Pseudomonas putida
+keywords: []
+identifier: jbei:folder:00631
+repository: ICE
+datasetName: Gauttam et al 2021
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/631
+description: This dataset contains a collection of 28 plasmids constituting a versatile
+  toolkit for tunable gene regulation in *E. coli* and *P. putida*. The plasmids include
+  a dual-inducible CRISPR interference (CRISPRi) system targeting key metabolic and
+  essential genes, as well as a series of 'duet' expression vectors. These tools utilize
+  various inducible promoters (pBAD, pTac, pTet) and are characterized with sfGFP
+  and RFP reporters, enabling sophisticated control for synthetic biology and metabolic
+  engineering.
+relatedItem: []
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pRO1600; colE1
+  backbone: pRGPdCas9bad-trpG
+  promoters: []
+  description: pRGPdCas9 carrying trpG targeting sgRNA
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPdCas9bad-pyrF
+  promoters: []
+  description: pRGPdCas9 carrying ftsZ targeting sgRNA
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPdCas9bad-argH
+  promoters: []
+  description: pRGPdCas9 carrying argH targeting sgRNA
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPdCas9bad-pheA
+  promoters: []
+  description: pRGPdCas9 carrying pheA targeting sgRNA
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPdCas9bad-edd
+  promoters: []
+  description: pRGPdCas9 carrying edd targeting sgRNA
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPdCas9bad-eda
+  promoters: []
+  description: pRGPdCas9 carrying eda targeting sgRNA
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPdCas9bad-ftsZ
+  promoters: []
+  description: pRGPdCas9 carrying ftsZ targeting sgRNA
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPdCas9bad-aceE
+  promoters: []
+  description: pRGPdCas9 carrying aceE targeting sgRNA
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPdCas9bad
+  promoters: []
+  description: dual-inducible CRISPRi vector with pLac controlled dCas9 expression
+    and Pbad controlled sgRNA expression
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPdCas9bad-argB
+  promoters: []
+  description: pRGPdCas9 carrying argB targeting sgRNA
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPdCas9
+  promoters:
+  - pLac; ptetR/tetA
+  description: dual-inducible CRISPRi vector with pLac controlled dCas9 expression
+    and PtetR/tetA controlled sgRNA expression
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPdCas9-aceE
+  promoters: []
+  description: pRGPdCas9 carrying aceE targeting sgRNA
+  selection_markers:
+  - Kanamycin
+- ori: pBBR1
+  backbone: pRGPsgRNA
+  promoters: []
+  description: For sgRNA expression controlled by anhydrotetracycline inducible promoter
+  selection_markers:
+  - Kanamycin
+- ori: pBBR1
+  backbone: pRGPsgRNA-aceE
+  promoters: []
+  description: pRGPsgRNA carrying aceE targeting sgRNA
+  selection_markers:
+  - Kanamycin
+- ori: pBBR1
+  backbone: pRGPDuo3-sfGFPbad
+  promoters: []
+  description: pRGPDuo3 carrying sfGFP under pBAD
+  selection_markers:
+  - Gentamycin
+- ori: pRO1600; colE1
+  backbone: pRGPDuo4-RFPtac
+  promoters: []
+  description: pRGPDuo4 carrying RFP under pTac
+  selection_markers:
+  - Kanamycin
+- ori: pBBR1
+  backbone: pRGPDuo3-RFPbad
+  promoters: []
+  description: pRGPDuo3 carrying RFP under pBAD
+  selection_markers: []
+- ori: pRO1600; colE1
+  backbone: pRGPDuo4-RFPbad
+  promoters: []
+  description: pRGPDuo4 carrying RFP under pBAD
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPDuo4-sfGFPbad
+  promoters: []
+  description: pRGPDuo4 carrying sfGFP under pBAD
+  selection_markers:
+  - Kanamycin
+- ori: pBBR1
+  backbone: pRGPDuo3-sfGFPtac
+  promoters: []
+  description: pRGPDuo3 carrying sfGFP under pTac
+  selection_markers:
+  - Gentamycin
+- ori: pRO1600; colE1
+  backbone: pRGPDuo4
+  promoters: []
+  description: dual inducible duet expression vector for E. coli and P. putida
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPDuo4-sfGFPtac
+  promoters: []
+  description: pRGPDuo4 carrying sfGFP under pTac
+  selection_markers:
+  - Kanamycin
+- ori: pBBR1
+  backbone: pRGPDuo3
+  promoters: []
+  description: dual inducible duet expression vector for P. putida and E. coli
+  selection_markers:
+  - Gentamycin
+- ori: pBBR1
+  backbone: pRGPDuo1-RFPtet
+  promoters: []
+  description: pRGPDuo1 carrying RFP under PtetR/tetA promoter
+  selection_markers:
+  - Gentamycin
+- ori: pBBR1
+  backbone: pRGPDuo1-RFPtac
+  promoters: []
+  description: pRGPDuo1 carrying RFP under pTac
+  selection_markers:
+  - Gentamycin
+- ori: pBBR1
+  backbone: pRGPDuo1-sfGFPtet
+  promoters: []
+  description: P. putida carrying pRGPDuo1-sfGFPtet
+  selection_markers:
+  - Gentamycin
+- ori: pBBR1
+  backbone: pRGPDuo1
+  promoters:
+  - pTac; ptetR/tetA
+  description: dual-inducible duet expression vector for gene expression in P. putida
+    and E. coli
+  selection_markers: []
+- ori: pBBR1
+  backbone: pRGPDuo1-sfGFPtac
+  promoters: []
+  description: pRGPDuo1 carrying sfGFP under pTac promoter
+  selection_markers:
+  - Gentamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/631
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00631
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

@@ -1,0 +1,32 @@
+brc: CABBI
+date: '2025-03-28'
+title: Off target analysis of CRISPR-Cas9 edited H99 callus in maize
+creator:
+- name: Stephen P. Moose
+  email: smoose@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 4577
+  scientificName: Zea mays
+keywords:
+- Genomics
+- Maize
+identifier: PRJNA1171432
+repository: NCBI BioProject
+description: 'To identify and quantify any off-target mutations created during the
+  NRT1.1 CRISPR/Cas9 experiment, genomic DNA was extracted from NRT1.1-E1 callus tissue
+  for deep sequencing. Genomic library preparation was conducted using the Nextera
+  DNA Flex Library Prep Kit (Illumina Cat #: 20018704) according to the manufacturers
+  protocol and sequencing was performed on an Illumina NovaSeq6000.'
+relatedItem:
+- title: Efficient Mutagenesis and Genotyping of Maize Inbreds Using Biolistics, Multiplex
+    CRISPR/Cas9 Editing, and Indel-Selective PCR
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: http://doi.org/10.1186/s13007-025-01365-w
+analysisType: Genomics
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1171432
+schema_version: 0.1.1
+uid: CABBI_PRJNA1171432
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-10T06:00:05.195Z'

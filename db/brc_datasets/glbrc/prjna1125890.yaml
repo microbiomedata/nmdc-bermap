@@ -1,0 +1,38 @@
+brc: GLBRC
+date: '2024-06-19'
+title: Population genomics identify the requirement of BAP2 in the sufficiency of
+  IRE1 in the UPR
+creator:
+- name: Federica Brandizzi
+  email: fb@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+species:
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+keywords:
+- WGS
+- QTL
+- UPR
+- programmed cell death
+identifier: PRJNA1125890
+repository: NCBI BioProject
+description: Sequencing reads archived here are part of a project studying natural
+  variation in ER stress responses in Arabidopsis reported in Pastor-Cantizano et
+  al. 2024. The project focused on contrasting alleles derived from Na-1 (tolerant)
+  and Est-0 (susceptible) accessions when exposed to a ER stress inducer. These accession
+  were crossed, F3 progeny were phenotyped, and the top and bottom 10% of relative
+  performance under ER stress (42 individuals from each tail) were pooled and sequenced.
+  Candidate genomic regions were identified by looking for allele frequency differences
+  among the two pools in a standard QTL-seq approach
+relatedItem:
+- title: Programmed cell death regulator BAP2 is required for IRE1-mediated unfolded
+    protein response in Arabidopsis
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.nature.com/articles/s41467-024-50105-6
+analysisType: WGS
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1125890
+schema_version: 0.1.7
+uid: GLBRC_PRJNA1125890
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.197Z'

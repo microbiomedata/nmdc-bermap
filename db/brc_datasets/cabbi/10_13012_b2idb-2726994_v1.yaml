@@ -1,0 +1,53 @@
+brc: CABBI
+date: '2025-04-22'
+title: Field-scale Evaluation of Ecosystem Service Benefits of Bioenergy Switchgrass
+creator:
+- name: DoKyoung Lee
+  email: leedk@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Emily Heaton
+  email: heaton6@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 38727
+  scientificName: Panicum virgatum L.
+- NCBITaxID: 4577
+  scientificName: Zea mays
+keywords:
+- Switchgrass
+- Maize
+- Ecosystem service benefits
+identifier: 10.13012/B2IDB-2726994_V1
+repository: Illinois Data Bank
+description: Purpose-grown perennial herbaceous species are nonfood crops specifically
+  cultivated for bioenergy production and have the potential to secure bioenergy feedstock
+  resources while enhancing ecosystem services. This study assessed soil greenhouse
+  gas emissions (CO2 and N2O), nitrate (NO3-N) leaching reduction potential, evapotranspiration
+  (ET), and water-use efficiency (WUE) of bioenergy switchgrass (Panicum virgatum
+  L.) in comparison to corn (Zea mays L.). The study was conducted on field-scale
+  plots in Urbana, IL, during the 2020–2022 growing seasons. Switchgrass was established
+  in 2020 and urea-fertilized at 56 kg N ha−1 year−1. Corn management followed best
+  management practices for the US Midwest, including no-till and 202 kg N ha−1 year−1
+  fertilization, applied as urea–ammonium nitrate (32%). Our results showed lower
+  direct N2O emissions in switchgrass compared to corn. Although soil CO2 emissions
+  did not differ significantly during the establishment year, emissions in subsequent
+  years were over 50% higher in switchgrass than in corn, likely due to increased
+  belowground biomass, which was over five times higher in switchgrass. Nitrate-N
+  leaching decreased as the switchgrass stand matured, reaching 80% lower than in
+  corn by the third year. Differences in ET and WUE between corn and switchgrass were
+  not significant; however, results indicate a trend toward reduced WUE in switchgrass
+  under drought, driven by lower aboveground biomass production. Our study demonstrates
+  that switchgrass can be implemented at a commercial scale without negatively impacting
+  the hydrological cycle, while potentially reducing N losses through nitrate-N leaching
+  and soil N2O emissions, and enhancing belowground C storage.
+relatedItem:
+- title: Field-scale Evaluation of Ecosystem Service Benefits of Bioenergy Switchgrass
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1002/jeq2.70025
+bibliographicCitation: https://doi.org/10.13012/B2IDB-2726994_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-2726994_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

@@ -1,0 +1,45 @@
+brc: JBEI
+date: '2025-07-31'
+title: Discovery and Characterization of a Novel Carbohydrate-Active Enzyme from the
+  Anaerobic Fungus Piromyces finnis
+creator:
+- name: Christopher J. Petzold
+  email: cjpetzold@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- Cazymes
+- Jbei
+- Proteomics
+- High-throughput screen
+- Heterologous expression
+identifier: PXD061558
+repository: PRIDE
+description: Dwelling in the gut of herbivores, anaerobic gut fungi (AGF) have evolved
+  several strategies to efficiently degrade unpretreated biomass. Their genomes encode
+  a diverse array of carbohydrate-active enzymes (CAZymes), yet exceedingly few of
+  these enzymes have been validated. Here, we developed a predictive bioinformatic
+  pipeline to both annotate novel putative CAZymes and validate their activity through
+  heterologous expression. 173 fungal proteins from Piromyces finnis associated with
+  biomass degradation were synthesized and expressed in E. coli, and 9.8% were soluble
+  with expression levels exceeding 5% of total proteome. Among the 17 heterologously
+  expressed proteins, a combination of sequence and structure-based homology annotation
+  identified many multifunctional proteins having catalytic domains, such as glycoside
+  hydrolase (GH) and carbohydrate esterase (CE), fused with repetitive dockerins.
+  Screening across three cellulose and hemicellulose substates experimentally verified
+  six predicted functions. One promising enzyme, celsome_012, exhibited robust and
+  optimized activity against beechwood xylan at 37°C and pH 6.4, producing five-times
+  more products than other recombinant proteins screened here. Overall, this study
+  represents the first large-scale screening campaign of putative AGF CAZymes, highlighting
+  proteins amenable to E. coli overexpression, integrating advanced sequence and structural
+  annotation, and identifying a robust, novel fungal xylanase for detailed biochemical
+  characterization.
+bibliographicCitation: https://www.ebi.ac.uk/pride/archive/projects/PXD061558
+schema_version: 0.1.2
+uid: JBEI_PXD061558
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.624Z'

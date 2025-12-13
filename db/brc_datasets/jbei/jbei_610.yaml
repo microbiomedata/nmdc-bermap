@@ -1,0 +1,125 @@
+id: jbei:610
+brc: JBEI
+date: '2020-09-17'
+title: Iwai et al., 2020
+creator:
+- name: David Ando
+  email: david.ando@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Maren Wehrs
+  email: mwehrs@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00610
+repository: ICE
+datasetName: Iwai et al., 2020
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/610
+description: This dataset contains 12 plasmids for advanced bacterial genome engineering
+  using CRISPR Optimized MAGE Recombineering (CRMAGE) and CRISPR-mediated integration.
+  The collection features an inducible CRMAGE system with sgRNAs designed to select
+  against wildtype glnA and T7 promoters, enabling efficient promoter engineering.
+  Additionally, it includes CRISPR plasmids for the genomic integration of key metabolic
+  engineering genes, bpsA and sfp, into defined loci.
+relatedItem:
+- title: 'Lee TS, Krupa RA, Zhang F, Hajimorad M, Holtz WJ, Prasad N, Lee SK, Keasling
+    JD. BglBrick vectors and datasheets: A synthetic biology platform for gene expression.
+    J Biol Eng. 2011 Sep 20;5:12. doi: 10.1186/1754-1611-5-12.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Targeted Locus (Loci)
+contributors:
+- name: Taek Soon Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pMAZ-SK
+  promoters: []
+  description: Contains an aTetracyline inducible sgRNA used for selection against
+    the wild type sequence in CRMAGE
+  selection_markers: []
+- ori: ColA
+  backbone: pMAZ-SK_glnA_4
+  promoters: []
+  description: CRMAGE plasmid expressing gRNA to target wildtype sequence of glnA
+    promoter
+  selection_markers:
+  - Kan
+- ori: pSC101
+  backbone: pZS4intTetR (copy)
+  promoters: []
+  description: tetR plasmid for CRMAGE
+  selection_markers:
+  - Cm
+- ori: ColA
+  backbone: pMAZ-SK_glnA_6
+  promoters: []
+  description: CRMAGE plasmid expressing gRNA to target wildtype sequence of glnA
+    promoter
+  selection_markers:
+  - Kan
+- ori: ColA
+  backbone: pMAZ-SK_glnA_5
+  promoters: []
+  description: CRMAGE plasmid expressing gRNA to target wildtype sequence of glnA
+    promoter
+  selection_markers:
+  - Kan
+- ori: ColA
+  backbone: pMAZ-SK_T7_2
+  promoters: []
+  description: CRMAGE plasmid expressing gRNA to target wildtype sequence of T7 promoter
+  selection_markers:
+  - Kan
+- ori: ColA
+  backbone: pMAZ-SK_glnA_3
+  promoters: []
+  description: CRMAGE plasmid expressing gRNA to target wildtype sequence of glnA
+    promoter
+  selection_markers:
+  - Kan
+- ori: ColA
+  backbone: pMAZ-SK_T7_1
+  promoters: []
+  description: CRMAGE plasmid expressing gRNA to target wildtype sequence of T7 promoter
+  selection_markers:
+  - Kan
+- backbone: pMCK.lacZ::bpsA CRISPR
+  promoters: []
+  description: CRISPR plasmid to integrate bpsA into the lacZ locus.
+  selection_markers:
+  - Kan
+- backbone: pMCC.prpRBCD::sfp CRISPR
+  promoters: []
+  description: CRISPR plasmid to integrate sfp into the prpRBCD operon
+  selection_markers:
+  - cm
+- ori: BBR1
+  backbone: pBbB5k-GFP
+  promoters:
+  - lacUV5
+  description: Biobrick with lacUV5 and BBR1
+  selection_markers:
+  - Kanamycin
+- backbone: pMA7CR_2.0
+  promoters: []
+  description: 'pMA7CR_2.0 from CRMAGE: CRISPR Optimized MAGE Recombineering'
+  selection_markers:
+  - Carbenicillin
+bibliographicCitation: https://public-registry.jbei.org/folders/610
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00610
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

@@ -1,0 +1,330 @@
+id: jbei:792
+brc: JBEI
+date: '2023-06-06'
+title: Pearson and Incha 2023
+creator:
+- name: Allison Pearson
+  email: al.pearson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Matthias Schmidt
+  email: mschmidt@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 303
+  scientificName: Pseudomonas putida
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00792
+repository: ICE
+datasetName: Pearson and Incha 2023
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/792
+description: This dataset provides a collection of 44 plasmids for the genetic manipulation
+  of *Pseudomonas putida*. It features reporter plasmids for characterizing promoter
+  activity, expression vectors for studying enzymes like Alcohol Acyltransferases
+  (ATFs) under inducible control, and vectors for gene knockouts and site-directed
+  mutagenesis. These genetic tools were developed to investigate gene regulation and
+  protein function related to ester biosynthesis pathways.
+relatedItem: []
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: BBR1
+  backbone: BBR1k_p2_PP3538 PP3537p RFP
+  promoters:
+  - J23114
+  description: BBR1k_p2_PP3538 PP3537p RFP
+  selection_markers:
+  - KanR
+- ori: ColE1
+  backbone: pMQ30 PP2216
+  promoters: []
+  description: PP2216 KO vector
+  selection_markers:
+  - Gen
+- ori: ColE1
+  backbone: pMQ30 PP_2213
+  promoters: []
+  description: KO vector
+  selection_markers:
+  - gent
+- ori: ColE1
+  backbone: pMQ30 PP2211
+  promoters: []
+  description: PP2211 KO vector
+  selection_markers:
+  - Gen
+- ori: BBR1
+  backbone: BBR1k p1_PP4602 1259 1259p RFP K123Q
+  promoters: []
+  description: BBR1k p1_PP4602 1259 1259p RFP K123Q
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1k p1_PP3159 PP3161p RFP Y115F
+  promoters: []
+  description: BBR1k p1_PP3159 PP3161p RFP Y115F
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1k p1_PP3159 PP3161p RFP H32A
+  promoters: []
+  description: BBR1k p1_PP3159 PP3161p RFP H32A
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1k p1_PP4602K46Q_PP1259 PP1259p RFP
+  promoters: []
+  description: BBR1k p1_PP4602_K46Q_PP1259 PP1259p RFP
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1k p1_PP3159 PP3161p RFP Y61F
+  promoters: []
+  description: BBR1k p1_PP3159 PP3161p RFP Y61F
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1k_p3_PP2211 PP2213p RFP
+  promoters:
+  - J23105
+  description: BBR1k_p3_PP2211 PP2213p RFP
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1k_p2_PP2211 PP2213p RFP
+  promoters:
+  - J23114
+  description: BBR1k_p2_PP2211 PP2213p RFP
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1k_p1_PP2211 PP2213p RFP
+  promoters:
+  - J23103
+  description: BBR1k_p1_PP2211 PP2213p RFP
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: pLacSens1 E110Q
+  promoters: []
+  description: pLacSens1 with E110Q mutation in OplR
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pLacSens1 E110A
+  promoters: []
+  description: pLacSens1 with E110A mutation in OplR
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: BBR1k_p2_PP3159 PP3161p RFP
+  promoters:
+  - J23114
+  description: BBR1k_p2_PP3159 PP3161p RFP
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1k_p3_PP3159 PP3161p RFP
+  promoters:
+  - J23105
+  description: BBR1k_p3_PP3159 PP3161p RFP
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1k_p1_PP3159 PP3161p RFP
+  promoters:
+  - J23103
+  description: BBR1k_p1_PP3159 PP3161p RFP
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1k_p3_PP4602_PP1259 PP1259p RFP
+  promoters:
+  - J23105
+  description: BBR1k_p3_PP4602_PP1259 PP1259p RFP
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1k_p2_PP4602_PP1259 PP1259p RFP
+  promoters:
+  - J23114
+  description: BBR1k_p2_PP4602_PP1259 PP1259p RFP
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1k_p1_PP4602_PP1259 PP1259p RFP
+  promoters:
+  - J23103
+  description: BBR1k_p1_PP4602_PP1259 PP1259p RFP
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1k p3_PP4602 1259p RFP
+  promoters:
+  - PP_1259p
+  description: BBR1k p3_PP4602 1259p RFP
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1k p2_PP4602 1259p RFP
+  promoters:
+  - PP_1259p
+  description: BBR1k p2_PP4602 1259p RFP
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1k p1_PP4602 1259p RFP
+  promoters:
+  - PP_1259p
+  description: BBR1k p1_PP4602 1259p RFP
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pBbS8a PP_1378
+  promoters: []
+  description: pBbS8a PP_1378, transporter PP_1378 under control of arabinose inducible
+    system
+  selection_markers:
+  - Carb
+- ori: pSC101
+  backbone: pBbS8a-PP2213
+  promoters: []
+  description: pBbS8a-PP2213, CoA-ligase PP_2213 under arabinose inducible system
+  selection_markers:
+  - Carb
+- ori: SC101
+  backbone: pBbS8a-PP_2211
+  promoters: []
+  description: pBbS8a with ATF PP2211 under arabinose inducible system
+  selection_markers:
+  - Carb
+- ori: SC101
+  backbone: pBbS8a PP_3753
+  promoters: []
+  description: pBbS8a expressing the ATF PP_3753
+  selection_markers:
+  - Carb
+- ori: SC101
+  backbone: pBbS8a PP_4482
+  promoters: []
+  description: pBbS8a expressing the ATF PP_4482
+  selection_markers:
+  - Carb
+- ori: SC101
+  backbone: pBbS8a PP_3538
+  promoters: []
+  description: pBbS8a expressing the ATF PP_3538
+  selection_markers:
+  - Carb
+- ori: SC101
+  backbone: pBbS8a PP_0305
+  promoters: []
+  description: pBbS8a expressing the ATF PP_0305
+  selection_markers:
+  - Carb
+- ori: SC101
+  backbone: pBbS8a PP_3149
+  promoters: []
+  description: pBbS8a expressing the ATF PP_3149
+  selection_markers:
+  - Carb
+- ori: SC101
+  backbone: pBbS8a PP_0298
+  promoters: []
+  description: pBbS8a expressing the ATF PP_0298
+  selection_markers:
+  - Carb
+- ori: SC101
+  backbone: pBbS8a PP_3159
+  promoters: []
+  description: pBbS8a expressing the ATF PP_3159
+  selection_markers:
+  - Carb
+- ori: BBR1
+  backbone: BBR1k-PP_0296p
+  promoters: []
+  description: Reporter vector with region 200 bp upstream of PP_0296 used as promoter
+    for RFP
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1k-PP_2212p
+  promoters: []
+  description: BBR1k-PP_2212p
+  selection_markers:
+  - Kan (E. coli)
+- ori: BBR1
+  backbone: BBR1k-PP_2213p
+  promoters: []
+  description: BBR1k-PP_2213p
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1k-PP_4486p
+  promoters: []
+  description: Reporter vector with region 200 bp upstream of PP_4486 used as promoter
+    for RFP
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1k-PP_4481p
+  promoters: []
+  description: Reporter vector with region 200 bp upstream of PP_4481 used as promoter
+    for RFP
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1k-PP_3160p
+  promoters: []
+  description: Reporter vector with region 200 bp upstream of PP_3160 used as promoter
+    for RFP
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1k-PP_3537p
+  promoters: []
+  description: Reporter vector with region 200 bp upstream of PP_3537 used as promoter
+    for RFP
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1k-PP_3754p
+  promoters: []
+  description: Reporter vector with region 200 bp upstream of PP_3754 used as promoter
+    for RFP
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1k-PP_3161p
+  promoters: []
+  description: Reporter vector with region 200 bp upstream of PP_3161 used as promoter
+    for RFP
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1k-PP_0304p
+  promoters: []
+  description: Reporter vector with region 200 bp upstream of PP_0304 used as promoter
+    for RFP
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1k-PP_3148p
+  promoters: []
+  description: Reporter vector with region 200 bp upstream of PP_3148 used as promoter
+    for RFP
+  selection_markers:
+  - KanR
+bibliographicCitation: https://public-registry.jbei.org/folders/792
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00792
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

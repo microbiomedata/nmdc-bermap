@@ -1,0 +1,201 @@
+id: jbei:345
+brc: JBEI
+date: '2017-02-27'
+title: Kirby et al., 2016
+creator:
+- name: James Kirby
+  email: jkirby@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Nurgul Kaplan
+  email: nkaplan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Rossana Chan
+  email: rchan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 1428
+  scientificName: Bacillus thuringiensis
+- NCBITaxID: 1423
+  scientificName: Bacillus subtilis
+keywords: []
+identifier: jbei:folder:00345
+repository: ICE
+datasetName: Kirby et al., 2016
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/345
+description: This dataset provides 24 plasmids designed to engineer a functional 1-deoxy-D-xylulose
+  5-phosphate (DXP) pathway in *Saccharomyces cerevisiae*. The constructs feature
+  bacterial DXP pathway genes, such as `ispG` and `ispD`, expressed from various yeast
+  promoters. Key engineering strategies explored include the mitochondrial targeting
+  of enzymes and the co-expression of auxiliary genes involved in iron-sulfur cluster
+  assembly (`fldA`, `suf` genes) and oxidative stress mitigation (`SOD1`).
+relatedItem:
+- title: Amyris strain
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pAM2398-ispD-fldA
+  promoters: []
+  description: Plasmid pAM2398-ispD-fldA,  harboring BtispG gene (Bacillus thuriengensis)
+    under control of the GAL1 promoter, and EcispD (E. coli) under control of the
+    BIO2 promoter and fldA from E. coli. See upcoming paper "Engineering a functional
+    1-deoxy-D-xylulose 5-phosphate (DXP) pathway in Saccharomyces cerevisiae" for
+    full description.
+  selection_markers:
+  - Amp
+- backbone: pAM2398-ispD
+  promoters: []
+  description: Plasmid pAM2397, harboring BtispG gene (Bacillus thuriengensis) under
+    control of the GAL1 promoter, and EcispD (E. coli) under control of the BIO2 promoter.
+    See upcoming paper "Engineering a functional 1-deoxy-D-xylulose 5-phosphate (DXP)
+    pathway in Saccharomyces cerevisiae" for full description.
+  selection_markers:
+  - Amp
+- backbone: pAM2398
+  promoters: []
+  description: Plasmid pAM2398, harboring BtispG gene (Bacillus thuringiensis) under
+    control of the GAL1 promoter. See upcoming paper "Engineering a functional 1-deoxy-D-xylulose
+    5-phosphate (DXP) pathway in Saccharomyces cerevisiae" for full description.
+  selection_markers:
+  - Amp
+- backbone: pAM2398-ispD-SOD1
+  promoters: []
+  description: Plasmid pAM2397-ispD-SOD1, harboring BtispG gene (Bacillus thuriengensis)
+    under control of the GAL1 promoter, and EcispD (E. coli) under control of the
+    BIO2 promoter and SOD1 from S. cerevisiae. See upcoming paper "Engineering a functional
+    1-deoxy-D-xylulose 5-phosphate (DXP) pathway in Saccharomyces cerevisiae" for
+    full description.
+  selection_markers:
+  - Amp
+- backbone: pAM2398-ispD-sufA
+  promoters: []
+  description: Plasmid pAM2398-ispD-sufA, harboring BtispG gene (Bacillus thuriengensis)
+    under control of the GAL1 promoter, and EcispD (E. coli) under control of the
+    BIO2 promoter and sufA from B. subtilis. See upcoming paper "Engineering a functional
+    1-deoxy-D-xylulose 5-phosphate (DXP) pathway in Saccharomyces cerevisiae" for
+    full description.
+  selection_markers:
+  - Amp
+- backbone: Y6084 / pAM2398-ispD
+  promoters: []
+  description: CEN.PK2 erg13::LEU2, PRM10 (L156Q) containing DXP pathway genes. See
+    upcoming paper "Engineering a functional 1-deoxy-D-xylulose 5-phosphate (DXP)
+    pathway in Saccharomyces cerevisiae" for full description.
+  selection_markers:
+  - ADE2
+- backbone: pAM2397
+  promoters: []
+  description: Plasmid pAM2397, harboring BsispG gene (Bacillus subtilis) under control
+    of the GAL1 promoter. See upcoming paper "Engineering a functional 1-deoxy-D-xylulose
+    5-phosphate (DXP) pathway in Saccharomyces cerevisiae" for full description.
+  selection_markers:
+  - Amp
+- backbone: Y6084 / pAM2397
+  promoters: []
+  description: CEN.PK2 erg13::LEU2, PRM10 (L156Q) containing DXP pathway genes. See
+    upcoming paper "Engineering a functional 1-deoxy-D-xylulose 5-phosphate (DXP)
+    pathway in Saccharomyces cerevisiae" for full description.
+  selection_markers:
+  - ADE2
+- backbone: Y6084 / pAM2398
+  promoters: []
+  description: CEN.PK2 erg13::LEU2, PRM10 (L156Q) containing DXP pathway genes. See
+    upcoming paper "Engineering a functional 1-deoxy-D-xylulose 5-phosphate (DXP)
+    pathway in Saccharomyces cerevisiae" for full description.
+  selection_markers:
+  - ADE2
+- backbone: pAM2398-PFY1p19-SOD1
+  promoters: []
+  description: Contains pGAL1-BtispG and PFY1p19-SOD1 genes
+  selection_markers:
+  - ADE2, amp
+- backbone: pAM2398
+  promoters: []
+  description: Contains Bacillus thuringiensis ispG
+  selection_markers:
+  - ADE2, amp
+- backbone: pAM2398-BIO2-ispD
+  promoters: []
+  description: Contains pGAL1-BtispG and pBIO2-ispD genes
+  selection_markers:
+  - ADE2, amp
+- backbone: pAM2398-PFY1-fldA
+  promoters: []
+  description: Contains pGAL1-BtispG and pPFY1-fldA genes
+  selection_markers:
+  - ADE2, amp
+- backbone: pAM2398-PFY1p04-SOD1
+  promoters: []
+  description: Contains pGAL1-BtispG and pPFY1p04-SOD1 genes
+  selection_markers:
+  - ADE2, amp
+- backbone: pAM2398-sufUSA-G
+  promoters: []
+  description: Contains pGAL1-BtispG, pPFY1-sufA, pCIT2-sufS, pBIO2-sufU and pPFY1-ydhG
+    genes
+  selection_markers:
+  - ADE2, amp
+- backbone: pAM2398-PFY1-sufA
+  promoters: []
+  description: Contains pGAL1-BtispG, and pPFY1-sufA genes
+  selection_markers:
+  - ADE2, amp
+- backbone: pRS412-Cox5a-ispG-ispH-erpA
+  promoters: []
+  description: 'All genes: ispG, ispH and erpA contain Cox5a signal peptide'
+  selection_markers:
+  - ADE2, amp
+- backbone: pAM2398-SOD1n
+  promoters: []
+  description: Contains pGAL1-BtispG and SOD1 with native promoters genes
+  selection_markers:
+  - ADE2, amp
+- backbone: pAM2398-PFY1-SOD1
+  promoters: []
+  description: Contains pGAL1-BtispG and pPFY1-SOD1 genes
+  selection_markers:
+  - ADE2, amp
+- backbone: pAM2398-sufUSA
+  promoters: []
+  description: Contains pGal1-BtispG, pPFY1-sufA, pCIT2-sufS and pBIO2-sufU genes
+  selection_markers:
+  - ADE2, amp
+- backbone: pRS412-Cox5a-ispG-erpA
+  promoters: []
+  description: Both ispG and erpA contain Cox5a signal peptide
+  selection_markers:
+  - ADE2, amp
+- backbone: pRS412-Cox5a-ispG-erpA
+  promoters: []
+  description: DH10B with yeast plasmid pRS412-Cox5a-ispG-erpA
+  selection_markers:
+  - Ampicillin
+- backbone: pRS412-Cox5a-ispG
+  promoters: []
+  description: ispG contains signal peptide Cox5a
+  selection_markers:
+  - ADE2, amp
+- backbone: pRS412-Cox5a-ispG-ispH
+  promoters: []
+  description: Both ispG and ispH contain Cox5a signal peptide
+  selection_markers:
+  - ADE2, amp
+bibliographicCitation: https://public-registry.jbei.org/folders/345
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00345
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

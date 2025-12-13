@@ -1,0 +1,41 @@
+brc: GLBRC
+date: '2023-09-06'
+title: PerennialDr/SinkDepletion
+creator:
+- name: Mauricio D. Tejera-Nieves
+  email: mauricio.tejera@jii.org
+  affiliation: Jan IngenHousz Institute
+  primaryContact: true
+- name: Berkley J. Walker
+  email: berkley@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: switchgrass (Panicum virgatum L.)
+keywords:
+- bioenergy
+- carbon starvation
+- long-term persistence
+- perenniality
+- rhizome respiration
+- sinklimitation
+- source-sink plasticity
+- starch
+- winter survival
+identifier: PerennialDr/SinkDepletion
+repository: GitHub
+description: Data analysis for the manuscript 'A 30% reduction in switchgrass rhizome
+  reserves did not decrease biomass yield' Mauricio Tejera-Nieves &amp; Berkley J.
+  Walker (https://doi.org/10.1111/gcbb.13094). 
+relatedItem:
+- title: A 30% reduction in switchgrass rhizome reserves did not decrease biomass
+    yield
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://onlinelibrary.wiley.com/doi/epdf/10.1111/gcbb.13094
+analysisType: Code
+bibliographicCitation: https://github.com/PerennialDr/SinkDepletion
+schema_version: 0.1.7
+uid: GLBRC_PerennialDr/SinkDepletion
+created_at: '2025-11-19T18:00:04.599Z'
+updated_at: '2025-12-10T06:00:05.197Z'

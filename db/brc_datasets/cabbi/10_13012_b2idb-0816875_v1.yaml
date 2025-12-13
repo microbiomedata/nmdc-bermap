@@ -1,0 +1,48 @@
+brc: CABBI
+date: '2019-06-18'
+title: Sugar Production from Bioenergy Sorghum by Using Pilot-Scale Continuous Hydrothermal
+  Pretreatment Combined with Disk Refining
+creator:
+- name: Vijay Singh
+  email: vsingh@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: DoKyoung Lee
+  email: leedk@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Bruce Dien
+  email: bruce.dien@ars.usda.gov
+  affiliation: USDA-ARS Peoria
+  primaryContact: false
+species:
+- NCBITaxID: 4558
+  scientificName: Sorghum bicolor
+keywords:
+- Feedstock Bioprocessing
+- Hydrolysate
+identifier: 10.13012/B2IDB-0816875_V1
+repository: Illinois Data Bank
+description: Chemical-free pretreatments are attracting increased interest because
+  they generate less inhibitor in hydrolysates. In this study, pilot-scaled continuous
+  hydrothermal (PCH) pretreatment followed by disk refining was evaluated and compared
+  to laboratory-scale batch hot water (LHW) pretreatment. Bioenergy sorghum bagasse
+  (BSB) was pretreated at 160-190 °C for 10 min with and without subsequent disk milling.
+  Hydrothermal pretreatment and disk milling synergistically improved glucose and
+  xylose release by 10-20% compared to hydrothermal pretreatment alone. Maximum yields
+  of glucose and xylose of 82.55% and 70.78%, respectively were achieved, when BSB
+  was pretreated at 190 °C and 180 °C followed by disk milling. LHW pretreated BSB
+  had 5-15% higher sugar yields compared to PCH for all pretreatment conditions. The
+  surface area improvement was also performed. PCH pretreatment combined with disk
+  milling increased BSB surface area by 31.80-106.93%, which was greater than observed
+  using LHW pretreatment.
+relatedItem:
+- title: Sugar Production from Bioenergy Sorghum by Using Pilot-Scale Continuous Hydrothermal
+    Pretreatment Combined with Disk Refining
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1016/j.biortech.2019.121663
+bibliographicCitation: https://doi.org/10.13012/B2IDB-0816875_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-0816875_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

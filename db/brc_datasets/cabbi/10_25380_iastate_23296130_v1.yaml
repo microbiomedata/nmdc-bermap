@@ -1,0 +1,40 @@
+brc: CABBI
+date: '2023-04-18'
+title: Agro-IBIS/THMB Modeled Yield, Nitrogen Loss, and Profitability Maps for the
+  Raccoon River Basin, Iowa, USA
+creator:
+- name: VanLoocke, Andy
+  email: andyvanl@iastate.edu
+  affiliation: Iowa State University
+  primaryContact: true
+keywords:
+- Agro-IBIS/THMB
+- miscanthus
+- water quality
+- modeling
+identifier: 10.25380/iastate.23296130.v1
+repository: Iowa State University FigShare
+description: 'This data was used to assess the potential for improving water quality
+  in this watershed when integrating miscanthus, a bioenergy perennial grass, on to
+  areas of low profit under current corn-soybean management and areas of high nitrogen
+  leaching under both current and future climate conditions. This dataset includes
+  all observations (yield, streamflow, nitrogen loads) and model simulation data used
+  from Dr. Kelsie Ferin’s (former PhD student with Dr. Andy VanLoocke, ISU Dept. of
+  Agronomy) dissertation and publication in Global Change Biology – Bioenergy (DOI:
+  10.1111/gcbb.13078). Modeled output included in this dataset includes corn, soybean,
+  and miscanthus yields, nitrogen leaching rates, net mineralization rates, land use
+  cover fractions with and without the inclusion of miscanthus, profitability maps,
+  additional soil property maps, and simulated streamflow and nitrogen loads near
+  the outlet of the Raccoon River Basin (Van Meter, Iowa) for both historical and
+  future climate conditions. This dataset includes a mixture of netCDF, .tiff, .csv,
+  and .xlsx files. See README.pdf for more information.  '
+relatedItem:
+- title: Field-Scale Analysis of Miscanthus Production Indicates Climate Change May
+    Increase the Opportunity for Water Quality Improvement in a Key Iowa Watershed
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/gcbb.13078
+bibliographicCitation: https://doi.org/10.25380/iastate.23296130.v1
+schema_version: 0.1.1
+uid: CABBI_10.25380/iastate.23296130.v1
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.628Z'

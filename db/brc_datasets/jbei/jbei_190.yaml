@@ -1,0 +1,64 @@
+id: jbei:190
+brc: JBEI
+date: '2015-05-21'
+title: Deng et al. 2014
+creator:
+- name: Matt Hamilton
+  email: mghamilton@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Angela Tarver
+  email: amtarver@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 4565
+  scientificName: Triticum aestivum
+keywords: []
+identifier: jbei:folder:00190
+repository: ICE
+datasetName: Deng et al. 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/190
+description: This dataset provides three expression plasmids for producing cellulase
+  enzymes relevant to bioenergy research. The constructs utilize the pEU_HSBC_SmaI
+  vector to express the cellulases CelEcc, CelKcc, and CelAcc. Two of these enzymes
+  are engineered with a CBM3 carbohydrate-binding module, a key feature designed to
+  enhance their binding and degradation of cellulosic biomass.
+relatedItem:
+- title: Deng, K., Takasuka, T. E., Heins, R., Cheng, X., Bergeman, L. F., Shi, J.,
+    Aschenbrener, R., Deutsch, S., Singh, S., Sale, K. L., Simmons, B. A., Adams,
+    P. D., Singh, A. K., Fox, B. G., &amp; Northen, T. R. (2014). Rapid Kinetic Characterization
+    of Glycosyl Hydrolases Based on Oxime Derivatization and Nanostructure-Initiator
+    Mass Spectrometry (NIMS). Acs Chemical Biology, 1470-1479.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: CelEcc
+  promoters: []
+  description: pEU_HSBC_SmaI vector with CelEcc insert
+  selection_markers:
+  - Carbenicillin
+- backbone: CelKcc_CBM3
+  promoters: []
+  description: pEU_HSBC_SmaI vector with CelKcc_CBM3 insert
+  selection_markers:
+  - Carbenicillin
+- backbone: CelAcc_CBM3
+  promoters: []
+  description: pEU_HSBC_SmaI vector with CelAcc_CBM3 insert
+  selection_markers:
+  - Carbenicillin
+bibliographicCitation: https://public-registry.jbei.org/folders/190
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00190
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.619Z'

@@ -1,0 +1,99 @@
+id: jbei:367
+brc: JBEI
+date: '2018-03-01'
+title: Eudes et al 2018
+creator:
+- name: Aymerick Eudes
+  email: ageudes@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+keywords: []
+identifier: jbei:folder:00367
+repository: ICE
+datasetName: Eudes et al 2018
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/367
+description: This dataset provides a collection of 12 Gateway-compatible plasmids
+  designed for the metabolic engineering of plant lignocellulosic pathways. The vectors
+  include entry clones and expression constructs containing genes such as `aroG`,
+  `nahG`, and `catA` for modifying aromatic compound metabolism. Key constructs utilize
+  cell wall-specific promoters like `pIRX5` and `pIRX8` and feature plastid-targeting
+  signals to compartmentalize the engineered enzymes.
+relatedItem:
+- title: https://doi.org/10.1016/j.ymben.2018.02.002
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pDONR-schl1-irp9 L1L4
+  promoters: []
+  description: Gateway pDONOR zeo containing schl1-irp9 with attB1-B4 recombination
+    sites
+  selection_markers: []
+- backbone: pDONR-schl1-irp9 L1L2
+  promoters: []
+  description: gateway pDONOR zeo containing schl1-irp9
+  selection_markers: []
+- backbone: pDONR221-P3-schl2-aroG-P2
+  promoters: []
+  description: Gateway pDONOR with schl2-aroG and attB2/attB3 recombination sites
+  selection_markers:
+  - zeocin
+- backbone: pDONR221-L3-nahG-L2
+  promoters: []
+  description: Gateway pDONOR vector containing nahG and the attB3/attB2 recombination
+    sites
+  selection_markers:
+  - kan
+- backbone: pA6-pIRX5::schl1-irp9-pCCoAOMT::schl2-aroG
+  promoters: []
+  description: Expression of plastid-targeted irp9 and aroG under the control of pIRX
+    and pCCoAOMT
+  selection_markers: []
+- backbone: pA6-pIRX5::schl1-irp9
+  promoters: []
+  description: plastid-targeted irp9 under the control of pIRX5
+  selection_markers: []
+- backbone: pTkan-pIRX8-schl3-catA-pC4H-schl3-nahG
+  promoters: []
+  description: Expression of plastid-targeted catA and nahG under the control of pIRX8
+    and pC4H
+  selection_markers: []
+- backbone: pDONR221-L4R-tg7-pC4H::schl3-L3R
+  promoters: []
+  description: Gateway pDONOR vector containing tG7-pC4H::schl3 and the attB3r/attB4r
+    recombination sites
+  selection_markers: []
+- backbone: pDONR221-L4R-tG7-pCCoAOMT-L3R
+  promoters: []
+  description: Gateway pDONOR vector containing tG7-pCCoAOMT and attB3r/attB4r recombination
+    sites
+  selection_markers:
+  - zeocin
+- backbone: pDONR221-L1-schl3-catA-L4
+  promoters: []
+  description: Gateway pDONOR vector containing schl3-catA with attB1/attB4 recombination
+    sites
+  selection_markers: []
+- backbone: pTKan-pIRX8::GWR1R2
+  promoters: []
+  description: Gateway compatible vector for expression of genes under pIRX8
+  selection_markers: []
+- backbone: pA6-pIRX5::GWR1R2
+  promoters: []
+  description: Gateway compatible vector for the expression of genes under pIRX5
+  selection_markers: []
+bibliographicCitation: https://public-registry.jbei.org/folders/367
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00367
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

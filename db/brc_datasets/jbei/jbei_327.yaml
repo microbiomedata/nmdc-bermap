@@ -1,0 +1,65 @@
+id: jbei:327
+brc: JBEI
+date: '2017-07-19'
+title: Shymansky_ET_AL_2017
+creator:
+- name: Christopher Shymansky
+  email: cmshymansky@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: filemakerimport
+  email: filemakerimport
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- shuttle vector
+identifier: jbei:folder:00327
+repository: ICE
+datasetName: Shymansky_ET_AL_2017
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/327
+description: This dataset contains two plasmids, including a YC-type (centromeric)
+  shuttle vector for stable, low-copy expression in yeast. The key construct, pCMSYSH47Tef1p,
+  was engineered by replacing the inducible GAL1 promoter with a constitutive TEF1
+  promoter. This modification enables continuous gene expression, making the vector
+  suitable for applications where consistent protein levels are required.
+relatedItem:
+- title: http://www.ncbi.nlm.nih.gov/sites/entrez?cmd=Retrieve&amp;db=PubMed&amp;list_uids=2659436&amp;dopt=AbstractPlus
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: ' CEN/ARS'
+  backbone: pCMSYSH47Tef1p
+  promoters:
+  - Tef1p
+  description: 'pCMSYSH47Tef1p: pSH47 with its GAL1 promoter replaced with a TEF1
+    promoter. pSH47 was digested with SacI and XbaI, gel extracted, and cloned into
+    yeast along with a double stranded Tef1p cassette with overhangs homologous to
+    the cut ends of the plasmid. This was miniprepped (w/ bead beating protocol),
+    transformed into E. coli, miniprepped again, and sequence verified.'
+  selection_markers:
+  - Amp; Ura3
+- ori: pMB1,CEN6/ARSH4
+  backbone: pRS416
+  promoters:
+  - Lac
+  description: 'Applications: YC-type (centromeric) shuttle vector'
+  selection_markers:
+  - Ampicillin
+  - URA3
+bibliographicCitation: https://public-registry.jbei.org/folders/327
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00327
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

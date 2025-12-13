@@ -1,0 +1,65 @@
+brc: CABBI
+date: '2020-12-22'
+title: Biogeochemical Fluxes for Three Bioenergy Crops
+creator:
+- name: Carl Bernacchi
+  email: bernacch@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Evan DeLucia
+  email: delucia@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Wendy Yang
+  email: yangw@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 4558
+  scientificName: Sorghum bicolor
+- NCBITaxID: 183674
+  scientificName: Miscanthus x giganteus
+- NCBITaxID: 4577
+  scientificName: Zea mays
+keywords:
+- Sorghum
+- Miscanthus x giganteus
+- Maize
+- N2O flux
+- Soil respiration
+identifier: 10.13012/B2IDB-8157843_V1
+repository: Illinois Data Bank
+description: Perennial crops have been the focus of bioenergy research and development
+  for their sustainability benefits associated with high soil carbon (C) and reduced
+  nitrogen (N) requirements. However, perennial crops mature over several years and
+  their sustainability benefits can be negated through land reversion. A photoperiod‐sensitive
+  energy sorghum (Sorghum bicolor) may provide an annual crop alternative more ecologically
+  sustainable than maize (Zea mays) that can more easily integrate into crop rotations
+  than perennials, such as miscanthus (Miscanthus × giganteus). This study presents
+  an ecosystem‐scale comparison of C, N, water and energy fluxes from energy sorghum,
+  maize and miscanthus during a typical growing season in the Midwest United States.
+  Gross primary productivity (GPP) was highest for maize during the peak growing season
+  at 21.83 g C m−2 day−1, followed by energy sorghum (17.04 g C m−2 day−1) and miscanthus
+  (15.57 g C m−2 day−1). Maize also had the highest peak growing season evapotranspiration
+  at 5.39 mm day−1, with energy sorghum and miscanthus at 3.81 and 3.61 mm day−1,
+  respectively. Energy sorghum was the most efficient water user (WUE), while maize
+  and miscanthus were comparatively similar (3.04, 1.75 and 1.89 g C mm−1 H2O, respectively).
+  Maize albedo was lower than energy sorghum and miscanthus (0.19, 0.26 and 0.24,
+  respectively), but energy sorghum had a Bowen ratio closer to maize than miscanthus
+  (0.12, 0.13 and 0.21, respectively). Nitrous oxide (N2O) flux was higher from maize
+  and energy sorghum (8.86 and 12.04 kg N ha−1, respectively) compared with miscanthus
+  (0.51 kg N ha−1), indicative of their different agronomic management. These results
+  are an important first look at how energy sorghum compares to maize and miscanthus
+  grown in the Midwest United States. This quantitative assessment is a critical component
+  for calibrating biogeochemical and ecological models used to forecast bioenergy
+  crop growth, productivity and sustainability.
+relatedItem:
+- title: 'Ecosystem-Scale Biogeochemical Fluxes from Three Bioenergy Crop Candidates:
+    How Energy Sorghum Compares to Maize and Miscanthus'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/gcbb.12788
+bibliographicCitation: https://doi.org/10.13012/B2IDB-8157843_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-8157843_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

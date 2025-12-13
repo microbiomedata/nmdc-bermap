@@ -1,0 +1,368 @@
+id: jbei:900
+brc: JBEI
+date: '2025-04-15'
+title: Keiser et al, 2025
+creator:
+- name: Leah Keiser
+  email: lkeiser@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Seokjung Cheong
+  email: scheong@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Elias Englund
+  email: eliasenglund@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 1883
+  scientificName: Streptomyces
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00900
+repository: ICE
+datasetName: Keiser et al, 2025
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/900
+description: This dataset comprises 54 plasmids designed for the combinatorial biosynthesis
+  of polyketides by engineering polyketide synthase (PKS) pathways. The collection
+  primarily features the systematic swapping of ketoreductase (KR) domains from diverse
+  PKSs into an engineered lipomycin-like synthase (LIPS1) scaffold to alter product
+  stereochemistry. Additional constructs explore the exchange of larger multi-domain
+  fragments and the assembly of novel PKS modules to generate new polyketide structures
+  in a *Streptomyces* expression system.
+relatedItem:
+- title: derived from Keatinge-Clay
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: derived from Keatinge-clay
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Miyazawa, T., Fitzgerald, B.J. &amp; Keatinge-Clay, A.T. Preparative production
+    of an enantiomeric pair by engineered polyketide synthases. Chemical Communications
+    57, 8762-8765 (2021)
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors:
+- name: Seokjung Cheong
+  email: Scheong@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+- name: Seokjung Cheong
+  email: SCheong@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: colE1
+  backbone: Pik167-KRB6-HalM7
+  promoters:
+  - lac
+  description: KR-swapped Pik167, in ptm4 from Keatinge-Clay
+  selection_markers: []
+- ori: ColE1
+  backbone: Pik127-SLAKR4-AcuM1
+  promoters: []
+  description: KR swapped Pik127 derived from Keatinge-Clays ptm2
+  selection_markers: []
+- ori: ColE1
+  backbone: Pik127-KRB2-LanM1
+  promoters: []
+  description: KR swapped Pik127 derived from Keatinge-Clays ptm2
+  selection_markers:
+  - SpecR
+- ori: ColE1
+  backbone: 'Pik127-KRA3-FD8M2 '
+  promoters: []
+  description: KR swapped Pik127 derived from Keatinge-Clays ptm2
+  selection_markers: []
+- ori: ColE1
+  backbone: Pik127-SKR01-TylM1
+  promoters: []
+  description: KR swapped Pik127 derived from Keatinge-Clays ptm2
+  selection_markers: []
+- ori: colE1
+  backbone: Pik167-SKR07-PM1M4
+  promoters:
+  - lac
+  description: KR-swapped Pik167, in ptm4 from Keatinge-Clay
+  selection_markers: []
+- ori: colE1
+  backbone: Pik167-KRB4-AntM2
+  promoters:
+  - lac
+  description: KR-swapped Pik167, in ptm4 from Keatinge-Clay
+  selection_markers: []
+- ori: ColE1
+  backbone: 167-L268M
+  promoters: []
+  description: Pik167 with mutation
+  selection_markers: []
+- ori: ColE1
+  backbone: pTM3
+  promoters:
+  - T7
+  description: Plasmid expressing the gene encoding combinatory PKS composed of pikromycin
+    N-terminal docking domain 6 KS2 AT7 ACP7 TE7 (under updated module boundary definition)
+  selection_markers: []
+- ori: pUC
+  backbone: KR B7
+  promoters: []
+  description: Meridamycin KR10 swapped into LIPS1-TE
+  selection_markers: []
+- ori: ColE1
+  backbone: 167-L268A
+  promoters: []
+  description: Pik167 with mutation
+  selection_markers: []
+- ori: cloDF13
+  backbone: pTM2
+  promoters:
+  - T7
+  description: Plasmid expressing the gene encoding combinatory PKS composed of pikromycin
+    KSQ1 AT1 ACP1 KS1 AT2 KR2 ACP2 and C-terminal docking domain 6 (under updated
+    module boundary definition)
+  selection_markers: []
+- ori: ColE1
+  backbone: pTM5
+  promoters:
+  - T7
+  description: Plasmid expressing the gene encoding combinatory PKS composed of pikromycin
+    N-terminal docking domain 6 KS6 AT7 ACP7 TE7 (under updated module boundary definition)
+  selection_markers: []
+- ori: pUC
+  backbone: KR B6
+  promoters: []
+  description: Halstoctacosanolide KR7 swapped into LIPS1-TE
+  selection_markers: []
+- ori: pUC
+  backbone: DE4
+  promoters: []
+  description: Same as JBx_145375 but with different upstream swap junction
+  selection_markers: []
+- ori: pUC
+  backbone: KR B2
+  promoters: []
+  description: Lankamycin  KR1 swapped into LIPS1-TE
+  selection_markers: []
+- ori: pUC
+  backbone: KR B4
+  promoters: []
+  description: Antalid KR2 swapped into LIPS1-TE
+  selection_markers: []
+- ori: pUC
+  backbone: KR B5
+  promoters: []
+  description: Aculeximycin KR5 swapped into LIPS1-TE
+  selection_markers: []
+- ori: pUC
+  backbone: DE3
+  promoters: []
+  description: Same as JBx_134194 but with different upstream swap junction
+  selection_markers: []
+- ori: pUC
+  backbone: KR B3
+  promoters: []
+  description: FK520 KR2 swapped into LIPS1-TE
+  selection_markers: []
+- ori: pUC
+  backbone: DE2
+  promoters: []
+  description: Same as JBx_145371 but with different upstream swap junction
+  selection_markers: []
+- ori: pUC
+  backbone: KR A4
+  promoters: []
+  description: Streptolydigin KR4 swapped into LIPS1-TE
+  selection_markers: []
+- ori: pUC
+  backbone: KR A3
+  promoters: []
+  description: FD-891 KR2 swapped into LIPS1-TE
+  selection_markers: []
+- ori: pUC
+  backbone: KR A2
+  promoters: []
+  description: PM100117 KR1 swapped into LIPS1-TE
+  selection_markers: []
+- ori: pUC
+  backbone: DE1
+  promoters: []
+  description: Same as JBx_145369 but with different upstream swap junction
+  selection_markers: []
+- ori: pUC
+  backbone: KR A1
+  promoters: []
+  description: Amphotericin KR1 swapped into LIPS1-TE
+  selection_markers: []
+- ori: pUC
+  backbone: KR A6
+  promoters: []
+  description: Bafilomycin KR9 swapped into LIPS1-TE
+  selection_markers: []
+- ori: pUC
+  backbone: KR A5
+  promoters: []
+  description: Lasalocid KR5 swapped into LIPS1-TE
+  selection_markers: []
+- ori: pUC
+  backbone: KR A7
+  promoters: []
+  description: Salinomycin KR14 swapped into LIPS1-TE
+  selection_markers: []
+- ori: pUC
+  backbone: KR B1
+  promoters: []
+  description: Megalomicin KR1 swapped into LIPS1-TE
+  selection_markers: []
+- ori: pUC
+  backbone: SKR12 LIPS AcuKR15
+  promoters: []
+  description: Aculeximycin KR15 swapped into LIPS1
+  selection_markers: []
+- ori: pUC
+  backbone: SKR05 LIPS Ald KR2
+  promoters: []
+  description: Aldgamycin KR2 swapped into LIPS1
+  selection_markers: []
+- ori: pUC
+  backbone: SKR02 LIPS AveKR1
+  promoters: []
+  description: Avermectin KR1 swapped into LIPS1
+  selection_markers: []
+- ori: pUC
+  backbone: SKR03 LIPS ChaKR1
+  promoters: []
+  description: Chalcomycin KR1 swapped into LIPS1
+  selection_markers: []
+- ori: pUC
+  backbone: SKR11 LIPS NemKR12
+  promoters: []
+  description: Nemadectin KR12 swapped into LIPS1
+  selection_markers: []
+- ori: pUC
+  backbone: SKR04 LIPS MeiKR1
+  promoters: []
+  description: Meilingmycin KR1 swapped into LIPS1
+  selection_markers: []
+- ori: pUC
+  backbone: SKR08 LIPS HerKR6
+  promoters: []
+  description: Herboxidiene KR6 swapped into LIPS1
+  selection_markers: []
+- ori: pUC
+  backbone: SKR10 LIPS AcuKR8
+  promoters: []
+  description: Aculeximycin KR8 swapped into LIPS1
+  selection_markers: []
+- ori: pUC
+  backbone: SKR06 LIPS NemKR2
+  promoters: []
+  description: Nemadectin KR2 swapped into LIPS1
+  selection_markers: []
+- ori: pUC
+  backbone: SKR07 LIPS PM1KR4
+  promoters: []
+  description: PM100117 KR4 swapped into LIPS1
+  selection_markers: []
+- ori: pUC
+  backbone: SKR01 LIPS TylKR1
+  promoters: []
+  description: Tylactone KR1 swapped into LIPS1
+  selection_markers: []
+- ori: pUC
+  backbone: SLDKR4
+  promoters: []
+  description: LIPS1-TE with KR swapped with DEBSM1. In Streptomyces expression vector
+    pSY188.
+  selection_markers: []
+- ori: pUC
+  backbone: SLDKR3
+  promoters: []
+  description: LIPS1-TE with AT-KR swapped with DEBSM1. In Streptomyces expression
+    vector pSY188.
+  selection_markers: []
+- ori: pUC
+  backbone: SLDKR1
+  promoters: []
+  description: LIPS1-TE with AT-KR-ACP swapped with DEBSM1. In Streptomyces expression
+    vector pSY188.
+  selection_markers: []
+- ori: pUC
+  backbone: SLBKR1
+  promoters: []
+  description: LIPS1-TE with AT-KR-ACP swapped with BafM1. In Streptomyces expression
+    vector pSY188.
+  selection_markers: []
+- ori: pUC
+  backbone: SLBKR2
+  promoters: []
+  description: LIPS1-TE with KR-ACP swapped with BafM1. In Streptomyces expression
+    vector pSY188.
+  selection_markers: []
+- ori: pUC
+  backbone: SLBKR3
+  promoters: []
+  description: LIPS1-TE with AT-KR swapped with BafM1. In Streptomyces expression
+    vector pSY188.
+  selection_markers: []
+- ori: pUC
+  backbone: SLAKR4
+  promoters: []
+  description: LIPS1-TE with KR swapped with AcuM1. In Streptomyces expression vector
+    pSY188.
+  selection_markers: []
+- ori: pUC
+  backbone: SLDKR2
+  promoters: []
+  description: LIPS1-TE with KR-ACP swapped with DEBSM1. In Streptomyces expression
+    vector pSY188.
+  selection_markers: []
+- ori: pUC
+  backbone: SLBKR4
+  promoters: []
+  description: LIPS1-TE with KR swapped with BafM1. In Streptomyces expression vector
+    pSY188.
+  selection_markers: []
+- ori: pUC
+  backbone: SLAKR2
+  promoters: []
+  description: LIPS1-TE with KR-ACP swapped with AcuM1. In Streptomyces expression
+    vector pSY188.
+  selection_markers: []
+- ori: pUC
+  backbone: SLAKR3
+  promoters: []
+  description: LIPS1-TE with AT-KR swapped with AcuM1. In Streptomyces expression
+    vector pSY188.
+  selection_markers: []
+- ori: cloDF13
+  backbone: pTM4
+  promoters:
+  - T7
+  description: Plasmid expressing the gene encoding Combinatory PKS composed of pikromycin
+    KSQ1 AT1 ACP1 KS1 AT6 KR6 ACP6 and C-terminal docking domain 6 (under updated
+    module boundary definition)
+  selection_markers: []
+- ori: pUC
+  backbone: SLAKR1
+  promoters: []
+  description: LIPS1-TE with AT-KR-ACP swapped with AcuM1. In Streptomyces expression
+    vector pSY188.
+  selection_markers: []
+bibliographicCitation: https://public-registry.jbei.org/folders/900
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00900
+created_at: '2025-11-18T20:03:56.772Z'
+updated_at: '2025-12-11T00:00:04.623Z'

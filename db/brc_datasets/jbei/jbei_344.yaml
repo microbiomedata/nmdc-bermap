@@ -1,0 +1,387 @@
+id: jbei:344
+brc: JBEI
+date: '2017-08-10'
+title: Welner, D. et. al. 2017a
+creator:
+- name: Nurgul Kaplan
+  email: nkaplan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00344
+repository: ICE
+datasetName: Welner, D. et. al. 2017a
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/344
+description: This dataset provides a collection of 69 Gateway entry clones, each containing
+  a gene of interest within the pDONR223 donor vector. These plasmids are designed
+  for high-throughput cloning, enabling the rapid transfer of the contained genes
+  into various expression systems for functional characterization. The collection
+  serves as a versatile resource for protein expression and analysis in bioenergy
+  research.
+relatedItem: []
+analysisType: not specified
+contributors:
+- name: Andy DeGiovanni
+  email: adegiovanni@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: 'Glycine max XEG113 120-639 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Glycine max XEG113 1-639 (FL) '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Glycine max XEG113 53-639 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Vitis vinifera RRA 54-434 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Vitis vinifera RRA 54-403
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Vitis vinifera RRA 1-434 (FL) '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Frageria vesca DUF288 96-252
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Frageria vesca DUF288 1-761 (FL)
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Frageria vesca DUF288 96-310
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Solanum lycopersicum DUF288 105-760 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Frageria vesca DUF288 96-761 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Solanum lycopersicum DUF288 1-760 (FL)
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Cicer arietinum DUF288 115-771 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Glycine max EMB2756 1-699 (FL)
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Glycine max EMB2756 105-699 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Cicer arietinum DUF288 1-771 (FL)
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Cucumis sativus GlcAT14A 57-342
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Cucumis sativus GlcAT14A 57-396 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Cucumis sativus GlcAT14A 30-342
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Cucumis sativus GlcAT14A 30-396 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Cucumis sativus GlcAT14A 1-396 (FL)
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Glycine max GUT1/IRX10L 175-506
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Glycine max GUT1/IRX10L 43-439
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Glycine max GUT1/IRX10L 175-506 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Glycine max GUT1/IRX10L 43-506 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Glycine max GUT1/IRX10L 1-506 (FL)
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Glycine max GUT1/IRX10L 43-487 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Oryza sativa PARVUS 39-316 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Glycine max GUT1/IRX10L 1-487 (FL)
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Oryza sativa PARVUS 1-316 (FL)
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: cucumis sativus PARVUS 1-283 (FL)
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Glycine max IRX14 79-435 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Glycine max IRX14 157-502 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Glycine max IRX14 157-435 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Glycine max IRX14 79-502 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Hordeum vulgare IRX9L 1-393 (FL)
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Hordeum vulgare IRX9L 95-393 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Glycine max IRX14 1-502 (FL)
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Brachypodian distachyon TBL29 88-539 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Brachypodian distachyon TBL29 1-539 (FL)
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Glycine max DBL13 65-374  '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Glycine max DBL13 65-410  '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Fragaria vesca DUF246 47-475
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Glycine max DBL13 1-410 (FL) '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Fragaria vesca DUF246 1-475 (FL)
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Setaria italica  DUF246 64-499 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Glycine max GALS1 50-515
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Fragaria vesca DUF246 92-577 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Fragaria vesca DUF246 1-577 (FL)
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Setaria italica  DUF246 1-499 (FL)
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Oryza sativa MUC110 73-429 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Oryza sativa MUC110 105-429 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Glycine max GALS1 1-515 (FL)
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Glycine max GALS1 109-515
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Oryza sativa MUC110 105-483 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Oryza sativa MUC110 1-483 (FL)
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Oryza sativa MUC110 73-483 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Fragaria vesca MUC110 58-392 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Fragaria vesca MUC110 92-392 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Fragaria vesca MUC110 92-457 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Fragaria vesca MUC110 1-457 (FL)
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Fragaria vesca MUC110 58-457 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Solanum lycopersicum XXT1 47-464 '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Zea mays RGP1 1-236
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Zea mays RGP1 1-134
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Solanum lycopersicum XXT1 1-464 (FL)
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Zea mays RGP1 1-346
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: Brachypodion distachyon RGP1 1-363 (FL)
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+- backbone: 'Zea mays RGP1 1-361 (FL) '
+  promoters: []
+  description: gene in pDONR223
+  selection_markers:
+  - Spectinomycin
+bibliographicCitation: https://public-registry.jbei.org/folders/344
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00344
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

@@ -1,0 +1,54 @@
+brc: CABBI
+date: '2023-02-16'
+title: Metabolic Engineering of Low-pH-Tolerant Non-Model Yeast, Issatchenkia orientalis,
+  for Production of Citramalate
+creator:
+- name: Yasuo Yoshikuni
+  email: yyoshikuni@lbl.gov
+  affiliation: Lawrence Berkeley National Lab
+  primaryContact: true
+- name: Zengyi Shao
+  email: zyshao@iastate.edu
+  affiliation: Iowa State University
+  primaryContact: false
+- name: Costas Maranas
+  email: cdm8@psu.edu
+  affiliation: Pennsylvania State University
+  primaryContact: false
+- name: Joshua Rabinowitz
+  email: joshr@princeton.edu
+  affiliation: Princeton University
+  primaryContact: true
+species:
+- NCBITaxID: 4909
+  scientificName: Pichia kudriavzevii
+keywords:
+- Strains
+- Sequence data
+- Issatchenkia orientalis
+identifier: 10.13012/B2IDB-6723545_V1
+repository: Illinois Data Bank
+description: Methyl methacrylate (MMA) is an important petrochemical with many applications.
+  However, its manufacture has a large environmental footprint. Combined biological
+  and chemical synthesis (semisynthesis) may be a promising alternative to reduce
+  both cost and environmental impact, but strains that can produce the MMA precursor
+  (citramalate) at low pH are required. A non-conventional yeast, Issatchenkia orientalis,
+  may prove ideal, as it can survive extremely low pH. Here, we demonstrate the engineering
+  of I. orientalis for citramalate production. Using sequence similarity network analysis
+  and subsequent DNA synthesis, we selected a more active citramalate synthase gene
+  (cimA) variant for expression in I. orientalis. We then adapted a piggyBac transposon
+  system for I. orientalis that allowed us to simultaneously explore the effects of
+  different cimA gene copy numbers and integration locations. A batch fermentation
+  showed the genome-integrated-cimA strains produced 2.0 g/L citramalate in 48 h and
+  a yield of up to 7% mol citramalate/mol consumed glucose. These results demonstrate
+  the potential of I. orientalis as a chassis for citramalate production.
+relatedItem:
+- title: Metabolic Engineering of Low-pH-Tolerant Non-Model Yeast, Issatchenkia orientalis,
+    for Production of Citramalate
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1016/j.mec.2023.e00220
+bibliographicCitation: https://doi.org/10.13012/B2IDB-6723545_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-6723545_V1
+created_at: '2025-11-20T18:00:04.759Z'
+updated_at: '2025-12-10T06:00:05.196Z'

@@ -1,0 +1,90 @@
+id: jbei:355
+brc: JBEI
+date: '2018-02-08'
+title: Palluk, Arlow et al. 2017
+creator:
+- name: Sebastian Palluk
+  email: spalluk@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00355
+repository: ICE
+datasetName: Palluk, Arlow et al. 2017
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/355
+description: This dataset contains nine expression plasmids encoding engineered variants
+  of Terminal deoxynucleotidyl Transferase (TdT) for protein production and analysis.
+  The collection features wild-type, truncated, and cysteine-deficient mutants designed
+  to probe enzyme structure and function. Several constructs also include fusions
+  with His-MBP tags for purification or with a BRCT domain.
+relatedItem: []
+analysisType: affinity_purification
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pET19-TdTc180
+  promoters:
+  - T7-lac
+  description: Plasmid coding for TdTc180
+  selection_markers:
+  - Carbenicillin
+- backbone: pET19-TdTc188
+  promoters:
+  - T7-lac
+  description: Plasmid coding for TdTc188
+  selection_markers:
+  - Carbenicillin
+- backbone: pET19-TdTc302
+  promoters:
+  - T7-lac
+  description: Plasmid coding for TdTc302
+  selection_markers:
+  - Carbenicillin
+- backbone: pET19-TdTwt
+  promoters:
+  - T7-lac
+  description: Plasmid coding for TdTwt
+  selection_markers:
+  - Carbenicillin
+- backbone: pET19-TdTdelta5cys
+  promoters:
+  - T7-lac
+  description: Plasmid coding for TdTdelta5cys
+  selection_markers:
+  - Carbenicillin
+- backbone: pET19-TdTc253
+  promoters:
+  - T7-lac
+  description: Plasmid coding for MTdTc253
+  selection_markers:
+  - Carbenicillin
+- backbone: pET19-MTdTwt
+  promoters:
+  - T7-lac
+  description: Plasmid coding for MTdTwt
+  selection_markers:
+  - Carbenicillin
+- backbone: MTDT(C302)
+  promoters:
+  - T7-lac
+  description: Plasmid coding for His-MBP-TdT(C188A,C216S,C378A,C438S) named TdTcys
+    / MTDTc302. Residue numbering according to PDB 4I27.
+  selection_markers:
+  - Carbenicillin
+- backbone: pET19-M(BRCT)TdTwt
+  promoters:
+  - T7-lac
+  description: Plasmid coding for M(BRCT)TdTwt
+  selection_markers:
+  - Carbenicillin
+bibliographicCitation: https://public-registry.jbei.org/folders/355
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00355
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

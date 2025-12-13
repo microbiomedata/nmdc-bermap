@@ -1,0 +1,48 @@
+brc: CABBI
+date: '2021-03-08'
+title: Photosynthetic Performance Measurements in Biomass Sorghum Varietals in Central
+  Illinois During Four Growing Seasons
+creator:
+- name: Long, Stephen P.
+  email: slong@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Bernacchi, Carl
+  email: bernacch@illinois.edu
+  affiliation: USDA-ARS
+  primaryContact: false
+- name: Leakey, Andrew D.B.
+  email: leakey@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 4558
+  scientificName: Sorghum bicolor
+keywords:
+- sorghum
+- leaf inclination angle
+- carbon assimilation
+- electron transport
+- stomatal conductance
+identifier: 10.13012/B2IDB-4580996_V2
+repository: Illinois Data Bank
+description: In a set of field studies across four years, the effect of self-shading
+  on photosynthetic performance in lower canopy sorghum leaves was studied at sites
+  in Champaign County, IL. Photosynthetic parameters in upper and lower canopy leaves,
+  carbon assimilation, electron transport, stomatal conductance, and activity of three
+  C4-specific photosynthetic enzymes, were compared within a genetically diverse range
+  of accessions varying widely in canopy architecture and thereby in the degree of
+  self-shading. Accessions with erect leaves and high light transmission through the
+  canopy are henceforth referred to as ‘erectophile’ and those with low leaf erectness,
+  ‘planophile’. In the final year of the study, bundle sheath leakiness in erectophile
+  and planophile accessions was also compared.
+relatedItem:
+- title: Can Improved Canopy Light Transmission Ameliorate Loss of Photosynthetic
+    Efficiency in the Shade? An Investigation of Natural Variation in Sorghum bicolor
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1093/jxb/erab176
+bibliographicCitation: https://doi.org/10.13012/B2IDB-4580996_V2
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-4580996_V2
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.624Z'

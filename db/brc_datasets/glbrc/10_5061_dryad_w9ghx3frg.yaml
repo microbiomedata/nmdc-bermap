@@ -1,0 +1,39 @@
+brc: GLBRC
+date: '2022-05-17'
+title: Uncovering a miltiradiene biosynthetic gene cluster in the Lamiaceae reveals
+  a dynamic evolutionary trajectory
+creator:
+- name: Björn Hamberger
+  email: hamberge@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+- name: Abigail E. Bryson
+  email: brysonab@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Multispecies
+keywords:
+- Lamiaceae/genetics/metabolism
+- Diterpenes/metabolism
+- Terpenes/metabolism
+- Multigene Family
+- Biosynthetic Pathways/genetics
+identifier: 10.5061/dryad.w9ghx3frg
+repository: Dryad
+description: We elucidate the terpene backbones made by the Callicarpa americana BGC
+  enzymes, including miltiradiene and the novel terpene (+)-kaurene, and show oxidization
+  activities of BGC cytochrome P450s. 
+relatedItem:
+- title: Uncovering a miltiradiene biosynthetic gene cluster in the Lamiaceae reveals
+    a dynamic evolutionary trajectory
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.nature.com/articles/s41467-023-35845-1
+analysisType: 'Genome assemblies, BCG sequences, Collinearity, GCMS, NMR, Phylogeny
+  data '
+bibliographicCitation: https://datadryad.org/dataset/doi:10.5061/dryad.w9ghx3frg
+schema_version: 0.1.7
+uid: GLBRC_10.5061/dryad.w9ghx3frg
+created_at: '2025-11-19T18:00:04.599Z'
+updated_at: '2025-12-10T06:00:05.197Z'

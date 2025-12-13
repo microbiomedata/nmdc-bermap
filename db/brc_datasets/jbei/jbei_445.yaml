@@ -1,0 +1,56 @@
+id: jbei:445
+brc: JBEI
+date: '2019-05-01'
+title: Chen_et_al_2019 automation
+creator:
+- name: filemakerimport
+  email: filemakerimport
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Yan Chen
+  email: yanchen1998@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Mary Dunlop
+  email: mjdunlop@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Thomas Eng
+  email: tteng@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species: []
+keywords: []
+identifier: jbei:folder:00445
+repository: ICE
+datasetName: Chen_et_al_2019 automation
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/445
+description: null
+relatedItem:
+- title: 'Baba, T.; Ara, T.; Hasegawa, M.; Takai, Y.; Okumura, Y.; Baba, M.; Datsenko,
+    K. A.; Tomita, M.; Wanner, B. L. &amp; Mori, H. Construction of it E. scherichia
+    coli K-12 in-frame, single-gene knockout mutants: the Keio collection Molecular
+    Systems Biology, 2006'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors:
+- name: Nathan Hillson
+  email: njhillson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features: []
+bibliographicCitation: https://public-registry.jbei.org/folders/445
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00445
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

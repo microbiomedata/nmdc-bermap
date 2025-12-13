@@ -1,0 +1,161 @@
+id: jbei:169
+brc: JBEI
+date: '2015-04-03'
+title: Nowroozi et al. 2014
+creator:
+- name: Farnaz Nowroozi
+  email: ffnowroozi@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00169
+repository: ICE
+datasetName: Nowroozi et al. 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/169
+description: This dataset contains 17 expression plasmids designed for the metabolic
+  engineering of amorphadiene production in *E. coli*. The constructs, built on a
+  pTrc99a backbone, co-express amorphadiene synthase (ADS) with various engineered
+  mevalonate pathway operons (MBIS1-8). The plasmid library systematically explores
+  pathway optimization by varying the upstream operon and tuning expression levels
+  using a library of ribosome binding sites (RBS) with different strengths.
+relatedItem:
+- title: Nowroozi, F. F., Baidoo, E. E., Ermakov, S., Redding-Johanson, A. M., Batth,
+    T. S., Petzold, C. J., &amp; Keasling, J. D. (2014). “Metabolic pathway optimization
+    using ribosome binding site variants and combinatorial gene assembly”. [Research
+    Support, U S Gov’t, Non-P H S]. Appl Microbiol Biotechnol, 98(4), 1567-1581.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: ColE1
+  backbone: pTrc10KADS-MBIS1
+  promoters:
+  - pTrc
+  description: 10000 activity RBS in front of ADS and MBIS1 operon in pTrc99a backbone
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pTrc32KADS-MBIS1
+  promoters:
+  - pTrc
+  description: 32000 activity RBS in front of ADS and MBIS1 operon in pTrc99a backbone
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pTrc15KADS-MBIS2
+  promoters:
+  - pTrc
+  description: 15000 activity RBS in front of ADS and MBIS2 operon in pTrc99a backbone
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pTrc55KADS-MBIS1
+  promoters:
+  - pTrc
+  description: 55000 activity RBS in front of ADS and MBIS1 operon in pTrc99a backbone
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pTrc5KADS-MBIS2
+  promoters:
+  - pTrc
+  description: 5000 activity RBS in front of ADS and MBIS2 operon in pTrc99a backbone
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pTrc10KADS-MBIS2
+  promoters:
+  - pTrc
+  description: 10000 activity RBS in front of ADS and MBIS2 operon in pTrc99a backbone
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pTrc15KADS-MBIS1
+  promoters:
+  - pTrc
+  description: 15000 activity RBS in front of ADS and MBIS1 operon in pTrc99a backbone
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pTrc55KADS-MBIS2
+  promoters:
+  - pTrc
+  description: 55000 activity RBS in front of ADS and MBIS2 operon in pTrc99a backbone
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pTrc32KADS-MBIS2
+  promoters:
+  - pTrc
+  description: 32000 activity RBS in front of ADS and MBIS2 operon in pTrc99a backbone
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pTrc5KADS-MBIS1
+  promoters:
+  - pTrc
+  description: 5000 activity RBS in front of ADS and MBIS1 operon in pTrc99a backbone
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pTrcADS-MBIS7
+  promoters:
+  - pTrc
+  description: ADS gene and MBIS7 opron in pTrc99a backbone
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pTrcADS-MBIS4
+  promoters:
+  - pTrc
+  description: ADS gene and MBIS4 opron in pTrc99a backbone
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pTrcADS-MBIS1
+  promoters:
+  - pTrc
+  description: ADS gene and MBIS1 opron(medium activity RBS) in pTrc99a
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pTrcADS-MBIS3
+  promoters:
+  - pTrc
+  description: ADS gene and MBIS3 opron in pTrc99a backbone
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pTrcADS-MBIS5
+  promoters:
+  - pTrc
+  description: ADS gene and MBIS5 opron in pTrc99a backbone
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pTrcADS-MBIS2
+  promoters:
+  - pTrc
+  description: ADS gene and MBIS2 opron in pTrc99a backbone
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pTrcADS-MBIS8
+  promoters:
+  - pTrc
+  description: ADS gene and MBIS8 opron in pTrc99a backbone
+  selection_markers:
+  - Ampicillin
+bibliographicCitation: https://public-registry.jbei.org/folders/169
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00169
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.619Z'

@@ -1,0 +1,114 @@
+id: jbei:309
+brc: JBEI
+date: '2017-05-08'
+title: Kohler_et_al_2017
+creator:
+- name: Amanda Kohler
+  email: ackohler@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- LigM
+- Sphingomonas
+- demethylation
+identifier: jbei:folder:00309
+repository: ICE
+datasetName: Kohler_et_al_2017
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/309
+description: This dataset provides a collection of nine expression plasmids created
+  to investigate the structure-function relationship of the O-demethylase LigM, an
+  enzyme relevant to lignin valorization. The set includes wild-type LigM, a catalytic
+  site mutant, and seven distinct vanillate-binding site mutants, all cloned into
+  a modified pCDF-Duet-1 vector. These constructs are designed for the functional
+  characterization of LigM, enabling comparative studies of its catalytic mechanism
+  and substrate specificity.
+relatedItem:
+- title: 'Kohler, A.C., Mills, M.J.L., Adams, P.D., Simmons, B.A., Sale, K.L. Structure
+    of aryl demethylase offers molecular insight into a novel, tyrosine-dependent
+    mechanism. Proc. Natl. Acad. Sci. USA, 114 (16): E3205-E3214 (2017).'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors:
+- name: Amanda Kohler
+  email: ACKohler@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: T7
+  backbone: pCDF-Duet-1-LigM(Y247F)
+  promoters: []
+  description: LigM between the SalI/NotI restriction sites in a modified pCDF-Duet-1
+    vector; this entry corresponds to a catalytic site mutant of LigM
+  selection_markers:
+  - Streptomycin
+- ori: T7
+  backbone: pCDF-Duet-1-LigM(R122A/R147A)
+  promoters: []
+  description: LigM between the SalI/NotI restriction sites in a modified pCDF-Duet-1
+    vector; this entry corresponds to a vanillate-binding site mutant of LigM
+  selection_markers:
+  - Streptomycin
+- ori: T7
+  backbone: pCDF-Duet-1-LigM(R122A)
+  promoters: []
+  description: LigM between the SalI/NotI restriction sites in a modified pCDF-Duet-1
+    vector; this entry corresponds to a vanillate-binding site mutant of LigM
+  selection_markers:
+  - Streptomycin
+- ori: T7
+  backbone: pCDF-Duet-1-LigM(Y31A)
+  promoters: []
+  description: LigM between the SalI/NotI restriction sites in a modified pCDF-Duet-1
+    vector; this entry corresponds to a vanillate-binding site mutant of LigM
+  selection_markers:
+  - Streptomycin
+- ori: T7
+  backbone: pCDF-Duet-1-LigM(H60A)
+  promoters: []
+  description: LigM between the SalI/NotI restriction sites in a modified pCDF-Duet-1
+    vector; this entry corresponds to a vanillate-binding site mutant of LigM
+  selection_markers:
+  - Streptomycin
+- ori: T7
+  backbone: pCDF-Duet-1-LigM(Y29A)
+  promoters: []
+  description: LigM between the SalI/NotI restriction sites in a modified pCDF-Duet-1
+    vector; this entry corresponds to a vanillate-binding site mutant of LigM
+  selection_markers:
+  - Streptomycin
+- ori: T7
+  backbone: pCDF-Duet-1-LigM(M61A)
+  promoters: []
+  description: LigM between the SalI/NotI restriction sites in a modified pCDF-Duet-1
+    vector; this entry corresponds to a vanillate-binding site mutant of LigM
+  selection_markers:
+  - Streptomycin
+- ori: T7
+  backbone: pCDF-Duet-1-LigM(V62A)
+  promoters: []
+  description: LigM between the SalI/NotI restriction sites in a modified pCDF-Duet-1
+    vector; this entry corresponds to a vanillate-binding site mutant of LigM
+  selection_markers:
+  - Streptomycin
+- ori: T7
+  backbone: pCDF-Duet-1-LigM(WT)
+  promoters: []
+  description: LigM between the SalI/NotI restriction sites in a modified pCDF-Duet-1
+    vector; this entry corresponds to wild-type LigM
+  selection_markers:
+  - Streptomycin
+bibliographicCitation: https://public-registry.jbei.org/folders/309
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00309
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

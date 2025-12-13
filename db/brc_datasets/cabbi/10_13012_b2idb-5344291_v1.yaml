@@ -1,0 +1,27 @@
+brc: CABBI
+date: '2023-03-06'
+title: Mass Spectrometry-Based High-Throughput Quantification of Bioproducts in Liquid
+  Culture
+creator:
+- name: Sweedler, Jonathan V.
+  email: jsweedle@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+keywords:
+- mass spectrometry
+- gas chromatography
+- metabolic engineering
+identifier: 10.13012/B2IDB-5344291_V1
+repository: Illinois Data Bank
+description: This dataset includes mass spectrometry, library screening, and gas chromatography
+  data used for creating a high-throughput screening in metabolic engineering.
+relatedItem:
+- title: Mass Spectrometry-Based High-Throughput Quantification of Bioproducts in
+    Liquid Culture
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1021/acs.analchem.2c04845
+bibliographicCitation: https://doi.org/10.13012/B2IDB-5344291_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-5344291_V1
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.628Z'

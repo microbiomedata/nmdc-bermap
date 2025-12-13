@@ -1,0 +1,58 @@
+brc: GLBRC
+date: '2024-01-11'
+title: 'Data from: High temperatures and low soil moisture synergistically reduce
+  switchgrass yields from marginal field sites and inhibit fermentation'
+creator:
+- name: Rebecca G. Ong
+  email: rgong1@mtu.edu
+  affiliation: Department of Chemical Engineering, Michigan Technological University,
+    Houghton, Michigan, USA
+  primaryContact: true
+species:
+- NCBITaxID: null
+  scientificName: Switchgrass
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- bioethanol
+- fermentation
+- marginal lands
+- rainout shelter
+- soil water stress
+- yeast inhibition 
+identifier: 10.5061/dryad.qnk98sfps
+repository: Dryad
+description: ‘Marginal lands’ are low productivity sites abandoned from agriculture
+  for reasons such as low or high soil water content, challenging topography, or nutrient
+  deficiency. To avoid competition with crop production, cellulosic bio- energy crops
+  have been proposed for cultivation on marginal lands, however on these sites they
+  may be more strongly affected by environmental stresses such as low soil water content.
+  In this study we used rainout shelters to in- duce low soil moisture on marginal
+  lands and determine the effect of soil water stress on switchgrass growth and the
+  subsequent production of bioetha- nol. Five marginal land sites that span a latitudinal
+  gradient in Michigan and Wisconsin were planted to switchgrass in 2013 and during
+  the 2018–2021 growing seasons were exposed to reduced precipitation under rainout
+  shelters in comparison to ambient precipitation. The effect of reduced precipitation
+  was related to the environmental conditions at each site and biofuel produc- tion
+  metrics (switchgrass biomass yields and composition and ethanol pro- duction). During
+  the first year (2018), the rainout shelters were designed with 60% rain exclusion,
+  which did not affect biomass yields compared to ambient conditions at any of the
+  field sites, but decreased switchgrass fermentability at the Wisconsin Central–Hancock
+  site. In subsequent years, the shelters were redesigned to fully exclude rainfall,
+  which led to reduced biomass yields and inhibited fermentation for three sites.
+  When switchgrass was grown in soils with large reductions in moisture and increases
+  in temperature, the potential for biofuel production was significantly reduced,
+  exposing some of the chal- lenges associated with producing biofuels from lignocellulosic
+  biomass grown under drought conditions.
+relatedItem:
+- title: S. Chipkar et al. "High temperatures and low soil moisture synergistically
+    reduce switchgrass yields from marginal field sites and inhibit fermentation"
+    Global Change Biology - Bioenergy 16:e13119 (2024) [DOI:10.1111/gcbb.13119]
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://onlinelibrary.wiley.com/doi/10.1111/gcbb.13119
+analysisType: Field data; laboratory data
+bibliographicCitation: https://doi.org/10.5061/dryad.qnk98sfps
+schema_version: 0.1.7
+uid: GLBRC_10.5061/dryad.qnk98sfps
+created_at: '2025-11-19T18:00:04.599Z'
+updated_at: '2025-12-10T06:00:05.197Z'

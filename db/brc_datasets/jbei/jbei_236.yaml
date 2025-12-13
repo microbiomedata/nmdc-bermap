@@ -1,0 +1,143 @@
+id: jbei:236
+brc: JBEI
+date: '2016-03-07'
+title: Gozalez et al. 2015
+creator:
+- name: Yan Liang
+  email: yliang@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 358
+  scientificName: Agrobacterium tumefaciens
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+- NCBITaxID: 4530
+  scientificName: Oryza sativa
+keywords: []
+identifier: jbei:folder:00236
+repository: ICE
+datasetName: Gozalez et al. 2015
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/236
+description: This dataset provides a toolkit of 20 plasmids for inducible gene expression
+  in plants, focused on studying plant-pathogen interactions. The collection contains
+  Gateway-compatible entry and expression vectors designed to express and secrete
+  various tagged proteins, including the pathogen effectors AvrBs2 and ATR1. The expression
+  system is controlled by a dexamethasone-inducible GVG-UAS system, and final constructs
+  include a DsRed fluorescent marker for easy identification of transformed plant
+  tissue.
+relatedItem: []
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: Entry ClonepDONR221-P3P2eGFP-HyP5SM L3L2
+  promoters: []
+  description: Entry ClonepDONR221-P3P2eGFP-HyP5SM L3L2
+  selection_markers:
+  - Kan
+- backbone: C226
+  promoters: []
+  description: C226, pTKan-pNOS-DsRed-tNOS-p35S-GVG-tE9-pUAS-OsL56xHis-tG7-AmpR-pUAS-avrBs2HyPSM-HA
+  selection_markers:
+  - Spect, Amp
+- backbone: ' Entry ClonepDONR221-P4rP3rtG7p35SBs2tNOSAmpRpUAS_R4R3'
+  promoters: []
+  description: ' Entry ClonepDONR221-P4rP3rtG7p35SBs2tNOSAmpRpUAS_R4R3'
+  selection_markers:
+  - Kan, Amp
+- backbone: C228
+  promoters: []
+  description: C228, pTKan-pNOS-DsRed-tNOS-p35S-GVG-tE9-pUAS-OsL56xHis-tG7-Bs2Flag-AmpR-pUAS-eGFPHyPSM
+  selection_markers:
+  - Spect, Amp
+- backbone: C227
+  promoters: []
+  description: C227, pTKan-pNOS-DsRed-tNOS-pRPP1-RPP1-WsB-p35S-GVG-tE9-pUAS-OsL56xHis-tG7-AmpR-pUAS-ATR1d51-HyPSM-FlagE118
+  selection_markers:
+  - Spect, Amp
+- backbone: 'Entry ClonepDONR221-P3P2ATR1d51-HyP5SM-FLAG_E118 L3L2 '
+  promoters: []
+  description: 'Entry ClonepDONR221-P3P2ATR1d51-HyP5SM-FLAG_E118 L3L2 '
+  selection_markers:
+  - Kan
+- backbone: 'Entry ClonepDONR221-P3P2avrBs2 L3L2 '
+  promoters: []
+  description: 'Entry ClonepDONR221-P3P2avrBs2 L3L2 '
+  selection_markers:
+  - Kan
+- backbone: Entry ClonepDONR221-P1P4-OsL5-6xHis L1L4
+  promoters: []
+  description: Entry ClonepDONR221-P1P4-OsL5-6xHis L1L4
+  selection_markers:
+  - Kan
+- backbone: Entry ClonepDONR221-P3P2ATR1d51-HyP5SM-FLAG_E78 b3b2 L3L2
+  promoters: []
+  description: Entry ClonepDONR221-P3P2ATR1d51-HyP5SM-FLAG_E78 b3b2 L3L2
+  selection_markers:
+  - Kan
+- backbone: Entry ClonepDONR221-P3P2avrBs2-HyP5SM-HA L3L2
+  promoters: []
+  description: Entry ClonepDONR221-P3P2avrBs2-HyP5SM-HA L3L2
+  selection_markers:
+  - Kan
+- backbone: C59
+  promoters: []
+  description: C59, pTKan-pNOS-DsRed-tNOS-p35S-GVG-tE9-pUAS-OsL56xHis-tG7-AmpR-pUAS-ATR1d51-HyPSM-FlagE118
+  selection_markers:
+  - Spect, Amp
+- backbone: 'Entry ClonepDONR221-P4rP3rtG7-AmpR-pUAS R4R3 '
+  promoters: []
+  description: 'Entry ClonepDONR221-P4rP3rtG7-AmpR-pUAS R4R3 '
+  selection_markers:
+  - Kan, Amp
+- backbone: C93
+  promoters: []
+  description: 'C93, pTKan-pNOS-DsRed-tNOS-p35S-GVG-tE9-pUAS-OsL56xHis-tG7-Bs2Flag-AmpR-pUAS-avrBs2HyPSM '
+  selection_markers:
+  - Spect, Amp
+- backbone: C92
+  promoters: []
+  description: C92, pTKan-pNOS-DsRed-tNOS-p35S-GVG-tE9-pUAS-OsL56xHis-tG7-Bs2Flag-AmpR-pUAS-avrBs2
+  selection_markers:
+  - Spect, Amp
+- backbone: C51
+  promoters: []
+  description: C51, pTKan-pNOS-DsRed-tNOS-p35S-GVG-tE9-pUAS-GWR1R2
+  selection_markers:
+  - Spect, Cam
+- backbone: C58
+  promoters: []
+  description: C58, pTKan-pNOS-DsRed-tNOS-p35S-GVG-tE9-pUAS-OsL56xHis-tG7-AmpR-pUAS-ATR1d51-HyPSM-FlagE78
+  selection_markers:
+  - Spect, Amp
+- backbone: C57
+  promoters: []
+  description: C57, pTKan-pNOS-DsRed-tNOS-p35S-GVG-tE9-pUAS-OsL56xHis-tG7-AmpR-pUAS-eGFPHyPSM
+  selection_markers:
+  - Spect, Amp
+- backbone: C32
+  promoters: []
+  description: C32, pTKan-pNOS-DsRed-tNOS-p35S-GVG-tE9-pUAS-eGFP
+  selection_markers:
+  - Spect
+- backbone: C31
+  promoters: []
+  description: C31, pTKan-pNOS-DsRed-tNOS-p35S-eGFP
+  selection_markers:
+  - Spect
+- backbone: C30
+  promoters: []
+  description: 'pTKan-p35S-GFP '
+  selection_markers:
+  - Spect
+bibliographicCitation: https://public-registry.jbei.org/folders/236
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00236
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

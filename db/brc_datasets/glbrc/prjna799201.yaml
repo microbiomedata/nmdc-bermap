@@ -1,0 +1,33 @@
+brc: GLBRC
+date: '2022-01-21'
+title: Soil and root bacterial communities of Switchgrass and other biofuel grasses
+  in the Michigan and Wisconsin (2018)
+creator:
+- name: Lukas P. Bell-Dereske
+  email: lukas.dereske@gmail.com
+  affiliation: W.K. Kellogg Biological Station, Michigan State University, Hickory
+    Corners, MI, USA
+  primaryContact: true
+- name: Sarah E. Evans
+  email: evanssa6@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Multiple species, metagenome
+keywords: []
+identifier: 'PRJNA799201 '
+repository: NCBI BioProject
+description: Meta-amplicon sequencing of the soil fungal community of Switchgrass
+  (var. Cave-n-Rock) of the Great Lakes Bioenergy Research Center Marginal Lands Experiment.
+  Samples were collected in 2018.
+relatedItem:
+- title: Regional biogeography versus intra-annual dynamics of the root and soil microbiome
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://environmentalmicrobiome.biomedcentral.com/articles/10.1186/s40793-023-00504-x#Fun
+analysisType: Fungal metagenome sequencing
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA799201
+schema_version: 0.1.7
+uid: 'GLBRC_PRJNA799201 '
+created_at: '2025-11-19T18:00:04.599Z'
+updated_at: '2025-12-10T06:00:05.197Z'

@@ -1,0 +1,45 @@
+brc: CABBI
+date: '2023-02-01'
+title: Glucose Assimilation Rate Determines the Partition of Flux at Pyruvate Between
+  Lactic Acid and Ethanol in Saccharomyces cerevisiae
+creator:
+- name: Yong-Su Jin
+  email: ysjin@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- Yields
+- Key gene expression
+- Plasmids
+identifier: 10.13012/B2IDB-2019701_V1
+repository: Illinois Data Bank
+description: 'Engineered Saccharomyces cerevisiae expressing a lactic acid dehydrogenase
+  can metabolize pyruvate into lactic acid. However, three pyruvate decarboxylase
+  (PDC) isozymes drive most carbon flux toward ethanol rather than lactic acid. Deletion
+  of endogenous PDCs will eliminate ethanol production, but the resulting strain suffers
+  from C2 auxotrophy and struggles to complete a fermentation. Engineered yeast assimilating
+  xylose or cellobiose produce lactic acid rather than ethanol as a major product
+  without the deletion of any PDC genes. We report here that sugar flux, but not sensing,
+  contributes to the partition of flux at the pyruvate branch point in S. cerevisiae
+  expressing the Rhizopus oryzae lactic acid dehydrogenase (LdhA). While the membrane
+  glucose sensors Snf3 and Rgt2 did not play any direct role in the option of predominant
+  product, the sugar assimilation rate was strongly correlated to the partition of
+  flux at pyruvate: fast sugar assimilation favors ethanol production while slow sugar
+  assimilation favors lactic acid. Applying this knowledge, we created an engineered
+  yeast capable of simultaneously converting glucose and xylose into lactic acid,
+  increasing lactic acid production to approximately 17 g L−1 from the 12 g L−1 observed
+  during sequential consumption of sugars. This work elucidates the carbon source-dependent
+  effects on product selection in engineered yeast.'
+relatedItem:
+- title: Glucose Assimilation Rate Determines the Partition of Flux at Pyruvate between
+    Lactic Acid and Ethanol in Saccharomyces cerevisiae
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1002/biot.202200535
+bibliographicCitation: https://doi.org/10.13012/B2IDB-2019701_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-2019701_V1
+created_at: '2025-11-20T18:00:04.759Z'
+updated_at: '2025-12-10T06:00:05.196Z'

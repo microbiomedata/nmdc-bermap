@@ -1,0 +1,56 @@
+brc: CBI
+date: '2024-09-13'
+title: Cellulose crystallinity index (CrI) of switchgrass measured by solid-state
+  NMR
+active: true
+creator:
+- name: Chang Geun Yoo
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: true
+- name: Yunqiao Pu
+  email: puy1@ornl.gov
+  primaryContact: false
+- name: Rick Nelson
+  affiliation: Center for Bioenergy Innovation Samuel Roberts Noble Foundation, Ardmore,
+    OK, USA
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER)
+keywords:
+- Cellulose
+- crystallinity index
+- switchgrass
+- solid-state NMR
+- CP/MAS
+- CBI
+identifier: https://www.osti.gov/biblio/2440865
+dataset_url: https://labkey.ornl.gov/labkey/CBI/ragauskas/Public Data/Cellulose crystallinity
+  index (CrI) of switchgrass measured by solid-state NMR/project-begin.view?
+description: Here we present a curated dataset of switchgrass cellulose crystallinity
+  index (CrI) measured using solid state nuclear magnetic resonance (NMR) spectroscopy.
+  Seventy-two topline switchgrass lines grown in greenhouse were collected and ground
+  to -20/+80 mesh. The switchgrass was then Soxhlet-extracted with toluene/ethanol
+  for 24 h to remove extractives. The extractives-free switchgrass was holopulped
+  by using peracetic acid at 5 g loading per g biomass and the solution consistency
+  was adjusted to 5% with DI water. Holopulping was conducted at room temperature
+  for 24 h with stirring. The obtained holocellulose was washed excessively with DI
+  water and air-dried at room temperature for 24 h. The dried holocellulose was treated
+  with hydrochloric acid (2.5 M) for 2 h to remove hemicellulose. The isolated cellulose
+  was collected by filtration, rinsed with DI water, and used to analyze cellulose
+  crystallinity by solid-state NMR. The NMR samples were prepared by packing the moisturized
+  cellulose into 4-mm cylindrical Zirconia MAS rotors. Cross polarization/magic angle
+  spinning (CP/MAS) NMR analysis of cellulose was carried out on a Bruker Avance III
+  400-MHz spectrometer operating at 100.59 MHz for 13C in a Bruker double-resonance
+  MAS probe head at spinning speeds of 8 kHz. The CP/MAS experiments utilized a 5
+  ms (90°) proton pulse, 1.5 ms contact pulse, 4 s recycle delay and 4000 scans. The
+  cellulose crystallinity index was determined from the areas of the cellulose crystalline
+  C4 signal (δ 86-92 ppm) over the entire C4 regions (δ 79-92 ppm) in the NMR spectra.
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/2440865
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2440865
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

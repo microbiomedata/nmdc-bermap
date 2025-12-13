@@ -1,0 +1,121 @@
+id: jbei:205
+brc: JBEI
+date: '2015-09-15'
+title: Gach et al. 2016
+creator:
+- name: Philip Gach
+  email: pcgach@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Jinxiang Zhang
+  email: jinxiangzhang@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Bilge Ozaydin
+  email: bozaydin@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Florence Mingardon
+  email: fmingardon@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: filemakerimport
+  email: filemakerimport
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Nurgul Kaplan
+  email: nkaplan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Garima Goyal
+  email: ggoyal@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 5061
+  scientificName: Aspergillus niger
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- GFP
+identifier: jbei:folder:00205
+repository: ICE
+datasetName: Gach et al. 2016
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/205
+description: This collection comprises six plasmids designed as reporter constructs
+  for monitoring gene expression in various microbial systems. The plasmids utilize
+  a range of fluorescent proteins, including GFP, mCherry, and BFP2, driven by diverse
+  promoters for expression in bacteria, yeast, and fungi. These constructs are suitable
+  for applications such as colony screening, expression tuning, and developing synthetic
+  biology tools.
+relatedItem:
+- title: An enhanced monomeric blue fluorescent protein with the high chemical stability
+    of the chromophore. Subach OM, Cranfill PJ, Davidson MW, Verkhusha VV. PLoS One.
+    2011;6(12):e28674.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Shih, S. C., Goyal, G., Kim, P. W., Koutsoubelis, N., Keasling, J. D., Adams,
+    P. D., Hillson, N. J., &amp; Singh, A. K. (2015). “A Versatile Microfluidic Device
+    for Automating Synthetic Biology”. ACS Synth Biol. doi, 10.1021/acssynbio.5b00062
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: FEBS Lett. 2003 Sep 25;552(2-3):110-4
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: peGFP-glaA
+  promoters: []
+  description: gfp was driven by A. niger glucoamylase promoter.
+  selection_markers:
+  - Ampicillin
+- backbone: pBAD-mTag BFP2
+  promoters: []
+  description: pBAD-mTag BFP2
+  selection_markers:
+  - Ampicillin
+- backbone: pBbB2k-GFP
+  promoters: []
+  description: use of GFP in pBbB2k ito perform de screen based on color of the colonies
+  selection_markers:
+  - kanamycin
+- backbone: pL211 mCherry
+  promoters: []
+  description: Yeast over expressing mCherry and under expressing GFP, pL 211 with
+    TEF prom, ADH1 and URA-
+  selection_markers:
+  - -Ura
+- backbone: pRSET-EmGFP
+  promoters: []
+  description: pRSET-EmGFP from life technologies
+  selection_markers:
+  - Ampicillin
+- backbone: pDsRed._T3-S4T
+  promoters: []
+  description: ''
+  selection_markers:
+  - Ampicillin
+- ori: p15A
+  backbone: pProm1_BCD1-GFP
+  promoters: []
+  description: Promoter1 with BCD1-gfp
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/205
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00205
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

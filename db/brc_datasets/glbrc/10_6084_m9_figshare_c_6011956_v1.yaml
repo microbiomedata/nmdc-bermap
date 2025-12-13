@@ -1,0 +1,33 @@
+brc: GLBRC
+date: '2023-06-02'
+title: Codon optimization improves the prediction of xylose metabolism from gene content
+  in budding yeasts
+creator:
+- name: Chris Todd Hittinger
+  email: chittinger@wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: true
+species:
+- NCBITaxID: null
+  scientificName: Multiple species
+keywords:
+- codon optimization
+-  yeasts
+-  metabolic evolution
+-  genome evolution
+-  xylose
+identifier: 10.6084/m9.figshare.c.6011956.v1
+repository: FigShare
+description: Data accompanying Nalabothu et al. 2023 <i>Molecular Biology and Evolution</i>
+relatedItem:
+- title: Codon optimization improves the prediction of xylose metabolism from gene
+    content in budding yeasts
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://academic.oup.com/mbe/advance-article/doi/10.1093/molbev/msad111/7156829?login=true
+analysisType: All data generated in this project, including curated <i>XYL</i> gene
+  sequences
+bibliographicCitation: https://figshare.com/collections/Codon_optimization_improves_the_prediction_of_xylose_metabolism_from_gene_content_in_budding_yeasts/6011956/1
+schema_version: 0.1.7
+uid: GLBRC_10.6084/m9.figshare.c.6011956.v1
+created_at: '2025-11-19T18:00:04.599Z'
+updated_at: '2025-12-10T06:00:05.197Z'

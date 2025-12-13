@@ -1,0 +1,43 @@
+brc: CABBI
+date: '2025-09-01'
+title: AmeriFlux BASE US-IAC Iowa State University SE tower, Ver. 1-5, AmeriFlux AMP,
+  (Dataset)
+creator:
+- name: Andy VanLoocke
+  email: andyvanl@iastate.edu
+  affiliation: Iowa State University
+  primaryContact: true
+- name: Guler Aslan-Sungur
+  email: gulera@iastate.edu
+  affiliation: Iowa State University
+  primaryContact: false
+species:
+- NCBITaxID: 4558
+  scientificName: Sorghum bicolor
+- NCBITaxID: 4577
+  scientificName: Zea mays
+- NCBITaxID: 3847
+  scientificName: Glycine max
+keywords:
+- Sorghum
+- Maize
+- Soybean
+- Eddy covariance
+identifier: US-IAC
+repository: AmeriFlux
+description: The AmeriFlux version of the flux data taken in the southeast field at
+  the SABR – Iowa State University site have been published on the AmeriFlux website.
+  The data cover the years 2019-2024. The flux species measured include CO2, H, and
+  H2O. The SE tower has a maize-soy-sorghum rotation with one crop planted in one
+  of the fields each year. See the SABR Shiny site, https://sabr.shinyapps.io/appSABR/,
+  for more information.
+relatedItem:
+- title: Explainable Machine Learning to Quantify the Value of Proximal Remote Sensing
+    in Latent Energy Flux Estimation
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1016/j.agwat.2025.109643
+bibliographicCitation: https://doi.org/10.17190/AMF/2586672
+schema_version: 0.1.1
+uid: CABBI_US-IAC
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

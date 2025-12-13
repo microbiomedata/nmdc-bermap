@@ -1,0 +1,30 @@
+brc: CABBI
+date: '2022-03-01'
+title: AmeriFlux US-UiA University of Illinois Switchgrass, Dataset (2008-2024)
+creator:
+- name: Bernacchi, Carl J.
+  email: bernacch@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 38727
+  scientificName: Panicum virgatum
+keywords:
+- switchgrass
+- carbon flux
+identifier: US-UiA
+repository: AmeriFlux
+description: Field was treated with Potash, lime and diammonium phosphate before planting.
+  Herbicide application included 2,4-D for 2008, 2009. 56 kg/ha nitrogen applied in
+  2010, 2011, 2012, 2013, 2014, 2016. Measurements were suspended on June 14, 2016
+  and resumed on May 28, 2024.
+relatedItem:
+- title: The carbon and nitrogen cycle impacts of reverting perennial bioenergy switchgrass
+    to an annual maize crop rotation
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/gcbb.12743
+bibliographicCitation: https://doi.org/10.17190/AMF/1617725
+schema_version: 0.1.1
+uid: CABBI_US-UiA
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.626Z'

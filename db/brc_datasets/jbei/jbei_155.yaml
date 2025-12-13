@@ -1,0 +1,76 @@
+id: jbei:155
+brc: JBEI
+date: '2015-03-06'
+title: McAndrew et al., 2014
+creator:
+- name: Rory Pruitt
+  email: rnpruitt@ucdavis.edu
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 4530
+  scientificName: Oryza sativa
+- NCBITaxID: 7764
+  scientificName: Eptatretus burgeri
+- NCBITaxID: 7108
+  scientificName: Spodoptera frugiperda
+- NCBITaxID: 7111
+  scientificName: Trichoplusia ni
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00155
+repository: ICE
+datasetName: McAndrew et al., 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/155
+description: This dataset provides baculovirus expression vectors for producing a
+  secreted fusion protein. The constructs encode the extracellular domain of the rice
+  receptor-like kinase OsSERK2 (residues 32-173) fused to a hagfish VLR B.61 domain,
+  likely to enhance expression or solubility. This design, which includes dual Strep-Tactin
+  II and 6xHis tags, facilitates the purification of the OsSERK2 fragment for structural
+  or functional studies.
+relatedItem:
+- title: McAndrew, R., Pruitt, R. N., Kamita, S. G., Pereira, J. H., Majumdar, D.,
+    Hammock, B. D., Adams, P. D., &amp; Ronald, P. C. (2014). “Structure of the OsSERK2
+    leucine-rich repeat extracellular domain”. Acta Crystallogr D Biol Crystallogr,
+    70(Pt 11), 3080-3086. doi, 10.1107/S1399004714021178
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: affinity_purification
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pULTRA-sY
+  promoters: []
+  description: see Schwessinger et al. "A second-generation expression system for
+    tyrosine-sulfated proteins and its applicationin crop protection"
+  selection_markers:
+  - Spectinomycin
+- backbone: pFastBac-HT-OsSERK2
+  promoters:
+  - polyhedrin
+  description: The expression cassette consists of sequences encoding an N-terminal
+    GP67 signal sequence for secretion, amino-acid residues 32-173 of OsSERK2 from
+    Nipponbare rice (Os04g38480), amino-acid residues 126-200 of hagfish VLR B.61,
+    a thrombin cleavage site, a Strep-Tactin II tag and a six-histidine tag. Expression
+    is driven by a polyhedrin promoter.
+  selection_markers:
+  - Ampicilin
+- backbone: pFastBacHT-OsSERK2 D128N
+  promoters:
+  - polyhedrin
+  description: The expression cassette consists of sequences encoding an N-terminal
+    GP67 signal sequence for secretion, amino-acid residues 32-173 of OsSERK2 from
+    Nipponbare rice (Os04g38480), amino-acid residues 126-200 of hagfish VLR B.61,
+    a thrombin cleavage site, a Strep-Tactin II tag and a six-histidine tag. Expression
+    is driven by a polyhedrin promoter.
+  selection_markers:
+  - Ampicilin
+bibliographicCitation: https://public-registry.jbei.org/folders/155
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00155
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.619Z'

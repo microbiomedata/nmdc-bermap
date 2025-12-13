@@ -1,0 +1,3131 @@
+id: jbei:109
+brc: JBEI
+date: '2014-02-06'
+title: Lao et al. 2014 A
+creator:
+- name: Jeemeng Lao
+  email: jlao@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- AT5G16170
+- AT1G28710
+- AT5G25970
+- AT1G75110
+- AT1G16570
+- AT3G07620
+- AT1G11880
+- AT5G05900
+- pDONR_AT5G64740
+- AT4G38270
+- AT4G27560
+- AT4G15490
+- AT3G50740
+- AT5G59070
+- AT4G24010
+- AT1G26810
+- AT1G18690
+- AT2G35650
+- AT5G16190
+- AT4G25870
+- AT1G68020
+- AT1G28700
+- AT4G38310
+- AT4G15500
+- AT2G37730
+- AT2G23210
+- AT4G34131
+- AT2G26100
+- AT5G17050
+- AT4G36770
+- GT21
+- AT1G53100
+- AT1G54940
+- AT1G73880
+- AT1G23870
+- AT4G32790
+- AT5G02410
+- GT35
+- AT4G31780
+- AT5G41250
+- AT4G02130
+- AT1G13250
+- AT2G26480
+- AT3G02230
+- GT75
+- pDONR_AT3G19280
+- pDONR_AT5G44030
+- AT1G01420
+- AT5G11130
+- AT1G08280
+- AT1G61050
+- AT3G50760
+- AT1G08660
+- AT1G32930
+- AT5G65685
+- AT5G03490
+- GT58
+- AT1G32900
+- AT1G03520
+- GT33
+- AT1G73370
+- AT3G55830
+- AT1G07850
+- AT5G18480
+- AT3G03690
+- GT43
+- AT4G15240
+- AT2G28080
+- AT3G05320
+- AT5G15050
+- AT3G11670
+- GT19
+- AT3G18660
+- AT1G05560
+- AT1G15980
+- AT2G38650
+- pDONR_AT5G24750
+- GT13
+- AT4G27570
+- AT1G53770
+- AT5G22130
+- AT4G15290
+- AT5G15470
+- AT1G09350
+- AT3G14960
+- AT1G78800
+- AT3G15940
+- AT3G46690
+- AT2G15490
+- AT5G55500
+- AT5G20260
+- AT2G18570
+- AT2G36970
+- AT5G65550
+- AT4G18230
+- AT3G21780
+- AT2G04560
+- AT1G74420
+- AT5G54060
+- AT1G68470
+- AT3G29320
+- AT1G19360
+- GT4
+- AT5G38040
+- AT1G50580
+- AT5G49190
+- AT3G28180
+- GT57
+- AT2G20370
+- AT4G15270
+- AT3G01040
+- GT14
+- AT1G74380
+- AT1G49710
+- AT1G02720
+- AT1G62305
+- AT1G06780
+- AT3G48820
+- AT1G21480
+- AT3G02100
+- AT5G44930
+- AT2G03210
+- AT2G47180
+- AT1G14590
+- AT1G24170
+- AT2G36750
+- GT1
+- pDONR_AT2G46480
+- AT1G05530
+- pDONR_AT4G18780
+- AT4G39350
+- AT5G17420
+- AT4G03550
+- AT3G28340
+- AT2G15390
+- GT8
+- AT3G46720
+- AT4G36890
+- AT5G22070
+- AT4G07960
+- AT3G46660
+- AT1G77130
+- AT3G11420
+- AT3G58790
+- AT5G15650
+- AT3G15350
+- AT2G30150
+- GT50
+- AT4G20170
+- AT3G11340
+- AT1G74800
+- AT1G27200
+- AT3G21760
+- GT28
+- AT1G52420
+- AT3G46700
+- pDONR_AT1G70290
+- AT2G23250
+- AT2G16890
+- AT5G22940
+- AT5G62620
+- AT3G42180
+- AT1G23480
+- AT5G11110
+- AT1G73740
+- AT5G67230
+- GT29
+- AT5G57270
+- AT2G36770
+- AT1G73810
+- AT5G54010
+- AT2G43820
+- AT1G10400
+- AT3G08900
+- AT5G25310
+- GT34
+- AT1G22015
+- AT1G11940
+- AT2G37090
+- AT4G23990
+- AT3G11540
+- AT4G01220
+- AT1G64920
+- AT2G39630
+- pDONR_AT5G05880
+- AT5G40720
+- AT4G31590
+- AT2G37585
+- AT2G02060
+- AT1G71070
+- AT3G25140
+- AT2G32740
+- AT4G01770
+- AT3G01180
+- AT1G67880
+- AT1G68380
+- AT4G16745
+- AT1G78580
+- AT2G36760
+- AT4G23490
+- AT3G03050
+- AT3G18180
+- AT1G07240
+- AT1G53290
+- AT1G43620
+- AT3G55700
+- AT2G36790
+- AT5G38460
+- AT4G15550
+- AT1G71990
+- AT2G40190
+- GT47
+- AT1G07260
+- AT5G37180
+- GT41
+- pDONR_AT4G27550
+- AT1G14100
+- AT5G61840
+- AT1G16900
+- GT5
+- GT64
+- AT5G23790
+- AT2G32610
+- AT5G19690
+- pDONR_At1g80290.1
+- AT5G50420
+- AT5G12890
+- GT61
+- GT10
+- AT3G45100
+- AT3G03650
+- AT1G64910
+- AT1G01570
+- AT1G04920
+- GT20
+- AT4G10120
+- AT2G19880
+- AT3G07020
+- AT1G11730
+- AT2G25300
+- AT5G22740
+- AT4G14090
+- GT32
+- AT3G04240
+- AT5G16890
+- AT2G45840
+- AT3G53160
+- AT5G14850
+- AT1G55850
+- AT1G12990
+- AT5G49690
+- AT1G70630
+- AT3G53150
+- AT2G33570
+- AT5G44670
+- AT3G10320
+- AT1G63450
+- AT4G38190
+- AT1G24100
+- AT5G14860
+- GT17
+- AT2G03370
+- AT5G40900
+- GT90
+- GT9
+- AT2G38150
+- AT5G38010
+- AT1G08990
+- AT2G47760
+- AT1G33430
+- AT4G38240
+- AT2G19160
+- AT1G22370
+- AT5G03760
+- AT4G24000
+- AT4G37690
+- AT4G02280
+- AT4G15260
+- GT77
+- AT3G62720
+- AT2G29040
+- AT2G35610
+- GT76
+- AT5G66690
+- AT3G22250
+- AT1G77810
+- AT1G28695
+- pDONR_AT1G05670
+- AT1G22400
+- AT3G46670
+- AT3G45400
+- AT5G54690
+- AT4G22580
+- AT1G22380
+- AT3G09020
+- AT5G19670
+- AT2G15480
+- GT2
+- AT5G53340
+- AT2G33100
+- AT5G62220
+- AT4G19900
+- AT4G30060
+- AT5G01220
+- AT3G21560
+- AT3G18170
+- AT2G03220
+- AT5G05860
+- AT1G56600
+- AT5G41460
+- AT3G07330
+- AT5G16510
+- AT4G15480
+- AT5G05170
+- AT5G03800
+- AT4G16590
+- AT1G68390
+- AT2G31990
+- AT3G14780
+- AT3G46970
+- AT3G10630
+- AT1G10280
+- AT1G05170
+- AT4G01750
+- AT1G67410
+- GT68
+- pDONR_AT4G18240
+- AT5G57500
+- GT48
+- AT5G44820
+- AT5G05870
+- AT3G57630
+- AT2G24630
+- AT4G00550
+- AT2G22590
+- AT2G36780
+- AT2G22900
+- AT4G32290
+- GT24
+- AT4G19460
+- AT4G01070
+- AT1G51210
+- AT3G62660
+- AT3G24040
+- AT5G24300
+- AT4G13990
+- AT5G26310
+- AT5G53990
+- AT2G28110
+- AT4G33330
+- AT1G73160
+- AT5G14550
+- AT5G23850
+- AT2G36800
+- AT2G31790
+- AT2G43840
+- AT3G61270
+- AT2G41640
+- AT2G31750
+- AT4G17770
+- AT1G33250
+- AT4G37420
+- AT1G20575
+- pDONR_AT1G24070
+- AT5G07720
+- AT4G09500
+- AT5G14480
+- GTNC
+- AT1G63420
+- AT2G32750
+- AT5G39990
+- AT2G29710
+- AT2G11810
+- AT5G04500
+- AT1G14070
+- AT2G45830
+- AT4G26250
+- AT1G75120
+- AT4G01210
+- AT2G32540
+- AT5G04480
+- AT1G51770
+- GT16
+- AT5G20410
+- AT2G32530
+- AT2G29740
+- pDONR_AT4G31350
+- AT2G44660
+- AT5G25820
+- AT2G30140
+- AT4G16600
+- AT2G35710
+- AT1G06000
+- AT3G21800
+- AT2G25540
+- AT3G21750
+- GT31
+- AT5G20280
+- AT2G29730
+- GT66
+- AT1G78270
+- AT1G27600
+- AT4G32410
+- AT1G74680
+- AT5G37000
+- AT1G01390
+- AT4G03340
+- GT30
+- AT3G01620
+- AT5G59580
+- AT1G07250
+- AT5G47780
+- AT1G22360
+- GT37
+- AT2G30575
+- AT5G11730
+- AT5G05890
+- AT2G29750
+- AT2G13290
+- AT3G55710
+- AT5G03770
+- AT1G07220
+- AT1G02730
+- AT4G34138
+- AT1G34270
+- AT1G19300
+- AT5G37950
+- AT1G14080
+- AT1G71220
+- AT5G33290
+- AT2G22930
+- AT4G11350
+- AT5G25330
+- AT3G61280
+- AT1G60140
+- AT4G38040
+- AT1G17270
+- GT22
+- AT4G27480
+- AT3G61130
+- AT2G35100
+- AT3G02350
+- AT1G19710
+- AT3G52060
+- AT2G03360
+- AT1G70090
+- AT3G06260
+- AT5G50750
+- GT92
+- AT1G27120
+- GT59
+- AT3G16520
+- AT2G18560
+- AT1G34130
+- AT3G61290
+- AT5G17030
+- AT1G60470
+- AT1G22340
+- AT5G59590
+- AT4G34135
+- AT4G13410
+- AT1G27440
+- AT3G46680
+- AT1G30530
+- AT3G06440
+- AT4G02500
+- AT4G32120
+- AT3G56000
+- AT2G23260
+- AT3G57380
+- AT3G27540
+- AT2G05320
+- AT3G48980
+- AT1G75420
+- AT2G20810
+- AT2G32430
+identifier: jbei:folder:00109
+repository: ICE
+datasetName: Lao et al. 2014 A
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/109
+description: This dataset comprises a collection of 434 Gateway entry clones, each
+  containing a unique glycosyltransferase (GT) gene from *Arabidopsis thaliana*. These
+  enzymes represent a wide range of families involved in the biosynthesis of plant
+  cell wall polysaccharides, a key target for bioenergy applications. Constructed
+  in the pDONR223 vector without their native stop codons, these clones provide a
+  comprehensive resource for high-throughput functional characterization of this important
+  gene superfamily.
+relatedItem:
+- title: 'Lao J, Oikawa A, Bromley JR, McInerney P, Suttangkakul A, Smith-Moritz AM,
+    Plahar H, Chiu TY, González Fernández-Niño SM, Ebert B, Yang F, Christiansen KM,
+    Hansen SF, Stonebloom S, Adams PD, Ronald PC, Hillson NJ, Hadi MZ, Vega-Sánchez
+    ME, Loqué D, Scheller HV, Heazlewood JL. The plant glycosyltransferase clone collection
+    for functional genomics. Plant J. 2014 Aug;79(3):517-29. doi: 10.1111/tpj.12577.
+    Epub 2014 Jul 9. PubMed PMID: 24905498.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pBR322_origin
+  backbone: pDONR_AT1G02145.3
+  promoters:
+  - T19
+  description: AT1G02145.3, GT22 cloned into pDONR223, no TGA
+  selection_markers:
+  - Spectinomycin
+- ori: pBR322_origin
+  backbone: pDONR_AT4G18240.1
+  promoters: []
+  description: AT4G18240, GT5 cloned into pDONR-223, no TGA
+  selection_markers:
+  - Spectinomycin
+- ori: pBR322_origin
+  backbone: pDONR_AT4G31350.1
+  promoters: []
+  description: AT4G31350, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - Spectinomycin
+- ori: pBR322_origin
+  backbone: pDONR_AT5G44030.1
+  promoters: []
+  description: AT5G44030, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - Spectinomycin
+- ori: pBR322_origin
+  backbone: pDONR_AT4G27550.1
+  promoters: []
+  description: AT4G27550, GT20 cloned into pDONR-223, no TGA
+  selection_markers:
+  - Spectinomycin
+- ori: pBR322_origin
+  backbone: pDONR_AT4G18780.1
+  promoters: []
+  description: AT4G18780, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - Spectinomycin
+- ori: pBR322_origin
+  backbone: pDONR_AT5G05880.1
+  promoters: []
+  description: AT5G05880, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - Spectinomycin
+- ori: pBR322_origin
+  backbone: pDONR_AT5G24750.1
+  promoters: []
+  description: AT5G24750, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - Spectinomycin
+- ori: pBR322_origin
+  backbone: pDONR_AT5G64740.1
+  promoters:
+  - T19
+  description: AT5G64740, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - Spectinomycin
+- ori: pBR322_origin
+  backbone: pDONR_At1g80290.1
+  promoters:
+  - T19
+  description: pDONR_At1g80290.1, GT64, no stop, cloned into pDONR223
+  selection_markers:
+  - gentamycin
+- ori: pBR322_origin
+  backbone: pDONR_AT3G19280.1
+  promoters: []
+  description: AT3G19280, GT10 cloned into pDONR-223, no TGA
+  selection_markers:
+  - Spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G65550.1
+  promoters: []
+  description: AT5G65550, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322_origin
+  backbone: pDONR_AT2G46480.1
+  promoters: []
+  description: AT2G46480, GT8 cloned into pDONR-223, no TGA, T816C T882C (ssnp) ,
+    1201(75bp+)
+  selection_markers:
+  - Spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G67230.1
+  promoters: []
+  description: AT5G67230, GT43 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G66690.1
+  promoters: []
+  description: AT5G66690, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322_origin
+  backbone: pDONR_AT1G24070.1
+  promoters: []
+  description: AT1G24070, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - Spectinomycin
+- ori: pBR322_origin
+  backbone: pDONR_AT1G70290.1
+  promoters: []
+  description: AT1G70290, GT20 cloned into pDONR-223, no TGA
+  selection_markers:
+  - Spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G62220.1
+  promoters: []
+  description: AT5G62220, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322_origin
+  backbone: pDONR_AT1G05670.1
+  promoters: []
+  description: AT1G05670, GT1 cloned into pDONR-223, no TGA, T1737C ssnp
+  selection_markers:
+  - Spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G62620.1
+  promoters: []
+  description: AT5G62620, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G65685.1
+  promoters: []
+  description: AT5G65685, GT5 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G61840.1
+  promoters: []
+  description: AT5G61840, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G59580.1
+  promoters: []
+  description: AT5G59580, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G54690.1
+  promoters: []
+  description: AT5G54690, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G59070.1
+  promoters: []
+  description: AT5G59070, GT4 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G57500.1
+  promoters: []
+  description: AT5G57500, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G59590.1
+  promoters: []
+  description: AT5G59590, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G55500.1
+  promoters: []
+  description: AT5G55500, GT61 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G54010.1
+  promoters: []
+  description: AT5G54010, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G54060.1
+  promoters: []
+  description: AT5G54060, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G57270.1
+  promoters: []
+  description: AT5G57270, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G53990.1
+  promoters: []
+  description: AT5G53990, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G49190.1
+  promoters: []
+  description: AT5G49190, GT4 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G53340.1
+  promoters: []
+  description: AT5G53340, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G44820.1
+  promoters: []
+  description: AT5G44820, GT77 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G44930.1
+  promoters: []
+  description: AT5G44930, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G49690.1
+  promoters: []
+  description: AT5G49690, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G47780.1
+  promoters: []
+  description: AT5G47780, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G44670.1
+  promoters: []
+  description: AT5G44670, GT92 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G50750.1
+  promoters: []
+  description: AT5G50750, GT75 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G50420.1
+  promoters: []
+  description: AT5G50420, GT68 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G41460.1
+  promoters: []
+  description: AT5G41460, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G38460.1
+  promoters: []
+  description: AT5G38460, GT57 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G37950.1
+  promoters: []
+  description: AT5G37950, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G38010.1
+  promoters: []
+  description: AT5G38010, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G40900.1
+  promoters: []
+  description: AT5G40900, GT77 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G39990.1
+  promoters: []
+  description: AT5G39990, GT14 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G37180.1
+  promoters: []
+  description: AT5G37180, GT4 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G38040.1
+  promoters: []
+  description: AT5G38040, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G41250.1
+  promoters: []
+  description: AT5G41250, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G40720.1
+  promoters: []
+  description: AT5G40720, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G37000.1
+  promoters: []
+  description: AT5G37000, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G25330.1
+  promoters: []
+  description: AT5G25330, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G25970.1
+  promoters: []
+  description: AT5G25970, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G26310.1
+  promoters: []
+  description: AT5G26310, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G23850.1
+  promoters: []
+  description: AT5G23850, GT90 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G33290.1
+  promoters: []
+  description: AT5G33290, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G24300.1
+  promoters: []
+  description: AT5G24300, GT5 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G23790.1
+  promoters: []
+  description: AT5G23790, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G25310.1
+  promoters: []
+  description: AT5G25310, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G25820.1
+  promoters: []
+  description: AT5G25820, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G22940.1
+  promoters: []
+  description: AT5G22940, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G22070.1
+  promoters: []
+  description: AT5G22070, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G20280.1
+  promoters: []
+  description: AT5G20280, GT4 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G19690.1
+  promoters: []
+  description: AT5G19690, GT66 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G22740.1
+  promoters: []
+  description: AT5G22740, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G20260.1
+  promoters: []
+  description: AT5G20260, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G22130.1
+  promoters: []
+  description: AT5G22130, GT50 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G18480.1
+  promoters: []
+  description: AT5G18480, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G19670.1
+  promoters: []
+  description: AT5G19670, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G20410.1
+  promoters: []
+  description: AT5G20410, GT28 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G17420.1
+  promoters: []
+  description: AT5G17420, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G16190.1
+  promoters: []
+  description: AT5G16190, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G17050.1
+  promoters: []
+  description: AT5G17050, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G15650.1
+  promoters: []
+  description: AT5G15650, GT75 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G16510.1
+  promoters: []
+  description: AT5G16510, GT75 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G15050.1
+  promoters: []
+  description: AT5G15050, GT14 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G17030.1
+  promoters: []
+  description: AT5G17030, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G16890.1
+  promoters: []
+  description: AT5G16890, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G15470.1
+  promoters: []
+  description: AT5G15470, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G16170.1
+  promoters: []
+  description: AT5G16170, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G14860.1
+  promoters: []
+  description: AT5G14860, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G07720.1
+  promoters: []
+  description: AT5G07720, GT34 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G14550.1
+  promoters: []
+  description: AT5G14550, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G12890.1
+  promoters: []
+  description: AT5G12890, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G14850.1
+  promoters: []
+  description: AT5G14850, GT22 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G11130.1
+  promoters: []
+  description: AT5G11130, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G11730.1
+  promoters: []
+  description: AT5G11730, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G05900.1
+  promoters: []
+  description: AT5G05900, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G14480.1
+  promoters: []
+  description: AT5G14480, GT17 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G11110.1
+  promoters: []
+  description: AT5G11110, GT4 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G05890.1
+  promoters: []
+  description: AT5G05890, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G05170.1
+  promoters: []
+  description: AT5G05170, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G03490.1
+  promoters: []
+  description: AT5G03490, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G05870.1
+  promoters: []
+  description: AT5G05870, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G03770.1
+  promoters: []
+  description: AT5G03770, GT30 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G05860.1
+  promoters: []
+  description: AT5G05860, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G04480.1
+  promoters: []
+  description: AT5G04480, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G03760.1
+  promoters: []
+  description: AT5G03760, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G04500.1
+  promoters: []
+  description: AT5G04500, GT64 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G03800.1
+  promoters: []
+  description: AT5G03800, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G02410.1
+  promoters: []
+  description: AT5G02410, GT59 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT5G01220.1
+  promoters: []
+  description: AT5G01220, GT4 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G38040.1
+  promoters: []
+  description: AT4G38040, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G38190.1
+  promoters: []
+  description: AT4G38190, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G37420.1
+  promoters: []
+  description: AT4G37420, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G38240.1
+  promoters: []
+  description: AT4G38240, GT13 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G37690.1
+  promoters: []
+  description: AT4G37690, GT34 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G38270.1
+  promoters: []
+  description: AT4G38270, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G38310.1
+  promoters: []
+  description: AT4G38310, GT34 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G39350.1
+  promoters: []
+  description: AT4G39350, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G36890.1
+  promoters: []
+  description: AT4G36890, GT43 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G34135.1
+  promoters: []
+  description: AT4G34135, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G32120.1
+  promoters: []
+  description: AT4G32120, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G36770.1
+  promoters: []
+  description: AT4G36770, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G32790.1
+  promoters: []
+  description: AT4G32790, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G33330.1
+  promoters: []
+  description: AT4G33330, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G34131.1
+  promoters: []
+  description: AT4G34131, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G34138.1
+  promoters: []
+  description: AT4G34138, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G32410.1
+  promoters: []
+  description: AT4G32410, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G32290.1
+  promoters: []
+  description: AT4G32290, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G31780.2
+  promoters: []
+  description: AT4G31780, GT28 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G30060.1
+  promoters: []
+  description: AT4G30060, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G27560.1
+  promoters: []
+  description: AT4G27560, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G25870.1
+  promoters: []
+  description: AT4G25870, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G27480.1
+  promoters: []
+  description: AT4G27480, GT14 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G24000.1
+  promoters: []
+  description: AT4G24000, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G31590.1
+  promoters: []
+  description: AT4G31590, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G27570.1
+  promoters: []
+  description: AT4G27570, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G24010.1
+  promoters: []
+  description: AT4G24010, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G26250.1
+  promoters: []
+  description: AT4G26250, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G23990.1
+  promoters: []
+  description: AT4G23990, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G19460.1
+  promoters: []
+  description: AT4G19460, GT4 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G17770.1
+  promoters: []
+  description: AT4G17770, GT20 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G18230.1
+  promoters: []
+  description: AT4G18230, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G22580.1
+  promoters: []
+  description: AT4G22580, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G23490.1
+  promoters: []
+  description: AT4G23490, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G20170.1
+  promoters: []
+  description: AT4G20170, GT92 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G19900.1
+  promoters: []
+  description: AT4G19900, GT32 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G16745.1
+  promoters: []
+  description: AT4G16745, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G16600.1
+  promoters: []
+  description: AT4G16600, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G16590.1
+  promoters: []
+  description: AT4G16590, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G15500.1
+  promoters: []
+  description: AT4G15500, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G15550.1
+  promoters: []
+  description: AT4G15550, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G15290.1
+  promoters: []
+  description: AT4G15290, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G15490.1
+  promoters: []
+  description: AT4G15490, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G15260.1
+  promoters: []
+  description: AT4G15260, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G15240.1
+  promoters: []
+  description: AT4G15240, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G15480.1
+  promoters: []
+  description: AT4G15480, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G14090.1
+  promoters: []
+  description: AT4G14090, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G15270.2
+  promoters: []
+  description: AT4G15270, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G13990.1
+  promoters: []
+  description: AT4G13990, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G09500.2
+  promoters: []
+  description: AT4G09500, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G07960.1
+  promoters: []
+  description: AT4G07960, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G11350.1
+  promoters: []
+  description: AT4G11350, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G03340.1
+  promoters: []
+  description: AT4G03340, GT14 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G13410.1
+  promoters: []
+  description: AT4G13410, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G10120.1
+  promoters: []
+  description: AT4G10120, GT4 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G03550.1
+  promoters: []
+  description: AT4G03550, GT48 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G02500.1
+  promoters: []
+  description: AT4G02500, GT34 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G02280.1
+  promoters: []
+  description: AT4G02280, GT4 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G02130.1
+  promoters: []
+  description: AT4G02130, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G62720.1
+  promoters: []
+  description: AT3G62720, GT34 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G01770.1
+  promoters: []
+  description: AT4G01770, GT77 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G61290.1
+  promoters: []
+  description: AT3G61290, GT90 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G01070.1
+  promoters: []
+  description: AT4G01070, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G01220.1
+  promoters: []
+  description: AT4G01220, GT77 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G01210.1
+  promoters: []
+  description: AT4G01210, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G62660.1
+  promoters: []
+  description: AT3G62660, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G00550.1
+  promoters: []
+  description: AT4G00550, GT4 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT4G01750.1
+  promoters: []
+  description: AT4G01750, GT77 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G61280.1
+  promoters: []
+  description: AT3G61280, GT90 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G55830.1
+  promoters: []
+  description: AT3G55830, GT64 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G57380.1
+  promoters: []
+  description: AT3G57380, GT61 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G61270.1
+  promoters: []
+  description: AT3G61270, GT90 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G57630.1
+  promoters: []
+  description: AT3G57630, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G56000.1
+  promoters: []
+  description: AT3G56000, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G61130.1
+  promoters: []
+  description: AT3G61130, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G58790.1
+  promoters: []
+  description: AT3G58790, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G55700.1
+  promoters: []
+  description: AT3G55700, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G55710.1
+  promoters: []
+  description: AT3G55710, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G46970.1
+  promoters: []
+  description: AT3G46970, GT35 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G52060.1
+  promoters: []
+  description: AT3G52060, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G50760.1
+  promoters: []
+  description: AT3G50760, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G50740.1
+  promoters: []
+  description: AT3G50740, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G48980.1
+  promoters: []
+  description: AT3G48980, GT90 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G53150.1
+  promoters: []
+  description: AT3G53150, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G53160.1
+  promoters: []
+  description: AT3G53160, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G46720.1
+  promoters: []
+  description: AT3G46720, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G48820.1
+  promoters: []
+  description: AT3G48820, GT29 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G46700.1
+  promoters: []
+  description: AT3G46700, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G46690.1
+  promoters: []
+  description: AT3G46690, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G46670.1
+  promoters: []
+  description: AT3G46670, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G28340.1
+  promoters: []
+  description: AT3G28340, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G29320.1
+  promoters: []
+  description: AT3G29320, GT35 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G42180.1
+  promoters: []
+  description: AT3G42180, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G28180.1
+  promoters: []
+  description: AT3G28180, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G46680.1
+  promoters: []
+  description: AT3G46680, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G46660.1
+  promoters: []
+  description: AT3G46660, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G45400.1
+  promoters: []
+  description: AT3G45400, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G45100.1
+  promoters: []
+  description: AT3G45100, GT4 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G27540.1
+  promoters: []
+  description: AT3G27540, GT17 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G25140.1
+  promoters: []
+  description: AT3G25140, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G21750.1
+  promoters: []
+  description: AT3G21750, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G22250.1
+  promoters: []
+  description: AT3G22250, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G21800.1
+  promoters: []
+  description: AT3G21800, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G21780.1
+  promoters: []
+  description: AT3G21780, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G18660.2
+  promoters: []
+  description: AT3G18660, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G21760.1
+  promoters: []
+  description: AT3G21760, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G21560.1
+  promoters: []
+  description: AT3G21560, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G24040.1
+  promoters: []
+  description: AT3G24040, GT14 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G18180.1
+  promoters: []
+  description: AT3G18180, GT61 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G11540.1
+  promoters: []
+  description: AT3G11540, GT41 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G15940.1
+  promoters: []
+  description: AT3G15940, GT4 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G14960.1
+  promoters: []
+  description: AT3G14960, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G11420.1
+  promoters: []
+  description: AT3G11420, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G16520.2
+  promoters: []
+  description: AT3G16520, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G11670.1
+  promoters: []
+  description: AT3G11670, GT4 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G15350.1
+  promoters: []
+  description: AT3G15350, GT14 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G18170.1
+  promoters: []
+  description: AT3G18170, GT61 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G14780.1
+  promoters: []
+  description: AT3G14780, GT48 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G11340.1
+  promoters: []
+  description: AT3G11340, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G08900.1
+  promoters: []
+  description: AT3G08900, GT75 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G07330.1
+  promoters: []
+  description: AT3G07330, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G09020.1
+  promoters: []
+  description: AT3G09020, GT32 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G07020.2
+  promoters: []
+  description: AT3G07020, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G10630.1
+  promoters: []
+  description: AT3G10630, GT4 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G10320.1
+  promoters: []
+  description: AT3G10320, GT61 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G06440.1
+  promoters: []
+  description: AT3G06440, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G06260.1
+  promoters: []
+  description: AT3G06260, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G07620.1
+  promoters: []
+  description: AT3G07620, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G05320.1
+  promoters: []
+  description: AT3G05320, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G03690.1
+  promoters: []
+  description: AT3G03690, GT14 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G03050.1
+  promoters: []
+  description: AT3G03050, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G02230.1
+  promoters: []
+  description: AT3G02230, GT75 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G03650.1
+  promoters: []
+  description: AT3G03650, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G02100.1
+  promoters: []
+  description: AT3G02100, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G01180.1
+  promoters: []
+  description: AT3G01180, GT5 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G01620.1
+  promoters: []
+  description: AT3G01620, GT17 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G04240.1
+  promoters: []
+  description: AT3G04240, GT41 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G02350.1
+  promoters: []
+  description: AT3G02350, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT3G01040.2
+  promoters: []
+  description: AT3G01040, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G40190.1
+  promoters: []
+  description: AT2G40190, GT4 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G47760.1
+  promoters: []
+  description: AT2G47760, GT58 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G47180.1
+  promoters: []
+  description: AT2G47180, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G45830.1
+  promoters: []
+  description: AT2G45830, GT90 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G45840.1
+  promoters: []
+  description: AT2G45840, GT90 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G41640.1
+  promoters: []
+  description: AT2G41640, GT61 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G44660.2
+  promoters: []
+  description: AT2G44660, GT57 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G43840.1
+  promoters: []
+  description: AT2G43840, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G43820.1
+  promoters: []
+  description: AT2G43820, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G39630.1
+  promoters: []
+  description: AT2G39630, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G37730.1
+  promoters: []
+  description: AT2G37730, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G36790.1
+  promoters: []
+  description: AT2G36790, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G38150.1
+  promoters: []
+  description: AT2G38150, GT32 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G36770.1
+  promoters: []
+  description: AT2G36770, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G38650.1
+  promoters: []
+  description: AT2G38650, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G36970.1
+  promoters: []
+  description: AT2G36970, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G37090.1
+  promoters: []
+  description: AT2G37090, GT43 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G37585.1
+  promoters: []
+  description: AT2G37585, GT14 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G36800.1
+  promoters: []
+  description: AT2G36800, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G36780.1
+  promoters: []
+  description: AT2G36780, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G36760.1
+  promoters: []
+  description: AT2G36760, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G32750.1
+  promoters: []
+  description: AT2G32750, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G35710.1
+  promoters: []
+  description: AT2G35710, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G36750.1
+  promoters: []
+  description: AT2G36750, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G32740.1
+  promoters: []
+  description: AT2G32740, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G35650.1
+  promoters: []
+  description: AT2G35650, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G35100.1
+  promoters: []
+  description: AT2G35100, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G33570.1
+  promoters: []
+  description: AT2G33570, GT92 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G33100.1
+  promoters: []
+  description: AT2G33100, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G35610.1
+  promoters: []
+  description: AT2G35610, GT77 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G32610.1
+  promoters: []
+  description: AT2G32610, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G31790.1
+  promoters: []
+  description: AT2G31790, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G32540.1
+  promoters: []
+  description: AT2G32540, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G32530.1
+  promoters: []
+  description: AT2G32530, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G32430.1
+  promoters: []
+  description: AT2G32430, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G30140.1
+  promoters: []
+  description: AT2G30140, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G29750.1
+  promoters: []
+  description: AT2G29750, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G30150.1
+  promoters: []
+  description: AT2G30150, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G31750.1
+  promoters: []
+  description: AT2G31750, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G30575.1
+  promoters: []
+  description: AT2G30575, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G31990.1
+  promoters: []
+  description: AT2G31990, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G29740.1
+  promoters: []
+  description: AT2G29740, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G29040.1
+  promoters: []
+  description: AT2G29040, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G28110.1
+  promoters: []
+  description: AT2G28110, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G26100.1
+  promoters: []
+  description: AT2G26100, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G28080.1
+  promoters: []
+  description: AT2G28080, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G29710.1
+  promoters: []
+  description: AT2G29710, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G25540.1
+  promoters: []
+  description: AT2G25540, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G29730.1
+  promoters: []
+  description: AT2G29730, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G25300.1
+  promoters: []
+  description: AT2G25300, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G26480.1
+  promoters: []
+  description: AT2G26480, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G24630.1
+  promoters: []
+  description: AT2G24630, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G23210.1
+  promoters: []
+  description: AT2G23210, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G23250.1
+  promoters: []
+  description: AT2G23250, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G23260.1
+  promoters: []
+  description: AT2G23260, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G22590.1
+  promoters: []
+  description: AT2G22590, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G19880.2
+  promoters: []
+  description: AT2G19880, GT21 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G20370.1
+  promoters: []
+  description: AT2G20370, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G22900.1
+  promoters: []
+  description: AT2G22900, GT34 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G22930.1
+  promoters: []
+  description: AT2G22930, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G20810.1
+  promoters: []
+  description: AT2G20810, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G19160.1
+  promoters: []
+  description: AT2G19160, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G05320.1
+  promoters: []
+  description: AT2G05320, GT16 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G15490.1
+  promoters: []
+  description: AT2G15490, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G18560.1
+  promoters: []
+  description: AT2G18560, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G16890.1
+  promoters: []
+  description: AT2G16890, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G15480.1
+  promoters: []
+  description: AT2G15480, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G11810.1
+  promoters: []
+  description: AT2G11810, GT28 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G18570.1
+  promoters: []
+  description: AT2G18570, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G15390.2
+  promoters: []
+  description: AT2G15390, GT37 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G04560.1
+  promoters: []
+  description: AT2G04560, GT19 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G13290.1
+  promoters: []
+  description: AT2G13290, GT17 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G03370.2
+  promoters: []
+  description: AT2G03370, GT61 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G78270.1
+  promoters: []
+  description: AT1G78270, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G77130.1
+  promoters: []
+  description: AT1G77130, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G03210.1
+  promoters: []
+  description: AT2G03210, GT37 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G03220.1
+  promoters: []
+  description: AT2G03220, GT37 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G78800.1
+  promoters: []
+  description: AT1G78800, GT4 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G02060.1
+  promoters: []
+  description: AT2G02060, GT77 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G78580.1
+  promoters: []
+  description: AT1G78580, GT20 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT2G03360.2
+  promoters: []
+  description: AT2G03360, GT61 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G77810.3
+  promoters: []
+  description: AT1G77810, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G75110.1
+  promoters: []
+  description: AT1G75110, GT77 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G74680.1
+  promoters: []
+  description: AT1G74680, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G74800.1
+  promoters: []
+  description: AT1G74800, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G75420.1
+  promoters: []
+  description: AT1G75420, GT4 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G74420.1
+  promoters: []
+  description: AT1G74420, GT37 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G73740.1
+  promoters: []
+  description: AT1G73740, GT28 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G75120.1
+  promoters: []
+  description: AT1G75120, GT77 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G73810.1
+  promoters: []
+  description: AT1G73810, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G74380.1
+  promoters: []
+  description: AT1G74380, GT34 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G73880.1
+  promoters: []
+  description: AT1G73880, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G68390.1
+  promoters: []
+  description: AT1G68390, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G71990.1
+  promoters: []
+  description: AT1G71990, GT10 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G73160.1
+  promoters: []
+  description: AT1G73160, GT4 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G68470.1
+  promoters: []
+  description: AT1G68470, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G70090.1
+  promoters: []
+  description: AT1G70090, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G71220.1
+  promoters: []
+  description: AT1G71220, GT24 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G68380.1
+  promoters: []
+  description: AT1G68380, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G73370.1
+  promoters: []
+  description: AT1G73370, GT4 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G71070.1
+  promoters: []
+  description: AT1G71070, GT14 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G70630.1
+  promoters: []
+  description: AT1G70630, GT77 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G64910.1
+  promoters: []
+  description: AT1G64910, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G68020.1
+  promoters: []
+  description: AT1G68020, GT20 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G62305.1
+  promoters: []
+  description: AT1G62305, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G67410.1
+  promoters: []
+  description: AT1G67410, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G63450.1
+  promoters: []
+  description: AT1G63450, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G61050.1
+  promoters: []
+  description: AT1G61050, GT32 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G64920.1
+  promoters: []
+  description: AT1G64920, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G67880.1
+  promoters: []
+  description: AT1G67880, GT17 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G63420.1
+  promoters: []
+  description: AT1G63420, GT90 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G60470.1
+  promoters: []
+  description: AT1G60470, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G55850.1
+  promoters: []
+  description: AT1G55850, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G60140.1
+  promoters: []
+  description: AT1G60140, GT20 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G53770.1
+  promoters: []
+  description: AT1G53770, GT68 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G56600.1
+  promoters: []
+  description: AT1G56600, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G51770.1
+  promoters: []
+  description: AT1G51770, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G53100.1
+  promoters: []
+  description: AT1G53100, GT14 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G52420.1
+  promoters: []
+  description: AT1G52420, GT4 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G53290.1
+  promoters: []
+  description: AT1G53290, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G51210.1
+  promoters: []
+  description: AT1G51210, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G54940.1
+  promoters: []
+  description: AT1G54940, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G34270.1
+  promoters: []
+  description: AT1G34270, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G33250.1
+  promoters: []
+  description: AT1G33250, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G43620.1
+  promoters: []
+  description: AT1G43620, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G33430.1
+  promoters: []
+  description: AT1G33430, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G49710.1
+  promoters: []
+  description: AT1G49710, GT10 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G50580.1
+  promoters: []
+  description: AT1G50580, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G34130.1
+  promoters: []
+  description: AT1G34130, GT66 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G32900.1
+  promoters: []
+  description: AT1G32900, GT5 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G30530.1
+  promoters: []
+  description: AT1G30530, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G32930.1
+  promoters: []
+  description: AT1G32930, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G27600.1
+  promoters: []
+  description: AT1G27600, GT43 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G27120.1
+  promoters: []
+  description: AT1G27120, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G27440.1
+  promoters: []
+  description: AT1G27440, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G27200.1
+  promoters: []
+  description: AT1G27200, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G28695.1
+  promoters: []
+  description: AT1G28695, GT77 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G24170.1
+  promoters: []
+  description: AT1G24170, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G28700.1
+  promoters: []
+  description: AT1G28700, GT77 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G28710.1
+  promoters: []
+  description: AT1G28710, GT77 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G26810.1
+  promoters: []
+  description: AT1G26810, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G24100.1
+  promoters: []
+  description: AT1G24100, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G22380.1
+  promoters: []
+  description: AT1G22380, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G23870.1
+  promoters: []
+  description: AT1G23870, GT20 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G22370.1
+  promoters: []
+  description: AT1G22370, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G23480.1
+  promoters: []
+  description: AT1G23480, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G22400.1
+  promoters: []
+  description: AT1G22400, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G22340.1
+  promoters: []
+  description: AT1G22340, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G22360.1
+  promoters: []
+  description: AT1G22360, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G22015.1
+  promoters: []
+  description: AT1G22015, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G21480.1
+  promoters: []
+  description: AT1G21480, GT47 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G16900.1
+  promoters: []
+  description: AT1G16900, GT22 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G20575.1
+  promoters: []
+  description: AT1G20575, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G19360.1
+  promoters: []
+  description: AT1G19360, GT77 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G19710.1
+  promoters: []
+  description: AT1G19710, GT4 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G16570.1
+  promoters: []
+  description: AT1G16570, GT33 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G17270.1
+  promoters: []
+  description: AT1G17270, GT68 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G18690.1
+  promoters: []
+  description: AT1G18690, GT34 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G19300.1
+  promoters: []
+  description: AT1G19300, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G15980.1
+  promoters: []
+  description: AT1G15980, GT9 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G12990.1
+  promoters: []
+  description: AT1G12990, GT17 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G13250.1
+  promoters: []
+  description: AT1G13250, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G14590.1
+  promoters: []
+  description: AT1G14590, GT77 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G11940.1
+  promoters: []
+  description: AT1G11940, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G11880.1
+  promoters: []
+  description: AT1G11880, GT76 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G14080.1
+  promoters: []
+  description: AT1G14080, GT37 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G11730.1
+  promoters: []
+  description: AT1G11730, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G14100.1
+  promoters: []
+  description: AT1G14100, GT37 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G14070.1
+  promoters: []
+  description: AT1G14070, GT37 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G10280.1
+  promoters: []
+  description: AT1G10280, GTNC cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G10400.1
+  promoters: []
+  description: AT1G10400, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G08280.1
+  promoters: []
+  description: AT1G08280, GT29 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G07850.1
+  promoters: []
+  description: AT1G07850, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G09350.1
+  promoters: []
+  description: AT1G09350, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G08660.1
+  promoters: []
+  description: AT1G08660, GT29 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G07250.1
+  promoters: []
+  description: AT1G07250, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G07260.1
+  promoters: []
+  description: AT1G07260, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G07240.1
+  promoters: []
+  description: AT1G07240, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G08990.1
+  promoters: []
+  description: AT1G08990, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G07220.1
+  promoters: []
+  description: AT1G07220, GT90 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G04920.1
+  promoters: []
+  description: AT1G04920, GT4 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G05530.1
+  promoters: []
+  description: AT1G05530, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G06000.1
+  promoters: []
+  description: AT1G06000, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G02730.1
+  promoters: []
+  description: AT1G02730, GT2 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G06780.1
+  promoters: []
+  description: AT1G06780, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G05560.1
+  promoters: []
+  description: AT1G05560, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G02720.1
+  promoters: []
+  description: AT1G02720, GT8 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G05170.2
+  promoters: []
+  description: AT1G05170, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G03520.1
+  promoters: []
+  description: AT1G03520, GT14 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G01570.1
+  promoters: []
+  description: AT1G01570, GT31 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G01420.1
+  promoters: []
+  description: AT1G01420, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+- ori: pBR322
+  backbone: pDONR_AT1G01390.1
+  promoters: []
+  description: AT1G01390, GT1 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+bibliographicCitation: https://public-registry.jbei.org/folders/109
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00109
+created_at: '2025-11-18T20:03:56.767Z'
+updated_at: '2025-12-11T00:00:04.619Z'

@@ -1,0 +1,81 @@
+id: jbei:435
+brc: JBEI
+date: '2019-03-21'
+title: Wang et. ACS 2019
+creator:
+- name: Shizeng Wang
+  email: shizengwang@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Kevin George
+  email: kwgeorge@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- 3A
+identifier: jbei:folder:00435
+repository: ICE
+datasetName: Wang et. ACS 2019
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/435
+description: This dataset contains a two-plasmid system designed for microbial production
+  of the biofuel isopentenol. The first plasmid establishes a synthetic mevalonate
+  (MVA) pathway, while the second plasmid expresses the terminal enzymes phosphomevalonate
+  decarboxylase (PMD) and NudB phosphatase to generate the final product. A key feature
+  of this system is an engineered ribosome binding site for the NudB gene, used to
+  fine-tune expression and optimize isopentenol yield.
+relatedItem:
+- title: George, K. W., Chen, A., Jain, A., Batth, T. S., Baidoo, E. E., Wang, G.,
+    Adams, P. D., Petzold, C. J., Keasling, J. D., &amp; Lee, T. S. (2014). “Correlation
+    analysis of targeted proteins and metabolites to assess and engineer microbial
+    isopentenol production”. Biotechnol Bioeng, 111(8), 1648-1658. Also used in Shi,
+    J., George, K. W., Sun, N., He, W., Li, C., Stavila, V., Keasling, J. D., Simmons,
+    B. A., Lee, T. S., &amp; Singh, S. (2015). "Impact of Pretreatment Technologies
+    on Saccharification and Isopentenol Fermentation of Mixed Lignocellulosic Feedstocks".
+    BioEnergy Research, 1-10. doi, 10.1007/s12155-015-9588-z http://dx.doi.org/10.1007/s12155-015-9588-z
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: George, K. W., Chen, A., Jain, A., Batth, T. S., Baidoo, E. E., Wang, G.,
+    Adams, P. D., Petzold, C. J., Keasling, J. D., &amp; Lee, T. S. (2014). “Correlation
+    analysis of targeted proteins and metabolites to assess and engineer microbial
+    isopentenol production”. Biotechnol Bioeng, 111(8), 1648-1658.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: George, K. W., Thompson, M. G., Kang, A., Baidoo, E., Wang, G., Chan, L.
+    J., Adams, P. D., Petzold, C. J., Keasling, J. D., &amp; Soon Lee, T. (2015).
+    "Metabolic engineering for the high-yield production of isoprenoid-based C5 alcohols
+    in E. coli". Sci Rep, 5, 11128. doi, 10.1038/srep11128 http://www.ncbi.nlm.nih.gov/pubmed/26052683
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors:
+- name: Taek Soon Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: MevTsa-MKco-PMKco
+  promoters: []
+  description: MevTsa with MKco-PMKco
+  selection_markers:
+  - Cm
+- backbone: ' pTrc99A-nudBrbs10-PMD'
+  promoters: []
+  description: pTrc99A backbone with NudB RBS varaint number 10 and PMD.  "Plasmid
+    2" for isopentenol production
+  selection_markers:
+  - Ampicillin
+bibliographicCitation: https://public-registry.jbei.org/folders/435
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00435
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

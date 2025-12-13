@@ -1,0 +1,155 @@
+{# ============================================================================
+   Reusable macros for rendering different data types
+   ============================================================================ #}
+
+{# Render a DOI as a link #}
+{% macro doi_link(doi) %}
+{% if doi %}
+{% if doi.startswith('doi:') %}
+<a href="https://doi.org/{{ doi[4:] }}" target="_blank" class="link-doi">{{ doi }}</a>
+{% else %}
+<a href="https://doi.org/{{ doi }}" target="_blank" class="link-doi">{{ doi }}</a>
+{% endif %}
+{% endif %}
+{% endmacro %}
+
+{# Render an NMDC ID as a link - uses the generic API endpoint that redirects appropriately #}
+{% macro nmdc_link(nmdc_id) %}
+{% if nmdc_id %}
+{% set bare_id = nmdc_id[5:] if nmdc_id.startswith('nmdc:') else nmdc_id %}
+<a href="https://api.microbiomedata.org/objects/{{ bare_id }}" target="_blank" class="link-nmdc">{{ nmdc_id }}</a>
+{% endif %}
+{% endmacro %}
+
+{# Render a URL as a link #}
+{% macro url_link(url, label=None) %}
+{% if url %}
+<a href="{{ url }}" target="_blank">{{ label or url }}</a>
+{% endif %}
+{% endmacro %}
+
+{# Render a list of chips/tags #}
+{% macro chip_list(items, chip_class='') %}
+{% if items %}
+<div class="chip-list">
+{% for item in items %}
+<span class="chip {{ chip_class }}">{{ item | replace('_', ' ') | title }}</span>
+{% endfor %}
+</div>
+{% endif %}
+{% endmacro %}
+
+{# Render keywords as chips #}
+{% macro keywords(items) %}
+{{ chip_list(items, 'keyword') }}
+{% endmacro %}
+
+{# Render data types as chips #}
+{% macro data_types(items) %}
+{{ chip_list(items, 'data-type') }}
+{% endmacro %}
+
+{# Render modalities as chips #}
+{% macro modalities(items) %}
+{{ chip_list(items, 'modality') }}
+{% endmacro %}
+
+{# Render institutions as chips #}
+{% macro institutions(items) %}
+{{ chip_list(items, 'institution') }}
+{% endmacro %}
+
+{# Render a badge #}
+{% macro badge(text, badge_class='') %}
+<span class="badge {{ badge_class }}">{{ text }}</span>
+{% endmacro %}
+
+{# Render priority badge #}
+{% macro priority_badge(priority) %}
+{% if priority %}
+{{ badge(priority, 'priority-' ~ priority|lower) }}
+{% endif %}
+{% endmacro %}
+
+{# Render status badge #}
+{% macro status_badge(status) %}
+{% if status %}
+{{ badge(status | replace('_', ' '), 'status-' ~ status|lower) }}
+{% endif %}
+{% endmacro %}
+
+{# Render a field with label and value #}
+{% macro field(label, value, render_func=None) %}
+{% if value %}
+<div class="field">
+    <span class="field-label">{{ label | replace('_', ' ') }}:</span>
+    <span class="field-value">
+        {% if render_func %}
+            {{ render_func(value) }}
+        {% elif value is string %}
+            {{ value }}
+        {% elif value is iterable and value is not mapping %}
+            {{ value | join(', ') }}
+        {% else %}
+            {{ value }}
+        {% endif %}
+    </span>
+</div>
+{% endif %}
+{% endmacro %}
+
+{# Render a person #}
+{% macro person_card(person) %}
+<div class="person-card">
+    <div class="person-name">{{ person.name }}</div>
+    {% if person.role %}<div class="person-role">{{ person.role }}</div>{% endif %}
+    {% if person.affiliation %}<div class="person-affiliation">{{ person.affiliation }}</div>{% endif %}
+</div>
+{% endmacro %}
+
+{# Render a list of people #}
+{% macro person_list(people) %}
+{% if people %}
+<div class="person-list">
+{% for person in people %}
+{{ person_card(person) }}
+{% endfor %}
+</div>
+{% endif %}
+{% endmacro %}
+
+{# Render web resources #}
+{% macro web_resources(websites) %}
+{% if websites %}
+<div class="web-links">
+{% for key, url in websites.items() if url %}
+<a href="{{ url }}" target="_blank" class="web-link">
+    {{ key | replace('_', ' ') | title }}
+</a>
+{% endfor %}
+</div>
+{% endif %}
+{% endmacro %}
+
+{# Render location #}
+{% macro location(loc) %}
+{% if loc %}
+<span class="location-text">
+{% if loc.city %}{{ loc.city }}{% endif %}
+{% if loc.state %}, {{ loc.state }}{% endif %}
+{% if loc.country and loc.country != 'USA' %}, {{ loc.country }}{% endif %}
+</span>
+{% endif %}
+{% endmacro %}
+
+{# Render funding info #}
+{% macro funding_info(funding) %}
+{% if funding %}
+<span>
+{{ funding.agency or '' }}
+{% if funding.program %} / {{ funding.program }}{% endif %}
+{% if funding.current_period %} ({{ funding.current_period }}){% endif %}
+{% if funding.total_funding %} - {{ funding.total_funding }}{% endif %}
+</span>
+{% endif %}
+{% endmacro %}

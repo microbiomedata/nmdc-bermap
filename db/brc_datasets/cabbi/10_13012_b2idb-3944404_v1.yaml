@@ -1,0 +1,54 @@
+brc: CABBI
+date: '2022-04-27'
+title: Optimizing Chemical-Free Pretreatment for Maximizing Oil/Lipid Recovery from
+  Transgenic Bioenergy Crops and its Rapid Analysis Using Time Domain-NMR
+creator:
+- name: Vijay Singh
+  email: vsingh@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Stephen Long
+  email: slong@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 4546
+  scientificName: Saccharum spp. hybrid
+keywords:
+- Transgenic sugarcane
+- Fatty acid recovery
+- Sugar profiles
+- Lipid analysis
+identifier: 10.13012/B2IDB-3944404_V1
+repository: Illinois Data Bank
+description: Transgenic bioenergy crops have shown the potential to produce vegetative
+  oil by accumulating energy-rich triacylglyceride molecules that can be converted
+  into biofuels (biodiesel and biojet). These transgenic crops cater to improved biofuel
+  yield by providing lipids along with cellulosic sugars. Efficient bioprocessing
+  technologies are needed to utilize these transgenic plants to their maximum potential.
+  To this end, this study investigates a low- and high-severity chemical-free hydrothermal
+  pretreatment of transgenic oilcane 1566 bagasse with in situ lipids to maximize
+  the recovery of lipids for biodiesel and fermentable sugars for ethanol with minimal
+  inhibitor generation. Hydrothermal pretreatment at 170°C recovered ∼25% of total
+  lipids in the pretreatment liquor, leaving the remainder in bagasse residue for
+  hexane recovery post fermentation. The recovery of lipids in pretreatment liquor
+  remained constant beyond 170°C. Along with lipids, ∼35% w/w and ∼50% w/w fermentable
+  sugars were recovered post saccharification from bagasse pretreated at 170°C and
+  210°C for 20 min, respectively. Hydrothermal pretreatment at 170°C for 20 min provided
+  the optimum conditions for maximum recovery of lipids and cellulosic sugars that
+  resulted in enhanced biofuel yield per unit biomass. High severity pretreatment
+  increased the generation of inhibitors beyond the tolerance of fermentation microorganisms.
+  In addition, the application of time-domain proton NMR spectroscopy was extended
+  to bioprocessing. NMR technology facilitated the analysis of total lipids, the composition
+  of fatty acids, and the characterization of free and bound lipids in untreated and
+  pretreated oilcane 1566 bagasse subsequent to each step of biomass to biofuel conversion.
+relatedItem:
+- title: Optimizing Chemical-Free Pretreatment for Maximizing Oil/Lipid Recovery from
+    Transgenic Bioenergy Crops and its Rapid Analysis Using Time Domain-NMR
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.3389/fenrg.2022.840418
+bibliographicCitation: https://doi.org/10.13012/B2IDB-3944404_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-3944404_V1
+created_at: '2025-11-20T18:00:04.759Z'
+updated_at: '2025-12-10T06:00:05.196Z'

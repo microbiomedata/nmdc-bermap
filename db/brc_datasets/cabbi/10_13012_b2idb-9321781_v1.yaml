@@ -1,0 +1,46 @@
+brc: CABBI
+date: '2021-03-17'
+title: Genotype-Environment-Management Interactions in Biomass Yield and Feedstock
+  Composition of Photoperiod-Sensitive Energy Sorghum
+creator:
+- name: DoKyoung Lee
+  email: leedk@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 4558
+  scientificName: Sorghum bicolor
+keywords:
+- Sorghum
+- Interaction data
+- Biomass yields
+identifier: 10.13012/B2IDB-9321781_V1
+repository: Illinois Data Bank
+description: 'Recently introduced photoperiod-sensitive (PS) biomass sorghum (Sorghum
+  bicolor L. Moench) needs to be investigated for yield potential under different
+  cultivation environments with reasonable nitrogen (N) inputs. The objectives of
+  this study were to (1) evaluate the biomass yield and feedstock quality of four
+  sorghum hybrids with different levels of PS ranging from very PS (VPS) hybrids and
+  to moderate PS (MPS) hybrids, and (2) determine the optimal N inputs (0~168 kg N
+  ha−1) under four environments: combinations of both temperate (Urbana, IL) and subtropical
+  (College Station, TX) regions during 2018 and 2019. Compared to TX, the PS sorghums
+  in central IL showed higher yield potential and steady feedstock production with
+  an extended day length and with less precipitation variability, especially for the
+  VPS hybrids. The mean dry matter (DM) yields of VPS hybrids were 20.5 Mg DM ha−1
+  and 17.7 Mg DM ha−1 in IL and TX, respectively. The highest N use efficiency occurred
+  at a low N rate of 56 kg N ha−1 by improving approximately 33 kg DM ha−1 per 1.0
+  kg N ha−1 input. Approximately 70% of the PS sorghum biomass can be utilized for
+  biofuel production, consisting of 58-65% of the cell-wall components and 4-11% of
+  the soluble sugar. This study demonstrated that the rainfed temperate area (e.g.,
+  IL) has a great potential for the sustainable cultivation of PS energy sorghum due
+  to their observed high yield potential, stable production, and low N requirements.'
+relatedItem:
+- title: Genotype-Environment-Management Interactions in Biomass Yield and Feedstock
+    Composition of Photoperiod-Sensitive Energy Sorghum
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1007/s12155-021-10272-6
+bibliographicCitation: https://doi.org/10.13012/B2IDB-9321781_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-9321781_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

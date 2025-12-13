@@ -1,0 +1,40 @@
+brc: GLBRC
+date: '2023-11-14'
+title: Bioenergy cropping systems shape ant community composition and functional roles
+creator:
+- name: Nathan L. Haan
+  email: nate.haan@uky.edu
+  affiliation: Department of Entomology, University of Kentucky, Lexington, Kentucky,
+    USA
+  primaryContact: true
+species:
+- NCBITaxID: null
+  scientificName: Several different cropping systems
+- NCBITaxID: null
+  scientificName: insect species
+keywords:
+- ants
+- bioenergy
+- climate change
+- ecosystem service
+- grassland
+identifier: zenodo.10125287
+repository: Zenodo
+description: R code and partial data for Haan, Helms, &amp; Landis 2023, Bioenergy
+  cropping systems shape ant community composition and functional roles, to be published
+  in Frontiers in Conservation Science. The ant species list we use to generate the
+  species matrix was uploaded previously (10.5281/zenodo.8215581) in association with
+  another manuscript (Haan et al. 2023, Science Advances, Contrasting effects of bioenergy
+  crops on biodiversity). Therefore here we include a small table with trait information
+  for each species along with the R code used specifically for this manuscript.
+relatedItem:
+- title: N.L. Haan et al. "Bioenergy cropping systems shape ant community composition
+    and functional roles" Frontiers in Conservation Service 4:1283225 (2024) [DOI:10.3389/fcosc.2023.1283225]
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.frontiersin.org/articles/10.3389/fcosc.2023.1283225/
+analysisType: Code; Field data
+bibliographicCitation: https://zenodo.org/records/10125287
+schema_version: 0.1.7
+uid: GLBRC_zenodo.10125287
+created_at: '2025-11-19T18:00:04.599Z'
+updated_at: '2025-12-10T06:00:05.197Z'

@@ -1,0 +1,36 @@
+brc: CABBI
+date: '2021-08-30'
+title: 'FUN-BioCROP: Fixation and Uptake of Nitrogen-Bioenergy Carbon, Rhizosphere,
+  Organisms, and Protection'
+creator:
+- name: Brzostek, Edward R.
+  email: erbrzostek@mail.wvu.edu
+  affiliation: West Virginia University
+  primaryContact: true
+keywords:
+- bioenergy model
+- soil carbon
+- soil nitrogen
+- FUN-BioCrop
+identifier: 10.5281/zenodo.5562481
+repository: Zenodo
+description: This data package contains the model input, results, and validation data
+  from Juice, et al. 2022. The FUN-BioCROP model (Fixation and Uptake of Nitrogen-
+  Bioenergy Carbon, Rhizosphere, Organisms, and Protection) advances the field of
+  bioenergy modeling by integrating new empirical paradigms of the role of belowground
+  processes in shaping coupled carbon (C) and nitrogen (N) cycles. It was developed
+  by modifying the FUN-CORPSE model (Fixation and Uptake of Nitrogen-Carbon, Organisms,
+  Rhizosphere, and Protection in the Soil Environment, Sulman et al. 2017 Ecology
+  Letters) for use in bioenergy systems by including mechanistic tillage, organic
+  matter addition, nitrogen fertilization, harvest, and feedstock-specific parameters,
+  and to be driven by DayCent plant productivity and biomass data.
+relatedItem:
+- title: A New Bioenergy Model that Simulates the Impacts of Plant-Microbial Interactions,
+    Soil Carbon Protection, and Mechanistic Tillage on Soil Carbon Cycling
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/gcbb.12914
+bibliographicCitation: https://doi.org/10.5281/zenodo.5562481
+schema_version: 0.1.1
+uid: CABBI_10.5281/zenodo.5562481
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.624Z'

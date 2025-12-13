@@ -1,0 +1,35 @@
+brc: GLBRC
+date: '2024-08-01'
+title: NMR Database of Lignin and Cell Wall Model Compounds
+creator:
+- name: John Ralph
+  email: jralph@wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: true
+- name: Sally A. Ralph
+  email: saralph@wisc.edu
+  affiliation: USDA-FS - University of Wisconsin-Madison
+  primaryContact: false
+- name: Fachuang Lu
+  email: fachuanglu@wisc.edu
+  affiliation: University of Wisconisn-Madison
+  primaryContact: false
+species: []
+keywords:
+- NMR
+- lignin
+- cell wall
+- model compound
+identifier: '2409191'
+repository: OSTI
+description: 'This database was designed to provide a coherent, single source of NMR
+  data of lignin and other plant cell wall model compounds. The database exists as
+  an Adobe pdf cross-platform file for viewing and printing. This is the latest public
+  version of the Database, version 2024/08 updated from the 2009 version. '
+relatedItem: []
+analysisType: NMR
+bibliographicCitation: https://doi.org/10.11578/2409191
+schema_version: 0.1.7
+uid: GLBRC_2409191
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.197Z'

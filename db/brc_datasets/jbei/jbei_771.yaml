@@ -1,0 +1,390 @@
+id: jbei:771
+brc: JBEI
+date: '2021-01-22'
+title: pGinger Suite
+creator:
+- name: Mitchell Thompson
+  email: mthompson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Allison Pearson
+  email: al.pearson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 629395
+  scientificName: Bacteria
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00771
+repository: ICE
+datasetName: pGinger Suite
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/771
+description: The pGinger Suite is a modular collection of 50 plasmids designed for
+  controlled gene expression across a wide range of bacteria. This toolkit systematically
+  combines broad-host-range origins of replication (BBR1 and RK2) with a diverse set
+  of inducible systems (e.g., Cumate, IPTG, Salicylate) and constitutive Anderson
+  promoters. Plasmids are equipped with Kanamycin, Gentamicin, or Spectinomycin resistance,
+  creating a versatile resource for metabolic engineering and synthetic biology.
+relatedItem:
+- title: http://parts.igem.org/Promoters/Catalog/Anderson
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: BBR1
+  backbone: pGingerBG-CuO
+  promoters:
+  - CuO
+  description: Cumate Inducible, BBR1, Gentamicin
+  selection_markers:
+  - Gentamicin (10 ug/mL)
+- ori: RK2
+  backbone: pGingerRS-CuO
+  promoters:
+  - CuO
+  description: Cumate Inducible, RK2, Spectinomycin
+  selection_markers:
+  - SpecR
+- ori: BBR1
+  backbone: pGingerBK-CuO
+  promoters:
+  - CuO
+  description: Cumate Inducible, BBR1, Kanamycin
+  selection_markers:
+  - Kan
+- ori: RK2
+  backbone: pGingerRG-CuO
+  promoters:
+  - CuO
+  description: Cumate Inducible, RK2, Gentamicin
+  selection_markers:
+  - Gentamicin (10 ug/mL)
+- ori: RK2
+  backbone: pGingerRK-CuO
+  promoters:
+  - CuO
+  description: Cumate Inducible, RK2, Kanamycin
+  selection_markers:
+  - Kan
+- ori: RK2
+  backbone: pGingerRG-TetR
+  promoters:
+  - TetR
+  description: Oxytetracycline Inducible, RK2, Gentamicin
+  selection_markers:
+  - Gentamicin (10 ug/mL)
+- ori: RK2
+  backbone: pGingerRG-Lac
+  promoters:
+  - Lac
+  description: IPTG Inducible, RK2, Gentamicin
+  selection_markers:
+  - Gentamicin (10 ug/mL)
+- ori: BBR1
+  backbone: pGingerBS-CuO
+  promoters:
+  - CuO
+  description: Cumate inducible, BBR1, Spectinomycin
+  selection_markers:
+  - SpecR
+- ori: RK2
+  backbone: pGingerRG-JE
+  promoters:
+  - Jungle Express
+  description: Crystal Violet Inducible, RK2, Gentamicin
+  selection_markers:
+  - Gentamicin (10 ug/mL)
+- ori: RK2
+  backbone: pGingerRG-NahR
+  promoters:
+  - NahR
+  description: Salicylate inducible, RK2, Gentamicin
+  selection_markers:
+  - Gentamicin (10 ug/mL)
+- ori: RK2
+  backbone: pGingerRK-Lac
+  promoters:
+  - Lac
+  description: IPTG inducible, RK2, Kanamycin
+  selection_markers:
+  - Kan
+- ori: RK2
+  backbone: pGingerRK-JE
+  promoters:
+  - Jungle Express
+  description: Crystal Violet inducible, RK2, Kanamycin
+  selection_markers:
+  - Kan
+- ori: RK2
+  backbone: pGingerRS-JE
+  promoters:
+  - Jungle Express
+  description: Crystal Violet Inducible, RK2, Spectinomycin
+  selection_markers:
+  - SpecR
+- ori: RK2
+  backbone: pGingerRK-TetR
+  promoters:
+  - TetR
+  description: Oxytetracycline Inducible, RK2, Kanamycin
+  selection_markers:
+  - Kan
+- ori: RK2
+  backbone: pGingerRS-TetR
+  promoters:
+  - TetR
+  description: Oxytetracycline Inducible, RK2, Spectinomycin
+  selection_markers:
+  - SpecR
+- ori: RK2
+  backbone: pGingerRK-NahR
+  promoters:
+  - NahR
+  description: Salicylate Inducible, RK2, Kanamycin
+  selection_markers:
+  - Kanamycin
+- ori: RK2
+  backbone: pGingerRS-NahR
+  promoters:
+  - NahR
+  description: Salicylate inducible, RK2, Spectinomycin
+  selection_markers:
+  - SpecR
+- ori: BBR1
+  backbone: pGingerBS-NahR
+  promoters:
+  - NahR
+  description: Salicylate inducible, BBR1, Spec
+  selection_markers:
+  - SpecR
+- ori: BBR1
+  backbone: pGingerBS-TetR
+  promoters:
+  - TetR
+  description: Oxytetracycline inducible, BBR1, Spectinomycin
+  selection_markers:
+  - SpecR
+- ori: BBR1
+  backbone: pGingerBS-Lac
+  promoters:
+  - Lac
+  description: IPTG inducible, BBR1, Spectinomycin
+  selection_markers:
+  - SpecR
+- ori: BBR1
+  backbone: pGingerBG-JE
+  promoters: []
+  description: Crystal Violet inducible, BBR1, Gentamicin
+  selection_markers:
+  - Gent
+- ori: BBR1
+  backbone: pGingerBS-JE
+  promoters:
+  - Jungle Express
+  description: Crystal Violet inducible, BBR1, Spectinomycin
+  selection_markers:
+  - SpecR
+- ori: RK2
+  backbone: pGingerRS-Lac
+  promoters:
+  - Lac
+  description: IPTG inducible, RK2, Spectinomycin
+  selection_markers:
+  - SpecR
+- ori: BBR1
+  backbone: pGingerBG-TetR
+  promoters:
+  - TetR
+  description: Oxytetracycline inducible, BBR1, Gentamicin
+  selection_markers:
+  - Gent
+- ori: BBR1
+  backbone: pGingerBG-NahR
+  promoters:
+  - NahR
+  description: Salicylate inducible, BBR1, Gentamicin
+  selection_markers:
+  - Gent
+- ori: BBR1
+  backbone: pGingerBG-Lac
+  promoters:
+  - Lac
+  description: IPTG Inducible, BBR1, Gentamicin
+  selection_markers:
+  - Gent
+- ori: BBR1
+  backbone: pGingerBK-TetR
+  promoters: []
+  description: Oxytetracycline inducible, BBR1, Kanamycin
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pGingerBK-NahR
+  promoters: []
+  description: Salicylic acid inducible system, BBR1, Kanamycin
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pGingerBK-Lac
+  promoters:
+  - Lac
+  description: IPTG inducible, BBR1, Kanamycin
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pGingerBK-RhaS
+  promoters: []
+  description: Rhamnose inducible, BBR1, Kanamycin
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pGingerBK-XylS
+  promoters: []
+  description: benzoate inducible, BBR1, Kanamycin
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pGingerBK-JE
+  promoters: []
+  description: Crystal violet inducible, BBR1, Kanamycin
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pGingerBK-TauR
+  promoters: []
+  description: Taurine inducible, BBR1, Kan
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pGingerBK-LacUV5
+  promoters: []
+  description: IPTG inducible, BBR1, Kanamycin
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pGingerBK-J23118
+  promoters:
+  - J23118
+  description: Expression from J23118 Anderson Promoter, BBR1, Kanamycin
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pGingerBK-J23108
+  promoters:
+  - J23108
+  description: Expression from J23108 Anderson Promoter, BBR1, Kanamycin
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pGingerBK-J23107
+  promoters:
+  - J23017
+  description: Expression from J23107 Anderson Promoter, BBR1, Kanamycin
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pGingerBK-J23102
+  promoters:
+  - J23102
+  description: Expression from J23102 Anderson Promoter, BBR1, Kanamycin
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: pGingerBK-J23105
+  promoters:
+  - J23105
+  description: Expression from J23105 Anderson Promoter, BBR1, Kanamycin
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pGingerBK-J23119
+  promoters:
+  - J23119
+  description: Expression from J23119 Anderson Promoter, BBR1, Kanamycin
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pGingerBK-J23114
+  promoters:
+  - J23114
+  description: Expression from J23114 Anderson Promoter, BBR1, Kanamycin
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pGingerBK-J23113
+  promoters:
+  - J23113
+  description: Expression from J23113 Anderson Promoter, BBR1, Kanamycin
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pGingerBK-J23111
+  promoters:
+  - J23111
+  description: Expression from J23111 Anderson Promoter, BBR1, Kanamycin
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: pGingerBK-J23104
+  promoters:
+  - J23104
+  description: Expression from J23104 Anderson Promoter, BBR1, Kanamycin
+  selection_markers:
+  - kanR
+- ori: BBR1
+  backbone: pGingerBK-J23103
+  promoters:
+  - J23103
+  description: Expression from J23103 Anderson Promoter, BBR1, Kanamycin
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pGingerBK-J23110
+  promoters:
+  - J23110
+  description: Expression from J23110 Anderson Promoter, BBR1, Kanamycin
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pGingerBK-J23100
+  promoters:
+  - J23100
+  description: 'Expression from J23100 Anderson Promoter, BBR1, Kanamycin
+
+    Note: Vector Editor annotates J23100 as "conprotomer"'
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pGingerBK-J23101
+  promoters:
+  - J23101
+  description: Expression from J23101 Anderson Promoter, BBR1, Kanamycin
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pGingerBK-J23106
+  promoters:
+  - J23106
+  description: Expression from J23106 Anderson Promoter, BBR1, Kanamycin
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pGingerBK-J23117
+  promoters:
+  - J23117
+  description: Expression from J23117 Anderson Promoter, BBR1, Kanamycin
+  selection_markers:
+  - Kan
+bibliographicCitation: https://public-registry.jbei.org/folders/771
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00771
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

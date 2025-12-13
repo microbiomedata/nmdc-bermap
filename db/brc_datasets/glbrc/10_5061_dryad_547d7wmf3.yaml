@@ -1,0 +1,41 @@
+brc: GLBRC
+date: '2023-08-24'
+title: 'Data from: Long-term changes in soil carbon and nitrogen fractions in switchgrass,
+  native grasses, and no-till corn bioenergy production systems'
+creator:
+- name: G. Philip Robertson
+  email: robert30@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+species:
+- NCBITaxID: null
+  scientificName: Panicum virgatum, Zea mays, native grasses polyculture
+keywords:
+- Bioenergy feedstock
+- biofuel feedstocks
+- soil carbon
+- earth and related environmental sciences
+- biofuel cropping system experiment
+- mineral-associated organic matter
+- native grasses
+- Panicum virgatum
+- particulate organic matter
+- root productivity
+- soil aggregate
+- soil nitrogen
+- Zea mays
+identifier: 10.5061/dryad.547d7wmf3
+repository: Dryad
+description: These files contain data from soil and root samples use in this publication.
+  The R script uses this data to perform the statistical analysis used in the publication.
+relatedItem:
+- title: Long-term changes in soil carbon and nitrogen fractions in switchgrass, native
+    grasses, and no-till corn bioenergy production systems
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://acsess.onlinelibrary.wiley.com/doi/abs/10.1002/saj2.20575
+analysisType: Field data; Code
+bibliographicCitation: https://datadryad.org/dataset/doi:10.5061/dryad.547d7wmf3
+schema_version: 0.1.7
+uid: GLBRC_10.5061/dryad.547d7wmf3
+created_at: '2025-11-19T18:00:04.599Z'
+updated_at: '2025-12-10T06:00:05.197Z'

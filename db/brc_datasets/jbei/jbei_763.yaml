@@ -1,0 +1,29 @@
+id: jbei:763
+brc: JBEI
+date: '2022-10-19'
+title: Zhan et al. 2022
+creator:
+- name: Chunjun Zhan
+  email: chunjunzhan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species: []
+keywords: []
+identifier: jbei:folder:00763
+repository: ICE
+datasetName: Zhan et al. 2022
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/763
+description: null
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features: []
+bibliographicCitation: https://public-registry.jbei.org/folders/763
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00763
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

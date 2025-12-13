@@ -1,0 +1,112 @@
+brc: CBI
+date: '2024-11-18'
+title: Elemental profiling and genomewide association studies reveal genomic variants
+  modulating ionomic composition in Populus trichocarpa leaves
+active: true
+creator:
+- name: Raphael Ployet
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: true
+- name: Kai Feng
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Jin Zhang
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Ivan Baxter
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: David C Glasgow
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Hunter B Andrews
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Mighuel Rodriguez
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Jin-Gui Chen
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Gerald A Tuskan
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Timothy J Tschaplinksi
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: J David Weston
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Madhavi Z Martin
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Wellington Muchero
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER). Biological Systems Science (BSS)
+keywords:
+- CBI ionomics
+- GWAS
+- plasma-mass spectrometry
+- neutron activation analysis
+- laser-induced Q9 breakdown spectroscopy
+- molybdenum transporter
+- ion homeostasis
+- Populus
+identifier: https://www.osti.gov/biblio/2477696
+dataset_url: https://labkey.ornl.gov/labkey/CBI/Tuskan/PUBLIC_DATA/Elemental profiling
+  and genomewide association studies reveal genomic variants modulating ionomic composition
+  in Populus trichocarpa leaves/project-begin.view?wizard=true
+description: Samples were collected from a population of 1,089 black cottonwood genotypes
+  (P. trichocarpa) assembled from native stands to encompass the central portion of
+  the natural range of the species, stretching from 38.8° to 54.3° N Q13 latitude
+  from California, USA, to British Columbia, Canada. Establishment of the common garden,
+  growth conditions, and site maintenance have been described by Muchero et al (2015).
+  In this study, leaf samples for ionomic profiling were collected from 4-year-old
+  trees, during the growing season, in July 2012, from a field located in Clatskanie,
+  Oregon, USA (46°6′11″N 123°12′13″W). The field site was located in a protected alluvial
+  floodplain containing a uniform Wauna-Locoda silt loam soil area characterized by
+  an acidic pH, in Columbia County, Oregon. A subset of 584 out of the 1,089 P. trichocarpa
+  genotypes were represented in this sampling. These genotypes were randomly selected
+  to represent the geographical distribution of the population. A single fully mature
+  (LPI 7-9) leaf on the south side of the tree exposed to full sunlight conditions
+  was removed from the tree within a 6-hour window centering on solar noon and immediately
+  frozen under dry ice before processing. Leaf samples of 584 P. trichocarpa genotypes
+  were finely ground to 40 mm particle size using a mortar and pestle, and ionomic
+  composition was analyzed using ICP-MS. In total, 20 elements were profiled, including
+  aluminum (Al27), arsenic (As75), boron (B11), cadmium (Cd111), calcium (Ca43), cobalt
+  (Co), copper (Cu), iron (Fe57), magnesium (Mg25), manganese (Mn55), molybdenum (Mo),
+  nickel (Ni60), phosphorus (P31), potassium (K39), rubidium (Rb85), selenium (Se82),
+  sodium (Na23), strontium (Sr88), sulfur (S34), and zinc (Zn66), following a protocol
+  established by Ziegler et al. (2013). For each sample, 75mg of powder was digested
+  overnight in 2.5 mL HNO3 containing 20 parts per billion (ppb) indium as an internal
+  standard, following the protocol described in Ziegler et al. (2013). Following a
+  dilution, concentration of the 20 elements was measured using an Elan 6000 DRC-e
+  mass spectrometer (Perkin-Elmer SCIEX) connected to a PFA microflow nebulizer (Elemental
+  Scientific) and Apex HF desolvator (Elemental Scientific). One measurement per sample
+  per genotype was done. For subsequent analyses, the quantifications were converted
+  to total element concentration.
+relatedItem:
+- relatedItemType: JournalArticle
+  relatedItemIdentifier: 10.3389/fpls.2024.1450646
+bibliographicCitation: https://doi.org/10.25983/2477696
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2477696
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

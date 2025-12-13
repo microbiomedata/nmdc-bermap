@@ -1,0 +1,140 @@
+id: jbei:493
+brc: JBEI
+date: '2019-09-09'
+title: Kang_Mendez et al. 2019
+creator:
+- name: Aram Kang
+  email: akang@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+- NCBITaxID: 1280
+  scientificName: Staphylococcus aureus
+- NCBITaxID: 32044
+  scientificName: Pseudomonas mevalonii
+- NCBITaxID: 80866
+  scientificName: Delftia acidovorans
+- NCBITaxID: 519
+  scientificName: Bordetella parapertussis
+- NCBITaxID: 2209
+  scientificName: Methanosarcina mazei
+- scientificName: Streptococcus pneumoniae
+keywords: []
+identifier: jbei:folder:00493
+repository: ICE
+datasetName: Kang_Mendez et al. 2019
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/493
+description: This dataset contains 17 expression plasmids for metabolic engineering
+  of the mevalonate (MVA) pathway, a key route for isoprenoid biosynthesis. The collection
+  enables pathway optimization by expressing various orthologs of enzymes such as
+  HMG-CoA reductase (HMGR) and mevalonate kinase (MK) from diverse microbial sources.
+  Furthermore, the set includes several engineered variants of phosphomevalonate decarboxylase
+  (PMD), created to investigate and improve catalytic function.
+relatedItem: []
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pTrc99a-PMDsc_WT-MKco-HMGRsa
+  promoters: []
+  description: pTrc99a-PMDsc_WT-MKco-HMGRsa
+  selection_markers:
+  - Carb
+- backbone: pTrc99a-PMDsc_WT-MKco-HMGRsc_co
+  promoters: []
+  description: pTrc99a-PMDsc_WT-MKco-HMGRsc_co
+  selection_markers:
+  - Carb
+- backbone: pTrc99a-PMDsc_WT-MKco-HMGRpm
+  promoters: []
+  description: pTrc99a-PMDsc_WT-MKco-HMGRpm
+  selection_markers:
+  - Carb
+- backbone: pTrc99a-PMDsc_WT-MKco-HMGRsc_o
+  promoters: []
+  description: pTrc99a-PMDsc_WT-MKco-HMGRsc_o
+  selection_markers:
+  - Carb
+- backbone: pTrc99a-PMDsc_WT-MKco-HMGRda
+  promoters: []
+  description: pTrc99a-PMDsc_WT-MKco-HMGRda
+  selection_markers:
+  - Carb
+- backbone: pTrc99a-PMDsc_WT-MKco-HMGRbp
+  promoters: []
+  description: pTrc99a-PMDsc_WT-MKco-HMGRbp
+  selection_markers:
+  - Carb
+- backbone: pTrc99a-PMDsc_HKQ-MKco
+  promoters: []
+  description: pTrc99a-PMDsc_HKQ-MKco
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99a-PMDsc_R74H-MKco
+  promoters: []
+  description: pTrc99a-PMDsc_R74H-MKco
+  selection_markers:
+  - Ampicillin
+- backbone: pBbA5c-AtoB-HMGSco-HMGRbp
+  promoters: []
+  description: pBbA5c-AtoB-HMGSco-HMGRbp
+  selection_markers:
+  - Cm
+- backbone: pBbA5c-AtoB-HMGSco-HMGRsa
+  promoters: []
+  description: pBbA5c-AtoB-HMGSco-HMGRsa
+  selection_markers:
+  - Cm
+- backbone: pTrc99a-PMDsc_R74H-MKmm
+  promoters: []
+  description: pTrc99a-PMDsc_R74H-MKmm
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pTrc99a-PMDsc-Mkmm
+  promoters:
+  - Trc
+  description: pTrc99a-PMDsc-Mkmm
+  selection_markers:
+  - Amp
+- backbone: pTrc99a-PMDsc_R74G-MKco
+  promoters: []
+  description: pTrc99a-PMDsc_R74G-MKco
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99a-PMDsc_R74G-MKmm
+  promoters: []
+  description: pTrc99a-PMDsc_R74G-MKmm
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99a-PMDsc_HKQ-MKmm
+  promoters: []
+  description: pTrc99a-PMDsc_HKQ-MKmm
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pTrc99a-PMDsc-Mksa
+  promoters:
+  - Trc
+  description: pTrc99a-PMDsc-Mksa
+  selection_markers:
+  - Amp
+- ori: ColE1
+  backbone: pTrc99a-PMDsc-Mksn
+  promoters:
+  - Trc
+  description: pTrc99a-PMDsc-Mksn
+  selection_markers:
+  - Amp
+bibliographicCitation: https://public-registry.jbei.org/folders/493
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00493
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.622Z'

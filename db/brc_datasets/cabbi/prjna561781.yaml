@@ -1,0 +1,40 @@
+brc: CABBI
+date: '2019-08-23'
+title: Native Miscanthus rhizosphere and endophytic microbiome
+creator:
+- name: Kent, Angela
+  email: akent@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Sacks, Erik
+  email: esacks@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 62337
+  scientificName: Miscanthus sinensis
+- NCBITaxID: 154761
+  scientificName: Miscanthus floridulus
+keywords:
+- Genomics
+- Miscanthus
+- Soil metagenome
+- Rhizosphere
+identifier: PRJNA561781
+repository: NCBI BioProject
+description: Survey of the native Miscanthus rhizosphere and endophytic microbiome
+  in Taiwan, with particular attention placed on the diazotrophic community. This
+  survey aimed to determine the ecological drivers of microbial community composition
+  across strong biogeographical and ecological gradients in two species of wild Miscanthus
+  on the island of Taiwan in 2008.
+relatedItem:
+- title: Host Genetic Variation Drives the Differentiation in the Ecological Role
+    of the Native Miscanthus Root-Associated Microbiome
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: http://doi.org/10.1186/s40168-023-01646-3
+analysisType: Genomics
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA561781
+schema_version: 0.1.1
+uid: CABBI_PRJNA561781
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

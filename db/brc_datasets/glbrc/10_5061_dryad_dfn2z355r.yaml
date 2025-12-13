@@ -1,0 +1,43 @@
+brc: GLBRC
+date: '2023-11-27'
+title: 'Data from: Soil phosphorus drawdown by perennial bioenergy cropping systems
+  in the Midwestern US'
+creator:
+- name: Mir Zaman Hussain
+  email: mirzamanhussain@gmail.com
+  affiliation: W.K. Kellogg Biological Station, Michigan State University, Hickory
+    Corners, Michigan, USA
+  primaryContact: true
+- name: G. Philip Robertson
+  email: robert30@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Switchgrass, miscanthus, hybrid poplar, maize
+keywords:
+- corn
+- legacy phosphorus
+- miscanthus
+- phosphorus
+- poplar
+- switchgrass
+identifier: 10.5061/dryad.dfn2z355r
+repository: Dryad
+description: 'We analyzed phosphorus (P) inputs (fertilization and atmospheric deposition)
+  and outputs (harvest and leaching losses) over seven years in three representative
+  biomass crops—switchgrass (<i>Panicum</i> <i>virga­tum</i> L.), miscanthus (<i>Miscanthus</i> X <i>giganteus</i>)
+  and hybrid poplar trees (<i>Populus</i> <i>nigra</i> X <i>P</i>. <i>maximowiczii</i>)
+  – as well as in no-till corn (maize; <i>Zea</i> <i>mays</i> L.) for comparison,
+  all planted on former cropland in SW Michigan, USA. '
+relatedItem:
+- title: Soil phosphorus drawdown by perennial bioenergy cropping systems in the Midwestern
+    US
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://onlinelibrary.wiley.com/doi/full/10.1111/gcbb.13020
+analysisType: Field Data
+bibliographicCitation: https://datadryad.org/dataset/doi:10.5061/dryad.dfn2z355r
+schema_version: 0.1.7
+uid: GLBRC_10.5061/dryad.dfn2z355r
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.197Z'

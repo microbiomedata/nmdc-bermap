@@ -1,0 +1,68 @@
+id: jbei:119
+brc: JBEI
+date: '2014-08-20'
+title: Poust et al. 2014
+creator:
+- name: Sean Poust
+  email: poust@berkeley.edu
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 56
+  scientificName: Sorangium cellulosum
+- NCBITaxID: 632
+  scientificName: Yersinia pestis
+keywords: []
+identifier: jbei:folder:00119
+repository: ICE
+datasetName: Poust et al. 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/119
+description: This dataset provides four expression plasmids for studying natural product
+  biosynthesis, with a focus on the yersiniabactin pathway. The collection includes
+  constructs to express a standalone adenylation domain, the first non-ribosomal peptide
+  synthetase (NRPS), and a polyketide synthase (PKS) fragment from the yersiniabactin
+  cluster. A fourth plasmid expresses the epothilone M8 PKS, enabling the functional
+  characterization of key enzymes in siderophore and polyketide synthesis.
+relatedItem:
+- title: A. M. Gehring, I. Mori, R. D. Perry, C. T. Walsh, Biochemistry 1998, 37,
+    11637-11650.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: T. A. Keating, D. A. Miller, C. T. Walsh, Biochemistry 2000, 39, 4729-4739.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pH6YbtE
+  promoters: []
+  description: Expresses the standalone adenylation domain in the yersinaibactin cluster
+  selection_markers:
+  - Ampicillin
+- backbone: pHMWP2.CH8
+  promoters: []
+  description: Expresses of the first NRPS in the yersinaibactin cluster
+  selection_markers:
+  - kanR
+- backbone: pSP47
+  promoters: []
+  description: Expresses the epothilone M8 PKS
+  selection_markers:
+  - kanR
+- backbone: pSP8
+  promoters: []
+  description: Expresses the wildtype yersiniabactin PKS/amino acids 1-1895 (the PKS
+    fragment) of HMWP1 in the yersiniabactin cluster (Miller 2002 Chemistry and Biology)
+  selection_markers:
+  - kanR
+bibliographicCitation: https://public-registry.jbei.org/folders/119
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00119
+created_at: '2025-11-18T20:03:56.767Z'
+updated_at: '2025-12-11T00:00:04.619Z'

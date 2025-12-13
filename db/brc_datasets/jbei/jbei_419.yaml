@@ -1,0 +1,47 @@
+id: jbei:419
+brc: JBEI
+date: '2019-01-29'
+title: Wehrs et al. 2019
+creator:
+- name: Maren Wehrs
+  email: mwehrs@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 358
+  scientificName: Agrobacterium tumefaciens
+- NCBITaxID: 5286
+  scientificName: Rhodotorula toruloides
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00419
+repository: ICE
+datasetName: Wehrs et al. 2019
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/419
+description: This dataset contains the Pgem 335 plasmid, designed for *Agrobacterium
+  tumefaciens*-mediated transformation (ATMT) of the oleaginous yeast *Rhodotorula
+  toruloides*. The plasmid carries codon-optimized genes encoding the phosphopantetheinyl
+  transferase *sfp* and the indigoidine synthetase *bpsA*. Expression of this construct
+  enables the production of the blue pigment indigoidine, which serves as a visual
+  reporter for evaluating heterologous pathway function in the engineered yeast.
+relatedItem: []
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: ColE1
+  backbone: pGen335_sfp_bpsA
+  promoters: []
+  description: Pgem 335 plasmid for ATMT transformation into R. toruloides, expressing
+    codon-optimized sfp and bpsA. Built by genscript.
+  selection_markers:
+  - Kan, Nat
+bibliographicCitation: https://public-registry.jbei.org/folders/419
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00419
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

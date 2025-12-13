@@ -1,0 +1,39 @@
+brc: CABBI
+date: '2023-01-16'
+title: Chemical-Free Production of Multiple High-Value Bioproducts from Metabolically
+  Engineered Transgenic Sugarcane ‘Oilcane’ Bagasse and Their Recovery Using Nanofiltration
+creator:
+- name: Vijay Singh
+  email: vsingh@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+keywords:
+- Permeate Fluxes
+- Mass composition and distribution
+- Oilcane bagasse
+identifier: 10.13012/B2IDB-8787620_V1
+repository: Illinois Data Bank
+description: Bioenergy crops have potential for being a sustainable and renewable
+  feedstock for biofuels and various value-added bioproducts. The study utilizes recently
+  developed transgenic sugarcane (“oilcane”) bagasse for chemical-free coproduction
+  of high-value bioproducts, i.e., furfurals, HMF, acetic acid, cellulosic sugars,
+  and vegetative lipids. Hydrothermal pretreatment was optimized at 210 °C for 5 min
+  to coproduce 6.91%, 2.67%, 5.07%, 2.42% and 37.82% (w/w) furfurals, HMF, acetic
+  acid, vegetative lipids, and cellulosic sugars, respectively from lignocellulosic
+  biomass. Additionally, nanofiltration system in-series was successfully established
+  to recover sugars, furfurals, HMF, and acetic acid from the pretreatment liquor.
+  1st nanofiltration with Duracid NF membrane rejected ∼99% sugars. Concentrated sugars
+  with significantly reduced inhibitory products were obtained in retentate for fermentation.
+  2nd nanofiltration with NF90 membrane used permeate of 1st nanofiltration as feed
+  and rejected ∼ 86% furfurals. The work demonstrates the feasibility of coproducing
+  and recovering multiple biochemicals from lignocellulosic biomass.
+relatedItem:
+- title: Chemical-Free Production of Multiple High-Value Bioproducts from Metabolically
+    Engineered Transgenic Sugarcane ‘Oilcane’ Bagasse and Their Recovery Using Nanofiltration
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1016/j.biortech.2023.128630
+bibliographicCitation: https://doi.org/10.13012/B2IDB-8787620_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-8787620_V1
+created_at: '2025-11-20T18:00:04.759Z'
+updated_at: '2025-12-10T06:00:05.196Z'

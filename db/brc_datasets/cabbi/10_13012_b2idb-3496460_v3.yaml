@@ -1,0 +1,60 @@
+brc: CABBI
+date: '2023-03-15'
+title: SoyFACE Fumigation Data Files
+creator:
+- name: Ainsworth, Elizabeth A.
+  email: lisa.ainsworth@usda.gov
+  affiliation: USDA-ARS
+  primaryContact: true
+- name: Bernacchi, Carl
+  email: bernacch@illinois.edu
+  affiliation: USDA-ARS
+  primaryContact: false
+- name: DeLucia, Evan H.
+  email: delucia@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Leakey, Andrew D.B.
+  email: leakey@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Long, Stephen P.
+  email: slong@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Ort, Donald R.
+  email: d-ort@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 3847
+  scientificName: Glycine max
+- NCBITaxID: 4577
+  scientificName: Zea mays
+keywords:
+- free air concentration enrichment
+- O3
+- fumigation data
+- weather data
+- CO2
+identifier: 10.13012/B2IDB-3496460_V3
+repository: Illinois Data Bank
+description: This data set is related to the SoyFACE experiments, which are open-air
+  agricultural climate change experiments that have been conducted since 2001. The
+  fumigation experiments take place at the SoyFACE farm and facility in Champaign
+  County, Illinois during the growing season of each year, typically between June
+  and October.
+relatedItem:
+- title: Two Decades of Fumigation Data from the Soybean Free Air Concentration Enrichment
+    Facility
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1038/s41597-023-02118-x
+- title: Similar Photosynthetic but Different Yield Responses of C3 and C4 Crops to
+    Elevated O3
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1073/pnas.2313591120
+bibliographicCitation: https://doi.org/10.13012/B2IDB-3496460_V3
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-3496460_V3
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.624Z'

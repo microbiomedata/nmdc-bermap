@@ -1,0 +1,81 @@
+[build-system]
+requires = ["hatchling", "uv-dynamic-versioning"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nmdc_sfas_brcs"
+description = "This is the project description."
+authors = [
+  {name = "My Name", email = "my-name@my-org.org"},
+]
+license = "MIT"
+license-files = ["LICENSE"]
+readme = "README.md"
+requires-python = ">=3.10,<4.0"
+dynamic = ["version"]
+
+dependencies = [
+  "linkml-reference-validator",
+  "linkml-runtime >=1.9.4",
+  "linkml-store>=0.2.4",
+  "matplotlib>=3.9.4",
+  "neo4j>=5.28.2",
+  "oaklib >=0.6.0",
+  "seaborn>=0.13.2",
+]
+
+[dependency-groups]
+dev = [
+    "linkml>=1.9.3",
+    "mkdocs-material>=8.2.8",
+    "mkdocs-mermaid2-plugin>=1.1.1",
+    "jupyter>=1.0.0",
+    "mknotebooks>= 0.8.0",
+]
+
+# See https://hatch.pypa.io/latest/config/build/#file-selection for how to
+# explicitly include files other than default into the build distributions.
+
+[tool.hatch.version]
+source = "uv-dynamic-versioning"
+
+[tool.uv.sources]
+linkml-reference-validator = { path = "../linkml-reference-validator", editable = true }
+
+# Ref.: https://github.com/ninoseki/uv-dynamic-versioning/
+[tool.uv-dynamic-versioning]
+vcs = "git"
+style = "pep440"
+fallback-version = "0.0.0"
+
+# Ref.: https://docs.pytest.org/en/stable/reference/reference.html#configuration-options
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+# Ref.: https://github.com/codespell-project/codespell
+[tool.codespell]
+skip = [
+  "LICENSE",
+  "pyproject.toml",
+  "uv.lock",
+  "project/*",
+  "src/nmdc_sfas_brcs/datamodel/nmdc_sfas_brcs_pydantic.py",
+  "src/nmdc_sfas_brcs/datamodel/nmdc_sfas_brcs.py",
+]
+
+# Reminder: words have to be lowercased for the ignore-words-list
+ignore-words-list = "linke"
+quiet-level = 3
+
+# Ref.: https://github.com/crate-ci/typos (spell checker)
+[tool.typos.default.extend-words]
+linke = "linke"
+[tool.typos.files]
+extend-exclude = [
+  "LICENSE",
+  "uv.lock",
+  "pyproject.toml",
+  "project/*",
+  "src/nmdc_sfas_brcs/datamodel/nmdc_sfas_brcs_pydantic.py",
+  "src/nmdc_sfas_brcs/datamodel/nmdc_sfas_brcs.py",
+]

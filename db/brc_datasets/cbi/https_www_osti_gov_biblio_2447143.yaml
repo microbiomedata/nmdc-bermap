@@ -1,0 +1,70 @@
+brc: CBI
+date: '2024-09-20'
+title: HSQC spectra of lignin isolated from poplar roots
+active: true
+creator:
+- name: Junhua Zhang
+  affiliation: Department of Chemical and Biomolecular Engineering, University of
+    Tennessee Knoxville, Knoxville, TN, USA
+  primaryContact: true
+- name: Yunqiao Pu
+  email: puy1@ornl.gov
+  primaryContact: false
+- name: Udaya Kalluri
+  affiliation: Joint Institute for Biological Sciences, Bioscience Division, Oak Ridge
+    National Laboratory, Oak Ridge, TN, USA Center for Bioenergy Innovation, Oak Ridge
+    National Laboratory, Oak Ridge, TN, USA
+  primaryContact: false
+- name: Art Ragauskas
+  affiliation: Department of Chemical and Biomolecular Engineering, University of
+    Tennessee Knoxville, Knoxville, TN, USA Joint Institute for Biological Sciences,
+    Bioscience Division, Oak Ridge National Laboratory, Oak Ridge, TN, USA Center
+    for Bioenergy Innovation, Oak Ridge National Laboratory, Oak Ridge, TN, USA
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER). Earth &amp; Environmental Systems Science (EESS)
+keywords:
+- HSQC
+- lignin
+- poplar
+- roots
+- CBI
+identifier: https://www.osti.gov/biblio/2447143
+dataset_url: https://labkey.ornl.gov/labkey/CBI/ragauskas/Public Data/HSQC spectra
+  of lignin isolated from poplar roots/project-begin.view?
+description: 'Here we present a curated dataset of two-dimensional heteronuclear single
+  quantum coherence (HSQC) nuclear magnetic resonance (NMR) spectra of lignin isolated
+  from roots of a greenhouse grown natural population of an energy crop poplar (Populus
+  trichocarpa). Dormant cuttings of field-grown poplar were grown in 6-liter pots
+  in a peat-based media containing bark, perlite, vermiculite, dolomite lime and a
+  wetting agent in an environmentally controlled greenhouse. Temperatures were between
+  21 and 23 °C, with supplemental lighting to support a 16-h day length using 1000-watt
+  high-pressure sodium lights in greenhouse. Once established, all plants were cut-back,
+  allowed to regrow and harvested at the same time following an eight-month long growth
+  period. Plants were harvested and the belowground roots were washed off soils, blotted,
+  dried in an oven at 70 °C for 3 days, and Wiley milled (mesh size 20). The roots
+  were Soxhlet-extracted with toluene/ethanol for 24 h to remove extractives. The
+  extracted roots were ball-milled in a Retsch PM100 planetary ball mill using a porcelain
+  jar with ceramic balls at 600 rpm for 2 h (in 5 min on and 5 min off cycles to avoid
+  excessive sample heating). The ball-milled materials were then subjected to enzymatic
+  hydrolysis for 48 h followed by centrifugation and washing with deionized water.
+  The solid residue was extracted twice with 96% (v/v) 1,4-dioxane/water mixture at
+  room temperature overnight. The extracts were combined, rotary evaporated, and freeze-dried
+  to recover lignin. The dry lignin samples were dissolved in deuterated dimethyl
+  sulfoxide (d6) and transferred into a 5 mm tube. 13C–1H HSQC experiments were performed
+  in a Bruker Avance III HD 500 MHz NMR spectrometer operating at a frequency of 125.12
+  MHz for the 13C nucleus using a standard Bruker pulse sequence on a Prodigy platform
+  cryoprobe. The NMR spectra were acquired under the following acquisition conditions:
+  220 ppm spectral width in F1 (13C) dimension with 256 data points and 12 ppm spectral
+  width in F2 (1H) dimension with 1024 data points, a 90° pulse, a one bond C–H coupling
+  constant of 145 Hz, a 1.0 s pulse delay, and 64 scans. Spectra were processed using
+  the Bruker TopSpin software. Additional meta data is embedded in the raw spectra
+  figures.'
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/2447143
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2447143
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

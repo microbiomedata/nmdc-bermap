@@ -1,0 +1,175 @@
+id: jbei:715
+brc: JBEI
+date: '2021-12-08'
+title: Schmidt and Pearson et al 2021 Nitrogen RB-TnSeq
+creator:
+- name: Allison Pearson
+  email: al.pearson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Matthias Schmidt
+  email: mschmidt@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 303
+  scientificName: Pseudomonas putida
+keywords: []
+identifier: jbei:folder:00715
+repository: ICE
+datasetName: Schmidt and Pearson et al 2021 Nitrogen RB-TnSeq
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/715
+description: This dataset provides a collection of 19 plasmids for the functional
+  analysis of specific genes and metabolic pathways. The molecular toolkit enables
+  gene knockout, complementation, and inducible expression of transcription factors
+  such as PP_0595 and PP_2181. It also includes vectors for protein purification and
+  reporter plasmids designed to detect key metabolites like butyrolactam and pyroglutamate.
+relatedItem:
+- title: Suicide vector for in-frame deletion of PP_4575-7
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Protein expression vector for Ni-NTA purification of PP_0596
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Expression vector with region 200 bp upstream of PP_2920 used as promoter
+    for RFP
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Protein expression vector for Ni-NTA purification of PP_2180
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Expression vector with region 200 bp upstream of PP_4577 used as promoter
+    for RFP
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: BBR1
+  backbone: BBR1k-PP_2920p-RFP
+  promoters: []
+  description: Reporter plasmid for butyrolactam detection
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMQ30 PP_4575-7
+  promoters: []
+  description: KO vector
+  selection_markers:
+  - gent
+- ori: ColE1
+  backbone: pet28-PP_0596
+  promoters: []
+  description: Expression plasmid for PP_0596 purification
+  selection_markers:
+  - KanR
+- ori: ColE1
+  backbone: pet28-PP_2180
+  promoters: []
+  description: Expression plasmid for PP_2180 purification
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: BBR1K-PP_4578p
+  promoters: []
+  description: Reporter plasmid for pyroglutamate detection
+  selection_markers:
+  - Kan
+- ori: pBBR1
+  backbone: BBR1k-PP_0596p-RFP
+  promoters: []
+  description: Reporter plasmid for PP_0595
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: BBR1k-PP_2177p-RFP
+  promoters: []
+  description: Reporter plasmid for PP_2181
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pBAD PP_2920-2
+  promoters: []
+  description: Complementation vector
+  selection_markers:
+  - Kan
+- ori: SC101
+  backbone: pBbS8a-PP_0595
+  promoters: []
+  description: Expression of transcription factor PP_0595 under arabinose inducible
+    promoter
+  selection_markers:
+  - CARB
+- ori: SC101**
+  backbone: pBbS8a-Pp_2181
+  promoters: []
+  description: Expression of transcription factor PP_2181 under arabinose inducible
+    promoter
+  selection_markers:
+  - Carb
+- ori: BBR1
+  backbone: pBAD PP_0596
+  promoters: []
+  description: Complementation vector
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pBAD PP_4575-7
+  promoters: []
+  description: Complementation vector
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pBAD PP_2180
+  promoters: []
+  description: Complementation vector
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pBAD PP_5182
+  promoters: []
+  description: Complementation vector
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pet28-PP_5182
+  promoters: []
+  description: Expression plasmid for PP_5182 purification
+  selection_markers:
+  - KanR
+- ori: ColE1
+  backbone: pMQ30 PP_5182
+  promoters: []
+  description: KO vector
+  selection_markers:
+  - gent
+- ori: ColE1
+  backbone: pMQ30 PP_2920-2
+  promoters: []
+  description: KO vector
+  selection_markers:
+  - gent
+- ori: ColE1
+  backbone: pMQ30 PP_0596
+  promoters: []
+  description: KO vector
+  selection_markers:
+  - gent
+- ori: ColE1
+  backbone: pMQ30 PP_2180
+  promoters: []
+  description: KO vector
+  selection_markers:
+  - gent
+bibliographicCitation: https://public-registry.jbei.org/folders/715
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00715
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

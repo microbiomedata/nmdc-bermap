@@ -1,0 +1,34 @@
+id: jbei:255
+brc: JBEI
+date: '2016-08-08'
+title: Beller et al. 2016
+creator:
+- name: Ee-Been Goh
+  email: egoh@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species: []
+keywords: []
+identifier: jbei:folder:00255
+repository: ICE
+datasetName: Beller et al. 2016
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/255
+description: null
+relatedItem:
+- title: Beller HR, Zhou P, Jewell TNM, Goh E-B, Keasling JD. 2016. Enhanced fatty
+    acid production in engineered chemolithoautotrophic bacteria using reduced sulfur
+    compounds as energy sources. Metab. Eng. Commun. 3:211–215.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features: []
+bibliographicCitation: https://public-registry.jbei.org/folders/255
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00255
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

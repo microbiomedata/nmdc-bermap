@@ -1,0 +1,26 @@
+brc: CABBI
+date: '2025-08-04'
+title: AmeriFlux US-UiF University of Illinois Miscanthus 2, Dataset (2018-2023)
+creator:
+- name: Bernacchi, Carl J.
+  email: bernacch@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 183674
+  scientificName: Miscanthus x giganteus
+keywords:
+- miscanthus
+- carbon flux
+identifier: US-UiF
+repository: AmeriFlux
+description: Agricultural field planted with miscanthus x giganteus perennial C4 bioenergy
+  feedstock as a control site for Us-UiB when basalt began to be applied to Us-UiB
+  in 2017. This field is typically harvested in Febraury or March. This site is located
+  at an experimental farm approximately 2 miles south of the University of Illinois
+  at Urbana Champaign and is colocated with (500-1000m distance) all other Us-Ui sites.
+bibliographicCitation: https://doi.org/10.17190/AMF/2574371
+schema_version: 0.1.1
+uid: CABBI_US-UiF
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.626Z'

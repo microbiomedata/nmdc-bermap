@@ -1,0 +1,44 @@
+brc: CABBI
+date: '2020-07-02'
+title: Improved Annotation of Untargeted Metabolomics Data through Buffer Modifications
+  That Shift Adduct Mass and Intensity
+creator:
+- name: Joshua Rabinowitz
+  email: joshr@princeton.edu
+  affiliation: Princeton University
+  primaryContact: true
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- Metabolomics
+- LC-MS
+- Saccharomyces cerevisiae
+identifier: 10.13012/B2IDB-0835136_V1
+repository: Illinois Data Bank
+description: Annotation of untargeted high-resolution full-scan LC-MS metabolomics
+  data remains challenging due to individual metabolites generating multiple LC-MS
+  peaks arising from isotopes, adducts, and fragments. Adduct annotation is a particular
+  challenge, as the same mass difference between peaks can arise from adduct formation,
+  fragmentation, or different biological species. To address this, here we describe
+  a buffer modification workflow (BMW) in which the same sample is run by LC-MS in
+  both liquid chromatography solvent with 14NH3–acetate buffer and in solvent with
+  the buffer modified with 15NH3–formate. Buffer switching results in characteristic
+  mass and signal intensity changes for adduct peaks, facilitating their annotation.
+  This relatively simple and convenient chromatography modification annotated yeast
+  metabolomics data with similar effectiveness to growing the yeast in isotope-labeled
+  media. Application to mouse liver data annotated both known metabolite and known
+  adduct peaks with 95% accuracy. Overall, it identified 26% of ∼27 000 liver LC-MS
+  features as putative metabolites, of which ∼2600 showed HMDB or KEGG database formula
+  match. This workflow is well suited to biological samples that cannot be readily
+  isotope labeled, including plants, mammalian tissues, and tumors.
+relatedItem:
+- title: Improved Annotation of Untargeted Metabolomics Data through Buffer Modifications
+    that Shift Adduct Mass and Intensity
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1021/acs.analchem.0c00985
+bibliographicCitation: https://doi.org/10.13012/B2IDB-0835136_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-0835136_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

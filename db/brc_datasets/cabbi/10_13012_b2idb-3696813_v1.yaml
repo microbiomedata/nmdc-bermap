@@ -1,0 +1,45 @@
+brc: CABBI
+date: '2021-12-09'
+title: Data for Intra- and Inter-Annual Variability of Nitrification in the Rhizosphere
+  of Field-Grown Bioenergy Sorghum
+creator:
+- name: Yang, Wendy
+  email: yangw@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: DeLucia, Evan H.
+  email: delucia@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Kent, Angela D.
+  email: akent@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 4558
+  scientificName: Sorghum bicolor
+keywords:
+- soil nitrogen
+- sorghum
+- nitrification
+- soil moisture
+- pH
+identifier: 10.13012/B2IDB-3696813_V1
+repository: Illinois Data Bank
+description: These data were collected in 2018 and 2019 at the University of Illinois
+  Energy Farm (N 40.063607, W 88.206926). During each growing season, bulk and rhizosphere
+  soil were collected from replicate Sorghum bicolor nitrogen use efficiency trial
+  plots at three separate time points (approximately July 1, Aug. 1, and Sept. 1).
+  We measured soil moisture, pH, soil nitrate and ammonium, potential nitrification,
+  potential denitrification, and extracted and sequenced the V4 region of the 16S
+  rRNA gene for microbial community analysis.
+relatedItem:
+- title: Intra- and Inter-Annual Variability of Nitrification in the Rhizosphere of
+    Field-Grown Bioenergy Sorghum
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/gcbb.12917
+bibliographicCitation: https://doi.org/10.13012/B2IDB-3696813_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-3696813_V1
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.624Z'

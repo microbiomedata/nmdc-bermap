@@ -1,0 +1,49 @@
+brc: CABBI
+date: '2021-06-14'
+title: Conversion of High-Solids Hydrothermally Pretreated Bioenergy Sorghum to Lipids
+  and Ethanol Using Yeast Cultures
+creator:
+- name: Vijay Singh
+  email: vsingh@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Bruce Dien
+  email: bruce.dien@ars.usda.gov
+  affiliation: USDA-ARS Peoria, IL
+  primaryContact: false
+species:
+- NCBITaxID: 4558
+  scientificName: Sorghum bicolor
+keywords:
+- Sorghum
+- Yeast Cell Biomass Yields
+- Fermentation profiles
+identifier: 10.13012/B2IDB-9953689_V1
+repository: Illinois Data Bank
+description: Glucose and xylose are the major sugars present in cellulosic hydrolysates.
+  The cellulosic sugars can be used for the production of platform chemicals. In this
+  study, productions of lipid and ethanol by yeasts were compared for concentrated
+  bioenergy sorghum syrup. Bioenergy sorghum was hydrothermally pretreated at 50%
+  w/w solids in a continuous industrial reactor and sequentially mechanically refined
+  using a burr mill to improve biomass accessibility for hydrolysis. Fed-batch enzymatic
+  hydrolysis was conducted with 50% w/v solids loading and cellulase cocktail (50
+  FPU/g biomass) to achieve 230 g/L sugar concentration. Various strains of Rhodosporidium
+  toruloides were evaluated for converting sugars into lipids, and strain Y-6987 had
+  the highest lipid titer (9.2 g/L). The lipid titer was improved to 19.0 g/L by implementing
+  a two-stage culture scheme, where the first stage was optimized for yeast growth
+  and the second for lipid production. For ethanol production, the engineered Saccharomyces
+  cerevisiae SR8ΔADH6 was used to coferment glucose and xylose. Ethanol fermentation
+  was optimized for media nutrients (YP, YNB/urea, and urea), cellulosic sugar concentration,
+  and sulfite conditioning to maximize the ethanol concentration from sorghum syrups.
+  Fermentation of 70% v/v concentrated hydrolysate conditioned with sulfite produces
+  50.1 g/L ethanol from 141 g/L of sugars.
+relatedItem:
+- title: Conversion of High-Solids Hydrothermally Pretreated Bioenergy Sorghum to
+    Lipids and Ethanol Using Yeast Cultures
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1021/acssuschemeng.1c01629
+bibliographicCitation: https://doi.org/10.13012/B2IDB-9953689_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-9953689_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

@@ -1,0 +1,155 @@
+id: jbei:112
+brc: JBEI
+date: '2014-04-30'
+title: Alonso-Gutierrez, et al 2014
+creator:
+- name: Eunmi Kim
+  email: emkim@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Danielle Kalman
+  email: dkalman@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Pamela Peralta-Yahya
+  email: pperalta-yahya@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Jorge Alonso-Gutierrez
+  email: jalonso-gutierrez@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Khanh Vuu
+  email: kvuu@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Taek Soon Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Han Woo
+  email: hmwoo@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Rossana Chan
+  email: rchan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 29719
+  scientificName: Mentha spicata
+- NCBITaxID: 46611
+  scientificName: Abies grandis
+- NCBITaxID: 1280
+  scientificName: Staphylococcus aureus
+keywords: []
+identifier: jbei:folder:00112
+repository: ICE
+datasetName: Alonso-Gutierrez, et al 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/112
+description: This dataset provides 10 plasmids for the metabolic engineering of *E.
+  coli* to produce the terpenes limonene and bisabolene. The collection features codon-optimized
+  mevalonate (Mev) pathway genes and various terpene synthases, assembled into high-copy
+  expression vectors. These constructs were designed using modular cloning strategies
+  to create high-titer production strains for advanced biofuels.
+relatedItem:
+- title: Alonso-Gutierrez J, Kim E.M., Batth TS, Cho N, Hu Q, Chan LJD, Petzold CJ,
+    Hillson NJ, Adams PD, Keasling JD, Garcia-Martin H, and Lee TS. (2014) Principal
+    component analysis of proteomics (PCAP) as a tool to direct metabolic engineering.
+    Metabolic Engineering. doi:10.1016/j.ymben.2014.11.011
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Alonso-Gutierrez J, Chan R, Batth TS, Adams PD, Keasling JD, Petzold CJ,
+    Lee TS. Metabolic engineering of Escherichia coli for limonene and perillyl alcohol
+    production. Metab Eng. 2013 Sep;19:33-41. doi: 10.1016/j.ymben.2013.05.004. Epub
+    2013 May 29. PubMed PMID: 23727191.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Peralta-Yahya PP, Ouellet M, Chan R, Mukhopadhyay A, Keasling JD, Lee TS.
+    Identification and microbial production of a terpene-based advanced biofuel. Nat
+    Commun. 2011 Sep 27;2:483. doi: 10.1038/ncomms1494. PubMed PMID: 21952217; PubMed
+    Central PMCID: PMC3195254.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pBBR1
+  backbone: pBbB1c-LS
+  promoters:
+  - Ptrc
+  description: Limonene synthase (LS) under the control of Ptrc in a broad host, high
+    copy plasmid
+  selection_markers:
+  - Chloramphenicol
+- backbone: pBbA5c-MTSA-T1-MBI(f)-T1002-Ptrc-trGPPS-LS
+  promoters: []
+  description: One plasmid version for the production of limonene (also known as "B")
+  selection_markers:
+  - Cm
+- backbone: pEM-QS37
+  promoters: []
+  description: pBbA5c-MevT(co)-T61-MBIS(co, fixed, ispA)-T21-Bis(co)
+  selection_markers:
+  - Cm
+- backbone: pBbE1a-trGPPS-LS-MTSA-T1-MBI-f
+  promoters: []
+  description: One plasmid version A with high copy number of all genes
+  selection_markers:
+  - Amp
+- backbone: pTrc-LS
+  promoters: []
+  description: E. coli codon optimized Mentha spicata limonene synthase in pTrc
+  selection_markers:
+  - Amp
+- backbone: pTrcAgBIS (CO)
+  promoters: []
+  description: Codon optimized version of Abies grandis bisabolene synthase cloned
+    into pTRc99 between NcoI and XmaI. This is the bisabolene synthase with the highest
+    production in the bisabolene production paper
+  selection_markers:
+  - Amp
+- backbone: St-Woo120
+  promoters: []
+  description: pBbE1a-HMGR(sa)-HMGS(sa)
+  selection_markers:
+  - Ampicillin
+- ori: p15A
+  backbone: pBbA5c-MevT(CO)-T1-MBIS(CO, ispA)
+  promoters: []
+  description: BglBricked Mev pathway - MevT(CO), Term-Ptrc, MBIS (codon optimized
+    and original ispA)
+  selection_markers:
+  - Chloramphenicol
+- ori: p15A
+  backbone: pBbA5c-MTSA-T1-MBI(fixed)
+  promoters: []
+  description: BglBricked Mev pathway - MTSA under PlacUV5, dbl-Term, MBI (codon optimized
+    MK and PMK(fixed)) under Ptrc
+  selection_markers:
+  - Chloramphenicol
+- backbone: pTrc-trGPPS(CO)-LS
+  promoters:
+  - Trc
+  description: A plasmid that has truncated codon optimized geranylpyrophosphate synthase
+    and truncated limonene synthase.
+  selection_markers:
+  - Ampicillin
+bibliographicCitation: https://public-registry.jbei.org/folders/112
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00112
+created_at: '2025-11-18T20:03:56.767Z'
+updated_at: '2025-12-11T00:00:04.619Z'

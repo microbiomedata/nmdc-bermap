@@ -1,0 +1,78 @@
+id: jbei:177
+brc: JBEI
+date: '2015-04-03'
+title: Poust et al 2014
+creator:
+- name: Sean Poust
+  email: spoust@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Isu Yoon
+  email: iyoon@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 632
+  scientificName: Yersinia pestis
+keywords: []
+identifier: jbei:folder:00177
+repository: ICE
+datasetName: Poust et al 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/177
+description: This dataset provides six expression plasmids for studying the Yersiniabactin
+  Polyketide Synthase (PKS). The collection includes the PKS gene and several variants
+  containing single and multiple point mutations (H640A, S641A, H741A) targeting conserved
+  residues in the Acyltransferase (AT) domain. These constructs were created to probe
+  the roles of key catalytic residues in the biosynthesis of the siderophore yersiniabactin.
+relatedItem:
+- title: 'Poust, S., Yoon, I., Adams, P. D., Katz, L., Petzold, C. J., &amp; Keasling,
+    J. D. (2014). “Understanding the Role of Histidine in the GHSxG Acyltransferase
+    Active Site Motif: Evidence for Histidine Stabilization of the Malonyl-Enzyme
+    Intermediate”. PLoS One, 9(10), e109421. doi, 10.1371/journal.pone.0109421 http://www.ncbi.nlm.nih.gov/pubmed/25286165'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pSP40
+  promoters: []
+  description: yPKS with S641A mutation
+  selection_markers:
+  - kan
+- backbone: pIY1
+  promoters: []
+  description: yersinabactin PKS with mutations S641A and H640A
+  selection_markers:
+  - kan
+- backbone: pSP43
+  promoters: []
+  description: yersiniabactin PKS with H640A mutation
+  selection_markers:
+  - Kan
+- backbone: pSP41
+  promoters: []
+  description: yPKS with AT mutations H741A, S641A, H640A
+  selection_markers:
+  - kan
+- backbone: pSP8
+  promoters: []
+  description: pET28 with YERS PKS1
+  selection_markers:
+  - Kan
+- backbone: pSP42
+  promoters: []
+  description: yersinaibactin PKS with H741A mutation
+  selection_markers:
+  - Kan
+bibliographicCitation: https://public-registry.jbei.org/folders/177
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00177
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.619Z'

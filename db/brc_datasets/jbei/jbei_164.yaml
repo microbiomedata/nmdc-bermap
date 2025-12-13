@@ -1,0 +1,69 @@
+id: jbei:164
+brc: JBEI
+date: '2015-04-02'
+title: Yuzawa et al 2013
+creator:
+- name: Satoshi Yuzawa
+  email: syuzawa@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 29829
+  scientificName: Lipomyces starkeyi
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00164
+repository: ICE
+datasetName: Yuzawa et al 2013
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/164
+description: This dataset provides three expression plasmids for the production and
+  purification of the polyketide synthase LipPks1 from *Lipomyces starkeyi*. The constructs
+  were designed to investigate the function of the C-terminal thioesterase (TE) domain
+  by enabling comparison of the full-length enzyme against a TE-truncated version.
+  A third plasmid variant allows for the study of a modified linker region, facilitating
+  detailed biochemical characterization of this lipid-producing enzyme.
+relatedItem:
+- title: 'Yuzawa S, Eng CH, Katz L, Keasling JD. Broad substrate specificity of the
+    loading didomain of the lipomycin polyketide synthase. Biochemistry. 2013 Jun
+    4;52(22):3791-3. doi: 10.1021/bi400520t. Epub 2013 May 23.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Murli S, Kennedy J, Dayem LC, Carney JR, Kealey JT. Metabolic engineering
+    of Escherichia coli for improved 6-deoxyerythronolide B production. J Ind Microbiol
+    Biotechnol. 2003 Aug;30(8):500-9. Epub 2003 Jul 26.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: affinity_purification
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pBR322
+  backbone: pSY066
+  promoters:
+  - T7
+  description: His-(-NL)LipPks1+TE
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pSY065
+  promoters:
+  - T7
+  description: His-LipPks1
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pSY044
+  promoters:
+  - T7
+  description: His-LipPks1+TE
+  selection_markers:
+  - Kan
+bibliographicCitation: https://public-registry.jbei.org/folders/164
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00164
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.619Z'

@@ -1,0 +1,31 @@
+brc: CABBI
+date: '2022-09-16'
+title: Assessing the Efficiency Implications of Renewable Fuel Policy Design in the
+  United States
+creator:
+- name: Khanna, Madhu
+  email: khanna1@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+keywords:
+- renewable fuel standard
+- nested structure
+- cellulosic waiver credit
+- RIN
+identifier: 10.13012/B2IDB-6803176_V1
+repository: Illinois Data Bank
+description: This dataset contains model code (including input data) to replicate
+  the outcomes for a published study titled “Assessing the Efficiency Implications
+  of Renewable Fuel Policy Design in the United States.” The information consists
+  of (1) the replication codes and (1) data for the model. To run the model, use GAMS
+  to run the “Models.gms” file.
+relatedItem:
+- title: Assessing the Efficiency Implications of Renewable Fuel Policy Design in
+    the United States
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1002/jaa2.23
+bibliographicCitation: https://doi.org/10.13012/B2IDB-6803176_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-6803176_V1
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.628Z'

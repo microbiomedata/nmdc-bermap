@@ -1,0 +1,38 @@
+brc: GLBRC
+date: '2023-11-01'
+title: Novosphingobium rhizosphaerae strain LY plasmid pLY2, complete sequence
+creator:
+- name: Joshua K. Michener
+  email: michenerjk@ornl.gov
+  affiliation: CBI - ORNL
+  primaryContact: true
+- name: John Ralph
+  email: jralph@wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: false
+species:
+- NCBITaxID: 1551649
+  scientificName: Novosphingobium rhizosphaerae
+keywords:
+- Bacteria
+- Pseudomonadati
+- Pseudomonadota
+- Alphaproteobacteria
+- Sphingomonadales
+- Sphingomonadaceae
+- Novosphingobium
+- Novosphingobium rhizosphaerae
+identifier: CP137863
+repository: GenBank
+description: Novosphingobium rhizosphaerae strain LY plasmid pLY2, complete sequence
+relatedItem:
+- title: Elucidation of a bacterial pathways for catabolism of the β–β-linked dilignol
+    pinoresinol
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://journals.asm.org/doi/10.1128/mbio.02010-25
+analysisType: Assembled complete genome
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/nuccore/CP137861
+schema_version: 0.1.7
+uid: GLBRC_CP137863
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.198Z'

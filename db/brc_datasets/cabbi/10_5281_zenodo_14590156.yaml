@@ -1,0 +1,38 @@
+brc: CABBI
+date: '2024-08-29'
+title: Design of Diverse, Functional Mitochondrial Targeting Sequences Across Eukaryotic
+  Organisms Using Variational Autoencoder
+creator:
+- name: Huimin Zhao
+  email: zhao5@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Li-Qing Chen
+  email: lqchen77@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- artificial intelligence
+- Proteomics
+- Targeting Sequences
+identifier: 10.5281/zenodo.14590156
+repository: Zenodo
+description: This repository accompanies the work Design of diverse, functional mitochondrial
+  targeting sequences across eukaryotic organisms using variational autoencoder. It
+  includes the datasets for model training, validation, and downstream analysis.
+relatedItem:
+- title: Design of Diverse, Functional Mitochondrial Targeting Sequences Across Eukaryotic
+    Organisms using Variational Autoencoder
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1038/s41467-025-59499-3
+- title: MTS-VAE
+  relatedItemType: Software
+  relatedItemIdentifier: https://github.com/Zhao-Group/MTS-VAE
+bibliographicCitation: https://doi.org/10.5281/zenodo.14590156
+schema_version: 0.1.1
+uid: CABBI_10.5281/zenodo.14590156
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-10T06:00:05.195Z'

@@ -1,0 +1,45 @@
+brc: CABBI
+date: '2025-04-23'
+title: 'Dataset: Breaking the barrier of human-annotated training data for machine-learning-aided
+  plant research using aerial imagery'
+creator:
+- name: Andrew D.B. Leakey
+  email: leakey@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Erik Sacks
+  email: esacks@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 183675
+  scientificName: Miscanthus sacchariflorus
+- NCBITaxID: 62337
+  scientificName: Miscanthus sinensis
+keywords:
+- Plant phenotyping
+- Miscanthus
+- UAV
+- UAS
+- Generative and adversarial learning
+identifier: 10.13012/B2IDB-8462244_V2
+repository: Illinois Data Bank
+description: This dataset supports the implementation described in the manuscript
+  Breaking the Barrier of Human-Annotated Training Data for Machine-Learning-Aided
+  Biological Research Using Aerial Imagery. It comprises UAV aerial imagery used to
+  execute the code available at https://github.com/pixelvar79/GAN-Flowering-Detection-paper.
+  For detailed information on dataset usage and instructions for implementing the
+  code to reproduce the study, please refer to the GitHub repository.
+relatedItem:
+- title: Breaking the Barrier of Human-annotated Training Data for Machine Learning-aided
+    Plant Research using Aerial Imagery‌
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1093/plphys/kiaf132
+- title: ESGAN-Flowering-Detection-paper‌
+  relatedItemType: Software
+  relatedItemIdentifier: https://github.com/pixelvar79/ESGAN-Flowering-Detection-paper
+bibliographicCitation: https://doi.org/10.13012/B2IDB-8462244_V2
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-8462244_V2
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-10T06:00:05.195Z'

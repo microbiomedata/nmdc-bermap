@@ -1,0 +1,44 @@
+brc: CABBI
+date: '2021-09-11'
+title: Deciphering Enhancer Sequence Using Thermodynamics-Based Models and Convolutional
+  Neural Networks
+creator:
+- name: Sinha, Saurabh
+  email: saurabh.sinha@bme.gatech.edu
+  affiliation: Georgia Institute of Technology
+  primaryContact: true
+keywords:
+- Thermodynamics-based model
+- Transcriptional regulation
+identifier: GEMSTAT_direct_limited
+repository: GitHub
+description: Deciphering the sequence-function relationship encoded in enhancers holds
+  the key to interpreting non-coding variants and understanding mechanisms of transcriptomic
+  variation. Several quantitative models exist for predicting enhancer function and
+  underlying mechanisms; however, there has been no systematic comparison of these
+  models characterizing their relative strengths and shortcomings. Here, we interrogated
+  a rich data set of neuroectodermal enhancers in Drosophila, representing cis- and
+  trans- sources of expression variation, with a suite of biophysical and machine
+  learning models. We performed rigorous comparisons of thermodynamics-based models
+  implementing different mechanisms of activation, repression and cooperativity. Moreover,
+  we developed a convolutional neural network (CNN) model, called CoNSEPT, that learns
+  enhancer ‘grammar’ in an unbiased manner. CoNSEPT is the first general-purpose CNN
+  tool for predicting enhancer function in varying conditions, such as different cell
+  types and experimental conditions, and we show that such complex models can suggest
+  interpretable mechanisms. We found model-based evidence for mechanisms previously
+  established for the studied system, including cooperative activation and short-range
+  repression. The data also favored one hypothesized activation mechanism over another
+  and suggested an intriguing role for a direct, distance-independent repression mechanism.
+  Our modeling shows that while fundamentally different models can yield similar fits
+  to data, they vary in their utility for mechanistic inference.
+relatedItem:
+- title: Deciphering Enhancer Sequence Using Thermodynamics-Based Models and Convolutional
+    Neural Networks
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: http://doi.org/10.1093/nar/gkab765
+analysisType: Code
+bibliographicCitation: https://github.com/PayamDiba/Manuscript_tools/tree/main/GEMSTAT_direct_limited
+schema_version: 0.1.1
+uid: CABBI_GEMSTAT_direct_limited
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

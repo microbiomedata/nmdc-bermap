@@ -1,0 +1,70 @@
+id: jbei:245
+brc: JBEI
+date: '2016-06-13'
+title: Hiras et al. 2016
+creator:
+- name: Jennifer Hiras
+  email: jhiras@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 2006
+  scientificName: Thermobispora bispora
+- NCBITaxID: 1423
+  scientificName: Bacillus subtilis
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- BGW
+- GH48
+- Berkeley Green Waste
+- GH06_endo
+- GH12
+- GH06_exo
+identifier: jbei:folder:00245
+repository: ICE
+datasetName: Hiras et al. 2016
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/245
+description: This dataset provides four pFILB expression plasmids containing cellulolytic
+  enzyme genes from the thermophilic bacterium *Thermobispora bispora* DSM 43833.
+  The collection enables the study of cellulose hydrolysis by providing genes for
+  a cellobiosidase (GH6 exo) and various endoglucanases (GH6 endo, GH12, GH48). These
+  plasmids serve as genetic tools for expressing and characterizing key enzymes for
+  biomass deconstruction.
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: JH_P2A11
+  promoters: []
+  description: 'Gene encodes a cellulose 1,4-beta-cellobiosidase (GH6 exo) from Thermobispora
+    bispora DSM 43833, cloned into pFILB. GenBank accession number:'
+  selection_markers:
+  - Kan
+- backbone: JH_P2A01
+  promoters: []
+  description: 'Gene encodes a glycoside hydrolase 12 (GH12) from Thermobispora bispora
+    DSM 43833, cloned into pFILB. GenBank accession number:'
+  selection_markers:
+  - Kan
+- backbone: JH_P3A02
+  promoters: []
+  description: Gene encodes an endoglucanase (GH48) from Thermobispora bispora DSM
+    43833, cloned into pFILB.
+  selection_markers:
+  - Kan
+- backbone: JH_P3A04
+  promoters: []
+  description: 'Gene encodes an endoglucanase (GH6 endo) from Thermobispora bispora
+    DSM 43833, cloned into pFILB. GenBank accession number:'
+  selection_markers:
+  - Kan
+bibliographicCitation: https://public-registry.jbei.org/folders/245
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00245
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

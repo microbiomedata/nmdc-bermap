@@ -1,0 +1,39 @@
+id: jbei:473
+brc: JBEI
+date: '2019-06-21'
+title: Brenac et. al., 2019
+creator:
+- name: Lea Brenac
+  email: lbrenac@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Itay Budin
+  email: ibudin@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species: []
+keywords: []
+identifier: jbei:folder:00473
+repository: ICE
+datasetName: Brenac et. al., 2019
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/473
+description: null
+relatedItem:
+- title: 'Skerker, Jeffrey M., et al. "Dissecting a complex chemical stress: chemogenomic
+    profiling of plant hydrolysates." Molecular systems biology 9.1 (2013): 674. DOI
+    10.1038/msb.2013.30'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features: []
+bibliographicCitation: https://public-registry.jbei.org/folders/473
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00473
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

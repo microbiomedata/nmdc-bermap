@@ -1,0 +1,52 @@
+brc: CABBI
+date: '2022-10-10'
+title: UAV Remote Sensing Imagery of Miscanthus — 2020
+creator:
+- name: Leakey, Andrew D.B.
+  email: leakey@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Sacks, Erik
+  email: esacks@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 62337
+  scientificName: Miscanthus sinensis
+- NCBITaxID: 183675
+  scientificName: Miscanthus sacchariflorus
+keywords:
+- convolutional neural networks
+- miscanthus
+- field phenotyping
+- UAV
+- remote sensing
+identifier: 10.13012/B2IDB-5689586_V1
+repository: Illinois Data Bank
+description: 'Aerial imagery utilized as input in the manuscript “Deep Convolutional
+  Neural Networks Exploit High-Spatial- and -Temporal-Resolution Aerial Imagery to
+  Predict Key Traits in Miscanthus.” Data was collected over Miscanthus sacchariflorus
+  (Msa) and Miscanthus sinensis (Msi) breeding trials at the University of Illinois
+  Energy Farm in 2020. Flights were performed using a DJI M600 mounted with a Micasense
+  Rededge multispectral sensor at 20 m altitude around solar noon. Imagery is available
+  as tif file by field trial and date (10). The post-processing of raw images into
+  orthophoto was performed in Agisoft Metashape software. Each crop surface model
+  and multispectral orthophoto was stacked into a unique raster stack by date and
+  uploaded here. Each raster stack includes 6 layers in the following order: Layer
+  1 = crop surface model, Layer 2 = Blue, Layer 3 = Green, Layer 4 = Red, Layer 5
+  = Rededge, and Layer 6 = NIR multispectral bands. Msa raster stacks were resampled
+  to 1.67 cm spatial resolution and Msi raster stacks were resampled to 1.41 cm spatial
+  resolution to ease their integration into further analysis. ‘MMDDYYYY’ is the date
+  of data collection, ‘MSA’ is M. Sacchariflorus trial, ‘MSI’ is Miscanthus Sinensis
+  trial, ‘CSM’ is crop surface model layer, and ‘MULTSP’ are the five multispectral
+  bands.'
+relatedItem:
+- title: Deep Convolutional Neural Networks Exploit High-Spatial- and -Temporal-Resolution
+    Aerial Imagery to Phenotype Key Traits in Miscanthus
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.3390/rs14215333
+bibliographicCitation: https://doi.org/10.13012/B2IDB-5689586_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-5689586_V1
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.628Z'

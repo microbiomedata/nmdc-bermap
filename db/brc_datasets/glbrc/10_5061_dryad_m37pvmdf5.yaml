@@ -1,0 +1,36 @@
+brc: GLBRC
+date: '2025-07-16'
+title: Agricultural management legacy effects on switchgrass growth and soil carbon
+  gains
+creator:
+- name: Alexandra Kravchenko
+  email: kravche1@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+species:
+- NCBITaxID: null
+  scientificName: Switchgrass (Panicum virgatum L.)
+keywords:
+- bioenergy crop production system
+- contrasting tillage legacy
+- gross primary production
+- long-term tillage history
+- nitrogen fertilization
+- soil carbon gains
+identifier: 10.5061/dryad.m37pvmdf5
+repository: Dryad
+description: These datasets are part of the manuscript "Agricultural management legacy
+  effects on switchgrass growth and soil carbon gains" in which we observed the impact
+  of historic tillage management and historic and continued N fertilization on switchgrass
+  growth and soil C gains.
+relatedItem:
+- title: Agricultural management legacy effects on switchgrass growth and soil carbon
+    gains
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://onlinelibrary.wiley.com/doi/10.1111/gcbb.70051
+analysisType: Field data
+bibliographicCitation: https://datadryad.org/dataset/doi:10.5061/dryad.m37pvmdf5
+schema_version: 0.1.7
+uid: GLBRC_10.5061/dryad.m37pvmdf5
+created_at: '2025-11-27T06:00:04.934Z'
+updated_at: '2025-12-10T06:00:05.198Z'

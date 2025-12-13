@@ -1,0 +1,443 @@
+id: jbei:855
+brc: JBEI
+date: '2024-07-11'
+title: Yunus et al. 2024
+creator:
+- name: Ian Yunus
+  email: ianyunus@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 303
+  scientificName: Pseudomonas putida
+- NCBITaxID: 358
+  scientificName: Agrobacterium tumefaciens
+keywords: []
+identifier: jbei:folder:00855
+repository: ICE
+datasetName: Yunus et al. 2024
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/855
+description: This dataset comprises 67 plasmids developed for metabolic engineering
+  and synthetic biology applications in broad-host-range bacteria. The collection
+  features constructs for the combinatorial assembly and optimization of a multi-enzyme
+  biosynthetic pathway involving DDGS, OMT, ATP grasp ligase, and NRPS components.
+  It also includes an inducible CRISPRi system for targeted gene knockdown and a toolkit
+  of reporter plasmids with varied promoters and ribosome binding sites for characterizing
+  gene expression control.
+relatedItem: []
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: RK2
+  backbone: pIY656
+  promoters: []
+  description: pVS1-p15a-RepA-StaA-Gm-P3-BCD2-RFP
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY261
+  promoters: []
+  description: pBBR1-Kan-P3-BCD2-RFP
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY259
+  promoters: []
+  description: pRK2-Kan-P3-BCD2-RFP
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY262
+  promoters: []
+  description: pRO1600-p15a-Kan-P3-BCD2-RFP
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY260
+  promoters: []
+  description: pRSF1010-Kan-P3-BCD2-RFP
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY638
+  promoters: []
+  description: pRK2-Gm-PJ23101-RFP
+  selection_markers:
+  - Gentamicin 10 mg/L
+- ori: RK2
+  backbone: pIY637
+  promoters: []
+  description: pRK2-Gm-PJ23100-RFP
+  selection_markers:
+  - Gentamicin 10 mg/L
+- ori: RK2
+  backbone: pIY640
+  promoters: []
+  description: pRK2-Gm-PJ23107-RFP
+  selection_markers:
+  - Gentamicin 10 mg/L
+- ori: RK2
+  backbone: pIY639
+  promoters: []
+  description: pRK2-Gm-PJ23102-RFP
+  selection_markers:
+  - Gentamicin 10 mg/L
+- ori: RK2
+  backbone: pIY258
+  promoters: []
+  description: pBBR1-B5-Kan-P3-BCD2-RFP
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY548
+  promoters: []
+  description: pRK2-Kan-araC-ParaBAD-RFP (RBS5)
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY636
+  promoters: []
+  description: pRK2-Gm-PJ23119-RFP
+  selection_markers:
+  - Gentamicin 10 mg/L
+- ori: RK2
+  backbone: pIY544
+  promoters: []
+  description: pRK2-Kan-Ptrc-RFP (RBS5)
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY545
+  promoters: []
+  description: pRK2-Kan-araC-ParaBAD-RFP (RBS1)
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY541
+  promoters: []
+  description: pRK2-Kan-Ptrc-RFP (RBS1)
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY546
+  promoters: []
+  description: pRK2-Kan-araC-ParaBAD-RFP (RBS2)
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY547
+  promoters: []
+  description: pRK2-Kan-araC-ParaBAD-RFP (RBS4)
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY446
+  promoters: []
+  description: pRK2-Kan-araC-ParaBAD-RFP (RBS3)
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY891
+  promoters: []
+  description: pRK2-Kan-XylS-Pm-RFP
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY542
+  promoters: []
+  description: pRK2-Kan-Ptrc-RFP (RBS2)
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY439
+  promoters: []
+  description: pRK2-Kan-Ptrc-RFP (RBS3)
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY437
+  promoters: []
+  description: pRK2-Kan-TetR-Ptet_eng-RFP
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY436
+  promoters: []
+  description: pRK2-Kan-TetR-Ptet_WT-RFP
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY1883
+  promoters: []
+  description: pRK2-Kan-araC-ParaBAD-3-DDGS-OMT-5-ATP_grasp_ligase-5-NRPS
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY543
+  promoters: []
+  description: pRK2-Kan-Ptrc-RFP (RBS4)
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY1880
+  promoters: []
+  description: pRK2-Kan-araC-ParaBAD-3-DDGS-OMT-4-ATP_grasp_ligase-5-NRPS
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY1879
+  promoters: []
+  description: pRK2-Kan-araC-ParaBAD-3-DDGS-OMT-4-ATP_grasp_ligase-4-NRPS
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY1881
+  promoters: []
+  description: pRK2-Kan-araC-ParaBAD-3-DDGS-OMT-5-ATP_grasp_ligase-3-NRPS
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY1882
+  promoters: []
+  description: pRK2-Kan-araC-ParaBAD-3-DDGS-OMT-5-ATP_grasp_ligase-4-NRPS
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY447
+  promoters: []
+  description: pRK2-Kan-NagR-PnagAa-RFP
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY1877
+  promoters: []
+  description: pRK2-Kan-araC-ParaBAD-3-DDGS-OMT-3-ATP_grasp_ligase-5-NRPS
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY1878
+  promoters: []
+  description: pRK2-Kan-araC-ParaBAD-3-DDGS-OMT-4-ATP_grasp_ligase-3-NRPS
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY1875
+  promoters: []
+  description: pRK2-Kan-araC-ParaBAD-3-DDGS-OMT-3-ATP_grasp_ligase-3-NRPS
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY1876
+  promoters: []
+  description: pRK2-Kan-araC-ParaBAD-3-DDGS-OMT-3-ATP_grasp_ligase-4-NRPS
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY456
+  promoters: []
+  description: pRK2-Kan-Ptrc1-O-Ava_DDGS-OMT-ATP_grasp_ligase-NRPS
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY1741
+  promoters: []
+  description: pRK2-Kan-ParaBAD-5-DDGS-5-OMT-5-ATP_grasp_ligase-5-NRPS
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY1823
+  promoters: []
+  description: pK18-Kan-PP_4188
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY1739
+  promoters: []
+  description: pRK2-Kan-ParaBAD-4-DDGS-4-OMT-4-ATP_grasp_ligase-4-NRPS
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY1738
+  promoters: []
+  description: pRK2-Kan-Ptrc1-O-3-DDGS-3-OMT-3-ATP_grasp_ligase-3-NRPS
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY1737
+  promoters: []
+  description: pRK2-Kan-ParaBAD-3-DDGS-3-OMT-3-ATP_grasp_ligase-3-NRPS
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY1736
+  promoters: []
+  description: pRK2-Kan-Ptrc1-O-5-DDGS-5-OMT-TrpoH-Ptrc-5-ATP_grasp_ligase-5-NRPS
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY1735
+  promoters: []
+  description: pRK2-Kan-ParaBAD-5-DDGS-5-OMT-TrpoH-Ptrc-5-ATP_grasp_ligase-5-NRPS
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY1734
+  promoters: []
+  description: pRK2-Kan-Ptrc1-O-4-DDGS-4-OMT-TrpoH-Ptrc-4-ATP_grasp_ligase-4-NRPS
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY1733
+  promoters: []
+  description: pRK2-Kan-ParaBAD-4-DDGS-4-OMT-TrpoH-Ptrc-4-ATP_grasp_ligase-4-NRPS
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY1740
+  promoters: []
+  description: pRK2-Kan-Ptrc1-O-4-DDGS-4-OMT-4-ATP_grasp_ligase-4-NRPS
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY1731
+  promoters: []
+  description: pRK2-Kan-ParaBAD-3-DDGS-3-OMT-TrpoH-Ptrc-3-ATP_grasp_ligase-3-NRPS
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RSF1010
+  backbone: pIY1617
+  promoters: []
+  description: pRSF1010-Gm-NagR-pNagAa-dCas9-thrLABC-PP_5192
+  selection_markers:
+  - Gentamicin 10 mg/L
+- ori: RK2
+  backbone: pIY1732
+  promoters: []
+  description: pRK2-Kan-Ptrc1-O-3-DDGS-3-OMT-TrpoH-Ptrc-3-ATP_grasp_ligase-3-NRPS
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RSF1010
+  backbone: pIY1616
+  promoters: []
+  description: pRSF1010-Gm-NagR-pNagAa-dCas9-thrLABC-PP_0988
+  selection_markers:
+  - Gentamicin 10 mg/L
+- ori: RSF1010
+  backbone: pIY1613
+  promoters: []
+  description: pRSF1010-Gm-NagR-pNagAa-dCas9-thrLABC-PP_4677
+  selection_markers:
+  - Gentamicin 10 mg/L
+- ori: RSF1010
+  backbone: pIY1614
+  promoters: []
+  description: pRSF1010-Gm-NagR-pNagAa-dCas9-thrLABC-PP_0082
+  selection_markers:
+  - Gentamicin 10 mg/L
+- ori: RSF1010
+  backbone: pIY1615
+  promoters: []
+  description: pRSF1010-Gm-NagR-pNagAa-dCas9-thrLABC-PP_0083
+  selection_markers:
+  - Gentamicin 10 mg/L
+- ori: RK2
+  backbone: pIY1742
+  promoters: []
+  description: pRK2-Kan-Ptrc1-O-5-DDGS-5-OMT-5-ATP_grasp_ligase-5-NRPS
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RK2
+  backbone: pIY1830
+  promoters: []
+  description: pRK2-Kan-Ptrc1-O-(Ava_DDGS-OMT-ATP_grasp_ligase)-Np_D_ala_ala_ligase
+  selection_markers:
+  - Kanamycin 50 mg/L
+- ori: RSF1010
+  backbone: pIY1608
+  promoters: []
+  description: pRSF1010-Gm-NagR-pNagAa-dCas9-thrLABC-PP_3191
+  selection_markers:
+  - Gentamicin 10 mg/L
+- ori: RSF1010
+  backbone: pIY1611
+  promoters: []
+  description: pRSF1010-Gm-NagR-pNagAa-dCas9-thrLABC-PP_0731
+  selection_markers:
+  - Gentamicin 10 mg/L
+- ori: RSF1010
+  backbone: pIY1612
+  promoters: []
+  description: pRSF1010-Gm-NagR-pNagAa-dCas9-thrLABC-PP_3664
+  selection_markers:
+  - Gentamicin 10 mg/L
+- ori: RSF1010
+  backbone: pIY1607
+  promoters: []
+  description: pRSF1010-Gm-NagR-pNagAa-dCas9-thrLABC-PP_3144
+  selection_markers:
+  - Gentamicin 10 mg/L
+- ori: RSF1010
+  backbone: pIY1604
+  promoters: []
+  description: pRSF1010-Gm-NagR-pNagAa-dCas9-thrLABC-PP_0297
+  selection_markers:
+  - Gentamicin 10 mg/L
+- ori: RSF1010
+  backbone: pIY1606
+  promoters: []
+  description: pRSF1010-Gm-NagR-pNagAa-dCas9-thrLABC-PP_2930
+  selection_markers:
+  - Gentamicin 10 mg/L
+- ori: RSF1010
+  backbone: pIY1610
+  promoters: []
+  description: pRSF1010-Gm-NagR-pNagAa-dCas9-thrLABC-PP_5149
+  selection_markers:
+  - Gentamicin 10 mg/L
+- ori: RSF1010
+  backbone: pIY1583
+  promoters: []
+  description: pRSF1010-Gm-NagR-pNagAa-dCas9-thrLABC-PP_2871
+  selection_markers:
+  - Gentamicin 10 mg/L
+- ori: RSF1010
+  backbone: pIY1582
+  promoters: []
+  description: pRSF1010-Gm-NagR-pNagAa-dCas9-thrLABC-PP_4960
+  selection_markers:
+  - Gentamicin 10 mg/L
+- ori: RSF1010
+  backbone: pIY1099
+  promoters: []
+  description: pRSF1010-Gm-NagR-pNagAa-dCas9-thrLABC-PP_1444
+  selection_markers:
+  - Gentamicin 10 mg/L
+- ori: RSF1010
+  backbone: pIY989
+  promoters: []
+  description: pRSF1010-Gm-NagR-pNagAa-dCas9-thrLABC-sfGFP
+  selection_markers:
+  - Gentamicin 10 mg/L
+- ori: RSF1010
+  backbone: pIY1581
+  promoters: []
+  description: pRSF1010-Gm-NagR-pNagAa-dCas9-thrLABC-BFP
+  selection_markers:
+  - Gentamicin 10 mg/L
+- ori: ColE1
+  backbone: pIY993
+  promoters: []
+  description: pJET-Carb-J23119-sfGFP-sgRNA
+  selection_markers:
+  - Carbenicillin 100 mg/L
+bibliographicCitation: https://public-registry.jbei.org/folders/855
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00855
+created_at: '2025-11-18T20:03:56.772Z'
+updated_at: '2025-12-11T00:00:04.623Z'

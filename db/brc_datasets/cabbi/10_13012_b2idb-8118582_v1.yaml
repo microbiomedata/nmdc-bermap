@@ -1,0 +1,39 @@
+brc: CABBI
+date: '2018-10-26'
+title: Ethanol Production from Corn Fiber Separated after Liquefaction in the Dry
+  Grind Process
+creator:
+- name: Vijay Singh
+  email: vsingh@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 4577
+  scientificName: Zea mays
+keywords:
+- Feedstock bioprocessing
+- corn fiber
+- conversion treatment
+identifier: 10.13012/B2IDB-8118582_V1
+repository: Illinois Data Bank
+description: Conversion of corn fiber to ethanol in the dry grind process can increase
+  ethanol yields, improve coproduct quality and contribute to process sustainability.
+  This work investigates the use of two physio-chemical pretreatments on corn fiber
+  and effect of cellulase enzyme dosage to improve ethanol yields. Fiber separated
+  after liquefaction of corn was pretreated using (1) hot water pretreatment (160°C
+  for 5, 10 or 20 min); and (2) wet disk milling and converted to ethanol. The conversion
+  efficiencies of hot water pretreated fiber were higher than untreated fiber, with
+  highest increase in conversion (10.4%) achieved for 5-minute residence time at 160
+  °C. Disk milling was not effective in increasing conversion compared to other treatments.
+  Hydrolysis and fermentation of untreated fiber with excess cellulase enzymes resulted
+  in 33.3% higher conversion compared to untreated fiber.
+relatedItem:
+- title: Ethanol Production from Corn Fiber Separated after Liquefaction in the Dry
+    Grind Process
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.3390/en11112921
+bibliographicCitation: https://doi.org/10.13012/B2IDB-8118582_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-8118582_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

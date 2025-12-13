@@ -1,0 +1,129 @@
+id: jbei:143
+brc: JBEI
+date: '2015-01-08'
+title: Mingardon et al. 2015
+creator:
+- name: Nurgul Kaplan
+  email: nkaplan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Florence Mingardon
+  email: fmingardon@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00143
+repository: ICE
+datasetName: Mingardon et al. 2015
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/143
+description: This dataset provides a collection of 14 plasmids containing engineered
+  mutations in the AcrB multidrug efflux pump. The plasmids feature single and combinatorial
+  point mutations, including A279T, Q584R, F617L, L822P, F927S, and F1033Y. This resource
+  was generated to systematically investigate the functional impact of these specific
+  amino acid substitutions on AcrB-mediated transport, particularly in the context
+  of biofuel tolerance.
+relatedItem:
+- title: 'Mingardon F, Clement C, Hirano K, Nhan M, Luning EG, Chanal A, Mukhopadhyay
+    A. Improving olefin tolerance and production in E. coli using native and evolved
+    AcrB. Biotechnol Bioeng. 2014 Dec 2. doi: 10.1002/bit.25511.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'The parental strains was requested from the ATCC culture collection. The
+    deletion of the operon AcrAB was done as described in the lambda red protocol.
+    Mingardon F, Clement C, Hirano K, Nhan M, Luning EG, Chanal A, Mukhopadhyay A.
+    Improving olefin tolerance and production in E. coli using native and evolved
+    AcrB. Biotechnol Bioeng. 2014 Dec 2. doi: 10.1002/bit.25511.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'The parental strain was obtain form the Keio collection available at JBEI.
+    Mingardon F, Clement C, Hirano K, Nhan M, Luning EG, Chanal A, Mukhopadhyay A.
+    Improving olefin tolerance and production in E. coli using native and evolved
+    AcrB. Biotechnol Bioeng. 2014 Dec 2. doi: 10.1002/bit.25511.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: JBEI-7896
+  promoters: []
+  description: mutation A279T, Q584R in AcrB
+  selection_markers:
+  - chloramphenicol
+- backbone: JBEI-7904
+  promoters: []
+  description: mutation A279T, F617L and L822P in AcrB
+  selection_markers:
+  - chloramphenicol
+- backbone: JBEI-7902
+  promoters: []
+  description: mutation A279T, Q584R and L822P in AcrB
+  selection_markers:
+  - chloramphenicol
+- backbone: JBEI-7901
+  promoters: []
+  description: mutation A279T, Q584R, F617L, L822P, F927S and F1033Y in AcrB
+  selection_markers:
+  - chloramphenicol
+- backbone: JBEI-7903
+  promoters: []
+  description: mutation A279T, Q584R and F617L in AcrB
+  selection_markers:
+  - chloramphenicol
+- backbone: JBEI-7858
+  promoters: []
+  description: mutation A279T, F617L  in AcrB
+  selection_markers:
+  - chloramphenicol
+- backbone: JBEI-7859
+  promoters: []
+  description: mutation F617L, L822P in AcrB
+  selection_markers:
+  - chloramphenicol
+- backbone: JBEI-7898
+  promoters: []
+  description: mutation A279T, L822P in AcrB
+  selection_markers:
+  - chloramphenicol
+- backbone: JBEI-7868
+  promoters: []
+  description: mutation F927S in AcrB
+  selection_markers:
+  - chloramphenicol
+- backbone: JBEI-7871
+  promoters: []
+  description: mutation Q584R in AcrB
+  selection_markers:
+  - chloramphenicol
+- backbone: JBEI-7867
+  promoters: []
+  description: mutation F1033Y in AcrB
+  selection_markers:
+  - chloramphenicol
+- backbone: JBEI-7875
+  promoters: []
+  description: mutation L822P in AcrB
+  selection_markers:
+  - chloramphenicol
+- backbone: JBEI-7869
+  promoters: []
+  description: mutation A279T in AcrB
+  selection_markers:
+  - chloramphenicol
+- backbone: JBEI-7873
+  promoters: []
+  description: mutation F617L in AcrB
+  selection_markers:
+  - chloramphenicol
+bibliographicCitation: https://public-registry.jbei.org/folders/143
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00143
+created_at: '2025-11-18T20:03:56.767Z'
+updated_at: '2025-12-11T00:00:04.619Z'

@@ -1,0 +1,114 @@
+id: jbei:249
+brc: JBEI
+date: '2016-06-21'
+title: Martin et al. 2003
+creator:
+- name: filemakerimport
+  email: filemakerimport
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 35608
+  scientificName: Artemisia annua
+keywords:
+- synthetic amorphadiene synthase
+identifier: jbei:folder:00249
+repository: ICE
+datasetName: Martin et al. 2003
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/249
+description: This dataset provides six plasmids for the metabolic engineering of amorphadiene,
+  a precursor to the antimalarial drug artemisinin. The constructs establish a heterologous
+  mevalonate pathway using genes from *S. cerevisiae* and *E. coli* to supply the
+  isoprenoid precursor farnesyl pyrophosphate (FPP). A key plasmid in the set contains
+  a codon-optimized amorphadiene synthase from *Artemisia annua* to convert FPP into
+  the final product.
+relatedItem:
+- title: http://www.ncbi.nlm.nih.gov/pubmed/12778056?dopt=Abstract
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: http://www.ncbi.nlm.nih.gov/pubmed/12778056?dopt=Abstract
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: http://www.ncbi.nlm.nih.gov/pubmed/12778056?dopt=Abstract Foo JL, Jensen
+    HM, Dahl RH, George K, Keasling JD, Lee TS, Leong S, Mukhopadhyay A. 2014. Improving
+    microbial biogasoline production in Escherichia coli using tolerance engineering.
+    mBio 5(6):e01932-14. doi:10.1128/mBio.01932-14.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors:
+- name: Doug Pitera
+  email: dkalman@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pBBR1MCS
+  backbone: pMBIS
+  promoters:
+  - Lac
+  description: "Mevalonate kinase, phosphomevalonate kinase, mevalonate pyrophosphate\
+    \ decarboxylatse, IPP isomerase, FPP synthase\r\nComments: Doesn't contain lacI/\
+    \ ERG1, ERG8, MVD1: S. cerevisiae/ idi: E. Coli"
+  selection_markers:
+  - Tetracycline
+- ori: pACYC
+  backbone: pMevT
+  promoters:
+  - Lac
+  description: Culture on Cm and 0.1% Glucose! This plasmid does not contain LacI,
+    therefore the operon is constitutively expressed unless the strain is grown with
+    glucose. We have noticed plasmid instability due to the high expression of this
+    operon. pMevT is also known as pLac33MevT in lab books and notes.
+  selection_markers:
+  - Chloramphenicol
+- ori: pACYC
+  backbone: pLAC33SOE4
+  promoters: []
+  description: pSOE4
+  selection_markers:
+  - Chloramphenicol
+- ori: pBBR1MCS
+  backbone: pMevB
+  promoters: []
+  description: "Mevalonate kinase, phosphomevalonate kinase, mevalonate pyrophosphate\
+    \ decarboxylatse\r\nComments: Doesn't contain lacI"
+  selection_markers:
+  - Tetracycline
+- ori: pACYC
+  backbone: pLAC33
+  promoters: []
+  description: ''
+  selection_markers:
+  - Chloramphenicol
+- ori: pBBR1MCS
+  backbone: pMBI
+  promoters:
+  - Lac
+  description: "Mevalonate kinase, phosphomevalonate kinase, mevalonate pyrophosphate\
+    \ decarboxylatse, IPP isomerase\r\nComments: Doesn't contain lacI/ ERG1, ERG8,\
+    \ MVD1: S. cerevisiae/ idi: E. Coli"
+  selection_markers:
+  - Tetracycline
+- ori: ColE1
+  backbone: pADS
+  promoters:
+  - Trc
+  description: pADS contains the codon-optimized amorphadiene synthase gene from Artemisia
+    annua
+  selection_markers:
+  - Ampicillin
+bibliographicCitation: https://public-registry.jbei.org/folders/249
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00249
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

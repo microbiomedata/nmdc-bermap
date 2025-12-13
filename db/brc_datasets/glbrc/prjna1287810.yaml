@@ -1,0 +1,40 @@
+brc: GLBRC
+date: '2025-07-07'
+title: Tilletia maclaganii Tm001 NY21 Transcriptome - Tmac_Tm001NY21_culture
+creator:
+- name: Gian Maria Niccolò Benucci
+  email: benucci@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+- name: David B. Lowry
+  email: dlowry@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: false
+species:
+- NCBITaxID: 1031713
+  scientificName: Tilletia maclaganii
+keywords:
+- Eukaryota
+- Fungi
+- Dikarya
+- Basidiomycota
+- Ustilaginomycotina
+- Exobasidiomycetes
+- Tilletiales
+- Tilletiaceae
+- Tilletia
+- Tilletia maclaganii
+identifier: PRJNA1287810
+repository: NCBI BioProject
+description: Tilletia maclaganii Tm001 NY21 Transcriptome; sample from Tm001 NY21
+  single basidiospore culture challenged with 1ppm PCNB
+relatedItem:
+- title: Draft genome of the switchgrass head smut pathogen <i>Tilletia maclaganii</i>
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://journals.asm.org/doi/10.1128/mra.00991-25
+analysisType: Transcriptome
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1287810/
+schema_version: 0.1.7
+uid: GLBRC_PRJNA1287810
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.198Z'

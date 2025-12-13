@@ -1,0 +1,76 @@
+id: jbei:585
+brc: JBEI
+date: '2020-06-05'
+title: Raphael et al. 2020
+creator:
+- name: Julia Prinz
+  email: juliaprinz@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Raphael Gabriel
+  email: raphaelgabriel@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Simon Harth
+  email: sharth@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 5087
+  scientificName: Thermoascus aurantiacus
+- NCBITaxID: 358
+  scientificName: Agrobacterium tumefaciens
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00585
+repository: ICE
+datasetName: Raphael et al. 2020
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/585
+description: This dataset provides four plasmids for genetic engineering of the fungus
+  *Thermoascus aurantiacus* via *Agrobacterium tumefaciens*-mediated transformation.
+  The collection includes two CRISPR-Cas9 vectors designed for targeted knockout of
+  the *pyrG* gene. The remaining two plasmids are Golden Gate cloning vectors containing
+  a GFP reporter cassette, enabling the construction of expression libraries for high-throughput
+  screening.
+relatedItem: []
+analysisType: Targeted Locus (Loci)
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pJP1
+  promoters: []
+  description: For transformation in Agrobacterium tumefaciens, carrying Cas9 and
+    sgRNA1 targeting pyrG
+  selection_markers:
+  - Hygromycin + kanamycin
+- backbone: pJP3
+  promoters: []
+  description: For transformation in Agrobacterium tumefaciens, carrying Cas9 and
+    sgRNA3 targeting pyrG in T.aurantiacus
+  selection_markers:
+  - Hygromycin + kanamycin
+- backbone: pTS57
+  promoters: []
+  description: pRF-HU2-Ptef1-hph analog with Golden Gate Cloning cassette from pTS55
+    (Pgpd1::P::gfp::T::Txyl1), for high throughput screening in TA. Agrobacterium
+    transformation elements included
+  selection_markers:
+  - KanR, hph, gfp
+- backbone: pTS67
+  promoters: []
+  description: pRF-HU2-Ptef1-hph analog with Golden Gate Cloning cassette from pTS62
+    (Pgpd1::P::gfp::T::Txyl1), for high throughput screening in TA. Agrobacterium
+    transformation elements included
+  selection_markers:
+  - Kan, hph
+bibliographicCitation: https://public-registry.jbei.org/folders/585
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00585
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

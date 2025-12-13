@@ -1,0 +1,32 @@
+brc: GLBRC
+date: '2022-02-26'
+title: Manuscript_Code/2022_GP_in_Switchgrass/
+creator:
+- name: Peipei Wang
+  email: wangpeipei02@caas.cn
+  affiliation: Kunpeng Institute of Modern Agriculture at Foshan, Agricultural Genomics
+    Institute at Shenzhen, Chinese Academy of Agricultural Sciences, Shenzhen, Guangdong
+    518124, China
+  primaryContact: true
+- name: Shin-Han Shiu
+  email: shius@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: false
+species:
+- NCBITaxID: 1753
+  scientificName: switchgrass (Panicum virgatum L.)
+keywords: []
+identifier: ShiuLab/Manuscript_Code/tree/master/2022_GP_in_Switchgrass
+repository: GitHub
+description: null
+relatedItem:
+- title: Optimizing genomic prediction for complex traits via investigating multiple
+    factors in switchgrass
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://academic.oup.com/plphys/advance-article/doi/10.1093/plphys/kiaf188/8126253
+analysisType: Code
+bibliographicCitation: https://github.com/ShiuLab/Manuscript_Code/tree/master/2022_GP_in_Switchgrass
+schema_version: 0.1.7
+uid: GLBRC_ShiuLab/Manuscript_Code/tree/master/2022_GP_in_Switchgrass
+created_at: '2025-11-27T06:00:04.934Z'
+updated_at: '2025-12-10T06:00:05.198Z'

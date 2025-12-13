@@ -1,0 +1,53 @@
+brc: JBEI
+date: '2025-09-12'
+title: An Isoprenol Biosensor for Combinatorial High Throughput Strain Engineering
+  in Pseudomonas putida
+creator:
+- name: Christopher J. Petzold
+  email: cjpetzold@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 160488
+  scientificName: Pseudomonas putida kt2440
+keywords:
+- Biomanufacturing
+- Biosensors
+- Strain engineering
+- High-throughput
+- Jbei
+- Biofuels
+- Isoprenol
+- P. putida
+identifier: PXD061547
+repository: PRIDE
+description: Our group has evaluated the productivity of the alcohol isoprenol (3-methyl-3-buten-1-ol),
+  platform commodity chemical with attractive properties specifically as a diesel
+  fuel blendstock and precursor for the bio-jetfuel DMCO, across a number of microbial
+  hosts. While there are strengths and drawbacks to producing isoprenol in any one
+  microbe, Pseudomonas putida KT2440 has a naturally versatile catabolic profile competent
+  of consuming isoprenol. The pathway for this catabolism was revealed using functional
+  genomics data (RB-TnSeq - Thompson et al) and we speculated that this data could
+  also provide a path to developing an isoprenol biosensor. Refactoring knowledge
+  of the isoprenol catabolism signaling system could provide a readout for intracellular
+  isoprenol, in turn enabling an alternative approach to strain engineering that did
+  not rely on a mechanistic understanding of how a heterologous pathway modulates
+  native metabolism.    We define a biosensor as the system where a ligand is recognized
+  by a transcriptional activator, which in turn binds to a cognate DNA sequence driving
+  transcription of a downstream reporter gene. The resulting gene expression linearly
+  increases in response to the initial ligand concentration. There are undoubtedly
+  other biosensor modalities (such as directly converting the ligand into a colored
+  molecule) but the advantage of a biosensor that activates a genetic circuit is that
+  the response can also be integrated back into cellular physiology for high throughput
+  selection with growth based assay. For example, strains can be devised where cell
+  growth is concomitant with the increased production of the ligand. Prokaryotic systems
+  are also advantaged over eukaryotes for biosensor development as the determinants
+  of ribosome translation efficiency are dictated by simple RBS sequences adjacent
+  to the start codon as opposed to complex transcriptional regulators, enabling fine
+  protein level expression tuning while maintaining inducibility.
+bibliographicCitation: https://www.ebi.ac.uk/pride/archive/projects/PXD061547
+schema_version: 0.1.2
+uid: JBEI_PXD061547
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.624Z'

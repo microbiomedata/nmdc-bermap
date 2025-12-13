@@ -1,0 +1,49 @@
+brc: CABBI
+date: '2021-06-24'
+title: Intra- and inter-annual variability of nitrification in the rhizosphere of
+  field-grown biomass sorghum
+creator:
+- name: Yang, Wendy
+  email: yangw@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Kent, Angela
+  email: akent@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: DeLucia, Evan
+  email: delucia@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 4558
+  scientificName: Sorghum bicolor
+keywords:
+- Genomics
+- Sorghum
+identifier: PRJNA741261
+repository: NCBI BioProject
+description: Our main research question was focused on interactions between fertilizer
+  and soil habitat on nitrogen soil transformations/leaching with an emphasis on the
+  relationship between the biological nitrification inhibition (BNI) potential of
+  Sorghum bicolor and soil microbial communities. A field of bioenergy Sorghum bicolor
+  was planted in a split-plot design with 5 additional experimental factors. Experimental
+  factors included Plot nested within Block (4 levels), Genotype (4 levels in 2018;
+  1 level in 2019), Sample date (3 levels), soil fraction/habitat (2 levels bulk and
+  rhizosphere), and fertilizer in kg N ha-1 (2 levels in 2018; 4 levels in 2019).
+  Bulk and rhizosphere soil samples were collected from the field for each genotype
+  across three sampling dates in the years 2018 and 2019. DNA was extracted from samples
+  using a QIAGEN powersoil kit and QIAcube HT machine. Samples were submitted to the
+  University if Illinois at Urbana-Champaign Roy J. Carver Biotechnology Center for
+  16S sequencing on the Illumina NovaSeq platform.
+relatedItem:
+- title: Intra- and Inter-Annual Variability of Nitrification in the Rhizosphere of
+    Field-Grown Bioenergy Sorghum
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: http://doi.org/10.1111/gcbb.12917
+analysisType: Genomics
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA741261
+schema_version: 0.1.1
+uid: CABBI_PRJNA741261
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

@@ -1,0 +1,30 @@
+brc: CABBI
+date: '2019-09-04'
+title: PhenoCam Dataset v2.0 — Vegetation Phenology from Digital Camera Imagery, 2000-2018
+creator:
+- name: Carl Bernacchi
+  email: bernacch@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+keywords:
+- PhenoCam Network
+- Images
+- Vegetation Phenology
+identifier: 10.334/ORNLDAAC/1674
+repository: ORNL DAAC
+description: This data set provides a time series of vegetation phenological observations
+  for 393 sites across diverse ecosystems of the world (mostly North America) from
+  2000-2018. The phenology data were derived from conventional visible-wavelength
+  automated digital camera imagery collected through the PhenoCam Network at each
+  site. From each acquired image, RGB (red, green, blue) color channel information
+  was extracted and means and other statistics calculated for a region-of-interest
+  (ROI) that delineates an area of specific vegetation type. From the high-frequency
+  (typically, 30-minute) imagery collected over several years, time series characterizing
+  vegetation color, including canopy greenness, plus greenness rising and greenness
+  falling transition dates, were summarized over one- and three-day intervals. The
+  PhenoCam data are released under a CC-BY license.
+bibliographicCitation: https://doi.org/10.334/ORNLDAAC/1674
+schema_version: 0.1.1
+uid: CABBI_10.334/ORNLDAAC/1674
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

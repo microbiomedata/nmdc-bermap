@@ -1,0 +1,42 @@
+brc: CBI
+date: '2023-11-14'
+title: 2020 Soil Characterization measurements at Clatskanie and Corvallis, Oregon
+  Populus Trichocarpa GWAS Populations
+active: true
+creator:
+- name: Melanie Mayes
+  email: mayesma@ornl.gov
+  primaryContact: true
+- name: Jana Philips
+  primaryContact: false
+- name: Sarah Ottinger
+  primaryContact: false
+- name: Allison Fortner
+  primaryContact: false
+- name: Nicholas Dove
+  primaryContact: false
+- name: Daniel Hopp
+  primaryContact: false
+- name: Stanton Martin
+  email: martins@ornl.gov
+  primaryContact: false
+- name: Christopher Schadt
+  email: schadtcw@ornl.gov
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER). Biological Systems Science (BSS)
+identifier: https://www.osti.gov/biblio/2205588
+dataset_url: https://labkey.ornl.gov/labkey/BioScales/Schadt/Public_Data/
+description: This is the soil data that was collected as part of the Bio-Scales project
+  conducted at ORNL from 2020 – 2022. This data is referenced in the data release
+  manuscript, "An integrated metagenomic, metabolomic and transcriptomic survey of
+  Populus across genotypes and environments" , Schadt, et. al. 2023. (manuscript in
+  preparation)
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/2205588
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2205588
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

@@ -1,0 +1,27 @@
+brc: CBI
+date: '2024-03-30'
+title: KCS supergene fasta files, PDB files, and presence absence matrix for genotypes
+  referenced in (pub DOI)
+active: true
+creator:
+- name: Michael Garvin
+  email: garvinmr@ornl.gov
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)
+  primaryContact: true
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER). Biological Systems Science (BSS)
+keywords:
+- Populus Trichocarpa KCS locus
+- supergene
+identifier: https://www.osti.gov/biblio/2322563
+dataset_url: https://labkey.ornl.gov/labkey/CBI/Garvin/PUBLIC_DATA/Nature_plants_Helitron_KCS_paper/project-begin.view?
+description: KCS supergene fasta files, PDB files, and presence absence matrix for
+  genotypes
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/2322563
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2322563
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

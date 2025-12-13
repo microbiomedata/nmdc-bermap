@@ -1,0 +1,49 @@
+brc: CABBI
+date: '2021-09-25'
+title: Metabolic Engineering of the Oleaginous Yeast Yarrowia lipolytica PO1f for
+  Production of Erythritol from Glycerol
+creator:
+- name: Christopher V. Rao
+  email: cvrao@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Yong-Su Jin
+  email: ysjin@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Vijay Singh
+  email: vsingh@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 4952
+  scientificName: Yarrowia lipolytica
+keywords:
+- Yarrowia lipolytica
+- Growth values
+- Erythritol production
+identifier: 10.13012/B2IDB-4732426_V1
+repository: Illinois Data Bank
+description: Yarrowia lipolytica was found natively to produce erythritol, mannitol,
+  and arabitol during growth on glucose, fructose, mannose, and glycerol. Osmotic
+  stress is known to increase sugar alcohol production, and was found to significantly
+  increase erythritol production during growth on glycerol. To better understand erythritol
+  production from glycerol, since it was the most promising sugar alcohol, we measured
+  the expression of key genes and intracellular metabolites. Osmotic stress increased
+  the expression of several key genes in the glycerol catabolic pathway and the pentose
+  phosphate pathway. Analysis of intracellular metabolites revealed that amino acids,
+  sugar alcohols, and polyamines are produced at higher levels in response to osmotic
+  stress. Heterologous overexpression of the sugar alcohol phosphatase increased erythritol
+  production and glycerol utilization in Y. lipolytica. We further increased erythritol
+  production by increasing the expression of native glycerol kinase (GK), and transketolase
+  (TKL). These data show the growth and titers produced.
+relatedItem:
+- title: Metabolic Engineering of the Oleaginous Yeast Yarrowia lipolytica PO1f for
+    Production of Erythritol from Glycerol
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1186/s13068-021-02039-0
+bibliographicCitation: https://doi.org/10.13012/B2IDB-4732426_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-4732426_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

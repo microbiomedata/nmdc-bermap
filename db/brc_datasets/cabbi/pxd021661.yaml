@@ -1,0 +1,37 @@
+brc: CABBI
+date: '2021-05-11'
+title: TMTPro Complementary Ion Quantification Increase Plexing and Sensitivity for
+  Accurate Multiplexed Proteomics at the MS2 level
+creator:
+- name: Wuhr, Martin
+  email: wuhr@princeton.edu
+  affiliation: Lewis-Sigler Institute for Integrative Genomics, Princeton University
+  primaryContact: true
+species:
+- NCBITaxID: 9606
+  scientificName: Homo sapiens
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- complementary ion quantification
+- interference-free quantification
+- multiplexing
+- TMTpro
+identifier: PXD021661
+repository: PRIDE
+description: The ability of the TMTPro isobaric labeling reagents to form complementary
+  ions for accurate multiplexed proteomics at the MS2 level was investigated. Human
+  and yeast peptides were labeled in distinct ratios to analyze the effect of interference
+  on the quantification accuracy. A method, TMTProC, was developed and optimized for
+  accurate, sensitive MS2-level quantification of up to 8 conditions in one MS-run.
+relatedItem:
+- title: TMTpro Complementary Ion Quantification Increases Plexing and Sensitivity
+    for Accurate Multiplexed Proteomics at the MS2 Level.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://dx.doi.org/10.1021/ACS.JPROTEOME.0C00813
+analysisType: shotgun_proteomics
+bibliographicCitation: https://dx.doi.org/10.6019/PXD021661
+schema_version: 0.1.1
+uid: CABBI_PXD021661
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.624Z'

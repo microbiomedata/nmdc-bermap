@@ -1,0 +1,502 @@
+id: jbei:197
+brc: JBEI
+date: '2015-06-17'
+title: Foo et al. 2014
+creator:
+- name: Jee Foo
+  email: jlfoo@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Robert Dahl
+  email: rhdahl@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: filemakerimport
+  email: filemakerimport
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Becky Rutherford
+  email: bjrutherford@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Kevin George
+  email: kwgeorge@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- 3B
+- pTrc99A-NudB-PMD
+identifier: jbei:folder:00197
+repository: ICE
+datasetName: Foo et al. 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/197
+description: This dataset of 54 plasmids documents the engineering of isopentenol
+  tolerance in *E. coli*. The collection primarily consists of a library of plasmids
+  for overexpressing individual stress response genes, highlighting a final, refined
+  set of eight genes that most effectively confer tolerance, including *yqhD*, *soxS*,
+  and *ibpA*. The dataset also contains constructs for engineering the mevalonate
+  production pathway and general-purpose expression vectors.
+relatedItem:
+- title: George, K. W., Chen, A., Jain, A., Batth, T. S., Baidoo, E. E., Wang, G.,
+    Adams, P. D., Petzold, C. J., Keasling, J. D., &amp; Lee, T. S. (2014). “Correlation
+    analysis of targeted proteins and metabolites to assess and engineer microbial
+    isopentenol production”. Biotechnol Bioeng, 111(8), 1648-1658. Foo JL, Jensen
+    HM, Dahl RH, George K, Keasling JD, Lee TS, Leong S, Mukhopadhyay A. 2014. Improving
+    microbial biogasoline production in Escherichia coli using tolerance engineering.
+    mBio 5(6):e01932-14. doi:10.1128/mBio.01932-14.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Foo JL, Jensen HM, Dahl RH, George K, Keasling JD, Lee TS, Leong S, Mukhopadhyay
+    A. 2014. Improving microbial biogasoline production in Escherichia coli using
+    tolerance engineering. mBio 5(6):e01932-14. doi:10.1128/mBio.01932-14.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Withers, S.T. et al. Identification of isopentenol biosynthetic genes from
+    Bacillus subtilis by a screening method based on isoprenoid precursor toxicity.
+    Applied and environmental microbiology 73, 6277-83(2007). Foo JL, Jensen HM, Dahl
+    RH, George K, Keasling JD, Lee TS, Leong S, Mukhopadhyay A. 2014. Improving microbial
+    biogasoline production in Escherichia coli using tolerance engineering. mBio 5(6):e01932-14.
+    doi:10.1128/mBio.01932-14.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: http://www.ncbi.nlm.nih.gov/pubmed/12778056?dopt=Abstract Foo JL, Jensen
+    HM, Dahl RH, George K, Keasling JD, Lee TS, Leong S, Mukhopadhyay A. 2014. Improving
+    microbial biogasoline production in Escherichia coli using tolerance engineering.
+    mBio 5(6):e01932-14. doi:10.1128/mBio.01932-14.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: http://www.ncbi.nlm.nih.gov/pubmed/12778056?dopt=Abstract
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: George, K. W., Chen, A., Jain, A., Batth, T. S., Baidoo, E. E., Wang, G.,
+    Adams, P. D., Petzold, C. J., Keasling, J. D., &amp; Lee, T. S. (2014). “Correlation
+    analysis of targeted proteins and metabolites to assess and engineer microbial
+    isopentenol production”. Biotechnol Bioeng, 111(8), 1648-1658.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Lee TS, Krupa RA, Zhang F, Hajimorad M, Holtz WJ, Prasad N, Lee SK, Keasling
+    JD. BglBrick vectors and datasheets: A synthetic biology platform for gene expression.
+    J Biol Eng. 2011 Sep 20;5:12. doi: 10.1186/1754-1611-5-12.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: George, K. W., Chen, A., Jain, A., Batth, T. S., Baidoo, E. E., Wang, G.,
+    Adams, P. D., Petzold, C. J., Keasling, J. D., &amp; Lee, T. S. (2014). “Correlation
+    analysis of targeted proteins and metabolites to assess and engineer microbial
+    isopentenol production”. Biotechnol Bioeng, 111(8), 1648-1658. Also used in Shi,
+    J., George, K. W., Sun, N., He, W., Li, C., Stavila, V., Keasling, J. D., Simmons,
+    B. A., Lee, T. S., &amp; Singh, S. (2015). "Impact of Pretreatment Technologies
+    on Saccharification and Isopentenol Fermentation of Mixed Lignocellulosic Feedstocks".
+    BioEnergy Research, 1-10. doi, 10.1007/s12155-015-9588-z http://dx.doi.org/10.1007/s12155-015-9588-z
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors:
+- name: Doug Pitera
+  email: dkalman@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+- name: Taek Soon Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pSC101**
+  backbone: pJLFS-40
+  promoters:
+  - PLacUV5
+  description: Final 8 selected isopentenol stress response genes - yqhD
+  selection_markers:
+  - kan
+- ori: pSC101**
+  backbone: pJLFS-34
+  promoters: []
+  description: Final 8 selected isopentenol stress response genes - gidB
+  selection_markers:
+  - kan
+- ori: pSC101**
+  backbone: pJLFS-24
+  promoters:
+  - PLacUV5
+  description: Final 8 selected isopentenol stress response genes - mdlB
+  selection_markers:
+  - kan
+- ori: pSC101**
+  backbone: pJLFS-18
+  promoters:
+  - PLacUV5
+  description: Final 8 selected isopentenol stress response genes - soxS
+  selection_markers:
+  - kan
+- ori: pSC101**
+  backbone: pJLFS-27
+  promoters:
+  - PLacUV5
+  description: Final 8 selected isopentenol stress response genes - fpr
+  selection_markers:
+  - kan
+- ori: pSC101**
+  backbone: pJLFS-11
+  promoters:
+  - PLacUV5
+  description: Final 8 selected isopentenol stress response genes - ibpA
+  selection_markers:
+  - kan
+- ori: pSC101**
+  backbone: pJLFS-16
+  promoters:
+  - PLacUV5
+  description: Final 8 selected isopentenol stress response genes - nrdH
+  selection_markers:
+  - kan
+- ori: pSC101**
+  backbone: pJLFS-07
+  promoters:
+  - PLacUV5
+  description: Final 8 selected isopentenol stress response genes - metR
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-39
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - lon
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-38
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - poxB
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-37
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - erpA
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-35
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - rimK
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-36
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - clpB
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-34
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - gidB
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-31
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - mdtG
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-32
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - nrdF
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-30
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - ycjX
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-29
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - ygbE
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-33
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - htpG
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-27
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - fpr
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-28
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - aaeX
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-26
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - ycjF
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-24
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - mdlB
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-23
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - sbp
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-25
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - inaA
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-21
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - nrdE
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-18
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - soxS
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-20
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - racC
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-22
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - mdlA
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-19
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - dkgA
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-17
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - grxA
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-16
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - nrdH
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-15
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - nrdI
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-13
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - iraD
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-14
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - marA
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-12
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - bhsA
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-08
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - yjaA
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-09
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - trxC
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-11
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - ibpA
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-10
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - ibpB
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-07
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - metR
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-06
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - ybjC
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-05
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - nfsA
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-03
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - ygbA
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-02
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - pphA
+  selection_markers:
+  - kan
+- ori: p15A
+  backbone: pJLFA-04
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - yhbW
+  selection_markers:
+  - kan
+- ori: ColE1
+  backbone: pC9b
+  promoters:
+  - trc
+  description: Genomic fragment from B. subtilis containing nudF cloned into pTrc99A
+    at BamHI, Syd Withers constructed
+  selection_markers:
+  - Ampicillin
+- ori: p15A
+  backbone: pJLFA-01
+  promoters:
+  - PLacUV5
+  description: Isopentenol stress response genes - yhcN
+  selection_markers:
+  - kan
+- ori: pACYC
+  backbone: pLac33MevT(C159A)
+  promoters: []
+  description: ''
+  selection_markers:
+  - Chloramphenicol
+- ori: p15A
+  backbone: pBJR00037
+  promoters:
+  - PLacUV5
+  description: Singleton constructs of butanol stress responsive genes
+  selection_markers:
+  - Kanamycin
+- ori: pBBR1MCS
+  backbone: pMevB
+  promoters: []
+  description: "Mevalonate kinase, phosphomevalonate kinase, mevalonate pyrophosphate\
+    \ decarboxylatse\r\nComments: Doesn't contain lacI"
+  selection_markers:
+  - Tetracycline
+- backbone: MevTsa-PMKco-MKco
+  promoters: []
+  description: MevTsa with PMKco-MKco
+  selection_markers:
+  - Cm
+- ori: pSC101**
+  backbone: pBbS5k-RFP
+  promoters:
+  - lacUV5
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- backbone: pTrc99A-NudB-PMD
+  promoters: []
+  description: PMD cloned downstream of Howard's NudB construct
+  selection_markers:
+  - Carb
+- ori: p15A
+  backbone: pBbA5k-RFP
+  promoters:
+  - lacUV5
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/197
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00197
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

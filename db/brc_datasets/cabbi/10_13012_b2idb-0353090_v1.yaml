@@ -1,0 +1,33 @@
+brc: CABBI
+date: '2021-05-10'
+title: UAV-Based Multispectral Time-Series Imagery of Biomass Sorghum — 2019
+creator:
+- name: Leakey, Andrew D.B.
+  email: leakey@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 4558
+  scientificName: Sorghum bicolor
+keywords:
+- sorghum
+- unmanned aerial vehicles
+- high-throughput phenotyping
+- machine learning
+identifier: 10.13012/B2IDB-0353090_V1
+repository: Illinois Data Bank
+description: UAV-based high-resolution multispectral time-series orthophotos utilized
+  to understand the relation between growth dynamics, imagery temporal resolution,
+  and end-of-season biomass productivity of biomass sorghum as bioenergy crop. Sensor
+  utilized is a RedEdge Micasense flown at 40 meters above ground level at the Energy
+  Farm at University of Illinois Urbana-Champaign in 2019.
+relatedItem:
+- title: Understanding growth Dynamics and Yield Prediction of Sorghum Using High
+    Temporal Resolution UAV Imagery Time Series and Machine Learning
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.3390/rs13091763
+bibliographicCitation: https://doi.org/10.13012/B2IDB-0353090_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-0353090_V1
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.624Z'

@@ -1,0 +1,37 @@
+brc: GLBRC
+date: '2024-05-24'
+title: Y1000 gene family
+creator:
+- name: Antonis Rokas
+  email: antonis.rokas@vanderbilt.edu
+  affiliation: Department of Biological SciencesVanderbilt University Nashville TN
+    37235 USA
+  primaryContact: true
+- name: Chris Todd Hittinger
+  email: cthittinger@wisc.edu
+  affiliation: GLBRC - University of Wisconsin-Madison
+  primaryContact: false
+species:
+- NCBITaxID: 147537
+  scientificName: Saccharomycotina
+keywords:
+- Comparative genomics
+- evolutionary biology
+- budding yeast
+- gene family evolution
+identifier: s/66d97c17e16c241f41e6
+repository: FigShare
+description: All relative analysis data and codes used in this study are available
+  on the Figshare data repository. You can also find the codes on the Github repository
+  at https://github.com/vnuii/Y1000_gene_family.
+relatedItem:
+- title: Unique trajectory of gene family evolution from genomic analysis of nearly
+    all known species in an ancient yeast lineage
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.embopress.org/doi/full/10.1038/s44320-025-00118-0
+analysisType: Functional annotations, Code
+bibliographicCitation: https://figshare.com/s/66d97c17e16c241f41e6
+schema_version: 0.1.7
+uid: GLBRC_s/66d97c17e16c241f41e6
+created_at: '2025-11-27T06:00:04.934Z'
+updated_at: '2025-12-10T06:00:05.198Z'

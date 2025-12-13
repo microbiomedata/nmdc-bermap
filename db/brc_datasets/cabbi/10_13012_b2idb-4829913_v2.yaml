@@ -1,0 +1,45 @@
+brc: CABBI
+date: '2023-10-30'
+title: Impact of Genotype-Calling Methodologies on Genome-Wide Association and Genomic
+  Prediction in Polyploids
+creator:
+- name: Sacks, Erik J.
+  email: esacks@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Long, Stephen P.
+  email: slong@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 183675
+  scientificName: Miscanthus sacchariflorus
+- NCBITaxID: 69266
+  scientificName: Vaccinium corymbosum
+keywords:
+- genome-wide association
+- miscanthus
+- Bayesian geontype-calling
+- polyploid
+identifier: 10.13012/B2IDB-4829913_V2
+repository: Illinois Data Bank
+description: Plant-microbe interactions in the rhizosphere shape carbon and nitrogen
+  cycling in soil organic matter (SOM). However, there is conflicting evidence on
+  whether these interactions lead to a net loss or increase of SOM. In part, this
+  conflict is driven by uncertainty in how living roots and microbes alter SOM formation
+  or loss in the field. To address these uncertainties, we traced the fate of isotopically
+  labelled litter into SOM using root and fungal ingrowth cores incubated in a Miscanthus
+  x giganteus field. Roots stimulated litter decomposition, but balanced this loss
+  by transferring carbon into aggregate associated SOM. Further, roots selectively
+  mobilized nitrogen from litter without additional carbon release. Overall, our findings
+  suggest that roots mine litter nitrogen and protect soil carbon.
+relatedItem:
+- title: Impact of Genotype-Calling Methodologies on Genome-Wide Association and Genomic
+    Prediction in Polyploids
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1002/tpg2.20401
+bibliographicCitation: https://doi.org/10.13012/B2IDB-4829913_V2
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-4829913_V2
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

@@ -1,0 +1,76 @@
+id: jbei:264
+brc: JBEI
+date: '2016-04-20'
+title: Stonebloom et al., 2016
+creator:
+- name: Mi Yeon Lee
+  email: miylee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Solomon Stonebloom
+  email: sstonebloom@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+- NCBITaxID: 4100
+  scientificName: Nicotiana benthamiana
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 358
+  scientificName: Agrobacterium tumefaciens
+keywords: []
+identifier: jbei:folder:00264
+repository: ICE
+datasetName: Stonebloom et al., 2016
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/264
+description: This dataset provides four plasmids designed to investigate the function
+  and localization of the *Arabidopsis thaliana* gene PAGR (At3g26370). The collection
+  includes constructs for expressing PAGR as C-terminal fusions with YFP and CFP fluorescent
+  proteins for subcellular localization studies. It also contains a silencing vector
+  for functional analysis via knockdown in *Nicotiana benthamiana* and the corresponding
+  pENTR cloning intermediate.
+relatedItem:
+- title: Stonebloom et al. BMC Plant Biology (2016) 16:90
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Stonebloom et al. A DUF-246 family glycosyltransferase-like gene affects
+    male fertility and the biosynthesis of pectic arabinogalactans. BMC Plant Biology
+    (2016) pp. 1-17
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: image_analysis
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pYL156 NbPAGR
+  promoters: []
+  description: Silencing construct used to silence NbPAGR A and B
+  selection_markers:
+  - Kan
+- backbone: pGWB44 PAGR-CFP
+  promoters: []
+  description: PAGR (At3g26370) - CFP
+  selection_markers:
+  - Kan
+- ori: BR322
+  backbone: pENTR PAGR_NS
+  promoters: []
+  description: PAGR / At3g26370 without a stop codon in pENTR
+  selection_markers:
+  - Kan
+- backbone: pGWB41 PAGR-YFP
+  promoters: []
+  description: PAGR (At3g26370) - YFP
+  selection_markers:
+  - Kan
+bibliographicCitation: https://public-registry.jbei.org/folders/264
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00264
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

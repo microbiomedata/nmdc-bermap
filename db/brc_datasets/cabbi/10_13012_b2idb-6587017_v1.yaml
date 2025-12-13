@@ -1,0 +1,43 @@
+brc: CABBI
+date: '2018-09-05'
+title: Data for Rapid Screening of Lanthipeptide Analogs via In-Colony Removal of
+  Leader Peptides in Escherichia coli
+creator:
+- name: Huimin Zhao
+  email: zhao5@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Jonathan Sweedler
+  email: jsweedle@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- Escherichia coli
+- Peptides
+- Plasmids
+identifier: 10.13012/B2IDB-6587017_V1
+repository: Illinois Data Bank
+description: Most native producers of ribosomally synthesized and post-translationally
+  modified peptides (RiPPs) utilize N-terminal leader peptides to avoid potential
+  cytotoxicity of mature products to the hosts. Unfortunately, the native machinery
+  of leader peptide removal is often difficult to reconstitute in heterologous hosts.
+  Here we devised a general method to produce bioactive lanthipeptides, a major class
+  of RiPP molecules, in Escherichia coli colonies using synthetic biology principles,
+  where leader peptide removal is programmed temporally by protease compartmentalization
+  and inducible cell autolysis. We demonstrated the method for producing two lantibiotics,
+  haloduracin and lacticin 481, and performed analog screening for haloduracin. This
+  method enables facile, high throughput discovery, characterization, and engineering
+  of RiPPs.
+relatedItem:
+- title: Rapid Screening of Lanthipeptide Analogs via In-Colony Removal of Leader
+    Peptides in Escherichia coli
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1021/jacs.8b05544
+bibliographicCitation: https://doi.org/10.13012/B2IDB-6587017_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-6587017_V1
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-10T06:00:05.195Z'

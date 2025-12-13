@@ -1,0 +1,37 @@
+brc: GLBRC
+date: '2024-08-30'
+title: DaeKwan-Ko/needle
+creator:
+- name: Dae Kwan Ko
+  email: dkko@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+- name: Federica Brandizzi
+  email: fb@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: false
+species: []
+keywords:
+- gene discovery
+- crop genomics
+- transcriptomics
+- network modeling
+- transcriptional regulation
+- gene regulatory networks
+identifier: DaeKwan-Ko/needle
+repository: GitHub
+description: 'Scripts for Gene Discovery and Validation in Non-Model Plant Species.
+  This repository contains scripts used in the following paper (https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(24)00353-9):
+  A network-enabled pipeline for gene discovery and validation in non-model plant
+  species. Ko DK, Brandizzi F. Cell Rep Methods. 2025 Jan 27;5(1):100963.'
+relatedItem:
+- title: A network-enabled pipeline for gene discovery and validation in non-model
+    plant species
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.sciencedirect.com/science/article/pii/S2667237524003539#
+analysisType: Code
+bibliographicCitation: https://github.com/DaeKwan-Ko/needle
+schema_version: 0.1.7
+uid: GLBRC_DaeKwan-Ko/needle
+created_at: '2025-11-27T06:00:04.934Z'
+updated_at: '2025-12-10T06:00:05.198Z'

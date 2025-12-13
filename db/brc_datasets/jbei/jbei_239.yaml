@@ -1,0 +1,59 @@
+id: jbei:239
+brc: JBEI
+date: '2016-04-15'
+title: Helmich et al. 2016
+creator:
+- name: Richard Heins
+  email: raheins@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 13689
+  scientificName: Sphingomonas paucimobilis
+keywords: []
+identifier: jbei:folder:00239
+repository: ICE
+datasetName: Helmich et al. 2016
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/239
+description: This dataset provides plasmids for protein expression and structural
+  analysis. It includes two expression vectors featuring a C-terminal inducible protease
+  (CPD) fusion system designed for controlled, tag-free protein production via cleavage
+  after a specific leucine residue. The collection also contains a C-terminally truncated
+  LigE construct that was engineered to facilitate protein crystallization.
+relatedItem: []
+analysisType: affinity_purification
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pLigE-CPDv4
+  promoters: []
+  description: Modification of pVP16 such that gene of interest is fused at the C-terminal
+    side to a inducible protease (CPD) that cleaves after a leucine located in-between
+    the domains. Versions (e.g. v3, v4) refer to successive mutations to remove leucines
+    found in the C-terminal tag and at the C-terminal end of CPD itself.
+  selection_markers:
+  - Kan
+- backbone: pLigF-CPDv3
+  promoters: []
+  description: Modification of pVP16 such that gene of interest is fused at the C-terminal
+    side to a inducible protease (CPD) that cleaves after a leucine located in-between
+    the domains. Versions (e.g. v3, v4) refer to successive mutations to remove leucines
+    found in the C-terminal tag and at the C-terminal end of CPD itself.
+  selection_markers:
+  - Kan
+- backbone: pLigEc-CPDv4
+  promoters: []
+  description: Truncated version of LigE at the C-terminal end. The truncation was
+    required for the protein to crystallize.
+  selection_markers:
+  - kan
+bibliographicCitation: https://public-registry.jbei.org/folders/239
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00239
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

@@ -1,0 +1,29 @@
+brc: GLBRC
+date: '2023-06-16'
+title: GNPS - Lipidomics of yeast strains grown on xylose
+creator:
+- name: Audrey Gasch
+  email: agasch@wisc.edu
+  affiliation: GLBRC - University of Wisconsin-Madison
+  primaryContact: true
+species:
+- NCBITaxID: null
+  scientificName: Saccharomyces cerevisiae Y184
+keywords: []
+identifier: MSV000090868
+repository: MassIVE
+description: These data are associated with a larger project to understand grown and
+  metabolism of yeast on a xylose media under anaerobic conditions. Strains delta-ira2,
+  delta-bcy1, and delta-ira2bcy1 are being evaluated for differences in lipid abundances
+  on normal (YPD) and xylose (YPX) media. [doi:10.25345/C5M32NF7Z]
+relatedItem:
+- title: PKA regulatory subunit Bcy1 couples growth, lipid metabolism, and fermentation
+    during anaerobic xylose growth in <i>Saccharomyces cerevisiae</i>
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1010593
+analysisType: raw and processed lipidomic files
+bibliographicCitation: https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=0eec17e7af5049dca18bc525fb6def6e
+schema_version: 0.1.7
+uid: GLBRC_MSV000090868
+created_at: '2025-11-19T18:00:04.599Z'
+updated_at: '2025-12-10T06:00:05.197Z'

@@ -1,0 +1,216 @@
+id: jbei:583
+brc: JBEI
+date: '2020-06-01'
+title: Wang_et_al_2020
+creator:
+- name: Xi Wang
+  email: xiwang@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00583
+repository: ICE
+datasetName: Wang_et_al_2020
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/583
+description: This dataset comprises 30 plasmids for engineering the biosynthesis of
+  oxygenated terpenes. The collection features a systematic library of fusion proteins
+  that link terpene synthases (LS, EizS, CS) to cytochrome P450 monooxygenases (CYP153A6,
+  CYP170A1, P450cin) using a series of glycine-serine linkers. The dataset also includes
+  corresponding non-fusion controls, individual enzymes, and necessary P450 reductase
+  partners for in vivo functional characterization.
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: ColE1
+  backbone: pBbE1k-trGPPS-LS-(GSG)3-ahpG-ahpHI
+  promoters: []
+  description: LS-G3-CYP153A6 fusion, in vivo
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pBbE1k-trGPPS-LS-(GSG)5-ahpG-ahpHI
+  promoters: []
+  description: LS-G5-CYP153A6 fusion, in vivo
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pBbE1k-trGPPS-LS-(GSG)1-ahpG-ahpHI
+  promoters: []
+  description: LS-G1-CYP153A6 fusion, in vivo
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pBbE1k-trGPPS-LS-(GSG)2-ahpG-ahpHI
+  promoters: []
+  description: LS-G2-CYP153A6 fusion, in vivo
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pBbE1k-trGPPS-LS-(GSG)4-ahpG-ahpHI
+  promoters: []
+  description: LS-G4-CYP153A6 fusion, in vivo
+  selection_markers:
+  - Kan
+- ori: p15A
+  backbone: pBbA5a-MTSA-T1-MBI
+  promoters: []
+  description: JBEI-3122 Amp version
+  selection_markers:
+  - Carb
+- ori: ColE1
+  backbone: pBbE1k-trGPPS-LS-RBS-ahpG-ahpHI
+  promoters: []
+  description: LS CYP153A6 non-fusion, in vivo
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pBbE1k-trGPPS-LS
+  promoters: []
+  description: trGPPS-LS Kan version
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pTrc99a-EizS-(GSG)4-CYP170A1-CinC
+  promoters: []
+  description: EizS-G4-CYP170A1 fusion, in vivo
+  selection_markers:
+  - Carb
+- ori: ColE1
+  backbone: pTrc99a-EizS-(GSG)5-CYP170A1-CinC
+  promoters: []
+  description: EizS-G5-CYP170A1 fusion, in vivo
+  selection_markers:
+  - Carb
+- ori: ColE1
+  backbone: pTrc99a-trGPPS-CinA-(GSG)3-CS-CinC
+  promoters: []
+  description: P450cin-G3-CS fusion, in vivo
+  selection_markers:
+  - Carb
+- ori: ColE1
+  backbone: pTrc99a-EizS-(GSG)3-CYP170A1-CinC
+  promoters: []
+  description: EizS-G3-CYP170A1 fusion, in vivo
+  selection_markers:
+  - Carb
+- ori: ColE1
+  backbone: pTrc99a-trGPPS-CS-(GSG)5-CinA-CinC
+  promoters: []
+  description: CS-G5-P450cin fusion, in vivo
+  selection_markers:
+  - Carb
+- ori: ColE1
+  backbone: pTrc99a-EizS-(GSG)2-CYP170A1-CinC
+  promoters: []
+  description: EizS-G2-CYP170A1 fusion, in vivo
+  selection_markers:
+  - Carb
+- ori: ColE1
+  backbone: pTrc99a-EizS-RBS-CYP170A1-CinC
+  promoters: []
+  description: EizS CYP170A1 non-fusion, in vivo
+  selection_markers:
+  - Carb
+- ori: ColE1
+  backbone: pTrc99a-trGPPS-CS-(GSG)1-CinA-CinC
+  promoters: []
+  description: CS-G1-P450cin fusion, in vivo
+  selection_markers:
+  - Carb
+- ori: ColE1
+  backbone: pTrc99a-trGPPS-CS-(GSG)4-CinA-CinC
+  promoters: []
+  description: CS-G4-P450cin fusion, in vivo
+  selection_markers:
+  - Carb
+- ori: ColE1
+  backbone: pTrc99a-trGPPS-CS-(GSG)3-CinA-CinC
+  promoters: []
+  description: CS-G3-P450cin fusion, in vivo
+  selection_markers:
+  - Carb
+- ori: ColE1
+  backbone: pTrc99a-trGPPS-CS-(GSG)2-CinA-CinC
+  promoters: []
+  description: CS-G2-P450cin fusion, in vivo
+  selection_markers:
+  - Carb
+- ori: ColE1
+  backbone: pTrc99a-trGPPS-CS-RBS-CinA-CinC
+  promoters: []
+  description: CS P450cin non-fusion, in vivo
+  selection_markers:
+  - Carb
+- ori: ColE1/pBR322
+  backbone: pSKB3-CS-G4-CinA
+  promoters: []
+  description: CS-G4-P450cin fusion
+  selection_markers:
+  - Kan
+- ori: ColE1/pBR322
+  backbone: pSBK3-FPR
+  promoters: []
+  description: Flavodoxin reductase
+  selection_markers:
+  - Kan
+- ori: ColE1/pBR322
+  backbone: pSKB3-CS-G5-CinA
+  promoters: []
+  description: CS-G5-P450cin fusion
+  selection_markers:
+  - Kan
+- ori: ColE1/pBR322
+  backbone: pSKB3-CS-G3-CinA
+  promoters: []
+  description: CS-G3-P450cin fusion
+  selection_markers:
+  - Kan
+- ori: ColE1/pBR322
+  backbone: pSKB3-CS-G2-CinA
+  promoters: []
+  description: CS-G2-P450cin fusion
+  selection_markers:
+  - Kan
+- ori: ColE1/pBR322
+  backbone: pSKB3-CinC
+  promoters: []
+  description: P450cin reductase
+  selection_markers:
+  - Kan
+- ori: ColE1/pBR322
+  backbone: pSKB3-CS-G1-CinA
+  promoters: []
+  description: CS-G1-P450cin fusion
+  selection_markers:
+  - Kan
+- ori: ColE1/pBR322
+  backbone: pSKB3-CS
+  promoters: []
+  description: Cineole synthase
+  selection_markers:
+  - Kan
+- ori: ColE1/pBR322
+  backbone: pSKB3-CinA
+  promoters: []
+  description: P450cin
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pTrc99a-EizS-(GSG)1-CYP170A1-CinC
+  promoters: []
+  description: EizS-G1-CYP170A1 fusion, in vivo
+  selection_markers:
+  - Carb
+bibliographicCitation: https://public-registry.jbei.org/folders/583
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00583
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

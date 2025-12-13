@@ -1,0 +1,45 @@
+brc: CABBI
+date: '2023-01-07'
+title: Evaluation of 1,2-Diacyl-3-Acetyl Triacylglycerol Production in Yarrowia lipolytica
+creator:
+- name: Brian Pfleger
+  email: pfleger@wisc.edu
+  affiliation: University of Wisconsin
+  primaryContact: true
+- name: Jeremy Guest
+  email: jsguest@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 4952
+  scientificName: Yarrowia lipolytica
+keywords:
+- Compositions
+- Bioreactor specs
+- Metabolic engineering
+identifier: 10.13012/B2IDB-7554126_V1
+repository: Illinois Data Bank
+description: Plants produce many high-value oleochemical molecules. While oil-crop
+  agriculture is performed at industrial scales, suitable land is not available to
+  meet global oleochemical demand. Worse, establishing new oil-crop farms often comes
+  with the environmental cost of tropical deforestation. The field of metabolic engineering
+  offers tools to transplant oleochemical metabolism into tractable hosts while simultaneously
+  providing access to molecules produced by non-agricultural plants. Here, we evaluate
+  strategies for rewiring metabolism in the oleaginous yeast Yarrowia lipolytica to
+  synthesize a foreign lipid, 3-acetyl-1,2-diacyl-sn-glycerol (acTAG). Oils made up
+  of acTAG have a reduced viscosity and melting point relative to traditional triacylglycerol
+  oils making them attractive as low-grade diesels, lubricants, and emulsifiers. This
+  manuscript describes a metabolic engineering study that established acTAG production
+  at g/L scale, exploration of the impact of lipid bodies on acTAG titer, and a techno-economic
+  analysis that establishes the performance benchmarks required for microbial acTAG
+  production to be economically feasible.
+relatedItem:
+- title: Evaluation of 1,2-Diacyl-3-Acetyl Triacylglycerol Production in Yarrowia
+    lipolytica
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1016/j.ymben.2023.01.003
+bibliographicCitation: https://doi.org/10.13012/B2IDB-7554126_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-7554126_V1
+created_at: '2025-11-20T18:00:04.759Z'
+updated_at: '2025-12-10T06:00:05.196Z'

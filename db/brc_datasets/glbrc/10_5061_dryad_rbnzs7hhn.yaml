@@ -1,0 +1,33 @@
+brc: GLBRC
+date: '2023-07-31'
+title: 'Bioenergy sorghum nodal root bud development: morphometric, transcriptomic
+  and gene regulatory network analysis'
+creator:
+- name: John Mullet
+  email: john.mullet@ag.tamu.edu
+  affiliation: GLBRC - Texas A&amp;M University
+  primaryContact: true
+species:
+- NCBITaxID: null
+  scientificName: Sorghum bicolor TX08001
+keywords:
+- bioenergy sorghum
+- nodal root buds
+- development
+- transcriptome
+- gene regulatory network
+identifier: 10.5061/dryad.rbnzs7hhn
+repository: Dryad
+description: 'Data from: Sorghum bicolor TX08001 nodal root tissue development gene
+  expression profiling'
+relatedItem:
+- title: 'Bioenergy sorghum nodal root bud development: morphometric, transcriptomic
+    and gene regulatory network analysis'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1456627/full
+analysisType: RNA seq
+bibliographicCitation: https://datadryad.org/stash/dataset/doi:10.5061/dryad.rbnzs7hhn
+schema_version: 0.1.7
+uid: GLBRC_10.5061/dryad.rbnzs7hhn
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.198Z'

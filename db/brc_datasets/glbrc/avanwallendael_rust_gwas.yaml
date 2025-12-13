@@ -1,0 +1,40 @@
+brc: GLBRC
+date: '2024-07-15'
+title: avanwallendael/rust_GWAS
+creator:
+- name: Acer VanWallendael
+  email: avanwal@ncsu.edu
+  affiliation: Department of Horticulture, North Carolina State University, Raleigh,
+    NC, 27607 USA
+  primaryContact: true
+- name: David B. Lowry
+  email: dlowry@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Puccinia novopanici, Switchgrass (Panicum virgatum)
+keywords:
+- Blup
+- Gwas
+- biofuel
+- coevolution
+- fungal disease
+- microbial ecology
+- rust
+- switchgrass
+identifier: avanwallendael/rust_GWAS
+repository: GitHub
+description: 'Code to accompany: Local adaptation of both plant and pathogen: an arms-race
+  compromise in switchgrass rust'
+relatedItem:
+- title: 'Local adaptation of both plant and pathogen: an arms-race compromise in
+    switchgrass rust'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.70313
+analysisType: Code
+bibliographicCitation: https://github.com/avanwallendael/rust_GWAS
+schema_version: 0.1.7
+uid: GLBRC_avanwallendael/rust_GWAS
+created_at: '2025-11-27T06:00:04.934Z'
+updated_at: '2025-12-10T06:00:05.198Z'

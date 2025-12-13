@@ -1,0 +1,86 @@
+id: jbei:64
+brc: JBEI
+date: '2013-03-22'
+title: Mueller et al. 2013
+creator:
+- name: Jana Mueller
+  email: jmueller@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 1270
+  scientificName: Micrococcus luteus
+keywords: []
+identifier: jbei:folder:00064
+repository: ICE
+datasetName: Mueller et al. 2013
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/64
+description: This dataset provides a set of three plasmids for engineering fatty acid
+  metabolism in a broad range of bacterial hosts. All constructs utilize the pBBR1-MCS2
+  vector and an arabinose-inducible BAD promoter for controlled gene expression. The
+  primary plasmid co-expresses a four-gene pathway from *E. coli* and *M. luteus*,
+  while two additional plasmids expressing *E. coli* 'tesA alone or the GFP reporter
+  serve as experimental controls.
+relatedItem:
+- title: 'Müller, J., MacEachran, D., Burd, H., Sathitsuksanoh, N., Bi, C., Yeh, Y.C.,
+    Lee, T.S., Hillson, N.J., Chhabra, S.R., Singer, S.W., and Beller, H.R. (2013)
+    Engineering of Ralstonia eutropha H16 for Autotrophic and Heterotrophic Production
+    of Methyl Ketones. Appl. Environ. Microbiol. 79(14):4433-9. DOI: 10.1128/AEM.00973-13.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Brigham CJ, Budde CF, Holder JW, Zeng Q, Mahan AE, Rha C, Sinskey AJ. 2010.
+    Elucidation of beta-oxidation pathways in Ralstonia eutropha H16 by examination
+    of global gene expression. J Bacteriol 192:5454-5464. Müller, J., MacEachran,
+    D., Burd, H., Sathitsuksanoh, N., Bi, C., Yeh, Y.C., Lee, T.S., Hillson, N.J.,
+    Chhabra, S.R., Singer, S.W., and Beller, H.R. (2013) Engineering of Ralstonia
+    eutropha H16 for Autotrophic and Heterotrophic Production of Methyl Ketones. Appl.
+    Environ. Microbiol. 79(14):4433-9. DOI: 10.1128/AEM.00973-13.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'R Simon, U Priefer, and A Puhler. A Broad Host Range Mobilization System
+    for In Vivo Genetic Engineering: Transposon Mutagenesis in Gram Negative Bacteria.
+    Biotechnology, (1):784–791, 1983. Müller, J., MacEachran, D., Burd, H., Sathitsuksanoh,
+    N., Bi, C., Yeh, Y.C., Lee, T.S., Hillson, N.J., Chhabra, S.R., Singer, S.W.,
+    and Beller, H.R. (2013) Engineering of Ralstonia eutropha H16 for Autotrophic
+    and Heterotrophic Production of Methyl Ketones. Appl. Environ. Microbiol. 79(14):4433-9.
+    DOI: 10.1128/AEM.00973-13.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors:
+- name: Harry Beller
+  email: hrbeller@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pJM20
+  promoters: []
+  description: Broad host range vector pBBR1-MCS2 containing 'tesA (E. coli), fadB
+    (E. coli), Mlut_11700 (M. luteus) and fadM (E. coli)  under control of BAD promoter
+  selection_markers:
+  - KanR
+- backbone: pJM9
+  promoters: []
+  description: Broad host range vector pBBR1-MCS2 containing 'tesA (E. coli) under
+    control of BAD promoter
+  selection_markers:
+  - KanR
+- backbone: pJM3
+  promoters: []
+  description: Broad host range vector pBBR1-MCS2 containing gfp under control of
+    BAD promoter
+  selection_markers:
+  - KanR
+bibliographicCitation: https://public-registry.jbei.org/folders/64
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00064
+created_at: '2025-11-18T20:03:56.767Z'
+updated_at: '2025-12-11T00:00:04.619Z'

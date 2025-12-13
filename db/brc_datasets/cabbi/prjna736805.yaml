@@ -1,0 +1,29 @@
+brc: CABBI
+date: '2021-06-10'
+title: IFO0880 Cse4 and Orc1 CUT&amp;RUN
+creator:
+- name: Zhao, Huimin
+  email: zhao5@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 2872729
+  scientificName: Rhodotorula toruloides
+keywords:
+- Genomics
+- Transcriptomics
+identifier: PRJNA736805
+repository: NCBI BioProject
+description: NGS data resulting from CUT&amp;RUN study of R. toruloides IFO0880 Cse4
+  and Orc1 binding sites.
+relatedItem:
+- title: CUT&amp;RUN Identifies Centromeric DNA Regions of Rhodosporidium toruloides
+    IFO0880
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: http://doi.org/10.1093/femsyr/foab066
+analysisType: Genomics
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA736805
+schema_version: 0.1.1
+uid: CABBI_PRJNA736805
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

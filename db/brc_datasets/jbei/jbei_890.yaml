@@ -1,0 +1,66 @@
+id: jbei:890
+brc: JBEI
+date: '2024-08-21'
+title: de Siqueira Acetate et al 2024
+creator:
+- name: Thomas Eng
+  email: tteng@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Guilherme de Siqueira
+  email: viana.guilherme@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 303
+  scientificName: Pseudomonas putida
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- CRISPR
+identifier: jbei:folder:00890
+repository: ICE
+datasetName: de Siqueira Acetate et al 2024
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/890
+description: 'This dataset provides a collection of four plasmids designed for CRISPR-based
+  gene regulation in *Pseudomonas putida*. Each plasmid encodes a unique guide RNA
+  (gRNA) sequence targeting a specific gene locus: PP_0424, PP_4264, PP_2037, or PP_0988.
+  These genetic tools are intended for metabolic engineering applications to investigate
+  or modify pathways related to acetate utilization.'
+relatedItem:
+- title: Gui acetate tolerized mutant paper
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Targeted Locus (Loci)
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: JBEI-258298
+  promoters: []
+  description: Plasmid encoding a gRNA sequence for PP_0424. TEAM 3998
+  selection_markers:
+  - KanR
+- backbone: pTE955
+  promoters: []
+  description: Plasmid encoding a gRNA sequence for PP_4264. TEAM 2720
+  selection_markers:
+  - KanR
+- backbone: pTE944
+  promoters: []
+  description: plasmid encoding a gRNA sequence for PP_2037. TEAM 4000
+  selection_markers:
+  - KanR
+- backbone: pTE943
+  promoters: []
+  description: Plasmid encoding a gRNA sequence for PP_0988. TEAM 3999
+  selection_markers:
+  - KanR
+bibliographicCitation: https://public-registry.jbei.org/folders/890
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00890
+created_at: '2025-11-18T20:03:56.772Z'
+updated_at: '2025-12-11T00:00:04.623Z'

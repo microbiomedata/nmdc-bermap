@@ -1,0 +1,239 @@
+id: jbei:163
+brc: JBEI
+date: '2015-03-25'
+title: Shih et al. 2015
+creator:
+- name: Chao Shih
+  email: ccshih@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Garima Goyal
+  email: ggoyal@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- microfluidic
+- transformation
+- DNA assembly
+identifier: jbei:folder:00163
+repository: ICE
+datasetName: Shih et al. 2015
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/163
+description: This dataset comprises a combinatorial library of 32 plasmids designed
+  to systematically characterize gene expression. The plasmids feature combinations
+  of four distinct promoters (Promoter1, 2, 9, 11) and four bicistronic design (BCD)
+  elements (BCD1, 2, 20, 21). These regulatory parts control the expression of a green
+  fluorescent protein (GFP) reporter, enabling quantitative assessment of their combined
+  effects on transcription and translation.
+relatedItem:
+- title: Shih, S. C., Goyal, G., Kim, P. W., Koutsoubelis, N., Keasling, J. D., Adams,
+    P. D., Hillson, N. J., &amp; Singh, A. K. (2015). “A Versatile Microfluidic Device
+    for Automating Synthetic Biology”. ACS Synth Biol. doi, 10.1021/acssynbio.5b00062
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: F1 and 2micron
+  backbone: pProm9_BCD21_Yeast
+  promoters: []
+  description: Promoter9 with BCD21-gfp
+  selection_markers:
+  - AMP and TRP
+- ori: F1 and 2micron
+  backbone: pProm11_BCD20_Yeast
+  promoters: []
+  description: Promoter11 with BCD20-gfp
+  selection_markers:
+  - AMP and TRP
+- ori: F1 and 2micron
+  backbone: pProm11_BCD21_Yeast
+  promoters: []
+  description: Promoter11 with BCD21-gfp
+  selection_markers:
+  - AMP and TRP
+- ori: F1 and 2micron
+  backbone: pProm11_BCD1_Yeast
+  promoters: []
+  description: Promoter11 with BCD1-gfp
+  selection_markers:
+  - AMP and TRP
+- ori: F1 and 2micron
+  backbone: pProm11_BCD2_Yeast
+  promoters: []
+  description: Promoter11 with BCD2-gfp
+  selection_markers:
+  - AMP and TRP
+- ori: F1 and 2micron
+  backbone: pProm2_BCD21_Yeast
+  promoters: []
+  description: Promoter2 with BCD21-gfp
+  selection_markers:
+  - AMP and TRP
+- ori: F1 and 2micron
+  backbone: pProm9_BCD2_Yeast
+  promoters: []
+  description: Promoter9 with BCD2-gfp
+  selection_markers:
+  - AMP and TRP
+- ori: F1 and 2micron
+  backbone: pProm9_BCD1_Yeast
+  promoters: []
+  description: Promoter9 with BCD1-gfp
+  selection_markers:
+  - AMP and TRP
+- backbone: pProm2_BCD20_Yeast
+  promoters: []
+  description: Promoter2 with BCD20-gfp
+  selection_markers:
+  - AMP and TRP
+- ori: F1 and 2micron
+  backbone: pProm9_BCD20_Yeast
+  promoters: []
+  description: Promoter9 with BCD20-gfp
+  selection_markers:
+  - AMP and TRP
+- ori: F1 and 2micron
+  backbone: pProm2_BCD2_Yeast
+  promoters: []
+  description: Promoter2 with BCD2-gfp
+  selection_markers:
+  - AMP and TRP
+- ori: F1 and 2micron
+  backbone: pProm1_BCD20_Yeast
+  promoters: []
+  description: Promoter1 with BCD20-gfp
+  selection_markers:
+  - AMP and TRP
+- ori: F1 and 2micron
+  backbone: pProm1_BCD2_yeast
+  promoters: []
+  description: Promoter1 with BCD2-gfp
+  selection_markers:
+  - AMP and TRP
+- ori: F1 and 2micron
+  backbone: pProm1_BCD21_Yeast
+  promoters: []
+  description: Promoter1 with BCD21-gfp
+  selection_markers:
+  - AMP and TRP
+- ori: F1 and 2micron
+  backbone: pProm2_BCD1_Yeast
+  promoters: []
+  description: Promoter2 with BCD1-gfp
+  selection_markers:
+  - AMP and TRP
+- ori: F1 and 2micron
+  backbone: pProm1_BCD1_yeast
+  promoters: []
+  description: Promoter1 with BCD1-gfp
+  selection_markers:
+  - AMP and TRP
+- ori: p15A
+  backbone: pProm11_BCD21-GFP
+  promoters: []
+  description: Promoter11 with BCD21-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pProm9_BCD21-GFP
+  promoters: []
+  description: Promoter9 with BCD21-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pProm11_BCD2-GFP
+  promoters: []
+  description: Promoter11 with BCD2-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pProm11_BCD20-GFP
+  promoters: []
+  description: Promoter11 with BCD20-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pProm9_BCD2-GFP
+  promoters: []
+  description: Promoter9 with BCD2-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pProm9_BCD20-GFP
+  promoters: []
+  description: Promoter9 with BCD20-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pProm1_BCD1-GFP
+  promoters: []
+  description: Promoter1 with BCD1-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pProm2_BCD21-GFP
+  promoters: []
+  description: Promoter2 with BCD21-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pProm2_BCD1-GFP
+  promoters: []
+  description: Promoter2 with BCD1-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pProm1_BCD2-GFP
+  promoters: []
+  description: Promoter1 with BCD2-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pProm2_BCD2-GFP
+  promoters: []
+  description: Promoter2 with BCD2-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pProm9_BCD1-GFP
+  promoters: []
+  description: Promoter9 with BCD1-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pProm11_BCD1-GFP
+  promoters: []
+  description: Promoter11 with BCD1-gfp
+  selection_markers:
+  - Kanamycin
+- backbone: pProm2_BCD20-GFP
+  promoters: []
+  description: Promoter2 with BCD20-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pProm1_BCD21-GFP
+  promoters: []
+  description: Promoter1 with BCD21-gfp
+  selection_markers:
+  - Kanamycin
+- ori: p15
+  backbone: pProm1_BCD20-GFP
+  promoters: []
+  description: Promoter1 with BCD20-gfp
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/163
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00163
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.619Z'

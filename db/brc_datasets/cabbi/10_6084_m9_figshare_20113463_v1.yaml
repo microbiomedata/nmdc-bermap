@@ -1,0 +1,50 @@
+brc: CABBI
+date: '2022-12-04'
+title: In silico Evaluation of Plant Nitrification Suppression Effects on Agroecosystem
+  Nitrogen Loss
+creator:
+- name: Hartman, Melanie D.
+  email: melannie.hartman@colostate.edu
+  affiliation: Colorado State University
+  primaryContact: true
+- name: Parton, William J.
+  email: billp@nrel.colostate.edu
+  affiliation: Colorado State University
+  primaryContact: false
+- name: DeLucia, Evan H.
+  email: delucia@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Yang, Wendy
+  email: yangw@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 4558
+  scientificName: Sorghum bicolor
+keywords:
+- energy sorghum
+- DayCent
+- Biological Nitrification Inhibition
+identifier: 10.6084/m9.figshare.20113463.v1
+repository: FigShare
+description: This dataset includes the source code for the updates to DayCent (Daily
+  Century model). DayCent is a biogeochemical model that simulates fluxes of carbon
+  and nitrogen among the atmosphere, vegetation, and soil to produce daily fluxes
+  of nitrogen gases, CO2 flux from heterotrophic soil respiration, soil organic carbon
+  and nitrogen, net primary production, and H2O and NO3-leaching.  The major update
+  to the model is adding a 'GrassTree' crop type to better represent large bioenergy
+  crops and grasses within the model.  Data, including biomass and soil data, trial
+  yields, plot history, and weather data, are available to reproduce the simulations
+  shown in 'In silico Evaluation of Plant Nitrification Suppression Effects on Agroecosystem
+  Nitrogen Loss.'
+relatedItem:
+- title: In silico Evaluation of Plant Nitrification Suppression Effects on Agroecosystem
+    Nitrogen Loss
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1002/ecs2.4292
+bibliographicCitation: https://doi.org/10.6084/m9.figshare.20113463.v1
+schema_version: 0.1.1
+uid: CABBI_10.6084/m9.figshare.20113463.v1
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.628Z'

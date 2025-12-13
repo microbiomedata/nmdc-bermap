@@ -1,0 +1,42 @@
+brc: CABBI
+date: '2021-08-30'
+title: 'PlasmidMaker: a Versatile, Automated, and High Throughput End-to-End Platform
+  for Plasmid Construction'
+creator:
+- name: Zhao, Huimin
+  email: zhao5@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+keywords:
+- plasmid generation
+- high-throughput design
+- PlasmidMaker
+- web tool
+identifier: 10.5281/zenodo.5812313
+repository: Zenodo
+description: Plasmids are used extensively in basic and applied biology. However,
+  design and construction of plasmids, specifically the ones carrying complex genetic
+  information, remains one of the most time-consuming, labor-intensive, and rate-limiting
+  steps in performing sophisticated biological experiments. Here, we report the development
+  of a versatile, robust, automated end-to-end platform named PlasmidMaker that allows
+  error-free construction of plasmids with virtually any sequences in a high-throughput
+  manner. This platform consists of a most versatile DNA assembly method using Pyrococcus
+  furiosus Argonaute (PfAgo)-based artificial restriction enzymes, a user-friendly
+  frontend for plasmid design, and a backend that streamlines the workflow and integration
+  with a robotic system. As a proof of concept, we used this platform to generate
+  ~100 plasmids from six different species ranging from 5 to 18 kb in size from up
+  to 11 DNA fragments within 3 days. PlasmidMaker should greatly expand the potential
+  of synthetic biology.
+relatedItem:
+- title: PlasmidMaker is a Versatile, Automated, and High Throughput End-to-End Platform
+    for Plasmid Construction
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1038/s41467-022-30355-y
+- title: PlasmidMaker
+  relatedItemType: Webpage
+  relatedItemIdentifier: https://biofoundry.web.illinois.edu/maker/
+bibliographicCitation: https://doi.org/10.5281/zenodo.5812313
+schema_version: 0.1.1
+uid: CABBI_10.5281/zenodo.5812313
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.624Z'

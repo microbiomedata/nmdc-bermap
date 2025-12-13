@@ -1,0 +1,29 @@
+brc: CABBI
+date: '2021-02-08'
+title: AgroIBIS VSF Farmed Pothole Ponding Model Runs
+creator:
+- name: VanLoocke, Andy
+  email: andyvanl@iastate.edu
+  affiliation: Iowa State University
+  primaryContact: true
+keywords:
+- miscanthus
+- potholes
+- crop modeling
+- agroibis-vsf
+identifier: 10.13012/B2IDB-7562109_V1
+repository: Iowa State University FigShare
+description: This data set includes modeled (AgroIBIS-VSF) output of crop yield for
+  miscanthus and a corn/soybean rotation in .nc format. Input includes the precipitation
+  scenarios (.csv) used to generate the runs, and supplemental observed yield monitor
+  data (.csv) from the research area of interest.
+relatedItem:
+- title: Planting Miscanthus Instead of Row Crops May Increase the Productivity and
+    Economic Performance of Farmed Potholes
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/gcbb.12870
+bibliographicCitation: https://doi.org/10.13012/B2IDB-7562109_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-7562109_V1
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.624Z'

@@ -1,0 +1,38 @@
+brc: CABBI
+date: '2023-01-26'
+title: Lipomyces tetrasporous strain:NRRL Y-64009 | isolate:NRRL Y-64009
+creator:
+- name: Rao, Christopher V.
+  email: cvrao@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Jin, Yong-Su
+  email: ysjin@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Dien, Bruce S.
+  email: bruce.dien@ars.usda.gov
+  affiliation: USDA-ARS Peoria, IL
+  primaryContact: false
+species:
+- NCBITaxID: 54092
+  scientificName: Lipomyces tetrasporous
+keywords:
+- Genomics
+- Lipomyces tetrasporous
+- Genome Sequence
+identifier: PRJNA590639
+repository: NCBI BioProject
+description: Transcriptome sequencing of oleaginous Lipomyces yeast strain; Cells
+  grown in YPD liquid medium at 25 C
+relatedItem:
+- title: Near-Complete Genome Sequence of Lipomyces tetrasporous NRRL Y-64009, an
+    Oleaginous Yeast Capable of Growing on Lignocellulosic Hydrolysates
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: http://doi.org/10.1128/MRA.00426-23
+analysisType: Genomics
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA928474
+schema_version: 0.1.1
+uid: CABBI_PRJNA590639
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

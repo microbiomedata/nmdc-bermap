@@ -1,0 +1,190 @@
+id: jbei:283
+brc: JBEI
+date: '2017-01-24'
+title: Brunk et al., 2016
+creator:
+- name: Kevin George
+  email: kwgeorge@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Rossana Chan
+  email: rchan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Danielle Kalman
+  email: dkalman@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Jorge Alonso-Gutierrez
+  email: jalonso-gutierrez@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Pamela Peralta-Yahya
+  email: pperalta-yahya@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Khanh Vuu
+  email: kvuu@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Taek Soon Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- 3A
+- 2B
+- pTrc99A-NudB-PMD
+identifier: jbei:folder:00283
+repository: ICE
+datasetName: Brunk et al., 2016
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/283
+description: This dataset contains 12 plasmids for the metabolic engineering of isoprenoid
+  production in *E. coli*. The plasmids feature various configurations of the mevalonate
+  (Mev) pathway, utilizing strategies such as codon optimization, BioBrick assembly,
+  and different operon structures. Key constructs include synthases from *Mentha spicata*
+  and *Abies grandis* for the targeted production of the valuable terpenoids limonene
+  and bisabolene.
+relatedItem:
+- title: George, K. W., Chen, A., Jain, A., Batth, T. S., Baidoo, E. E., Wang, G.,
+    Adams, P. D., Petzold, C. J., Keasling, J. D., &amp; Lee, T. S. (2014). “Correlation
+    analysis of targeted proteins and metabolites to assess and engineer microbial
+    isopentenol production”. Biotechnol Bioeng, 111(8), 1648-1658.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Alonso-Gutierrez, J., Chan, R., Batth, T. S., Adams, P. D., Keasling, J.
+    D., Petzold, C. J. and Lee, T. S. (2013). “Metabolic engineering of Escherichia
+    coli for limonene and perillyl alcohol production.” Metab Eng. 19C: 33-41.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: George, K. W., Chen, A., Jain, A., Batth, T. S., Baidoo, E. E., Wang, G.,
+    Adams, P. D., Petzold, C. J., Keasling, J. D., &amp; Lee, T. S. (2014). “Correlation
+    analysis of targeted proteins and metabolites to assess and engineer microbial
+    isopentenol production”. Biotechnol Bioeng, 111(8), 1648-1658. Also used in Shi,
+    J., George, K. W., Sun, N., He, W., Li, C., Stavila, V., Keasling, J. D., Simmons,
+    B. A., Lee, T. S., &amp; Singh, S. (2015). "Impact of Pretreatment Technologies
+    on Saccharification and Isopentenol Fermentation of Mixed Lignocellulosic Feedstocks".
+    BioEnergy Research, 1-10. doi, 10.1007/s12155-015-9588-z http://dx.doi.org/10.1007/s12155-015-9588-z
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Alonso-Gutierrez J, Chan R, Batth TS, Adams PD, Keasling JD, Petzold CJ,
+    Lee TS. Metabolic engineering of Escherichia coli for limonene and perillyl alcohol
+    production. Metab Eng. 2013 Sep;19:33-41. doi: 10.1016/j.ymben.2013.05.004. Epub
+    2013 May 29. PubMed PMID: 23727191.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Alonso-Gutierrez J, Kim E.M., Batth TS, Cho N, Hu Q, Chan LJD, Petzold CJ,
+    Hillson NJ, Adams PD, Keasling JD, Garcia-Martin H, and Lee TS. (2014) Principal
+    component analysis of proteomics (PCAP) as a tool to direct metabolic engineering.
+    Metabolic Engineering. doi:10.1016/j.ymben.2014.11.011
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Dahl, R. H., Zhang, F., Alonso-Gutierrez, J., Baidoo, E., Batth, T. S., Redding-Johanson,
+    A. M., Petzold, C. J., Mukhopadhyay, A., Lee, T. S., Adams, P. D., &amp; Keasling,
+    J. D. (2013). “Engineering dynamic pathway regulation using stress-response promoters”.
+    [Research Support, U.S. Gov’t, Non-P.H.S.]. Nat Biotechnol, 31(11), 1039-1046.
+    doi, 10.1038/nbt.2689 http://www.ncbi.nlm.nih.gov/pubmed/24142050 http://www.nature.com/nbt/journal/v31/n11/pdf/nbt.2689.pdf
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Peralta-Yahya PP, Ouellet M, Chan R, Mukhopadhyay A, Keasling JD, Lee TS.
+    Identification and microbial production of a terpene-based advanced biofuel. Nat
+    Commun. 2011 Sep 27;2:483. doi: 10.1038/ncomms1494. PubMed PMID: 21952217; PubMed
+    Central PMCID: PMC3195254.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: p15A
+  backbone: pBbA5c-MevTo-MKco-PMKco
+  promoters:
+  - PlacUV5
+  description: MevT original with MKco and PMKco cloned from pKWG0011.
+  selection_markers:
+  - Cm
+- backbone: pBbA5c-MevTaco-PMKco-MKco
+  promoters: []
+  description: MevT with codon optimized HMGS and HMGR but original atoB with PMKco-MKco
+    cloned downstream
+  selection_markers:
+  - Cm
+- ori: p15A
+  backbone: pBbA5c-MevT-MBI
+  promoters:
+  - lacUV5
+  description: 'A plasmid that includes upper portion of mevalonate pathway as well
+    as mevalonate kinase, phosphomevalonate kinase, mevalonate pyrophosphate decarboxylatse
+    and IPP isomerase genes. '
+  selection_markers:
+  - Chloramphenicol
+- backbone: pTrc99A-NudB-PMD
+  promoters: []
+  description: PMD cloned downstream of Howard's NudB construct
+  selection_markers:
+  - Carb
+- backbone: MevTsa-MKco-PMKco
+  promoters: []
+  description: MevTsa with MKco-PMKco
+  selection_markers:
+  - Cm
+- backbone: pBbA5c-MTSA-T1-MBI(f)-T1002-Ptrc-trGPPS-LS
+  promoters: []
+  description: One plasmid version for the production of limonene (also known as "B")
+  selection_markers:
+  - Cm
+- backbone: pBbE1a-trGPPS-LS-MTSA-T1-MBI-f
+  promoters: []
+  description: One plasmid version A with high copy number of all genes
+  selection_markers:
+  - Amp
+- backbone: pTrcAgBIS (CO)
+  promoters: []
+  description: Codon optimized version of Abies grandis bisabolene synthase cloned
+    into pTRc99 between NcoI and XmaI. This is the bisabolene synthase with the highest
+    production in the bisabolene production paper
+  selection_markers:
+  - Amp
+- backbone: pTrc-LS
+  promoters: []
+  description: E. coli codon optimized Mentha spicata limonene synthase in pTrc
+  selection_markers:
+  - Amp
+- ori: p15A
+  backbone: pBbA5c-MevT-MBIS
+  promoters:
+  - lacUV5
+  description: full mevalonate pathway in one biobrick plasmid
+  selection_markers:
+  - Chloramphenicol
+- ori: p15A
+  backbone: pBbA5c-MevT(CO)-T1-MBIS(CO, ispA)
+  promoters: []
+  description: BglBricked Mev pathway - MevT(CO), Term-Ptrc, MBIS (codon optimized
+    and original ispA)
+  selection_markers:
+  - Chloramphenicol
+- backbone: pTrc-trGPPS(CO)-LS
+  promoters:
+  - Trc
+  description: A plasmid that has truncated codon optimized geranylpyrophosphate synthase
+    and truncated limonene synthase.
+  selection_markers:
+  - Ampicillin
+bibliographicCitation: https://public-registry.jbei.org/folders/283
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00283
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.621Z'

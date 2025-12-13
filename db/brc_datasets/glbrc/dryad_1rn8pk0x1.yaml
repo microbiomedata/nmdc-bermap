@@ -1,0 +1,51 @@
+brc: GLBRC
+date: '2025-02-28'
+title: 'Data from: Soil carbon change in intensive agriculture after 25 years of conservation
+  management'
+creator:
+- name: S. Carolina Cordova
+  email: ccordova4@unl.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+- name: G. Philip Robertson
+  email: robert30@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: maize (Zea mays), soybean (Glycine max), winter wheat (Triticum
+    aestivum) , hybrid Poplar (Populus × euramericana), Alfalfa (Medicago sativa),
+    Conifer (Pinus spp.)
+keywords:
+- Agriculture
+- ecological succession
+- no-till farming
+- agricultural sciences
+- cover crops
+- forest soils
+- pyrogenic carbon
+- soil organic matter
+identifier: dryad.1rn8pk0x1
+repository: Dryad
+description: Changes in soil organic carbon (SOC) and nitrogen (SON) are strongly
+  affected by land management, but few long-term comparative studies have surveyed
+  changes throughout the whole soil profile. We quantified 25-year SOC and SON changes
+  to 1 m in 10 replicate ecosystems at an Upper Midwest, USA site. We compared four
+  annual cropping systems in maize (<i>Zea mays</i>)-soybean (<i>Glycine</i> max)-winter
+  wheat (<i>Triticum aestivum</i>) rotations, each managed differently (Conventional,
+  No-till, Reduced input, and Biologically based); in three managed perennial systems
+  (hybrid Poplar (<i>Populus</i> × <i>euramericana</i>), Alfalfa (<i>Medicago sativa</i>),
+  and Conifer (<i>Pinus</i> spp.); and in three successional systems (Early, Mid-
+  and Late succession undergoing a gradual change in species composition and structure
+  over time). 
+relatedItem:
+- title: Soil carbon change in intensive agriculture after 25 years of conservation
+    management
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.sciencedirect.com/science/article/pii/S0016706124003628
+analysisType: Field data
+bibliographicCitation: https://datadryad.org/dataset/doi:10.5061/dryad.1rn8pk0x1
+schema_version: 0.1.7
+uid: GLBRC_dryad.1rn8pk0x1
+created_at: '2025-11-27T06:00:04.934Z'
+updated_at: '2025-12-10T06:00:05.198Z'

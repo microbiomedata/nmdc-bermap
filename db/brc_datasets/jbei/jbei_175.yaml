@@ -1,0 +1,35 @@
+id: jbei:175
+brc: JBEI
+date: '2015-04-03'
+title: Simmons et al. 2014
+creator:
+- name: Douglas Higgins
+  email: dahiggins@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species: []
+keywords: []
+identifier: jbei:folder:00175
+repository: ICE
+datasetName: Simmons et al. 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/175
+description: null
+relatedItem:
+- title: 'Bacillus coagulans tolerance to 1-ethyl-3-methylimidazolium-based ionic
+    liquids in aqueous and solid-state thermophilic culture. Simmons CW, Reddy AP,
+    Vandergheynst JS, Simmons BA, Singer SW. Biotechnol Prog. 2014 Mar-Apr;30(2):311-6.
+    doi: 10.1002/btpr.1859. Epub 2014 Jan 11. PMID: 24376258'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features: []
+bibliographicCitation: https://public-registry.jbei.org/folders/175
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00175
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.619Z'

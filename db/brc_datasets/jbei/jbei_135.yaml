@@ -1,0 +1,142 @@
+id: jbei:135
+brc: JBEI
+date: '2014-10-31'
+title: George et al. 2015
+creator:
+- name: Kevin George
+  email: kwgeorge@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 2209
+  scientificName: Methanosarcina mazei
+- NCBITaxID: 1280
+  scientificName: Staphylococcus aureus
+keywords: []
+identifier: jbei:folder:00135
+repository: ICE
+datasetName: George et al. 2015
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/135
+description: This dataset comprises 15 plasmids engineered for the microbial production
+  of the biofuel isopentenol. The plasmids express genes for the mevalonate (MVA)
+  pathway, utilizing components from different source organisms (*S. aureus*, *M.
+  mazei*) and codon optimization. A key feature is the systematic tuning of expression
+  for the terminal synthesis step, which was explored using an idi1-nudB gene fusion
+  and a library of ribosome binding site (RBS) variants.
+relatedItem:
+- title: George, K. W., Thompson, M. G., Kang, A., Baidoo, E., Wang, G., Chan, L.
+    J., Adams, P. D., Petzold, C. J., Keasling, J. D., &amp; Soon Lee, T. (2015).
+    "Metabolic engineering for the high-yield production of isoprenoid-based C5 alcohols
+    in E. coli". Sci Rep, 5, 11128. doi, 10.1038/srep11128 http://www.ncbi.nlm.nih.gov/pubmed/26052683
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors:
+- name: Taek Soon Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: ' pBbA5c-MevTco-PMK-MKmm'
+  promoters: []
+  description: ' pBbA5c backbone with MevT "codon optimized" top portion followed
+    by codon optimized PMK and MK from M. mazei'
+  selection_markers:
+  - Cm
+- backbone: ' pTrc99A-idi1~nudB-nemA-PMD'
+  promoters: []
+  description: ' pTrc99A harboring a fusion between idi1 and nudB.  nemA and PMD are
+    also expressed.'
+  selection_markers:
+  - Ampicillin
+- backbone: ' pBbA5c-MevTsa-PMK-MKmm'
+  promoters: []
+  description: ' pBbA5c backbone with MevT "S. aureus" top portion followed by codon
+    optimized PMK and MK from M. mazei'
+  selection_markers:
+  - Cm
+- backbone: ' pTrc99A-idi1rbs10~nudB-nemA-PMD'
+  promoters: []
+  description: ' pTrc99A harboring a fusion between idi1 and nudB with RBS variant
+    10 for idi1.  nemA and PMD are also expressed.'
+  selection_markers:
+  - Ampicillin
+- backbone: ' pTrc99A-nudBrbs9-PMD'
+  promoters: []
+  description: pTrc99A backbone with NudB RBS varaint number 9 and PMD.  "Plasmid
+    2" for isopentenol production
+  selection_markers:
+  - Ampicillin
+- backbone: ' pTrc99A-nudBrbs10-PMD'
+  promoters: []
+  description: pTrc99A backbone with NudB RBS varaint number 10 and PMD.  "Plasmid
+    2" for isopentenol production
+  selection_markers:
+  - Ampicillin
+- backbone: ' pTrc99A-nudBrbs6-PMD'
+  promoters: []
+  description: pTrc99A backbone with NudB RBS varaint number 6 and PMD.  "Plasmid
+    2" for isopentenol production
+  selection_markers:
+  - Ampicillin
+- backbone: ' pTrc99A-nudBrbs7-PMD'
+  promoters: []
+  description: pTrc99A backbone with NudB RBS varaint number 7 and PMD.  "Plasmid
+    2" for isopentenol production
+  selection_markers:
+  - Ampicillin
+- backbone: ' pTrc99A-nudBrbs8-PMD'
+  promoters: []
+  description: pTrc99A backbone with NudB RBS varaint number 8 and PMD.  "Plasmid
+    2" for isopentenol production
+  selection_markers:
+  - Ampicillin
+- backbone: ' pBbA5c-MevTco-PMK-MKsa'
+  promoters: []
+  description: ' pBbA5c backbone with MevT "codon optimized" top portion followed
+    by codon optimized PMK and MK from S. aureus.'
+  selection_markers:
+  - Cm
+- backbone: ' pTrc99A-nudBrbs4-PMD'
+  promoters: []
+  description: pTrc99A backbone with NudB RBS varaint number 4 and PMD.  "Plasmid
+    2" for isopentenol production
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99A-nudBrbs1-PMD
+  promoters: []
+  description: pTrc99A backbone with NudB RBS varaint number 1 and PMD.  "Plasmid
+    2" for isopentenol production
+  selection_markers:
+  - Ampicillin
+- backbone: ' pTrc99A-nudBrbs5-PMD'
+  promoters: []
+  description: pTrc99A backbone with NudB RBS varaint number 5 and PMD.  "Plasmid
+    2" for isopentenol production
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99A-nudBrbs3-PMD
+  promoters: []
+  description: pTrc99A backbone with NudB RBS varaint number 3 and PMD.  "Plasmid
+    2" for isopentenol production
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99A-nudBrbs2-PMD
+  promoters: []
+  description: pTrc99A backbone with NudB RBS varaint number 2 and PMD.  "Plasmid
+    2" for isopentenol production
+  selection_markers:
+  - Ampicillin
+bibliographicCitation: https://public-registry.jbei.org/folders/135
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00135
+created_at: '2025-11-18T20:03:56.767Z'
+updated_at: '2025-12-11T00:00:04.619Z'

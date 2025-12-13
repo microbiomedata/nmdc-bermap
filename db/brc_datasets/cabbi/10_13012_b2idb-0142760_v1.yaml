@@ -1,0 +1,43 @@
+brc: CABBI
+date: '2022-03-01'
+title: Long-Term Yields in Annual and Perennial Bioenergy Crops in the Midwestern
+  USA
+creator:
+- name: DeLucia, Evan H.
+  email: delucia@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 38727
+  scientificName: Panicum virgatum
+- NCBITaxID: 183674
+  scientificName: Miscanthus x giganteus
+- NCBITaxID: 4577
+  scientificName: Zea mays
+- NCBITaxID: 3849
+  scientificName: Glycine max
+keywords:
+- switchgrass
+- miscanthus
+- maize
+- soybean
+- native prairie
+- biomass yield
+identifier: 10.13012/B2IDB-0142760_V1
+repository: Illinois Data Bank
+description: Data sets relating to the manuscript “Long-term yields in annual and
+  perennial bioenergy crops in the Midwestern USA” published in Global Change Biology
+  Bioenergy. Field data, including annual peak biomass and harvest yields from maize/soy,
+  miscanthus, switchgrass, and prairie field trials from 2008-2018 are included. Peak
+  and harvest biomass for fertilized and unfertilized miscanthus are included from
+  2014-2018.
+relatedItem:
+- title: Long-Term Yields in Annual and Perennial Bioenergy Crops in the Midwestern
+    United States
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/gcbb.12940
+bibliographicCitation: https://doi.org/10.13012/B2IDB-0142760_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-0142760_V1
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.626Z'

@@ -1,0 +1,41 @@
+brc: CABBI
+date: '2019-02-12'
+title: Miscanthus x giganteus yield in a REpeated PLAnting Year (REPLAY) experiment
+  across three sites in Iowa, USA
+creator:
+- name: Heaton, Emily
+  email: heaton6@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 183674
+  scientificName: Miscanthus x giganteus
+keywords:
+- miscanthus
+- biomass yield
+- age effects
+- nitrogen fertilization
+identifier: 10.17632/zff2yzfmx9.2
+repository: Mendeley Data
+description: 'Research objectives were to study nitrogen (N) fertilization and age
+  effect on Miscanthus x giganteus (mxg) yield and their interaction. In addition,
+  we studied how establishment conditions affected mxg yield response to N fertilization.  This
+  is the first repeated planting year experiment conducted on perennial bioenergy
+  grasses. Data showed that mxg yield response to N fertilization was highly variable.
+  Establishment effects were an important driver of this variability and caused significant
+  changes on the magnitude and direction of one-year-old stands’ response to N fertilization.
+  With repeated planting we compared yield gain from first to second year of growth
+  of different single starts. Yield gain of each single start was different within
+  and between sites. This site-specific response suggests that important biases could
+  be introduced when comparing results across studies if repeated planting is not
+  utilized. '
+relatedItem:
+- title: Multi-year and Multi-site Establishment of the Perennial Biomass Crop Miscanthus
+    × giganteus Using a Staggered Start Design to Elucidate N Response
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1007/s12155-019-09985-6
+bibliographicCitation: https://doi.org/10.17632/zff2yzfmx9.2
+schema_version: 0.1.1
+uid: CABBI_10.17632/zff2yzfmx9.2
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.624Z'

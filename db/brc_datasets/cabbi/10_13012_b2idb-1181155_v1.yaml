@@ -1,0 +1,36 @@
+brc: CABBI
+date: '2022-09-07'
+title: Increased Bundle Sheath Leakiness of CO2 During Photosynthetic Induction Shows
+  a Lack of Coordination between the C4 and C3 Cycles
+creator:
+- name: Long, Stephen P.
+  email: slong@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 4558
+  scientificName: Sorghum bicolor
+- NCBITaxID: 4577
+  scientificName: Zea mays
+keywords:
+- sorghum
+- maize
+- photosynthesis
+- bundle-sheath leakiness
+identifier: 10.13012/B2IDB-1181155_V1
+repository: Illinois Data Bank
+description: We developed a new application of isotopic gas exchange which couples
+  a tunable diode laser absorption spectroscope (TDL) with a leaf gas exchange system,
+  analyzing leakiness through induction of C4 photosynthesis on dark to high-light
+  transitions. The youngest fully expanded leaf was measured on 40-45 day-old maize(B73)
+  and sorghum (Tx430).
+relatedItem:
+- title: Increased bundle-sheath leakiness of CO2 during photosynthetic induction
+    shows a lack of coordination between the C4 and C3 cycles
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/nph.18485
+bibliographicCitation: https://doi.org/10.13012/B2IDB-1181155_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-1181155_V1
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.628Z'

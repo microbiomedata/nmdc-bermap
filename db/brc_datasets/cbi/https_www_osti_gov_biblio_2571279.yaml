@@ -1,0 +1,46 @@
+brc: CBI
+date: '2025-07-09'
+title: Plant sulfate transporter protein sequences for phylogenetic analysis
+active: true
+creator:
+- name: Samantha M Surber
+  affiliation: Center for Bioenergy Innovation, University of Georgia Athens
+  primaryContact: true
+- name: Chung-Jui TSAI
+  email: cjtsai@uga.edu
+  affiliation: Center for BioEnergy Innovation, University of Georgia Athens
+  primaryContact: false
+funding:
+- awardNumber: AC05-00OR22725
+  fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER)
+keywords:
+- SULTR
+- sulfate
+- phylogeny
+- CBI
+identifier: https://www.osti.gov/biblio/2571279
+dataset_url: https://labkey.ornl.gov/labkey/CBI/Tsai/public_data/Plant_sulfate_transporter_protein_sequences_for_phylogenetic_analysis/project-begin.view?
+description: Sulfur is an essential macronutrient that supports plant growth, development,
+  and responses to environmental stress. Sulfate is the predominant inorganic form
+  of sulfur in soils, and its uptake by roots and translocation to shoots are facilitated
+  by the sulfate transporter (SULTR) family of proteins. Although the first plant
+  SULTR gene was identified nearly three decades ago, several subfamily members, particularly
+  those in the expansive and angiosperm-specific SULTR3 group, remain poorly characterized.
+  To support comprehensive phylogenetic and sequence-based analyses, we compiled a
+  curated dataset of 262 SULTR protein sequences from 22 plant species spanning the
+  evolutionary breadth of land plants. This collection includes representatives from
+  two basal lineages, two early-divergent angiosperms, six monocots, and ten dicots.
+  All sequences were extracted from genome assemblies available in Phytozome v13 (Joint
+  Genome Institute) and manually curated, with cross-referencing to additional databases
+  such as NCBI when needed. This dataset provides a valuable resource for reconstructing
+  the evolutionary history of the SULTR family, with particular emphasis on the diversification
+  of SULTR3 transporters in flowering plants. This resource may also support functional
+  annotation, comparative genomics, and structural modeling of sulfate transport proteins.
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/CBI/2571279
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2571279
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.197Z'

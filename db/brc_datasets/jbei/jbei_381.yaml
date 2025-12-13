@@ -1,0 +1,101 @@
+id: jbei:381
+brc: JBEI
+date: '2017-08-23'
+title: Yuzawa et al 2017-2
+creator:
+- name: Satoshi Yuzawa
+  email: syuzawa@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 1902
+  scientificName: Streptomyces coelicolor
+keywords: []
+identifier: jbei:folder:00381
+repository: ICE
+datasetName: Yuzawa et al 2017-2
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/381
+description: This dataset comprises 12 plasmids for the heterologous expression and
+  engineering of the LipPks1 polyketide synthase (PKS). Key modifications explored
+  in these constructs include acyltransferase (AT) domain swaps, N-terminal deletions,
+  and site-directed mutagenesis to alter PKS function and its resulting product. The
+  collection utilizes various promoters (gapdhp, ermE*p) and integration systems (C31,
+  VWB) for expression, and includes an mCherry reporter plasmid as a control.
+relatedItem: []
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: '33'
+  promoters: []
+  description: C31, gapdhp (EL), LipPks1+TE (E. coli codons)
+  selection_markers:
+  - Apramycin
+- backbone: pSY186
+  promoters: []
+  description: C31, gapdhp (EL), (-NL) LipPks1+TE (E. coli codons), LFSSIAG -&gt;
+    LFSAIAG
+  selection_markers:
+  - Apramycin
+- backbone: '37'
+  promoters: []
+  description: C31, gapdhp (EL), AT-swapped LipPks1+TE (E. coli codons)
+  selection_markers:
+  - Apramycin
+- backbone: '21'
+  promoters: []
+  description: C31, gapdhp (EL), mCherry
+  selection_markers:
+  - Apramycin
+- backbone: pSY191
+  promoters: []
+  description: VWB, gapdhp (EL), (-NL) AT-swapped LipPks1+TE (E. coli codons), AYAAAN
+    -&gt; AFAAAN
+  selection_markers:
+  - Apramycin
+- backbone: pSY198
+  promoters: []
+  description: C31, ermE*p, (-NL) AT-swapped LipPks1+TE (E. coli codons), AYAAAN -&gt;
+    AFAAAN
+  selection_markers:
+  - Apramycin
+- backbone: pSY189
+  promoters: []
+  description: (-NL) AT-swapped LipPks1+TE (E. coli codons), AYAAAN -&gt; AFAAAN
+  selection_markers:
+  - Apramycin
+- backbone: pSY190
+  promoters: []
+  description: VWB, gapdhp (EL), (-NL) LipPks1+TE (E. coli codons), AYAAAN -&gt; AFAAAN
+  selection_markers:
+  - Apramycin
+- backbone: pSY197
+  promoters: []
+  description: C31 ermE*p, (-NL) LipPks1+TE (E. coli codons), AYAAAN -&gt; AFAAAN
+  selection_markers:
+  - Apramycin
+- backbone: pSY188
+  promoters: []
+  description: (-NL) LipPks1+TE (E. coli codons), AYAAAN -&gt; AFAAAN
+  selection_markers:
+  - Apramycin
+- backbone: pSY180
+  promoters: []
+  description: (-NL) AT-swapped LipPks1+TE (E. coli codons), AYAAAN -&gt; AFAAAN
+  selection_markers:
+  - Apramycin
+- backbone: pSY179
+  promoters: []
+  description: (-NL) LipPks1+TE (E. coli codons), AYAAAN -&gt; AFAAAN
+  selection_markers:
+  - Apramycin
+bibliographicCitation: https://public-registry.jbei.org/folders/381
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00381
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

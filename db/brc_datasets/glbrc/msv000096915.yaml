@@ -1,0 +1,42 @@
+brc: GLBRC
+date: '2025-04-18'
+title: Machine learning reveals genes impacting oxidative stress resistance across
+  yeasts
+creator:
+- name: Joshua J. Coon
+  email: jcoon@chem.wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: true
+species:
+- NCBITaxID: null
+  scientificName: Kluyveromyces lactis, Saccharomyces cerevisiae
+keywords:
+- Yeast
+- Proteomics
+- Artificial Intelligece
+- AI
+- Kluyveromyces lactis
+- Saccharomyces cerevisiae
+- Data Independent Acquisition
+- Machine Learning
+- Oxidative Stress
+- Reactive Oxygen Species
+- DatasetType:Proteomics
+identifier: MSV000096915
+repository: MassIVE
+description: Reactive oxygen species (ROS) are highly reactive molecules encountered
+  by yeasts during routine metabolism and during interactions with other organisms,
+  including host infection. Here, we characterized the variation in resistance to
+  ROS across the ancient yeast subphylum Saccharomycotina and used machine learning
+  (ML) to identify gene families whose sizes were predictive of ROS resistance.
+relatedItem:
+- title: Machine learning reveals genes impacting oxidative stress resistance across
+    yeasts
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.nature.com/articles/s41467-025-60189-3
+analysisType: Proteomics
+bibliographicCitation: https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=f33be8793408422985c50d00e4e96b7f
+schema_version: 0.1.7
+uid: GLBRC_MSV000096915
+created_at: '2025-11-27T06:00:04.934Z'
+updated_at: '2025-12-10T06:00:05.198Z'

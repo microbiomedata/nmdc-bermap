@@ -1,0 +1,35 @@
+brc: CABBI
+date: '2023-07-20'
+title: Soybean Compact Mutant
+creator:
+- name: Hudson, Matthew E.
+  email: mhudson@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 3849
+  scientificName: Glycine max
+keywords:
+- Genomics
+- Soybean
+identifier: PRJNA996935
+repository: NCBI BioProject
+description: Genome resequencing for mutation discovery in soybean short internode
+  mutant. Whole-genome sequencing of the mutant revealed an 8.7kb deletion in the
+  promoter of the Glyma.17g145200 gene, which encodes a member of the class III gibberellin
+  2-oxidases. The mutation has a dominant effect, likely via increased expression
+  of the GA 2-oxidase transcript observed in green tissue as a result of the deletion
+  in the promoter of Glyma.17g145200. Levels of GA precursors are altered in the Compact
+  mutant, supporting a role in gibberellin metabolism, and the mutant phenotype can
+  be rescued with exogenous GA3.
+relatedItem:
+- title: Promoter Deletion in the Soybean Compact Mutant Leads to Overexpression of
+    a Gene with Homology to the C20-Gibberellin 2-Oxidase Family
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: http://doi.org/10.1093/jxb/erad267
+analysisType: Genomics
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA996935
+schema_version: 0.1.1
+uid: CABBI_PRJNA996935
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

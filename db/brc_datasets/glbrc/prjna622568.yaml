@@ -1,0 +1,29 @@
+brc: GLBRC
+date: '2020-04-01'
+title: Panicum virgatum Raw sequence reads
+creator:
+- name: David B. Lowry
+  email: dlowry@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+species: []
+keywords:
+- Climate Change
+- Genomic Prediction
+- Genotype by Environment
+- Switchgrass
+identifier: PRJNA622568
+repository: NCBI BioProject
+description: Diversity Sequencing of Panicum virgatum
+relatedItem:
+- title: Genomic prediction of regional-scale performance in switchgrass (<i>Panicum
+    virgatum</i>) by accounting for genotype-by-environment variation and yield surrogate
+    traits
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://academic.oup.com/g3journal/article/14/10/jkae159/7716912
+analysisType: Raw sequence reads
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA622568
+schema_version: 0.1.7
+uid: GLBRC_PRJNA622568
+created_at: '2025-11-19T18:00:04.600Z'
+updated_at: '2025-12-10T06:00:05.197Z'

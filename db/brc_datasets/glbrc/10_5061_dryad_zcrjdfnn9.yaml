@@ -1,0 +1,37 @@
+brc: GLBRC
+date: '2025-02-27'
+title: Altering translation allows E. coli to overcome G-quadruplex stabilizers
+creator:
+- name: James L. Keck
+  email: jlkeck@wisc.edu
+  affiliation: Biomolecular Chemistry Department, School of Medicine and Public Health,
+    University of Wisconsin-Madison, Madison, WI, 53706 United States 
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- Bacteria
+- DNA
+- RNA
+- Biological sciences
+- G-quadruplex
+- omics
+- tnanslation
+identifier: 10.5061/dryad.zcrjdfnn9
+repository: Dryad
+description: The data included in this Dryad submission was collected in order to
+  understand how the model organism* Escherichia coli* overcomes stabilized G-quadruplexes.
+  This work involved a multi-omics approach to studying how the G-quadruplex stabilizers
+  NMM and Braco-19 impact growth, gene importance, and mRNA/proteomic abundance in
+  G-quadruplex stabilizing conditions. 
+relatedItem:
+- title: Altering translation allows <i>E. coli</i> to overcome G-quadruplex stabilizers
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://academic.oup.com/nar/article/53/6/gkaf264/8107784
+analysisType: 'Growth, multiomics '
+bibliographicCitation: https://datadryad.org/dataset/doi:10.5061/dryad.zcrjdfnn9
+schema_version: 0.1.7
+uid: GLBRC_10.5061/dryad.zcrjdfnn9
+created_at: '2025-11-27T06:00:04.934Z'
+updated_at: '2025-12-10T06:00:05.198Z'

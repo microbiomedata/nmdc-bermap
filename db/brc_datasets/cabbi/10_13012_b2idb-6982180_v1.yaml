@@ -1,0 +1,35 @@
+brc: CABBI
+date: '2019-08-08'
+title: Microbial Carbon Use Efficiency Predicted from Genome-Scale Metabolic Models
+creator:
+- name: Adrien Finzi
+  email: afinzi@bu.edu
+  affiliation: Boston University
+  primaryContact: true
+keywords:
+- Carbon Use Efficiency
+- Modeling
+- Microbial Taxa
+identifier: 10.13012/B2IDB-6982180_V1
+repository: Illinois Data Bank
+description: Respiration by soil bacteria and fungi is one of the largest fluxes of
+  carbon (C) from the land surface. Although this flux is a direct product of microbial
+  metabolism, controls over metabolism and their responses to global change are a
+  major uncertainty in the global C cycle. Here, we explore an in silico approach
+  to predict bacterial C-use efficiency (CUE) for over 200 species using genome-specific
+  constraint-based metabolic modeling. We find that potential CUE averages 0.62 ± 0.17
+  with a range of 0.22 to 0.98 across taxa and phylogenetic structuring at the subphylum
+  levels. Potential CUE is negatively correlated with genome size, while taxa with
+  larger genomes are able to access a wider variety of C substrates. Incorporating
+  the range of CUE values reported here into a next-generation model of soil biogeochemistry
+  suggests that these differences in physiology across microbial taxa can feed back
+  on soil-C cycling.
+relatedItem:
+- title: Microbial Carbon Use Efficiency Predicted from Genome-Scale Metabolic Models
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1038/s41467019-11488-z
+bibliographicCitation: https://doi.org/10.13012/B2IDB-6982180_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-6982180_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

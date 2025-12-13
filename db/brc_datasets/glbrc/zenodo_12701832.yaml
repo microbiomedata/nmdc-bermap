@@ -1,0 +1,35 @@
+brc: GLBRC
+date: '2024-07-09'
+title: Comparative modeling reveals the molecular determinants of aneuploidy fitness
+  cost in a wild yeast model
+creator:
+- name: Audrey Gasch
+  email: agasch@wisc.edu
+  affiliation: GLBRC - University of Wisconsin-Madison
+  primaryContact: true
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- Cnv
+- aneuploidy
+- balance hypothesis
+- dosage-sensitive genes
+- driver genes
+- genic load
+- snoRNA
+- tRNA
+identifier: zenodo.12701832
+repository: Zenodo
+description: Code repository for aneuploidy model and gene machine learning model
+relatedItem:
+- title: Comparative modeling reveals the molecular determinants of aneuploidy fitness
+    cost in a wild yeast model
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.cell.com/cell-genomics/fulltext/S2666-979X(24)00267-2
+analysisType: Code
+bibliographicCitation: https://zenodo.org/records/12701832
+schema_version: 0.1.7
+uid: GLBRC_zenodo.12701832
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.198Z'

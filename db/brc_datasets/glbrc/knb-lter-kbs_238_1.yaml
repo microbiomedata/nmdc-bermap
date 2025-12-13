@@ -1,0 +1,37 @@
+brc: GLBRC
+date: '2025-02-10'
+title: Drought increases microbial allocation to stress tolerance but with few tradeoffs
+  among community-level traits
+creator:
+- name: Jennifer M. Jones
+  email: jenmj321@gmail.com
+  affiliation: WK Kellogg Biological Station, Department of Integrative Biology, Ecology,
+    Evolution, and Behavior Program, Michigan State University, Hickory Corners, MI,
+    USA
+  primaryContact: true
+- name: Sarah E. Evans
+  email: evanssa6@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Multispecies
+keywords: []
+identifier: knb-lter-kbs.238.1
+repository: EDI Data Portal
+description: We leverage the Kellogg Biological Station Long Term Ecological Research
+  Main Cropping System Experiment (KBS MCSE) field experiment to test trade-offs among
+  high growth yield (Y), resource acquisition (A), and stress tolerance (S) traits
+  using metagenomic data from plots with different land use, drought manipulation,
+  and C addition.
+relatedItem:
+- title: Drought increases microbial allocation to stress tolerance but with few tradeoffs
+    among community-level traits
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.sciencedirect.com/science/article/pii/S003807172500080X?via%3Dihub
+analysisType: Field data, metagenomics
+bibliographicCitation: https://doi.org/10.6073/pasta/7fbb392c4ad1358f361bbc18e036c14b
+schema_version: 0.1.7
+uid: GLBRC_knb-lter-kbs.238.1
+created_at: '2025-11-27T06:00:04.934Z'
+updated_at: '2025-12-10T06:00:05.198Z'

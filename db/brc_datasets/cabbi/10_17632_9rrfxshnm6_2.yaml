@@ -1,0 +1,48 @@
+brc: CABBI
+date: '2019-07-31'
+title: Age-related changes in Miscanthus × giganteus phenology and the effect of nitrogen
+  fertilization
+creator:
+- name: Heaton, Emily
+  email: heaton6@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 183674
+  scientificName: Miscanthus x giganteus
+keywords:
+- phenology
+- fertilization effects
+- miscanthus aging
+identifier: 10.17632/9rrfxshnm6.2
+repository: Mendeley Data
+description: In this research we used the warm-season grass Miscanthus × giganteus
+  as model herbaceous perennial species to study age-related changes on phenology.
+  Age-related experiments are usually based on field experimental design that confound
+  growing season and age effects and ignore variability generated during the establishment
+  of the stand.  Here, we used a staggered-start experimental design where stands
+  are repeatedly planted over subsequent years providing the ability to separate plant
+  age effects from environmental effects.We hypothesized (i) M. × giganteus would
+  produce more plant structures and reach more advanced developmental stages in a
+  given growing season as it aged. (ii) Juvenile stands would have faster developmental
+  rates and start development sooner and (iii) Mature stands would start senescence
+  sooner in the growing season. Finally, we studied nitrogen (N) fertilization effects
+  on M. × giganteus phenology as to assess whether age-related changes could be an
+  artifact of size and N dilution in mature bigger individuals. We hypothesized that
+  (iv) fertilized juvenile stands would have similar dynamics as mature unfertilized
+  stands. Data were collected bi-weekly on all established stands during 2016 and
+  2017. Ten stems were harvested from each plot and staged at the lab according to
+  M. × giganteus morphological scale developed by Tejera &amp; Heaton (2017). Time
+  series progression were then analyzed using non-linear models and parameters were
+  compared across stand ages, N treatments and growing seasons. R scripts used to
+  analyze the data are available upon request.
+relatedItem:
+- title: 'The older plant gets the sun: Age-related changes in Miscanthus × giganteus
+    phenology'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/gcbb.12745
+bibliographicCitation: https://doi.org/10.17632/9rrfxshnm6.2
+schema_version: 0.1.1
+uid: CABBI_10.17632/9rrfxshnm6.2
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.624Z'

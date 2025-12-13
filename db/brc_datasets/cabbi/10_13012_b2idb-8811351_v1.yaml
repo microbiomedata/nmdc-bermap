@@ -1,0 +1,52 @@
+brc: CABBI
+date: '2022-06-10'
+title: Catalyst and Reactor Design Considerations for Selective Production of Acids
+  by Oxidative Cleavage of Alkenes with H2O2
+creator:
+- name: David W. Flaherty
+  email: dflaherty3@gatech.edu
+  affiliation: Georgia Institute of Technology
+  primaryContact: true
+keywords:
+- Catalysis
+- Oxidative cleavage
+- Product selectivities
+identifier: 10.13012/B2IDB-8811351_V1
+repository: Illinois Data Bank
+description: Oxidative cleavage of alkenes and unsaturated fatty acids with hydrogen
+  peroxide gives an efficient and sustainable process to obtain mono- and di-acids
+  for polymers and lubricants with fewer safety risks and less environmental impact
+  than processes that utilize ozone or other inorganic oxidizers (e.g., permanganate,
+  dichromate, etc.). Guided by insight into the mechanisms for competing reaction
+  pathways (i.e., epoxidation of alkene on W–(η2-O2) complexes vs. H2O2 decomposition)
+  and the apparent kinetics derived from kinetic experiments, here, we postulate that
+  W-based heterogeneous catalysts can provide high performance and stable operations
+  at low H2O2 concentrations. Semi-batch reactors with continuous introduction of
+  H2O2 solutions offer the means to maintain low H2O2 concentrations while providing
+  sufficient quantities of H2O2 to satisfy the reaction stoichiometry. We derived
+  simple kinetic model equations for the epoxidation, ring-opening, oxidative cleavage,
+  and oxidation steps and fit theses equations to batch experimental data to obtain
+  kinetic parameters. This kinetic model describes the concentration profiles of reactant,
+  oxidant, and products well as shown by agreement with experimental data. Further
+  predictions of the optimal H2O2 feed rate for semi-batch operation utilized by the
+  proposed rate expressions and the reactor design equations suggest that low H2O2
+  feed rate increases selectivity towards oxidative cleavage products and selective
+  use of H2O2 for oxidative cleavage pathway. Comparisons of oxidative cleavage of
+  4-octene in batch and semi-batch reactors show that semi-batch reactors with optimized
+  molar feed rates of H2O2 increased oxidative cleavage product selectivities (76%
+  to 99%; with an increase in butyric acid selectivity from 1% to 55%) and H2O2 selectivity
+  (3% to 30%). In addition, semi-batch reaction conditions used avoid H2O2-mediated
+  dissolution of W-atoms from the catalyst. Analysis of these findings suggest that
+  solid oxide catalysts will be effective for continuous oxidative cleavage reactions
+  if deployed within fixed-bed reactors that allow for distributed introduction of
+  reactants and therefore low in situ concentrations of H2O2.
+relatedItem:
+- title: Catalyst and Reactor Design Considerations for Selective Production of Acids
+    by Oxidative Cleavage of Alkenes with H2O2
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1039/D2RE00160H
+bibliographicCitation: https://doi.org/10.13012/B2IDB-8811351_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-8811351_V1
+created_at: '2025-11-20T18:00:04.759Z'
+updated_at: '2025-12-10T06:00:05.196Z'

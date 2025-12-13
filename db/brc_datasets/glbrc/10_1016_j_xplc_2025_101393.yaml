@@ -1,0 +1,41 @@
+brc: GLBRC
+date: '2024-07-09'
+title: 'Data from: A high-quality genome assembly of the tetraploid Teucrium chamaedrys
+  unveils a recent whole genome duplication and a large biosynthetic gene cluster
+  for diterpenoid metabolism'
+creator:
+- name: Björn Hamberger
+  email: hamberge@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+species:
+- NCBITaxID: 1753
+  scientificName: Teucrium chamaedrys
+keywords:
+- Lamiaceae (mint)
+- Teucrium
+- biosynthetic gene cluster (BGC)
+- diterpenoid
+identifier: 10.1016/j.xplc.2025.101393
+repository: Dryad
+description: Teucrium is well known for making clerodane-type diterpenoids that are
+  produced from the backbone kolavanyl diphosphate. In order to begin to elucidate
+  some of the complex biosynthetic pathways of these medicinal compounds, we identified
+  and functionally characterized several kolavanyl diphosphate synthases from <i>T.
+  chamaedrys</i>. Along the way, we discovered the genome of this species to be one
+  of the largest genomes published from the Lamiaceae family, to which it belongs.
+  This tetraploid, 3 Gbp genome is especially rich in diterpene synthase genes, with
+  74 putative sequences identified.
+relatedItem:
+- title: A high-quality genome assembly of the tetraploid <i>Teucrium chamaedrys</i>
+    unveils a recent whole genome duplication and a large biosynthetic gene cluster
+    for diterpenoid metabolism
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.sciencedirect.com/science/article/pii/S2590346225001555
+analysisType: Genome assembly, annotation, raw GC–MS, and a list of Teucrium sequences
+  used in Figure 3 
+bibliographicCitation: https://datadryad.org/dataset/doi:10.5061/dryad.4mw6m90kp
+schema_version: 0.1.7
+uid: GLBRC_10.1016/j.xplc.2025.101393
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.198Z'

@@ -1,0 +1,51 @@
+brc: CABBI
+date: '2019-10-08'
+title: Assessing Precipitation, Evapotranspiration, and NDVI as Controls of U.S. Great
+  Plains Plant Production
+creator:
+- name: William Parton
+  email: billp@nrel.colostate.edu
+  affiliation: Colorado State University
+  primaryContact: true
+keywords:
+- Modeling
+- Evapotranspiration
+- NDVI
+identifier: 10.13012/B2IDB-8836433_V1
+repository: Illinois Data Bank
+description: 'Productivity throughout the North American Great Plains grasslands is
+  generally considered to be water limited, with the strength of this limitation increasing
+  as precipitation decreases. We hypothesize that cumulative actual evapotranspiration
+  water loss (AET) from April to July is the precipitation‐related variable most correlated
+  to aboveground net primary production (ANPP) in the U.S. Great Plains (GP). We tested
+  this by evaluating the relationship of ANPP to AET, precipitation, and plant transpiration
+  (Tr). We used multi‐year ANPP data from five sites ranging from semiarid grasslands
+  in Colorado and Wyoming to mesic grasslands in Nebraska and Kansas, mean annual
+  NRCS ANPP, and satellite‐derived normalized difference vegetation index (NDVI) data.
+  Results from the five sites showed that cumulative April‐to‐July AET, precipitation,
+  and Tr were well correlated (R2: 0.54–0.70) to annual changes in ANPP for all but
+  the wettest site. AET and Tr were better correlated to annual changes in ANPP compared
+  to precipitation for the drier sites, and precipitation in August and September
+  had little impact on productivity in drier sites. April‐to‐July cumulative precipitation
+  was best correlated (R2 = 0.63) with interannual variability in ANPP in the most
+  mesic site, while AET and Tr were poorly correlated with ANPP at this site. Cumulative
+  growing season (May‐to‐September) NDVI (iNDVI) was strongly correlated with annual
+  ANPP at the five sites (R2 = 0.90). Using iNDVI as a surrogate for ANPP, we found
+  that county‐level cumulative April–July AET was more strongly correlated to ANPP
+  than precipitation for more than 80% of the GP counties, with precipitation tending
+  to perform better in the eastern more mesic portion of the GP. Including the ratio
+  of AET to potential evapotranspiration (PET) improved the correlation of AET to
+  both iNDVI and mean county‐level NRCS ANPP. Accounting for how different precipitation‐related
+  variables control ANPP (AET in drier portion, precipitation in wetter portion) provides
+  opportunity to develop spatially explicit forecasting of ANPP across the GP for
+  enhancing decision‐making by land managers and use of grassland ANPP for biofuels.'
+relatedItem:
+- title: Assessing Precipitation, Evapotranspiration, and NDVI as Controls of U.S.
+    Great Plains Plant Production
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1002/ecs2.2889
+bibliographicCitation: https://doi.org/10.13012/B2IDB-8836433_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-8836433_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

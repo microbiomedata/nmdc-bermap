@@ -1,0 +1,45 @@
+id: jbei:103
+brc: JBEI
+date: '2013-11-02'
+title: Galdzicki et al. 2014
+creator:
+- name: Hector Plahar
+  email: haplahar@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species: []
+keywords: []
+identifier: jbei:folder:00103
+repository: ICE
+datasetName: Galdzicki et al. 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/103
+description: ''
+relatedItem:
+- title: 'Galdzicki M, Clancy KP, Oberortner E, Pocock M, Quinn JY, Rodriguez CA,
+    Roehner N, Wilson ML, Adam L, Anderson JC, Bartley BA, Beal J, Chandran D, Chen
+    J, Densmore D, Endy D, Grünberg R, Hallinan J, Hillson NJ, Johnson JD, Kuchinsky
+    A, Lux M, Misirli G, Peccoud J, Plahar HA, Sirin E, Stan GB, Villalobos A, Wipat
+    A, Gennari JH, Myers CJ, Sauro HM. The Synthetic Biology Open Language (SBOL)
+    provides a community standard for communicating designs in synthetic biology.
+    Nat Biotechnol. 2014 Jun;32(6):545-50. doi: 10.1038/nbt.2891. Epub 2014 Jun 6.
+    PubMed PMID: 24911500.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors:
+- name: Nathan Hillson
+  email: njhillson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features: []
+bibliographicCitation: https://public-registry.jbei.org/folders/103
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00103
+created_at: '2025-11-18T20:03:56.767Z'
+updated_at: '2025-12-11T00:00:04.619Z'

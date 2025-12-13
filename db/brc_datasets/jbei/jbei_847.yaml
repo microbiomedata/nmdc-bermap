@@ -1,0 +1,536 @@
+id: jbei:847
+brc: JBEI
+date: '2024-04-19'
+title: Szarzanowicz 2024 ORI Copy Number
+creator:
+- name: Matthew Szarzanowicz
+  email: mszarzanowicz@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 358
+  scientificName: Agrobacterium tumefaciens
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- ORI
+identifier: jbei:folder:00847
+repository: ICE
+datasetName: Szarzanowicz 2024 ORI Copy Number
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/847
+description: This dataset contains 93 plasmids designed to investigate the function
+  of broad-host-range origins of replication (ORIs), specifically pVS1, pSa, RK2,
+  and BBR1. The collection features a systematic library of wild-type and mutant ORI-associated
+  proteins to assess the impact of specific amino acid changes on plasmid copy number.
+  These plasmids are constructed as binary vectors containing fluorescent reporters
+  (eGFP, sfGFP) or as selection vectors for use in quantitative assays.
+relatedItem: []
+analysisType: Expression profiling
+contributors:
+- name: Matthew Szarzanowicz
+  email: Mszarzanowicz@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pVS1
+  backbone: pVS1_checkerboard_selection
+  promoters: []
+  description: Selection vector for the pVS1 ORI for use in a checkerboard assay.
+    Has constitutive spectinomycin resistance and inducible gentamicin resistance
+    with salicylic acid.
+  selection_markers:
+  - Spec/Gent (with salicylic acid)
+- ori: BBR1
+  backbone: PC4_eGFP_BBR1_E186V
+  promoters: []
+  description: PC4_eGFP_BBR1_E186V binary vector
+  selection_markers: []
+- ori: BBR1
+  backbone: PC4_eGFP_BBR1_D138N
+  promoters: []
+  description: PC4_eGFP_BBR1_D134N binary vector
+  selection_markers:
+  - Kan
+- ori: pSa
+  backbone: pSa_checkerboard_selection
+  promoters: []
+  description: Selection vector for the pSa ORI for use in a checkerboard assay. Has
+    constitutive spectinomycin resistance and inducible gentamicin resistance with
+    salicylic acid.
+  selection_markers:
+  - Spec/Gent (with salicylic acid)
+- ori: RK2
+  backbone: RK2_checkerboard_selection
+  promoters: []
+  description: Selection vector for the RK2 ORI for use in a checkerboard assay. Has
+    constitutive spectinomycin resistance and inducible gentamicin resistance with
+    salicylic acid.
+  selection_markers:
+  - Spec/Gent (with salicylic acid)
+- ori: BBR1
+  backbone: PC4_eGFP_BBR1_WT
+  promoters: []
+  description: PC4_eGFP_BBR1_WT binary vector
+  selection_markers: []
+- ori: BBR1
+  backbone: BBR1_checkerboard_selection
+  promoters: []
+  description: Selection vector for the BBR1 ORI for use in a checkerboard assay.
+    Has constitutive spectinomycin resistance and inducible gentamicin resistance
+    with salicylic acid.
+  selection_markers:
+  - Spec/Gent (with salicylic acid)
+- ori: pSa
+  backbone: pSa_PC4_eGFP_V152F
+  promoters: []
+  description: pSa_PC4_eGFP_V152F binary vector
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: pVS1_A246V_PC4_GFP
+  promoters: []
+  description: pVS1_A246V_PC4_GFP binary vector
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: Rhodosporidium_pVS1_R106H
+  promoters: []
+  description: pVS1_R106H nurseothrycin selection vector
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: pVS1_PC4_H201L_GFP
+  promoters: []
+  description: pVS1_PC4_H201L_GFP binary vector
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: pVS1_PC4_GFP
+  promoters: []
+  description: pVS1_PC4_GFP binary vector
+  selection_markers: []
+- ori: pSa
+  backbone: pSa_WT_PC4_eGFP
+  promoters: []
+  description: pSa_WT_PC4_eGFP binary vector
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: pVS1_PC4_R106H_GFP
+  promoters: []
+  description: pVS1_PC4_R106H_GFP binary vector
+  selection_markers: []
+- ori: RK2
+  backbone: RK2_T251M_pCM2_GFP
+  promoters:
+  - pCM2
+  description: RK2_T251M_pCM2_GFP. EHA105
+  selection_markers: []
+- ori: RK2
+  backbone: RK2_R75C_pCM2_GFP
+  promoters:
+  - pCM2
+  description: RK2_R75C_pCM2_GFP binary vector
+  selection_markers: []
+- ori: RK2
+  backbone: RK2_R11G_pCM2_GFP
+  promoters:
+  - pCM2
+  description: RK2_R11G_pCM2_GFP binary vector
+  selection_markers: []
+- ori: RK2
+  backbone: Rhodosporidium_RK2_S20F
+  promoters: []
+  description: RK2_S20F nurseothrycin selection vector
+  selection_markers:
+  - Kan (bacterial), nurseothrycin (fungal)
+- ori: pVS1 oriV
+  backbone: Rhodosporidium_pVS1_WT
+  promoters: []
+  description: pVS1_WT nurseothrycin selection vector
+  selection_markers:
+  - Kan (bacterial), nurseothrycin (fungal)
+- ori: BBR1
+  backbone: pCL2_eGFP_BBR1_WT
+  promoters:
+  - pCL2
+  description: pCL2_eGFP_BBR1_WT binary vector
+  selection_markers:
+  - Kanamycin
+- ori: RK2
+  backbone: RK2_A250S_pCM2_GFP
+  promoters:
+  - pCM2
+  description: RK2_A250S_pCM2_GFP binary vectory
+  selection_markers: []
+- ori: pSa
+  backbone: pSa_PC4_sfGFP_A37P.gb
+  promoters: []
+  description: pSa A37P. pCM2_sfGFP binary vector
+  selection_markers: []
+- ori: pSa
+  backbone: pSa_PC4_sfGFP_A154P.gb
+  promoters: []
+  description: pSa A154P. pCM2_sfGFP binary vector
+  selection_markers: []
+- ori: pSa
+  backbone: pSa_PC4_sfGFP_D145N.gb
+  promoters: []
+  description: pSa D145N. pCM2_sfGFP binary vector
+  selection_markers: []
+- ori: pSa
+  backbone: pSa_PC4_sfGFP_E23K.gb
+  promoters: []
+  description: pSa E23K. pCM2_sfGFP binary vector
+  selection_markers: []
+- ori: RK2
+  backbone: Rhodosporidium_RK2
+  promoters: []
+  description: RK2_WT nurseothrycin selection vector
+  selection_markers:
+  - Kan (bacterial), nurseothrycin (fungal)
+- ori: pSa
+  backbone: pSa_PC4_sfGFP_D181Y.gb
+  promoters: []
+  description: pSa D181Y. pCM2_sfGFP binary vector
+  selection_markers: []
+- ori: pSa
+  backbone: pSa_PC4_sfGFP_E56K.gb
+  promoters: []
+  description: pSa E56K. pCM2_sfGFP binary vector
+  selection_markers: []
+- ori: pSa
+  backbone: pSa_PC4_sfGFP_F160L.gb
+  promoters: []
+  description: pSa F160L. pCM2_sfGFP binary vector
+  selection_markers: []
+- ori: pSa
+  backbone: pSa_PC4_sfGFP_E90K.gb
+  promoters: []
+  description: pSa E90K. pCM2_sfGFP binary vector
+  selection_markers: []
+- ori: pSa
+  backbone: pSa_PC4_sfGFP_P70T.gb
+  promoters: []
+  description: pSa P70T. pCM2_sfGFP binary vector
+  selection_markers: []
+- ori: pSa
+  backbone: pSa_PC4_sfGFP_K155N.gb
+  promoters: []
+  description: pSa K155N. pCM2_sfGFP binary vector
+  selection_markers: []
+- ori: pSa
+  backbone: pSa_PC4_sfGFP_P166S.gb
+  promoters: []
+  description: pSa P166S. pCM2_sfGFP binary vector
+  selection_markers: []
+- ori: pSa
+  backbone: pSa_PC4_sfGFP_R28C.gb
+  promoters: []
+  description: pSa R28C. pCM2_sfGFP binary vector
+  selection_markers: []
+- ori: pSa
+  backbone: pSa_PC4_sfGFP_R125L.gb
+  promoters: []
+  description: pSa R125L. pCM2_sfGFP binary vector
+  selection_markers: []
+- ori: pSa
+  backbone: pSa_PC4_sfGFP_R119S.gb
+  promoters: []
+  description: pSa R119S. pCM2_sfGFP binary vector
+  selection_markers: []
+- ori: pSa
+  backbone: pSa_PC4_sfGFP_S137L.gb
+  promoters: []
+  description: pSa S137L. pCM2_sfGFP binary vector
+  selection_markers: []
+- ori: pSa
+  backbone: pSa_PC4_sfGFP_W172R.gb
+  promoters: []
+  description: pSa W172R. pCM2_sfGFP binary vector
+  selection_markers: []
+- ori: pSa
+  backbone: pSa_PC4_sfGFP_R165W.gb
+  promoters: []
+  description: pSa R165W. pCM2_sfGFP binary vector
+  selection_markers: []
+- ori: pSa
+  backbone: pSa_PC4_sfGFP_WT.gb
+  promoters: []
+  description: pSa WT. pCM2_sfGFP binary vector
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: pVS1_PC6_GFP_A223V.gb
+  promoters: []
+  description: pVS1 A223V. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: pSa
+  backbone: pSa_PC4_sfGFP_N150I.gb
+  promoters: []
+  description: pSa N150I. pCM2_sfGFP binary vector
+  selection_markers: []
+- ori: pSa
+  backbone: pSa_PC4_sfGFP_V152F.gb
+  promoters: []
+  description: pSa V152F. pCM2_sfGFP binary vector
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: pVS1_PC6_GFP_A246V.gb
+  promoters: []
+  description: pVS1 A246V. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: pVS1_PC6_GFP_E220K.gb
+  promoters: []
+  description: pVS1 E220K. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: pVS1_PC6_GFP_E222V.gb
+  promoters: []
+  description: pVS1 E222V. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: pVS1_PC6_GFP_G111D.gb
+  promoters: []
+  description: pVS1 G111D. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: pVS1_PC6_GFP_G131D.gb
+  promoters: []
+  description: pVS1 G131D. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: pVS1_PC6_GFP_H201L.gb
+  promoters: []
+  description: pVS1 H201L. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: pVS1_PC6_GFP_G256D.gb
+  promoters: []
+  description: pVS1 G256D. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: pVS1_PC6_GFP_K229N.gb
+  promoters: []
+  description: pVS1 K229N. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: pVS1_PC6_GFP_S126Y.gb
+  promoters: []
+  description: pVS1 S126Y. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: pVS1_PC6_GFP_R106H.gb
+  promoters: []
+  description: pVS1 R106H. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: pVS1_PC6_GFP_K310Q.gb
+  promoters: []
+  description: pVS1 K310Q. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: BBR1
+  backbone: pCL2_eGFP_BBR1_D129E.gbk
+  promoters: []
+  description: BBR1 D129E. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: pVS1_PC6_GFP_V218G.gb
+  promoters: []
+  description: pVS1 V218G. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: BBR1
+  backbone: pCL2_eGFP_BBR1_D132V.gb
+  promoters: []
+  description: BBR1 D132V. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: BBR1
+  backbone: pCL2_eGFP_BBR1_D134N.gb
+  promoters: []
+  description: BBR1 D134N. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: BBR1
+  backbone: pCL2_eGFP_BBR1_E182V.gb
+  promoters: []
+  description: BBR1 E182V. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: pVS1_PC6_GFP_WT.gb
+  promoters: []
+  description: pVS1 WT. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: pVS1_PC6_GFP_T199N.gb
+  promoters: []
+  description: pVS1 T199N. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: BBR1
+  backbone: pCL2_eGFP_BBR1_H130N.gb
+  promoters: []
+  description: BBR1 H130N. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: BBR1
+  backbone: pCL2_eGFP_BBR1_K66Q.gb
+  promoters: []
+  description: BBR1 K66Q.. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: pVS1_PC6_GFP_R227S.gb
+  promoters: []
+  description: pVS1 R227S. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: BBR1
+  backbone: pCL2_eGFP_BBR1_K92N.gb
+  promoters: []
+  description: BBR1 K92N. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: BBR1
+  backbone: pCL2_eGFP_BBR1_L138F.gb
+  promoters: []
+  description: BBR1 L138F. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: BBR1
+  backbone: pCL2_eGFP_BBR1_P96L.gb
+  promoters: []
+  description: BBR1 P96L. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: BBR1
+  backbone: pCL2_eGFP_BBR1_T148A.gb
+  promoters: []
+  description: BBR1 T148A.. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: BBR1
+  backbone: pCL2_eGFP_BBR1_G141D.gb
+  promoters: []
+  description: BBR1 G141D. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: BBR1
+  backbone: pCL2_eGFP_BBR1_V91M.gb
+  promoters: []
+  description: BBR1 V91M. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: BBR1
+  backbone: pCL2_eGFP_BBR1_S100L.gb
+  promoters: []
+  description: BBR1 S100L. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: BBR1
+  backbone: pCL2_eGFP_BBR1_V99L.gb
+  promoters: []
+  description: BBR1 V99L. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: BBR1
+  backbone: pCL2_eGFP_BBR1_V128I.gb
+  promoters: []
+  description: BBR1 V128I. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: BBR1
+  backbone: pCL2_eGFP_BBR1_T74M.gb
+  promoters: []
+  description: BBR1 T74M. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: RK2
+  backbone: RK2_I288L_pCM2_GFP
+  promoters: []
+  description: RK2_I288L_pCM2_GFP binary vector
+  selection_markers: []
+- ori: RK2
+  backbone: RK2_N181H_pCM2_GFP
+  promoters: []
+  description: RK2_N181H_pCM2_GFP binary vector
+  selection_markers: []
+- ori: RK2
+  backbone: RK2_I305K_pCM2_GFP
+  promoters: []
+  description: RK2_I305K_pCM2_GFP binary vector
+  selection_markers: []
+- ori: RK2
+  backbone: RK2_A171V_pCM2_GFP
+  promoters: []
+  description: RK2_A171V_pCM2_GFP binary vector
+  selection_markers: []
+- ori: RK2
+  backbone: RK2_E22Stop_pCM2_GFP
+  promoters: []
+  description: RK2_E22Stop_pCM2_GFP binary vector
+  selection_markers: []
+- ori: RK2
+  backbone: RK2_E170K_pCM2_GFP
+  promoters: []
+  description: RK2_E170K_pCM2_GFP binary vector
+  selection_markers: []
+- ori: RK2
+  backbone: RK2_P63H_pCM2_GFP
+  promoters: []
+  description: RK2_P63H_pCM2_GFP binary vector
+  selection_markers: []
+- ori: RK2
+  backbone: RK2_Q60Stop_pCM2_GFP
+  promoters: []
+  description: RK2_Q60Stop_pCM2_GFP binary vector
+  selection_markers: []
+- ori: RK2
+  backbone: RK2_S136T_pCM2_GFP
+  promoters: []
+  description: RK2_S136T_pCM2_GFP binary vector
+  selection_markers: []
+- ori: RK2
+  backbone: RK2_S20F_pCM2_GFP
+  promoters: []
+  description: RK2_S20F_pCM2_GFP binary vector
+  selection_markers: []
+- ori: RK2
+  backbone: RK2_Truncation_1_90_pCM2_GFP
+  promoters: []
+  description: RK2_Truncation_1_90_pCM2_GFP binary vector
+  selection_markers: []
+- ori: RK2
+  backbone: RK2_WT_pCM2_GFP
+  promoters: []
+  description: RK2_WT_pCM2_GFP binary vector
+  selection_markers: []
+- ori: RK2
+  backbone: RK2_R271L_pCM2_GFP
+  promoters: []
+  description: RK2_R271L_pCM2_GFP binary vector
+  selection_markers: []
+- ori: pVS1 oriV
+  backbone: pVS1_PC6_GFP_G356D.gb
+  promoters: []
+  description: pVS1 G356D. pCL2_eGFP binary vector
+  selection_markers: []
+- ori: pSa
+  backbone: pSa_PC4_eGFP_V152F.gb
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pSa
+  backbone: pSa_PC4_eGFP_A154P.gb
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: RK2
+  backbone: RK2_Q173R_pCM2_GFP
+  promoters: []
+  description: RK2_Q173R_pCM2_GFP binary vector
+  selection_markers: []
+- ori: pSa
+  backbone: pSa_PC4_eGFP_A37P.gb
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: RK2
+  backbone: RK2_N174D_pCM2_GFP
+  promoters: []
+  description: RK2_N174D_pCM2_GFP binary vector
+  selection_markers:
+  - Kan
+bibliographicCitation: https://public-registry.jbei.org/folders/847
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00847
+created_at: '2025-11-18T20:03:56.772Z'
+updated_at: '2025-12-11T00:00:04.623Z'

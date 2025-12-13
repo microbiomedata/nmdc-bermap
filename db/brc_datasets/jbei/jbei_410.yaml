@@ -1,0 +1,633 @@
+id: jbei:410
+brc: JBEI
+date: '2018-12-19'
+title: Tian et al. 2019
+creator:
+- name: Tian Tian
+  email: tiantian@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Taek Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Daisuke Koma
+  email: daikoma@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00410
+repository: ICE
+datasetName: Tian et al. 2019
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/410
+description: This dataset contains 89 plasmids designed for CRISPR interference (CRISPRi)-based
+  gene repression in *E. coli*, enabling metabolic engineering and system characterization.
+  The collection systematically varies dCas9 expression using engineered, wild-type,
+  and constitutive promoters, with gRNAs targeting a diverse set of metabolic genes
+  or reporter genes (RFP, GFP) to quantify repression efficiency.
+relatedItem:
+- title: Bikard, D., Jiang, W., Samai, P., Hochschild, A., Zhang, F., Marraffini,
+    L.A., 2013. Programmable repression and activation of bacterial gene expression
+    using an engineered CRISPR-Cas system. Nucleic Acids Res. 41, 7429-7437.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: SC101**
+  backbone: pdCas9-nontarget-C8
+  promoters: []
+  description: The plasmid has an engineered pTet inducible promoter controlling dCas9
+    expression, promoter J23119 controlling a non-target gRNA. The same as pdCas9-nontarget-C6,
+    just its selection marker is KanR instead of GmR
+  selection_markers:
+  - Kan
+- ori: SC101
+  backbone: pTet-dCas9-C5-asnA-gldA-prpE
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    asnA, gldA, prpE genes
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C5-gldA-prpE
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    gldA, prpE genes
+  selection_markers:
+  - KanR
+- ori: SC101**
+  backbone: pdCas9-nontarget-C7
+  promoters: []
+  description: Wild type Ptet inducible promoter controls dCas9 protein, promoter
+    J23119 controls  a non-target gRNA with low copy number SC101 origin and KanR
+    marker. The same as pdCas9-nontarget-C5 except its selection marker is Kan instead
+    of Gm.
+  selection_markers:
+  - Kan
+- backbone: pJ23100-RFP-GFP-Km
+  promoters: []
+  description: RFP and GFP under J23100 in the same operon
+  selection_markers:
+  - Kan
+- ori: SC101
+  backbone: pTet-dCas9-C5-asnA-prpE
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    asnA, prpE gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C5-dacA
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    dacA gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C5-mqo
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    mqo gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C5-asnA-gldA
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    asnA, gldA gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C5-maeB
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    maeB gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C5-gldA
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    gldA gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C5-prpE
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    prpE gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C5-ispA
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    ispA gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C5-asnA
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    asnA gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C5-mdh
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    mdh gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C5-thrC
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    thrC gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C5-ppc
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    ppc gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C5-yhfW
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    yhfW gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C5-accA
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    accA gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C5-eutD
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    eutD gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C5-gltA
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    gltA gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C5-deoB
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    deoB gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C5-yahI
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    yahI gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C5-yqeA
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    yqeA gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C6-pta
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    pta gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C6-poxB-ackA-pta
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    poxB, ackA, pta genes
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C5-arcC
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    arcC gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C6-ackA
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    ackA gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C5-poxB-ackA-pta
+  promoters: []
+  description: dCas9 under wild type Ptet promoter, gRNA under PJ23119, targeting
+    poxB, ackA, pta genes
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C5-pta
+  promoters: []
+  description: dCas9 under wild type Ptet promoter, gRNA under PJ23119, targeting
+    pta gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C6-poxB
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    poxB gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C5-ackA
+  promoters: []
+  description: dCas9 under wild type Ptet promoter, gRNA under PJ23119, targeting
+    ackA gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C5-poxB
+  promoters: []
+  description: dCas9 under wild type Ptet promoter, gRNA under PJ23119, targeting
+    poxB gene
+  selection_markers:
+  - KanR
+- ori: SC101
+  backbone: pTet-dCas9-C6-P1
+  promoters: []
+  description: 'dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    PJ23100 promoter '
+  selection_markers:
+  - GmR
+- ori: SC101
+  backbone: pTet-dCas9-C6-RFPNT
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    non-template strand of RFP
+  selection_markers:
+  - GmR
+- ori: SC101
+  backbone: pTet-dCas9-C6-GFPNT
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    non-template strand of GFP
+  selection_markers:
+  - GmR
+- ori: SC101
+  backbone: pTet-dCas9-C5-GFPNT
+  promoters: []
+  description: dCas9 under wild type Ptet promoter, gRNA under PJ23119, targeting
+    non-template strand of GFP
+  selection_markers:
+  - GmR
+- ori: SC101
+  backbone: pTet-dCas9-C5-RFPNT
+  promoters: []
+  description: dCas9 under wild type Ptet promoter, gRNA under PJ23119, targeting
+    non-template strand of RFP
+  selection_markers:
+  - GmR
+- ori: P15A
+  backbone: pTet-nontarget-C4
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, gRNA doesn't
+    target genome sequence
+  selection_markers:
+  - CmR
+- ori: SC101
+  backbone: pTet-nontarget-C6
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, gRNA doesn't
+    target genome sequence
+  selection_markers:
+  - GmR
+- ori: SC101
+  backbone: pTet-nontarget-C5
+  promoters: []
+  description: dCas9 under wild type Ptet promoter, gRNA under PJ23119, gRNA doesn't
+    target genome sequence
+  selection_markers:
+  - GmR
+- ori: SC101
+  backbone: pTet-dCas9-C5-P1
+  promoters: []
+  description: 'dCas9 under wild type Ptet promoter, gRNA under PJ23119, targeting
+    PJ23100 promoter '
+  selection_markers:
+  - GmR
+- ori: SC101
+  backbone: pTet-dCas9-NT1C5
+  promoters: []
+  description: dCas9 under wild type Ptet promoter, gRNA under PJ23119, targeting
+    non-template strand of RFP
+  selection_markers:
+  - GmR
+- ori: P15A
+  backbone: pTet-nontarget-C2
+  promoters: []
+  description: dCas9 and gRNA under engineered Ptet promoter, gRNA doesn't target
+    genome sequence
+  selection_markers:
+  - CmR
+- ori: SC101
+  backbone: pTet-dCas9-NT1C6
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    non-template strand of RFP
+  selection_markers:
+  - GmR
+- ori: P15A
+  backbone: pTet-nontarget-C1
+  promoters: []
+  description: dCas9 and gRNA under wild type Ptet promoter, gRNA doesn't target genome
+    sequence
+  selection_markers:
+  - CmR
+- ori: P15A
+  backbone: pTet-nontarget-C3
+  promoters: []
+  description: dCas9 under wild type Ptet promoter, gRNA under PJ23119, gRNA doesn't
+    target genome sequence
+  selection_markers:
+  - CmR
+- ori: P15A
+  backbone: pTet-dCas9-NT1C4
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    non-template strand of RFP
+  selection_markers:
+  - CmR
+- ori: P15A
+  backbone: pTet-dCas9-NT1C3
+  promoters: []
+  description: dCas9 under wild type Ptet promoter, gRNA under PJ23119, targeting
+    non-template strand of RFP
+  selection_markers:
+  - CmR
+- ori: P15A
+  backbone: pTet-dCas9-NT1C2
+  promoters: []
+  description: dCas9 and gRNA under engineered Ptet promoter, targeting non-template
+    strand of RFP
+  selection_markers:
+  - CmR
+- ori: P15A
+  backbone: pConst-dCas9-NT3
+  promoters: []
+  description: dCas9 under constitutive promoter, targeting non-template strand of
+    RFP
+  selection_markers:
+  - CmR
+- ori: P15A
+  backbone: pTet-dCas9-NT1C1
+  promoters: []
+  description: dCas9 and gRNA under wild type Ptet promoter, targeting non-template
+    strand of RFP
+  selection_markers:
+  - CmR
+- ori: P15A
+  backbone: pConst-dCas9-P2
+  promoters: []
+  description: dCas9 under constitutive promoter, targeting P3 promoter of RFP
+  selection_markers:
+  - CmR
+- ori: P15A
+  backbone: pConst-dCas9-NT1
+  promoters: []
+  description: dCas9 under constitutive promoter, targeting non-template strand of
+    RFP
+  selection_markers:
+  - CmR
+- ori: P15A
+  backbone: pConst-dCas9-NT2
+  promoters: []
+  description: dCas9 under constitutive promoter, targeting non-template strand of
+    RFP
+  selection_markers:
+  - CmR
+- ori: P15A
+  backbone: pConst-dCas9-P3
+  promoters: []
+  description: dCas9 under constitutive promoter, targeting P3 promoter of RFP
+  selection_markers:
+  - CmR
+- ori: P15A
+  backbone: pConst-nontarget
+  promoters: []
+  description: dCas9 under constitutive promoter, with an non-targeting guide RNA
+  selection_markers:
+  - CmR
+- ori: P15A
+  backbone: pConst-dCas9-T3
+  promoters: []
+  description: dCas9 under constitutive promoter, targeting template strand of RFP
+  selection_markers:
+  - CmR
+- ori: P15A
+  backbone: pConst-dCas9-T2
+  promoters: []
+  description: dCas9 under constitutive promoter, targeting template strand of RFP
+  selection_markers:
+  - CmR
+- ori: P15A
+  backbone: pConst-dCas9-P1
+  promoters: []
+  description: dCas9 under constitutive promoter, targeting P3 promoter of RFP
+  selection_markers:
+  - CmR
+- backbone: pTet-dCas9-C5-asnA-prpE
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    asnA, prpE gene
+  selection_markers:
+  - KanR
+- ori: P15A
+  backbone: pConst-dCas9-T1
+  promoters: []
+  description: dCas9 under constitutive promoter, targeting template strand of RFP
+  selection_markers:
+  - CmR
+- backbone: pTet-dCas9-C5-mqo
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    mqo gene
+  selection_markers:
+  - KanR
+- backbone: pTet-dCas9-C5-thrC
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    thrC gene
+  selection_markers:
+  - KanR
+- backbone: pTet-dCas9-C5-mdh
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    mdh gene
+  selection_markers:
+  - KanR
+- backbone: pTet-dCas9-C5-eutD
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    eutD gene
+  selection_markers:
+  - KanR
+- backbone: pTet-dCas9-C5-arcC
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    arcC gene
+  selection_markers:
+  - KanR
+- backbone: pTet-dCas9-C5-poxB-ackA-pta
+  promoters: []
+  description: dCas9 under wild type Ptet promoter, gRNA under PJ23119, targeting
+    poxB, ackA, pta genes
+  selection_markers:
+  - KanR
+- backbone: pTet-dCas9-C5-ppc
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    ppc gene
+  selection_markers:
+  - KanR
+- backbone: pTet-dCas9-C5-pta
+  promoters: []
+  description: dCas9 under wild type Ptet promoter, gRNA under PJ23119, targeting
+    pta gene
+  selection_markers:
+  - KanR
+- backbone: pTet-dCas9-C6-ackA
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    ackA gene
+  selection_markers:
+  - KanR
+- backbone: pTet-dCas9-C6-RFPNT
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    non-template strand of RFP
+  selection_markers:
+  - GmR
+- backbone: pTet-dCas9-C5-P1
+  promoters: []
+  description: 'dCas9 under wild type Ptet promoter, gRNA under PJ23119, targeting
+    PJ23100 promoter '
+  selection_markers:
+  - GmR
+- backbone: pTet-dCas9-C5-GFPNT
+  promoters: []
+  description: dCas9 under wild type Ptet promoter, gRNA under PJ23119, targeting
+    non-template strand of GFP
+  selection_markers:
+  - GmR
+- backbone: pTet-dCas9-C5-RFPNT
+  promoters: []
+  description: dCas9 under wild type Ptet promoter, gRNA under PJ23119, targeting
+    non-template strand of RFP
+  selection_markers:
+  - GmR
+- backbone: pTet-nontarget-C5
+  promoters: []
+  description: dCas9 under wild type Ptet promoter, gRNA under PJ23119, gRNA doesn't
+    target genome sequence
+  selection_markers:
+  - GmR
+- backbone: pTet-nontarget-C4
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, gRNA doesn't
+    target genome sequence
+  selection_markers:
+  - CmR
+- backbone: pTet-nontarget-C1
+  promoters: []
+  description: dCas9 and gRNA under wild type Ptet promoter, gRNA doesn't target genome
+    sequence
+  selection_markers:
+  - CmR
+- backbone: pTet-nontarget-C2
+  promoters: []
+  description: dCas9 and gRNA under engineered Ptet promoter, gRNA doesn't target
+    genome sequence
+  selection_markers:
+  - CmR
+- backbone: pTet-dCas9-C6
+  promoters: []
+  description: dCas9 under engineered Ptet promoter, gRNA under PJ23119, targeting
+    non-template strand of RFP
+  selection_markers:
+  - GmR
+- backbone: pConst-dCas9-P3
+  promoters: []
+  description: dCas9 under constitutive promoter, targeting P3 promoter of RFP
+  selection_markers:
+  - CmR
+- backbone: pTet-dCas9-C1
+  promoters: []
+  description: dCas9 and gRNA under wild type Ptet promoter, targeting non-template
+    strand of RFP
+  selection_markers:
+  - CmR
+- backbone: pTet-dCas9-C2
+  promoters: []
+  description: dCas9 and gRNA under engineered Ptet promoter, targeting non-template
+    strand of RFP
+  selection_markers:
+  - CmR
+- backbone: pConst-dCas9-NT2
+  promoters: []
+  description: dCas9 under constitutive promoter, targeting non-template strand of
+    RFP
+  selection_markers:
+  - CmR
+- backbone: pConst-dCas9-P1
+  promoters: []
+  description: dCas9 under constitutive promoter, targeting P3 promoter of RFP
+  selection_markers:
+  - CmR
+- backbone: pConst-nontarget
+  promoters: []
+  description: dCas9 under constitutive promoter, with an non-targeting guide RNA
+  selection_markers:
+  - CmR
+- backbone: pConst-dCas9-T2
+  promoters: []
+  description: dCas9 under constitutive promoter, targeting template strand of RFP
+  selection_markers:
+  - CmR
+- backbone: pConst-dCas9-P2
+  promoters: []
+  description: dCas9 under constitutive promoter, targeting P3 promoter of RFP
+  selection_markers:
+  - CmR
+- backbone: pConst-dCas9-T1
+  promoters: []
+  description: dCas9 under constitutive promoter, targeting template strand of RFP
+  selection_markers:
+  - CmR
+bibliographicCitation: https://public-registry.jbei.org/folders/410
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00410
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

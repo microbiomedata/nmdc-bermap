@@ -1,0 +1,36 @@
+brc: GLBRC
+date: '2024-07-31'
+title: Streamlined tool for analysis of multiplex, randomized CRISPR interference
+  sequencing data
+creator:
+- name: Timothy J. Donohue
+  email: tdonohue@bact.wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: true
+- name: Kevin S. Myers
+  email: kmyers2@wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: NA
+keywords:
+- Docker
+- CRISPRi
+identifier: auto_murcis
+repository: GitHub
+description: Multiplex, randomized CRISPR interference sequencing (MuRCiS) allows
+  for the simultaneous identification of multiple gene knockouts that together influence
+  microbial processes. Here, we report on an updated analysis tool called Auto-MuRCiS
+  that utilizes Docker to make the analysis of these data rapid and more user-friendly.
+relatedItem:
+- title: 'Auto-MuRCiS: a streamlined software package for analysis of multiplex, randomized
+    CRISPR interference sequencing data'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://journals.asm.org/doi/10.1128/mra.00356-24
+analysisType: Code
+bibliographicCitation: https://github.com/GLBRC/auto_murcis
+schema_version: 0.1.7
+uid: GLBRC_auto_murcis
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.197Z'

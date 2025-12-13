@@ -1,0 +1,25 @@
+brc: CABBI
+date: '2022-03-01'
+title: AmeriFlux US-UiB University of Illinois Miscanthus, Dataset (2008-2024)
+creator:
+- name: Bernacchi, Carl J.
+  email: bernacch@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 183674
+  scientificName: Miscanthus x giganteus
+keywords:
+- miscanthus
+- carbon flux
+identifier: US-UiB
+repository: AmeriFlux
+description: Diammonium phosphate, potash &amp; lime fertilizer applied before planting
+  in 2008. Prowl &amp; 2,4-D herbicide used. 2,4-D &amp; accent herbicide applied
+  in 2009. No fertilizer applied. Bicep herbicide applied in 2010 &amp; 2011. 56 kg/ha
+  nitrogen applied in 2014, 2015 &amp; 2016. 45 kg/ha nitrogen applied in 2017.
+bibliographicCitation: https://doi.org/10.17190/AMF/1846664
+schema_version: 0.1.1
+uid: CABBI_US-UiB
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.626Z'

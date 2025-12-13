@@ -1,0 +1,35 @@
+brc: CABBI
+date: '2024-06-11'
+title: Photoenzymatic Asymmetric Incorporation of Fluorinated Motifs into Olefins
+creator:
+- name: Zhao, Huimin
+  email: zhao5@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+keywords:
+- asymmetry
+- biocatalysis
+- photochemistry
+identifier: 10.5061/dryad.r2280gbm6
+repository: Dryad
+description: Enzymes capable of assimilating fluorinated feedstocks are scarce, which
+  poses a challenge for the biosynthesis of fluorinated compounds used in pharmaceuticals,
+  agrochemicals, and materials. We develop a photoenzymatic hydrofluoroalkylation
+  that adeptly integrates fluorinated motifs into olefins. The photoinduced promiscuity
+  of flavin-dependent ene-reductases enables generation of carbon-centered radicals
+  from iodinated fluoroalkanes, which are directed by the photoenzyme to engage enantioselectively
+  with olefins. This approach facilitates stereocontrol through interaction between
+  a singular fluorinated unit and the enzyme, securing high enantioselectivity at
+  β-, γ-, or δ-positions of fluorinated groups via enzymatic hydrogen atom transfer,
+  a process notably challenging with conventional chemocatalysis. This work advances
+  enzymatic strategies for integrating fluorinated chemical feedstocks and opens new
+  avenues for asymmetric synthesis of fluorinated compounds.
+relatedItem:
+- title: Asymmetric Photoenzymatic Incorporation of Fluorinated Motifs into Olefins
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://dx.doi.org/10.1126/science.adk8464
+bibliographicCitation: https://doi.org/10.5061/dryad.r2280gbm6
+schema_version: 0.1.1
+uid: CABBI_10.5061/dryad.r2280gbm6
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

@@ -1,0 +1,194 @@
+id: jbei:150
+brc: JBEI
+date: '2015-02-27'
+title: Kirby et al., 2015
+creator:
+- name: James Kirby
+  email: jkirby@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: filemakerimport
+  email: filemakerimport
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- synthetic amorphadiene synthase
+- nDXP project
+identifier: jbei:folder:00150
+repository: ICE
+datasetName: Kirby et al., 2015
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/150
+description: This collection of 23 plasmids was developed for the metabolic engineering
+  of isoprenoid production in *E. coli*. The constructs focus on optimizing the native
+  MEP pathway through protein fusions and mutant enzymes, including a novel DXP-producing
+  RibB variant. The dataset also contains plasmids for expressing the heterologous
+  mevalonate (MVA) pathway and the final product enzyme, amorphadiene synthase, to
+  enable terpenoid synthesis.
+relatedItem:
+- title: 'Enhancing Terpene yield from sugars via novel routes to 1-deoxy-d-xylulose
+    5-phosphate. Kirby J, Nishimoto M, Chow RW, Baidoo EE, Wang G, Martin J, Schackwitz
+    W, Chan R, Fortman JL, Keasling JD. Appl Environ Microbiol. 2015 Jan;81(1):130-8.
+    PMID: 25326299'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: http://www.ncbi.nlm.nih.gov/pubmed/12778056?dopt=Abstract
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: http://www.ncbi.nlm.nih.gov/pubmed/12778056?dopt=Abstract
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: affinity_purification
+contributors:
+- name: Doug Pitera
+  email: dkalman@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pTrc99a-ispC-G2-ribB
+  promoters: []
+  description: Fusion of ispC to ribB using G2 linker (see ref)
+  selection_markers:
+  - Amp
+- backbone: pTrc99a-ispC-G2-yajO
+  promoters: []
+  description: Fusion of ispC to yajO using G2  linker (see ref)
+  selection_markers:
+  - Amp
+- backbone: pTrc99a-ribB-GP-ispC
+  promoters: []
+  description: Fusion of ribB to ispC using GP linker (see ref)
+  selection_markers:
+  - Amp
+- backbone: pTrc99a-yajO-PT-ispC
+  promoters: []
+  description: Fusion of yajO to ispC using PT linker (see ref)
+  selection_markers:
+  - Amp
+- backbone: pTrc99a-ribB-G2-ispC
+  promoters: []
+  description: Fusion of ribB to ispC using G2 linker (see ref)
+  selection_markers:
+  - Amp
+- backbone: pTrc99a-yajO-GP-ispC
+  promoters: []
+  description: Fusion of yajO to ispC using GP linker (see ref)
+  selection_markers:
+  - Amp
+- backbone: pBbA1k-AgBIS-ispA-ispDF-idi
+  promoters: []
+  description: AgBIS, ispA, ispD, ispF, and idi on pBbA1k
+  selection_markers:
+  - Kan
+- backbone: pBbA1k-AgBIS-ispDF-idi
+  promoters: []
+  description: AgBIS, ispD, ispF, and idi on pBbA1k
+  selection_markers:
+  - Kan
+- backbone: pBbA1k-AgBIS-ispA
+  promoters: []
+  description: AgBIS and ispA on pBbA1k
+  selection_markers:
+  - Kan
+- backbone: pTrc99A-ribB(wt)-StrepII
+  promoters: []
+  description: E. coli wt ribB gene with C-terminal StrepII tag, cloned into pTrc99A
+  selection_markers:
+  - Amp
+- backbone: pTrc99A-yajOIII-StrepII
+  promoters: []
+  description: E. coli yajO gene, with C-terminal StrepII tag, cloned into pTrc99A
+  selection_markers:
+  - Amp
+- backbone: pTrc99A-ribB(G108S)-StrepII
+  promoters: []
+  description: E. coli ribB mutant that makes DXP from Ru5P, with C-terminal StrepII
+    tag, cloned into pTrc99A
+  selection_markers:
+  - Amp
+- backbone: pTrc99a-ribB(T106I)
+  promoters: []
+  description: E. coli ribB mutant that makes DXP from Ru5P, cloned into pTrc99A
+  selection_markers:
+  - Amp
+- backbone: pTrc99a-ribB(S89R)
+  promoters: []
+  description: E. coli ribB mutant that makes DXP from Ru5P, cloned into pTrc99A
+  selection_markers:
+  - Amp
+- backbone: pTrc99a-ribB(T88I)
+  promoters: []
+  description: E. coli ribB mutant that makes DXP from Ru5P, cloned into pTrc99A
+  selection_markers:
+  - Amp
+- backbone: pTrc99a-ribB (wt)
+  promoters: []
+  description: Original wt ribB gene from E. coli
+  selection_markers:
+  - Amp
+- backbone: pTrc99A-yajOIII
+  promoters: []
+  description: original yajO as annotated in MG1655, starting MQYN, cloned into pTrc99A
+  selection_markers:
+  - Amp
+- ori: pBBR1MCS
+  backbone: pMBI
+  promoters:
+  - Lac
+  description: "Mevalonate kinase, phosphomevalonate kinase, mevalonate pyrophosphate\
+    \ decarboxylatse, IPP isomerase\r\nComments: Doesn't contain lacI/ ERG1, ERG8,\
+    \ MVD1: S. cerevisiae/ idi: E. Coli"
+  selection_markers:
+  - Tetracycline
+- backbone: pTrc99a-ribB(G108S)
+  promoters: []
+  description: E. coli ribB mutant that makes DXP from Ru5P, cloned into pTrc99A
+  selection_markers:
+  - Amp
+- ori: pBBR1MCS
+  backbone: pMBI
+  promoters:
+  - Lac
+  description: "Mevalonate kinase, phosphomevalonate kinase, mevalonate pyrophosphate\
+    \ decarboxylatse, IPP isomerase\r\nComments: Doesn't contain lacI/ ERG1, ERG8,\
+    \ MVD1: S. cerevisiae/ idi: E. Coli"
+  selection_markers:
+  - Tetracycline
+- backbone: pTrc99a-ribB(G92D)
+  promoters: []
+  description: E. coli ribB mutant that makes DXP from Ru5P, cloned into pTrc99A
+  selection_markers:
+  - Amp
+- ori: ColE1
+  backbone: pADS
+  promoters:
+  - Trc
+  description: pADS contains the codon-optimized amorphadiene synthase gene from Artemisia
+    annua
+  selection_markers:
+  - Ampicillin
+- ori: pBBR1MCS
+  backbone: pMBI
+  promoters:
+  - Lac
+  description: "Mevalonate kinase, phosphomevalonate kinase, mevalonate pyrophosphate\
+    \ decarboxylatse, IPP isomerase\r\nComments: Doesn't contain lacI/ ERG1, ERG8,\
+    \ MVD1: S. cerevisiae/ idi: E. Coli"
+  selection_markers:
+  - Tetracycline
+bibliographicCitation: https://public-registry.jbei.org/folders/150
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00150
+created_at: '2025-11-18T20:03:56.767Z'
+updated_at: '2025-12-11T00:00:04.619Z'

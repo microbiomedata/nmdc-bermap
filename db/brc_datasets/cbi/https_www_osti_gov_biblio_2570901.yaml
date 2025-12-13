@@ -1,0 +1,58 @@
+brc: CBI
+date: '2025-07-02'
+title: Fungal elemental profiling unleashed through rapid laser-induced breakdown
+  spectroscopy (LIBS)
+active: true
+creator:
+- name: Tomás A. Rush
+  email: rushta@ornl.gov
+  primaryContact: true
+- name: Ann M. Wymore
+  primaryContact: false
+- name: Miguel Rodríguez, Rodríguez,
+  primaryContact: false
+- name: Sara Jawdy
+  primaryContact: false
+- name: Rytas J. Vilgalys
+  primaryContact: false
+- name: Madhavi Z. Martin
+  primaryContact: false
+- name: Hunter B. Andrews
+  primaryContact: false
+funding:
+- awardNumber: AC05-00OR22725
+  fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER)
+keywords:
+- fungal behavior
+- elemental profiling
+- ionomics
+- endophytes
+- poplar
+- LIBS
+- PMI
+identifier: https://www.osti.gov/biblio/2570901
+dataset_url: https://labkey.ornl.gov/labkey/PMI/Rush/public_data/Fungal%20elemental%20profiling%20unleashed%20through%20rapid%20laser-induced%20breakdown%20spectroscopy%20%28LIBS%29/project-begin.view?
+description: Elemental profiling of fungal species as a phenotyping tool is an understudied
+  topic and is typically performed to examine plant tissue or non-biological materials.
+  Traditional analytical techniques such as inductively coupled plasma–optical emission
+  spectroscopy (ICP-OES) and inductively coupled plasma–mass spectrometry (ICP-MS)
+  have been used to identify elemental profiles of fungi; however, these techniques
+  can be cumbersome due to the difficulty of preparing samples. Additionally, the
+  instruments used for these techniques can be expensive to procure and operate. Laser-induced
+  breakdown spectroscopy (LIBS) is an alternative elemental analytical technique—one
+  that is sensitive across the periodic table, easy to use on various sample types,
+  and is cost-effective in both procurement and operation. LIBS has not been used
+  on axenic filamentous fungal isolates grown in substrate media. In this work, as
+  a proof of concept, we used LIBS on two genetically distinct fungal species grown
+  on a nutrient-rich and nutrient-poor substrate media to determine whether robust
+  elemental profiles can be detected and whether differences between the fungal isolates
+  can be identified. This data set contains the raw LIBS spectral data for the summarized
+  results described inRush, et. al. 2024
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/PMI/2570901
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2570901
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.197Z'

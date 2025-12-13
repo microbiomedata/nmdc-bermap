@@ -1,0 +1,109 @@
+id: jbei:295
+brc: JBEI
+date: '2017-03-08'
+title: Marcos et al. 2017
+creator:
+- name: Jose Henrique Pereira
+  email: jhpereira@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 5062
+  scientificName: Aspergillus oryzae
+- NCBITaxID: 1934374
+  scientificName: Collariella virescens
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 104355
+  scientificName: Gloeophyllum trabeum
+- NCBITaxID: 5353
+  scientificName: Lentinula edodes
+- NCBITaxID: 78579
+  scientificName: Myceliophthora thermophila
+- NCBITaxID: 5141
+  scientificName: Neurospora crassa
+- NCBITaxID: 2587412
+  scientificName: Podospora anserina
+- scientificName: Talaromyces funiculosus
+- NCBITaxID: 5087
+  scientificName: Thermoascus aurantiacus
+keywords: []
+identifier: jbei:folder:00295
+repository: ICE
+datasetName: Marcos et al. 2017
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/295
+description: This dataset provides nine plasmids containing gene sequences for structurally
+  characterized fungal Lytic Polysaccharide Monooxygenases (LPMOs) from the AA9 family.
+  These copper-dependent enzymes are critical for the oxidative degradation of cellulose,
+  a key process in biomass conversion. The collection serves as a genetic resource
+  for expressing and studying enzymes relevant to biofuel production.
+relatedItem:
+- title: Marcos et al., Science 355, 201-206
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: PBD ID 5TS4
+  promoters:
+  - T7 lac promoter
+  description: Gene sequence related to the PDB entry 5TS4.
+  selection_markers:
+  - Kanamycin
+- backbone: PBD ID 5L33
+  promoters:
+  - T7 lac promoter
+  description: Gene sequence related to the PDB entry 5L33
+  selection_markers:
+  - Kanamycin
+- backbone: PBD ID 4R80
+  promoters:
+  - T7 lac promoter
+  description: Gene sequence related to the PDB entry 4R80.
+  selection_markers:
+  - Carbenicillin
+- backbone: PBD ID 5TPH
+  promoters:
+  - T7 lac promoter
+  description: Gene sequence related to the PDB entry 5TPH
+  selection_markers:
+  - Kanamycin
+- backbone: PBD ID 5KPE
+  promoters:
+  - T7 lac promoter
+  description: Gene sequence related to the PDB entry 5KPE
+  selection_markers:
+  - Carbenicillin
+- backbone: PBD ID 5KPH
+  promoters:
+  - T7 lac promoter
+  description: Gene sequence related to the PDB entry 5KPH.
+  selection_markers:
+  - Carbenicillin
+- backbone: PBD ID 5U35
+  promoters:
+  - T7 lac promoter
+  description: Gene sequence related to the PDB entry 5U35
+  selection_markers:
+  - Kanamycin
+- backbone: PBD ID 5TRV
+  promoters:
+  - T7 lac promoter
+  description: Gene sequence related to the PDB entry 5TRV
+  selection_markers:
+  - Kanamycin
+- backbone: PBD ID 5TPJ
+  promoters:
+  - T7 lac promoter
+  description: Gene sequence related to the PDB entry 5TPJ
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/295
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00295
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

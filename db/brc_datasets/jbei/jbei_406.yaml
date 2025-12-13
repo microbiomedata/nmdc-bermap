@@ -1,0 +1,99 @@
+id: jbei:406
+brc: JBEI
+date: '2018-10-03'
+title: Curran_et_al_2018
+creator:
+- name: Andrew Hagen
+  email: arhagen@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Samuel Curran
+  email: scurran@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Jacquelyn Blake-Hedges
+  email: jblakehedges@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 1423
+  scientificName: Bacillus subtilis
+- NCBITaxID: 146923
+  scientificName: Streptomyces parvulus
+- NCBITaxID: 56
+  scientificName: Sorangium cellulosum
+keywords:
+- BorM5 epothilone EpoAT AT Swap
+identifier: jbei:folder:00406
+repository: ICE
+datasetName: Curran_et_al_2018
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/406
+description: This dataset provides plasmids for expressing and engineering components
+  of the Borrelidin polyketide synthase (PKS) in *E. coli*. The collection features
+  codon-optimized PKS modules (BorA4, BorA5) and a chimeric module created by swapping
+  an acyltransferase (AT) domain from the Epothilone pathway. Essential accessory
+  plasmids for PKS activation (Sfp phosphopantetheinyl transferase) and protein purification
+  (TEV protease) are also included, supporting the study of PKS function and biosynthetic
+  engineering.
+relatedItem:
+- title: https://www.addgene.org/8827/
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 1. Olano, C. et al. Biosynthesis of the Angiogenesis Inhibitor Borrelidin
+    by Streptomyces parvulus Tü4055. Chemistry &amp; Biology 11, 87–97 (2004).
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: affinity_purification
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pBR322
+  backbone: pARH167
+  promoters:
+  - T7
+  description: E. coli codon optimized BorA4ACP cloned into pET28a
+  selection_markers:
+  - Kan
+- backbone: pRK793 (MBP-6xHis-TEV protease)
+  promoters: []
+  description: "All information is included here:\nhttps://www.addgene.org/8827/\n\
+    or \nhttp://qb3.berkeley.edu/qb3/macrolab/b6_tevprotease.cfm for details on the\
+    \ protein"
+  selection_markers: []
+- backbone: pET-Sfp
+  promoters:
+  - T7
+  description: 'Sfp phosphopantetheinyl transferase from Bacillus subtilis driven
+    by a T7 promoter, histidine-tagged, for expression in E. coli.  Same codons as
+    genomic DNA.
+
+
+    Sequence below is the from the T7 promoter through the coding region only--look
+    at it in linear view'
+  selection_markers: []
+- ori: pSC101*
+  backbone: pARH130
+  promoters:
+  - pTet
+  description: The codon-optimized ORF of Borrelidin module 5 (BorA5) from Streptomyces
+    parvulus
+  selection_markers: []
+- ori: SC101**
+  backbone: pSC005 (pBbS2k-6xHis-MBP-6xHis-MBP-BorM5-EpoAT D1 boundary)
+  promoters:
+  - tetracycline
+  description: BorM5 codon optimized for E. coli with AT swap for Epothilone module
+    4 AT.
+  selection_markers: []
+bibliographicCitation: https://public-registry.jbei.org/folders/406
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00406
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

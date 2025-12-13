@@ -1,0 +1,179 @@
+id: jbei:825
+brc: JBEI
+date: '2023-07-24'
+title: Luckie et al, 2023
+creator:
+- name: Bridget Luckie
+  email: bluckie@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 1718
+  scientificName: Corynebacterium glutamicum
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 46611
+  scientificName: Abies grandis
+- NCBITaxID: 1901
+  scientificName: Streptomyces clavuligerus
+- NCBITaxID: 89184
+  scientificName: Silicibacter pomeroyi
+- NCBITaxID: 39350
+  scientificName: Ocimum basilicum
+keywords:
+- Citronellol/geraniol production
+identifier: jbei:folder:00825
+repository: ICE
+datasetName: Luckie et al, 2023
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/825
+description: This dataset provides 21 plasmids for the metabolic engineering of *Corynebacterium
+  glutamicum*. The collection includes pk18mobsacB-based suicide vectors for targeted
+  deletion of native genes, such as reductases and alcohol dehydrogenases, to create
+  an optimized host. It also contains a series of expression plasmids that harbor
+  heterologous mevalonate pathways and various terpene synthases for the production
+  of monoterpenoids like geraniol, isoprenol, and linalool.
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: ColE1
+  backbone: pBAL220
+  promoters: []
+  description: pBAL220 pk18mobsacB-ΔadhC
+  selection_markers: []
+- ori: ColE1
+  backbone: pBAL241
+  promoters: []
+  description: pBAL241 pk18mobsacB-Δ2844
+  selection_markers: []
+- ori: ColE1
+  backbone: pBAL221
+  promoters: []
+  description: pBAL221 pk18mobsacB-ΔadhA
+  selection_markers: []
+- ori: ColE1
+  backbone: pBAL28
+  promoters: []
+  description: NHRI 1.1.2 cgI_3092 reductase deletion
+  selection_markers: []
+- ori: ColE1
+  backbone: pBAL99
+  promoters: []
+  description: pBAL99 pk18mobsacB-ΔidsA
+  selection_markers: []
+- ori: ColE1
+  backbone: pBAL98
+  promoters: []
+  description: pBAL98 pk18mobsacB-ΔcrtE
+  selection_markers:
+  - KanR
+- ori: ColE1
+  backbone: pBAL26
+  promoters: []
+  description: NHRI 1.1.2 cgI_2854 reductase deletion
+  selection_markers: []
+- ori: ColE1
+  backbone: pBAL27
+  promoters: []
+  description: NHRI 1.1.2 cgI_3088 reductase deletion
+  selection_markers: []
+- ori: ColE1
+  backbone: pBAL24
+  promoters: []
+  description: NHRI 1.1.2 cgI_2308 reductase deletion
+  selection_markers:
+  - KanR SacB
+- ori: ColE1
+  backbone: pBAL23
+  promoters: []
+  description: NHRI 1.1.2 cgI_1733 reductase deletion
+  selection_markers: []
+- ori: ColE1
+  backbone: pBAL25
+  promoters: []
+  description: NHRI 1.1.2 cgI_2399 reductase deletion
+  selection_markers: []
+- ori: ColE1
+  backbone: pBAL16
+  promoters: []
+  description: pBAL16 pk18-Δ225
+  selection_markers: []
+- ori: ColE1 pGA1
+  backbone: pBAL118
+  promoters:
+  - Trc lacUV5 H36
+  description: Geraniol production pathway from pECXT202 (TetR derivative of pTE202)
+    containing PMK, IDI, AgGPPS ( GPP synthase from Abies grandis), and ObGEScP -
+    equivalent to pBAL44 but Tet resitant and pGA1 is flipped (derived from pECXT).
+  selection_markers: []
+- ori: ColE1 pGA1
+  backbone: pBAL121
+  promoters:
+  - Trc lacUV5 p11
+  description: Geraniol production pathway from pTE202/pBAL44 containing PMK, IDI,
+    ERG20WW, and ObGEScP - equivalent to pBAL44; p11 promoter comes from Rytter et
+    al and other publications refer to it as pSyn
+  selection_markers:
+  - KanR
+- ori: pGA1/RepA colE1
+  backbone: pBAL231
+  promoters:
+  - LacUV5 Trc H36
+  description: Mevalonate pathway containing GPP synthase from Abies grandis and linalool
+    synthase from S. clavuligeris
+  selection_markers: []
+- ori: pGA1/RepA colE1
+  backbone: pBAL230
+  promoters:
+  - LacUV5 Trc H36
+  description: Mevalonate pathway containing GPP synthase from Abies grandis and cineole
+    synthase from S. clavuligeris
+  selection_markers: []
+- ori: ColE1 pGA1
+  backbone: pECXT202
+  promoters:
+  - Trc LacUV5
+  description: pTE202 with TetR swapped from pECXT-pSyn which has pGA1 in opposite
+    orientation; makes 1.5 g/L isoprenol in poxBdel ldhAdel strain of C. glutamicum
+    JBEI 1.1.2
+  selection_markers:
+  - TetR
+- ori: pGA1/RepA colE1
+  backbone: pBAL218
+  promoters: []
+  description: Plasmid expressing mevalonate pathway containing Silicibacter pomeroyi
+    NADH-dependent HMGR, GPP synthase and truncated GES from Ocimum basilicum, produces
+    highest titers of geraniol/citronellol
+  selection_markers: []
+- ori: pGA1/RepA colE1
+  backbone: pBAL114
+  promoters:
+  - LacUV5 pTrc H36
+  description: Plasmid expressing mevalonate pathway containing Silicibacter pomeroyi
+    NADH-dependent HMGR, GPP synthase ERG20WW containing F96W-N127W, and truncated
+    GES from Ocimum basilicum
+  selection_markers: []
+- ori: ColE1 pGA1
+  backbone: pBAL114
+  promoters:
+  - Trc lacUV5 H36
+  description: Geraniol production pathway from pECXT202 (TetR derivative of pTE202)
+    containing PMK, IDI, ERG20WW, and ObGEScP - equivalent to pBAL44 but Tet resitant
+    and pGA1 is flipped (derived from pECXT).
+  selection_markers: []
+- ori: ColE1 pGA1
+  backbone: pBAL44
+  promoters:
+  - Trc lacUV5 H36
+  description: Geraniol production pathway from pTE202/pBAL5 containing PMK, IDI,
+    ERG20WW, and ObGEScP
+  selection_markers: []
+bibliographicCitation: https://public-registry.jbei.org/folders/825
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00825
+created_at: '2025-11-18T20:03:56.772Z'
+updated_at: '2025-12-11T00:00:04.623Z'

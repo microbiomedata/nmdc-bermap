@@ -1,0 +1,41 @@
+brc: GLBRC
+date: '2024-02-14'
+title: MassIVE MSV000094089
+creator:
+- name: Aymerick Eudes
+  email: ageudes@lbl.gov
+  affiliation: JBEI
+  primaryContact: true
+- name: Shawn D. Mansfield
+  email: shawn.mansfield@ubc.ca
+  affiliation: GLBRC - University of British Columbia
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Hybrid poplar (<i>Populus alba × grandidentata</i>
+- NCBITaxID: null
+  scientificName: P39) 
+keywords:
+- Aromatics
+- RNA-seq
+- bioenergy
+- cell wall
+- lignin
+- metabolomics
+- poplar
+- systems biology
+identifier: MSV000094089
+repository: MassIVE
+description: GNPS - Determination of metabolic changes occurring in engineered low-lignin
+  poplar
+relatedItem:
+- title: Expression in poplar of dehydroshikimate dehydratase induces transcriptional
+    and metabolic changes in the phenylpropanoid pathway
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://academic.oup.com/jxb/article/75/16/4960/7684934
+analysisType: Metabolomics
+bibliographicCitation: https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=a31f2ec180514a4baf0039954cb890cb
+schema_version: 0.1.7
+uid: GLBRC_MSV000094089
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.197Z'

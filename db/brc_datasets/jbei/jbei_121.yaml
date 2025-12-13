@@ -1,0 +1,130 @@
+id: jbei:121
+brc: JBEI
+date: '2014-09-11'
+title: Goh et al. 2014
+creator:
+- name: Ee-Been Goh
+  email: egoh@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 1718
+  scientificName: Corynebacterium glutamicum
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- C. glutamicum acetyl-CoA carboxylase
+- FadR
+- fadM
+- dtsR1
+- araC-fadR
+- fadR
+- pTrc-fadM
+- single plasmid
+- codon-optimized fadD
+- pBad-fadR
+- FadM
+- codon-optimized aco
+- methyl ketones
+- accBC
+- malonyl-CoA
+identifier: jbei:folder:00121
+repository: ICE
+datasetName: Goh et al. 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/121
+description: This dataset provides 10 plasmids for the metabolic engineering of methyl
+  ketone production. The constructs establish the core methyl ketone pathway, including
+  a codon-optimized acyl-CoA oxidase (aco), and enhance the precursor malonyl-CoA
+  supply via acetyl-CoA carboxylase overexpression. The collection also features plasmids
+  designed to engineer fatty acid metabolism by manipulating key regulators (FadR)
+  and enzymes (FadD, FadM) to improve substrate flux.
+relatedItem:
+- title: 'Goh EB, Baidoo EE, Burd H, Lee TS, Keasling JD, Beller HR. Substantial improvements
+    in methyl ketone production in E. coli and insights on the pathway from in vitro
+    studies. Metab Eng. 2014 Sep 18;26C:67-76. doi: 10.1016/j.ymben.2014.09.003. [Epub
+    ahead of print] PubMed PMID: 25241399.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: oriV
+  backbone: pEG1200
+  promoters:
+  - pTrc
+  description: Cloning of the C. glutamicum acetyl-CoA carboxylase enzymes (AccBC,
+    DtsR1) in pEG855 to increase intracellular concentration of malonyl-Co.
+  selection_markers:
+  - Kanamycin (50)
+- backbone: pEG1545
+  promoters: []
+  description: Ptrc-accBC-Ptrc-dtsR1 fragment from pEG1200 cloned downstream of fadM
+    in pEG1315
+  selection_markers: []
+- ori: ColE1
+  backbone: pEG1610
+  promoters:
+  - pBad
+  - pTrc
+  - lacUV5
+  description: Methyl ketone pathway on single plasmid.
+  selection_markers:
+  - Kanamycin (50)
+- ori: p15A
+  backbone: pEG1615
+  promoters:
+  - lacUV5
+  description: 'Replaced aco gene in the parent plasmid with the codon-optimized version. '
+  selection_markers:
+  - Chloramphenicol (25)
+- backbone: pEG1125
+  promoters: []
+  description: fadM gene cloned in-frame and downstream of 6xHis-tag
+  selection_markers:
+  - Kanamycin (50)
+- ori: oriV
+  backbone: pEG1210
+  promoters:
+  - pTrc
+  - pBAD
+  description: Cloning of the araC-fadR fragment from pBbe8a-fadR into pEG855.
+  selection_markers:
+  - Kanamycin (50)
+- backbone: pEG1170
+  promoters: []
+  description: Cloning of fadR downstream of fadM in pEG855
+  selection_markers: []
+- backbone: pEG1165
+  promoters: []
+  description: pTrc-fadR cloned downstream of fadM in pEG855
+  selection_markers: []
+- ori: colE1
+  backbone: pEG1675
+  promoters:
+  - pBad
+  - pTrc
+  - lacUV5
+  description: Methyl ketone pathway on a single plasmid with codon-optimized aco
+    gene.
+  selection_markers:
+  - Kanamycin (50)
+- ori: oriV
+  backbone: pEG1315
+  promoters:
+  - pTrc
+  - pBAD
+  description: 'Cloning the codon-optimized fadD downstream of fadR, which is under
+    the pBad promoter.
+
+    Codon-optimized fadD gene was provided by FuZhong Zhang.'
+  selection_markers:
+  - Kanamycin (50)
+bibliographicCitation: https://public-registry.jbei.org/folders/121
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00121
+created_at: '2025-11-18T20:03:56.767Z'
+updated_at: '2025-12-11T00:00:04.619Z'

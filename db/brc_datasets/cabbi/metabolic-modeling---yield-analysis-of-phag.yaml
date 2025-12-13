@@ -1,0 +1,39 @@
+brc: CABBI
+date: '2022-02-24'
+title: Metabolic Engineering Strategies to Produce Medium-Chain Oleochemicals via
+  Acyl-ACP:CoA Transacylase Activity
+creator:
+- name: Pfleger, Brian F.
+  email: pfleger@wisc.edu
+  affiliation: University of Wisconsin Madison
+  primaryContact: true
+keywords:
+- Metabolic modeling
+- Yield analysis
+- Python
+identifier: Metabolic-Modeling---Yield-Analysis-of-PhaG
+repository: GitHub
+description: Microbial lipid metabolism is an attractive route for producing oleochemicals.
+  The predominant strategy centers on heterologous thioesterases to synthesize desired
+  chain-length fatty acids. To convert acids to oleochemicals (e.g., fatty alcohols,
+  ketones), the narrowed fatty acid pool needs to be reactivated as coenzyme A thioesters
+  at cost of one ATP per reactivation – an expense that could be saved if the acyl-chain
+  was directly transferred from ACP- to CoA-thioester. Here, we demonstrate such an
+  alternative acyl-transferase strategy by heterologous expression of PhaG, an enzyme
+  first identified in Pseudomonads, that transfers 3-hydroxy acyl-chains between acyl-carrier
+  protein and coenzyme A thioester forms for creating polyhydroxyalkanoate monomers.
+  We use it to create a pool of acyl-CoA’s that can be redirected to oleochemical
+  products. Through bioprospecting, mutagenesis, and metabolic engineering, we develop
+  three strains of Escherichia coli capable of producing over 1 g/L of medium-chain
+  free fatty acids, fatty alcohols, and methyl ketones.
+relatedItem:
+- title: Metabolic Engineering Strategies to Produce Medium-Chain Oleochemicals via
+    Acyl-ACP:CoA Transacylase Activity
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: http://doi.org/10.1038/s41467-022-29218-3
+analysisType: Code
+bibliographicCitation: https://github.com/Pfleger-Lab/Metabolic-Modeling---Yield-Analysis-of-PhaG
+schema_version: 0.1.1
+uid: CABBI_Metabolic-Modeling---Yield-Analysis-of-PhaG
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-10T06:00:05.195Z'

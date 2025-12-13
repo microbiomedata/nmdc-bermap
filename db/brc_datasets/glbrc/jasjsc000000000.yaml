@@ -1,0 +1,56 @@
+brc: GLBRC
+date: '2023-05-10'
+title: Saccharomycopsis sp. KB-2023a isolate UFMG-CM-Y6991, whole genome shotgun sequencing
+  project
+creator:
+- name: Marc-Andre LaChance
+  email: lachance@uwo.ca
+  affiliation: Institute of Exact Sciences and Technology (ICET), Federal University
+    of Amazonas (UFAM), Itacoatiara, Amazonas, Brazil.
+  primaryContact: true
+- name: Carlos A. Rosa
+  email: carlrosa@icb.ufmg.br
+  affiliation: Universidade Federal de Minas Gerais, Belo Horizonte, MG, 31270-901,
+    Brazil
+  primaryContact: false
+species:
+- NCBITaxID: 3044176
+  scientificName: Saccharomycopsis praedatoria sp. nov.
+keywords:
+- Amazonian Forest
+- predacious yeast
+- Saccharomycopsis praedatoria sp. nov.
+- soil.
+identifier: JASJSC000000000
+repository: GenBank
+description: Three yeast isolates were obtained from soil and rotting wood samples
+  collected in an Amazonian rainforest biome in Brazil. Comparison of the intergenic
+  spacer 5.8S region and the D1/D2 domains of the large subunit rRNA gene showed that
+  the isolates represent a novel species of the genus Saccharomycopsis. A tree inferred
+  from the D1/D2 sequences placed the novel species near a subclade containing Saccharomycopsis
+  lassenensis, Saccharomycopsis fermentans, Saccharomycopsis javanensis, Saccharomycopsis
+  babjevae, Saccharomycopsis schoenii and Saccharomycopsis oosterbeekiorum, but with
+  low bootstrap support. In terms of sequence divergence, the novel species had the
+  highest identity in the D1/D2 domains with Saccharomycopsis capsularis, from which
+  it differed by 36 substitutions. In contrast, a phylogenomic analysis based on 1061
+  single-copy orthologs for a smaller set of Saccharomycopsis species whose whole
+  genome sequences are available indicated that the novel species represented by strain
+  UFMG-CM-Y6991 is phylogenetically closer to Saccharomycopsis fodiens and Saccharomycopsis
+  sp. TF2021a (=Saccharomycopsis phalluae). The novel yeast is homothallic and produces
+  asci with one spheroidal ascospore with an equatorial or subequatorial ledge. The
+  name Saccharomycopsis praedatoria sp. nov. is proposed to accommodate the novel
+  species. The holotype of Saccharomycopsis praedatoria is CBS 16589(T). The MycoBank
+  number is MB849369. S. praedatoria was able to kill cells of Saccharomyces cerevisiae
+  by means of penetration with infection pegs, a trait common to most species of Saccharomycopsis.
+relatedItem:
+- title: A.R.O. Santos et al. "Saccharomycopsis praedatoria sp. nov., a predacious
+    yeast isolated from soil and rotten wood in an Amazonian rainforest biome" International
+    Journal of Systematic and Evolutionary Microbiology. 73:006125 (2023) [DOI:10.1099/ijsem.0.006125]
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/ijsem.0.006125#tab2
+analysisType: Genomics
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/nuccore/JASJSC000000000
+schema_version: 0.1.7
+uid: GLBRC_JASJSC000000000
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.197Z'

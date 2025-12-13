@@ -1,0 +1,34 @@
+id: jbei:185
+brc: JBEI
+date: '2015-05-21'
+title: Baker et al. 2015
+creator:
+- name: Scott Baker
+  email: scottebaker@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species: []
+keywords: []
+identifier: jbei:folder:00185
+repository: ICE
+datasetName: Baker et al. 2015
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/185
+description: null
+relatedItem:
+- title: 'Baker SE, Schackwitz W, Lipzen A, Martin J, Haridas S, LaButti K, Grigoriev
+    IV, Simmons BA, McCluskey K. Draft Genome Sequence of Neurospora crassa Strain
+    FGSC 73. 2015. Genome Announc.3(2). pii: e00074-15. doi: 10.1128/genomeA.00074-15.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features: []
+bibliographicCitation: https://public-registry.jbei.org/folders/185
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00185
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.619Z'

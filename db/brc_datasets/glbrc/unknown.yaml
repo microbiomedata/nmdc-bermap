@@ -1,0 +1,31 @@
+brc: GLBRC
+date: '2017-02-01'
+title: Sorghum bicolor Circadian cycling Gene Expression Profiling
+creator:
+- name: Federica Brandizzi
+  email: fb@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+species:
+- NCBITaxID: null
+  scientificName: Sorghum bicolor (L.) Moench
+keywords:
+- Sorghum bicolor
+- cellulose synthase-like F6
+- in situ hybridization
+- lichenase
+- mixed-linkage glucan
+identifier: ''
+repository: JGI Data Portal
+description: null
+relatedItem:
+- title: Cell- and development-specific degradation controls the levels of mixed-linkage
+    glucan in sorghum leaves
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://onlinelibrary.wiley.com/doi/10.1111/tpj.16376
+analysisType: raw sequence reads; RNA-seq
+bibliographicCitation: https://data.jgi.doe.gov/search?q=Sorghum+bicolor+Circadian+Cycling+Gene+Expression+Profiling&amp;expanded=OTHER_AP-1051033
+schema_version: 0.1.7
+uid: GLBRC_
+created_at: '2025-11-21T01:31:06.794Z'
+updated_at: '2025-12-10T06:00:05.197Z'

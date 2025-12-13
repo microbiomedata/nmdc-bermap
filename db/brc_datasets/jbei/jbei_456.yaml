@@ -1,0 +1,78 @@
+id: jbei:456
+brc: JBEI
+date: '2019-05-15'
+title: Thompson et al 2019 Lact Prod ppu
+creator:
+- name: Mitchell Thompson
+  email: mthompson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Allison Pearson
+  email: al.pearson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 303
+  scientificName: Pseudomonas putida
+keywords: []
+identifier: jbei:folder:00456
+repository: ICE
+datasetName: Thompson et al 2019 Lact Prod ppu
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/456
+description: This dataset provides a set of six plasmids for the metabolic engineering
+  of *Pseudomonas putida* for the biosynthesis of valerolactam. The collection features
+  the core pathway plasmid for valerolactam production, multiple knockout (KO) vectors
+  for host genome modification, and a plasmid for the complementation of *oplBA*.
+  These genetic tools are designed to establish and optimize a heterologous production
+  pathway in *P. putida*.
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: BBR1
+  backbone: pBADT-oplBA
+  promoters: []
+  description: Complementation of oplBA
+  selection_markers: []
+- ori: ColE1
+  backbone: pMQ30 PP_3722
+  promoters: []
+  description: KO
+  selection_markers:
+  - Gentamicin
+- ori: ColE1
+  backbone: pMQ30 oplBA
+  promoters: []
+  description: KO
+  selection_markers:
+  - Gentamicin
+- ori: pBR322
+  backbone: pET28 oplB
+  promoters: []
+  description: Pur
+  selection_markers:
+  - Kan
+- ori: pBBR
+  backbone: pBADT davAB-ORF26
+  promoters: []
+  description: Valerolactam pathway for putida
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pET28 oplA
+  promoters: []
+  description: Pur
+  selection_markers:
+  - Kan
+bibliographicCitation: https://public-registry.jbei.org/folders/456
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00456
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

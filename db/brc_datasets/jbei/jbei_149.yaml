@@ -1,0 +1,91 @@
+id: jbei:149
+brc: JBEI
+date: '2015-02-27'
+title: Kirby et al., 2014
+creator:
+- name: James Kirby
+  email: jkirby@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Mario Ouellet
+  email: mouellet@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Adrienne Schlatter
+  email: afschlatter@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- codon-optimized bisabolene synthase
+identifier: jbei:folder:00149
+repository: ICE
+datasetName: Kirby et al., 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/149
+description: This dataset contains four yeast expression plasmids for producing the
+  biofuel precursor bisabolene. The key components are two variants of a bisabolene
+  synthase (BIS) gene with recoded 3' coding sequences, which increase specific production
+  by up to 32% without altering the protein sequence. The collection also includes
+  the parent plasmid (pRS425Leu2d-BISopt) used as a benchmark for the production improvements.
+relatedItem:
+- title: http://www.ncbi.nlm.nih.gov/pubmed/25149518
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: http://www.ncbi.nlm.nih.gov/pubmed/20594566 (EPY300) http://www.ncbi.nlm.nih.gov/pubmed/25149518
+    (Generation of this plasmid)
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: http://www.ncbi.nlm.nih.gov/pubmed/20594566 (EPY300) http://www.ncbi.nlm.nih.gov/pubmed/21952217
+    (pRSLeu2dBISopt) http://www.ncbi.nlm.nih.gov/pubmed/25149518 (Also used this strain)
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pRSLeu2d-BIS-91
+  promoters: []
+  description: This variant (pRSLeu2d-BIS-91) has the 3' end of the cds recoded (the
+    BIS protein sequence is the same). See reference below for description. Specific
+    bisabolene production is 32% higher than with the wt pRSleu2d-BISopt plasmid when
+    expressed in EPY300.
+  selection_markers:
+  - Amp
+- backbone: pRSLeu2d-BIS-71
+  promoters: []
+  description: This variant (pRSLeu2d-BIS-71) has the 3' end of the cds recoded (the
+    BIS protein sequence is the same). See reference below for description. Specific
+    bisabolene production is 20% higher than with the wt pRSleu2d-BISopt plasmid when
+    expressed in EPY300.
+  selection_markers:
+  - Amp
+- ori: pUC, 2micron
+  backbone: pESCLeu2d-BisOpt
+  promoters: []
+  description: Bisabolene Synthase (E. coli codon-optimized) under control of Gal10
+    promoter (SpeI-SacI).
+  selection_markers:
+  - Ampicillin
+  - leu2-d
+- ori: pMB1, 2 micron
+  backbone: pRSLeu2d-BISopt
+  promoters:
+  - GAL1
+  description: pRS425Leu2d-BISopt
+  selection_markers:
+  - Ampicillin
+  - leu2-d
+bibliographicCitation: https://public-registry.jbei.org/folders/149
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00149
+created_at: '2025-11-18T20:03:56.767Z'
+updated_at: '2025-12-11T00:00:04.619Z'

@@ -1,0 +1,52 @@
+brc: CABBI
+date: '2022-07-18'
+title: Purple Acid Phosphatase2 Stimulates a Futile Cycle of Lipid Synthesis and Degradation,
+  and Mitigates the Negative Growth Effects of Triacylglycerol Accumulation in Vegetative
+  Tissues
+creator:
+- name: John Shanklin
+  email: shanklin@bnl.gov
+  affiliation: Brookhaven National Lab
+  primaryContact: true
+- name: Jorg Schwender
+  email: schwend@bnl.gov
+  affiliation: Brookhaven National Lab
+  primaryContact: false
+species:
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+keywords:
+- Seed oil
+- TAG content
+- Yield
+identifier: 10.13012/B2IDB-0843926_V1
+repository: Illinois Data Bank
+description: Storage lipids (mostly triacylglycerols, TAGs) serve as an important
+  energy and carbon reserve in plants, and hyperaccumulation of TAG in vegetative
+  tissues can have negative effects on plant growth. Purple acid phosphatase2 (PAP2)
+  was previously shown to affect carbon metabolism and boost plant growth. However,
+  the effects of PAP2 on lipid metabolism remain unknown. Here, we demonstrated that
+  PAP2 can stimulate a futile cycle of fatty acid (FA) synthesis and degradation,
+  and mitigate negative growth effects associated with high accumulation of TAG in
+  vegetative tissues. Constitutive expression of PAP2 in Arabidopsis thaliana enhanced
+  both lipid synthesis and degradation in leaves and led to a substantial increase
+  in seed oil yield. Suppressing lipid degradation in a PAP2-overexpressing line by
+  disrupting sugar-dependent1 (SDP1), a predominant TAG lipase, significantly elevated
+  vegetative TAG content and improved plant growth. Diverting FAs from membrane lipids
+  to TAGs in PAP2-overexpressing plants by constitutively expressing phospholipid:diacylglycerol
+  acyltransferase1 (PDAT1) greatly increased TAG content in vegetative tissues without
+  compromising biomass yield. These results highlight the potential of combining PAP2
+  with TAG-promoting factors to enhance carbon assimilation, FA synthesis and allocation
+  to TAGs for optimized plant growth and storage lipid accumulation in vegetative
+  tissues.
+relatedItem:
+- title: Purple Acid Phosphatase2 Stimulates a Futile Cycle of Lipid Synthesis and
+    Degradation and Mitigates the Negative Growth Effects of Triacylglycerol Accumulation
+    in Vegetative Tissues
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/nph.18392
+bibliographicCitation: https://doi.org/10.13012/B2IDB-0843926_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-0843926_V1
+created_at: '2025-11-20T18:00:04.759Z'
+updated_at: '2025-12-10T06:00:05.196Z'

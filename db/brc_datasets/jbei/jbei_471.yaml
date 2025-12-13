@@ -1,0 +1,48 @@
+id: jbei:471
+brc: JBEI
+date: '2019-05-24'
+title: Rodriguez et al. 2019
+creator:
+- name: Junko Yaegashi
+  email: jyaegashi@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Alberto Rodriguez
+  email: alberto@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 5286
+  scientificName: Rhodosporidium toruloides
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00471
+repository: ICE
+datasetName: Rodriguez et al. 2019
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/471
+description: This dataset provides a plasmid for producing the biofuel precursor bisabolene
+  in the oleaginous yeast *Rhodosporidium toruloides*. The plasmid contains a bisabolene
+  synthase (BIS) gene that has been codon-optimized for efficient expression in this
+  non-conventional host. This genetic part enables the metabolic engineering of *R.
+  toruloides* for the synthesis of sesquiterpene-based biofuels.
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: 2-GPD1-BIS-Tnos
+  promoters: []
+  description: Bisabolene synthase (BIS) gene codon-optimized for expression in Rhodosporidium
+    toruloides
+  selection_markers:
+  - Kan, Nat
+bibliographicCitation: https://public-registry.jbei.org/folders/471
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00471
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

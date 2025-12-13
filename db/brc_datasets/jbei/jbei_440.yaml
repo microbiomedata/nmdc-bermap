@@ -1,0 +1,288 @@
+id: jbei:440
+brc: JBEI
+date: '2019-04-12'
+title: Otoupal et al. 2019
+creator:
+- name: Peter Otoupal
+  email: peterotoupal@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 5286
+  scientificName: Rhodosporidium toruloides
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+- NCBITaxID: 4952
+  scientificName: Yarrowia lipolytica
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- Rhodosporidium
+- CRISPR
+identifier: jbei:folder:00440
+repository: ICE
+datasetName: Otoupal et al. 2019
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/440
+description: This dataset contains 39 all-in-one CRISPR-Cas9 plasmids designed for
+  genome editing in the oleaginous yeast *Rhodosporidium toruloides*. The collection
+  was developed to systematically optimize sgRNA expression by testing various RNA
+  polymerase III promoters from different yeast species. These plasmids target the
+  endogenous *URA3* and *CAR2* genes and explore different sgRNA processing strategies,
+  including the use of flanking ribozymes.
+relatedItem: []
+analysisType: Targeted Locus (Loci)
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: ColE1
+  backbone: pMI-pGI123
+  promoters: []
+  description: Cas9-sgRNA(CAR2-4,RT-tRNATyr)-NAT
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMI-pGI132
+  promoters: []
+  description: Cas9-sgRNA(URA3-3+4,Car2-1+3,RT-tRNATyr)-NAT
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMI-pGI122
+  promoters: []
+  description: Cas9-sgRNA(CAR2-3,RT-tRNATyr)-NAT
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMI-pGI121
+  promoters: []
+  description: Cas9-sgRNA(CAR2-2,RT-tRNATyr)-NAT
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMI-pGI120
+  promoters: []
+  description: Cas9-sgRNA(CAR2-1,RT-tRNATyr)-NAT
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMI-pGI119
+  promoters: []
+  description: Cas9-sgRNA(URA3-4,RT-tRNATyr)-NAT
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMI-pGI108
+  promoters: []
+  description: Cas9-sgRNA(URA3-1,SC-SNR52pr)-NAT
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMI-pGI107
+  promoters: []
+  description: Cas9-sgRNA(URA3-1,SC-tRNAPhe)-NAT
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMI-pGI110
+  promoters: []
+  description: Cas9-sgRNA(URA3-1,RT-tRNATyr)-NAT
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMI-pGI106
+  promoters: []
+  description: Cas9-sgRNA(URA3-1,YL-tRNAGly)-NAT
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMI-pGI105
+  promoters: []
+  description: Cas9-sgRNA(URA3-1,YL-SNR52pr)-NAT
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMI-233
+  promoters: []
+  description: Cas9-sgRNA(URA3-9,SC-SNR52pr,Ribozyme)-NAT
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pMI-232
+  promoters: []
+  description: Cas9-sgRNA(URA3-8,SC-SNR52pr,Ribozyme)-NAT
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pMI-pGI104
+  promoters: []
+  description: Cas9-sgRNA(URA3-1,SC-SNR52pr,YL-tRNAGly)-NAT
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMI-231
+  promoters: []
+  description: Cas9-sgRNA(URA3-7,SC-SNR52pr,Ribozyme)-NAT
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pMI-229
+  promoters: []
+  description: Cas9-sgRNA(URA3-5,SC-SNR52pr,Ribozyme)-NAT
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pMI-230
+  promoters: []
+  description: Cas9-sgRNA(URA3-6,SC-SNR52pr,Ribozyme)-NAT
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pMI-228
+  promoters: []
+  description: Cas9-sgRNA(URA3-4,SC-SNR52pr,Ribozyme)-NAT
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pMI-227
+  promoters: []
+  description: Cas9-sgRNA(URA3-3,SC-SNR52pr,Ribozyme)-NAT
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pMI-187
+  promoters: []
+  description: Cas9-sgRNA(URA3-1,RT-tRNAPro,Ribozyme)-NAT
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMI-188
+  promoters: []
+  description: Cas9-sgRNA(URA3-1,RT-tRNATyr,Ribozyme)-NAT
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMI-190
+  promoters: []
+  description: Cas9-eGFP-sgRNA(URA3-1,SC-SNR52pr,Ribozyme)-NAT
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMI-213
+  promoters: []
+  description: Cas9-sgRNA(URA3-1,SC-SNR52pr,Ribozyme)-NAT
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pMI-186
+  promoters: []
+  description: Cas9-sgRNA(URA3-1,RT-tRNAPhe,Ribozyme)-NAT
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMI-98
+  promoters: []
+  description: Cas9-sgRNA(URA3-2,RT-tRNAPro,Ribozyme)
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pMI-97
+  promoters: []
+  description: Cas9-sgRNA(URA3-2,RT-tRNAPhe,Ribozyme)
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pMI-185
+  promoters: []
+  description: Cas9-sgRNA(URA3-1,SC-tRNAPhe,Ribozyme)-NAT
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMI-184
+  promoters: []
+  description: Cas9-sgRNA(URA3-1,SC-SNR52pr,Ribozyme)-NAT
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMI-99
+  promoters: []
+  description: Cas9-sgRNA(URA3-2,tRNATyr,Ribozyme)
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pMI-94
+  promoters: []
+  description: Cas9-sgRNA(URA3-1,RT-tRNATyr,Ribozyme)
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pMI-92
+  promoters: []
+  description: Cas9-sgRNA(URA3-1,RT-tRNAPhe,Ribozyme)
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pMI-96
+  promoters: []
+  description: Cas9-sgRNA(URA3-2,SC-tRNAPhe,Ribozyme)
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pMI-95
+  promoters: []
+  description: Cas9-sgRNA(URA3-2,SC-SNR52pr[JS1] [OPB2] ,Ribozyme)
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pMI-93
+  promoters: []
+  description: Cas9-sgRNA(URA3-1,RT-tRNAPro,Ribozyme)
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pMI-91
+  promoters: []
+  description: Cas9-sgRNA(URA3-1,SC-tRNAPhe,Ribozyme)
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pMI-90
+  promoters: []
+  description: Cas9-sgRNA(URA3-1,SC-SNR52pr,Ribozyme)
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pGI132
+  promoters:
+  - pGAPDH
+  description: Plasmid created by Masakazu Ito of the Adam Arkin group in 2016 to
+    edit Rhodosporidium with CRISPR-Cas9. Contains sgRNA targets to 2 Ura3 sequences
+    and 2 Car2 sequences
+  selection_markers:
+  - Nourseothricin (NAT) resistance for yeast
+  - Kan
+- ori: ColE1
+  backbone: pGI110
+  promoters:
+  - pGAPDH
+  description: Plasmid created by Masakazu Ito of the Adam Arkin group in 2016 to
+    edit Rhodosporidium with CRISPR-Cas9. Contains sgRNA targets to Ura3
+  selection_markers:
+  - Nourseothricin (NAT) resistance for yeast
+  - Kan
+- ori: ColE1
+  backbone: pGI119
+  promoters:
+  - pGAPDH
+  description: Plasmid created by Masakazu Ito of the Adam Arkin group in 2016 to
+    edit Rhodosporidium with CRISPR-Cas9. Contains sgRNA targets to Ura3
+  selection_markers:
+  - Nourseothricin (NAT) resistance for yeast
+  - Kan
+bibliographicCitation: https://public-registry.jbei.org/folders/440
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00440
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

@@ -1,0 +1,82 @@
+id: jbei:151
+brc: JBEI
+date: '2015-03-03'
+title: Chen et al. 2013
+creator:
+- name: Taya Feldman
+  email: tfeldman@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 2336
+  scientificName: Thermotoga maritima
+keywords: []
+identifier: jbei:folder:00151
+repository: ICE
+datasetName: Chen et al. 2013
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/151
+description: This dataset provides four *E. coli* expression plasmids for studying
+  the thermostable cellulase Cel5A from *Thermotoga maritima*. The collection includes
+  constructs for the wild-type enzyme, as well as single (H138R, N236D) and double
+  (H138R N236D) mutants designed to investigate structure-function relationships.
+  Each pFIL-B vector adds a C-terminal TEV cleavage site, Strep-tag, and 6xHis-tag
+  to facilitate protein purification.
+relatedItem:
+- title: Chen, Z., Pereira, J. H., Liu, H., Tran, H. M., Hsu, N. S., Dibble, D., Singh,
+    S., Adams, P. D., Sapra, R., Hadi, M. Z., Simmons, B. A., &amp; Sale, K. L. (2013).
+    “Improved activity of a thermophilic cellulase, Cel5A, from Thermotoga maritima
+    on ionic liquid pretreated switchgrass”. [Research Support, U.S. Gov’t, Non-P.H.S.].
+    PLoS One, 8(11), e79725.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: affinity_purification
+contributors:
+- name: Zhiwei Chen
+  email: klsale@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: Cel5A H138R
+  promoters:
+  - T5
+  description: E.coli expression vector (pFIL-B) containing Cel5A from Thermotoga
+    maritima.  Gene contains the mutation H138R. Vector has C-terminal TEV cleavage
+    site, Strept tag, 6xHIS tag.
+  selection_markers:
+  - Kanamycin
+- backbone: TIL-67
+  promoters: []
+  description: E.coli expression vector (pFIL-B) containing Cel5A from Thermotoga
+    Maritima (gene sequence is from Richard Heins' vector pRAH0010). Vector has C-terminal
+    TEV cleavage site, Strept tag, 6xHIS tag.
+  selection_markers:
+  - Kanamycin
+- backbone: Cel5A N236D
+  promoters:
+  - T5
+  description: E.coli expression vector (pFIL-B) containing Cel5A from Thermotoga
+    maritima.  Gene contains the mutation N236D. Vector has C-terminal TEV cleavage
+    site, Strept tag, 6xHIS tag.
+  selection_markers:
+  - Kanamycin
+- backbone: Cel5A H138R N236D
+  promoters:
+  - T5
+  description: E.coli expression vector (pFIL-B) containing Cel5A from Thermotoga
+    maritima.  Gene contains the mutations H138R N236D. Vector has C-terminal TEV
+    cleavage site, Strept tag, 6xHIS tag.
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/151
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00151
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.619Z'

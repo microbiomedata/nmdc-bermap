@@ -1,0 +1,69 @@
+id: jbei:758
+brc: JBEI
+date: '2022-10-04'
+title: Tian et al 2022
+creator:
+- name: Aymerick Eudes
+  email: ageudes@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Khanh Vuu
+  email: kvuu@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Jessica Trinh
+  email: jessicatrinh@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Patrick Shih
+  email: pmshih@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 1111081
+  scientificName: Scheffersomyces lignosus
+- NCBITaxID: 358
+  scientificName: Agrobacterium tumefaciens
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 4952
+  scientificName: Yarrowia lipolytica
+keywords: []
+identifier: jbei:folder:00758
+repository: ICE
+datasetName: Tian et al 2022
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/758
+description: This dataset provides a Level 1 expression plasmid, pPMS028, designed
+  for metabolic engineering in bioenergy research. The plasmid contains a single transcriptional
+  unit to express the qsuB gene from the yeast *Scheffersomyces lignosus*, a putative
+  sugar transporter critical for substrate utilization. Expression of the qsuB coding
+  sequence is driven by the pBE5 promoter and terminated by the tNOS terminator, and
+  the backbone includes a kanamycin resistance marker for selection.
+relatedItem: []
+analysisType: Expression profiling
+contributors:
+- name: Khanh Vuu
+  email: khanhmyvuu@gmail.com
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: p15A
+  backbone: pPMS028-{L_tOCS-KanR}{P_pBE5}{C_schl-qsuB}{T_tNOS}
+  promoters: []
+  description: Level 1, pPMS028-{L_tOCS-KanR}{P_pBE5}{C_schl-qsuB}{T_tNOS}
+  selection_markers:
+  - Chloramphenicol (30)
+bibliographicCitation: https://public-registry.jbei.org/folders/758
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00758
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

@@ -1,0 +1,143 @@
+id: jbei:789
+brc: JBEI
+date: '2023-06-08'
+title: Schmidt et al., 2023
+creator:
+- name: Melanya Gudzeva
+  email: MGudzeva@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Matthias Schmidt
+  email: mschmidt@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Chunjun Zhan
+  email: chunjunzhan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 303
+  scientificName: Pseudomonas putida
+- NCBITaxID: 56
+  scientificName: Sorangium cellulosum
+- NCBITaxID: 1902
+  scientificName: Streptomyces coelicolor
+keywords: []
+identifier: jbei:folder:00789
+repository: ICE
+datasetName: Schmidt et al., 2023
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/789
+description: This dataset contains 16 plasmids for engineering polyketide biosynthesis,
+  with a primary focus on the LipPKS/LipM1+DEBSM6TE hybrid polyketide synthase. The
+  collection includes codon-optimized and wildtype gene variants, a methylmalonyl-CoA
+  precursor pathway from *Sorangium cellulosum*, and various vectors for controlled
+  expression and genomic integration. These tools include salicylate-inducible systems,
+  knock-in plasmids, and BxB1/MR11 integration vectors for host engineering.
+relatedItem: []
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: ColE1
+  backbone: pBH026-Pputida_ubc_LipM1+DEBSM6TE
+  promoters: []
+  description: Codon optimized LipM1+DEBSM6TE (SY172) by DNA Chisel
+  selection_markers:
+  - Kanamycin (50)
+- ori: ColE1
+  backbone: kivd+CCL4 knock in PLASMID
+  promoters: []
+  description: kivd+CCL4 knock in plasmid
+  selection_markers: []
+- ori: BBR1
+  backbone: pNahR-LipPpMCU
+  promoters: []
+  description: Salicylate inducible expression vector
+  selection_markers:
+  - Gent
+- ori: ColE1
+  backbone: pBH026-RFP
+  promoters: []
+  description: BxB1 integration vector
+  selection_markers: []
+- ori: BBR1
+  backbone: pNahR-LipEcMCU
+  promoters: []
+  description: Salicylate inducible expression vector
+  selection_markers:
+  - Gent
+- ori: ColE1
+  backbone: pBH026-Ecoli_hrca_LipM1+DEBSM6TE
+  promoters: []
+  description: Codon optimized LipM1+DEBSM6TE (SY172) by DNA Chisel
+  selection_markers: []
+- ori: ColE1
+  backbone: pAN001-SY172_Wt-ATG
+  promoters: []
+  description: Wildtype codon of LipPKS (SY172) with ATG start codon
+  selection_markers: []
+- ori: ColE1
+  backbone: pAN001-SY172_Wt-GTG
+  promoters: []
+  description: Wildtype codon of LipPKS (SY172) with GTG start codon
+  selection_markers: []
+- ori: ColE1
+  backbone: pJH209 Sc_mmCoA
+  promoters: []
+  description: MR11 integration vector with Ptac expressing WT mmCoA pathway from
+    Sorangium cellulosum
+  selection_markers: []
+- ori: ColE1
+  backbone: pBH026-Pputida_hrca_LipM1+DEBSM6TE
+  promoters: []
+  description: Codon optimized LipM1+DEBSM6TE (SY172) by DNA Chisel
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pBH026-Ecoli_ubc_LipM1+DEBSM6TE
+  promoters: []
+  description: Codon optimized LipM1+DEBSM6TE (SY172) by DNA Chisel
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pBH026-Pputida_mcu_LipM1+DEBSM6TE
+  promoters: []
+  description: Codon optimized LipM1+DEBSM6TE (SY172) by DNA Chisel
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pBH026-Cglut_mcu_LipM1+DEBSM6TE
+  promoters: []
+  description: Codon optimized LipM1+DEBSM6TE (SY172) by DNA Chisel
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pBH026-Cglut_ubc_LipM1+DEBSM6TE
+  promoters: []
+  description: Codon optimized LipM1+DEBSM6TE (SY172) by DNA Chisel
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pBH026-Cglut_hrca_LipM1+DEBSM6TE
+  promoters: []
+  description: Codon optimized LipM1+DEBSM6TE (SY172) by DNA Chisel
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pBH026-Ecoli_mcu_LipM1+DEBSM6TE
+  promoters: []
+  description: Codon optimized LipM1+DEBSM6TE (SY172) by DNA Chisel
+  selection_markers:
+  - Kan
+bibliographicCitation: https://public-registry.jbei.org/folders/789
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00789
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

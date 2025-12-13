@@ -1,0 +1,46 @@
+brc: CABBI
+date: '2020-06-27'
+title: Arabidopsis Plants Expressing Only the Redox-Regulated Rca-α Isoform Have Constrained
+  Photosynthesis and Plant Growth
+creator:
+- name: Donald R. Ort
+  email: d-ort@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+keywords:
+- Rubisco activase
+- Photosynthesis
+- Arabidopsis
+identifier: 10.13012/B2IDB-8087613_V1
+repository: Illinois Data Bank
+description: Rubisco activase (Rca) facilitates the release of sugar‐phosphate inhibitors
+  from the active sites of Rubisco and thereby plays a central role in initiating
+  and sustaining Rubisco activation. In Arabidopsis, alternative splicing of a single
+  Rca gene results in two Rca isoforms, Rca‐α and Rca‐β. Redox modulation of Rca‐α
+  regulates the function of Rca‐α and Rca‐β acting together to control Rubisco activation.
+  Although Arabidopsis Rca‐α alone less effectively activates Rubisco in vitro , it
+  is not known how CO2 assimilation and plant growth are impacted. Here, we show that
+  two independent transgenic Arabidopsis lines expressing Rca‐α in the absence of
+  Rca‐β (“Rca‐α only” lines) grew more slowly in various light conditions, especially
+  under low light or fluctuating light intensity, and in a short day photoperiod compared
+  to wildtype. Photosynthetic induction was slower in the Rca‐α only lines, and they
+  maintained a lower rate of CO2 assimilation during both photoperiod types. Our findings
+  suggest Rca oligomers composed of Rca‐α only are less effective in initiating and
+  sustaining the activation of Rubisco than when Rca‐β is also present. Currently
+  there are no examples of any plant species that naturally express Rca‐α only but
+  numerous examples of species expressing Rca‐β only. That Rca‐α exists in most plant
+  species, including many C3 and C4 food and bioenergy crops, implies its presence
+  is adaptive under some circumstances.
+relatedItem:
+- title: Arabidopsis Plants Expressing Only the Redox-Regulated Rca-α Isoform Have
+    Constrained Photosynthesis and Plant Growth
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/tpj.14897
+bibliographicCitation: https://doi.org/10.13012/B2IDB-8087613_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-8087613_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

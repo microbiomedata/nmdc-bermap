@@ -1,0 +1,60 @@
+brc: CBI
+date: '2024-09-18'
+title: Proton NMR spectra of lignin isolated from field grown transgenic poplar
+active: true
+creator:
+- name: Yunqiao Pu
+  email: puy1@ornl.gov
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: true
+- name: Nathan Bryant
+  affiliation: Center for Bioenergy Innovation (CBI) Department of Chemical and Biomolecular
+    Engineering, University of Tennessee Knoxville, Knoxville, TN, USA
+  primaryContact: false
+- name: Chang-Jun Liu
+  affiliation: Center for Bioenergy Innovation (CBI) Department of Chemical and Biomolecular
+    Engineering, University of Tennessee Knoxville, Knoxville, TN, USA Biology Department,
+    Brookhaven National Laboratory, Upton, New York, USA
+  primaryContact: false
+- name: Arthur Ragauskas
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER). Biological Systems Science (BSS)
+keywords:
+- 1H NMR
+- lignin
+- poplar
+- field trial
+- MOMT4
+- CBI
+identifier: https://www.osti.gov/biblio/2446708
+dataset_url: https://labkey.ornl.gov/labkey/CBI/ragauskas/Public Data/Proton NMR spectra
+  of lignin isolated from field grown transgenic poplar/project-begin.view?
+description: Here we present a curated dataset of a series of 1H nuclear magnetic
+  resonance (NMR) spectra of lignin isolated from transgenic monolignol 4-O-methyltransferase
+  (MOMT4) engineered poplar. The transgenic poplar was collected from a 2-year-old
+  rotation trees within a three-year field trial experiment. Two replicates were collected
+  for each transgenic poplar for the 1H NMR analysis. The poplar samples were Soxhlet-extracted
+  with toluene/ethanol to remove the extractives and the extractives-free poplar was
+  then ball-milled in a Retsch PM100 planetary ball mill using a porcelain jar with
+  ceramic balls at 600 rpm for 2 h. The ball-milled materials were subjected to enzymatic
+  hydrolysis for 48 h followed by centrifugation and washing with deionized water.
+  The solid residue was extracted twice with 96:4 (v/v) 1,4-dioxane/water mixture
+  at room temperature overnight. The extracts were combined, rotary evaporated, and
+  freeze-dried to recover lignin. The dry lignin samples were dissolved in deuterated
+  dimethyl sulfoxide and transferred into a 5 mm NMR tube. 1H NMR experiments were
+  performed in a Bruker Avance III HD 500 MHz NMR spectrometer operating at a frequency
+  of 125.12 MHz for the 13C nucleus using a standard Bruker pulse sequence (zg) on
+  a Prodigy platform cryoprobe. The NMR spectra were acquired with 16 ppm spectra
+  width, 32k data points, 3s pulse delay, and 16 scans. All the data was processed
+  using the Bruker’s TopSpin 3.6 software. Additional meta data is embedded in the
+  raw spectra files.
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/2446708
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2446708
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

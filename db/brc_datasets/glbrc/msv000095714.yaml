@@ -1,0 +1,39 @@
+brc: GLBRC
+date: '2025-03-18'
+title: MassIVE MSV000095714
+creator:
+- name: James L. Keck
+  email: jlkeck@wisc.edu
+  affiliation: Biomolecular Chemistry Department, School of Medicine and Public Health,
+    University of Wisconsin-Madison, Madison, WI, 53706 United States 
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- Data-dependent acquisition (DDA)
+- Bottom-up proteomics
+- E.coli
+- G-quadruplex
+- Orbitrap Ascend
+identifier: MSV000095714
+repository: MassIVE
+description: Proteomic analysis reveals translation-related proteins are significantly
+  altered in response to stabilized G4s. Identification of the importance of translation
+  factors in overcoming G4s led to the question of how E. coli cells generally respond
+  to chemicals that stabilize such structures. As a first step in addressing this
+  question, a proteomic analysis was carried out to measure the quantitative effects
+  of NMM on the levels of individual proteins in E. coli. Protein levels from early
+  log-phase cultures of delta-tolC and delta-tolC tufA::kan strains grown in the presence
+  or absence of NMM were measured to assess how reduced EF- Tu levels and NMM impacted
+  expression.
+relatedItem:
+- title: Altering translation allows <i>E. coli</i> to overcome G-quadruplex stabilizers
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://academic.oup.com/nar/article/53/6/gkaf264/8107784
+analysisType: MS proteomics
+bibliographicCitation: https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=dec145bc38ee467b9e6f7bb1b13572de
+schema_version: 0.1.7
+uid: GLBRC_MSV000095714
+created_at: '2025-11-27T06:00:04.934Z'
+updated_at: '2025-12-10T06:00:05.198Z'

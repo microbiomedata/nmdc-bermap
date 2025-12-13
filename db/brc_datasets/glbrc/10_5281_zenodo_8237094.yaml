@@ -1,0 +1,44 @@
+brc: GLBRC
+date: '2023-08-10'
+title: Engineered poplar for bioproduction of the triterpene squalene
+creator:
+- name: Björn Hamberger
+  email: hamberge@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+species:
+- NCBITaxID: null
+  scientificName: Hybrid poplar (populus alba x grandidentata)
+- NCBITaxID: null
+  scientificName: Hybrid poplar (Populus davidiana Dode x Populus bollena Lauche)
+keywords:
+- Squalene
+- isoprene emission
+- lipid droplet scaffolding
+- photosynthesis
+- plastid targeting
+- technoeconomic analysis
+identifier: 10.5281/zenodo.8237094
+repository: Zenodo
+description: Here we aimed to engineer poplar with optimized pathways to produce squalene,
+  a triterpene commonly used in cosmetic oils, a potential biofuel candidate, and
+  the precursor to the further diversified classes of triterpenoids and sterols. The
+  squalene production pathways were either re-targeted from the cytosol to plastids
+  or co-produced with lipid droplets in the cytosol. Squalene and lipid droplet co-production
+  appeared to be toxic, which we hypothesize to be due to disruption of adventitious
+  root formation, suggesting a need for tissue specific production. Plastidial squalene
+  production enabled up to 0.63 mg/g fresh weight in leaf tissue, which also resulted
+  in reductions in isoprene emission and photosynthesis. These results were also studied
+  through a technoeconomic analysis, providing further insight into developing poplar
+  as a production host 
+relatedItem:
+- title: Engineered poplar for bioproduction of the triterpene squalene
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://onlinelibrary.wiley.com/doi/10.1111/pbi.14345
+analysisType: 'Raw data for Figures 3-5 and S2, calculation of isoprene made per day,
+  gene and primer sequences '
+bibliographicCitation: https://zenodo.org/records/10407332
+schema_version: 0.1.7
+uid: GLBRC_10.5281/zenodo.8237094
+created_at: '2025-11-19T18:00:04.600Z'
+updated_at: '2025-12-10T06:00:05.197Z'

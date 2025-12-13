@@ -1,0 +1,57 @@
+brc: CABBI
+date: '2024-07-12'
+title: 'Greater Aperture Counteracts Effects of Reduced Stomatal Density on WUE: A
+  Case Study on Sugarcane and Meta-Analysis'
+creator:
+- name: Leakey, Andrew D.B.
+  email: leakey@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Altpeter, Fredy
+  email: altpeter@ufl.edu
+  affiliation: University of Florida
+  primaryContact: false
+- name: Clemente, Thomas E.
+  email: tclemente1@unl.edu
+  affiliation: University of Nebraska Lincoln
+  primaryContact: false
+species:
+- NCBITaxID: 4546
+  scientificName: Saccharum spp. hybrid
+- NCBITaxID: 4558
+  scientificName: Sorghum bicolor
+keywords:
+- stomatal density
+- water use efficiency
+- stomatal conductance
+- epidermal patterning factor
+- epidermal patterning
+identifier: 10.13012/B2IDB-9701546_V1
+repository: Illinois Data Bank
+description: Stomata regulate CO2 and water vapor exchange between leaves and the
+  atmosphere. Stomata are a target for engineering to improve crop intrinsic water
+  use efficiency (iWUE). One example is by expressing genes that lower stomatal density
+  (SD) and reduce stomatal conductance (gsw). However, the quantitative relationship
+  between reduced SD, gsw, and the mechanisms underlying it is poorly understood.
+  We addressed this knowledge gap using low-SD sugarcane (Saccharum spp. hybrid) as
+  a case study alongside a meta-analysis of data from 10 species. Transgenic expression
+  of EPIDERMAL PATTERNING FACTOR 2 from Sorghum bicolor (SbEFP2) in sugarcane reduced
+  SD by 26-38% but did not affect gsw compared to wildtype. Further, no changes occurred
+  in stomatal complex size or proxies for photosynthetic capacity. Measurements of
+  gas exchange at low CO2 concentrations that promote complete stomatal opening to
+  normalize aperture size between genotypes were combined with modeling of maximum
+  gsw from anatomical data. These data suggest that increased stomatal aperture is
+  the only possible explanation for maintaining gsw when SD is reduced. Meta-analysis
+  across C3 dicots, C3 monocots, and C4 monocots revealed engineered reductions in
+  SD are strongly correlated with lower gsw (r2=0.60-0.98), but this response is damped
+  relative to the change in anatomy.
+relatedItem:
+- title: 'Greater Aperture Counteracts Effects of Reduced Stomatal Density on WUE:
+    A Case Study on Sugarcane and Meta-Analysis'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://dx.doi.org/10.1093/jxb/erae271
+bibliographicCitation: https://doi.org/10.13012/B2IDB-9701546_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-9701546_V1
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

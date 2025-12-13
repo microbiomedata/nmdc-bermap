@@ -1,0 +1,39 @@
+brc: GLBRC
+date: '2021-11-17'
+title: Lachancea sp. yHQL494, whole genome shotgun sequencing project
+creator:
+- name: Dana A. Opulente
+  email: dana.opulente@villanova.edu
+  affiliation: Biology Department Villanova University, Villanova, Pennsylvania, USA
+  primaryContact: true
+- name: Chris Todd Hittinger
+  email: chittinger@wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: false
+species:
+- NCBITaxID: 2866345
+  scientificName: Lachancea sp. yHQL494
+keywords:
+- Eukaryota
+- Fungi
+- Dikarya
+- Ascomycota
+- Saccharomycotina
+- accharomycetes
+- Saccharomycetales
+- Saccharomycetaceae
+- Lachancea
+identifier: JAJMGS000000000
+repository: GenBank
+description: Lachancea sp. yHQL494, whole genome shotgun sequencing project
+relatedItem:
+- title: Taxogenomic analysis of a novel yeast species, <i>Lachancea rosae</i> Sp.
+    Nov. F.A., isolated from the wild rose <i>Rosa californica</i>
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://onlinelibrary.wiley.com/doi/10.1002/yea.70000
+analysisType: Whole genome shotgun sequencing
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/nuccore/JAJMGS000000000
+schema_version: 0.1.7
+uid: GLBRC_JAJMGS000000000
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.198Z'

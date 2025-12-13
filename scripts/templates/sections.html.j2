@@ -1,0 +1,357 @@
+{# ============================================================================
+   Macros for rendering collapsible sections (studies, publications, etc.)
+   ============================================================================ #}
+
+{% from 'macros.html.j2' import doi_link, nmdc_link, url_link, chip_list,
+    keywords, data_types, modalities, field, priority_badge, status_badge,
+    person_card %}
+
+{# ---- Studies Section ---- #}
+{% macro studies_section(studies) %}
+{% if studies %}
+<details class="section studies">
+    <summary>
+        Studies
+        <span class="section-count">{{ studies | length }}</span>
+    </summary>
+    <div class="section-content">
+    {% for study in studies %}
+        {{ study_item(study) }}
+    {% endfor %}
+    </div>
+</details>
+{% endif %}
+{% endmacro %}
+
+{% macro study_item(study) %}
+<details class="item study">
+    <summary>
+        {% if study.nmdc_ingest_target %}
+            {{ priority_badge(study.nmdc_ingest_priority or 'TARGET') }}
+        {% endif %}
+        {% if study.nmdc_study_id %}
+            {{ nmdc_link(study.nmdc_study_id) }} -
+        {% endif %}
+        <span class="item-title">{{ study.name }}</span>
+        {% if study.pi %}<span class="pi-info">({{ study.pi }})</span>{% endif %}
+    </summary>
+    <div class="item-content">
+        {% if study.description %}
+        <p class="description">{{ study.description }}</p>
+        {% endif %}
+        {% if study.organism %}
+        {{ field('Organism', study.organism) }}
+        {% endif %}
+        {% if study.data_modalities %}
+        <div class="field">
+            <span class="field-label">Data modalities:</span>
+            <span class="field-value">{{ data_types(study.data_modalities) }}</span>
+        </div>
+        {% endif %}
+        {% if study.keywords %}
+        <div class="field">
+            <span class="field-label">Keywords:</span>
+            <span class="field-value">{{ keywords(study.keywords) }}</span>
+        </div>
+        {% endif %}
+        {% if study.sample_count %}
+        {{ field('Samples', study.sample_count) }}
+        {% endif %}
+        {% if study.bioproject_ids %}
+        <div class="field">
+            <span class="field-label">BioProjects:</span>
+            <span class="field-value">
+            {% for bp in study.bioproject_ids %}
+                <a href="https://www.ncbi.nlm.nih.gov/bioproject/{{ bp }}" target="_blank">{{ bp }}</a>{% if not loop.last %}, {% endif %}
+            {% endfor %}
+            </span>
+        </div>
+        {% endif %}
+        {% if study.brc_dataset_ids %}
+        {{ field('BRC Dataset IDs', study.brc_dataset_ids | join(', ')) }}
+        {% endif %}
+        {% if study.primary_reference %}
+        <div class="field">
+            <span class="field-label">Primary reference:</span>
+            <span class="field-value">{{ doi_link(study.primary_reference) }}</span>
+        </div>
+        {% endif %}
+    </div>
+</details>
+{% endmacro %}
+
+{# ---- Publications Section ---- #}
+{% macro publications_section(publications) %}
+{% if publications %}
+<details class="section publications">
+    <summary>
+        Key Publications
+        <span class="section-count">{{ publications | length }}</span>
+    </summary>
+    <div class="section-content">
+    {% for pub in publications %}
+        {{ publication_item(pub) }}
+    {% endfor %}
+    </div>
+</details>
+{% endif %}
+{% endmacro %}
+
+{% macro publication_item(pub) %}
+<details class="item publication">
+    <summary>
+        {{ doi_link(pub.id) }}
+        <span class="item-title">{{ pub.title }}</span>
+    </summary>
+    <div class="item-content">
+        {% if pub.findings %}
+        <ul class="findings">
+        {% for finding in pub.findings %}
+            <li>{{ finding.statement }}</li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+</details>
+{% endmacro %}
+
+{# ---- Datasets Section ---- #}
+{% macro datasets_section(datasets) %}
+{% if datasets %}
+<details class="section datasets">
+    <summary>
+        Datasets
+        <span class="section-count">{{ datasets | length }}</span>
+    </summary>
+    <div class="section-content">
+    {% for ds in datasets %}
+        {{ dataset_item(ds) }}
+    {% endfor %}
+    </div>
+</details>
+{% endif %}
+{% endmacro %}
+
+{% macro dataset_item(ds) %}
+<details class="item dataset">
+    <summary>
+        <span class="item-title">{{ ds.name }}</span>
+    </summary>
+    <div class="item-content">
+        {% if ds.description %}
+        <p class="description">{{ ds.description }}</p>
+        {% endif %}
+        {% if ds.repository %}
+        {{ field('Repository', ds.repository) }}
+        {% endif %}
+        {% if ds.url %}
+        <div class="field">
+            <span class="field-label">URL:</span>
+            <span class="field-value"><a href="{{ ds.url }}" target="_blank">{{ ds.url }}</a></span>
+        </div>
+        {% endif %}
+        {% if ds.doi %}
+        <div class="field">
+            <span class="field-label">DOI:</span>
+            <span class="field-value">{{ doi_link(ds.doi) }}</span>
+        </div>
+        {% endif %}
+        {% if ds.data_type %}
+        {{ field('Data type', ds.data_type) }}
+        {% endif %}
+        {% if ds.size %}
+        {{ field('Size', ds.size) }}
+        {% endif %}
+        {% if ds.primary_reference %}
+        <div class="field">
+            <span class="field-label">Reference:</span>
+            <span class="field-value">{{ doi_link(ds.primary_reference) }}</span>
+        </div>
+        {% endif %}
+    </div>
+</details>
+{% endmacro %}
+
+{# ---- Analyses / KBase Narratives Section ---- #}
+{% macro analyses_section(analyses) %}
+{% if analyses %}
+<details class="section analyses">
+    <summary>
+        Analyses & KBase Narratives
+        <span class="section-count">{{ analyses | length }}</span>
+    </summary>
+    <div class="section-content">
+    {% for analysis in analyses %}
+        {{ analysis_item(analysis) }}
+    {% endfor %}
+    </div>
+</details>
+{% endif %}
+{% endmacro %}
+
+{% macro analysis_item(analysis) %}
+<details class="item analysis">
+    <summary>
+        {% if analysis.kbase_narrative_url %}
+        <a href="{{ analysis.kbase_narrative_url }}" target="_blank" class="item-title">{{ analysis.name }}</a>
+        {% else %}
+        <span class="item-title">{{ analysis.name }}</span>
+        {% endif %}
+    </summary>
+    <div class="item-content">
+        {% if analysis.description %}
+        <p class="description">{{ analysis.description }}</p>
+        {% endif %}
+        {% if analysis.analysis_type %}
+        {{ field('Type', analysis.analysis_type | replace('_', ' ') | title) }}
+        {% endif %}
+        {% if analysis.genome_count %}
+        {{ field('Genomes', analysis.genome_count) }}
+        {% endif %}
+        {% if analysis.sample_count %}
+        {{ field('Samples', analysis.sample_count) }}
+        {% endif %}
+        {% if analysis.output_data_types %}
+        <div class="field">
+            <span class="field-label">Output types:</span>
+            <span class="field-value">{{ data_types(analysis.output_data_types) }}</span>
+        </div>
+        {% endif %}
+        {% if analysis.primary_reference %}
+        <div class="field">
+            <span class="field-label">Reference:</span>
+            <span class="field-value">{{ doi_link(analysis.primary_reference) }}</span>
+        </div>
+        {% endif %}
+    </div>
+</details>
+{% endmacro %}
+
+{# ---- Capabilities Section ---- #}
+{% macro capabilities_section(capabilities) %}
+{% if capabilities %}
+<details class="section capabilities">
+    <summary>
+        Capabilities
+        <span class="section-count">{{ capabilities | length }}</span>
+    </summary>
+    <div class="section-content">
+    {% for cap in capabilities %}
+        {{ capability_item(cap) }}
+    {% endfor %}
+    </div>
+</details>
+{% endif %}
+{% endmacro %}
+
+{% macro capability_item(cap) %}
+<details class="item capability">
+    <summary>
+        {{ status_badge(cap.status) }}
+        {% if cap.url %}
+        <a href="{{ cap.url }}" target="_blank" class="item-title">{{ cap.name }}</a>
+        {% else %}
+        <span class="item-title">{{ cap.name }}</span>
+        {% endif %}
+    </summary>
+    <div class="item-content">
+        {% if cap.description %}
+        <p class="description">{{ cap.description }}</p>
+        {% endif %}
+        {% if cap.capability_type %}
+        {{ field('Type', cap.capability_type | replace('_', ' ') | title) }}
+        {% endif %}
+        {% if cap.throughput %}
+        {{ field('Throughput', cap.throughput) }}
+        {% endif %}
+        {% if cap.instruments %}
+        <div class="field">
+            <span class="field-label">Instruments:</span>
+            <span class="field-value">
+            <ul style="margin: 5px 0; padding-left: 20px;">
+            {% for inst in cap.instruments %}
+                <li>
+                    <strong>{{ inst.name }}</strong>
+                    {% if inst.count %} ({{ inst.count }}){% endif %}
+                    {% if inst.description %} - {{ inst.description }}{% endif %}
+                </li>
+            {% endfor %}
+            </ul>
+            </span>
+        </div>
+        {% endif %}
+        {% if cap.applications %}
+        <div class="field">
+            <span class="field-label">Applications:</span>
+            <span class="field-value">{{ chip_list(cap.applications, 'service') }}</span>
+        </div>
+        {% endif %}
+        {% if cap.data_products %}
+        <div class="field">
+            <span class="field-label">Data products:</span>
+            <span class="field-value">{{ chip_list(cap.data_products, 'data-type') }}</span>
+        </div>
+        {% endif %}
+    </div>
+</details>
+{% endmacro %}
+
+{# ---- Field Sites Section ---- #}
+{% macro field_sites_section(sites) %}
+{% if sites %}
+<details class="section field-sites">
+    <summary>
+        Field Sites
+        <span class="section-count">{{ sites | length }}</span>
+    </summary>
+    <div class="section-content">
+    {% for site in sites %}
+        {{ field_site_item(site) }}
+    {% endfor %}
+    </div>
+</details>
+{% endif %}
+{% endmacro %}
+
+{% macro field_site_item(site) %}
+<details class="item field-site">
+    <summary>
+        <span class="item-title">{{ site.name }}</span>
+        {% if site.location %}<span class="pi-info">({{ site.location }})</span>{% endif %}
+    </summary>
+    <div class="item-content">
+        {% if site.description %}
+        <p class="description">{{ site.description }}</p>
+        {% endif %}
+        {% if site.contaminants %}
+        <div class="field">
+            <span class="field-label">Contaminants:</span>
+            <span class="field-value">{{ chip_list(site.contaminants, 'keyword') }}</span>
+        </div>
+        {% endif %}
+        {% if site.contamination_source %}
+        {{ field('Contamination source', site.contamination_source) }}
+        {% endif %}
+    </div>
+</details>
+{% endmacro %}
+
+{# ---- Technologies Section ---- #}
+{% macro technologies_section(technologies) %}
+{% if technologies %}
+<details class="section technologies">
+    <summary>
+        Technologies Developed
+        <span class="section-count">{{ technologies | length }}</span>
+    </summary>
+    <div class="section-content">
+    {% for tech in technologies %}
+    <div class="item" style="padding: 10px 14px;">
+        <strong>{{ tech.name }}</strong>
+        {% if tech.description %}<br><span style="color: #666;">{{ tech.description }}</span>{% endif %}
+    </div>
+    {% endfor %}
+    </div>
+</details>
+{% endif %}
+{% endmacro %}

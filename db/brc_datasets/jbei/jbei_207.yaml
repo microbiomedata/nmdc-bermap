@@ -1,0 +1,70 @@
+id: jbei:207
+brc: JBEI
+date: '2015-09-25'
+title: Chen at al. 2013
+creator:
+- name: Randy Ruan
+  email: rruan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 4530
+  scientificName: Oryza sativa
+- NCBITaxID: 358
+  scientificName: Agrobacterium tumefaciens
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00207
+repository: ICE
+datasetName: Chen at al. 2013
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/207
+description: This dataset contains plasmids for studying *OsIRX10*, a rice gene involved
+  in xylan biosynthesis and secondary cell wall development. The constructs include
+  the *OsIRX10* gene with its native promoter in a binary vector for plant transformation,
+  and a coding sequence without a stop codon for generating fusion proteins. These
+  resources enable the functional characterization of *OsIRX10* in planta and its
+  use in protein studies.
+relatedItem:
+- title: Inactivation of OsIRX10 Leads to Decreased Xylan Content in Rice Culm Cell
+    Walls and Improved Biomass Saccharification Xuewei Chen · Miguel E Vega-Sánchez
+    · Yves Verhertbruggen · Dawn Chiniquy · Patrick E Canlas · Alexandra Fagerström
+    · Lina Prak · Ulla Christensen · Ai Oikawa · Mawsheng Chern · Shimin Zuo · Lin
+    Fan · Manfred Auer · William G T Willats · Laura Bartley · Jesper Harholt · Henrik
+    V Scheller · Pamela C Ronald Molecular Plant 11/2012; 6(2). DOI:10.1093/mp/sss135
+    · 6.61
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: affinity_purification
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pUC
+  backbone: pENTR-pOsIRX10::OsIRX10
+  promoters:
+  - T7
+  description: OsIRX10 clone with native OxIRX10 promotor
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pC1300-pOsIRX10::OsIRX10
+  promoters:
+  - CaMV 35S
+  description: OsIRX10 with native promoter in binary vector for plant transformation
+  selection_markers:
+  - KAN
+- ori: pUC
+  backbone: pENTR-OsIRX10
+  promoters:
+  - T7
+  description: OsIRX10 CDS without Stop codon
+  selection_markers:
+  - Kan
+bibliographicCitation: https://public-registry.jbei.org/folders/207
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00207
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

@@ -1,0 +1,34 @@
+brc: GLBRC
+date: '2024-03-29'
+title: Plant science history manuscript GitHub repo
+creator:
+- name: Shin-Han Shiu
+  email: shius@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+species:
+- NCBITaxID: null
+  scientificName: Multispecies
+keywords:
+- Plants
+- Research/trends
+- Machine Learning
+- Botany/trend/methods
+identifier: zenodo.10894387
+repository: Zenodo
+description: This archive contains codes, notebooks, and other information for reproducing
+  the study that links to this file. The original files are in the plant_sci_hist
+  Github repository which will likely be updated when the code base is adopted for
+  other projects. Thus, this archive is provided so a frozen version used for publishing
+  the plant science history manuscript that references this file.
+relatedItem:
+- title: Assessing the evolution of research topics in a biological field using plant
+    science as an example
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002612
+analysisType: Code
+bibliographicCitation: https://zenodo.org/records/10894387
+schema_version: 0.1.7
+uid: GLBRC_zenodo.10894387
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.197Z'

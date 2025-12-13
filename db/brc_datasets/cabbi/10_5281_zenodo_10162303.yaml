@@ -1,0 +1,38 @@
+brc: CABBI
+date: '2023-11-20'
+title: FUN-BioCROP Model with Litter Decomposition Parameters Derived from the LIDET
+  Dataset
+creator:
+- name: Brzostek, Edward R.
+  email: erbrzostek@mail.wvu.edu
+  affiliation: West Virginia University
+  primaryContact: true
+- name: Parton, William J.
+  email: billp@nrel.colostate.edu
+  affiliation: Colorado State University
+  primaryContact: false
+- name: Hartman, Melannie H.
+  email: melannie.hartman@colostate.edu
+  affiliation: Colorado State University
+  primaryContact: false
+keywords:
+- FUN-BioCROP
+- litter decomposition
+- soil modeling
+identifier: 10.5281/zenodo.10162303
+repository: Zenodo
+description: This repository contains the code and data necessary to run the FUN-BioCROP
+  (Fixation and Uptake of Nitrogen-Bioenergy Carbon, Rhizosphere, Organisms, and Protection)
+  model with litter decomposition parameters derived from a modified Monte Carlo simulation
+  that used the Long-term Intersite Decomposition Experiment Team dataset.
+relatedItem:
+- title: Reparameterizing Litter Decomposition Using a Simplified Monte Carlo Method
+    Improves Litter Decay Simulated by a Microbial Model and Alters Bioenergy Soil
+    Carbon Estimates
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1029/2023JG007625
+bibliographicCitation: https://doi.org/10.5281/zenodo.10162303
+schema_version: 0.1.1
+uid: CABBI_10.5281/zenodo.10162303
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

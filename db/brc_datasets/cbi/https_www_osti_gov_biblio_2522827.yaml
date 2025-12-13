@@ -1,0 +1,108 @@
+brc: CBI
+date: '2025-02-25'
+title: 'Supporting Information for manuscript: “A latitudinal gradient in S/G lignin
+  monomer ratio driven by laccase in natural poplar variants”'
+active: true
+creator:
+- name: Weiwei Zhu
+  email: weiweizhu@missouri.edu
+  affiliation: Division of Plant Science &amp; Technology, University of Missouri,
+    Columbia, MO, USA
+  primaryContact: true
+- name: Jin Zhang
+  email: zhangj@zafu.edu.cn
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI) State Key Laboratory of Subtropical Silviculture,
+    College of Forestry and Biotechnology, Zhejiang A&amp;F University, Hangzhou,
+    Zhejiang 311300, China.
+  primaryContact: false
+- name: Pradeep Prabhaker
+  email: pkpccrc@uga.edu
+  affiliation: Complex Carbohydrate Research Center, University of Georgia, Athens,
+    GA, USA. Department of Biochemistry and Molecular Biology, University of Georgia,
+    Athens, GA 30602, USA.
+  primaryContact: false
+- name: On Chan Yen
+  affiliation: MU Institute for Data Science and Informatics, University of Missouri,
+    Columbia, MO, USA
+  primaryContact: false
+- name: Rachel Weber
+  affiliation: Division of Plant Science &amp; Technology, University of Missouri,
+    Columbia, MO, USA.
+  primaryContact: false
+- name: Ganesh Panzade
+  affiliation: MU Institute for Data Science and Informatics, University of Missouri,
+    Columbia, MO, USA.
+  primaryContact: false
+- name: Connor Cooper
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Russell Davidson
+  email: davidsonrb@ornl.gov
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Jerry Parks
+  email: parksjm@ornl.gov
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Breanna Urbanowicz
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Gerald Tuskan
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Trupti Joshi
+  email: joshitr@health.missouri.edu
+  affiliation: MU Institute for Data Science and Informatics, University of Missouri,
+    Columbia, MO, USA. Christopher S. Bond Life Sciences Center and Department of
+    Biomedical Informatics, Biostatistics, and Medical Epidemiology, University of
+    Missouri, Columbia, MO, USA.
+  primaryContact: false
+- name: Richard Dixon
+  affiliation: BioDiscovery Institute and Department of Biological Sciences, University
+    of North Texas, Denton, TX, USA.
+  primaryContact: false
+- name: Wellington Muchero
+  email: mucherow@ornl.gov
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Jaime Barros
+  email: jaime.barros@missouri.edu
+  affiliation: Division of Plant Science &amp; Technology, University of Missouri,
+    Columbia, MO, USA
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER)
+keywords:
+- Poplar
+- lignin composition
+- laccases
+- latitude
+- adaptation
+- CBI
+identifier: https://www.osti.gov/biblio/2522827
+dataset_url: https://labkey.ornl.gov/labkey/CBI/Tuskan/PUBLIC_DATA/barros_2025/project-begin.view?
+description: Lignin composition plays a crucial role in plant structural integrity
+  and environmental adaptation. However, the genetic and molecular mechanisms underlying
+  natural variation in lignin composition remain poorly understood. This study investigates
+  the syringyl-to-guaiacyl (S/G) lignin monomer ratio across a natural population
+  of Populus trichocarpa spanning a latitudinal gradient along the Northwest coast
+  of North America. By integrating biochemical, genomic, and geographic analysis,
+  we identify key gene variants associated with S/G ratio differences. These datasets
+  provide valuable insights into the evolutionary and functional genomics of lignin
+  composition and serve as a resource for developing poplar variants optimized for
+  forestry and bioenergy applications.
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/2522827
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2522827
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.197Z'

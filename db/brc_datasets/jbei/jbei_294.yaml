@@ -1,0 +1,79 @@
+id: jbei:294
+brc: JBEI
+date: '2017-03-30'
+title: He_et al_2017
+creator:
+- name: Edward Baidoo
+  email: eebaidoo@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00294
+repository: ICE
+datasetName: He_et al_2017
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/294
+description: This dataset provides two plasmids used to engineer *E. coli* for a study
+  on metabolic flux adjustments during fermentation. The research focused on deciphering
+  how these engineered cells respond and adapt to changing growth conditions. These
+  materials are relevant for investigating metabolic engineering and cellular adaptation
+  in microbial systems.
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pETM6-E12-vioABECD
+  promoters: []
+  description: 'Deciphering flux adjustments of engineered E. coli cells during
+
+    fermentation with changing growth conditions
+
+
+    This project was funded by the National Science Foundation
+
+    through Grants MCB 1616619 and DBI1356669 to YJT and MCB
+
+    1448657 to MK. The LC-MS work was performed at the Joint
+
+    BioEnergy Institute supported by the US Department of Energy,
+
+    Office of Science, and Office of Biological and Environmental
+
+    Research, through Contract DE-AC02-05CH11231 between Lawrence
+
+    Berkeley National Laboratory and the US Department of Energy.'
+  selection_markers:
+  - none
+- backbone: pETM6-vioABECD
+  promoters: []
+  description: 'Deciphering flux adjustments of engineered E. coli cells during
+
+    fermentation with changing growth conditions
+
+
+    This project was funded by the National Science Foundation
+
+    through Grants MCB 1616619 and DBI1356669 to YJT and MCB
+
+    1448657 to MK. The LC-MS work was performed at the Joint
+
+    BioEnergy Institute supported by the US Department of Energy,
+
+    Office of Science, and Office of Biological and Environmental
+
+    Research, through Contract DE-AC02-05CH11231 between Lawrence
+
+    Berkeley National Laboratory and the US Department of Energy.'
+  selection_markers:
+  - amp
+bibliographicCitation: https://public-registry.jbei.org/folders/294
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00294
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

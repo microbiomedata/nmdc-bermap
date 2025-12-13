@@ -1,0 +1,235 @@
+id: jbei:98
+brc: JBEI
+date: '2013-07-29'
+title: Bi et al. 2013
+creator:
+- name: Changhao Bi
+  email: changhaobi@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 303
+  scientificName: Pseudomonas putida
+keywords: []
+identifier: jbei:folder:00098
+repository: ICE
+datasetName: Bi et al. 2013
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/98
+description: This dataset comprises 30 bacterial expression vectors designed to optimize
+  production of alkanes via the aar-adc pathway. The collection systematically varies
+  key regulatory elements on broad-host-range backbones, including inducible promoters
+  (e.g., PBAD, PlacUV5), ribosome binding sites, and TrfA copy-number mutations. Parallel
+  constructs expressing a red fluorescent protein (RFP) reporter are included for
+  system characterization.
+relatedItem:
+- title: 'Bi, C., Su, P., Müller, J., Yeh, Y.C., Chhabra, S.R., Beller, H.R., Singer,
+    S.W., and Hillson, N.J. (2013) Development of a broad-host synthetic biology toolbox
+    for ralstonia eutropha and its application to engineering hydrocarbon biofuel
+    production. Microbial Cell Factories 12:107. DOI: 10.1186/1475-2859-12-107.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors:
+- name: Nathan Hillson
+  email: njhillson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pCM271rfp
+  promoters:
+  - pBAD
+  description: pCMrfp with TrfA mutation (271R to C). AddGene sequencing QC indicates
+    that there is a R149H mutation in RFP in this construct.
+  selection_markers:
+  - tetracycline
+- backbone: pCM291rfp
+  promoters:
+  - pBAD
+  description: pCMrfp with TrfA mutation (291Q to G)
+  selection_markers:
+  - tetracycline
+- backbone: pKTrfp
+  promoters:
+  - pBAD
+  description: Derived from pKT230;  cmR; PBAD - rfp
+  selection_markers:
+  - Chloramphenicol
+- backbone: pCM273rfp
+  promoters:
+  - pBAD
+  description: pCMrfp with TrfA mutation (273R to C)
+  selection_markers:
+  - tetracycline
+- backbone: pBADTcalRBSrfp
+  promoters:
+  - pBad
+  description: Derived from pBBR1MCS;  kanR, PBAD - T7 stem loop – CalRBS - rfp
+  selection_markers:
+  - kan
+- backbone: pCMrfp
+  promoters:
+  - pBAD
+  description: Derived from pCM62; ampR, tetR, PBAD - rfp
+  selection_markers:
+  - tetracycline
+- backbone: pYIUV5Trfp
+  promoters:
+  - lac UV5
+  description: Derived from pBBR1MCS;  kanR, lacY, lacIq, PlacUV5 - T7 stem loop –
+    rfp
+  selection_markers:
+  - kan
+- backbone: pBADTrfp
+  promoters:
+  - pBAD
+  description: Derived from pBBR1MCS;  kanR, PBAD - T7 stem loop – rfp
+  selection_markers:
+  - kan
+- backbone: pXylsTrfp
+  promoters:
+  - pXyl/Pm
+  description: Derived from pBBR1MCS;  kanR, PXyl/Pm - T7 stem loop – rfp
+  selection_markers:
+  - kan
+- backbone: pIUV5Trfp
+  promoters:
+  - lac UV5
+  description: Derived from pBBR1MCS;  kanR, lacIq, PlacUV5 - T7 stem loop – rfp
+  selection_markers:
+  - kan
+- backbone: pBADTHC
+  promoters:
+  - pBad
+  description: Derived from pBBR1MCS;  kanR, PBAD- T7 stem loop – aar-adc
+  selection_markers:
+  - kan
+- backbone: pBADT7Trfp
+  promoters:
+  - T7
+  description: Derived from pBBR1MCS;  kanR, T7 polymerase, T7 promoter - T7 stem
+    loop – rfp
+  selection_markers:
+  - kan
+- backbone: pBADHC
+  promoters:
+  - pBad
+  description: Derived from pBBR1MCS;  kanR, PBAD – aar-adc
+  selection_markers:
+  - kan
+- backbone: pKTTHC
+  promoters:
+  - pBad
+  description: Derived from pKT230;  cmR; PBAD- T7 stem loop  – aar-adc
+  selection_markers:
+  - Chloramphenicol
+- backbone: pCMTHC
+  promoters:
+  - pBad
+  description: Derived from pCM62; ampR, tetR, PBAD - T7 stem loop – aar-adc
+  selection_markers:
+  - tetracycline
+- backbone: pCM271TcalRBSHC
+  promoters:
+  - pBad
+  description: Derived from pCMrfp271; ampR, tetR, PBAD - T7 stem loop – CalRBS- aar-adc
+  selection_markers:
+  - tetracycline
+- backbone: pUV5Trfp
+  promoters:
+  - lac UV5
+  description: Derived from pBBR1MCS;  kanR, PlacUV5 - T7 stem loop – rfp
+  selection_markers:
+  - kan
+- backbone: pYIUVT5HC
+  promoters:
+  - PLacUV5
+  description: Derived from pBBR1MCS;  kanR, lacY, lacIq, PlacUV5 - T7 stem loop –
+    aar-adc
+  selection_markers:
+  - kan
+- backbone: pBADTnrdDRBSrfp
+  promoters:
+  - pBad
+  description: pBBR1MCS;  kanR, PBAD - T7 stem loop – NrdDRBS - rfp
+  selection_markers:
+  - kan
+- backbone: pBADTCalRBSHC
+  promoters:
+  - pBad
+  description: Derived from pBBR1MCS;  kanR, PBAD - T7 stem loop – CalRBS - aar-adc
+  selection_markers:
+  - kan
+- backbone: pXylsTHC
+  promoters:
+  - pXyl/Pm
+  description: Derived from pBBR1MCS;  kanR, PXyl/Pm- T7 stem loop – aar-adc
+  selection_markers:
+  - kan
+- backbone: pBADTNrdDRBSHC
+  promoters:
+  - pBad
+  description: Derived from pBBR1MCS;  kanR, PBAD- T7 stem loop – NrdDRBS- aar-adc
+  selection_markers:
+  - kan
+- backbone: pCM271THC
+  promoters:
+  - pBad
+  description: Derived from pCMrfp271; ampR, tetR, PBAD - T7 stem loop – aar-adc
+  selection_markers:
+  - tetracycline
+- ori: pcm62 (incP)
+  backbone: pCM271Trfp
+  promoters:
+  - pBad
+  description: pCM62 derivative; pCMTrfp with TrfA R271C mutation
+  selection_markers:
+  - Tet
+- backbone: pProErfp
+  promoters: []
+  description: PBADrfp derivative; PproE_rfp
+  selection_markers:
+  - Kanamycin
+- backbone: pTetTrfp
+  promoters: []
+  description: pBADTrfp derivative; Ptet_T7 stem loop_rfp
+  selection_markers:
+  - Kanamycin
+- ori: pcm62 (incP)
+  backbone: pCM271TcalRBSrfp
+  promoters:
+  - pBad
+  description: pCM271rfp derivative; PBAD_T7 stem loop_calRBS_rfp
+  selection_markers:
+  - Tet
+- ori: RSF1010 (IncQ)
+  backbone: pKTTrfp
+  promoters:
+  - pBad
+  description: pKT230 derivative; cmR; PBAD_ T7 stem loop _rfp
+  selection_markers:
+  - Chloramphenicol
+- ori: pcm62 (incP)
+  backbone: pCMTrfp
+  promoters:
+  - pBad
+  description: pCM62 derivative; PBAD_ T7 stem loop _rfp
+  selection_markers:
+  - Tet
+- backbone: pProSrfp
+  promoters: []
+  description: PBADrfp derivative; PproS_rfp
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/98
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00098
+created_at: '2025-11-18T20:03:56.767Z'
+updated_at: '2025-12-11T00:00:04.619Z'

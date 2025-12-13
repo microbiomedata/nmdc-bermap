@@ -1,0 +1,65 @@
+id: jbei:228
+brc: JBEI
+date: '2015-11-11'
+title: Eudes et al 2015b
+creator:
+- name: Dominique Loque
+  email: dloque@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+keywords:
+- Yeast
+- and Benzoyl Anthranilates
+- Dihydrocinnamoyl
+- Biosynthesis of Cinnamoyl
+identifier: jbei:folder:00228
+repository: ICE
+datasetName: Eudes et al 2015b
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/228
+description: 'This dataset contains a plasmid designed for the biosynthesis of specialized
+  secondary metabolites. The plasmid co-expresses two key enzymes: 4-coumaroyl:CoA
+  ligase (4CL5) from *Arabidopsis thaliana* and hydroxycinnamoyl/benzoyl-CoA:anthranilate
+  N-hydroxycinnamoyl/benzoyltransferase (HCBT). In this engineered two-step pathway,
+  4CL5 generates various CoA esters which are subsequently coupled to anthranilate
+  by HCBT.'
+relatedItem:
+- title: Eudes, A., Teixeira Benites, V., Wang, G., Baidoo, E. E. K., Lee, T. S.,
+    Keasling, J. D., &amp; Loque, D. (2015). Precursor-Directed Combinatorial Biosynthesis
+    of Cinnamoyl, Dihydrocinnamoyl, and Benzoyl Anthranilates in Saccharomyces cerevisiae.
+    PloS One, 10(10), e0138972. Eudes, A., Baidoo, E. E. K., Yang, F., Burd, H., Hadi,
+    M. Z., Collins, F. W., et al. (2011). Production of tranilast [N-(3“,4-”dimethoxycinnamoyl)-anthranilic
+    acid] and its analogs in yeast Saccharomyces cerevisiae. Applied Microbiology
+    and Biotechnology, 89(4), 989–1000.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: 2 micron and pUC57
+  backbone: pDRf1-HCBTb1b2-pHXT7-4CL5
+  promoters:
+  - pPMA1
+  - pHXT7
+  - pURA3
+  description: "HCBT: hydroxycinnamoyl/benzoyl-CoA:anthranilate N-hydroxy- cinnamoyl/\
+    \ benzoyltransferase (HCBT), which couples hydroxycinnamoyl-CoAs and benzoyl-CoAs\
+    \ to anthranilate. \n4CL5: 4-coumaroyl:CoA ligase from Arabidopsis thaliana which\
+    \ generates cinnamoyl-CoA dihydrocinnamoyl-CoA, and benzoyl-CoA from cinnamate,\
+    \ dihydrocinnamate, and benzoate and SH-CoA"
+  selection_markers: []
+bibliographicCitation: https://public-registry.jbei.org/folders/228
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00228
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

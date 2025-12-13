@@ -1,0 +1,35 @@
+id: jbei:259
+brc: JBEI
+date: '2016-09-02'
+title: Sun et al. 2016
+creator:
+- name: Jian Sun
+  email: jiansun@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species: []
+keywords: []
+identifier: jbei:folder:00259
+repository: ICE
+datasetName: Sun et al. 2016
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/259
+description: null
+relatedItem:
+- title: Jian Sun, N.V.S.N. Murthy Konda, Jian Shi, Ramakrishnan Parthasarathi, Tanmoy
+    Dutta, Feng Xu, Corinne D. Scown, Blake A. Simmons, Seema Singh,CO2 enabled process
+    consolidation for the production of cellulosic ethanol in bionic liquids,Energy
+    &amp; Environmental Science,2016,9, 2822-2834
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features: []
+bibliographicCitation: https://public-registry.jbei.org/folders/259
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00259
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

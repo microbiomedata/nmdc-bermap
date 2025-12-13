@@ -1,0 +1,41 @@
+brc: GLBRC
+date: '2024-02-07'
+title: Yeast Macroecology 2023
+creator:
+- name: Antonis Rokas
+  email: antonis.rokas@vanderbilt.edu
+  affiliation: Department of Biological SciencesVanderbilt University Nashville TN
+    37235 USA
+  primaryContact: true
+- name: Chris Todd Hittinger
+  email: cthittinger@wisc.edu
+  affiliation: GLBRC - University of Wisconsin-Madison
+  primaryContact: false
+species: []
+keywords:
+- Biodiversity
+- Ecosystem
+- Climate
+- Forests
+- Carbon
+- Yeasts
+- Ai
+- biogeography
+- fungi
+- latitudinal species gradient
+- macroecology
+identifier: Yeast_Macroecology_2023/25145819
+repository: FigShare
+description: Intermediate data files that can be used to reproduce Data for [Saccharomycotina
+  yeasts defy long-standing macroecological patterns](https://doi.org/10.1073/pnas.2316031121)
+relatedItem:
+- title: Convergent expansions of keystone gene families drive metabolic innovation
+    in Saccharomycotina yeasts
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.pnas.org/doi/10.1073/pnas.2316031121
+analysisType: Data files
+bibliographicCitation: https://figshare.com/articles/dataset/Yeast_Macroecology_2023/25145819
+schema_version: 0.1.7
+uid: GLBRC_Yeast_Macroecology_2023/25145819
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.197Z'

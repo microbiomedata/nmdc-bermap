@@ -1,0 +1,45 @@
+brc: GLBRC
+date: '2025-02-20'
+title: Study of the effect of the trancription factor SARO_RS14285 in aromatics degradation
+  in Novosphingobium aromaticivorans
+creator:
+- name: Timothy J. Donohue
+  email: tdonohue@bact.wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: true
+- name: Daniel R. Noguera
+  email: dnoguera@wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: false
+species:
+- NCBITaxID: 279238
+  scientificName: Novosphingobium aromaticivorans DSM12444
+keywords:
+- transcriptomics
+- aromatics
+- Novosphingobium aromaticivorans
+identifier: 'PRJNA1226177 '
+repository: NCBI BioProject
+description: 'Novosphingobium aromaticivorans DSM12444 is a bacterium capable of catabolizing
+  several lignin aromatics. A main degradation pathway for these compounds is the
+  protocatechuate (PCA) meta-cleavage. Nevertheless, the transcriptional regulation
+  of this pathway is still unknown. Immediately upstream of the genes encoding the
+  enzymes for this pathway, the LysR-type transcription factor (LTTF) SARO_RS14285
+  was identified. To evaluate the functionality of this LTTF, a deletion mutant was
+  constructed. A transcriptomic analysis of the mutant strain cultured in several
+  aromatic compounds is included in this report. Overall design: RNA-seq profiling
+  of the WT and the deletion mutant cultured in minimal medium with glucose and one
+  of the following aromatics: protocatechuic acid (PCA), 4-coumaric acid (4-CA), vanillic
+  acid (VA) or syringic acid (SA).'
+relatedItem:
+- title: Transcriptomic data sets for Novosphingobium aromaticivorans DSM12444 and
+    a ΔSARO_RS14285 mutant grown in the presence of glucose and either protocatechuic,
+    vanillic, syringic, or 4-coumaric acid
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://journals.asm.org/doi/10.1128/mra.00264-25
+analysisType: RNA-seq
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1226177
+schema_version: 0.1.7
+uid: 'GLBRC_PRJNA1226177 '
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.198Z'

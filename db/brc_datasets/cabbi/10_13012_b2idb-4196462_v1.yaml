@@ -1,0 +1,46 @@
+brc: CABBI
+date: '2021-02-19'
+title: Characterization of the Ghd8 Flowering Time Gene in a Mini-Core Collection
+  of Miscanthus sinensis
+creator:
+- name: Erik Sacks
+  email: esacks@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 62337
+  scientificName: Miscanthus sinensis
+keywords:
+- Miscanthus
+- Gene expression
+- Protein types
+identifier: 10.13012/B2IDB-4196462_V1
+repository: Illinois Data Bank
+description: The optimal flowering time for bioenergy crop miscanthus is essential
+  for environmental adaptability and biomass accumulation. However, little is known
+  about how genes controlling flowering in other grasses contribute to flowering regulation
+  in miscanthus. Here, we report on the sequence characterization and gene expression
+  of Miscanthus sinensisGhd8, a transcription factor encoding a HAP3/NF-YB DNA-binding
+  domain, which has been identified as a major quantitative trait locus in rice, with
+  pleiotropic effects on grain yield, heading date and plant height. In M. sinensis,
+  we identified two homoeologous loci, MsiGhd8A located on chromosome 13 and MsiGhd8B
+  on chromosome 7, with one on each of this paleo-allotetraploid species’ subgenomes.
+  A total of 46 alleles and 28 predicted protein sequence types were identified in
+  12 wild-collected accessions. Several variants of MsiGhd8 showed a geographic and
+  latitudinal distribution. Quantitative real-time PCR revealed that MsiGhd8 expressed
+  under both long days and short days, and MsiGhd8B showed a significantly higher
+  expression than MsiGhd8A. The comparison between flowering time and gene expression
+  indicated that MsiGhd8B affected flowering time in response to day length for some
+  accessions. This study provides insight into the conserved function of Ghd8 in the
+  Poaceae, and is an important initial step in elucidating the flowering regulatory
+  network of Miscanthus.
+relatedItem:
+- title: Characterization of the Ghd8 Flowering Time Gene in a Mini-Core Collection
+    of Miscanthus sinensis
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.3390/genes12020288
+bibliographicCitation: https://doi.org/10.13012/B2IDB-4196462_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-4196462_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

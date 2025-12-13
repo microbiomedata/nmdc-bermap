@@ -1,0 +1,144 @@
+id: jbei:811
+brc: JBEI
+date: '2023-03-20'
+title: Eng-Banerjee et al 2023, pca/indg PSP
+creator:
+- name: Thomas Eng
+  email: tteng@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 286
+  scientificName: Pseudomonas
+- NCBITaxID: 303
+  scientificName: Pseudomonas putida
+- scientificName: Pseudomonas stutzeri
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- Cpf1
+- indigoidine
+- allelic exchange
+- gRNA
+- CRISPR
+- recombineering
+identifier: jbei:folder:00811
+repository: ICE
+datasetName: Eng-Banerjee et al 2023, pca/indg PSP
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/811
+description: This collection comprises 11 plasmids designed for CRISPR-based genome
+  engineering in *Pseudomonas*. The vectors utilize both active Cpf1 (aCpf1) for targeted
+  gene knockouts and deactivated Cpf1 (dCpf1) for multiplexed CRISPR interference
+  (CRISPRi). The set includes tools for metabolic engineering, featuring plasmids
+  for indigoidine production and a growth-coupled design for synthesizing p-coumaric
+  acid (pCA).
+relatedItem:
+- title: Full recombineering protocol described here https://sites.google.com/lbl.gov/tteng/p-putida-transformation-protocols/ssdna-recombineering?authuser=0
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Targeted Locus (Loci)
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: BBR1
+  backbone: pTE715
+  promoters:
+  - pJ23119
+  - LacM
+  description: pTE715 RBS-opt-aCpf1 gRNA-PP_0158 Kan LacI-
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: pTE714
+  promoters:
+  - pJ23119
+  - LacM
+  description: pTE714 RBS-opt-aCpf1 gRNA-PP_0597 Kan SacB LacI-
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: pTE609
+  promoters:
+  - LacM
+  - pJ23119
+  description: pTE609 RBSopt-aCpf1 PP_4373 fleQ-gRNA BBR1 KanR LacI-
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: pTE449
+  promoters:
+  - pJ23119
+  - LacM
+  description: pTE449 (small insertion) RBSopt-dCpf1 PmeI-gRNA BBR1 KanR LacI-
+  selection_markers:
+  - KanR
+- ori: ColE1
+  backbone: pTE597 / pAC44
+  promoters:
+  - BADp
+  description: This allelic exchange vector was derived from pTE302 and is a variant
+    indigoidine production plasmid containing glnA from Pseudomonas stutzeri RCH2
+    as the third gene in the operon. All genes are expressed by the BAD promoter.
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: pTE460
+  promoters:
+  - pJ23119
+  - pLacM
+  description: pTE460 RBSopt-aCpf1 PP_0944-gRNA BBR1 KanR LacI-
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: pTE459
+  promoters:
+  - PJ23119
+  - LacM
+  description: pTE459 RBSopt-aCpf1 gRNA-PP_1378 single BBR1 KanR LacI-
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: pTE461
+  promoters:
+  - pJ23119
+  - LacM
+  description: pTE461 RBSopt-aCpf1 PP_1755-gRNA BBR1 KanR LacI-
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: pTE325
+  promoters:
+  - '23119'
+  - LacM
+  description: Multiplex CRISPRi plasmid for Design 1 of the growth coupled pCA/indigoidine
+    implementation
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pTE359
+  promoters:
+  - pJ21339
+  - LacM
+  description: Design II of the pCA/indigoidine growth coupled multiplex CRISPRi/dCpf1
+    strategy
+  selection_markers:
+  - KanR
+- ori: BBR1
+  backbone: pTE433-beta
+  promoters:
+  - '23119'
+  - LacM
+  description: Empty vector plasmid pTE433-beta used to assemble targeted gRNAs for
+    DSB activity at user-defined sequences. Cut the plasmid with PmeI-AgeI or amplify
+    with oligos TEAM-1212/1213. After purification assemble with desired gRNA for
+    recombineering.
+  selection_markers:
+  - Kan
+bibliographicCitation: https://public-registry.jbei.org/folders/811
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00811
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

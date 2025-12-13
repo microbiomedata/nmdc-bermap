@@ -1,0 +1,36 @@
+brc: GLBRC
+date: '2023-02-10'
+title: Terpene addition Sorghum
+creator:
+- name: Greg Bonito
+  email: bonito@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+- name: Björn Hamberger
+  email: hamberge@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Multiple species, metagenome
+keywords:
+- amplicon sequencing
+- bacterial 16S rDNA
+- fungal ITS rDNA
+- monoterpene
+- root microbiome
+- sesquiterpene
+identifier: PRJNA933671
+repository: NCBI BioProject
+description: Examining the effects of terpene addition on the microbial community
+  in Sorghum belowground compartments
+relatedItem:
+- title: Terpenes modulate bacterial and fungal growth and sorghum rhizobiome communities
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://journals.asm.org/doi/10.1128/spectrum.01332-23#con6
+analysisType: Amplicon sequencing reads; metagenome
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA933671
+schema_version: 0.1.7
+uid: GLBRC_PRJNA933671
+created_at: '2025-11-19T18:00:04.599Z'
+updated_at: '2025-12-10T06:00:05.197Z'

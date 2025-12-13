@@ -1,0 +1,26 @@
+brc: GLBRC
+date: '2023-10-27'
+title: 'RomeroLab/SAMPLE_code: Publication-Ready Release'
+creator:
+- name: Philip A. Romero
+  email: philip.romero@duke.edu
+  affiliation: Biomedical Engineering, Duke University, Durham, North Carolina, USA
+  primaryContact: true
+species: []
+keywords: []
+identifier: 10.5281/zenodo.10048592
+repository: Zenodo
+description: As of the time of publication of the SAMPLE paper, this is all the code
+  used to run the robot, analyze the resulting data, and prepare figures that are
+  in the final paper.
+relatedItem:
+- title: J.T. Rapp et al. "Self-driving laboratories to autonomously navigate the
+    protein fitness landscape" Nature Chemical Engineering 1:97 (2024) [DOI:10.1038/s44286-023-00002-4]
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.nature.com/articles/s44286-023-00002-4
+analysisType: Code
+bibliographicCitation: https://doi.org/10.5281/zenodo.10048592
+schema_version: 0.1.7
+uid: GLBRC_10.5281/zenodo.10048592
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.197Z'

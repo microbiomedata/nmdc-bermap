@@ -1,0 +1,881 @@
+id: jbei:822
+brc: JBEI
+date: '2023-10-06'
+title: DNAda paper
+creator:
+- name: Zahmiria Bluesky Johnson
+  email: zjohnson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Alberto Nava
+  email: aanava@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- 2021 pks library build
+identifier: jbei:folder:00822
+repository: ICE
+datasetName: DNAda paper
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/822
+description: This dataset contains 120 plasmids from the "DNAda paper" for applications
+  in bioenergy research. A significant number of these constructs are expression vectors
+  designed for recombinant protein production. These plasmids commonly feature an
+  N-terminal 6X-His-TEV tag, enabling standardized affinity purification and subsequent
+  removal of the tag from the target protein.
+relatedItem: []
+analysisType: affinity_purification
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: colE1; CEN/ARS
+  backbone: pAN_00876
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00853
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00857
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00856
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00862
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00851
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00813
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00829
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00874
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00734
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00760
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00717
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00728
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00709
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00716
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00707
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00730
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00729
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00708
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00702
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00706
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00701
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00705
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00700
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00699
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00698
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00703
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00690
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00689
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00691
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00687
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00681
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00682
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00688
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00680
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00672
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00673
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00666
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00665
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00664
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00662
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00661
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00663
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00650
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00649
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00648
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00659
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00656
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00651
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00647
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00646
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00643
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00640
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00641
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00644
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00639
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00638
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00642
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00635
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00636
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00634
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00637
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00633
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00628
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00626
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00632
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00630
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00625
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00624
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00623
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00619
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00617
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00621
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00618
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00589
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00616
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00579
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00588
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00572
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00511
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00564
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00520
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00531
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00569
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00496
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00510
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00503
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00488
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00486
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00484
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00508
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00505
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00476
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00478
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00465
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00436
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00449
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00489
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00437
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00419
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00420
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00426
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00418
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00415
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00407
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00413
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00435
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00405
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00385
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00298
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00369
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00370
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00275
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00297
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00112
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00043
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00005
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00384
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00257
+  promoters:
+  - lacUV5
+  description: NaN
+  selection_markers:
+  - kan
+- ori: colE1; CEN/ARS
+  backbone: pAN_00096
+  promoters:
+  - T7
+  description: 6X-His-TEV Tag on N-terminus
+  selection_markers:
+  - kan
+bibliographicCitation: https://public-registry.jbei.org/folders/822
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00822
+created_at: '2025-11-18T20:03:56.772Z'
+updated_at: '2025-12-11T00:00:04.623Z'

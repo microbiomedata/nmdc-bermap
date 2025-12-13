@@ -1,0 +1,70 @@
+id: jbei:246
+brc: JBEI
+date: '2016-06-09'
+title: Lizka et al 2016
+creator:
+- name: Kevin George
+  email: kwgeorge@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Aram Kang
+  email: akang@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- 3A
+identifier: jbei:folder:00246
+repository: ICE
+datasetName: Lizka et al 2016
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/246
+description: This dataset provides two expression plasmids designed to optimize the
+  mevalonate (MVA) pathway for isoprenoid biosynthesis. The constructs express key
+  MVA pathway enzymes (MevTsa, MK, PMK, PMD) and feature the recombinant nudix hydrolase
+  rNudB to improve metabolic flux by degrading inhibitory pyrophosphate intermediates.
+  One plasmid, pTrc99a-rNudB-PMD, is a modified construct derived from the JBEI-4087
+  vector.
+relatedItem:
+- title: George, K. W., Chen, A., Jain, A., Batth, T. S., Baidoo, E. E., Wang, G.,
+    Adams, P. D., Petzold, C. J., Keasling, J. D., &amp; Lee, T. S. (2014). “Correlation
+    analysis of targeted proteins and metabolites to assess and engineer microbial
+    isopentenol production”. Biotechnol Bioeng, 111(8), 1648-1658.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: George, K. W., Chen, A., Jain, A., Batth, T. S., Baidoo, E. E., Wang, G.,
+    Adams, P. D., Petzold, C. J., Keasling, J. D., &amp; Lee, T. S. (2014). “Correlation
+    analysis of targeted proteins and metabolites to assess and engineer microbial
+    isopentenol production”. Biotechnol Bioeng, 111(8), 1648-1658. Also used in Shi,
+    J., George, K. W., Sun, N., He, W., Li, C., Stavila, V., Keasling, J. D., Simmons,
+    B. A., Lee, T. S., &amp; Singh, S. (2015). "Impact of Pretreatment Technologies
+    on Saccharification and Isopentenol Fermentation of Mixed Lignocellulosic Feedstocks".
+    BioEnergy Research, 1-10. doi, 10.1007/s12155-015-9588-z http://dx.doi.org/10.1007/s12155-015-9588-z
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: MevTsa-MKco-PMKco
+  promoters: []
+  description: MevTsa with MKco-PMKco
+  selection_markers:
+  - Cm
+- backbone: pARK-ISP-1
+  promoters: []
+  description: pTrc99a-rNudB-PMD; modified from JBEI-4087; EcoRI-BglII-RBS sequence
+    from bglbricks at the upstream of NudB CDS and BamHI-XhoI restriction enzyme site
+    at the downstream of NudB CDS
+  selection_markers:
+  - Ampicillin
+bibliographicCitation: https://public-registry.jbei.org/folders/246
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00246
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

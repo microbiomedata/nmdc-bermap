@@ -1,0 +1,54 @@
+brc: CABBI
+date: '2020-01-17'
+title: The Impact of Stand Age and Fertilization on the Soil Microbiome of Miscanthus
+  × giganteus
+creator:
+- name: Adina Howe
+  email: adina@iastate.edu
+  affiliation: Iowa State University
+  primaryContact: true
+species:
+- NCBITaxID: 183674
+  scientificName: Miscanthus x giganteus
+keywords:
+- microbiome
+- Miscanthus x giganteus
+- soil bacterial community structure
+- nitrogen response
+identifier: nmdc:sty-11-vh2hty57
+repository: National Microbiome Data Collaborative
+description: Yield of the perennial grass Miscanthus × giganteus has shown an inconsistent
+  and unpredictable response to nitrogen (N) fertilizer, yet fertilization underpins
+  the crop’s environmental and economic sustainability. The interactions among soil
+  microbial communities, N availability, and Miscanthus × giganteus and management
+  may explain changes in plant productivity. In this study, soil samples from different
+  stand ages of Miscanthus × giganteus in a replicated chronosequence field trial
+  were used to investigate the effects of stand age and N fertilizer rates on microbial
+  community structure. We hypothesized that there is a definable Miscanthus × giganteus
+  soil microbiome and that this community varies significantly with stand age and
+  fertilization. Our results showed that the main phyla in soil microbial communities,
+  regardless of plant age, are similar but microbial community structures are significantly
+  different. The variation in observed microbial communities generally decreases with
+  older stand ages. The amount of N fertilizer applied also affected the microbial
+  community structure associated with different aged Miscanthus × giganteus. Specifically,
+  the relative abundance of Proteobacteria (Alphaproteobacteria and Gammaproteobacteria)
+  and Acidobacteria (subgroup Gp1) increased shortly after fertilization and was more
+  associated with younger Miscanthus × giganteus. Furthermore, our results show a
+  significant relationship between bacterial α diversity and fertilization rates and
+  that this response is also affected by stand age. Overall, our results emphasize
+  linkages between microbial community structure, plant age, and fertilization in
+  Miscanthus × giganteus.
+relatedItem:
+- title: The Impact of Stand Age and Fertilization on the Soil Microbiome of Miscanthus
+    × giganteus
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1094/PBIOMES-01-20-0014-FI
+- title: Soil Bacterial Microbial Community Associated with Miscanthus giganteus Sequencing
+    Data
+  relatedItemType: Dataset
+  relatedItemIdentifier: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA601860/
+bibliographicCitation: https://data.microbiomedata.org/details/study/nmdc:sty-11-vh2hty57
+schema_version: 0.1.1
+uid: CABBI_nmdc:sty-11-vh2hty57
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

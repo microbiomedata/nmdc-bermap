@@ -1,0 +1,403 @@
+id: jbei:437
+brc: JBEI
+date: '2019-03-26'
+title: Nora_et_al_2019
+creator:
+- name: Luisa Czamanski Nora
+  email: lcnora@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Angela Tarver
+  email: amtarver@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 5286
+  scientificName: Rhodosporidium toruloides
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00437
+repository: ICE
+datasetName: Nora_et_al_2019
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/437
+description: This dataset contains 58 dual-reporter plasmids designed to screen for
+  and characterize the activity of putative promoter elements. The plasmids incorporate
+  various intergenic and upstream genomic regions, with most cloned in both forward
+  (FW) and reverse (RV) orientations to systematically test for bidirectional promoter
+  function. The collection includes a known GAPDH promoter as a control, enabling
+  a comprehensive analysis of gene regulation.
+relatedItem: []
+analysisType: Expression profiling
+contributors:
+- name: Robert Evans
+  email: rse@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+- name: Robert Evans
+  email: Escherichia coli
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pVS1 oriV
+  backbone: 939244_882334_intergenic_RV
+  promoters: []
+  description: dual_reporter vector with 939244-882334_intergenic_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: 907093_957091_intergenic_RV
+  promoters: []
+  description: dual_reporter vector with 907093-957091_intergenic_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: 901123_upstream_225bp_RV
+  promoters: []
+  description: dual_reporter vector with 901123_upstream_225bp_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: 528078_955376_intergenic_RV
+  promoters: []
+  description: dual_reporter vector with 528078-955376_intergenic_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: 954791_898916_intergenic_RV
+  promoters: []
+  description: dual_reporter vector with 954791-898916_intergenic_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: 956312_upstream_RV
+  promoters: []
+  description: dual_reporter vector with 956312_upstream_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: 864008_upstream_573bp_RV
+  promoters: []
+  description: dual_reporter vector with 864008_upstream_573bp_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: 393806_896133_intergenic_RV
+  promoters: []
+  description: dual_reporter vector with 393806-896133_intergenic_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_910373_957980_RV
+  promoters: []
+  description: dual_reporter vector with RTO3_910373-957980_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_947134_RV
+  promoters: []
+  description: dual_reporter vector with RTO3_947134_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: 894205_894206_intergenic_RV
+  promoters: []
+  description: dual_reporter vector with 894205-894206_intergenic_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_918680_918676_RV
+  promoters: []
+  description: dual_reporter vector with RTO3_918680-918676_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_897781_RV
+  promoters: []
+  description: dual_reporter vector with RTO3_897781_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: 876864_upstream_1kbp_RV
+  promoters: []
+  description: dual_reporter vector with 876864_upstream_1kbp_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_956621_RV
+  promoters: []
+  description: dual_reporter vector with RTO3_956621_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_897758_RV
+  promoters: []
+  description: dual_reporter vector with RTO3_897758_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_903413_903417_short_RV
+  promoters: []
+  description: dual_reporter vector with RTO3_903413-903417_short_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_899252_RV
+  promoters: []
+  description: dual_reporter vector with RTO3_899252_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_953517_953518_RV
+  promoters: []
+  description: dual_reporter vector with RTO3_953517-953518_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_903413_903417_long_RV
+  promoters: []
+  description: dual_reporter vector with RTO3_903413-903417_long_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_893291_893294_RV
+  promoters: []
+  description: dual_reporter vector with RTO3_893291-893294_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_906435_RV
+  promoters: []
+  description: dual_reporter vector with RTO3_906435_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_894745_894744_RV
+  promoters: []
+  description: dual_reporter vector with RTO3_894745-894744_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: GAPDH_promoter_RV
+  promoters: []
+  description: dual_reporter vector with GAPDH_promoter_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_914310_RV
+  promoters: []
+  description: dual_reporter vector with RTO3_914310_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_880855_RV
+  promoters: []
+  description: dual_reporter vector with RTO3_880855_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_917545_RV
+  promoters: []
+  description: dual_reporter vector with RTO3_917545_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_908567_908568_RV
+  promoters: []
+  description: dual_reporter vector with RTO3_908567-908568_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: 907093_957091_intergenic_FW
+  promoters: []
+  description: dual_reporter vector with 907093-957091_intergenic_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: 939244_882334_intergenic_FW
+  promoters: []
+  description: dual_reporter vector with 939244-882334_intergenic_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_959308_915227_RV
+  promoters: []
+  description: dual_reporter vector with RTO3_959308-915227_RV
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: 956312_upstream_FW
+  promoters: []
+  description: dual_reporter vector with 956312_upstream_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: 954791_898916_intergenic_FW
+  promoters: []
+  description: dual_reporter vector with 954791-898916_intergenic_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: 901123_upstream_225bp_FW
+  promoters: []
+  description: dual_reporter vector with 901123_upstream_225bp_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: 864008_upstream_573bp_FW
+  promoters: []
+  description: dual_reporter vector with 864008_upstream_573bp_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: 528078_955376_intergenic_FW
+  promoters: []
+  description: dual_reporter vector with 528078-955376_intergenic_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: 393806_896133_intergenic_FW
+  promoters: []
+  description: dual_reporter vector with 393806-896133_intergenic_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_910373_957980_FW
+  promoters: []
+  description: dual_reporter vector with RTO3_910373-957980_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_918680_918676_FW
+  promoters: []
+  description: dual_reporter vector with RTO3_918680-918676_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: 894205_894206_intergenic_FW
+  promoters: []
+  description: dual_reporter vector with 894205-894206_intergenic_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: 876864_upstream_1kbp_FW
+  promoters: []
+  description: dual_reporter vector with 876864_upstream_1kbp_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_947134_FW
+  promoters: []
+  description: dual_reporter vector with RTO3_947134_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_956621_FW
+  promoters: []
+  description: dual_reporter vector with RTO3_956621_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_897758_FW
+  promoters: []
+  description: dual_reporter vector with RTO3_897758_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_953517_953518_FW
+  promoters: []
+  description: dual_reporter vector with RTO3_953517-953518_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_897781_FW
+  promoters: []
+  description: dual_reporter vector with RTO3_897781_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_903413_903417_short_FW
+  promoters: []
+  description: dual_reporter vector with RTO3_903413-903417_short_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_903413_903417_long_FW
+  promoters: []
+  description: dual_reporter vector with RTO3_903413-903417_long_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_899252_FW
+  promoters: []
+  description: dual_reporter vector with RTO3_899252_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_893291_893294_FW
+  promoters: []
+  description: dual_reporter vector with RTO3_893291-893294_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_894745_894744_FW
+  promoters: []
+  description: dual_reporter vector with RTO3_894745-894744_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_906435_FW
+  promoters: []
+  description: dual_reporter vector with RTO3_906435_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: GAPDH_promoter_FW
+  promoters: []
+  description: dual_reporter vector with GAPDH_promoter_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_914310_FW
+  promoters: []
+  description: dual_reporter vector with RTO3_914310_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_880855_FW
+  promoters: []
+  description: dual_reporter vector with RTO3_880855_FW. RNAseq data predicts RTO3_880855
+    is a strong single direction promoter.
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_917545_FW
+  promoters: []
+  description: dual_reporter vector with RTO3_917545_FW
+  selection_markers:
+  - Kanamycin
+- backbone: RTO3_959308_915227_FW
+  promoters: []
+  description: dual_reporter vector with RTO3_959308-915227_FW
+  selection_markers:
+  - Kanamycin
+- ori: pVS1 oriV
+  backbone: RTO3_908567_908568_FW
+  promoters: []
+  description: dual_reporter vector with RTO3_908567-908568_FW
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/437
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00437
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

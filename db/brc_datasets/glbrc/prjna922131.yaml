@@ -1,0 +1,28 @@
+brc: GLBRC
+date: '2023-01-09'
+title: ' Arabidopsis thaliana strain:Col-3 Raw sequence reads'
+creator:
+- name: Federica Brandizzi
+  email: fb@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+species:
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+keywords: []
+identifier: PRJNA922131
+repository: NCBI BioProject
+description: We performed RNA sequencing (RNA-seq) analyses in Col-0 and tgnap1-2
+  at 24 h of treatment with Pst DC3000 in three biological replicates. Mock controls,
+  which were treated with 10 mM MgCl2, were included.
+relatedItem:
+- title: Defense against phytopathogens relies on efficient antimicrobial protein
+    secretion mediated by the microtubule-binding protein TGNap1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.nature.com/articles/s41467-023-41807-4
+analysisType: raw sequence reads; RNA-seq
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA922131
+schema_version: 0.1.7
+uid: GLBRC_PRJNA922131
+created_at: '2025-11-19T18:00:04.599Z'
+updated_at: '2025-12-10T06:00:05.197Z'

@@ -1,0 +1,46 @@
+brc: CABBI
+date: '2021-07-17'
+title: Cloning and Characterization of a Panel of Mitochondrial Targeting Sequences
+  for Compartmentalization Engineering in Saccharomyces cerevisiae
+creator:
+- name: Huimin Zhao
+  email: zhao5@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- Saccharomyces cerevisiae
+- Metabolic engineering
+- Mitochondrial targeting sequences
+identifier: 10.13012/B2IDB-3316538_V1
+repository: Illinois Data Bank
+description: Mitochondrion is generally considered as the most promising subcellular
+  organelle for compartmentalization engineering. Much progress has been made in reconstituting
+  whole metabolic pathways in the mitochondria of yeast to harness the precursor pools
+  (i.e., pyruvate and acetyl-CoA), bypass competing pathways, and minimize transportation
+  limitations. However, only a few mitochondrial targeting sequences (MTSs) have been
+  characterized (i.e., MTS of COX4), limiting the application of compartmentalization
+  engineering for multigene biosynthetic pathways in the mitochondria of yeast. In
+  the present study, based on the mitochondrial proteome, a total of 20 MTSs were
+  cloned and the efficiency of these MTSs in targeting heterologous proteins, including
+  the Escherichia coli FabI and enhanced green fluorescence protein (EGFP) into the
+  mitochondria was evaluated by growth complementation and confocal microscopy. After
+  systematic characterization, six of the well-performed MTSs were chosen for the
+  colocalization of complete biosynthetic pathways into the mitochondria. As proof
+  of concept, the full α-santalene biosynthetic pathway consisting of 10 expression
+  cassettes capable of converting acetyl-coA to α-santalene was compartmentalized
+  into the mitochondria, leading to a 3.7-fold improvement in the production of α-santalene.
+  The newly characterized MTSs should contribute to the expanded metabolic engineering
+  and synthetic biology toolbox for yeast mitochondrial compartmentalization engineering.
+relatedItem:
+- title: Cloning and Characterization of a Panel of Mitochondrial Targeting Sequences
+    for Compartmentalization Engineering in Saccharomyces cerevisiae
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1002/bit.27896
+bibliographicCitation: https://doi.org/10.13012/B2IDB-3316538_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-3316538_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

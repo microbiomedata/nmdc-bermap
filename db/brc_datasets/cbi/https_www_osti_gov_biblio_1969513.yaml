@@ -1,0 +1,50 @@
+brc: CBI
+date: '2023-04-13'
+title: Geographic coordinates of Populus Trichocarpa genets used in common gardens
+  established and maintained by the Center for Bio energy Innovation. (CBI)
+active: true
+creator:
+- name: Steve Difazio
+  primaryContact: true
+- name: Gancho Slavov
+  primaryContact: false
+- name: Lee Gunter
+  primaryContact: false
+- name: Tongming Yin
+  primaryContact: false
+- name: Xiaohan Yang
+  primaryContact: false
+- name: Nancy Engle
+  primaryContact: false
+- name: Brian Stanton
+  primaryContact: false
+- name: Stan Wullschleger
+  primaryContact: false
+- name: Stanton Martin
+  email: martins@ornl.gov
+  primaryContact: false
+- name: Gerald Tuskan
+  email: tuskanga@ornl.gov
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC)
+keywords:
+- Populus Trichocarpa genets locations
+identifier: https://www.osti.gov/biblio/1969513
+dataset_url: https://fair.ornl.gov/poplar/poplar_genets.htm
+description: This data set contains the geographic coordinates of the GWAS population
+  described in Tuskan et. al, 2011 and Evans, et. al, 2014. These genotypes have been
+  used in numerous experiments since then, and have been propogated in common gardens.
+  The most recent common garden geo referenced dataset for Davis, California is also
+  available.
+relatedItem:
+- relatedItemType: JournalArticle
+  relatedItemIdentifier: 10.1038/ng.3075
+- relatedItemType: JournalArticle
+  relatedItemIdentifier: 10.25983/1846744
+bibliographicCitation: https://doi.org/10.25983/1969513
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/1969513
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

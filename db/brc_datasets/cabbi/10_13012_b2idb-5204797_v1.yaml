@@ -1,0 +1,51 @@
+brc: CABBI
+date: '2020-10-22'
+title: Enhanced 2′-Fucosyllactose Production by Engineered Saccharomyces cerevisiae
+  using Xylose as a Co-Substrate
+creator:
+- name: Yong-Su Jin
+  email: ysjin@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- Bioproducts
+- Saccharomyces cerevisiae
+- Genome engineering
+identifier: 10.13012/B2IDB-5204797_V1
+repository: Illinois Data Bank
+description: 2′-Fucosyllactose (2′-FL), a human milk oligosaccharide with confirmed
+  benefits for infant health, is a promising infant formula ingredient. Although Escherichia
+  coli, Saccharomyces cerevisiae, Corynebacterium glutamicum, and Bacillus subtilis
+  have been engineered to produce 2′-FL, their titers and productivities need be improved
+  for economic production. Glucose along with lactose have been used as substrates
+  for producing 2′-FL, but accumulation of by-products due to overflow metabolism
+  of glucose hampered efficient production of 2′-FL regardless of a host strain. To
+  circumvent this problem, we used xylose, which is the second most abundant sugar
+  in plant cell wall hydrolysates and is metabolized through oxidative metabolism,
+  for the production of 2′-FL by engineered yeast. Specifically, we modified an engineered
+  S. cerevisiae strain capable of assimilating xylose to produce 2′-FL from a mixture
+  of xylose and lactose. First, a lactose transporter (Lac12) from Kluyveromyces lactis
+  was introduced. Second, a heterologous 2′-FL biosynthetic pathway consisting of
+  enzymes Gmd, WcaG, and WbgL from E. coli was introduced. Third, we adjusted expression
+  levels of the heterologous genes to maximize 2′-FL production. The resulting engineered
+  yeast produced 25.5 g/L of 2′-FL with a volumetric productivity of 0.35 g/L∙h in
+  a fed-batch fermentation with lactose and xylose feeding to mitigate the glucose
+  repression. Interestingly, the major location of produced 2′-FL by the engineered
+  yeast can be changed using different culture media. While 72% of the produced 2′-FL
+  was secreted when a complex medium was used, 82% of the produced 2′-FL remained
+  inside the cells when a minimal medium was used. As yeast extract is already used
+  as food and animal feed ingredients, 2′-FL enriched yeast extract can be produced
+  cost-effectively using the 2′-FL-accumulating yeast cells.
+relatedItem:
+- title: Enhanced 2′-Fucosyllactose Production by Engineered Saccharomyces cerevisiae
+    Using Xylose as a Co-Substrate
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1016/j.ymben.2020.10.003
+bibliographicCitation: https://doi.org/10.13012/B2IDB-5204797_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-5204797_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

@@ -1,0 +1,36 @@
+brc: CABBI
+date: '2023-04-01'
+title: 'CCDC 2233284: Experimental Crystal Structure Determination'
+creator:
+- name: Zhao, Huimin
+  email: zhao5@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+keywords:
+- chemical diagram
+- catalysis
+identifier: '2233284'
+repository: The Cambridge Crystallographic Data Centre
+description: Herein we report that ene reductases (EREDs) can facilitate an unprecedented
+  intramolecular β-C−H functionalization reaction for the synthesis of bridged bicyclic
+  nitrogen heterocycles containing the 6-azabicyclo[3.2.1]octane scaffold. To streamline
+  the synthesis of these privileged motifs, we developed a gram-scale one-pot chemoenzymatic
+  cascade by combining iridium photocatalysis with EREDs, using readily available
+  N-phenylglycines and cyclohexenones that can be obtained from biomass. Further derivatization
+  using enzymatic or chemical methods can convert 6-azabicyclo[3.2.1]octan-3-one into
+  6-azabicyclo[3.2.1]octan-3α-ols, which can be potentially utilized for the synthesis
+  of azaprophen and its analogues for drug discovery. Mechanistic studies revealed
+  the reaction requires oxygen, presumably to produce oxidized flavin, which can selectively
+  dehydrogenate the 3-substituted cyclohexanone derivatives to form the α,β-unsaturated
+  ketone, which subsequently undergoes spontaneous intramolecular aza-Michael addition
+  under basic conditions.
+relatedItem:
+- title: Ene Reductase Enabled Intramolecular β-C−H Functionalization of Substituted
+    Cyclohexanones for Efficient Synthesis of Bridged Bicyclic Nitrogen Scaffolds
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1002/anie.202302125
+bibliographicCitation: https://doi.org/10.5517/ccdc.csd.cc2dyxfq
+schema_version: 0.1.1
+uid: CABBI_2233284
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.628Z'

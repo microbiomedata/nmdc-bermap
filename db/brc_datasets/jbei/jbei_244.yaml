@@ -1,0 +1,879 @@
+id: jbei:244
+brc: JBEI
+date: '2016-06-01'
+title: Shih et al., 2016
+creator:
+- name: Patrick Shih
+  email: pmshih@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- '{L_AtIRT1.1}'
+- '{P_AtCesA7}'
+- '{P_AtPht1.1}'
+- '{C_synVioA}'
+- '{P_At2S3}'
+- '{C_GFP}'
+- pms008
+- '{L_AtUbq3}'
+- '{P_AtSAG12}'
+- '{P_TobRB7}'
+- '{T_AtHY5}'
+- '{P_AtUbq10}'
+- '{P_AtNST1}'
+- '{L_AtWRKY6}'
+- '{P_AtJAL34}'
+- '{P_AtC4H}'
+- '{T_AtVND6}'
+- '{L_AtSAG12}'
+- '{T_AtWRKY6}'
+- '{C_c3-EcDXS}'
+- '{L_AtAct2}'
+- pms028
+- '{L_At2g45430}'
+- '{C_synVioE}'
+- '{L_AtUbq10}'
+- '{L_tOcs}'
+- '{PU_CYP86B1_at5g23190}'
+- 1301Y
+- '{T_tAtHsp}'
+- '{T_tNos}'
+- '{C_dsRed}'
+- '{P_AtUbq3}'
+- '{L_AtASFT}'
+- '{PU_CYP705A1_at4g15330}'
+- '{PU_GPAT5_at3g11430}'
+- '{L_AtCASP1}'
+- '{PU_Casp1_At2g36100}'
+- '{L_tAtHsp}'
+- '{P_AtFBA2}'
+- '{P_AtAct2}'
+- '{P_SlE8}'
+- '{T_AtNST1}'
+- '{L_AtFBA2}'
+- '{L_AtVND6}'
+- '{P_AtVND7}'
+- '{P_AtHY5}'
+- '{L_AtHsp70}'
+- '{T_tAtRbcS}'
+- '{T_At3g24240}'
+- '{P_AtIrx5}'
+- '{C_synBisSyn}'
+- '{C_synVioC}'
+- '{PU_FAR4_at3g44540}'
+- 2301Y
+- '{PU_KCR1_at1g67730}'
+- '{T_AtASFT}'
+- '{T_AtUbq3}'
+- '{P_MAS}'
+- '{P_AtBch1}'
+- '{P_AtVND6}'
+- '{C_GUS}'
+- '{P_AtC4H_short}'
+- '{P_AtPYK10}'
+- '{T_tG7}'
+- '{T_AtVND7}'
+- '{PU_ASFT_at5g41040}'
+- '{T_AtFBA2}'
+- '{P_AtIrx8}'
+- '{PU_HORST_at5g58860}'
+- '{C_synVioB}'
+- '{P_AtAMT1.1}'
+- '{P_OsHPX1}'
+- '{P_ZmUBQ1}'
+- '{L_AtHY5}'
+- '{P_AtHsp18}'
+- 3301Y
+- '{L_AtVND7}'
+- '{L_At3g24240}'
+- '{T_AtHsp18.2}'
+- '{L_AtPYK10}'
+- '{L_AtNST1}'
+- '{L_AtHsp18.2}'
+- '{P_At2g45430}'
+- '{T_AtSAG12}'
+- '{T_AtAct2}'
+- '{P_AtIRT1.1}'
+- '{T_AtPYK10}'
+- '{C_c1-synBisSyn}'
+- '{P_AtWRKY6}'
+- '{T_AtBch1}'
+- '{PU_DAISY_at1g04220}'
+- '{T_AtCASP1}'
+- '{P_AtPht1.4}'
+- '{L_AtJAL34}'
+- '{L_AtPht1.4}'
+- '{L_AtPht1.1}'
+- '{T_AtKCR1}'
+- '{L_At2S3}'
+- '{C_synVioD}'
+- '{L_tG7}'
+- '{C_c2-EcFPPS}'
+- '{T_AtJAL34}'
+- '{T_MAS}'
+- '{P_nos}'
+- '{L_AtIRT1.2}'
+- '{T_At2S3}'
+- '{C_sfGFP}'
+- '{T_AtHsp70}'
+- '{P_AtRbcs1A}'
+- '{T_AtIRT1.2}'
+- '{L_MAS}'
+- '{P_AtHsp70}'
+- '{L_tAtRbcS}'
+- '{C_GFP_attEpitope}'
+- '{P_At3g24240}'
+- '{L_AtBch1}'
+- '{T_At2g45430}'
+- '{L_AtAMT1.1}'
+- '{L_AtAMT1.3}'
+- '{L_AtKCR1}'
+identifier: jbei:folder:00244
+repository: ICE
+datasetName: Shih et al., 2016
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/244
+description: This dataset provides a collection of 120 plasmids designed for plant
+  synthetic biology using a Golden Gate modular cloning framework. The library contains
+  a comprehensive toolkit of genetic parts, including promoters, coding sequences,
+  and terminators, primarily from *Arabidopsis thaliana*. These components are involved
+  in diverse biological processes such as nutrient transport, cell wall biosynthesis,
+  and metabolic engineering, facilitating the rapid construction of complex genetic
+  circuits for expression in plants.
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: ColEI
+  backbone: pms5917
+  promoters: []
+  description: BsaI, {C_c1-synBisSyn}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6438
+  promoters: []
+  description: BsaI, {L_AtIRT1.1}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms5916
+  promoters: []
+  description: BsaI, {C_synBisSyn}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6439
+  promoters: []
+  description: BsaI, {L_AtIRT1.2}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms5925
+  promoters: []
+  description: BsaI, {C_c2-EcFPPS}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6437
+  promoters: []
+  description: BsaI, {L_AtPht1.4}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6434
+  promoters: []
+  description: BsaI, {L_AtAMT1.1}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6436
+  promoters: []
+  description: BsaI, {L_AtPht1.1}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6433
+  promoters: []
+  description: BsaI, {T_AtIRT1.2}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6435
+  promoters: []
+  description: BsaI, {L_AtAMT1.3}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6426
+  promoters: []
+  description: BsaI, {P_AtIRT1.1}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6422
+  promoters: []
+  description: BsaI, {P_AtAMT1.1}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6425
+  promoters: []
+  description: BsaI, {P_AtPht1.4}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6418
+  promoters: []
+  description: BsaI, {L_AtASFT}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6424
+  promoters: []
+  description: BsaI, {P_AtPht1.1}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6417
+  promoters: []
+  description: BsaI, {L_AtKCR1}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6416
+  promoters: []
+  description: BsaI, {L_AtCASP1}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6414
+  promoters: []
+  description: BsaI, {L_AtUbq10}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6413
+  promoters: []
+  description: BsmBI, {L_AtFBA2}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6412
+  promoters: []
+  description: BsaI, {L_At2S3}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6411
+  promoters: []
+  description: BsaI, {L_AtHsp70}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6410
+  promoters: []
+  description: BsaI, {T_AtASFT}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6409
+  promoters: []
+  description: BsaI, {T_AtKCR1}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6408
+  promoters: []
+  description: BsaI, {T_AtCASP1}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6404
+  promoters: []
+  description: BsaI, {T_AtHsp70}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6405
+  promoters: []
+  description: BsaI, {T_At2S3}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6406
+  promoters: []
+  description: BsmBI, {T_AtFBA2}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6400
+  promoters: []
+  description: BsmBI, {L_AtNST1}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6401
+  promoters: []
+  description: BsaI, {L_AtSAG12}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6402
+  promoters: []
+  description: BsaI, {L_AtVND6}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6403
+  promoters: []
+  description: BsaI, {L_AtVND7}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6399
+  promoters: []
+  description: BsaI, {T_AtVND7}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6398
+  promoters: []
+  description: BsaI, {T_AtVND6}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6395
+  promoters: []
+  description: BsaI, {P_AtVND7}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6396
+  promoters: []
+  description: BsmBI, {T_AtNST1}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6397
+  promoters: []
+  description: BsaI, {T_AtSAG12}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6394
+  promoters: []
+  description: BsaI, {P_AtVND6}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6126
+  promoters: []
+  description: BbsI, {P_AtCesA7}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6117
+  promoters: []
+  description: BsmBI, {P_AtIrx8}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6393
+  promoters: []
+  description: BsaI, {P_AtSAG12}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6392
+  promoters: []
+  description: BsaI, {P_AtNST1}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms6116
+  promoters: []
+  description: BsaI, {P_AtIrx5}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms5928
+  promoters: []
+  description: BsaI, {C_c3-EcDXS}
+  selection_markers:
+  - Kanamycin
+- ori: ColEI
+  backbone: pms5878
+  promoters: []
+  description: BsaI, {P_ZmUBQ1}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms5842
+  promoters: []
+  description: BsaI, {P_TobRB7}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms5841
+  promoters: []
+  description: BsaI, {P_OsHPX1}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms5792
+  promoters: []
+  description: BsaI, {P_SlE8}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms5460
+  promoters: []
+  description: BsaI, {C_GUS}
+  selection_markers:
+  - Carbenicillin
+- ori: ColEI
+  backbone: pms008
+  promoters: []
+  description: pms008
+  selection_markers:
+  - Chloremphenicol
+- ori: p15
+  backbone: pms028
+  promoters: []
+  description: pms028
+  selection_markers:
+  - Chloremphenicol
+- ori: ColEI
+  backbone: pms5124
+  promoters: []
+  description: BsmBI, {C_dsRed}
+  selection_markers:
+  - Carbenicillin
+- ori: pBR322
+  backbone: 3301Y
+  promoters: []
+  description: 3301Y
+  selection_markers:
+  - Kanamycin
+- ori: ColEI
+  backbone: pms5793
+  promoters: []
+  description: BsaI, {T_tG7}
+  selection_markers:
+  - Amp
+- ori: pBR322
+  backbone: 2301Y
+  promoters: []
+  description: 2301Y
+  selection_markers:
+  - Kanamycin
+- ori: ColEI
+  backbone: pms5794
+  promoters: []
+  description: BsaI, {L_tG7}
+  selection_markers:
+  - Amp
+- ori: pBR322
+  backbone: 1301Y
+  promoters: []
+  description: 1301Y
+  selection_markers:
+  - Kanamycin
+- ori: ColEI
+  backbone: pms5210
+  promoters: []
+  description: BsaI, {C_synVioE}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5209
+  promoters: []
+  description: BsaI, {C_synVioD}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5208
+  promoters: []
+  description: BsaI, {C_synVioC}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5133
+  promoters: []
+  description: BsaI, {PU_FAR4_at3g44540}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5206
+  promoters: []
+  description: BsaI, {C_synVioA}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5207
+  promoters: []
+  description: BsaI, {C_synVioB}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5131
+  promoters: []
+  description: BsaI, {PU_GPAT5_at3g11430}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5132
+  promoters: []
+  description: BsaI, {PU_ASFT_at5g41040}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5130
+  promoters: []
+  description: BsmBI, {PU_CYP705A1_at4g15330}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5128
+  promoters: []
+  description: BsmBI, {PU_HORST_at5g58860}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5129
+  promoters: []
+  description: BsmBI, {PU_CYP86B1_at5g23190}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5126
+  promoters: []
+  description: BsaI, {PU_DAISY_at1g04220}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5127
+  promoters: []
+  description: BsaI, {PU_KCR1_at1g67730}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5125
+  promoters: []
+  description: BsaI, {PU_Casp1_At2g36100}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5108
+  promoters: []
+  description: BsaI, {L_At2g45430}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5109
+  promoters: []
+  description: BsaI, {L_AtHY5}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5106
+  promoters: []
+  description: BsaI, {L_AtWRKY6}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5105
+  promoters: []
+  description: BsaI, {L_AtJAL34}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5107
+  promoters: []
+  description: BsmBI, {L_At3g24240}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5104
+  promoters: []
+  description: BsaI, {L_AtPYK10}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5103
+  promoters: []
+  description: BsaI, {L_AtUbq3}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5102
+  promoters: []
+  description: BsaI, {L_AtHsp18.2}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5101
+  promoters: []
+  description: BsaI, {L_AtBch1}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5100
+  promoters: []
+  description: BsaI, {L_AtAct2}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5098
+  promoters: []
+  description: BsaI, {T_At2g45430}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5097
+  promoters: []
+  description: BsmBI, {T_At3g24240}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5099
+  promoters: []
+  description: BsaI, {T_AtHY5}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5096
+  promoters: []
+  description: BsaI, {T_AtWRKY6}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5095
+  promoters: []
+  description: BsaI, {T_AtJAL34}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5092
+  promoters: []
+  description: BsaI, {T_AtHsp18.2}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5093
+  promoters: []
+  description: BsaI, {T_AtUbq3}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5094
+  promoters: []
+  description: BsaI, {T_AtPYK10}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5091
+  promoters: []
+  description: BsaI, {T_AtBch1}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5087
+  promoters: []
+  description: BsaI, {P_At3g24240}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5089
+  promoters: []
+  description: BsaI, {P_AtHY5}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5088
+  promoters: []
+  description: BsaI, {P_At2g45430}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5086
+  promoters: []
+  description: BsaI, {P_AtWRKY6}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5090
+  promoters: []
+  description: BsaI, {T_AtAct2}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5085
+  promoters: []
+  description: BsaI, {P_AtJAL34}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5083
+  promoters: []
+  description: BsaI, {P_AtUbq3}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5081
+  promoters: []
+  description: BsaI, {P_At2S3}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5082
+  promoters: []
+  description: BsaI, {P_AtBch1}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5084
+  promoters: []
+  description: BsaI, {P_AtPYK10}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5080
+  promoters: []
+  description: BsaI, {P_AtAct2}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5079
+  promoters: []
+  description: BsaI, {P_AtHsp70}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5078
+  promoters: []
+  description: BsaI, {P_AtHsp18}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5072
+  promoters: []
+  description: BsaI, {C_sfGFP}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5077
+  promoters: []
+  description: BsaI, {P_AtUbq10}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5071
+  promoters: []
+  description: BsaI, {C_GFP_attEpitope}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5070
+  promoters: []
+  description: BsaI, {C_GFP}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5066
+  promoters: []
+  description: BsaI, {T_MAS}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5067
+  promoters: []
+  description: BsaI, {L_tAtHsp}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5068
+  promoters: []
+  description: BsaI, {L_tAtRbcS}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5069
+  promoters: []
+  description: BsaI, {L_MAS}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5064
+  promoters: []
+  description: BsaI, {T_tAtHsp}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5060
+  promoters: []
+  description: BsaI, {P_AtC4H_short}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5063
+  promoters: []
+  description: BsaI, {P_MAS}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5062
+  promoters: []
+  description: BsaI, {P_nos}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5065
+  promoters: []
+  description: BsaI, {T_tAtRbcS}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5057
+  promoters: []
+  description: BsmBI, {P_AtFBA2}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5056
+  promoters: []
+  description: BsaI, {T_tNos}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5058
+  promoters: []
+  description: BsmBI, {P_AtRbcs1A}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5059
+  promoters: []
+  description: BsaI, {P_AtC4H}
+  selection_markers:
+  - Amp
+- ori: ColEI
+  backbone: pms5055
+  promoters: []
+  description: BsaI, {L_tOcs}
+  selection_markers:
+  - Amp
+bibliographicCitation: https://public-registry.jbei.org/folders/244
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00244
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

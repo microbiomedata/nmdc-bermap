@@ -1,0 +1,37 @@
+brc: GLBRC
+date: '2022-10-10'
+title: Plant Terpenoid Permeability through Biological Membranes Explored via Molecular
+  Simulations
+creator:
+- name: Josh V. Vermaas
+  email: vermaasj@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+- name: Björn Hamberger
+  email: hamberge@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: false
+species: []
+keywords:
+- Terpenes
+- Plants/metabolism
+- Cell Membrane/metabolism
+- Diterpenes/metabolism
+- Carrier Proteins/metabolism
+- Permeability
+identifier: zenodo.7183240
+repository: Zenodo
+description: Input structures for a manuscript, along with selected output data and
+  structures. This directory structure contains a cut-down copy of the directories
+  used to generate the simulation data and the analysis.
+relatedItem:
+- title: Plant terpenoid permeability through biological membranes explored via molecular
+    simulations
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://pubs.acs.org/doi/10.1021/acs.jpcb.2c07209
+analysisType: Code. Molecular simulation
+bibliographicCitation: https://zenodo.org/records/7183240
+schema_version: 0.1.7
+uid: GLBRC_zenodo.7183240
+created_at: '2025-11-19T18:00:04.599Z'
+updated_at: '2025-12-10T06:00:05.197Z'

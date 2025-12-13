@@ -1,0 +1,335 @@
+id: jbei:168
+brc: JBEI
+date: '2015-04-02'
+title: Kung et al. 2014
+creator:
+- name: Yan Kung
+  email: yankung@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Xinkai Xie
+  email: xxie@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 2285
+  scientificName: Sulfolobus acidocaldarius
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00168
+repository: ICE
+datasetName: Kung et al. 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/168
+description: This dataset provides 41 expression plasmids created to investigate the
+  structure-function relationships of geranylgeranyl reductase from *Sulfolobus acidocaldarius*
+  (SaGGR). The collection features an extensive library of SaGGR variants with single
+  and double amino acid substitutions generated via site-directed mutagenesis. Most
+  constructs are in a pSKB3 vector and encode N-terminally His-tagged proteins, facilitating
+  studies of this key enzyme in isoprenoid biosynthesis.
+relatedItem:
+- title: Kung, Y., McAndrew, R. P., Xie, X., Liu, C. C., Pereira, J. H., Adams, P.
+    D., &amp; Keasling, J. D. (2014). “Constructing tailored isoprenoid products by
+    structure-guided modification of geranylgeranyl reductase”. Structure, 22(7),
+    1028-1036. doi, 10.1016/j.str.2014.05.007 http://www.ncbi.nlm.nih.gov/pubmed/24954619
+    http://ac.els-cdn.com/S0969212614001488/1-s2.0-S0969212614001488-main.pdf?_tid=e8b30778-229f-11e4-87e7-00000aacb35e&amp;acdnat=1407903272_3bc55beb4156c75b0a9630583c972fd9
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: affinity_purification
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pSKB3-SaGGR-L78W-I204H
+  promoters:
+  - T7
+  description: pSKB3 with TEV-cleavable, N-terminal His-tagged SaGGR-L78W-I204H mutant
+    gene
+  selection_markers:
+  - kan
+- backbone: pSKB3-SaGGR-L78W-I206F
+  promoters:
+  - T7
+  description: pSKB3 with TEV-cleavable, N-terminal His-tagged SaGGR-L78W-I206F mutant
+    gene
+  selection_markers:
+  - kan
+- backbone: pSKB3-SaGGR-L377H-E381Q
+  promoters:
+  - T7
+  description: pSKB3 with TEV-cleavable, N-terminal His-tagged SaGGR-L377H-E381Q mutant
+    gene
+  selection_markers:
+  - kan
+- backbone: pSKB3-SaGGR-L377H-E381D
+  promoters:
+  - T7
+  description: pSKB3 with TEV-cleavable, N-terminal His-tagged SaGGR-L377H-E381D mutant
+    gene
+  selection_markers:
+  - kan
+- backbone: pSKB3-SaGGR-I206F-L377H
+  promoters:
+  - T7
+  description: pSKB3 with TEV-cleavable, N-terminal His-tagged SaGGR-I206F-L377H mutant
+    gene
+  selection_markers:
+  - kan
+- backbone: pSKB3-SaGGR-I76H-L377H
+  promoters:
+  - T7
+  description: pSKB3 with TEV-cleavable, N-terminal His-tagged SaGGR-I76H-L377H mutant
+    gene
+  selection_markers:
+  - kan
+- backbone: pSKB3-SaGGR-L78W-L202H
+  promoters:
+  - T7
+  description: pSKB3 with TEV-cleavable, N-terminal His-tagged SaGGR-L78W-L202H mutant
+    gene
+  selection_markers:
+  - kan
+- backbone: pSKB3-SaGGR-I76H-L202H
+  promoters:
+  - T7
+  description: pSKB3 with TEV-cleavable, N-terminal His-tagged SaGGR-I76H-L202H mutant
+    gene
+  selection_markers:
+  - kan
+- backbone: pSKB3-SaGGR-I76H-I206F
+  promoters:
+  - T7
+  description: pSKB3 with TEV-cleavable, N-terminal His-tagged SaGGR-I76H-I206F mutant
+    gene
+  selection_markers:
+  - kan
+- backbone: pSKB3-SaGGR-I76H-L78W
+  promoters:
+  - T7
+  description: pSKB3 with TEV-cleavable, N-terminal His-tagged SaGGR-I76H-L78W mutant
+    gene
+  selection_markers:
+  - kan
+- backbone: pSKB3-SaGGR-L202V
+  promoters:
+  - T7
+  description: pSKB3 with TEV-cleavable, N-terminal His-tagged SaGGR-L202V mutant
+    gene
+  selection_markers:
+  - kan
+- backbone: pSKB3-SaGGR-I204H
+  promoters:
+  - T7
+  description: pSKB3 with TEV-cleavable, N-terminal His-tagged SaGGR-I204H mutant
+    gene
+  selection_markers:
+  - kan
+- backbone: pSKB3-SaGGR-I76H-I204H
+  promoters:
+  - T7
+  description: pSKB3 with TEV-cleavable, N-terminal His-tagged SaGGR-I76H-I204H mutant
+    gene
+  selection_markers:
+  - kan
+- backbone: pSKB3-SaGGR-L202T
+  promoters:
+  - T7
+  description: pSKB3 with TEV-cleavable, N-terminal His-tagged SaGGR-L202T mutant
+    gene
+  selection_markers:
+  - kan
+- backbone: pSKB3-SaGGR-L202H
+  promoters:
+  - T7
+  description: pSKB3 with TEV-cleavable, N-terminal His-tagged SaGGR-L202H mutant
+    gene
+  selection_markers:
+  - kan
+- backbone: pSKB3-SaGGR-F219Q
+  promoters:
+  - T7
+  description: pSKB3 with TEV-cleavable, N-terminal His-tagged SaGGR-F219Q mutant
+    gene
+  selection_markers:
+  - kan
+- backbone: pSKB3-SaGGR-I76H
+  promoters:
+  - T7
+  description: pSKB3 with TEV-cleavable, N-terminal His-tagged SaGGR-I76H mutant gene
+  selection_markers:
+  - kan
+- backbone: pSKB3-SaGGR-F219Y
+  promoters:
+  - T7
+  description: pSKB3 with TEV-cleavable, N-terminal His-tagged SaGGR-F219Y mutant
+    gene
+  selection_markers:
+  - kan
+- backbone: pSKB3-SaGGR-F219L
+  promoters:
+  - T7
+  description: pSKB3 with TEV-cleavable, N-terminal His-tagged SaGGR-F219L mutant
+    gene
+  selection_markers:
+  - kan
+- ori: ColE1, pBR3422
+  backbone: pSKB3SaGGR K343A
+  promoters:
+  - T7
+  description: SaGGR site directed mutation of K343A
+  selection_markers:
+  - Kanamycin
+- ori: ColE1, pBR322
+  backbone: pSKB3SaGGR H55A H297A
+  promoters:
+  - T7
+  description: SaGGR site directed mutations of H55A and H297A
+  selection_markers:
+  - Kanamycin
+- backbone: pSKB3-SaGGR-A50G
+  promoters:
+  - T7
+  description: pSKB3 with TEV-cleavable, N-terminal His-tagged SaGGR-A50G mutant gene
+  selection_markers:
+  - kan
+- ori: ColE1, pBR322
+  backbone: pSKB3SaGGR E381R
+  promoters:
+  - T7
+  description: SaGGR site directed mutation of E381R
+  selection_markers:
+  - Kanamycin
+- ori: ColE1, pBR322
+  backbone: pSKB3SaGGR E381K
+  promoters:
+  - T7
+  description: SaGGR site directed mutation of E381K
+  selection_markers:
+  - Kanamycin
+- ori: ColE1, pBR322
+  backbone: pSKB3SaGGR L377K
+  promoters:
+  - T7
+  description: SaGGR site directed mutation of L377K
+  selection_markers:
+  - Kanamycin
+- ori: ColE1, pBR322
+  backbone: pSKB3SaGGR L377H
+  promoters:
+  - T7
+  description: SaGGR site directed mutation of L377H
+  selection_markers:
+  - Kanamycin
+- ori: ColE1, pBR322
+  backbone: pSKB3SaGGR L376W
+  promoters:
+  - T7
+  description: SaGGR site directed mutation of L376W
+  selection_markers:
+  - Kanamycin
+- ori: ColE1, pBR322
+  backbone: pSKB3SaGGR E381H
+  promoters:
+  - T7
+  description: SaGGR site directed mutation of E381H
+  selection_markers:
+  - Kanamycin
+- ori: ColE1, pBR322
+  backbone: pSKB3SaGGR L377R
+  promoters:
+  - T7
+  description: SaGGR site directed mutation of L377R
+  selection_markers:
+  - Kanamycin
+- ori: ColE1, pBR322
+  backbone: pSKB3SaGGR H297A
+  promoters:
+  - T7
+  description: SaGGR site directed mutation of H297A
+  selection_markers:
+  - Kanamycin
+- ori: ColE1, pBR322
+  backbone: pSKB3SaGGR G91H
+  promoters:
+  - T7
+  description: SaGGR site directed mutation of G91H
+  selection_markers:
+  - Kanamycin
+- ori: ColE1, pBR322
+  backbone: pSKB3SaGGR I206F
+  promoters:
+  - T7
+  description: SaGGR site directed mutation of I206F
+  selection_markers:
+  - Kanamycin
+- ori: ColE1, pBR322
+  backbone: pSKB3SaGGR Y215F
+  promoters:
+  - T7
+  description: SaGGR site directed mutation of Y215H
+  selection_markers:
+  - Kanamycin
+- ori: ColE1, pBR322
+  backbone: pSKB3SaGGR Y215A
+  promoters:
+  - T7
+  description: SaGGR site directed mutation of Y215A
+  selection_markers:
+  - Kanamycin
+- ori: ColE1, pBR322
+  backbone: pSKB3SaGGR H55A
+  promoters:
+  - T7
+  description: SaGGR site directed mutation of H55A
+  selection_markers:
+  - Kanamycin
+- ori: ColE1, pBR322
+  backbone: pSKB3SaGGR L78W
+  promoters:
+  - T7
+  description: SaGGR site directed mutation of L78W
+  selection_markers:
+  - Kanamycin
+- ori: ColE1, pBR322
+  backbone: pSKB3SaGGR A54H
+  promoters:
+  - T7
+  description: SaGGR site directed mutation of A54H
+  selection_markers:
+  - Kanamycin
+- ori: ColE1, pBR322
+  backbone: pSKB3SaGGR S52H
+  promoters:
+  - T7
+  description: SaGGR site directed mutation of S52H
+  selection_markers:
+  - Kanamycin
+- ori: ColE1, pBR322
+  backbone: pSKB3SaGGR I76T
+  promoters:
+  - T7
+  description: SaGGR site directed mutation of I76T
+  selection_markers:
+  - Kanamycin
+- ori: ColE1, pBR322
+  backbone: pSKB3SaGGR A50S
+  promoters:
+  - T7
+  description: SaGGR site directed mutation of A50S
+  selection_markers:
+  - Kanamycin
+- ori: ColE1, pBR322
+  backbone: pSKB3TaGGRSaGGR
+  promoters:
+  - T7
+  description: C-terminal sequence of TaGGR replaced with SaGGR cloned under T7
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/168
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00168
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.619Z'

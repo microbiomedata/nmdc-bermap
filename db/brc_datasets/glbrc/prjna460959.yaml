@@ -1,0 +1,40 @@
+brc: GLBRC
+date: '2024-02-27'
+title: Scheffersomyces coipomoensis NRRL Y-17651 Standard Draft genome sequencing
+creator:
+- name: Trey K. Sato
+  email: tksato@glbrc.wisc.edu
+  affiliation: GLBRC - University of Wisconsin-Madison
+  primaryContact: true
+- name: Chris Todd Hittinger
+  email: cthittinger@wisc.edu
+  affiliation: GLBRC - University of Wisconsin-Madison
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Scheffersomyces coipomensis
+keywords:
+- Aeration
+- Cofactors
+- Ethanol
+- Gene expression
+- Serinales (CUG-Ser1 clade)
+- Xylitol
+- Xylitol dehydrogenase
+- Xylose fermentation
+- Xylose reductase
+identifier: 'PRJNA460959 '
+repository: NCBI BioProject
+description: Genome sequencing of yeast species that harbor traits desirable for biofuel
+  production
+relatedItem:
+- title: Oxygenation influences xylose fermentation and gene expression in the yeast
+    genera Spathaspora and Scheffersomyces
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://biotechnologyforbiofuels.biomedcentral.com/articles/10.1186/s13068-024-02467-8
+analysisType: Whole Genome Sequencing
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA460959
+schema_version: 0.1.7
+uid: 'GLBRC_PRJNA460959 '
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.197Z'

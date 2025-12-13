@@ -1,0 +1,102 @@
+id: jbei:356
+brc: JBEI
+date: '2017-07-19'
+title: Goh et al. 2018 B&amp;B
+creator:
+- name: Ee-Been Goh
+  email: egoh@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 164546
+  scientificName: Cupriavidus taiwanensis
+- NCBITaxID: 161544
+  scientificName: Bacillus sp. SG-1
+- NCBITaxID: 3015004
+  scientificName: Psychromonas pacifica
+- NCBITaxID: 1280
+  scientificName: Staphylococcus aureus
+- NCBITaxID: 2148
+  scientificName: Acholeplasma laidlawii
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- Bacillus sp. SG-1 FabG
+- C. taiwanensis FabG
+- P. pacifica FabG
+identifier: jbei:folder:00356
+repository: ICE
+datasetName: Goh et al. 2018 B&amp;B
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/356
+description: This dataset contains seven plasmids designed for metabolic engineering
+  of fatty acid synthesis pathways for biofuel production. The collection enables
+  the comparative expression of 3-ketoacyl-ACP reductase (FabG) orthologs from diverse
+  bacterial species. Key constructs also incorporate a Rex/P_adhE redox-sensing circuit
+  to provide dynamic, NADH-dependent control over gene expression and optimize pathway
+  flux.
+relatedItem: []
+analysisType: Expression profiling
+contributors:
+- name: Ee-Been Goh
+  email: pEG1675
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: p15A
+  backbone: pEG2700
+  promoters:
+  - adhE promoter from S. aureus
+  description: Replaced RFP with FabG from C. taiwanensis
+  selection_markers:
+  - chloramphenicol
+- backbone: pEG2730
+  promoters: []
+  description: Replaced RFP with FabG from Bacillus sp. SG-1
+  selection_markers:
+  - chloramphenicol
+- backbone: pEG2705
+  promoters: []
+  description: Replaced RFP with FabG from P. pacifica
+  selection_markers:
+  - Chloramphenicol
+- ori: ColEI (for E. coli)
+  backbone: pEG2895
+  promoters:
+  - placUV5
+  - ptrc
+  - pBad
+  - padhE
+  description: Version B of the the one MK production plasmid with the rex-padhE-Al_fabG
+    fragment from pEG2695 into pEG1675 at the PsiI site
+  selection_markers: []
+- ori: p15a
+  backbone: pEG2650
+  promoters:
+  - adhE promoter from S. aureus
+  description: Replacing the lacI repressor and lacUV5 promoter with the rex gene
+    (encoding for the redox regulator) and adhE promoter (regulated by Rex) from S.
+    aureus
+  selection_markers: []
+- ori: ColEI (for E. coli)
+  backbone: pEG2826
+  promoters: []
+  description: Added the rex-padhE-Al_fabG fragment from pEG2695 into pEG1675 at the
+    SpeI site
+  selection_markers:
+  - Kanamycin
+- backbone: pEG2695
+  promoters: []
+  description: Plasmid pEG2650 backbone, except that the RFP has been replaced by
+    FabG from A. laidlawii
+  selection_markers: []
+bibliographicCitation: https://public-registry.jbei.org/folders/356
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00356
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

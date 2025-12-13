@@ -1,0 +1,238 @@
+id: jbei:231
+brc: JBEI
+date: '2016-03-02'
+title: Kang et al 2016
+creator:
+- name: Aram Kang
+  email: akang@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Eunmi Kim
+  email: emkim@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Adrienne Schlatter
+  email: afschlatter@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Kevin George
+  email: kwgeorge@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Mary Dunlop
+  email: mjdunlop@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- 2C
+- pTrc99A-NudB-PMD-MKco
+- pTrc99A-NudB-PMD
+- 3C
+identifier: jbei:folder:00231
+repository: ICE
+datasetName: Kang et al 2016
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/231
+description: This collection of 26 plasmids was developed for the metabolic engineering
+  of the mevalonate (MVA) pathway in *Escherichia coli* to improve isoprenoid production.
+  The dataset includes various expression constructs containing MVA pathway genes
+  from *Saccharomyces cerevisiae*, featuring codon-optimized variants, multi-gene
+  operons, and site-directed mutations in phosphomevalonate decarboxylase (PMD) to
+  enhance enzyme function.
+relatedItem:
+- title: Baba et al., 2003 and Datsenko and Wanner, 1997
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: George, K. W., Chen, A., Jain, A., Batth, T. S., Baidoo, E. E., Wang, G.,
+    Adams, P. D., Petzold, C. J., Keasling, J. D., &amp; Lee, T. S. (2014). “Correlation
+    analysis of targeted proteins and metabolites to assess and engineer microbial
+    isopentenol production”. Biotechnol Bioeng, 111(8), 1648-1658.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: George, K. W., Chen, A., Jain, A., Batth, T. S., Baidoo, E. E., Wang, G.,
+    Adams, P. D., Petzold, C. J., Keasling, J. D., &amp; Lee, T. S. (2014). “Correlation
+    analysis of targeted proteins and metabolites to assess and engineer microbial
+    isopentenol production”. Biotechnol Bioeng, 111(8), 1648-1658. Also used in Shi,
+    J., George, K. W., Sun, N., He, W., Li, C., Stavila, V., Keasling, J. D., Simmons,
+    B. A., Lee, T. S., &amp; Singh, S. (2015). "Impact of Pretreatment Technologies
+    on Saccharification and Isopentenol Fermentation of Mixed Lignocellulosic Feedstocks".
+    BioEnergy Research, 1-10. doi, 10.1007/s12155-015-9588-z http://dx.doi.org/10.1007/s12155-015-9588-z
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Baba, T.; Ara, T.; Hasegawa, M.; Takai, Y.; Okumura, Y.; Baba, M.; Datsenko,
+    K. A.; Tomita, M.; Wanner, B. L. &amp; Mori, H. Construction of it E. scherichia
+    coli K-12 in-frame, single-gene knockout mutants: the Keio collection Molecular
+    Systems Biology, 2006'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors:
+- name: Nathan Hillson
+  email: njhillson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pE1a-PMDsc
+  promoters: []
+  description: pEa1-PMDsc
+  selection_markers: []
+- backbone: pSKB3-PMDsc_T209D
+  promoters:
+  - T7
+  description: pSKB3-PMDsc_T209D
+  selection_markers:
+  - Kan
+- backbone: pSKB3-PMDsc_K22M
+  promoters:
+  - T7
+  description: pSKB3-PMDsc_K22M
+  selection_markers:
+  - Kan
+- backbone: pSKB3-PMDsc_R74H
+  promoters:
+  - T7
+  description: pSKB3-PMDsc_R74H
+  selection_markers:
+  - Kan
+- backbone: pSKB3-PMDsc_I145F
+  promoters:
+  - T7
+  description: pSKB3-PMDsc_I145F
+  selection_markers:
+  - Kan
+- backbone: pSKB3-PMDsc
+  promoters:
+  - T7
+  description: pSKB3-PMDsc
+  selection_markers:
+  - Kan
+- backbone: pTrc99a-PMDsc_I145F
+  promoters: []
+  description: pTrc99a-PMDsc_I145F
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99a-PMDsc_R74H
+  promoters: []
+  description: pTrc99a-PMDsc_R74H
+  selection_markers:
+  - Amp
+- backbone: pTrc99a-PMDsc_R74H_I145F
+  promoters: []
+  description: pTrc99a-PMDsc_R74H_I145F
+  selection_markers:
+  - Amp
+- backbone: pTrc99a-PMDse
+  promoters: []
+  description: pTrc99a-PMDse
+  selection_markers:
+  - Ampicillin
+- backbone: pA5c-MevT(o)-T21-MKco-PMKco
+  promoters: []
+  description: pA5c-MevT(o)-T21-MKco-PMKco
+  selection_markers:
+  - Cm
+- backbone: pA5c-MevTo-T21-MKco-AphA
+  promoters: []
+  description: pA5c-MevTo-T21-MKco-PMKco-AphA
+  selection_markers:
+  - Cm
+- backbone: pTrc99a-PMDsc-MKco
+  promoters: []
+  description: pTrc99a-PMDsc-MKco
+  selection_markers:
+  - Amp
+- ori: p15a
+  backbone: pBbA5c-MevTo-MKco
+  promoters: []
+  description: pBbA5c-MevTo-MKco without terminator and promoter
+  selection_markers:
+  - Cm
+- backbone: pTrc99a-PMDhv
+  promoters: []
+  description: pTrc99a-PMDhv
+  selection_markers:
+  - Ampicillin
+- ori: p15a
+  backbone: pA5c-MevT(O)-T21-MKco
+  promoters:
+  - PLacUV5
+  description: MevT(O) = original MevT from S. cerevisiae. MKco= codon-optimized MK
+    from S. cerevisiae. AtoB from E. coli.
+  selection_markers:
+  - Cm
+- backbone: pTrc99a-PMDsc-NudB
+  promoters:
+  - trc
+  description: PMD from S. cerevisiae and NudB from E. coli
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99a-PMDsc
+  promoters: []
+  description: PMD from S. cerevisiae cloned in pTrc99a backbone
+  selection_markers:
+  - Ampicillin
+- backbone: pA5c-MTSA-T21-MKco
+  promoters: []
+  description: pA5c-MTSA-T21-MKco
+  selection_markers:
+  - Cm
+- ori: p15a
+  backbone: pA5c-MevT(CO)-T21-MKco
+  promoters:
+  - PLacUV5
+  description: MevT(CO) contains codon-optimized HMGR and HMGS from S. cerevisiae.
+    MKco = codon-optimized MK
+  selection_markers:
+  - Cm
+- backbone: pA5c-MTDA-T21-MKco
+  promoters: []
+  description: pA5c-MTDA-T21-MKco
+  selection_markers:
+  - Cm
+- backbone: MevTsa-T1002-Ptrc-MKco-PMKco
+  promoters: []
+  description: MevTsa with supplemental trc promoter driving MKco-PMKco
+  selection_markers:
+  - Cm
+- backbone: pTrc99A-NudB-PMD-MKco
+  promoters: []
+  description: PMD-MKco cloned downstream of Howard's NudB construct
+  selection_markers:
+  - Carb
+- ori: p15A
+  backbone: pBbA5c-MevTo-MKco-PMKco
+  promoters:
+  - PlacUV5
+  description: MevT original with MKco and PMKco cloned from pKWG0011.
+  selection_markers:
+  - Cm
+- backbone: pBbA5c-MevTaco-T1002-Ptrc-MKco-PMKco
+  promoters: []
+  description: MevT with codon optimized HMGS and HMGR but original atoB with supplemental
+    trc promoter driving MKco-PMKco
+  selection_markers:
+  - Cm
+- backbone: pTrc99A-NudB-PMD
+  promoters: []
+  description: PMD cloned downstream of Howard's NudB construct
+  selection_markers:
+  - Carb
+bibliographicCitation: https://public-registry.jbei.org/folders/231
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00231
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

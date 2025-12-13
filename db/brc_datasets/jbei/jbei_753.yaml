@@ -1,0 +1,39 @@
+id: jbei:753
+brc: JBEI
+date: '2022-08-17'
+title: Valencia_et_al_2022
+creator:
+- name: Luis Valencia
+  email: levalencia@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Matthias Schmidt
+  email: mschmidt@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Mitchell Thompson
+  email: mthompson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species: []
+keywords: []
+identifier: jbei:folder:00753
+repository: ICE
+datasetName: Valencia_et_al_2022
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/753
+description: null
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features: []
+bibliographicCitation: https://public-registry.jbei.org/folders/753
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00753
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

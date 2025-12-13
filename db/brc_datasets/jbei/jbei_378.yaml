@@ -1,0 +1,358 @@
+id: jbei:378
+brc: JBEI
+date: '2018-03-31'
+title: Ruegg et al. 2018
+creator:
+- name: Thomas Ruegg
+  email: tlruegg@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Joseph Chen
+  email: jcc@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: William Holtz
+  email: wjholtz@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Marijke Frederix
+  email: mfrederix@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 155892
+  scientificName: Caulobacter crescentus
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- PJEx-H2
+- PJEx-L
+- RFP
+- tetR
+- eilR (TR106)
+- eilR (TR80)
+- eilR (TR108)
+- PJEx1
+- PJEx-A1
+- PJEx-D
+- eilR (TR103)
+- RK2
+- eilR (TR111)
+- eilR (TR110)
+- PLtetO
+- PJEx-A2
+- eilR (TR107)
+- PJEx-H1
+identifier: jbei:folder:00378
+repository: ICE
+datasetName: Ruegg et al. 2018
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/378
+description: This dataset provides 37 plasmids centered on the "Jungle Express" system,
+  a set of broad-host-range vectors for crystal violet-inducible gene expression.
+  The collection features a family of EilR-regulated promoters with varying strengths,
+  demonstrated through RFP reporter constructs and vectors for expressing specific
+  genes like *pleC*. It also includes several standard BioBrick and BglBrick vector
+  backbones for general synthetic biology applications.
+relatedItem:
+- title: Ruegg, T. L. et al., Nat. Commun. 9, 3617 (2018) doi.org/10.1038/s41467-018-05857-3
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Frederix, M., Hütter, K., Leu, J., Batth, T. S., Turner, W. J., Rüegg, T.
+    L., Blanch, H. W., Simmons, B. A., Adams, P. D., Keasling, J. D., Thelen, M. P.,
+    Dunlop, M. J., Petzold, C. J., &amp; Mukhopadhyay, A. (2014). “Development of
+    a Native Escherichia coli Induction System for Ionic Liquid Tolerance”. PLoS One,
+    9(7), e101115. doi, 10.1371/journal.pone.0101115 http://dx.doi.org/10.1371%2Fjournal.pone.0101115
+    http://www.plosone.org/article/fetchObject.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0101115&amp;representation=PDF
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Lee TS, Krupa RA, Zhang F, Hajimorad M, Holtz WJ, Prasad N, Lee SK, Keasling
+    JD. BglBrick vectors and datasheets: A synthetic biology platform for gene expression.
+    J Biol Eng. 2011 Sep 20;5:12. doi: 10.1186/1754-1611-5-12.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors:
+- name: Taek Soon Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: p15A
+  backbone: pTR_aJExD-lacZ
+  promoters:
+  - PJExD.gb
+  description: Jungle Express - crystal violet inducible promoters
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pLane-EilR
+  promoters:
+  - N/A
+  description: Jungle Express - crystal violet inducible promoters
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pTR_aJExA1-sacB
+  promoters:
+  - PJExA1.gb
+  description: Jungle Express - crystal violet inducible promoters
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pBbA7k-lacZ
+  promoters:
+  - T7
+  description: Jungle Express - crystal violet inducible promoters
+  selection_markers:
+  - Kanamycin
+- ori: SC101
+  backbone: pTR_sJExA1-sacB
+  promoters:
+  - PJExA1.gb
+  description: Jungle Express - crystal violet inducible promoters
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pTR_eilO1t
+  promoters:
+  - PeilO1t.gb
+  description: Jungle Express - crystal violet inducible promoters
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pTR_aJExD-sacB
+  promoters:
+  - PJExD.gb
+  description: Jungle Express - crystal violet inducible promoters
+  selection_markers:
+  - Kanamycin
+- ori: SC101
+  backbone: pTR_sJExD-sacB
+  promoters:
+  - PJExD.gb
+  description: Jungle Express - crystal violet inducible promoters
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pFABeilO1t
+  promoters:
+  - N/A
+  description: Jungle Express - crystal violet inducible promoters
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pFABeilR
+  promoters:
+  - N/A
+  description: Jungle Express - crystal violet inducible promoters
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pFABeilRig
+  promoters:
+  - N/A
+  description: Jungle Express - crystal violet inducible promoters
+  selection_markers:
+  - Kanamycin
+- ori: SC101
+  backbone: pTR_sJExD-rfp
+  promoters:
+  - PJExD.gb
+  description: Jungle Express - crystal violet inducible promoters
+  selection_markers:
+  - Kanamycin
+- ori: SC101
+  backbone: pTR_sJExA1-rfp
+  promoters:
+  - PJExA1.gb
+  description: Jungle Express - crystal violet inducible promoters
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pTR_aJExH1-rfp
+  promoters:
+  - PJExH1.gb
+  description: Jungle Express - crystal violet inducible promoters
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pTR_aJExL-rfp
+  promoters:
+  - PJExL.gb
+  description: Jungle Express - crystal violet inducible promoters
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pTR_aJExH2-rfp
+  promoters:
+  - PJExH2.gb
+  description: Jungle Express - crystal violet inducible promoters
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pTR_aJExD-rfp
+  promoters:
+  - PJExD.gb
+  description: Jungle Express - crystal violet inducible promoters
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pTR_aJExA2-rfp
+  promoters:
+  - PJExA2.gb
+  description: Jungle Express - crystal violet inducible promoters
+  selection_markers:
+  - Kanamycin
+- ori: RK2, ColE1
+  backbone: pJC586
+  promoters:
+  - PLtetO
+  description: broad-host-range vector with tetR and tetR-regulated promoter (PLtetO)
+  selection_markers:
+  - kanamycin
+- ori: p15A
+  backbone: pTR_aJExA1-rfp
+  promoters:
+  - PJExA1.gb
+  description: Jungle Express - crystal violet inducible promoters
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pTR_aJEx1-rfp
+  promoters:
+  - PJEx1.gb
+  description: Jungle Express - crystal violet inducible promoters
+  selection_markers:
+  - Kanamycin
+- ori: colE1, IncP oriV
+  backbone: pJC681
+  promoters:
+  - PJEx-H1
+  description: SMc02369 (pleC) under control of EilR-regulated promoter PJEx-H1
+  selection_markers: []
+- ori: RK2, ColE1
+  backbone: pJC583
+  promoters:
+  - PLtetO-1
+  description: broad-host-range plasmid expressing RFP under control of tetR-regulated
+    promoter (PLtetO)
+  selection_markers:
+  - kanamycin
+- ori: RK2, ColE1
+  backbone: pJC581
+  promoters:
+  - PJEx-H1 (eilO)
+  description: broad-host-range plasmid expressing RFP under control of eilR-regulated
+    promoter PJEx-H1 (TR110)
+  selection_markers:
+  - kanamycin
+- ori: RK2, ColE1
+  backbone: pJC582
+  promoters:
+  - PJEx-H2 (eilO)
+  description: broad-host-range plasmid expressing RFP under control of eilR-regulated
+    promoter PJEx-H2 (TR111)
+  selection_markers:
+  - kanamycin
+- ori: RK2, ColE1
+  backbone: pJC579
+  promoters:
+  - PJEx-L (eilO)
+  description: broad-host-range plasmid expressing RFP under control of eilR-regulated
+    promoter PJEx-L (TR107)
+  selection_markers:
+  - kanamycin
+- ori: RK2, ColE1
+  backbone: pJC578
+  promoters:
+  - PJEx-A2 (eilO)
+  description: broad-host-range plasmid expressing RFP under control of eilR-regulated
+    promoter PJEx-A2 (TR106)
+  selection_markers:
+  - kanamycin
+- ori: RK2, ColE1
+  backbone: pJC580
+  promoters:
+  - PJEx-D (eilO)
+  description: broad-host-range plasmid expressing RFP under control of eilR-regulated
+    promoter PJEx-D (TR108)
+  selection_markers:
+  - kanamycin
+- ori: RK2, ColE1
+  backbone: pJC577
+  promoters:
+  - PJEx-A1 (eilO)
+  description: broad-host-range plasmid expressing RFP under control of eilR-regulated
+    promoter PJEx-A1 (TR103)
+  selection_markers:
+  - kanamycin
+- ori: RK2, ColE1
+  backbone: pJC575
+  promoters:
+  - PJEx1 (eilO)
+  description: 'broad-host-range plasmid expressing RFP under control of eilR-regulated
+    promoter PJEx1 (TR80); pDVA00312, pJC566-oriVT-trfA: oriVT-trfA region of pJC566
+    inverted, and terminator Bba_B0011 added, to eliminate negative effect on broad-host-range
+    replication from eilR and nptII'
+  selection_markers:
+  - kanamycin
+- ori: p15A
+  backbone: pBbA0k
+  promoters: []
+  description: An empty BglBrick vector based on the work of Rachel Krupa.
+  selection_markers:
+  - Kanamycin
+- backbone: placUV5-eilA
+  promoters: []
+  description: placUV5 promoter driving expression of eilA
+  selection_markers:
+  - Chloramphenicol
+- ori: p15A
+  backbone: pBbA1k-RFP
+  promoters:
+  - Trc
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pBbA8k-RFP
+  promoters:
+  - BAD
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: pSC101**
+  backbone: pBbS7k-RFP
+  promoters:
+  - T7
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pBbA7k-RFP
+  promoters:
+  - T7
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pBbA2k-RFP
+  promoters:
+  - Tet
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/378
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00378
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

@@ -1,0 +1,72 @@
+id: jbei:442
+brc: JBEI
+date: '2016-10-21'
+title: Zhang_et_al_2017
+creator:
+- name: Jesus Barajas
+  email: jfbarajas@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 255848
+  scientificName: Streptomyces aizunensis
+- NCBITaxID: 303
+  scientificName: Pseudomonas putida
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- ORF26
+- MBP
+- N-6xhis ORF26
+identifier: jbei:folder:00442
+repository: ICE
+datasetName: Zhang_et_al_2017
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/442
+description: 'This dataset provides four expression plasmids for engineering a biosynthetic
+  pathway to convert L-lysine into valuable chemical precursors. The collection features
+  genes for an Acyl-CoA Ligase (ORF26) from *Streptomyces aizunensis* and two key
+  enzymes of the lysine degradation pathway from *Pseudomonas putida*: L-lysine monooxygenase
+  (davB) and 5-aminovaleramide amidohydrolase (davA). These components are central
+  to the microbial production of bio-based chemicals and polymers.'
+relatedItem:
+- title: 'GenBank: AAX98201.1'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'PMID: 18266698'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: affinity_purification
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pET28b-N-ORF26
+  promoters: []
+  description: N-6xhis ORF26, an Acyl-CoA Ligase from Streptomyces aizunensis in a
+    pET28a backbone.
+  selection_markers:
+  - Kan
+- backbone: pET28-CaiC
+  promoters: []
+  description: pET28-nterm his tag CaiC.
+  selection_markers:
+  - kanamycin
+- backbone: pET28a-MBP-ORF26
+  promoters: []
+  description: MBP-tagged ORF26, an Acyl-CoA Ligase from Streptomyces aizunensis in
+    a pET28a backbone
+  selection_markers:
+  - Kan
+- backbone: pBbA7a-DavB-DavA
+  promoters: []
+  description: Contains an L-lysine monoxygenase (davB from Pseudomonas putida KT2440)
+    and a 5-aminovaleramide amidohydrolase (davA from Pseudomonas putida KT2440).
+  selection_markers:
+  - Ampicillin
+bibliographicCitation: https://public-registry.jbei.org/folders/442
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00442
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

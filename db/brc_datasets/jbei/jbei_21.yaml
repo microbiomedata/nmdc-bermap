@@ -1,0 +1,82 @@
+id: jbei:21
+brc: JBEI
+date: '2012-10-22'
+title: Yeh et al. 2012
+creator:
+- name: Changhao Bi
+  email: changhaobi@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Steven Singer
+  email: swsinger@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00021
+repository: ICE
+datasetName: Yeh et al. 2012
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/21
+description: This dataset contains five plasmids designed for synthetic biology and
+  metabolic engineering. The collection features the pJM1 broad host range plasmid
+  backbone, which is compatible with IncP and IncQ origins of replication. A key construct,
+  pJM-pBAD-RFP, provides a tool for controlled gene expression using an arabinose-inducible
+  promoter and a red fluorescent protein reporter.
+relatedItem:
+- title: Yeh, Y.C., Müller, J., Bi, C., Hillson, N.J., Beller, H.R., Chhabra, S.R.,
+    and Singer, S.W. (2013), Functionalizing bacterial cell surfaces with a phage
+    protein. Chem Commun 49(9):910-2.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: BBR1
+  backbone: pYC_006
+  promoters:
+  - pBAD
+  description: complete
+  selection_markers:
+  - kanamycin
+- ori: BR332
+  backbone: pET29b-pb5
+  promoters:
+  - T7
+  description: complete
+  selection_markers:
+  - kanamycin
+- ori: BBR1
+  backbone: pYC_009
+  promoters:
+  - pBAD
+  description: complete
+  selection_markers:
+  - kanamycin
+- ori: BBR1
+  backbone: pYC_008
+  promoters:
+  - pBAD
+  description: complete
+  selection_markers:
+  - kanamycin
+- ori: pBBR1
+  backbone: pJM-pBAD-RFP
+  promoters:
+  - pBAD
+  description: The pJM1 plasmid backbone is a broad host range (high/medium copy)
+    plasmid compatible with IncP and IncQ origins of replication. pJM-pBAD-RFP is
+    made from a fusion of pJM1 with pBbB8k-RFP.
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/21
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00021
+created_at: '2025-11-18T20:03:56.767Z'
+updated_at: '2025-12-11T00:00:04.619Z'

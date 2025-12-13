@@ -1,0 +1,47 @@
+brc: CABBI
+date: '2021-08-13'
+title: L-Malic Acid Production from Xylose by Engineered Saccharomyces cerevisiae
+creator:
+- name: Yong-Su Jin
+  email: ysjin@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Ort, Donald R.
+  email: d-ort@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- Saccharomyces cerevisiae
+- Plasmids
+- Bioreactor fermentations
+identifier: 10.13012/B2IDB-7864158_V1
+repository: Illinois Data Bank
+description: L-malic acid is widely used in the food, chemical, and pharmaceutical
+  industries. Here, we report on production of malic acid from xylose, the second
+  most abundant sugar in lignocellulosic hydrolysates, by engineered Saccharomyces
+  cerevisiae. To enable malic acid production in a xylose-assimilating S. cerevisiae,
+  we overexpressed PYC1 and PYC2, coding for pyruvate carboxylases, a truncated MDH3
+  coding for malate dehydrogenase, and SpMAE1, coding for a Schizosaccharomyces pombe
+  malate transporter. Additionally, both the ethanol- and glycerol-producing pathways
+  were blocked to enhance malic acid production. The resulting strain produced malic
+  acid from both glucose and xylose, but it produced much higher titers of malic acid
+  from xylose than glucose. Interestingly, the engineered strain had higher malic
+  acid yield from lower concentrations (10 g L‒1) of xylose, with no ethanol production,
+  than from higher xylose concentrations (20 and 40 g L‒1). As such, a fed-batch culture
+  maintaining xylose concentrations at low levels was conducted and 61.2 g L‒1 of
+  malic acid was produced, with a productivity of 0.32 g L‒1 h. These results represent
+  successful engineering of S. cerevisiae for the production of malic acid from xylose,
+  confirming that that xylose offers the efficient production of various biofuels
+  and chemicals by engineered S. cerevisiae.
+relatedItem:
+- title: L-malic Acid Production from Xylose by Engineered Saccharomyces cerevisiae
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1002/biot.202000431
+bibliographicCitation: https://doi.org/10.13012/B2IDB-7864158_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-7864158_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

@@ -1,0 +1,812 @@
+id: jbei:1
+brc: JBEI
+date: '2011-03-10'
+title: Lee et al. 2011
+creator:
+- name: William Holtz
+  email: wholtz@gmail.com
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Rachel Krupa
+  email: rakrupa@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 28211
+  scientificName: Alphaproteobacteria
+- NCBITaxID: 155892
+  scientificName: Caulobacter crescentus
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00001
+repository: ICE
+datasetName: Lee et al. 2011
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/1
+description: This collection consists of 108 bacterial expression vectors from Lee
+  et al. 2011, designed for synthetic biology applications using BioBrick and BglBrick
+  standards. Built on a broad-host-range BBR1 backbone, the toolkit provides various
+  inducible and constitutive promoters for controlled gene expression and includes
+  a red fluorescent protein (RFP) reporter for simplified screening.
+relatedItem:
+- title: 'Lee TS, Krupa RA, Zhang F, Hajimorad M, Holtz WJ, Prasad N, Lee SK, Keasling
+    JD. BglBrick vectors and datasheets: A synthetic biology platform for gene expression.
+    J Biol Eng. 2011 Sep 20;5:12. doi: 10.1186/1754-1611-5-12.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors:
+- name: Taek Soon Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: colE1
+  backbone: pBbE0c-RFP
+  promoters: []
+  description: BglBrick vector based on the work of Rachel Krupa w/constitutive RFP
+    cassette
+  selection_markers:
+  - Chloramphenicol
+- ori: p15A
+  backbone: pBbA0k-RFP
+  promoters: []
+  description: BglBrick vector based on the work of Rachel Krupa w/constitutive RFP
+    cassette
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pBbA0a-RFP
+  promoters: []
+  description: BglBrick vector based on the work of Rachel Krupa w/constitutive RFP
+    cassette
+  selection_markers:
+  - Ampicillin
+- ori: BBR1
+  backbone: pBbB8k-GFP
+  promoters:
+  - BAD
+  description: Biobrick with BAD and BBR1
+  selection_markers:
+  - Kanamycin
+- ori: BBR1
+  backbone: pBbB8c-GFP
+  promoters:
+  - BAD
+  description: Biobrick with BAD and BBR1
+  selection_markers:
+  - Chloramphenicol
+- ori: BBR1
+  backbone: pBbB8a-GFP
+  promoters:
+  - BAD
+  description: Biobrick with BAD and BBR1
+  selection_markers:
+  - Ampicillin
+- ori: BBR1
+  backbone: pBbB7k-GFP
+  promoters:
+  - T7
+  description: Biobrick with T7 and BBR1
+  selection_markers:
+  - Kanamycin
+- ori: BBR1
+  backbone: pBbB7c-GFP
+  promoters:
+  - T7
+  description: Biobrick with T7 and BBR1
+  selection_markers:
+  - Chloramphenicol
+- ori: BBR1
+  backbone: pBbB7a-GFP
+  promoters:
+  - T7
+  description: Biobrick with T7 and BBR1
+  selection_markers:
+  - Ampicillin
+- ori: BBR1
+  backbone: pBbB6k-GFP
+  promoters:
+  - LlacO-1
+  description: Biobrick with LlacO-1 and BBR1
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pBbA0c-RFP
+  promoters: []
+  description: BglBrick vector based on the work of Rachel Krupa w/constitutive RFP
+    cassette
+  selection_markers:
+  - Chloramphenicol
+- ori: SC101**
+  backbone: pBbS0k-RFP
+  promoters: []
+  description: BglBrick vector based on the work of Rachel Krupa w/constitutive RFP
+    cassette
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pBbE0a-RFP
+  promoters: []
+  description: BglBrick vector based on the work of Rachel Krupa w/constitutive RFP
+    cassette
+  selection_markers:
+  - Ampicillin
+- ori: BBR1
+  backbone: pBbB6c-GFP
+  promoters:
+  - LlacO-1
+  description: Biobrick with LlacO-1 and BBR1
+  selection_markers:
+  - Chloramphenicol
+- ori: SC101**
+  backbone: pBbS0a-RFP
+  promoters: []
+  description: BglBrick vector based on the work of Rachel Krupa w/constitutive RFP
+    cassette
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pBbE0k-RFP
+  promoters: []
+  description: BglBrick vector based on the work of Rachel Krupa w/constitutive RFP
+    cassette
+  selection_markers:
+  - Kanamycin
+- ori: BBR1
+  backbone: pBbB0c-RFP
+  promoters: []
+  description: Constitutive RFP cassette between BglBrick sites for easy identification
+    of background colonies. Mutant BBR1 origin for higher copy number. May not replicate
+    in alpha-proteobacteria, including Caulobacter crescentus.
+  selection_markers:
+  - Chloramphenicol
+- ori: BBR1
+  backbone: pBbB0k-RFP
+  promoters: []
+  description: BglBrick vector based on the work of Rachel Krupa w/constitutive RFP
+    cassette
+  selection_markers:
+  - Kanamycin
+- ori: SC101**
+  backbone: pBbS0c-RFP
+  promoters: []
+  description: BglBrick vector based on the work of Rachel Krupa w/constitutive RFP
+    cassette
+  selection_markers:
+  - Chloramphenicol
+- ori: BBR1
+  backbone: pBbB0a-RFP
+  promoters: []
+  description: BglBrick vector based on the work of Rachel Krupa w/constitutive RFP
+    cassette
+  selection_markers:
+  - Ampicillin
+- ori: BBR1
+  backbone: pBbB5a-GFP
+  promoters:
+  - lacUV5
+  description: Biobrick with lacUV5 and BBR1
+  selection_markers:
+  - Ampicillin
+- ori: BBR1
+  backbone: pBbB4a-GFP
+  promoters:
+  - ProE
+  description: Biobrick with ProE and BBR1
+  selection_markers:
+  - Ampicillin
+- ori: BBR1
+  backbone: pBbB6a-GFP
+  promoters:
+  - LlacO-1
+  description: Biobrick with LlacO-1 and BBR1
+  selection_markers:
+  - Ampicillin
+- ori: BBR1
+  backbone: pBbB5k-GFP
+  promoters:
+  - lacUV5
+  description: Biobrick with lacUV5 and BBR1
+  selection_markers:
+  - Kanamycin
+- ori: BBR1
+  backbone: pBbB3a-GFP
+  promoters:
+  - ProS
+  description: Biobrick with ProS and BBR1
+  selection_markers:
+  - Ampicillin
+- ori: BBR1
+  backbone: pBbB4c-GFP
+  promoters:
+  - ProE
+  description: Biobrick with ProE and BBR1
+  selection_markers:
+  - Chloramphenicol
+- ori: BBR1
+  backbone: pBbB5c-GFP
+  promoters:
+  - lacUV5
+  description: Biobrick with lacUV5 and BBR1
+  selection_markers:
+  - Chloramphenicol
+- ori: BBR1
+  backbone: pBbB3c-GFP
+  promoters:
+  - ProS
+  description: Biobrick with ProS and BBR1
+  selection_markers:
+  - Chloramphenicol
+- ori: BBR1
+  backbone: pBbB4k-GFP
+  promoters:
+  - ProE
+  description: Biobrick with ProE and BBR1
+  selection_markers:
+  - Kanamycin
+- ori: BBR1
+  backbone: pBbB3k-GFP
+  promoters:
+  - ProS
+  description: Biobrick with ProS and BBR1
+  selection_markers:
+  - Kanamycin
+- ori: pSC101**
+  backbone: pBbS1k-RFP
+  promoters:
+  - Trc
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: pSC101**
+  backbone: pBbS1a-RFP
+  promoters:
+  - Trc
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: BBR1
+  backbone: pBbB1a-GFP
+  promoters:
+  - Trc
+  description: Biobrick with Trc and BBR1
+  selection_markers:
+  - Ampicillin
+- ori: BBR1
+  backbone: pBbB1k-GFP
+  promoters:
+  - Trc
+  description: Biobrick with Trc and BBR1
+  selection_markers:
+  - Kanamycin
+- ori: BBR1
+  backbone: pBbB2k-GFP
+  promoters:
+  - Tet
+  description: Biobrick with Tet and BBR1
+  selection_markers:
+  - Kanamycin
+- ori: BBR1
+  backbone: pBbB2a-GFP
+  promoters:
+  - Tet
+  description: Biobrick with Tet and BBR1
+  selection_markers:
+  - Ampicillin
+- ori: BBR1
+  backbone: pBbB1c-GFP
+  promoters:
+  - Trc
+  description: Biobrick with Trc and BBR1
+  selection_markers:
+  - Chloramphenicol
+- ori: p15A
+  backbone: pBbA1k-RFP
+  promoters:
+  - Trc
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: pSC101**
+  backbone: pBbS1c-RFP
+  promoters:
+  - Trc
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- ori: BBR1
+  backbone: pBbB2c-GFP
+  promoters:
+  - Tet
+  description: Biobrick with Tet and BBR1
+  selection_markers:
+  - Chloramphenicol
+- ori: ColE1
+  backbone: pBbE1c-RFP
+  promoters:
+  - Trc
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- ori: ColE1
+  backbone: pBbE1a-RFP
+  promoters:
+  - Trc
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: pSC101**
+  backbone: pBbS2c-RFP
+  promoters:
+  - Tet
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- ori: pSC101**
+  backbone: pBbS2k-RFP
+  promoters:
+  - Tet
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pBbA1c-RFP
+  promoters:
+  - Trc
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- ori: p15A
+  backbone: pBbA1a-RFP
+  promoters:
+  - Trc
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: p15A
+  backbone: pBbA2k-RFP
+  promoters:
+  - Tet
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pBbE1k-RFP
+  promoters:
+  - Trc
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pBbA2c-RFP
+  promoters:
+  - Tet
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- ori: pSC101**
+  backbone: pBbS2a-RFP
+  promoters:
+  - Tet
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: p15A
+  backbone: pBbA2a-RFP
+  promoters:
+  - Tet
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pBbE2a-RFP
+  promoters:
+  - Tet
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pBbE2k-RFP
+  promoters:
+  - Tet
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pBbA7c-RFP
+  promoters:
+  - T7
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- ori: p15A
+  backbone: pBbA7a-RFP
+  promoters:
+  - T7
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: pSC101**
+  backbone: pBbS7k-RFP
+  promoters:
+  - T7
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pBbA7k-RFP
+  promoters:
+  - T7
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: pSC101**
+  backbone: pBbS7a-RFP
+  promoters:
+  - T7
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pBbE2c-RFP
+  promoters:
+  - Tet
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- ori: pSC101**
+  backbone: pBbS7c-RFP
+  promoters:
+  - T7
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- ori: ColE1
+  backbone: pBbE7k-RFP
+  promoters:
+  - T7
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pBbA3a-RFP
+  promoters:
+  - ProS
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: pSC101**
+  backbone: pBbS3c-RFP
+  promoters:
+  - ProS
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- ori: pSC101**
+  backbone: pBbS3k-RFP
+  promoters:
+  - ProS
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pBbA3c-RFP
+  promoters:
+  - ProS
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- ori: pSC101**
+  backbone: pBbS3a-RFP
+  promoters:
+  - ProS
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: p15A
+  backbone: pBbA3k-RFP
+  promoters:
+  - ProS
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pBbE7c-RFP
+  promoters:
+  - T7
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- ori: ColE1
+  backbone: pBbE7a-RFP
+  promoters:
+  - T7
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pBbE3k-RFP
+  promoters:
+  - ProS
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pBbE3c-RFP
+  promoters:
+  - ProS
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- ori: ColE1
+  backbone: pBbE3a-RFP
+  promoters:
+  - ProS
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: pSC101**
+  backbone: pBbS4a-RFP
+  promoters:
+  - ProE
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: p15A
+  backbone: pBbA4c-RFP
+  promoters:
+  - ProE
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- ori: ColE1
+  backbone: pBbE4a-RFP
+  promoters:
+  - ProE
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pBbE4k-RFP
+  promoters:
+  - ProE
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: pSC101**
+  backbone: pBbS4k-RFP
+  promoters:
+  - ProE
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: pSC101**
+  backbone: pBbS4c-RFP
+  promoters:
+  - ProE
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- ori: p15A
+  backbone: pBbA4a-RFP
+  promoters:
+  - ProE
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pBbE4c-RFP
+  promoters:
+  - ProE
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- ori: p15A
+  backbone: pBbA4k-RFP
+  promoters:
+  - ProE
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: pSC101**
+  backbone: pBbS6c-RFP
+  promoters:
+  - LlacO-1
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- ori: p15A
+  backbone: pBbA6c-RFP
+  promoters:
+  - LlacO-1
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- ori: ColE1
+  backbone: pBbE6a-RFP
+  promoters:
+  - LlacO-1
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pBbE6k-RFP
+  promoters:
+  - LlacO-1
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pBbE6c-RFP
+  promoters:
+  - LlacO-1
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- ori: p15A
+  backbone: pBbA6k-RFP
+  promoters:
+  - LlacO-1
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pBbA6a-RFP
+  promoters:
+  - LlacO-1
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: pSC101**
+  backbone: pBbS5c-RFP
+  promoters:
+  - lacUV5
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- ori: pSC101**
+  backbone: pBbS5k-RFP
+  promoters:
+  - lacUV5
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: pSC101**
+  backbone: pBbS6a-RFP
+  promoters:
+  - LlacO-1
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: pSC101**
+  backbone: pBbS6k-RFP
+  promoters:
+  - LlacO-1
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: pSC101**
+  backbone: pBbS5a-RFP
+  promoters:
+  - lacUV5
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: pSC101**
+  backbone: pBbS8a-RFP
+  promoters:
+  - BAD
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: pSC101**
+  backbone: pBbS8c-RFP
+  promoters:
+  - BAD
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- ori: p15A
+  backbone: pBbA5k-RFP
+  promoters:
+  - lacUV5
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pBbA5c-RFP
+  promoters:
+  - lacUV5
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- ori: ColE1
+  backbone: pBbE5a-RFP
+  promoters:
+  - lacUV5
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: pSC101**
+  backbone: pBbS8k-RFP
+  promoters:
+  - BAD
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pBbA5a-RFP
+  promoters:
+  - lacUV5
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pBbE8a-RFP
+  promoters:
+  - BAD
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pBbE5c-RFP
+  promoters:
+  - lacUV5
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- ori: ColE1
+  backbone: pBbE5k-RFP
+  promoters:
+  - lacUV5
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pBbA8k-RFP
+  promoters:
+  - BAD
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pBbE8c-RFP
+  promoters:
+  - BAD
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- ori: p15A
+  backbone: pBbA8a-RFP
+  promoters:
+  - BAD
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pBbE8k-RFP
+  promoters:
+  - BAD
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pBbA8c-RFP
+  promoters:
+  - BAD
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+bibliographicCitation: https://public-registry.jbei.org/folders/1
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00001
+created_at: '2025-11-18T20:03:56.767Z'
+updated_at: '2025-12-11T00:00:04.619Z'

@@ -1,0 +1,36 @@
+brc: GLBRC
+date: '2023-06-30'
+title: Natural variation in the consequences of gene overexpression during osmotic
+  stress [BAR-Seq]
+creator:
+- name: Audrey Gasch
+  email: agasch@wisc.edu
+  affiliation: GLBRC - University of Wisconsin-Madison
+  primaryContact: true
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- GxE
+- copy-number variation
+- evolution
+- fitness cost
+identifier: GSE226247
+repository: GEO
+description: We conducted a barcode sequencing experiment examining 4 yeast strains
+  expressing a high copy number plasmid library. For each strain, we took samples
+  at generation 0 (start of experiment) and generation 10 to quantify how plasmid
+  abundance changes over time when strains were grown under osmotic and ionic stress
+  induced by 0.7M of sodium chloride (NaCl). Each strain was measured in biological
+  triplicate for a total of 24 samples.
+relatedItem:
+- title: Gene-by-environment interactions influence the fitness cost of gene copy-number
+    variation in yeast
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://academic.oup.com/g3journal/advance-article/doi/10.1093/g3journal/jkad159/7229302
+analysisType: Barcode sequencing data
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE226247
+schema_version: 0.1.7
+uid: GLBRC_GSE226247
+created_at: '2025-11-19T18:00:04.599Z'
+updated_at: '2025-12-10T06:00:05.197Z'

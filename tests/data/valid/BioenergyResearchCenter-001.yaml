@@ -1,0 +1,19 @@
+id: glbrc
+name: Great Lakes Bioenergy Research Center
+acronym: GLBRC
+description: >
+  GLBRC is a cross-disciplinary research center developing sustainable
+  biofuels and bioproducts from dedicated energy crops.
+lead_institution: University of Wisconsin-Madison
+partner_institutions:
+  - Michigan State University
+  - DOE Joint Genome Institute
+keywords:
+  - BIOENERGY
+  - BIOFUELS
+  - SWITCHGRASS
+  - POPLAR
+scientific_questions:
+  - How can we develop sustainable bioenergy cropping systems?
+  - What microorganisms efficiently convert plant biomass?
+established: 2007

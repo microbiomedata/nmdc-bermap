@@ -1,0 +1,44 @@
+brc: CBI
+date: '2024-12-09'
+title: Mechanisms of regulation of the rhizosphere, roots and shoots of naive poplars
+active: true
+creator:
+- name: Aurelie Deveau
+  email: aurelie.deveau@inrae.fr
+  affiliation: French National Research Institute for Agriculture, Food and Environment
+    (INRAE), Champenoux (France)
+  primaryContact: true
+- name: F Frachia
+  primaryContact: false
+- name: Nancy L Engle
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)
+    Plant Microbe Interfaces
+  primaryContact: false
+- name: Timothy J Tschaplinski
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)
+    Plant-Microbe Interfaces
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC)
+keywords:
+- PMI
+identifier: https://www.osti.gov/biblio/2556848
+dataset_url: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1017804
+description: Trees are associated with a broad range of microorganisms colonising
+  the diverse tissues of their host. However, the early dynamics of the microbiota
+  assembly microbiota from the root to shoot axis and how it is linked to root exudates
+  and metabolite contents of tissues remain unclear. Here, we characterised how fungal
+  and bacterial communities are altering root exudates as well as root and shoot metabolomes
+  in parallel with their establishment in poplar cuttings (Populus tremula x tremuloides
+  clone T89) over 30 days of growth. Sterile poplar cuttings were planted in natural
+  or gamma irradiated soils. Bulk and rhizospheric soils, root and shoot tissues were
+  collected from day 1 to day 30 to track the dynamic changes of fungal and bacterial
+  communities in the different habitats by DNA metabarcoding. Root exudates and root
+  and shoot metabolites were analysed in parallel by gas chromatography-mass spectrometry.
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/2556848
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2556848
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

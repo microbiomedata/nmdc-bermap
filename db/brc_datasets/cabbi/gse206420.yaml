@@ -1,0 +1,52 @@
+brc: CABBI
+date: '2024-02-09'
+title: The stem cell-type transcriptome of bioenergy sorghum reveals the spatial regulation
+  of secondary cell wall networks
+creator:
+- name: Marshall-Colon, Amy
+  email: amymc@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Swaminathan, Kankshita
+  email: kswaminathan@hudsonalpha.org
+  affiliation: HudsonAlpha
+  primaryContact: false
+species:
+- NCBITaxID: 4558
+  scientificName: Sorghum bicolor
+keywords:
+- Genomics
+- Sorghum
+- Transcriptomics
+identifier: GSE206420
+repository: GEO
+description: Bioenergy sorghum is a low-input, drought-resilient, deep-rooting annual
+  crop that has high biomass yield potential enabling the sustainable production of
+  biofuels, biopower, and bioproducts. Bioenergy sorghum’s 4-5 m stems account for
+  ~80% of the harvested biomass. Stems accumulate high levels of sucrose that could
+  be used to synthesize bioethanol and useful biopolymers if information about stem
+  cell-type gene expression and regulation was available to enable engineering. To
+  obtain this information, Laser Capture Microdissection (LCM) was used to isolate
+  and collect transcriptome profiles from five major cell types that are present in
+  stems of the sweet sorghum Wray. Transcriptome analysis identified genes with cell-type
+  specific and cell-preferred expression patterns that reflect the distinct metabolic,
+  transport, and regulatory functions of each cell type. Analysis of cell-type specific
+  gene regulatory networks (GRNs) revealed that unique TF families contribute to distinct
+  regulatory landscapes, where regulation is organized through various modes and identifiable
+  network motifs. Cell-specific transcriptome data was combined with a stem developmental
+  transcriptome dataset to identify the GRN that differentially activates the secondary
+  cell wall (SCW) formation in stem xylem sclerenchyma and epidermal cells. The cell-type
+  transcriptomic dataset provides a valuable source of information about the function
+  of sorghum stem cell types and GRNs that will enable the engineering of bioenergy
+  sorghum stems.
+relatedItem:
+- title: Cell-Type-Specific Transcriptomics Uncovers Spatial Regulatory Networks in
+    Bioenergy Sorghum Stems
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: http://doi.org/10.1111/tpj.16690
+analysisType: Genomics
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE218642
+schema_version: 0.1.1
+uid: CABBI_GSE206420
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

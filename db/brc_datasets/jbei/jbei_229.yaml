@@ -1,0 +1,60 @@
+id: jbei:229
+brc: JBEI
+date: '2015-05-18'
+title: Siegel, J. B. et al. 2015
+creator:
+- name: Christopher Eiben
+  email: ceiben@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Sean Poust
+  email: spoust@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- Formolase
+- pTrc
+identifier: jbei:folder:00229
+repository: ICE
+datasetName: Siegel, J. B. et al. 2015
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/229
+description: This dataset provides two plasmids for constructing a novel one-carbon
+  (C1) assimilation pathway. One plasmid contains the complete pathway driven by a
+  pTrc promoter for controlled expression. The other plasmid encodes a formolase enzyme
+  with an L90T mutation, a key component engineered for efficient C1 conversion. These
+  constructs are designed for engineering a microbial host to utilize C1 feedstocks.
+relatedItem:
+- title: 'Siegel JB, Smith AL, Poust S, Wargacki AJ, Bar-Even A, Louw C, Shen BW6,
+    Eiben CB, Tran HM, Noor E, Gallaher JL, Bale J, Yoshikuni Y, Gelb MH, Keasling
+    JD, Stoddard BL, Lidstrom ME, Baker D. Computational protein design enables a
+    novel one-carbon assimilation pathway. Proc Natl Acad Sci U S A. 2015 Mar 24;112(12):3704-9.
+    doi: 10.1073/pnas.1500545112. Epub 2015 Mar 9.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pTrcCO2-3
+  promoters: []
+  description: Plasmid containing the novel one-carbon assimilation pathway driven
+    by pTrc promoter.
+  selection_markers:
+  - Amp
+- backbone: L90T
+  promoters: []
+  description: Formolase with L90T mutation
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/229
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00229
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

@@ -1,0 +1,65 @@
+function expandAll() {
+    document.querySelectorAll('details').forEach(d => d.open = true);
+}
+
+function collapseAll() {
+    document.querySelectorAll('details').forEach(d => d.open = false);
+}
+
+function expandLevel(level) {
+    collapseAll();
+    if (level >= 1) {
+        document.querySelectorAll('.category').forEach(d => d.open = true);
+    }
+    if (level >= 2) {
+        document.querySelectorAll('.program').forEach(d => d.open = true);
+    }
+}
+
+// Search functionality
+const searchBox = document.getElementById('searchBox');
+let debounceTimer;
+
+searchBox.addEventListener('input', function(e) {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(() => {
+        const query = e.target.value.toLowerCase().trim();
+
+        if (query.length < 2) {
+            // Show all programs
+            document.querySelectorAll('.program').forEach(p => {
+                p.classList.remove('hidden');
+            });
+            return;
+        }
+
+        // Search and filter
+        document.querySelectorAll('.program').forEach(program => {
+            const text = program.textContent.toLowerCase();
+            if (text.includes(query)) {
+                program.classList.remove('hidden');
+                // Expand parent category
+                let parent = program.closest('.category');
+                if (parent) parent.open = true;
+            } else {
+                program.classList.add('hidden');
+            }
+        });
+    }, 150);
+});
+
+// Keyboard shortcuts
+document.addEventListener('keydown', function(e) {
+    // Focus search on Ctrl/Cmd + K
+    if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+        e.preventDefault();
+        searchBox.focus();
+        searchBox.select();
+    }
+    // Escape to clear search
+    if (e.key === 'Escape' && document.activeElement === searchBox) {
+        searchBox.value = '';
+        searchBox.dispatchEvent(new Event('input'));
+        searchBox.blur();
+    }
+});

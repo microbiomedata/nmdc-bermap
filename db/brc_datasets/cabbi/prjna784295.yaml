@@ -1,0 +1,36 @@
+brc: CABBI
+date: '2021-06-10'
+title: Zygosaccharomyces rouxii strain:NRRL Y-64007 | isolate:NBRC 110957
+creator:
+- name: Jin, Yong-Su
+  email: ysjin@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Rao, Christopher
+  email: cvrao@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Dien, Bruce
+  email: bruce.dien@ars.usda.gov
+  affiliation: USDA-ARS Peoria, IL
+  primaryContact: false
+species:
+- NCBITaxID: 4956
+  scientificName: Zygosaccharomyces rouxii
+keywords:
+- Genomics
+- Zygosaccharomyces rouxii
+identifier: PRJNA784295
+repository: NCBI BioProject
+description: Genome sequencing of oleaginous Lipomyces yeast
+relatedItem:
+- title: Near-Complete Genome Sequence of Zygosaccharomyces rouxii NRRL Y-64007, a
+    Yeast Capable of Growing on Lignocellulosic Hydrolysates
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: http://doi.org/10.1128/mra.00050-22
+analysisType: Genomics
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA784295
+schema_version: 0.1.1
+uid: CABBI_PRJNA784295
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

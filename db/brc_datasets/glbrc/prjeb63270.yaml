@@ -1,0 +1,39 @@
+brc: GLBRC
+date: '2023-11-28'
+title: Tracking alternative versions of the galactose gene network in the genus Saccharomyces
+  and their expansion after domestication
+creator:
+- name: Jose P. Sampaio
+  email: jss@fct.unl.pt
+  affiliation: UCIBIO, Departamento de Ciências da Vida, Faculdade de Ciências e Tecnologia,
+    Universidade Nova de Lisboa, 2829-516 Caparica, Portugal
+  primaryContact: true
+- name: Chris Todd Hittinger
+  email: cthittinger@wisc.edu
+  affiliation: GLBRC - University of Wisconsin-Madison
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Saccharomyces paradoxus, Saccharomyces cerevisiae
+keywords:
+- Genetics
+- Genomics
+- Genotyping
+identifier: PRJEB63270
+repository: NCBI BioProject
+description: In this yeast, the study of trait variation at the population level led
+  to the detection of distinct sets of GAL structural genes. Besides the reference
+  version, present in most strains, alternative highly divergent alleles supporting
+  faster growth on galactose were recently uncovered in strains associated with dairy
+  products and also in some wild strains.
+relatedItem:
+- title: Tracking alternative versions of the galactose gene network in the genus
+    <i>Saccharomyces </i>and their expansion after domestication
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.sciencedirect.com/science/article/pii/S2589004224002086?via%3Dihub
+analysisType: Whole Genome Sequencing
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJEB63270
+schema_version: 0.1.7
+uid: GLBRC_PRJEB63270
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.197Z'

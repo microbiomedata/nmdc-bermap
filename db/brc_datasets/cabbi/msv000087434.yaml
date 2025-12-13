@@ -1,0 +1,40 @@
+brc: CABBI
+date: '2021-10-30'
+title: GNPS Raw data files for NetID manuscript
+creator:
+- name: Rabinowitz, Joshua
+  email: joshr@princeton.edu
+  affiliation: Princeton University
+  primaryContact: true
+species:
+- NCBITaxID: 10090
+  scientificName: Mus musculus
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- NetID
+- liver
+- yeast
+- full scan MS1
+- PRM-targeted MS2
+identifier: MSV000087434
+repository: MassIVE
+description: 'This dataset is associated with this manuscript: Metabolite discovery
+  through global annotation of untargeted metabolomics data. Li Chen, Wenyun Lu, Lin
+  Wang, Xi Xing, Xin Teng, Xianfeng Zeng, Antonio D Muscarella, Yihui Shen, Alexis
+  Cowan, Melanie R McReynolds, Brandon Kennedy, Ashley M Lato, Shawn R Campagna, Mona
+  Singh, Joshua Rabinowitz. The dataset has six main folders: (1) Yeast-MS1 (2) Yeast-labeling
+  (3) Liver-MS1 (4) Liver-targeted-MS2 (separate folders for mzxml files and matched
+  csv files used as the inclusion list to set up PRM targeted-MS2 runs) (5) Mouse-labeling
+  (6) Glucosyl_taurine-liver-vs-synthesis. Please refer to README-raw-data-NetID-20210512.doc
+  for more details.'
+relatedItem:
+- title: Metabolite discovery through global annotation of untargeted metabolomics
+    data
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1038/s41592-021-01303-3
+bibliographicCitation: https://doi.org/doi:10.25345/C5WV53
+schema_version: 0.1.1
+uid: CABBI_MSV000087434
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.624Z'

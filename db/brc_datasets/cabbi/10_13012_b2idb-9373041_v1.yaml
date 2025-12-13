@@ -1,0 +1,44 @@
+brc: CABBI
+date: '2022-01-27'
+title: Testing Unified Theories for Ozone Response in C4 Species
+creator:
+- name: Ainsworth, Elizabeth A.
+  email: lisa.ainsworth@usda.gov
+  affiliation: USDA-ARS
+  primaryContact: true
+- name: Sacks, Erik J.
+  email: esacks@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Lee, DoKyoung
+  email: leedk@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 4558
+  scientificName: Sorghum bicolor
+- NCBITaxID: 183674
+  scientificName: Miscanthus x giganteus
+- NCBITaxID: 38727
+  scientificName: Panicum virgatum
+keywords:
+- miscanthus
+- ozone
+- sorghum
+- switchgrass
+- photosynthesis
+identifier: 10.13012/B2IDB-9373041_V1
+repository: Illinois Data Bank
+description: Twenty-two genotypes of C4 species grown under ambient and elevated O3
+  concentration were studied at the SoyFACE in 2019. This dataset contains leaf morphology,
+  photosynthesis and nutrient contents measured at three time points. The results
+  of CO2 response curves are also included.
+relatedItem:
+- title: Testing unified theories for ozone response in C4 species
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/gcb.16108
+bibliographicCitation: https://doi.org/10.13012/B2IDB-9373041_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-9373041_V1
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.624Z'

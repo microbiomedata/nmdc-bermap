@@ -1,0 +1,47 @@
+brc: CABBI
+date: '2025-04-25'
+title: Integrated Green Biorefinery for the Production of Anthocyanins, Fermentable
+  Sugars, and High Pure Lignin from Miscanthus × giganteus
+creator:
+- name: Vijay Singh
+  email: vsingh@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 183674
+  scientificName: Miscanthus x giganteus
+keywords:
+- Miscanthus x giganteus
+- Biomass analytics
+- anthocyanins
+- Feedstock bioprocessing
+identifier: 10.13012/B2IDB-2286021_V1
+repository: Illinois Data Bank
+description: 'Miscanthus x giganteus (Mxg) is a promising perennial crop for producing
+  natural colorants, renewable fuels, and bioproducts. However, natural recalcitrance
+  and high pretreatment cost are major barriers to their complete conversion. In this
+  study, a green processing method has been investigated for efficient recovery of
+  natural pigments (anthocyanins), fermentable sugars, and pure lignin from Mxg genotypes
+  using choline chloride-based natural deep eutectic solvents (NADES) systems. Interestingly,
+  choline chloride: lactic acid (ChCl: LA) NADES-processed biomass resulted in 67.8 ± 2.1 μg g−1
+  of anthocyanins from dry biomass. A maximum of 87.4%–94.1% glucose yield was achieved
+  after enzymatic saccharification. The effective extraction of lignin with high purity
+  with higher β-aryl ether (βO4) bonds from advanced crops is crucial for lignin
+  valorization. Notably, highly pure lignin (≈93.4% ± 1.4%) is achieved after low-temperature
+  NADES pretreatment while retaining lignin’s native structure. 31P nuclear magnetic
+  resonance demonstrated that total phenolics for ChCl: LA-lignin resulted in 1.20 mmol g−1
+  hydroxyls. The relative monolignol composition of syringyl (S), guaiacyl (G), and
+  p-hydroxyphenyl (H) is 19.0, 65.7, and 14.3%, respectively, as evidenced by heteronuclear
+  single quantum coherence analysis. This study provides a novel approach for obtaining
+  high-purity lignin for catalytic depolymerization for oligomers and bifunctional
+  monoaromatics production and leverages current cellulosic biorefinery technologies.'
+relatedItem:
+- title: Integrated Green Biorefinery for the Production of Anthocyanins, Fermentable
+    Sugars, and High Pure Lignin from Miscanthus × giganteus
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1002/aesr.202500034
+bibliographicCitation: https://doi.org/10.13012/B2IDB-2286021_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-2286021_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

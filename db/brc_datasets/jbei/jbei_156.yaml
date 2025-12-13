@@ -1,0 +1,164 @@
+id: jbei:156
+brc: JBEI
+date: '2015-03-11'
+title: Batth et al. 2014
+creator:
+- name: Pragya Singh
+  email: pragyasingh@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Leanne-Jade Chan
+  email: lchan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- pathways
+- Mass spectrometry
+- SRM quantification
+identifier: jbei:folder:00156
+repository: ICE
+datasetName: Batth et al. 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/156
+description: This dataset contains 18 plasmids designed to express synthetic proteins
+  for use as internal standards in quantitative proteomics of *E. coli*. The synthetic
+  proteins are composed of concatenated peptides derived from either highly abundant
+  cellular proteins or from enzymes in key metabolic pathways. Targeted pathways include
+  central carbon metabolism (glycolysis, TCA cycle), amino acid and nucleotide biosynthesis,
+  and fermentation, providing broad coverage of cellular functions.
+relatedItem:
+- title: Batth, T. S., Singh, P., Ramakrishnan, V. R., Sousa, M. M., Chan, L. J.,
+    Tran, H. M., Luning, E. G., Pan, E. H., Vuu, K. M., Keasling, J. D., Adams, P.
+    D., &amp; Petzold, C. J. (2014). “A targeted proteomics toolkit for high-throughput
+    absolute quantification of Escherichia coli proteins”. Metab Eng, 26C(0), 48-56.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: srm_mrm
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pET29b_Qcat15
+  promoters: []
+  description: Synthetic protein containing concatenated peptides from the abundant
+    proteins in E. coli
+  selection_markers:
+  - Kanamycin
+- backbone: pET29b_Qcat17
+  promoters: []
+  description: Synthetic protein containing concatenated peptides from the abundant
+    proteins in E. coli
+  selection_markers:
+  - Kanamycin
+- backbone: pET29b_Qcat18
+  promoters: []
+  description: Synthetic protein containing concatenated peptides from the abundant
+    proteins in E. coli
+  selection_markers:
+  - Kanamycin
+- backbone: pET29b_Qcat16
+  promoters: []
+  description: Synthetic protein containing concatenated peptides from the abundant
+    proteins in E. coli
+  selection_markers:
+  - Kanamycin
+- backbone: pET29b_Qcat14
+  promoters: []
+  description: Synthetic protein containing concatenated peptides from the abundant
+    proteins in E. coli
+  selection_markers:
+  - Kanamycin
+- backbone: pET29b_Qcat13
+  promoters: []
+  description: Synthetic protein containing concatenated peptides from the abundant
+    proteins in E. coli
+  selection_markers:
+  - Kanamycin
+- backbone: pET29b_Qcat9
+  promoters: []
+  description: 'Synthetic protein containing concatenated peptides from the following
+    pathways in E. coli: Tricarboxylic Acid Cycle'
+  selection_markers:
+  - Kanamycin
+- backbone: pET29b_Qcat10
+  promoters: []
+  description: 'Synthetic protein containing concatenated peptides from the following
+    pathways in E. coli: Glycolysis'
+  selection_markers:
+  - Kanamycin
+- backbone: pET29b_Qcat11
+  promoters: []
+  description: Synthetic protein containing concatenated peptides from the abundant
+    proteins in E. coli
+  selection_markers:
+  - Kanamycin
+- backbone: pET29b_Qcat12
+  promoters: []
+  description: Synthetic protein containing concatenated peptides from the abundant
+    proteins in E. coli
+  selection_markers:
+  - Kanamycin
+- backbone: pET29b_Qcat8
+  promoters: []
+  description: 'Synthetic protein containing concatenated peptides from the following
+    pathways in E. coli: Serine Protease, Thiol protease, NAD I Biosynthesis and Salvage
+    Cycle, NAD Phosphorylation &amp; Dephosphorylation '
+  selection_markers:
+  - Kanamycin
+- backbone: pET29b_Qcat5
+  promoters: []
+  description: 'Synthetic protein containing concatenated peptides from the following
+    pathways in E. coli: Mixed Acid Fermentation, Phosphopentose Pathway'
+  selection_markers:
+  - Kanamycin
+- backbone: pET29b_Qcat4
+  promoters: []
+  description: 'Synthetic protein containing concatenated peptides from the following
+    pathways in E. coli: Lysine, Threonine, Methionine Biosynthesis, Serine &amp;
+    Glycine Biosynthesis'
+  selection_markers:
+  - Kanamycin
+- backbone: pET29b_Qcat7
+  promoters: []
+  description: 'Synthetic protein containing concatenated peptides from the following
+    pathways in E. coli: Purine &amp; Pyrmidine Biosynthesis'
+  selection_markers:
+  - Kanamycin
+- backbone: pET29b_Qcat3
+  promoters: []
+  description: 'Synthetic protein containing concatenated peptides from the following
+    pathways in E. coli: Lipid anabolism'
+  selection_markers:
+  - Kanamycin
+- backbone: pET29b_Qcat6
+  promoters: []
+  description: 'Synthetic protein containing concatenated peptides from the following
+    pathways in E. coli: Phospholipid Anabolism, Iron Cluster Assembly, Glutathione
+    Synthesis'
+  selection_markers:
+  - Kanamycin
+- backbone: pET29b_Qcat2
+  promoters: []
+  description: 'Synthetic protein containing concatenated peptides from the following
+    pathways in E. coli: Folate Anabolism, Panthothenate-CoA Biosynthesis, Acetate
+    Formation, Acetyl-CoA Biosynthesis from Pyruvate, Glycyerol &amp; Glycerolphosphodiester
+    Degredation'
+  selection_markers:
+  - Kanamycin
+- backbone: pET29b_Qcat1
+  promoters: []
+  description: 'Synthetic protein containing concatenated peptides from the following
+    pathways in E. coli: Aspartate &amp; Asparagine Biosynthesis, Leucine, Isoleucine,
+    Valine Biosynthesis'
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/156
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00156
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.619Z'

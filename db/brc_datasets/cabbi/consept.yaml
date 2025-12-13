@@ -1,0 +1,28 @@
+brc: CABBI
+date: '2021-03-14'
+title: Convolutional Neural Network-based Sequence-to-Expression Prediction Tool (CoNSEPT)
+creator:
+- name: Sinha, Saurabh
+  email: saurabh.sinha@bme.gatech.edu
+  affiliation: Georgia Institute of Technology
+  primaryContact: true
+keywords:
+- Gene Expression
+- Transcription factors
+identifier: CoNSEPT
+repository: GitHub
+description: CoNSEPT is a tool to predict gene expression in various cis and trans
+  contexts. Inputs to CoNSEPT are enhancer sequence, transcription factor levels in
+  one or many trans conditions, TF motifs (PWMs), and any prior knowledge of TF-TF
+  interactions.
+relatedItem:
+- title: Deciphering Enhancer Sequence Using Thermodynamics-Based Models and Convolutional
+    Neural Networks
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: http://doi.org/10.1093/nar/gkab765
+analysisType: Code
+bibliographicCitation: https://github.com/PayamDiba/CoNSEPT
+schema_version: 0.1.1
+uid: CABBI_CoNSEPT
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

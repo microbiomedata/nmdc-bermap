@@ -1,0 +1,210 @@
+id: jbei:318
+brc: JBEI
+date: '2017-05-25'
+title: Kang et al 2017
+creator:
+- name: Aram Kang
+  email: akang@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Nicolas Canu
+  email: ncanu@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords: []
+identifier: jbei:folder:00318
+repository: ICE
+datasetName: Kang et al 2017
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/318
+description: This dataset provides a collection of 30 plasmids for the metabolic engineering
+  of the mevalonate (MVA) pathway. The primary focus is on the protein engineering
+  of phosphomevalonate decarboxylase from *Saccharomyces cerevisiae* (PMDsc), featuring
+  an extensive library of single and combinatorial point mutants. The collection also
+  includes several multi-gene constructs for assembling different MVA pathway configurations,
+  incorporating enzymes from *E. coli*, *S. cerevisiae*, and archaea for isoprenoid
+  biosynthesis.
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pTrc99a-PMDsc_R74G-E144D
+  promoters: []
+  description: pTrc99a-PMDsc (JBx_078507) with mutations of R74G-E144D
+  selection_markers:
+  - Ampicillin
+- backbone: pE2a-PMDsc
+  promoters: []
+  description: pBbE2a containing PMDsc between BglBrick restriction enzyme sites
+  selection_markers:
+  - Ampicillin
+- backbone: pS8a-PMDsc
+  promoters: []
+  description: A plasmid bearing phosphomevalonate decarboxylase from Saccharomyces
+    cerevisiae.
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99a-PMDsc_R74G-E144D-M212Q
+  promoters: []
+  description: pTrc99a-PMDsc (JBx_078507) with mutations of R74G-E144D-M212Q
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99a-PMDsc_Q140L-M212Q-I226V
+  promoters: []
+  description: pTrc99a-PMDsc (JBx_078507) with mutations of Q140L-M212Q-I226V
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99a-PMDsc_Q140L-R147K-I226V
+  promoters: []
+  description: pTrc99a-PMDsc (JBx_078507) with mutations of Q140L-R147K-I226V
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99a-PMDsc_R74G-R147K-M212Q
+  promoters: []
+  description: pTrc99a-PMDsc (JBx_078507) with mutations of R74G-R147K-M212Q
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99a-PMDsc_R74S-I145A-M212Q
+  promoters: []
+  description: pTrc99a-PMDsc (JBx_078507) with mutations of R74S-I145A-M212Q
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99a-PMDsc_I226V
+  promoters: []
+  description: pTrc99a-PMDsc (JBx_078507) with mutations of I226V
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99a-PMDsc_R74G-R147K
+  promoters: []
+  description: pTrc99a-PMDsc (JBx_078507) with mutations of R74G-R147K
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99a-PMDsc_R74S-R147K-M212Q
+  promoters: []
+  description: pTrc99a-PMDsc (JBx_078507) with mutations of R74S-R147K-M212Q
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99a-PMDsc_R147K
+  promoters: []
+  description: pTrc99a-PMDsc (JBx_078507) with mutations of R147K
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99a-PMDsc_R74H-R147K-M212Q
+  promoters: []
+  description: pTrc99a-PMDsc (JBx_078507) with mutations of R74H-R147K-M212Q
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99a-PMDsc_E144D
+  promoters: []
+  description: pTrc99a-PMDsc (JBx_078507) with mutations of E144D
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99a-PMDsc_Q140L
+  promoters: []
+  description: pTrc99a-PMDsc (JBx_078507) with mutations of Q140L
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99a-PMDsc_R74G
+  promoters: []
+  description: pTrc99a-PMDsc (JBx_078507) with mutations of R74G
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99a-PMDsc_Q140L-I226V
+  promoters: []
+  description: pTrc99a-PMDsc (JBx_078507) with mutations of Q140L-I226V
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99a-PMDsc_Q210H
+  promoters: []
+  description: pTrc99a-PMDsc (JBx_078507) with mutations of Q210H
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99a-PMDsc_V230E
+  promoters: []
+  description: pTrc99a-PMDsc (JBx_078507) with mutations of V230E
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99a-PMDsc_S186C
+  promoters: []
+  description: pTrc99a-PMDsc (JBx_078507) with mutations of S186C
+  selection_markers:
+  - Ampicillin
+- backbone: pS8a-PMDsc_K22M
+  promoters: []
+  description: pS8a-PMDsc_K22M; K22M mutant of PMD from S. cerevisiae (PMDsc)
+  selection_markers:
+  - Amp
+- backbone: pA5c-MevT(O)-T21-MKco-EcIDI-EcIspE
+  promoters: []
+  description: A plasmid bearing the three upper genes of MVA pathway from Saccharomyces
+    cerevisiae, codon-optimized mevalonate kinase from Saccharomyces cerevisiae, isopentenyl
+    pyrophosphate delta isomerase and IspE from Escherichia Coli.
+  selection_markers:
+  - Chloramphenicol
+- backbone: pS8a-PMDSc_R74H
+  promoters: []
+  description: A plasmid bearing phosphomevalonate decarboxylase from Saccharomyces
+    cerevisiae with an arginine to histidine mutation on residue 74.
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pTrc99a-PMDsc
+  promoters:
+  - pTrc
+  description: pTrc99a plasmids with PMD from S. cerevisiae
+  selection_markers:
+  - Ampicillin
+- backbone: pA5c-MevT(O)-T21-MKco-EcIDI-MtIPK
+  promoters: []
+  description: A plasmid bearing the three upper genes of MVA pathway from Saccharomyces
+    cerevisiae, codon-optimized mevalonate kinase from Saccharomyces cerevisiae, isopentenyl
+    pyrophosphate delta isomerase from Escheria coli and isopentenol phosphate kinase
+    from Methanocaldococcus jannaschii.
+  selection_markers:
+  - Chloramphenicol
+- backbone: pA5c-MevT(O)-T21-MKco-EcIDI-TaIPK
+  promoters: []
+  description: A plasmid bearing the three upper genes of MVA pathway from Saccharomyces
+    cerevisiae, codon-optimized mevalonate kinase from Saccharomyces cerevisiae, isopentenyl
+    pyrophosphate delta isomerase from Escheria Coli and isopentenol phosphate kinase
+    from Thermoplasma acidophilum.
+  selection_markers:
+  - Chloramphenicol
+- backbone: pTrc99a-PMDsc_R74H_I145F
+  promoters: []
+  description: pTrc99a-PMDsc_R74H_I145F
+  selection_markers:
+  - Amp
+- backbone: pTrc99a-PMDsc_R74H
+  promoters: []
+  description: pTrc99a-PMDsc_R74H
+  selection_markers:
+  - Amp
+- backbone: pSKB3-PMDsc
+  promoters:
+  - T7
+  description: pSKB3-PMDsc
+  selection_markers:
+  - Kan
+- ori: p15a
+  backbone: pA5c-MevT(O)-T21-MKco
+  promoters:
+  - PLacUV5
+  description: MevT(O) = original MevT from S. cerevisiae. MKco= codon-optimized MK
+    from S. cerevisiae. AtoB from E. coli.
+  selection_markers:
+  - Cm
+bibliographicCitation: https://public-registry.jbei.org/folders/318
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00318
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

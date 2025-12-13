@@ -1,0 +1,98 @@
+id: jbei:925
+brc: JBEI
+date: '2025-11-06'
+title: Bertrand et. al. 2026
+creator:
+- name: Robert Bertrand
+  email: robertbertrand@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 106590
+  scientificName: Cupriavidus necator
+keywords:
+- Hydrogenase
+- RppA
+identifier: jbei:folder:00925
+repository: ICE
+datasetName: Bertrand et. al. 2026
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/925
+description: This dataset provides plasmids for biocatalysis and engineered biosynthesis
+  in *E. coli*. Two plasmids encode an IPTG-inducible *Cupriavidus necator* hydrogenase
+  system for regenerating NADH from molecular hydrogen. A third plasmid contains an
+  arabinose-inducible type III polyketide synthase (RppA) for the production of flaviolin.
+relatedItem:
+- title: Bertrand et al. 2024b. [Title TBD] Manuscript in preparation
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Bertrand et al. 2024A [Title TBD] Manuscript in Preparation; Bertrand et
+    al. 2024B [Title TBD] Manuscript in Preparation
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Bertrand et al. 2024B [Title TBD] Manuscript in Preparation
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Bertrand et al. 2024A [Title TBD] Manuscript in Preparation
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Bertrand et al. 2024a. [Title TBD] Manuscript in preparation
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Ghosh, Bisaillon, Hallenbeck. 2013. Increasing the metabolic capacity of
+    Escherichia coli for hydrogen production through heterologous expression of the
+    Ralstonia eutropha SH operon. Biotechnol. Biofuels 6: 122.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: N/A
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: P15A
+  backbone: HYD (Kan:P15A)
+  promoters:
+  - T5 promoter
+  description: 'Encodes C. necator hydrogenase heterotetramer (HoxFUYH) and maturation
+    proteins (HoxWI and HypA2B2C2DEFX), as described in Bertrand et al. 2024a [Manuscript
+    in preparation] and Bertrand et al. 2024b [Manuscript in preparation]. Codon optimized
+    for E. coli and IPTG-inducible. Performs the following reaction when expressed
+    in E. coli: H2 + NAD = H + NADH  Additional customization is enabled by KpnI-NotI
+    cloning site. Plasmid is contained within Stellar E. coli (Takara) cloning strain.
+    Plasmid miniprep and transformation into end-user’s desired strain of bacteria
+    will be required to achieve the described application.'
+  selection_markers: []
+- ori: P15A
+  backbone: HYD (Spec:P15A)
+  promoters:
+  - T5 promoter
+  description: 'Encodes C. necator hydrogenase heterotetramer (HoxFUYH) and maturation
+    proteins (HoxWI and HypA2B2C2DEFX), as described in Bertrand et al. 2024a [Manuscript
+    in preparation] and Bertrand et al. 2024b [Manuscript in preparation]. Codon optimized
+    for E. coli and IPTG-inducible. Performs the following reaction when expressed
+    in E. coli: H2 + NAD = H + NADH  Additional customization is enabled by KpnI-NotI
+    cloning site. Plasmid is contained within Stellar E. coli (Takara) cloning strain.
+    Plasmid miniprep and transformation into end-user’s desired strain of bacteria
+    will be required to achieve the described application.'
+  selection_markers: []
+- ori: BBR1
+  backbone: 'RppA-AraBAD '
+  promoters:
+  - AraBAD
+  description: 'Arabinose-inducible flaviolin-producing type III polyketide synthase
+    (“RppA”) with chloramphenicol marker and BBR1 origin of replication, for expression
+    in E. coli. Plasmid is contained within Stellar E. coli (Takara) cloning strain.
+    Plasmid miniprep and transformation into end-user’s desired strain of bacteria
+    will be required to achieve the described application.  '
+  selection_markers: []
+bibliographicCitation: https://public-registry.jbei.org/folders/925
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00925
+created_at: '2025-11-18T20:03:56.772Z'
+updated_at: '2025-12-11T00:00:04.623Z'

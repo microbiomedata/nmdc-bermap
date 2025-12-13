@@ -1,0 +1,58 @@
+id: jbei:279
+brc: JBEI
+date: '2016-05-13'
+title: Rodriguez_et_al_2016
+creator:
+- name: Eva Pan
+  email: epan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Charles Denby
+  email: cmdenby@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Sarah Rodriguez
+  email: srodriguez@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 162425
+  scientificName: Aspergillus nidulans
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00279
+repository: ICE
+datasetName: Rodriguez_et_al_2016
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/279
+description: This dataset contains a plasmid designed for metabolic engineering to
+  enhance the cytoplasmic pool of acetyl-CoA. The plasmid facilitates the heterologous
+  co-expression of both subunits (a and b) of ATP citrate lyase (ACL) from the fungus
+  *Aspergillus nidulans*. This construct is notable for the removal of a terpene synthase
+  gene, making it a foundational tool for boosting precursor supply to non-terpenoid
+  pathways or for use as an experimental control.
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: b)_NoTerp_Leu2d
+  promoters: []
+  description: "pACL(AspNid-a,b)_NoTerp_Leu2d \n\nATP citrate lyase from Aspergillus\
+    \ Nidulands, with both genes \"a\" and \"b\" . Plasmid has ADS (terpene synthase)\
+    \ removed. "
+  selection_markers:
+  - Leu2d
+  - Amp
+bibliographicCitation: https://public-registry.jbei.org/folders/279
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00279
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

@@ -1,0 +1,29 @@
+brc: GLBRC
+date: '2024-10-09'
+title: 'Data and calculations associated with "Tracking cropland transitions: a comparative
+  analysis of U.S. land cover change data"'
+creator:
+- name: Martin Gray
+  email: gdmartin@rti.org
+  affiliation: RTI International, Research Triangle Park, North Caroline, USA
+  primaryContact: true
+- name: Tyler J. Lark
+  email: lark@wisc.edu
+  affiliation: GLBRC - University of Wisconsin-Madison
+  primaryContact: false
+species: []
+keywords: []
+identifier: 10.5281/zenodo.13909562
+repository: Zenodo
+description: null
+relatedItem:
+- title: 'Tracking cropland transitions: a comparative analysis of U.S. land cover
+    change data'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0313880#ack
+analysisType: Field data, analyses
+bibliographicCitation: https://doi.org/10.5281/zenodo.13909562
+schema_version: 0.1.7
+uid: GLBRC_10.5281/zenodo.13909562
+created_at: '2025-11-27T06:00:04.934Z'
+updated_at: '2025-12-10T06:00:05.198Z'

@@ -1,0 +1,38 @@
+brc: CABBI
+date: '2023-10-28'
+title: Roots Selectively Decompose Litter to Mine Nitrogen and Build New Soil Carbon
+creator:
+- name: Brzostek, Edward
+  email: erbrzostek@mail.wvu.edu
+  affiliation: West Virginia University
+  primaryContact: true
+species:
+- NCBITaxID: 183674
+  scientificName: Miscanthus x giganteus
+keywords:
+- soil organic matter
+- miscanthus
+- roots
+- litter decomposition
+identifier: 10.5281/zenodo.8408435
+repository: Zenodo
+description: Plant-microbe interactions in the rhizosphere shape carbon and nitrogen
+  cycling in soil organic matter (SOM). However, there is conflicting evidence on
+  whether these interactions lead to a net loss or increase of SOM. In part, this
+  conflict is driven by uncertainty in how living roots and microbes alter SOM formation
+  or loss in the field. To address these uncertainties, we traced the fate of isotopically
+  labelled litter into SOM using root and fungal ingrowth cores incubated in a Miscanthus
+  x giganteus field. Roots stimulated litter decomposition, but balanced this loss
+  by transferring carbon into aggregate associated SOM. Further, roots selectively
+  mobilized nitrogen from litter without additional carbon release. Overall, our findings
+  suggest that roots mine litter nitrogen and protect soil carbon.
+relatedItem:
+- title: Roots Selectively Decompose Litter to Acquire Nitrogen and Build New Soil
+    Carbon
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/ele.14331
+bibliographicCitation: https://doi.org/10.5281/zenodo.8408435
+schema_version: 0.1.1
+uid: CABBI_10.5281/zenodo.8408435
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.628Z'

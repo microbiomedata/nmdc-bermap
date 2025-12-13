@@ -1,0 +1,29 @@
+brc: CABBI
+date: '2023-04-02'
+title: Quantifying Uncertainties in Greenhouse Gas savings and Abatement Costs with
+  Cellulosic Biofuels
+creator:
+- name: Khanna, Madhu
+  email: khanna1@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+keywords:
+- cellulosic biomass
+- Biofuel and Environmental Policy Analysis Model
+- economic modeling
+identifier: 10.13012/B2IDB-4326514_V1
+repository: Illinois Data Bank
+description: Use of cellulosic biofuels from non-feedstocks are modeled using the
+  BEPAM (Biofuel and Environmental Policy Analysis Model) model to quantifying the
+  uncertainties about induced land use change effects, net greenhouse gas saving potential,
+  and economic costs. The code is in GAMS, general algebraic modeling language.
+relatedItem:
+- title: Quantifying Uncertainties in Greenhouse Gas Savings and Abatement Costs with
+    Cellulosic Biofuels
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1093/erae/jbad036
+bibliographicCitation: https://doi.org/10.13012/B2IDB-4326514_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-4326514_V1
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.628Z'

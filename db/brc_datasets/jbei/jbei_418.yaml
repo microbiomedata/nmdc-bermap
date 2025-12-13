@@ -1,0 +1,196 @@
+id: jbei:418
+brc: JBEI
+date: '2019-01-12'
+title: de Rond et al 2019
+creator:
+- name: Tristan de Rond
+  email: tderond@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Adrienne Schlatter
+  email: afschlatter@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 1404
+  scientificName: Bacillus megaterium
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- P450 BM3
+identifier: jbei:folder:00418
+repository: ICE
+datasetName: de Rond et al 2019
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/418
+description: This dataset comprises 28 plasmids for expressing the fatty acid monooxygenase
+  P450BM3 from *Bacillus megaterium*. The collection features N-terminally His-tagged
+  wild-type P450BM3 and an extensive library of variants with single or double mutations
+  at active site residues F87 and A328. Several plasmids are designed for high-titer
+  expression, and a GFP control plasmid is included for reference.
+relatedItem:
+- title: Dietrich JA, et al. " A Novel Semi-biosynthetic Route for Artemisinin Production
+    Using Engineered Substrate-Promiscuous P450BM3." ACS Chemical Biology 4:261-267
+    (2009)
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: affinity_purification
+contributors:
+- name: tderond
+  email: tristan.de.rond@berkeley.edu
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pCWori2-His6-P450BM3(CO)F87G/A328V
+  promoters: []
+  description: For high-titer expression of N-term His-tagged P450BM3 variant F87G/A328V
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori2-His6-P450BM3(CO)F87T
+  promoters: []
+  description: For high-titer expression of N-term His-tagged P450BM3 variant F87T
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori2-His6-P450BM3(CO)
+  promoters: []
+  description: For high-titer expression of N-term His-tagged P450BM3
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori2-His6-P450BM3(CO)F87A/A328I
+  promoters: []
+  description: For high-titer expression of N-term His-tagged P450BM3 variant F87A/A328I
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori2-His6-P450BM3(CO)F87A/A328Y
+  promoters: []
+  description: For high-titer expression of N-term His-tagged P450BM3 variant F87A/A328Y
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori-His6-P450BM3(CO)F87V
+  promoters: []
+  description: For expression of N-term His-tagged P450BM3 variant F87V
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori2-His6-P450BM3(CO)F87A/A328V
+  promoters: []
+  description: For high-titer expression of N-term His-tagged P450BM3 variant F87A/A328V
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori2-His6-P450BM3(CO)F87G/A328L
+  promoters: []
+  description: For high-titer expression of N-term His-tagged P450BM3 variant F87G/A328L
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori-His6-P450BM3(CO)F87V/A328P
+  promoters: []
+  description: For expression of N-term His-tagged P450BM3 variant F87V/A328P
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori-His6-P450BM3(CO)F87T
+  promoters: []
+  description: For expression of N-term His-tagged P450BM3 variant F87T
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori-His6-P450BM3(CO)F87P
+  promoters: []
+  description: For expression of N-term His-tagged P450BM3 variant F87P
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori-His6-P450BM3(CO)F87A/A328G
+  promoters: []
+  description: For expression of N-term His-tagged P450BM3 variant F87A/A328G
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori-His6-P450BM3(CO)F87I/A328L
+  promoters: []
+  description: For expression of N-term His-tagged P450BM3 variant F87I/A328L
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori-His6-P450BM3(CO)F87G/A328V
+  promoters: []
+  description: For expression of N-term His-tagged P450BM3 variant F87G/A328V
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori-His6-P450BM3(CO)F87G/A328T
+  promoters: []
+  description: For expression of N-term His-tagged P450BM3 variant F87G/A328T
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori-His6-P450BM3(CO)F87I
+  promoters: []
+  description: For expression of N-term His-tagged P450BM3 variant F87I
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori-His6-P450BM3(CO)F87G/A328N
+  promoters: []
+  description: For expression of N-term His-tagged P450BM3 variant F87G/A328N
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori-His6-P450BM3(CO)F87G/A328S
+  promoters: []
+  description: For expression of N-term His-tagged P450BM3 variant F87G/A328S
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori-His6-P450BM3(CO)F87G/A328L
+  promoters: []
+  description: For expression of N-term His-tagged P450BM3 variant F87G/A328L
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori-His6-P450BM3(CO)F87G/A328G
+  promoters: []
+  description: For expression of N-term His-tagged P450BM3 variant F87G/A328G
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori-His6-P450BM3(CO)F87G/A328P
+  promoters: []
+  description: For expression of N-term His-tagged P450BM3 variant F87G/A328P
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori-His6-P450BM3(CO)F87A
+  promoters: []
+  description: For expression of N-term His-tagged P450BM3 variant F87A
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori-His6-P450BM3(CO)F87A/A328V
+  promoters: []
+  description: For expression of N-term His-tagged P450BM3 variant F87A/A328V
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori-His6-P450BM3(CO)
+  promoters: []
+  description: For expression of N-term His-tagged P450BM3
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori-His6-P450BM3(CO)F87A/A328P
+  promoters: []
+  description: For expression of N-term His-tagged P450BM3 variant F87A/A328P
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori-His6-P450BM3(CO)F87A/A328Y
+  promoters: []
+  description: For expression of N-term His-tagged P450BM3 variant F87A/A328Y
+  selection_markers:
+  - Carbenicillin
+- backbone: pCWori-BM3(CO)-G0
+  promoters:
+  - Cwori
+  description: 'Harbors P450 BM3, derived from B. megaterium, active on long chain
+    fatty acid '
+  selection_markers:
+  - Ampicillin
+- backbone: pCWori-GFP
+  promoters: []
+  description: GFP (from pBbB8k) in a pCWori backbone
+  selection_markers:
+  - Ampicillin
+bibliographicCitation: https://public-registry.jbei.org/folders/418
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00418
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

@@ -1,0 +1,57 @@
+id: jbei:212
+brc: JBEI
+date: '2015-09-30'
+title: Poust et al. 2015
+creator:
+- name: Sean Poust
+  email: spoust@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Nurgul Kaplan
+  email: nkaplan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00212
+repository: ICE
+datasetName: Poust et al. 2015
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/212
+description: This dataset provides two expression plasmids for biocatalytic enzymes
+  relevant to synthetic biology and bioenergy applications. The first plasmid encodes
+  Benzaldehyde Lyase, a carboligase for carbon-carbon bond formation, in a pET 29
+  vector. The second plasmid contains an engineered formolase variant (L90T) that
+  catalyzes the conversion of formaldehyde into a C3 sugar, a key reaction for valorizing
+  C1 feedstocks.
+relatedItem: []
+analysisType: not specified
+contributors:
+- name: Sean Poust
+  email: poust@berkeley.edu
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: Benzaldehyde Lyase
+  promoters: []
+  description: Benzaldehyde Lyase in a pET 29 Vector
+  selection_markers:
+  - Kan
+- backbone: L90T
+  promoters: []
+  description: Formolase with L90T mutation
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/212
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00212
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

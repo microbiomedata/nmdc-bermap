@@ -1,0 +1,52 @@
+brc: CABBI
+date: '2023-05-03'
+title: MALDI-MS Screening of Microbial Colonies With Isomer Resolution to Select Fatty
+  Acid Desaturase Variants
+creator:
+- name: Jonathan Sweedler
+  email: jsweedle@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Brian Pfleger
+  email: pfleger@wisc.edu
+  affiliation: University of Wisconsin - Madison
+  primaryContact: false
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 3438
+  scientificName: Umbellularia californica
+- NCBITaxID: 32198
+  scientificName: Thunbergia alata
+keywords:
+- MALDI
+- FFA production strains
+- Mass spectrometry
+identifier: 10.13012/B2IDB-2680180_V1
+repository: Illinois Data Bank
+description: Creating controlled lipid unsaturation locations in oleochemicals can
+  be a key to many bioengineered products. However, evaluating the effects of modifications
+  to the acyl-ACP desaturase on lipid unsaturation is not currently amenable to high-throughput
+  assays, limiting the scale of redesign efforts to &lt;200 variants. Here, we report
+  a rapid mass spectrometry (MS) assay for profiling the positions of double bonds
+  on membrane lipids produced by Escherichia coli colonies after treatment with ozone
+  gas. By MS measurement of the ozonolysis products of Δ6 and Δ8 isomers of membrane
+  lipids from colonies expressing recombinant Thunbergia alata desaturase, we screened
+  a randomly mutagenized library of the desaturase gene at 5 s per sample. Two variants
+  with altered regiospecificity were isolated, indicated by an increase in 16:1 Δ8
+  proportion. We also demonstrated the ability of these desaturase variants to influence
+  the membrane composition and fatty acid distribution of E. coli strains deficient
+  in the native acyl-ACP desaturase gene, fabA. Finally, we used the fabA deficient
+  chassis to concomitantly express a non-native acyl-ACP desaturase and a medium-chain
+  thioesterase from Umbellularia californica, demonstrating production of only saturated
+  free fatty acids.
+relatedItem:
+- title: MALDI-MS Screening of Microbial Colonies with Isomer Resolution to Select
+    Fatty Acid Desaturase Variants
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1016/j.ab.2023.115169
+bibliographicCitation: https://doi.org/10.13012/B2IDB-2680180_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-2680180_V1
+created_at: '2025-11-20T18:00:04.759Z'
+updated_at: '2025-12-10T06:00:05.196Z'

@@ -1,0 +1,919 @@
+id: jbei:174
+brc: JBEI
+date: '2015-04-03'
+title: Heins et al. 2014
+creator:
+- name: Richard Heins
+  email: raheins@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00174
+repository: ICE
+datasetName: Heins et al. 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/174
+description: This dataset from Heins et al. (2014) consists of 175 plasmids designed
+  to express a diverse set of enzymes from Glycoside Hydrolase family 1 (GH1). Sourced
+  from a Joint Genome Institute (JGI) collection, these enzymes are critical for the
+  breakdown of cellulosic biomass by hydrolyzing oligosaccharides into simple sugars.
+  This resource enables the systematic functional characterization of key biocatalysts
+  for bioenergy applications.
+relatedItem:
+- title: Heins RA, Cheng X, Nath S, Deng K, Bowen BP, Chivian DC, Datta S, Friedland
+    GD, D’Haeseleer P, Wu D, Tran-Gyamfi M, Scullin CS, Singh S, Shi W, Hamilton MG,
+    Bendall ML, Sczyrba A, Thompson J, Feldman T, Guenther JM, Gladden JM, Cheng JF,
+    Adams PD, Rubin EM, Simmons BA, Sale KL, Northen TR, &amp; S., D. (2014). “Phylogenomically
+    Guided Identification of Industrially Relevant GH1 β-Glucosidases through DNA
+    Synthesis and Nanostructure-Initiator Mass Spectrometry”. ACS. doi, 10.1021/cb500244v
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pET45b_GH1_178
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_214
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_182
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_145
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_162
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_192
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_194
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_201
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_184
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_187
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_174
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_180
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_156
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_160
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_154
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_136
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_132
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_62
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_134
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_215
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_211
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_208
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_205
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_204
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_210
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_202
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_206
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_196
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_193
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_197
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_190
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_188
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_191
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_186
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_183
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_181
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_185
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_179
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_176
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_175
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_173
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_177
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_172
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_170
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_171
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_169
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_164
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_163
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_159
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_158
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_161
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_157
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_155
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_152
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_153
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_151
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_150
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_148
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_147
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_146
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_143
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_144
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_141
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_142
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_139
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_140
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_137
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_138
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_135
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_133
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_130
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_131
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_127
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_128
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_126
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_124
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_123
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_125
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_122
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_121
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_120
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_117
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_116
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_119
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_118
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_114
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_112
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_110
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_113
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_115
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_108
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_109
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_99
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_106
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_103
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_100
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_101
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_96
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_97
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_94
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_93
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_95
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_91
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_89
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_88
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_90
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_92
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_87
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_86
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_85
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_84
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_83
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_81
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_82
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_78
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_80
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_79
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_73
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_75
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_76
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_74
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_77
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_72
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_67
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_68
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_66
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_64
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_69
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_59
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_60
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_57
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_63
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_56
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_55
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_52
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_54
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_51
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_53
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_48
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_47
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_44
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_46
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_45
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_43
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_42
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_41
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_39
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_40
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_38
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_36
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_37
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_35
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_34
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_33
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_32
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_26
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_31
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_30
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_29
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_23
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_24
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_22
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_21
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_19
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_16
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_15
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_17
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_14
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_11
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_13
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_6
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_10
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_8
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_4
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+- backbone: pET45b_GH1_1
+  promoters: []
+  description: JGI GH1 Enzyme Set
+  selection_markers:
+  - Carb
+bibliographicCitation: https://public-registry.jbei.org/folders/174
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00174
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.619Z'

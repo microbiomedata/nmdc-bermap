@@ -1,0 +1,54 @@
+brc: CABBI
+date: '2025-09-18'
+title: 'Soil Fertility Management for Sustainable Miscanthus × giganteus Production:
+  Increased Tiller Weight from Nitrogen Management Explains Yield Gains in Aged Miscanthus'
+creator:
+- name: DoKyoung Lee
+  email: leedk@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Thomas Voigt
+  email: tvoigt@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 183674
+  scientificName: Miscanthus x giganteus
+keywords:
+- Miscanthus x giganteus
+- biomass yields
+- tiller weights
+- productivity
+identifier: 10.13012/B2IDB-7354127_V1
+repository: Illinois Data Bank
+description: 'Aging-related yield decline in Miscanthus × giganteus (miscanthus) remains
+  a major constraint to sustainable biomass production. This study evaluated how nitrogen
+  (N) management and soil fertility influence yield-component traits and productivity
+  in aging miscanthus. Trials were conducted at two sites established in 2008 at the
+  University of Illinois Energy Farm, Urbana, IL. (i) The Sun Grant trial received
+  0, 60, and 120 kg N ha−1 annually until 2015. Starting 2021, half of each plot received
+  60 or 120 kg N ha−1, resulting in six legacy-contemporary treatments: 0N–0N, 0N–120N,
+  60N–0N, 60N–60N, 120N–0N, 120N–120N. (ii) The Energy Farm trial remained unfertilized
+  until 2014, when one half of each plot received 56 kg N ha−1, forming two treatments:
+  0N–0N, 0N–56N. Sun Grant trial results showed N fertilization increased tiller density
+  (tillers m−2) and tiller weight (g tiller−1) in juvenile to early-mature miscanthus
+  (2011–2015). After N withdrawal, both traits declined (20 % and 40 %), though legacy
+  effects persisted in tiller weight in the aging stands (2020–2023). Contemporary
+  N had little effect on tiller density but increased tiller weight by 34 %–77 %,
+  resulting in 23 %–106 % higher machine-harvested biomass yield in 0–120N, 60-60N,
+  and 120-120N plots. At the Energy Farm trial, 0N–56N plots yielded 59 %–108 % more
+  biomass than 0N–0N. Soil total N increased (Sun Grant: 47 % by 2020; Energy Farm:
+  58 % by 2023), while Mehlich-3 P (42 %–44 %) and K (21 %–46 %) declined. These findings
+  identify tiller weight as a key determinant of biomass yield in aging miscanthus
+  and highlight the need for P and K management for long-term productivity.'
+relatedItem:
+- title: 'Soil Fertility Management for Sustainable Miscanthus x giganteus Production:
+    Increased Tiller Weight from Nitrogen Management Explains Yield Gains in Aged
+    Miscanthus'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1016/j.biombioe.2025.108394
+bibliographicCitation: https://doi.org/10.13012/B2IDB-7354127_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-7354127_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

@@ -1,0 +1,40 @@
+id: jbei:289
+brc: JBEI
+date: '2017-02-15'
+title: Wei_et_al_2016a
+creator:
+- name: Tong Wei
+  email: tongwei@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species: []
+keywords: []
+identifier: jbei:folder:00289
+repository: ICE
+datasetName: Wei_et_al_2016a
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/289
+description: null
+relatedItem:
+- title: 'Park, C., Bart, R., Chern, M., Canlas, P. E., Bai, W. &amp; Ronald, P. E.
+    (2010) "Overexpression of the Endoplasmic Reticulum Chaperone BiP3 Regulates XA21-Mediated
+    Innate Immunity in Rice". PLoS ONE 5: e9262. doi, 10.1371/journal.pone.0009262'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Song, W. Y., Wang, G. L., Chen, L., Kim, H., Pi, L., Holsten, T., Gardner,
+    J., Wang, B., Zhai, W., Zhu, L., Fauquet, C. &amp; Ronald, P. (2015) "A receptor
+    kinase-like protein encoded by the rice disease resistance gene, Xa21". Science,
+    270, 1804-1806. doi, 10.1126/science.270.5243.1804
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features: []
+bibliographicCitation: https://public-registry.jbei.org/folders/289
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00289
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

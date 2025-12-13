@@ -1,0 +1,1398 @@
+id: jbei:733
+brc: JBEI
+date: '2022-03-04'
+title: Gauttam_et_al_2022
+creator:
+- name: Rahul Gauttam
+  email: rgauttam@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Matthew Incha
+  email: incha@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Mitchell Thompson
+  email: mthompson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 286
+  scientificName: Pseudomonas
+- NCBITaxID: 303
+  scientificName: Pseudomonas putida
+- NCBITaxID: 1314
+  scientificName: Streptococcus pyogenes
+- NCBITaxID: 197614
+  scientificName: Streptococcus pasteurianus
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00733
+repository: ICE
+datasetName: Gauttam_et_al_2022
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/733
+description: This dataset provides a comprehensive synthetic biology toolkit of 128
+  plasmids for genetic engineering in *Pseudomonas* species, particularly *P. putida*.
+  Key components include systematically characterized inducible promoters and ribosome
+  binding sites, and an extensive set of dual-inducible CRISPRi vectors for targeted
+  gene repression using dCas9 from *S. pyogenes* and *S. pasteurianus*. The collection
+  is built upon versatile *E. coli-P. putida* shuttle vectors and includes plasmids
+  for genomic integration and the production of bioproducts such as indigodine and
+  methyl ketones.
+relatedItem:
+- title: 'Wang, Gaoyan, Zhiying Zhao, Jing Ke, Yvonne Engel, Yi-Ming Shi, David Robinson,
+    Kerem Bingol et al. "CRAGE enables rapid activation of biosynthetic gene clusters
+    in undomesticated bacteria." Nature microbiology 4, no. 12 (2019): 2498-2510.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://link.springer.com/article/10.1007/s10295-003-0075-8
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pBBR1
+  backbone: pBADT-rppA-OT
+  promoters: []
+  description: Tetrahydroxynapthalene synthase variant
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9CymR
+  promoters: []
+  description: dual-inducible CRISPRi vector with Pcuo controlled (cumate inducible)
+    S. pyogenes spdCas9 expression and Pbad controlled sgRNA expression
+  selection_markers:
+  - Kanamycin
+- ori: pBBR1
+  backbone: pRGPDuo3-sfpbpsA bad
+  promoters: []
+  description: Indigodine production
+  selection_markers:
+  - Gentamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9rhaRS
+  promoters: []
+  description: dual-inducible CRISPRi vector with PrhaRS controlled (rhamnose inducible)
+    S. pyogenes spdCas9 expression and Pbad controlled sgRNA expression
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPDuo2-sfpbpsA tet
+  promoters: []
+  description: Plasmid for indigodine production
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPDuo4-sfpbpsA bad
+  promoters: []
+  description: Indigodine production
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRG04
+  promoters: []
+  description: Methyl ketone production
+  selection_markers:
+  - Kanamycin
+- ori: pBBR1
+  backbone: pRG03
+  promoters: []
+  description: Plasmid for methyl ketone production
+  selection_markers:
+  - Gentamicin
+- ori: R6K
+  backbone: pW34-sfGFP
+  promoters: []
+  description: CRAGE mediated sfGFP integration in genome of bacterial species including
+    P. putida and environmental isolates
+  selection_markers:
+  - Apramycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo8-sfGFPcymR RBS0
+
+    '
+  promoters:
+  - pBad; pCuo
+  description: '
+
+    sfGFP expression in Pseudomonas using PCuo promoter with RBS0
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo7-sfGFPrhaRS RBS10
+
+    '
+  promoters:
+  - pBad; prhaRS
+  description: '
+
+    sfGFP expression in Pseudomonas using PrhaRS promoter with RBS10
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo8-sfGFPcymR RBS8
+
+    '
+  promoters:
+  - pBad; pCuo
+  description: '
+
+    sfGFP expression in Pseudomonas using PCuo promoter with RBS8
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo8-sfGFPcymR RBS10
+
+    '
+  promoters:
+  - pBad; pCuo
+  description: '
+
+    sfGFP expression in Pseudomonas using PCuo promoter with RBS10
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo7-sfGFPrhaRS RBS0
+
+    '
+  promoters:
+  - pBad; prhaRS
+  description: '
+
+    sfGFP expression in Pseudomonas using PrhaRS promoter with RBS0
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo6-sfGFPcymR RBS10
+
+    '
+  promoters:
+  - pTac; pCuo
+  description: '
+
+    sfGFP expression in Pseudomonas using PCuo promoter with RBS10
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo6-sfGFPcymR RBS8
+
+    '
+  promoters:
+  - pTac; pCuo
+  description: '
+
+    sfGFP expression in Pseudomonas using PCuo promoter with RBS8
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo7-sfGFPrhaRS RBS8
+
+    '
+  promoters:
+  - pBad; prhaRS
+  description: '
+
+    sfGFP expression in Pseudomonas using PrhaRS promoter with RBS8
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo6-sfGFPcymR RBS0
+
+    '
+  promoters:
+  - pTac; pCuo
+  description: '
+
+    sfGFP expression in Pseudomonas using PCuo promoter with RBS0
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo8
+
+    '
+  promoters:
+  - pBad; pCuo
+  description: '
+
+    dual-inducible E. coli/P. putida shuttle vector (Pbad, araC, OriVP. putida (pRO1600),
+    OriVE. coli (colE1), PCuo, cymR); KanR
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo7
+
+    '
+  promoters:
+  - pBad; prhaRS
+  description: '
+
+    dual-inducible E. coli/P. putida shuttle vector (Pbad, araC, OriVP. putida (pRO1600),
+    OriVE. coli (colE1), PrhaRS, rhaRS); KanR
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: ori2
+  backbone: pW17
+  promoters: []
+  description: Plasmid is from JGI and is used for CRAGE mediated recombineering in
+    bacterial species
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo6
+
+    '
+  promoters:
+  - pTac; pCuo
+  description: '
+
+    dual-inducible E. coli/P. putida shuttle vector (Ptac, lacIQ, OriVP. putida (pRO1600),
+    OriVE. coli (colE1), PCuo, cymR); KanR
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo2-sfGFPtet RBS11
+
+    '
+  promoters:
+  - pTac; ptetR/tetA
+  description: '
+
+    sfGFP expression in Pseudomonas using PtetR/tetA promoter with RBS11
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: '
+
+    pTac; ptetR/tetA
+
+    '
+  backbone: '
+
+    pRGPDuo2-sfGFPtet RBS9
+
+    '
+  promoters:
+  - pTac; ptetR/tetA
+  description: '
+
+    sfGFP expression in Pseudomonas using PtetR/tetA promoter with RBS9
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo2-sfGFPtet RBS10
+
+    '
+  promoters:
+  - pTac; ptetR/tetA
+  description: '
+
+    sfGFP expression in Pseudomonas using PtetR/tetA promoter with RBS10
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: '
+
+    pTac; ptetR/tetA
+
+    '
+  backbone: '
+
+    pRGPDuo2-sfGFPtet RBS8
+
+    '
+  promoters:
+  - pTac; ptetR/tetA
+  description: '
+
+    sfGFP expression in Pseudomonas using PtetR/tetA promoter with RBS8
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: '
+
+    pTac; ptetR/tetA
+
+    '
+  backbone: '
+
+    pRGPDuo2-sfGFPtet RBS7
+
+    '
+  promoters:
+  - pTac; ptetR/tetA
+  description: '
+
+    sfGFP expression in Pseudomonas using PtetR/tetA promoter with RBS7
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: '
+
+    pTac; ptetR/tetA
+
+    '
+  backbone: '
+
+    pRGPDuo2-sfGFPtet RBS6
+
+    '
+  promoters:
+  - pTac; ptetR/tetA
+  description: '
+
+    sfGFP expression in Pseudomonas using PtetR/tetA promoter with RBS6
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: '
+
+    pTac; ptetR/tetA
+
+    '
+  backbone: '
+
+    pRGPDuo2-sfGFPtet RBS5
+
+    '
+  promoters:
+  - pTac; ptetR/tetA
+  description: '
+
+    sfGFP expression in Pseudomonas using PtetR/tetA promoter with RBS5
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: '
+
+    pTac; ptetR/tetA
+
+    '
+  backbone: '
+
+    pRGPDuo2-sfGFPtet RBS1
+
+    '
+  promoters:
+  - pTac; ptetR/tetA
+  description: '
+
+    sfGFP expression in Pseudomonas using PtetR/tetA promoter with RBS1
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: '
+
+    pTac; ptetR/tetA
+
+    '
+  backbone: '
+
+    pRGPDuo2-sfGFPtet RBS4
+
+    '
+  promoters:
+  - pTac; ptetR/tetA
+  description: '
+
+    sfGFP expression in Pseudomonas using PtetR/tetA promoter with RBS4
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: '
+
+    pTac; ptetR/tetA
+
+    '
+  backbone: '
+
+    pRGPDuo2-sfGFPtet RBS3
+
+    '
+  promoters:
+  - pTac; ptetR/tetA
+  description: '
+
+    sfGFP expression in Pseudomonas using PtetR/tetA promoter with RBS3
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: '
+
+    Ptac; pBad
+
+    '
+  backbone: '
+
+    pRGPDuo4-sfGFPbad RBS10
+
+    '
+  promoters:
+  - Ptac; pBad
+  description: '
+
+    sfGFP expression in Pseudomonas using Pbad promoter with RBS10
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo4-sfGFPbad RBS9
+
+    '
+  promoters:
+  - Ptac; pBad
+  description: '
+
+    sfGFP expression in Pseudomonas using Pbad promoter with RBS9
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: '
+
+    Ptac; pBad
+
+    '
+  backbone: '
+
+    pRGPDuo4-sfGFPbad RBS11
+
+    '
+  promoters:
+  - Ptac; pBad
+  description: '
+
+    sfGFP expression in Pseudomonas using Pbad promoter with RBS11
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo4-sfGFPbad RBS8
+
+    '
+  promoters:
+  - Ptac; pBad
+  description: '
+
+    sfGFP expression in Pseudomonas using Pbad promoter with RBS8
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo4-sfGFPbad RBS6
+
+    '
+  promoters:
+  - Ptac; pBad
+  description: '
+
+    sfGFP expression in Pseudomonas using Pbad promoter with RBS6
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo4-sfGFPbad RBS4
+
+    '
+  promoters:
+  - Ptac; pBad
+  description: '
+
+    sfGFP expression in Pseudomonas using Pbad promoter with RBS4
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo4-sfGFPbad RBS7
+
+    '
+  promoters:
+  - Ptac; pBad
+  description: '
+
+    sfGFP expression in Pseudomonas using Pbad promoter with RBS7
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo4-sfGFPbad RBS5
+
+    '
+  promoters:
+  - Ptac; pBad
+  description: '
+
+    sfGFP expression in Pseudomonas using Pbad promoter with RBS5
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo4-sfGFPbad RBS3
+
+    '
+  promoters:
+  - Ptac; pBad
+  description: '
+
+    sfGFP expression in Pseudomonas using Pbad promoter with RBS3
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo4-sfGFPbad RBS2
+
+    '
+  promoters:
+  - Ptac; pBad
+  description: '
+
+    sfGFP expression in Pseudomonas using Pbad promoter with RBS2
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo4-sfGFPbad RBS1
+
+    '
+  promoters:
+  - Ptac; pBad
+  description: '
+
+    sfGFP expression in Pseudomonas using Pbad promoter with RBS1
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo2-sfGFPtac RBS11
+
+    '
+  promoters:
+  - pTac; ptetR/tetA
+  description: '
+
+    sfGFP expression in Pseudomonas using Ptac promoter with RBS11
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo2-sfGFPtac RBS10
+
+    '
+  promoters:
+  - pTac; ptetR/tetA
+  description: '
+
+    sfGFP expression in Pseudomonas using Ptac promoter with RBS10
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo2-sfGFPtac RBS9
+
+    '
+  promoters:
+  - pTac; ptetR/tetA
+  description: '
+
+    sfGFP expression in Pseudomonas using Ptac promoter with RBS9
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo2-sfGFPtac RBS6
+
+    '
+  promoters:
+  - pTac; ptetR/tetA
+  description: '
+
+    sfGFP expression in Pseudomonas using Ptac promoter with RBS6
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo2-sfGFPtac RBS5
+
+    '
+  promoters:
+  - pTac; ptetR/tetA
+  description: '
+
+    sfGFP expression in Pseudomonas using Ptac promoter with RBS5
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo2-sfGFPtac RBS7
+
+    '
+  promoters:
+  - pTac; ptetR/tetA
+  description: '
+
+    sfGFP expression in Pseudomonas using Ptac promoter with RBS7
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo2-sfGFPtac RBS8
+
+    '
+  promoters:
+  - pTac; ptetR/tetA
+  description: '
+
+    sfGFP expression in Pseudomonas using Ptac promoter with RBS8
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo2-sfGFPtac RBS1
+
+    '
+  promoters:
+  - pTac; ptetR/tetA
+  description: '
+
+    sfGFP expression in Pseudomonas using Ptac promoter with RBS1
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo2-sfGFPtac RBS4
+
+    '
+  promoters:
+  - pTac; ptetR/tetA
+  description: '
+
+    sfGFP expression in Pseudomonas using Ptac promoter with RBS4
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo2-sfGFPtac RBS3
+
+    '
+  promoters:
+  - pTac; ptetR/tetA
+  description: '
+
+    sfGFP expression in Pseudomonas using Ptac promoter with RBS3
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRo1600; colE1
+  backbone: '
+
+    pRGPDuo2-sfGFPtac RBS2
+
+    '
+  promoters:
+  - pTac; ptetR/tetA
+  description: '
+
+    sfGFP expression in Pseudomonas using Ptac promoter with RBS2
+
+    '
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPDuo4-RFPtac + sfGFPbad RBS0
+  promoters: []
+  description: expression of RFP under pTac and GFP under pBad
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-transketolase2(M2) sgRNA3
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes based repression of transketolase2 (second putative transketolase)
+    gene in environmental Pseudomonas isolate M2 with sgRNA3
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-transketolase1(M2) sgRNA3
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes based repression of transketolase1 (first putative transketolase)
+    gene in environmental Pseudomonas isolate M2 with sgRNA3
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-transketolase2(M2) sgRNA2
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes based repression of transketolase2 (second putative transketolase)
+    gene in environmental Pseudomonas isolate M2 with sgRNA2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-transketolase2(M2) sgRNA1
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes based repression of transketolase2 (second putative transketolase)
+    gene in environmental Pseudomonas isolate M2 with sgRNA1
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-transketolase1(M2) sgRNA2
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes based repression of transketolase1 (first putative transketolase)
+    gene in environmental Pseudomonas isolate M2 with sgRNA2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-transketolase1(M2) sgRNA1
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes based repression of transketolase1 (first putative transketolase)
+    gene in environmental Pseudomonas isolate M2 with sgRNA1
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-gcd3(M2) sgRNA3
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes based repression of gcd3 (third putative gcd) gene in environmental
+    Pseudomonas isolate M2 with sgRNA3
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-MFS transporter(M2) sgRNA1
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes based repression of MFS transporter gene in environmental
+    Pseudomonas isolate M2 with sgRNA1
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-MFS transporter(M2) sgRNA3
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes based repression of MFS transporter gene in environmental
+    Pseudomonas isolate M2 with sgRNA3
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-MFS transporter(M2) sgRNA2
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes based repression of MFS transporter gene in environmental
+    Pseudomonas isolate M2 with sgRNA2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-gcd3(M2) sgRNA1
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes based repression of gcd3 (third putative gcd) gene in environmental
+    Pseudomonas isolate M2 with sgRNA1
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-gcd2(M2) sgRNA2
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes based repression of gcd2 (second putative gcd) gene in
+    environmental Pseudomonas isolate M2 with sgRNA2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-gcd3(M2) sgRNA2
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes based repression of gcd3 (third putative gcd) gene in environmental
+    Pseudomonas isolate M2 with sgRNA2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-gcd2(M2) sgRNA1
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes based repression of gcd2 (second putative gcd) gene in
+    environmental Pseudomonas isolate M2 with sgRNA1
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-dehydrogenase transketolase(M2) sgRNA3
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes based repression of dehydrogenase transketolase gene in
+    environmental Pseudomonas isolate M2 with sgRNA3
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-xylD(M2) sgRNA1
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of xylose xylD gene in environmental
+    Pseudomonas isolate M2 with sgRNA1
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-xylD(M2) sgRNA2
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of xylose xylD gene in environmental
+    Pseudomonas isolate M2 with sgRNA2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-dehydrogenase transketolase(M2) sgRNA2
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes based repression of dehydrogenase transketolase gene in
+    environmental Pseudomonas isolate M2 with sgRNA2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-xylX(M2) sgRNA1
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of xylose xylX gene in environmental
+    Pseudomonas isolate M2 with sgRNA1
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-xylA(M2) sgRNA1
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of xylose xylA gene in environmental
+    Pseudomonas isolate M2 with sgRNA1
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-xylA(M2) sgRNA2
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of xylose xylA gene in environmental
+    Pseudomonas isolate M2 with sgRNA2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-xyl transporter(M2) sgRNA1
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of xylose transporter gene in
+    environmental Pseudomonas isolate M2 with sgRNA1
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-xyl transporter(M2) sgRNA2
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of xylose transporter gene in
+    environmental Pseudomonas isolate M2 with sgRNA2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-xyl permease(M2) sgRNA2
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of xylose permease gene in environmental
+    Pseudomonas isolate M2 with sgRNA2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-xyl regulator(M2) sgRNA1
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of xylose regulator gene in environmental
+    Pseudomonas isolate M2 with sgRNA1
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-xyl permease(M2) sgRNA1
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of xylose permease gene in environmental
+    Pseudomonas isolate M2 with sgRNA1
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-xyl dehydrogenase(M2) sgRNA1
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of xylose dehydrogenase gene in
+    environmental Pseudomonas isolate M2 with sgRNA1
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-xyl regulator(M2) sgRNA2
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of xylose regulator gene in environmental
+    Pseudomonas isolate M2 with sgRNA2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-xyl acetyltransferase(M2) sgRNA1
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of xylose acetyltransferase gene
+    in environmental Pseudomonas isolate M2 with sgRNA1
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-araD(M2) sgRNA1
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of araD gene in environmental
+    Pseudomonas isolate M2 with sgRNA1
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-araX(M2) sgRNA2
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of araX gene in environmental
+    Pseudomonas isolate M2 with sgRNA2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-xyl dehydrogenase(M2) sgRNA2
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of xylose dehydrogenase gene in
+    environmental Pseudomonas isolate M2 with sgRNA2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-araA(M2) sgRNA1
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of araA gene in environmental
+    Pseudomonas isolate M2 with sgRNA1
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-araA(M2) sgRNA2
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of araA gene in environmental
+    Pseudomonas isolate M2 with sgRNA2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-ara MFS permease(M2) sgRNA1
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of arabinose MFS permease gene
+    in environmental Pseudomonas isolate M2 with sgRNA1
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-ara regulator(M2) sgRNA2
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of arabinose regulator gene in
+    environmental Pseudomonas isolate M2 with sgRNA2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-ara regulator(M2) sgRNA1
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of arabinose regulator gene in
+    environmental Pseudomonas isolate M2 with sgRNA1
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-ara permease(M2) sgRNA1
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of arabinose permease gene in
+    environmental Pseudomonas isolate M2 with sgRNA1
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-ara dehydrogenase(M2) sgRNA2
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of arabinose dehydrogenase gene
+    in environmental Pseudomonas isolate M2 with sgRNA2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-gnl(M2) sgRNA
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of gnl gene in environmental Pseudomonas
+    isolate M2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-trpG(M2) sgRNA
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of trpG gene in environmental
+    Pseudomonas isolate M2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-gcd(M2) sgRNA
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of gcd gene in environmental Pseudomonas
+    isolate M2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-xylB(M2) sgRNA
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of xylB gene in environmental
+    Pseudomonas isolate M2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-xylD(M2) sgRNA3
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of xylD gene in environmental
+    Pseudomonas isolate M2 with sgRNA3
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-pheA(M2) sgRNA
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of pheA gene in environmental
+    Pseudomonas isolate M2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-pyrF(M2) sgRNA
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of pyrF gene in environmental
+    Pseudomonas isolate M2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-edd(M2) sgRNA
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of edd gene in environmental Pseudomonas
+    isolate M2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-eda(M2) sgRNA
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of eda gene in environmental Pseudomonas
+    isolate M2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-ftsZ(M2) sgRNA
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of ftsZ gene in environmental
+    Pseudomonas isolate M2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPspdCas9bad-argH(M2) sgRNA
+  promoters:
+  - Ptac; pBad
+  description: S. pyogenes spdCas9 based repression of argH gene in environmental
+    Pseudomonas isolate M2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPdCas9bad-xylD(M2) sgRNA
+  promoters:
+  - Ptac; pBad
+  description: S. pasteurianus dCas9 based repression of xylD gene in environmental
+    Pseudomonas isolate M2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPdCas9bad-gnl(M2) sgRNA
+  promoters:
+  - Ptac; pBad
+  description: S. pasteurianus dCas9 based repression of gnl gene in environmental
+    Pseudomonas isolate M2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPdCas9bad-pyrF(M2) sgRNA
+  promoters:
+  - Ptac; pBad
+  description: S. pasteurianus dCas9 based repression of pyrF gene in environmental
+    Pseudomonas isolate M2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPdCas9bad-trpG(M2) sgRNA
+  promoters:
+  - Ptac; pBad
+  description: S. pasteurianus dCas9 based repression of trpG gene in environmental
+    Pseudomonas isolate M2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPdCas9bad-gcd(M2) sgRNA
+  promoters:
+  - Ptac; pBad
+  description: S. pasteurianus dCas9 based repression of gcd gene in environmental
+    Pseudomonas isolate M2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPdCas9bad-edd(M2) sgRNA
+  promoters:
+  - Ptac; pBad
+  description: S. pasteurianus dCas9 based repression of edd gene in environmental
+    Pseudomonas isolate M2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPdCas9bad-ftsZ(M2) sgRNA
+  promoters:
+  - Ptac; pBad
+  description: S. pasteurianus dCas9 based repression of ftsZ gene in environmental
+    Pseudomonas isolate M2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPdCas9bad-pheA(M2) sgRNA
+  promoters:
+  - Ptac; pBad
+  description: S. pasteurianus dCas9 based repression of pheA gene in environmental
+    Pseudomonas isolate M2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPdCas9bad-eda(M2) sgRNA
+  promoters:
+  - Ptac; pBad
+  description: S. pasteurianus dCas9 based repression of eda gene in environmental
+    Pseudomonas isolate M2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPdCas9bad-argH(M2) sgRNA
+  promoters:
+  - Ptac; pBad
+  description: S. pasteurianus dCas9 based repression of argH gene in environmental
+    Pseudomonas isolate M2
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPdCas9bad-argB(M2) sgRNA
+  promoters:
+  - Ptac; pBad
+  description: S. pasteurianus dCas9 based repression of argB gene in environmental
+    Pseudomonas isolate M2
+  selection_markers:
+  - Kanamycin
+- ori: pBBR1
+  backbone: pRGPDuo3-sfGFPbad
+  promoters: []
+  description: pRGPDuo3 carrying sfGFP under pBAD
+  selection_markers:
+  - Gentamycin
+- ori: pRO1600; colE1
+  backbone: pRGPDuo4-sfGFPbad
+  promoters: []
+  description: pRGPDuo4 carrying sfGFP under pBAD
+  selection_markers:
+  - Kanamycin
+- backbone: pBADT-rppA-OW
+  promoters: []
+  description: Type III PKS
+  selection_markers: []
+- ori: pRO1600; colE1
+  backbone: pRGPDuo4
+  promoters: []
+  description: dual inducible duet expression vector for E. coli and P. putida
+  selection_markers:
+  - Kanamycin
+- ori: pBBR1
+  backbone: pBADT-rppA-NW
+  promoters: []
+  description: Entire S. coelicolor rppA sequence. Native codons
+  selection_markers:
+  - kanR
+- ori: pBBR1
+  backbone: pBADT-rppA-NT
+  promoters:
+  - pBAD
+  description: Natural rppA nucleotide sequence. Truncated C-terminus
+  selection_markers: []
+- ori: pBBR1
+  backbone: pRGPDuo3
+  promoters: []
+  description: dual inducible duet expression vector for P. putida and E. coli
+  selection_markers:
+  - Gentamycin
+- ori: pBBR1
+  backbone: pRGPDuo1-sfGFPtet
+  promoters: []
+  description: P. putida carrying pRGPDuo1-sfGFPtet
+  selection_markers:
+  - Gentamycin
+- ori: pBBR1
+  backbone: pRGPDuo1-sfGFPtac
+  promoters: []
+  description: pRGPDuo1 carrying sfGFP under pTac promoter
+  selection_markers:
+  - Gentamycin
+- ori: pR01600; colE1
+  backbone: pRGPDuo2-sfGFPtac
+  promoters:
+  - pTac; ptetR/tetA
+  description: pRGPDuo2 expressing sfGFP driven by pTac promoter
+  selection_markers: []
+- ori: pRO1600; colE1
+  backbone: pRGPDuo2
+  promoters:
+  - pTac
+  - ptetR/tetA
+  description: dual-inducible duet-expression vector for gene expression in P. putida
+    and E. coli
+  selection_markers: []
+- ori: pBBR1
+  backbone: pRGPDuo1
+  promoters:
+  - pTac; ptetR/tetA
+  description: dual-inducible duet expression vector for gene expression in P. putida
+    and E. coli
+  selection_markers: []
+bibliographicCitation: https://public-registry.jbei.org/folders/733
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00733
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

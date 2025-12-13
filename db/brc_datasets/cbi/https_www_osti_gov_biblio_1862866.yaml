@@ -1,0 +1,58 @@
+brc: CBI
+date: '2022-04-13'
+title: Sustainability Trait Modeling of Field-Grown Switchgrass (Panicum virgatum)
+  Using UAV-Based Imagery
+active: true
+creator:
+- name: Xu Yaping
+  primaryContact: true
+- name: Xu Yaping
+  email: yxu86@utk.edu
+  affiliation: University of Tennessee
+  primaryContact: false
+- name: Vivek Shrestha
+  email: vshresth@utk.edu
+  affiliation: University of Tennessee
+  primaryContact: false
+- name: Cristiano Piasecki
+  primaryContact: false
+- name: Benjamin Wolfe
+  primaryContact: false
+- name: Lance Hamilton
+  primaryContact: false
+- name: Reginald J Millwood
+  primaryContact: false
+- name: Mitra Mazaraei
+  primaryContact: false
+- name: Charles Neal Stewart
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER)
+keywords:
+- CBI
+identifier: https://www.osti.gov/biblio/1862866
+dataset_url: https://fair.ornl.gov/switchgrass/Sustainability_Trait_Modeling_Field_Grown_Switchgrass_UAv.htm
+description: Unmanned aerial vehicles (UAVs) provide an intermediate scale of spatial
+  and spectral data collection that yields increased accuracy and consistency in data
+  collection for morphological and physiological traits than satellites and expanded
+  flexibility and high-throughput compared to ground-based data collection. In this
+  project, we used UAV-based multispectral imagery collected from MicaSense RedEdge-M
+  on a DJI Matrice 600 Pro for automated phenotyping of field-grown switchgrass (Panicum
+  virgatum), a leading bioenergy feedstock. The raw images were processed with Pix4D
+  Mapper to create the reflectance data, and vegetation indices were calculated from
+  a UAV-based multispectral camera. Statistical models were developed for rust disease
+  caused by Puccinia novopanici, leaf chlorophyll, nitrogen, and lignin contents.
+  For the first time, UAV remote sensing technology was used to explore the potential
+  for multiple traits associated with sustainable production of switchgrass. One statistical
+  model was developed for each individual trait based on the statistical correlation
+  between vegetation indices and the corresponding trait.
+relatedItem:
+- relatedItemType: JournalArticle
+  relatedItemIdentifier: 10.3390/plants10122726
+bibliographicCitation: https://doi.org/10.25983/1862866
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/1862866
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

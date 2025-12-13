@@ -1,0 +1,138 @@
+id: jbei:194
+brc: JBEI
+date: '2015-05-21'
+title: Runguphan et al., 2014
+creator:
+- name: Leopold D'Espaux
+  email: leodespaux@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Weerawat Runguphan
+  email: wrunguphan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Khanh Vuu
+  email: kvuu@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- ACC1
+- A. calcoaceticus ADP1 Atfa; wax ester synthase (atfA) codon-optimized for S. cerevisiae
+  expression
+- mFAR1
+- mouse fatty acyl-CoA reductase
+- '''TesA'
+- chromosomal promoter replacement; Tef1
+- DGAT
+- DGA1
+identifier: jbei:folder:00194
+repository: ICE
+datasetName: Runguphan et al., 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/194
+description: This dataset provides eight plasmids for the metabolic engineering of
+  *Saccharomyces cerevisiae* to produce fatty acid-derived oleochemicals. The collection
+  features yeast expression vectors containing key genes for fatty acid biosynthesis
+  (ACC1, FAS1/FAS2), modification ('TesA, Atfa), and conversion to fatty alcohols
+  (mFAR), primarily driven by inducible GAL promoters. A utility plasmid for constructing
+  genomic promoter replacements using a URA3 selectable marker is also included.
+relatedItem:
+- title: Runguphan, W., &amp; Keasling, J. D. (2014). “Metabolic engineering of Saccharomyces
+    cerevisiae for production of fatty acid-derived biofuels and chemicals”. [Research
+    Support, U.S. Gov’t, Non-P.H.S.]. Metab Eng, 21, 103-113. doi, 10.1016/j.ymben.2013.07.003
+    http://www.ncbi.nlm.nih.gov/pubmed/23899824
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Runguphan, W., Keasling, J.D., Metabolic engineering of Saccharomyces cerevisiae
+    for production of fatty acid- derived biofuels and chemicals. Metab. Eng. (2013),
+    http://dx.doi.org/10.1016/j.ymben.2013.07.003
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Runguphan, W., and Keasling, J.D. (2013) Metabolic engineering of S. cerevisiae
+    for production of fatty-acid-derived biofuels and chemicals. Metabolic Engineering.
+    Manuscript in press. http://dx.doi.org/10.1016/j.ymben.2013.07.003.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Runguphan et al., Metabolic Engineering (2014)
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors:
+- name: Ricky Runguphan
+  email: wrunguphan@gmail.com
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pESC-His3-FAS1-FAS2
+  promoters: []
+  description: Bidirectional GAL1/GAL10 promoter system driving FAS1 and FAS2 as P_GAL1-FAS1/P_GAL10-FAS2
+  selection_markers:
+  - Ampicillin
+- backbone: pESC-LEU2d-mFAR1-MaME
+  promoters: []
+  description: P_GAL1-mFAR/P_GAL10-MaME
+  selection_markers:
+  - Leu2d
+- ori: CEN6/ARSH4
+  backbone: pRS416Tef1-Ura3
+  promoters:
+  - Tef1
+  description: The plasmid for PCR amplification of the promoter replacement cassette
+    with the URA3 selectable marker was constructed by amplifying the loxp-URA3-loxp
+    region from pUG72 (Gueldener et al., 2002) with primers S19 and S20. The amplicon
+    was placed 5′ of the translation elongation factor-1a (TEF) promoter region in
+    p416Tef using homologous recombination in yeast.
+  selection_markers:
+  - Amp; Ura3
+- ori: 2µ
+  backbone: pESC-Leu2d-mFAR1
+  promoters:
+  - Gal1
+  description: pESC-Leu2d-PGAL1-mFAR1
+  selection_markers:
+  - Leu2d; Amp
+- ori: 2µ
+  backbone: pESC-Leu2d-Atfa
+  promoters:
+  - Gal1
+  description: pESC-Leu2d-PGAL1-Atfa_codon optimized for S. cerevisiae expression
+  selection_markers:
+  - Leu2d; Amp
+- ori: 2µ
+  backbone: pESC-Leu2d-‘TesA
+  promoters:
+  - Gal10
+  description: pESC-Leu2d-PGAL10-‘TesA
+  selection_markers:
+  - Leu2d; Amp
+- ori: 2µ
+  backbone: pESC-Leu2d-DGA1
+  promoters:
+  - Gal1
+  description: pESC-Leu2d-PGAL1-DGA1
+  selection_markers:
+  - Leu2d; Amp
+- ori: 2µ
+  backbone: JBx_026280
+  promoters:
+  - GAL1 / GAL10
+  description: pESC-Ura3-ACC1 in DH10B
+  selection_markers:
+  - Amp; Ura3
+bibliographicCitation: https://public-registry.jbei.org/folders/194
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00194
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

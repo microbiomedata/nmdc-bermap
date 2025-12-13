@@ -1,0 +1,419 @@
+id: jbei:793
+brc: JBEI
+date: '2023-07-10'
+title: Wang et al.2023
+creator:
+- name: Zilong Wang
+  email: zilongwang@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Seokjung Cheong
+  email: scheong@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Guangxu Lan
+  email: glan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Kevin Yin
+  email: kyyin@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Robert Haushalter
+  email: rwhaushalter@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Amin Zargar
+  email: azargar@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+- NCBITaxID: 1883
+  scientificName: Streptomyces
+- NCBITaxID: 1888
+  scientificName: Streptomyces albus
+keywords: []
+identifier: jbei:folder:00793
+repository: ICE
+datasetName: Wang et al.2023
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/793
+description: This dataset contains 47 plasmids designed for the combinatorial biosynthesis
+  of novel polyketides through synthetic biology approaches. The plasmids encode engineered
+  hybrid polyketide synthases (PKSs) created by swapping catalytic domains and modules
+  from various natural product pathways, including those for lipomycin, erythromycin
+  (Debs), and pikromycin. These constructs, featuring specific mutations and designed
+  for expression in hosts like *E. coli* and *Streptomyces*, aim to generate new molecular
+  structures by reprogramming PKS assembly lines.
+relatedItem:
+- title: Miyazawa, T., Fitzgerald, B.J. &amp; Keatinge-Clay, A.T. Preparative production
+    of an enantiomeric pair by engineered polyketide synthases. Chemical Communications
+    57, 8762-8765 (2021)
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors:
+- name: Seokjung Cheong
+  email: Scheong@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+- name: Seokjung Cheong
+  email: SCheong@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: RP4
+  backbone: lip1-mlsB1KRdelete-debsTE
+  promoters:
+  - gapdh(EL)
+  description: Strep108-lip1-mlsB1KRdelete-debsTE
+  selection_markers:
+  - spectinomycin
+- backbone: RifM2_24
+  promoters: []
+  description: 'Conjugation vector pk21 to S. albus: (DebsLM-linker) + (mlsB1co_KS_AT)
+    + (mlsB1co_KR_ACP) + (linker_RifM2) + (zeaTE_NOstop) + (stop_FICUS_Kan_CENars)
+    + (FICUSbb_URA3_colE1_T7)'
+  selection_markers:
+  - Apramycin
+- ori: RP4
+  backbone: lip1-lip2KS2-mlsB1KRnull-debsTE
+  promoters:
+  - gapdh(EL)
+  description: Strep108-lip1-lip2KS2-mlsB1KRnull-debsTE
+  selection_markers:
+  - spectinomycin
+- ori: RP4
+  backbone: lip1-26aaLinker-mlsB1KRnull-debsTE
+  promoters:
+  - gapdh(EL)
+  description: Strep108-lip1-26aaLinker-mlsB1KRnull-debsTE
+  selection_markers:
+  - spectinomycin
+- backbone: RifM2_22
+  promoters: []
+  description: 'Conjugation vector pk21 to S. albus: (LipLM-linker) + (DebsM2_KS_AT)
+    + (DebsM2_KR_ACP) + (linker_RifM2) + (DebsTE_NOstop) + (STOP_FICUS_kan_CENars)
+    + (FICUSbb_URA3_colE1_T7)'
+  selection_markers:
+  - Apramycin
+- backbone: RifM2_23
+  promoters: []
+  description: 'Conjugation vector pk21 to S. albus: (LipLM-linker) + (DebsM2_KS_AT)
+    + (DebsM2_KR_ACP) + (linker_RifM2) + (zeaTE_NOstop) + (stop_FICUS_Kan_CENars)
+    + (FICUSbb_URA3_colE1_T7)'
+  selection_markers:
+  - Apramycin
+- backbone: RifM2_7
+  promoters: []
+  description: 'Conjugation vector pk21 to S. albus: (LipLM-linker) + (DebsM1_KS_AT)
+    + (DebsM1_KR_ACP) + (linker_RifM2) + (DebsTE_NOstop) + (STOP_FICUS_kan_CENars)
+    + (FICUSbb_URA3_colE1_T7)'
+  selection_markers:
+  - Apramycin
+- backbone: RifM2_18
+  promoters: []
+  description: 'Conjugation vector pk21 to S. albus: (DebsLM-linker) + (LipM1_KS_AT)
+    + (LipM1_KR_ACP) + (linker_RifM2) + (DebsTE_NOstop) + (STOP_FICUS_kan_CENars)
+    + (FICUSbb_URA3_colE1_T7)'
+  selection_markers:
+  - Apramycin
+- backbone: RifM2_21
+  promoters: []
+  description: 'Conjugation vector pk21 to S. albus: (DebsLM-linker) + (LipM1_KS_AT)
+    + (LipM1_KR_ACP) + (linker_RifM2) + (zeaTE_NOstop) + (stop_FICUS_Kan_CENars) +
+    (FICUSbb_URA3_colE1_T7)'
+  selection_markers:
+  - Apramycin
+- backbone: RifM2_17
+  promoters: []
+  description: 'Conjugation vector pk21 to S. albus: (LipLM-linker) + (DebsM1_KS_AT)
+    + (DebsM1_KR_ACP) + (linker_RifM2) + (zeaTE_NOstop) + (stop_FICUS_Kan_CENars)
+    + (FICUSbb_URA3_colE1_T7)'
+  selection_markers:
+  - Apramycin
+- backbone: RifM2_6
+  promoters: []
+  description: 'Conjugation vector pk21 to S. albus: (LipLM-linker) + (LipM1_KS_AT)
+    + (LipM1_KR_ACP) + (linker_RifM2) + (zeaTE_NOstop) + (stop_FICUS_Kan_CENars) +
+    (FICUSbb_URA3_colE1_T7)'
+  selection_markers:
+  - Apramycin
+- backbone: RifM2_3
+  promoters: []
+  description: 'Conjugation vector pk21 to S. albus: (DebsLM-linker) + (DebsM2_KS_AT)
+    + (DebsM2_KR_ACP) + (linker_RifM2) + (DebsTE_NOstop) + (STOP_FICUS_kan_CENars)
+    + (FICUSbb_URA3_colE1_T7)'
+  selection_markers:
+  - Apramycin
+- ori: RP4
+  backbone: Strep108_lip2N_debsM6(epoAT)KRnull_debsTE
+  promoters:
+  - gapdh(EL)
+  description: Strep108_limM2Ncomm_debsM6(epoAT)KRnull_debsTE
+  selection_markers:
+  - spectinomycin
+- ori: pSC101
+  backbone: pSC101-PikLM-PikM1_Ccom
+  promoters:
+  - gapdh(EL)
+  description: pSC101-PikLM-PikM1_Ccom
+  selection_markers:
+  - Kanamycin
+- ori: RP4
+  backbone: Strep108_lip2N_rifM2_debsTE
+  promoters:
+  - gapdh(EL)
+  description: Strep108_limM2Ncomm_rifM2_debsTE
+  selection_markers: []
+- ori: p15A
+  backbone: p15a-Ncom_PikM2_KS-AT + PikM7_ACP-TE
+  promoters:
+  - gapdh(EL)
+  description: p15a-Ncom_PikM2_KS-AT + PikM7_ACP-TE
+  selection_markers:
+  - Apramycin
+- ori: p15A
+  backbone: pBbA5a_pik67(borA2_AT)
+  promoters:
+  - placUV5
+  description: pBbA5a plasmid expressing the gene encoding combinatory PKS composed
+    of pikromycin N-terminal docking domain 6 KS6 BorA2_AT, pikromycin ACP7 TE7 (under
+    updated module boundary definition)
+  selection_markers:
+  - ampR
+- ori: SC101
+  backbone: pBbS5k_pik12(pik_AT3)
+  promoters:
+  - lacUV5
+  description: pBbS5k plasmid expressing the gene encoding combinatory PKS composed
+    of pikromycin KSQ1 AT1 ACP1 KS1 AT3 KR2 ACP2 and C-terminal docking domain 6 (under
+    updated module boundary definition)
+  selection_markers: []
+- ori: SC101
+  backbone: pBbS5k_pik16(G518V)
+  promoters:
+  - PlacUV5
+  description: pBbS5k plasmid expressing the gene encoding Combinatory PKS composed
+    of pikromycin KSQ1 AT1 ACP1 KS1 AT6 KR6 ACP6 and C-terminal docking domain 6 (under
+    updated module boundary definition) with G518V mutation
+  selection_markers:
+  - kanR
+- ori: p15A
+  backbone: pBbA5a_pik67(pik_AT3)
+  promoters:
+  - placUV5
+  description: 'pBbA5a plasmid expressing the gene encoding combinatory PKS composed
+    of pikromycin N-terminal docking domain 6 KS6 AT3 ACP7 TE7 (under updated module
+    boundary definition) '
+  selection_markers: []
+- ori: p15A
+  backbone: pBbA5a_pik67_pik_KS6_H320R_(pik_AT3)
+  promoters:
+  - lacUV5
+  description: pBbA5a plasmid expressing the gene encoding combinatory PKS composed
+    of pikromycin N-terminal docking domain 6 KS6 (with H320R mutation) Pik3_AT, pikromycin
+    ACP7 TE7 (under updated module boundary definition)
+  selection_markers: []
+- ori: p15A
+  backbone: pBbA5a_pik67_pik_KS6_H320R_(borA2_AT)
+  promoters:
+  - placUV5
+  description: pBbA5a plasmid expressing the gene encoding combinatory PKS composed
+    of pikromycin N-terminal docking domain 6 KS6 (with H320R mutation) BorA2_AT,
+    pikromycin ACP7 TE7 (under updated module boundary definition)
+  selection_markers:
+  - ampR
+- ori: ColE1
+  backbone: pET_pik67(borA2_AT)
+  promoters:
+  - T7
+  description: Plasmid expressing the gene encoding combinatory PKS composed of pikromycin
+    N-terminal docking domain 6 KS6 BorA2_AT, pikromycin ACP7 TE7 (under updated module
+    boundary definition)
+  selection_markers: []
+- ori: SC101
+  backbone: pBbS5k_pik16
+  promoters:
+  - lacUV5
+  description: pBbS5k plasmid expressing the gene encoding Combinatory PKS composed
+    of pikromycin KSQ1 AT1 ACP1 KS1 AT6 KR6 ACP6 and C-terminal docking domain 6 (under
+    updated module boundary definition)
+  selection_markers:
+  - KanR
+- ori: cloDF13
+  backbone: pTM4
+  promoters:
+  - T7
+  description: Plasmid expressing the gene encoding Combinatory PKS composed of pikromycin
+    KSQ1 AT1 ACP1 KS1 AT6 KR6 ACP6 and C-terminal docking domain 6 (under updated
+    module boundary definition)
+  selection_markers: []
+- ori: p15A
+  backbone: pBbA5a_pik27(pik_AT3)
+  promoters:
+  - placUV5
+  description: pBbA5a plasmid expressing the gene encoding combinatory PKS composed
+    of pikromycin N-terminal docking domain 6 KS2 AT3 ACP7 TE7 (under updated module
+    boundary definition)
+  selection_markers: []
+- ori: p15A
+  backbone: pBbA5a_pik27(borA2_AT)
+  promoters:
+  - placUV5
+  description: pBbA5a expressing the gene encoding combinatory PKS composed of pikromycin
+    N-terminal docking domain 6, KS2, borA2_AT, pikromycin ACP7 TE7 (under updated
+    module boundary definition)
+  selection_markers: []
+- ori: SC101
+  backbone: pBbS5k_pik12
+  promoters:
+  - lacUV5
+  description: pBbS5k plasmid expressing the gene encoding combinatory PKS composed
+    of pikromycin KSQ1 AT1 ACP1 KS1 AT2 KR2 ACP2 and C-terminal docking domain 6 (under
+    updated module boundary definition)
+  selection_markers: []
+- ori: p15A
+  backbone: DARPA_Big_Build_pmas00620
+  promoters: []
+  description: A5A _ lacI_lacUV5_lip2Ncomm _ natM2 _ BLV75_TE
+  selection_markers:
+  - Carb
+- ori: ColE1
+  backbone: DARPA_Big_Build_pmas01052
+  promoters: []
+  description: pJH0204 _ lacI_lacUV5_lip2Ncomm _ natM2 _ BLV75_TE
+  selection_markers:
+  - Kan
+- ori: p15A
+  backbone: pBbA5a-Lip2Ncomm_mlsB1wtKRnull_debsTE
+  promoters:
+  - PlacUV5
+  description: pBbA5a cloned with the gene encoding PKS combination Lip2Ncomm_mlsB1wtKRnull_debsTE
+  selection_markers:
+  - AmpR
+- ori: p15A
+  backbone: pBbA5a-Lip2Ncomm_debsM6(epoAT)KRnull_debsTE
+  promoters:
+  - PlacUV5
+  description: pBbA5a cloned with the gene encoding PKS combination Lip2Ncomm_debsM6(epoAT)KRnull_debsTE
+  selection_markers:
+  - AmpR
+- ori: p15A
+  backbone: pBbA5a-Lip2Ncomm_RifM2_debsTE
+  promoters:
+  - PlacUV5
+  description: pBbA5a cloned with the gene encoding PKS combination Lip2Ncomm_RifM2_debsTE
+  selection_markers:
+  - AmpR
+- ori: ColE1
+  backbone: pBbE5k_Lip1
+  promoters:
+  - placUV5
+  description: pBbE5k plasmid expressing the PKS combination Lip1
+  selection_markers:
+  - kanR
+- ori: ColE1
+  backbone: pBbE5k_Lip2Ncomm_mlsB1KRnull_debsTE
+  promoters:
+  - placUV5
+  description: pBbE5k plasmid expressing the PKS combination Lip2Ncomm_mlsB1KRnull_debsTE
+  selection_markers:
+  - kanR
+- ori: ColE1
+  backbone: pLac21
+  promoters: []
+  description: p21 streptomyces expression vector with PhiC31, ApraR, GAPDH promoter.
+  selection_markers: []
+- ori: p15A
+  backbone: pBbA5a-Lip1
+  promoters:
+  - PlacUV5
+  description: pBbA5a cloned with whole Lip1  (LipLM-LipM1-LipM1_Ccomm)
+  selection_markers:
+  - AmpR
+- ori: ColE1
+  backbone: pBbE5k_Lip2Ncomm_debsM6(epoAT)KRnull_debsTE
+  promoters:
+  - placUV5
+  description: pBbE5k plasmid expressing the PKS combination Lip2Ncomm_debsM6(epoAT)KRnull_debsTE
+  selection_markers:
+  - kanR
+- ori: RP4
+  backbone: lip1-mlsB1KRnull-debsTE
+  promoters:
+  - gapdh(EL)
+  description: Strep108_lip1-mlsB1KRnull-debsTE
+  selection_markers:
+  - spectinomycin
+- ori: p15a
+  backbone: A5A_LipLM-linker-LipM1-mlsA8co_Ccom
+  promoters:
+  - lacUV5
+  description: PKS_JBx_137505
+  selection_markers: []
+- ori: SC101
+  backbone: S5K_mlsA9_Ncom + RifM2 + debsTEwt
+  promoters:
+  - lacUV5
+  description: Plasmid constructed through Gibson Assembly with CDS consisting of
+    (mlsA9_Ncom) + (RifM2) + (DebsTE_NOstop) + (stop_pSC101-no NdeI_kanR_lacI_lacUV5)
+  selection_markers: []
+- ori: p15a
+  backbone: A5A_LipLM-linker-mlsB1co-mlsA8co_Ccom
+  promoters:
+  - lacUV5
+  description: PKS_JBx_137508
+  selection_markers: []
+- ori: p15a
+  backbone: A5A_LipLM-linker-DebsM2-mlsA8co_Ccom
+  promoters:
+  - lacUV5
+  description: PKS_JBx_137512
+  selection_markers: []
+- ori: p15a
+  backbone: A5A_LipLM-linker-DebsM1-mlsA8co_Ccom
+  promoters:
+  - lacUV5
+  description: PKS_JBx_137513
+  selection_markers: []
+- ori: RP4
+  backbone: Strep108_lip2N_mlsB1wtKRnull_debsTE
+  promoters:
+  - gapdh(EL)
+  description: Strep108_limM2Ncomm_mlsB1wtKRnull_debsTE
+  selection_markers: []
+- backbone: RifM2_8
+  promoters: []
+  description: 'Conjugation vector pk21 to S. albus: (DebsLM-linker) + (DebsM2_KS_AT)
+    + (DebsM2_KR_ACP) + (linker_RifM2) + (zeaTE_NOstop) + (stop_FICUS_Kan_CENars)
+    + (FICUSbb_URA3_colE1_T7)'
+  selection_markers:
+  - Apramycin
+- ori: RP4
+  backbone: Lip1 Native
+  promoters: []
+  description: Native Lipomycin Module1. Strep101
+  selection_markers:
+  - Apramycin (Eco/strep) Ampicillin (Eco)
+bibliographicCitation: https://public-registry.jbei.org/folders/793
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00793
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

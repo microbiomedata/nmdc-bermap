@@ -1,0 +1,35 @@
+brc: GLBRC
+date: '2025-02-26'
+title: A small number of point mutations confer formate tolerance in Shewanella oneidensis
+creator:
+- name: Michaela A. TerAvest
+  email: teraves2@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+species:
+- NCBITaxID: null
+  scientificName: Multispecies
+keywords:
+- SbtA
+- Shewanella oneidensis
+- Zymomonas mobilis
+- bicarbonate transporter
+- directed evolution
+- formate
+- microbial electrosynthesis
+identifier: PRJNA1228652
+repository: NCBI BioProject
+description: Several strains of formate-tolerant Shewanella oneidensis were evolved
+  through continuous subculturing in minimal lactate media with increasing concentrations
+  of formate over time.
+relatedItem:
+- title: A small number of point mutations confer formate tolerance in <i>Shewanella
+    oneidensis</i>
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://journals.asm.org/doi/10.1128/aem.01968-24
+analysisType: raw sequence reads
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1228652
+schema_version: 0.1.7
+uid: GLBRC_PRJNA1228652
+created_at: '2025-11-27T06:00:04.934Z'
+updated_at: '2025-12-10T06:00:05.198Z'

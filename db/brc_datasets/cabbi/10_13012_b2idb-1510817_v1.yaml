@@ -1,0 +1,52 @@
+brc: CABBI
+date: '2022-07-30'
+title: System Analysis of Lipomyces starkeyi During Growth on Various Plant‑Based
+  Sugars
+creator:
+- name: Christopher V. Rao
+  email: cvrao@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Yong-Su Jin
+  email: ysjin@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 29829
+  scientificName: Lipomyces starkeyi
+keywords:
+- Differential Gene Expression
+- Metabolites
+- Lipomyces starkeyi
+identifier: 10.13012/B2IDB-1510817_V1
+repository: Illinois Data Bank
+description: Oleaginous yeasts have received significant attention due to their substantial
+  lipid storage capability. The accumulated lipids can be utilized directly or processed
+  into various bioproducts and biofuels. Lipomyces starkeyi is an oleaginous yeast
+  capable of using multiple plant-based sugars, such as glucose, xylose, and cellobiose.
+  It is, however, a relatively unexplored yeast due to limited knowledge about its
+  physiology. In this study, we have evaluated the growth of L. starkeyi on different
+  sugars and performed transcriptomic and metabolomic analyses to understand the underlying
+  mechanisms of sugar metabolism. Principal component analysis showed clear differences
+  resulting from growth on different sugars. We have further reported various metabolic
+  pathways activated during growth on these sugars. We also observed non-specific
+  regulation in L. starkeyi and have updated the gene annotations for the NRRL Y-11557
+  strain. This analysis provides a foundation for understanding the metabolism of
+  these plant-based sugars and potentially valuable information to guide the metabolic
+  engineering of L. starkeyi to produce bioproducts and biofuels.
+relatedItem:
+- title: System Analysis of Lipomyces starkeyi During Growth on Various Plant-Based
+    Sugars
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1007/s00253-022-12084-w
+- title: lipo11557_growth
+  relatedItemType: Software
+  relatedItemIdentifier: https://doi.org/10.13012/B2IDB-1510817_V1
+- title: Lipomyces starkeyi - Growth sequencing
+  relatedItemType: Dataset
+  relatedItemIdentifier: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA808049
+bibliographicCitation: https://doi.org/10.13012/B2IDB-1510817_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-1510817_V1
+created_at: '2025-11-20T18:00:04.759Z'
+updated_at: '2025-12-10T06:00:05.196Z'

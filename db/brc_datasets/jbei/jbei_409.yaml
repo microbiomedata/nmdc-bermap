@@ -1,0 +1,201 @@
+id: jbei:409
+brc: JBEI
+date: '2019-01-08'
+title: Meadows_et al. 2018
+creator:
+- name: Florence Mingardon
+  email: fmingardon@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Florence Mingardon
+  email: Fmingardon@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00409
+repository: ICE
+datasetName: Meadows_et al. 2018
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/409
+description: This dataset provides 31 expression plasmids containing geranylgeranyl
+  reductase (GGR) genes sourced from a phylogenetically diverse set of 25 organisms,
+  including extremophilic archaea, bacteria, and a plant. This library was created
+  to explore the functional diversity of GGRs, which are key enzymes in isoprenoid
+  biosynthesis. The characterization of these enzymes is critical for metabolic engineering
+  efforts aimed at producing saturated isoprenoids for advanced biofuels and other
+  bioproducts.
+relatedItem: []
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pEt-Tr2
+  promoters: []
+  description: 'GGR from Thermocrinis ruber DSM 12173 #2, in pET24a in DH10b'
+  selection_markers:
+  - kanamycin
+- backbone: pEt-Tr1
+  promoters: []
+  description: 'GGR from Thermocrinis ruber DSM 12173 #1, in pET24a in DH10b'
+  selection_markers:
+  - kanamycin
+- backbone: pEt-Tn
+  promoters: []
+  description: GGR from Thermococcus nautili, in pET24a in DH10b
+  selection_markers:
+  - kanamycin
+- backbone: pET-Ta-SH
+  promoters: []
+  description: 'GGR from Thermoplasma acidophilum  #1, in pET24a in DH10b'
+  selection_markers:
+  - kanamycin
+- backbone: pET-Ma
+  promoters: []
+  description: 'GGR from Methanosarcina acetivorans  #1, in pET24a in DH10b'
+  selection_markers:
+  - kanamycin
+- backbone: pEt-Se1
+  promoters: []
+  description: 'GGR from Synechococcus elongatus #1, in pET24a in DH10b'
+  selection_markers:
+  - kanamycin
+- backbone: pET-Pcf
+  promoters: []
+  description: GGR from Pyrococcus furiosus, in pET24a in DH10b
+  selection_markers:
+  - kanamycin
+- backbone: pSKB3-Syn after resequencing
+  promoters: []
+  description: GGR from Synechocystis, in pSKB3 in DH10b
+  selection_markers:
+  - kanamycin
+- backbone: pET-Sc1
+  promoters: []
+  description: 'GGR from Streptomyces coelicolor  #1, in pET24a in DH10b'
+  selection_markers:
+  - kanamycin
+- backbone: pET-Pf
+  promoters: []
+  description: GGR from Pyrolobus fumarii, in pET24a in DH10b
+  selection_markers:
+  - kanamycin
+- backbone: pET-Mm
+  promoters: []
+  description: GGR from Methanococcus maripaludis, in pET24a in DH10b
+  selection_markers:
+  - kanamycin
+- backbone: pET-Mr2
+  promoters: []
+  description: 'GGR from Methanobrevibacter ruminantium (strain ATCC 35063 / DSM 1093
+    / JCM 13430 / M1) #2'
+  selection_markers:
+  - kanamycin
+- backbone: pET-Ng
+  promoters: []
+  description: GGR from Nitrososphaera gargensis, in pET24a in DH10b
+  selection_markers:
+  - kanamycin
+- backbone: pET-Mr1
+  promoters: []
+  description: 'GGR from Methanobrevibacter ruminantium (strain ATCC 35063 / DSM 1093
+    / JCM 13430 / M1) #1'
+  selection_markers:
+  - kanamycin
+- backbone: pET-Mi
+  promoters: []
+  description: GGR from Methanocaldococcus infernus, in pET24a in DH10b
+  selection_markers:
+  - kanamycin
+- backbone: pET-Mc
+  promoters: []
+  description: GGR from Metallosphaera cuprina, in pET24a in DH10b
+  selection_markers:
+  - kanamycin
+- backbone: pET-Ma3
+  promoters: []
+  description: 'GGR from Methanosarcina acetivorans  #3, in pET24a in DH10b'
+  selection_markers:
+  - kanamycin
+- backbone: pET-Hv2
+  promoters: []
+  description: 'GGR from Haloferax volcanii  #2, in pET24a in DH10b'
+  selection_markers:
+  - kanamycin
+- backbone: pET-Mb1
+  promoters: []
+  description: 'GGR from Methanococcoides burtonii (strain DSM 6242 / NBRC 107633
+    / OCM 468 / ACE-M) #1, in pET24a in DH10b'
+  selection_markers:
+  - kanamycin
+- backbone: pET-Ma2
+  promoters: []
+  description: 'GGR from Methanosarcina acetivorans  #2, in pET24a in DH10b'
+  selection_markers:
+  - kanamycin
+- backbone: pET-Hv1
+  promoters: []
+  description: 'GGR from Haloferax volcanii  #1, in pET24a in DH10b'
+  selection_markers:
+  - kanamycin
+- backbone: pET-Hl
+  promoters: []
+  description: GGR from Halostagnicola larsenii XH-48, in pET24a in DH10b
+  selection_markers:
+  - kanamycin
+- backbone: pET-Hs
+  promoters: []
+  description: GGR from Haloterrigena salina, in pET24a in DH10b
+  selection_markers:
+  - kanamycin
+- backbone: pET-Gp
+  promoters: []
+  description: GGR from Gordonia polyisoprenivorans (strain DSM 44266 / VH2), in pET24a
+    in DH10b
+  selection_markers:
+  - kanamycin
+- backbone: pET-Ct
+  promoters: []
+  description: GGR from Corynebacterium terpenotabidum Y-11, in pET24a in DH10b
+  selection_markers:
+  - kanamycin
+- backbone: pET-Af2
+  promoters: []
+  description: 'GGR from Archaeoglobus fulgidus DSM 8774 #2, in pET24a in DH10b'
+  selection_markers:
+  - kanamycin
+- backbone: pET-Cn
+  promoters: []
+  description: GGR from Candidatus Nitrosopumilus, in pET24a in DH10b
+  selection_markers:
+  - kanamycin
+- backbone: pET-Af1
+  promoters: []
+  description: 'GGR from Archaeoglobus fulgidus DSM 8774  #1, in pET24a in DH10b'
+  selection_markers:
+  - kanamycin
+- backbone: pET-Hc
+  promoters: []
+  description: 'GGR from Halorubrum californiensis DSM 19288  #1, in pET24a in DH10b'
+  selection_markers:
+  - kanamycin
+- backbone: pET-AtLH
+  promoters: []
+  description: GGR from Arabidopsis thaliana in pET24a in DH10b
+  selection_markers:
+  - kanamycin
+- backbone: pET-SaLH
+  promoters: []
+  description: GGR from Sulfolobus acidocaldarius in pET24a in DH10b
+  selection_markers:
+  - kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/409
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00409
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

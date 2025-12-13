@@ -1,0 +1,38 @@
+brc: CABBI
+date: '2024-09-19'
+title: Propagule Pressure in Microbial Introductions
+creator:
+- name: Kent, Angela D.
+  email: akent@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+keywords:
+- microbial inoculants
+- invasion ecology
+- propagule pressure
+- modeling
+identifier: 10.13012/B2IDB-0907683_V1
+repository: Illinois Data Bank
+description: The use of potentially beneficial microorganisms in agriculture (microbial
+  inoculants) has rapidly accelerated in recent years. For microbial inoculants to
+  be effective as agricultural tools, these organisms must be able to survive and
+  persist in novel environments while not destabilizing the resident community or
+  spilling over into adjacent natural ecosystems. Here, we adapt a macroecological
+  propagule pressure model to a microbial scale and present an experimental approach
+  for testing the role of propagule pressure in microbial inoculant introductions.
+  We experimentally determined the risk-release relationship for an IAA-expressing
+  Pseudomonas simiae inoculant in a model monocot system. We then used this relationship
+  to simulate establishment outcomes under a range of application frequencies (propagule
+  number) and inoculant concentrations (propagule size). Our simulations show that
+  repeated inoculant applications may increase establishment, even when increased
+  inoculant concentration does not alter establishment probabilities.
+relatedItem:
+- title: Translating Macroecological Models to Predict Microbial Establishment Probability
+    in an Agricultural Inoculant Introduction
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://dx.doi.org/10.3389/frmbi.2024.1452476
+bibliographicCitation: https://doi.org/10.13012/B2IDB-0907683_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-0907683_V1
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

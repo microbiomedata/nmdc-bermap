@@ -1,0 +1,38 @@
+brc: CABBI
+date: '2024-08-29'
+title: How do drought and heat affect the response of soybean seed yield to elevated
+  O3? An analysis of 15 seasons of free-air O3 concentration enrichment (O3-FACE)
+  studies
+creator:
+- name: Ainsworth, Elizabeth A.
+  email: lisa.ainsworth@usda.gov
+  affiliation: USDA-ARS
+  primaryContact: true
+species:
+- NCBITaxID: 3849
+  scientificName: Glycine max
+keywords:
+- drought
+- elevated O3
+- O3-FACE
+- soybean
+- yield
+identifier: 10.13012/B2IDB-9394312_V1
+repository: Illinois Data Bank
+description: Over the past 15 years, soybean seed yield response to season-long elevated
+  O3 concentrations [O3] and to year-to-year weather conditions was studied using
+  free-air O3 concentration enrichment (O3-FACE) in the field at the SoyFACE facility
+  in Central Illinois. Elevated [O3] significantly reduced seed yield across cultivars
+  and years. However, our results quantitatively demonstrate that weather conditions,
+  including soil water availability and air temperature, did not alter yield sensitivity
+  to elevated [O3] in soybean.
+relatedItem:
+- title: How Do Drought and Heat Affect the Response of Soybean Seed Yield to Elevated
+    O3? An Analysis of 15 Seasons of Free-air O3 Concentration Enrichment Studies
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://dx.doi.org/10.1111/gcb.17500
+bibliographicCitation: https://doi.org/10.13012/B2IDB-9394312_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-9394312_V1
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

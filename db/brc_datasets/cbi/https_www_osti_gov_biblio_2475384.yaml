@@ -1,0 +1,100 @@
+brc: CBI
+date: '2024-10-30'
+title: Leveraging hyperspectral imaging to identify drought tolerant Populus species
+  and genotypes within species
+active: true
+creator:
+- name: M Rosario Ramirez-Flores
+  email: ramirezflomd@ornl.gov
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    BioSciences Division
+  primaryContact: true
+- name: Alyssa A Carell
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    BioSciences Division
+  primaryContact: false
+- name: Dawn M Klingeman
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    BioSciences Division
+  primaryContact: false
+- name: Mindy Clark
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    BioSciences Division
+  primaryContact: false
+- name: Sara Jawdy
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    BioSciences Division
+  primaryContact: false
+- name: Dana Carper
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    BioSciences Division
+  primaryContact: false
+- name: Tao Yao
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).BioSciences
+    Division
+  primaryContact: false
+- name: Jamie McBrien
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).BioSciences
+    Division
+  primaryContact: false
+- name: Leah Burdick
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).BioSciences
+    Division
+  primaryContact: false
+- name: Ann Wymore
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).BioSciences
+    Division
+  primaryContact: false
+- name: David McLennan
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Stanton Martin
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Hong-Jun Yoon
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: David Weston
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Melissa Cregger
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER)
+keywords:
+- Hyper-spectral imaging
+- Populus
+- plant stress tolerance
+identifier: https://www.osti.gov/biblio/2475384
+dataset_url: https://labkey.ornl.gov/labkey/Early Career/Cregger/PUBLIC_DATA/Leveraging
+  hyperspectral imaging to identify drought tolerant Populus species and genotypes
+  within species/project-begin.view?
+description: The aim of this study was to identity variation in drought tolerance
+  across genotypes of Populus deltoides, Populus trichocarpa, and hybrids of the two
+  species. A panel of 102 Populus genotypes, comprising 37 genotypes of P. trichocarpa,
+  37 of P. deltoides and 28 unique hybrid genotypes (P. trichocarpa x P. deltoides
+  and P. deltoides x P. trichocarpa) were evaluated in the greenhouse under two treatments,
+  well-watered (WW) and drought (DS). Plant physiological data were collected throughout
+  the experiment once the drought treatment began. Throughout the experiment, we tracked
+  soil volumetric water content, pot weight, stomatal conductance, quantum yield of
+  photosystem II, and electron transport rate. In addition to those measurements,
+  upon completion of the experiment, we assessed above and belowground plant biomass,
+  plant height and stem diameter, leaf number, specific leaf area, relative water
+  content, total protein, and total chlorophyll. We obtained hyperspectral signatures
+  of one leaf from each plant at the end of the experiment. Columns BC – LL are hyperspectral
+  averages for one leaf from each plant at each wavelength as described in the column
+  header.
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/2475384
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2475384
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

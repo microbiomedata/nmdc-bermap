@@ -1,0 +1,75 @@
+id: jbei:183
+brc: JBEI
+date: '2015-04-28'
+title: Chubukov et. al. 2015
+creator:
+- name: Victor Chubukov
+  email: vachubukov@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00183
+repository: ICE
+datasetName: Chubukov et. al. 2015
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/183
+description: This dataset contains three plasmids used to engineer tolerance to oxidized
+  limonene, featuring an *E. coli* AhpC(L177Q) mutant that confers high resistance.
+  The collection includes this key mutant, a wild-type AhpC control, and the BioBrick
+  Berkeley expression vector used for cloning. Expression of both AhpC variants is
+  driven by a tetracycline-inducible (tet) promoter.
+relatedItem:
+- title: Chubukov, V., Mingardon, F., Schackwitz, W., Baidoo, E. E., Alonso-Gutierrez,
+    J., Hu, Q., Lee, T. S., Keasling, J. D., &amp; Mukhopadhyay, A. (2015). "Acute
+    limonene toxicity in Escherichia coli is caused by limonene-hydroperoxide and
+    alleviated by a point mutation in alkyl hydroperoxidase (AhpC)". Appl Environ
+    Microbiol. doi, 10.1128/AEM.01102-15 http://www.ncbi.nlm.nih.gov/pubmed/25934627
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Lee TS, Krupa RA, Zhang F, Hajimorad M, Holtz WJ, Prasad N, Lee SK, Keasling
+    JD. BglBrick vectors and datasheets: A synthetic biology platform for gene expression.
+    J Biol Eng. 2011 Sep 20;5:12. doi: 10.1186/1754-1611-5-12.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors:
+- name: Taek Soon Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pSC101*
+  backbone: pVC5006
+  promoters:
+  - ptet
+  description: E. coli AhpC(L177Q) driven by tet promoter. This protein confers high
+    levels of resistance to oxidized limonene.
+  selection_markers:
+  - kan
+- ori: pSC101*
+  backbone: pVC5005
+  promoters:
+  - ptet
+  description: Wild type E. coli AhpC driven by Tet promoter
+  selection_markers:
+  - kan
+- ori: pSC101**
+  backbone: pBbS2k-RFP
+  promoters:
+  - Tet
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/183
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00183
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.619Z'

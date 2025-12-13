@@ -1,0 +1,29 @@
+id: jbei:698
+brc: JBEI
+date: '2021-08-31'
+title: Garber_Fregoso_et_al_2021
+creator:
+- name: Megan Garber
+  email: megarber@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species: []
+keywords: []
+identifier: jbei:folder:00698
+repository: ICE
+datasetName: Garber_Fregoso_et_al_2021
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/698
+description: null
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features: []
+bibliographicCitation: https://public-registry.jbei.org/folders/698
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00698
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

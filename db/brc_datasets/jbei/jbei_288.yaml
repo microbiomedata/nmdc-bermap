@@ -1,0 +1,55 @@
+id: jbei:288
+brc: JBEI
+date: '2017-01-20'
+title: Wei_et_al_2016b
+creator:
+- name: Tong Wei
+  email: tongwei@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 4530
+  scientificName: Oryza sativa
+- NCBITaxID: 4577
+  scientificName: Zea mays
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00288
+repository: ICE
+datasetName: Wei_et_al_2016b
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/288
+description: This dataset contains a single plasmid designed for constitutive gene
+  expression in rice. The vector expresses the rice immune receptor XA21 as a fusion
+  protein with a nuclear localization signal (nls) and a soluble-modified green fluorescent
+  protein (smGFP) tag. Driven by the strong maize ubiquitin promoter, this construct
+  is intended for visualizing the subcellular localization and function of the XA21
+  protein within the nucleus.
+relatedItem:
+- title: Wei, T., Chen, T. C., Ho, Y. T., &amp; Ronald, P. C. (2016). "Mutation of
+    the rice XA21 predicted nuclear localization sequence does not affect resistance
+    to Xanthomonas oryzae pv. oryzae". PeerJ, 4, e2507. doi, 10.7717/peerj.2507 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5068440/pdf/peerj-04-2507.pdf.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Park, C. J. &amp; Ronald, P. C. (2012) "Cleavage and nuclear localization
+    of the rice XA21 immune receptor". Nature Communications, 3, 920. doi, 1038/ncomms1932
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: image_analysis
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pC1300-XA21nls-smGFP
+  promoters: []
+  description: A rice expression vector of XA21nls-smGFP driven by the maize ubiquitin
+    promoter.
+  selection_markers:
+  - kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/288
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00288
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

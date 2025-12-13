@@ -1,0 +1,32 @@
+brc: GLBRC
+date: '2024-03-21'
+title: Sorghum bicolor TX08001 Compendium Set3 Gene Expression Profiling
+creator:
+- name: John Mullet
+  email: john.mullet@ag.tamu.edu
+  affiliation: GLBRC - Texas A&amp;M University
+  primaryContact: true
+species:
+- NCBITaxID: null
+  scientificName: bioenergy sorghum hybrid TX08001
+keywords:
+- Bioenergy sorghum
+- cell walls
+- gene expression
+- lignin
+- stem density
+identifier: '1474675'
+repository: JGI Data Portal
+description: null
+relatedItem:
+- title: Bioenergy sorghum stem density increases threefold following internode elongation
+    due to continued accumulation of lignified cell walls and complex regulation of
+    genes involved in cell wall biosynthesis
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://biotechnologyforbiofuels.biomedcentral.com/articles/10.1186/s13068-025-02659-w
+analysisType: RNA-seq
+bibliographicCitation: https://data.jgi.doe.gov/search?q=JGI_ID%3A%601474675%60&amp;t=advanced&amp;expanded=OTHER_AP-1474676
+schema_version: 0.1.7
+uid: GLBRC_1474675
+created_at: '2025-11-27T06:00:04.934Z'
+updated_at: '2025-12-10T06:00:05.198Z'

@@ -1,0 +1,228 @@
+{# ============================================================================
+   Template for rendering a single research program
+   ============================================================================ #}
+
+{% from 'macros.html.j2' import doi_link, nmdc_link, url_link, keywords,
+    data_types, modalities, institutions, field, person_list, web_resources,
+    location, funding_info, badge %}
+{% from 'sections.html.j2' import studies_section, publications_section,
+    datasets_section, analyses_section, capabilities_section,
+    field_sites_section, technologies_section %}
+
+{% macro render_program(program, program_type) %}
+<details class="program {{ program_type }}" id="{{ program.id | default('unknown') }}">
+    <summary>
+        {% if program.acronym %}
+        <span class="program-acronym">{{ program.acronym }}</span>
+        <span class="program-name">{{ program.name }}</span>
+        {% else %}
+        <span class="program-name">{{ program.name }}</span>
+        {% endif %}
+    </summary>
+    <div class="program-content">
+        {# Description #}
+        {% if program.description %}
+        <p class="description">{{ program.description | trim }}</p>
+        {% endif %}
+
+        {# Core info fields #}
+        {% if program.lead_institution %}
+        {{ field('Lead institution', program.lead_institution) }}
+        {% endif %}
+
+        {% if program.lead_institutions %}
+        <div class="field">
+            <span class="field-label">Lead institutions:</span>
+            <span class="field-value">{{ institutions(program.lead_institutions) }}</span>
+        </div>
+        {% endif %}
+
+        {% if program.partner_institutions %}
+        <div class="field">
+            <span class="field-label">Partners:</span>
+            <span class="field-value">{{ institutions(program.partner_institutions) }}</span>
+        </div>
+        {% endif %}
+
+        {% if program.location %}
+        <div class="field">
+            <span class="field-label">Location:</span>
+            <span class="field-value">{{ location(program.location) }}</span>
+        </div>
+        {% endif %}
+
+        {% if program.funding %}
+        <div class="field">
+            <span class="field-label">Funding:</span>
+            <span class="field-value">{{ funding_info(program.funding) }}</span>
+        </div>
+        {% endif %}
+
+        {% if program.established %}
+        {{ field('Established', program.established) }}
+        {% endif %}
+
+        {% if program.predecessor %}
+        {{ field('Predecessor', program.predecessor) }}
+        {% endif %}
+
+        {# Principal Investigators #}
+        {% if program.principal_investigators %}
+        <div class="field">
+            <span class="field-label">Principal investigators:</span>
+            <span class="field-value">{{ person_list(program.principal_investigators) }}</span>
+        </div>
+        {% endif %}
+
+        {% if program.co_investigators %}
+        <div class="field">
+            <span class="field-label">Co-investigators:</span>
+            <span class="field-value">{{ person_list(program.co_investigators) }}</span>
+        </div>
+        {% endif %}
+
+        {# Web Resources #}
+        {% if program.websites %}
+        <div class="field">
+            <span class="field-label">Links:</span>
+            <span class="field-value">{{ web_resources(program.websites) }}</span>
+        </div>
+        {% endif %}
+
+        {# NMDC linkage #}
+        {% if program.nmdc_umbrella_study %}
+        <div class="field">
+            <span class="field-label">NMDC umbrella study:</span>
+            <span class="field-value">{{ nmdc_link(program.nmdc_umbrella_study) }}</span>
+        </div>
+        {% endif %}
+
+        {% if program.kbase_genome_collection %}
+        <div class="field">
+            <span class="field-label">KBase Collection:</span>
+            <span class="field-value">
+                <span class="chip">{{ program.kbase_genome_collection }}</span>
+            </span>
+        </div>
+        {% endif %}
+
+        {# Scientific questions #}
+        {% if program.scientific_questions %}
+        <div class="field">
+            <span class="field-label">Scientific questions:</span>
+            <span class="field-value">
+                <ul style="margin: 5px 0; padding-left: 20px;">
+                {% for q in program.scientific_questions %}
+                    <li>{{ q }}</li>
+                {% endfor %}
+                </ul>
+            </span>
+        </div>
+        {% endif %}
+
+        {# Keywords, data types, modalities #}
+        {% if program.keywords %}
+        <div class="field">
+            <span class="field-label">Keywords:</span>
+            <span class="field-value">{{ keywords(program.keywords) }}</span>
+        </div>
+        {% endif %}
+
+        {% if program.data_types %}
+        <div class="field">
+            <span class="field-label">Data types:</span>
+            <span class="field-value">{{ data_types(program.data_types) }}</span>
+        </div>
+        {% endif %}
+
+        {% if program.data_collection_modalities %}
+        <div class="field">
+            <span class="field-label">Modalities:</span>
+            <span class="field-value">{{ modalities(program.data_collection_modalities) }}</span>
+        </div>
+        {% endif %}
+
+        {# Services (for facilities) #}
+        {% if program.services %}
+        <div class="field">
+            <span class="field-label">Services:</span>
+            <span class="field-value">
+                <div class="chip-list">
+                {% for svc in program.services %}
+                <span class="chip service">{{ svc | replace('_', ' ') | title }}</span>
+                {% endfor %}
+                </div>
+            </span>
+        </div>
+        {% endif %}
+
+        {# Collapsible sections #}
+        {{ field_sites_section(program.field_sites) }}
+        {{ studies_section(program.studies) }}
+        {{ analyses_section(program.analyses) }}
+        {{ publications_section(program.key_publications) }}
+        {{ datasets_section(program.datasets) }}
+        {{ capabilities_section(program.capabilities) }}
+        {{ technologies_section(program.technologies_developed) }}
+
+        {# Outputs summary #}
+        {% if program.outputs %}
+        <div class="field">
+            <span class="field-label">Outputs:</span>
+            <span class="field-value">
+                {% if program.outputs.publication_count %}Publications: {{ program.outputs.publication_count }}{% endif %}
+                {% if program.outputs.patent_applications %} | Patent applications: {{ program.outputs.patent_applications }}{% endif %}
+                {% if program.outputs.patents %} | Patents: {{ program.outputs.patents }}{% endif %}
+                {% if program.outputs.startups %} | Startups: {{ program.outputs.startups }}{% endif %}
+            </span>
+        </div>
+        {% endif %}
+
+        {# Reference data (for KBase) #}
+        {% if program.reference_data %}
+        <div class="field">
+            <span class="field-label">Reference data:</span>
+            <span class="field-value">
+                {% if program.reference_data.microbial_genomes %}Microbial genomes: {{ program.reference_data.microbial_genomes }}<br>{% endif %}
+                {% if program.reference_data.plant_genomes %}Plant genomes: {{ program.reference_data.plant_genomes }}<br>{% endif %}
+                {% if program.reference_data.biolog_media %}Biolog media: {{ program.reference_data.biolog_media }}{% endif %}
+            </span>
+        </div>
+        {% endif %}
+
+        {# Supported data types (for facilities) #}
+        {% if program.supported_data_types %}
+        <div class="field">
+            <span class="field-label">Supported data types:</span>
+            <span class="field-value">{{ data_types(program.supported_data_types) }}</span>
+        </div>
+        {% endif %}
+
+        {# Flagship genomes #}
+        {% if program.flagship_genomes %}
+        <details class="section">
+            <summary>
+                Flagship Genomes
+                <span class="section-count">{{ program.flagship_genomes | length }}</span>
+            </summary>
+            <div class="section-content">
+            {% for genome in program.flagship_genomes %}
+            <div class="item" style="padding: 10px 14px;">
+                <strong>{{ genome.name }}</strong>
+                {% if genome.common_name %} ({{ genome.common_name }}){% endif %}
+                {% if genome.year %} - {{ genome.year }}{% endif %}
+                {% if genome.description %}<br><span style="color: #666;">{{ genome.description }}</span>{% endif %}
+            </div>
+            {% endfor %}
+            </div>
+        </details>
+        {% endif %}
+
+        {# Collaborators #}
+        {% if program.collaborators %}
+        {{ field('Collaborators', program.collaborators) }}
+        {% endif %}
+
+    </div>
+</details>
+{% endmacro %}

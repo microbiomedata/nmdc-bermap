@@ -1,0 +1,36 @@
+brc: GLBRC
+date: '2024-07-16'
+title: Modeling uncertainties in greenhouse gas (GHG) emission factors related to
+  switchgrass-based biofuel production
+creator:
+- name: Seungdo Kim
+  email: kimseun@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+species:
+- NCBITaxID: null
+  scientificName: NA
+keywords:
+- switchgrass
+- model
+-  greenhouse ga emmission
+identifier: doi.org/10.5061/dryad.rn8pk0pm8
+repository: Dryad
+description: This study investigates uncertainties in greenhouse gas (GHG) emission
+  factors related to switchgrass-based biofuel production in Michigan. Using three
+  life cycle assessment (LCA) databases— US lifecycle inventory database (USLCI),
+  GREET, and Ecoinvent—each with multiple versions, we recalculated the global warming
+  intensity (GWI) and GHG mitigation potential in a static calculation. Employing
+  Monte Carlo simulations along with local and global sensitivity analyses, we assess
+  uncertainties and pinpoint key parameters influencing GWI.
+relatedItem:
+- title: 'Uncertainties in greenhouse gas emission factors: A comprehensive analysis
+    of switchgrass-basedbiofuel production'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://onlinelibrary.wiley.com/doi/epdf/10.1111/gcbb.13179
+analysisType: Code
+bibliographicCitation: https://datadryad.org/stash/dataset/doi:10.5061/dryad.rn8pk0pm8
+schema_version: 0.1.7
+uid: GLBRC_doi.org/10.5061/dryad.rn8pk0pm8
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.197Z'

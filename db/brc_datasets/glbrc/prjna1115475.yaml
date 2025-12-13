@@ -1,0 +1,38 @@
+brc: GLBRC
+date: '2024-05-23'
+title: Altering translation allows E. coli to overcome chemically stabilized G-quadruplexes
+creator:
+- name: James L. Keck
+  email: jlkeck@wisc.edu
+  affiliation: Biomolecular Chemistry Department, School of Medicine and Public Health,
+    University of Wisconsin-Madison, Madison, WI, 53706 United States 
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: PRJNA1115475
+repository: NCBI BioProject
+description: Genomic DNA from each sample was prepared using the Wizard Genomic DNA
+  Purification Kit (Promega) and after, DNA was quantified using the QuantiFluor ONE
+  dsDNA System (Promega). Genomic DNA underwent shearing to ~200 bp fragments via
+  sonication and the gDNA fragments were prepared for sequencing using the NEBNext
+  Ultra II DNA Library Prep Kit for Illumina (NEB). Bead-based size selection was
+  used to select ~200 bp fragments and the fragments then underwent a splinkerette
+  PCR using a Tn5-enriching forward primer and custom reverse primers for multiplexing.
+  A final bead-based size selection was used to select for the correct length DNA.
+  DNA was sequenced at the University of Michigan Advanced Genomics Core using Illumina
+  sequencing with a custom read primer reading the last 10 nt of the transposon. PhiX174
+  DNA spike was added to the run to ensure sufficient sequence diversity on the flow
+  cell. Then, a custom index read primer and standard Illumina primer were used to
+  sequence the index reads and PhiX174, respectively.
+relatedItem:
+- title: Altering translation allows <i>E. coli</i> to overcome G-quadruplex stabilizers
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://academic.oup.com/nar/article/53/6/gkaf264/8107784
+analysisType: RNA-seq
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1115475
+schema_version: 0.1.7
+uid: GLBRC_PRJNA1115475
+created_at: '2025-11-27T06:00:04.934Z'
+updated_at: '2025-12-10T06:00:05.198Z'

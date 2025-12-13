@@ -1,0 +1,46 @@
+brc: JBEI
+date: '2025-09-19'
+title: Automation of a CRISPRi platform for enhanced isoprenol production in Pseudomonas
+  putida [DBTL0]
+creator:
+- name: Christopher J. Petzold
+  email: cjpetzold@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 160488
+  scientificName: Pseudomonas putida kt2440
+keywords:
+- Machine learning
+- Saf
+- Isoprenol
+- Laboratory automation
+- Crispri
+- Jbei
+identifier: PXD063733
+repository: PRIDE
+description: Recent advances in genome engineering technologies have significantly
+  enhanced the ability to perturb microbial metabolic networks. Despite this progress,
+  many bioproduction efforts struggle to parse complex metabolic datasets (e.g., -omics)
+  within the constraints of the traditional design-build-test-learn (DBTL) cycle to
+  efficiently optimize titer, rate, and yield. Here, we consider bioproduction of
+  isoprenol, a precursor to a sustainable aviation fuel blendstock, in Pseudomonas
+  putida. Initially, a combination of heuristics and genome scale metabolic modeling
+  was used to identify 120 genes associated with isoprenol production for CRISPR interference.
+  We then developed a largely automated conversion pipeline to design multiplexed
+  guide RNA arrays, construct strains harboring these arrays, and then assess proteomics-validated
+  isoprenol production in P. putida, which reduced the DBT turnaround time from months
+  using conventional methods to two weeks.  By leveraging an active learning model,
+  the Automated Recommendation Tool (ART), we systematically and rapidly identified
+  new experimental designs that improved titer. ART successfully downselected from
+  an initial design space of 2.1 x 108 possible combinations to approximately 300
+  combinations. After 6 successive DBTL cycles this ultimately yielded several different
+  gRNA combinations with up to 5-fold titer improvement. Our conversion pipeline not
+  only showcases the potential of integrating laboratory automation with machine learning,
+  but also marks a significant advancement toward autonomous strain design.
+bibliographicCitation: https://www.ebi.ac.uk/pride/archive/projects/PXD063733
+schema_version: 0.1.2
+uid: JBEI_PXD063733
+created_at: '2025-11-18T20:03:56.772Z'
+updated_at: '2025-12-11T00:00:04.623Z'

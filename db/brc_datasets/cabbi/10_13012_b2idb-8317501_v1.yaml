@@ -1,0 +1,46 @@
+brc: CABBI
+date: '2022-08-10'
+title: Valorization of Miscanthus x giganteus for Sustainable Recovery of Anthocyanins
+  and Enhanced Production of Sugars
+creator:
+- name: Vijay Singh
+  email: vsingh@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Erik J. Sacks
+  email: esacks@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 183674
+  scientificName: Miscanthus x giganteus
+keywords:
+- Anthocyanin concentration
+- Recovery amounts
+- Miscanthus x giganteus
+identifier: 10.13012/B2IDB-8317501_V1
+repository: Illinois Data Bank
+description: The increased awareness for eco-friendliness and sustainability has shifted
+  the interest of stakeholders from synthetic colors to natural plant-based pigments.
+  In this study, purple stemmed Miscanthus x giganteus was evaluated as a source of
+  anthocyanins. Hydrothermal pretreatment was studied as a green, chemical-free process
+  for recovering maximum anthocyanins in the pretreatment liquor. The highest recovery
+  of 94.3 ± 1.5% w/w of the total anthocyanin concentration was obtained for a temperature
+  and time combination of 170 °C and 10 min. The pretreatment also improved the enzymatic
+  digestibility of the biomass and led to a 2.1-fold increase in the overall recovery
+  of glucose (70.6 ± 0.5% w/w) at the end of 72 h. The sugar monomers obtained after
+  the enzymatic hydrolysis of the pretreated biomass could be used for the production
+  of biofuels or biochemicals in an integrated biorefinery based on purple-stemmed
+  miscanthus. Overall, this study demonstrates that the clean pretreatment method
+  developed could lead to an additional product stream (rich in anthocyanins) along
+  with its effect in reducing the recalcitrance of miscanthus biomass.
+relatedItem:
+- title: Valorization of Miscanthus x giganteus for Sustainable Recovery of Anthocyanins
+    and Enhanced Production of Sugars
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1016/j.jclepro.2022.133508
+bibliographicCitation: https://doi.org/10.13012/B2IDB-8317501_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-8317501_V1
+created_at: '2025-11-20T18:00:04.759Z'
+updated_at: '2025-12-10T06:00:05.196Z'

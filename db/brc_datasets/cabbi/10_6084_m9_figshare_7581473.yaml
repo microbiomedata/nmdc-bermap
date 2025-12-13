@@ -1,0 +1,34 @@
+brc: CABBI
+date: '2019-04-29'
+title: Excessive Rainfall Leads to Maize Yield Loss of a Comparable Magnitude to Extreme
+  Drought in the United States
+creator:
+- name: Guan, Kaiyu
+  email: kaiyug@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 4577
+  scientificName: Zea mays
+keywords:
+- maize yield
+- weather data
+- modeling
+- drought
+identifier: 10.6084/m9.figshare.7581473
+repository: FigShare
+description: This repository is for the datasets and codes for 'Excessive rainfall
+  leads to maize yield loss of a comparable magnitude to extreme drought in the United
+  States.' The datasets include maize yield, climate data, maize yield loss from crop
+  insurance data in the US, etc. The datasets can reproduce the results of the paper
+  and they can also be reused to explore other topics.
+relatedItem:
+- title: Excessive rainfall leads to maize yield loss of a comparable magnitude to
+    extreme drought in the United States
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/gcb.14628
+bibliographicCitation: https://doi.org/10.6084/m9.figshare.7581473
+schema_version: 0.1.1
+uid: CABBI_10.6084/m9.figshare.7581473
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.624Z'

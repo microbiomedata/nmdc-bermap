@@ -1,0 +1,60 @@
+brc: CBI
+date: '2025-03-03'
+title: Next-generation sequencing dataset of genome-scale CRISPRi in Synechococcus
+  sp. PCC 7002 across seven conditions
+active: true
+creator:
+- name: Andrew Hren
+  email: Andrew.Hren@colorado.edu
+  affiliation: Department of Chemical and Biological Engineering, University of Colorado,
+    Boulder, CO, 80304, USA
+  primaryContact: true
+- name: Nicole Lollini
+  email: Nicole.Lollini@colorado.edu
+  affiliation: Department of Chemical and Biological Engineering, University of Colorado,
+    Boulder, CO, 80304, USA
+  primaryContact: false
+- name: Dana L Carper
+  email: carperdl@ornl.gov
+  affiliation: Biosciences Division Oak Ridge National Laboratory (ORNL), Oak Ridge,
+    TN (United States)
+  primaryContact: false
+- name: Paul Abraham
+  email: abrahampe@ornl.gov
+  affiliation: Biosciences Division, Oak Ridge National Laboratory, Oak Ridge, TN,
+    37831, USA
+  primaryContact: false
+- name: Jeffery C Cameron
+  email: Jeffrey.C.Cameron@colorado.edu
+  affiliation: Department of Biochemistry, University of Colorado, Boulder, CO, 80309,
+    USA Renewable and Sustainable Energy Institute, University of Colorado, Boulder,
+    CO, 80309, USA National Renewable Energy Laboratory, Golden, CO, 80401, USA
+  primaryContact: false
+- name: Jerome M Fox
+  email: jerome.fox@colorado.edu
+  affiliation: Department of Chemical and Biological Engineering, University of Colorado,
+    Boulder, CO, 80304, USA
+  primaryContact: false
+- name: Carrie Eckert
+  email: eckertca@ornl.gov
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER). Earth &amp; Environmental Systems Science (EESS)
+keywords:
+- genome- wide screens  environmental acclimation  spectral tuning  photosynthesis  
+  energy transduction
+identifier: https://www.osti.gov/biblio/2525933
+dataset_url: https://www.ncbi.nlm.nih.gov/sra/PRJNA1230286
+description: A 33,298-member sgRNA library developed for Synechococus sp. PCC 7002
+  was screened with two replicates across seven growth conditions and sequenced with
+  Illumina NextSeq (paired end, 2x150 bp) for a total of ~700M reads. The original
+  plasmid library and the library after transformation into a dCas9-containing and
+  dCas9-absent strain were also sequenced as a reference for initial sgRNA abundance.
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/2525933
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2525933
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.197Z'

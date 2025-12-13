@@ -1,0 +1,57 @@
+brc: CABBI
+date: '2022-02-19'
+title: Metabolic Engineering of Rhodotorula toruloides IFO0880 Improves C16 and C18
+  Fatty Alcohol Production from Synthetic Media
+creator:
+- name: Huimin Zhao
+  email: zhao5@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Costas Maranas
+  email: cdm8@psu.edu
+  affiliation: Pennsylvania State University
+  primaryContact: false
+species:
+- NCBITaxID: 2872729
+  scientificName: Rhodotorula toruloides
+keywords:
+- Rhodotorula toruloides
+- Fatty alcohol titers
+- Plasmids
+identifier: 10.13012/B2IDB-5267867_V1
+repository: Illinois Data Bank
+description: The oleaginous, carotenogenic yeast Rhodotorula toruloides has been increasingly
+  explored as a platform organism for the production of terpenoids and fatty acid
+  derivatives. Fatty alcohols, a fatty acid derivative widely used in the production
+  of detergents and surfactants, can be produced microbially with the expression of
+  a heterologous fatty acyl-CoA reductase. Due to its high lipid production, R. toruloides
+  has high potential for fatty alcohol production, and in this study several metabolic
+  engineering approaches were investigated to improve the titer of this product. Fatty
+  acyl-CoA reductase from Marinobacter aqueolei was co-expressed with SpCas9 in R.
+  toruloides IFO0880 and a panel of gene overexpressions and Cas9-mediated gene deletions
+  were explored to increase the fatty alcohol production. Two overexpression targets
+  (ACL1 and ACC1, improving cytosolic acetyl-CoA and malonyl-CoA production, respectively)
+  and two deletion targets (the acyltransferases DGA1 and LRO1) resulted in significant
+  (1.8 to 4.4-fold) increases to the fatty alcohol titer in culture tubes. Combinatorial
+  exploration of these modifications in bioreactor fermentation culminated in a 3.7
+  g/L fatty alcohol titer in the LRO1Δ mutant. As LRO1 deletion was not found to be
+  beneficial for fatty alcohol production in other yeasts, a lipidomic comparison
+  of the DGA1 and LRO1 knockout mutants was performed, finding that DGA1 is the primary
+  acyltransferase responsible for triacylglyceride production in R. toruloides, while
+  LRO1 disruption simultaneously improved fatty alcohol production, increased diacylglyceride
+  and triacylglyceride production, and increased glucose consumption. The fatty alcohol
+  titer of fatty acyl-CoA reductase-expressing R. toruloides was significantly improved
+  through the deletion of LRO1, or the deletion of DGA1 combined with overexpression
+  of ACC1 and ACL1. Disruption of LRO1 surprisingly increased both lipid and fatty
+  alcohol production, creating a possible avenue for future study of the lipid metabolism
+  of this yeast.
+relatedItem:
+- title: Metabolic Engineering of Rhodotorula toruloides IFO0880 Improves C16 and
+    C18 Fatty Alcohol Production from Synthetic Media
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1186/s12934-022-01750-3
+bibliographicCitation: https://doi.org/10.13012/B2IDB-5267867_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-5267867_V1
+created_at: '2025-11-20T18:00:04.758Z'
+updated_at: '2025-12-10T06:00:05.196Z'

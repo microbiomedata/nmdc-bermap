@@ -1,0 +1,39 @@
+brc: CBI
+date: '2025-05-22'
+title: Metabolite Profiles of D-124 and 52-225 Root Samples Under Flooding Stress
+active: true
+creator:
+- name: Tao Yao
+  email: yaot@ornl.gov
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)
+  primaryContact: true
+- name: Nancy Engle
+  email: englenl@ornl.gov
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Timothy Tschaplinski
+  email: tschaplinstj@ornl.gov
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States).
+    Center for Bioenergy Innovation (CBI)
+  primaryContact: false
+- name: Jin Gui Chen
+  email: chenj@ornl.gov
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER)
+keywords:
+- CBI
+identifier: https://www.osti.gov/biblio/2568091
+dataset_url: https://labkey.ornl.gov/labkey/CBI/ChenJ/public_data/Metabolite_Profiles_of_D-124_and_52-225_Root_Samples_Under_Flooding_Stress/project-begin.view?
+description: This dataset contains the metabolic measurements of Populus genotypes
+  selected for flooding treatment. Populus species in this study includes P. deltoides
+  ‘D-124’ and a hybrid ’52-225’ between P. tricarpa and P. deltoides.
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/2568091
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2568091
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.197Z'

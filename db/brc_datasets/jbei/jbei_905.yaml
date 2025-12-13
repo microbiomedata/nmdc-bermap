@@ -1,0 +1,76 @@
+id: jbei:905
+brc: JBEI
+date: '2024-07-29'
+title: Cowan et al. 2025
+creator:
+- name: Aidan Cowan
+  email: acowan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+- NCBITaxID: 80866
+  scientificName: Delftia acidovorans
+- NCBITaxID: 106590
+  scientificName: Cupriavidus necator
+- NCBITaxID: 33067
+  scientificName: Pseudomonas sp. 101
+keywords: []
+identifier: jbei:folder:00905
+repository: ICE
+datasetName: Cowan et al. 2025
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/905
+description: This dataset provides five expression plasmids for engineering isoprenoid
+  biosynthesis and formate oxidation pathways in *Escherichia coli*. The constructs
+  enable expression of a heterologous mevalonate (MVA) pathway using genes from multiple
+  organisms and formate dehydrogenase (FDH) enzymes from *Cupriavidus necator* and
+  *Pseudomonas sp. 101*. The collection includes plasmids for the complete and partial
+  MVA pathway, as well as an FDH variant with a mutated operator for altered expression
+  control.
+relatedItem: []
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: p15A
+  backbone: pBbA51a_isoprenol
+  promoters: []
+  description: 'Expression construct for Escherichia coli atoB, Saccharomyces cerevisiae
+    HMGS and Delftia acidovorans HMGR under control of the lacUV5 promoter as well
+    as S. cerevisiae PMD with R74G mutation and S. cerevisiae MK under control of
+    the trc promoter. '
+  selection_markers: []
+- ori: SC101
+  backbone: pBbS1k_cnFDH
+  promoters: []
+  description: 'Expression construct for Cupriavidus necator FDH (cnFDH) containing
+    genes fdsABCDG under control of the trc promoter. '
+  selection_markers: []
+- ori: SC101
+  backbone: pBbS1k_cnFDH*
+  promoters: []
+  description: Expression construct for cnFDH genes with mutation in lac operator.
+  selection_markers: []
+- ori: p15A
+  backbone: pBbA5a_mevaloante
+  promoters: []
+  description: Expression construct for Escherichia coli atoB, Saccharomyces cerevisiae
+    HMGS and Delftia acidovorans HMGR under control of the lacUV5 promoter.
+  selection_markers: []
+- ori: SC101
+  backbone: pBbS1k_psFDH
+  promoters: []
+  description: 'Expression construct for Pseudomonas sp. 101 FDH (psFDH) under control
+    of the trc promoter. '
+  selection_markers: []
+bibliographicCitation: https://public-registry.jbei.org/folders/905
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00905
+created_at: '2025-11-18T20:03:56.772Z'
+updated_at: '2025-12-11T00:00:04.623Z'

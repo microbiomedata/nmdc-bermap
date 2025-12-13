@@ -1,0 +1,111 @@
+id: jbei:286
+brc: JBEI
+date: '2016-10-10'
+title: Chubukov et al. 2017
+creator:
+- name: Victor Chubukov
+  email: vachubukov@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Nhat-Tan Vuong
+  email: ntvuong@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Robert Haushalter
+  email: rwhaushalter@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 2743
+  scientificName: Marinobacter aquaeolei
+keywords:
+- CoA reductase
+- ACP reductase
+identifier: jbei:folder:00286
+repository: ICE
+datasetName: Chubukov et al. 2017
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/286
+description: This dataset contains seven plasmids designed for the metabolic engineering
+  of *E. coli* for bioenergy applications. The constructs focus on modifying central
+  carbon metabolism by expressing native and hybrid components of the Phosphotransferase
+  System (PTS) and the alternative GalP-Glk glucose uptake pathway. A key plasmid
+  expresses the CoA/ACP-reductase Maqu2220 from *Marinobacter aquaeolei*, enabling
+  a pathway for biofuel production.
+relatedItem:
+- title: Haushalter, R. W., Groff, D., Deutsch, S., The, L., Chavkin, T. A., Brunner,
+    S. F., Katz, L., &amp; Keasling, J. D. (2015). "Development of an orthogonal fatty
+    acid biosynthesis system in E. coli for oleochemical production". Metab Eng. doi,
+    10.1016/j.ymben.2015.04.003 http://www.ncbi.nlm.nih.gov/pubmed/25887638
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Lee TS, Krupa RA, Zhang F, Hajimorad M, Holtz WJ, Prasad N, Lee SK, Keasling
+    JD. BglBrick vectors and datasheets: A synthetic biology platform for gene expression.
+    J Biol Eng. 2011 Sep 20;5:12. doi: 10.1186/1754-1611-5-12.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors:
+- name: Taek Soon Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pvc5018
+  promoters: []
+  description: galP-glk behind lacUV5 on p15A
+  selection_markers:
+  - Kan
+- backbone: pBbA5k-RFP
+  promoters:
+  - lacUV5
+  description: Red Fluorescent Protein
+  selection_markers:
+  - kanamycin
+- ori: SC101
+  backbone: pvc5041
+  promoters:
+  - lacUV5
+  description: S5c-ptsI
+  selection_markers:
+  - Cm
+- ori: p15A
+  backbone: pJJD1
+  promoters:
+  - lacUV5
+  description: Hybrid E. coli PTS Enzyme I gene (N-terminal from PtsI and C-terminal
+    from PtsP) in BbA5k
+  selection_markers: []
+- backbone: pvc5020
+  promoters: []
+  description: ptsI behind lacUV5 on p15A
+  selection_markers: []
+- ori: pBBR1
+  backbone: pBbB5K-Maqu2220
+  promoters:
+  - LacUV5
+  description: Plasmid expressing the CoA/ACP-reductase Maqu2220 from Marinobacter
+    aquaeolei
+  selection_markers:
+  - Kan
+- ori: pSC101**
+  backbone: pBbS5c-RFP
+  promoters:
+  - lacUV5
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+bibliographicCitation: https://public-registry.jbei.org/folders/286
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00286
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.621Z'

@@ -1,0 +1,43 @@
+brc: CABBI
+date: '2021-08-20'
+title: Maize and Sorghum Establishment and Yield following Pre-Emergence Waterlogging
+creator:
+- name: DeLucia, Evan H.
+  email: delucia@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Yang, Wendy
+  email: yangw@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 4558
+  scientificName: Sorghum bicolor
+- NCBITaxID: 4577
+  scientificName: Zea mays
+keywords:
+- sorghum
+- maize
+- flooding events
+- soil moisture
+- yield
+- leaf area index
+- tiller count
+identifier: 10.13012/B2IDB-8293871_V1
+repository: Illinois Data Bank
+description: In 2020, early-season extreme precipitation events occurred following
+  the planting of Sorghum bicolor (L.) Moench and Zea mays L. in central Illinois
+  that caused ponding. Following the first rainfall event 50m transects were established
+  to assess the waterlogging effects on seedling emergence and crop yields. Soil moisture,
+  emergence, stem and tiller count, LAI, and yield were measured at various points
+  in the season along these transects.
+relatedItem:
+- title: Comparative Establishment and Yield of Bioenergy Sorghum and Maize Following
+    Pre-Emergence Waterlogging
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1002/agj2.20832
+bibliographicCitation: https://doi.org/10.13012/B2IDB-8293871_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-8293871_V1
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.624Z'

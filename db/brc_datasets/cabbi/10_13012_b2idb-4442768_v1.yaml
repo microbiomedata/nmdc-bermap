@@ -1,0 +1,44 @@
+brc: CABBI
+date: '2020-08-26'
+title: High Solids Loading Biorefinery for the Production of Cellulosic Sugars from
+  Bioenergy Sorghum
+creator:
+- name: Vijay Singh
+  email: vsingh@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Bruce Dien
+  email: bruce.dien@ars.usda.gov
+  affiliation: USDA-ARS Peoria
+  primaryContact: false
+species:
+- NCBITaxID: 4558
+  scientificName: Sorghum bicolor
+keywords:
+- Bioenergy sorghum
+- Sugar yields
+- Feedstock bioprocessing
+identifier: 10.13012/B2IDB-4442768_V1
+repository: Illinois Data Bank
+description: A novel process applying high solids loading in chemical-free pretreatment
+  and enzymatic hydrolysis was developed to produce sugars from bioenergy sorghum.
+  Hydrothermal pretreatment with 50% solids loading was performed in a pilot scale
+  continuous reactor followed by disc refining. Sugars were extracted from the enzymatic
+  hydrolysis at 10% to 50% solids content using fed-batch operations. Three surfactants
+  (Tween 80, PEG 4000, and PEG 6000) were evaluated to increase sugar yields. Hydrolysis
+  using 2% PEG 4000 had the highest sugar yields. Glucose concentrations of 105, 130,
+  and 147 g/L were obtained from the reaction at 30%, 40%, and 50% solids content,
+  respectively. The maximum sugar concentration of the hydrolysate, including glucose
+  and xylose, obtained was 232 g/L. Additionally, the glucose recovery (73.14%) was
+  increased compared to that of the batch reaction (52.74%) by using two-stage enzymatic
+  hydrolysis combined with fed-batch operation at 50% w/v solids content.
+relatedItem:
+- title: High Solids Loading Biorefinery for the Production of Cellulosic Sugars from
+    Bioenergy Sorghum
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1016/j.biortech.2020.124051
+bibliographicCitation: https://doi.org/10.13012/B2IDB-4442768_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-4442768_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

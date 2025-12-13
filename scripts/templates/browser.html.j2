@@ -1,0 +1,58 @@
+{# ============================================================================
+   Main browser template - extends base and renders all content
+   ============================================================================ #}
+
+{% extends 'base.html.j2' %}
+{% from 'program.html.j2' import render_program %}
+
+{% block content %}
+
+{# Bioenergy Research Centers #}
+{% if bioenergy_research_centers %}
+<details class="category brcs" open>
+    <summary>Bioenergy Research Centers ({{ bioenergy_research_centers | length }})</summary>
+    <div class="category-content">
+    {% for brc in bioenergy_research_centers %}
+        {{ render_program(brc, 'brc') }}
+    {% endfor %}
+    </div>
+</details>
+{% endif %}
+
+{# Genomic Science SFAs #}
+{% if genomic_science_sfas %}
+<details class="category gs-sfas" open>
+    <summary>Genomic Science SFAs ({{ genomic_science_sfas | length }})</summary>
+    <div class="category-content">
+    {% for sfa in genomic_science_sfas %}
+        {{ render_program(sfa, 'gs-sfa') }}
+    {% endfor %}
+    </div>
+</details>
+{% endif %}
+
+{# Environmental System Science SFAs #}
+{% if environmental_system_science_sfas %}
+<details class="category ess-sfas" open>
+    <summary>Environmental System Science SFAs ({{ environmental_system_science_sfas | length }})</summary>
+    <div class="category-content">
+    {% for sfa in environmental_system_science_sfas %}
+        {{ render_program(sfa, 'ess-sfa') }}
+    {% endfor %}
+    </div>
+</details>
+{% endif %}
+
+{# User Facilities #}
+{% if user_facilities %}
+<details class="category facilities" open>
+    <summary>User Facilities & Data Resources ({{ user_facilities | length }})</summary>
+    <div class="category-content">
+    {% for facility in user_facilities %}
+        {{ render_program(facility, 'facility') }}
+    {% endfor %}
+    </div>
+</details>
+{% endif %}
+
+{% endblock %}

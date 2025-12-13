@@ -1,0 +1,240 @@
+id: jbei:281
+brc: JBEI
+date: '2017-01-19'
+title: Brown_et_al_2016
+creator:
+- name: Margaret Brown
+  email: mebrown@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 1520
+  scientificName: Clostridium beijerinckii
+- NCBITaxID: 10116
+  scientificName: Rattus norvegicus
+- NCBITaxID: 294
+  scientificName: Pseudomonas fluorescens
+- scientificName: Xanthobacter
+- NCBITaxID: 29323
+  scientificName: Thermoanaerobacter brockii
+keywords: []
+identifier: jbei:folder:00281
+repository: ICE
+datasetName: Brown_et_al_2016
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/281
+description: This dataset contains 29 plasmids designed for metabolic engineering
+  of an isopropanol production pathway in *E. coli*. The collection systematically
+  explores the expression of key enzymes, including alcohol dehydrogenases, thiolases,
+  and CoA ligases, sourced from a wide range of organisms. Plasmids were constructed
+  using various expression vectors, promoters, and codon optimization strategies to
+  test different genetic configurations and optimize pathway performance.
+relatedItem:
+- title: 'Lee TS, Krupa RA, Zhang F, Hajimorad M, Holtz WJ, Prasad N, Lee SK, Keasling
+    JD. BglBrick vectors and datasheets: A synthetic biology platform for gene expression.
+    J Biol Eng. 2011 Sep 20;5:12. doi: 10.1186/1754-1611-5-12.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors:
+- name: Taek Soon Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pBbS5a-CB-CA-RNaas-ECaat
+  promoters: []
+  description: placing the E. coli thiolase behind the acetoacetate CoA ligase from
+    RN
+  selection_markers:
+  - CbR
+- backbone: pBbS2a-CB-CA-RN-EC
+  promoters: []
+  description: pBbS2a with CB from C. beijerinckii, CA from E. coli, RNaas from Rattus
+    norvegicus, and ECaat from E. coli
+  selection_markers:
+  - CbR
+- backbone: pBbS2a-CB-CA
+  promoters: []
+  description: pBbS2a with ADH from C. beijerinckii and CA from E. coli
+  selection_markers:
+  - CbR
+- backbone: pBbS5a-PFadh-CA
+  promoters: []
+  description: ADH from P. fluorescens in the pBbS5a for low expression of the gene.
+  selection_markers:
+  - CbR
+- backbone: pBbE7c-XAacxnT-v3
+  promoters: []
+  description: moving acxCn to front of the plasmid
+  selection_markers:
+  - CmR
+- backbone: pBbS5a-CBadh-CA
+  promoters: []
+  description: ADH from Clostridium beijerinckii
+  selection_markers:
+  - CbR
+- backbone: pBbS5a-PF
+  promoters: []
+  description: ADH from Pseudomonas fluorescens in the pBbS5a vector
+  selection_markers:
+  - CbR
+- backbone: pBbS5a-CB
+  promoters: []
+  description: ADH from Clostridium beijerinckii
+  selection_markers:
+  - CbR
+- backbone: pBbE7c-XAacxnT-dT7
+  promoters: []
+  description: Same as pBbE7c-XAacxnT-rbs but with a second T7 promoter in front of
+    ACXB
+  selection_markers:
+  - CmR
+- backbone: pBbE7c-XAacxn
+  promoters: []
+  description: native sequences behind the T7
+  selection_markers:
+  - CmR
+- backbone: pBbE7c-XAacxnT-dT7-ssC
+  promoters: []
+  description: Same as the pBbE7c-XAacxnT plasmid with the second T7 promoter before
+    acxB but also with the synthetic intergenic region before C.
+  selection_markers:
+  - CmR
+- backbone: pBbE7c-XAacxnT
+  promoters: []
+  description: XAacx operon in the pBbE7c cloned into the NdeI and BamHI sites.
+  selection_markers:
+  - CbR
+- backbone: pBbE7c-XAacxnT-rbs
+  promoters: []
+  description: Same as pBbE7c-XAacxnT with two exceptions.  The rbs strength of ACX
+    B and C has been increased.
+  selection_markers:
+  - CmR
+- backbone: pBbE5c-XAacx
+  promoters: []
+  description: codon-optimized ACX from Xanthobacter in pBbE5c vector
+  selection_markers:
+  - CmR
+- backbone: pBbE8c-XAacx
+  promoters: []
+  description: codon-optimized ACX from Xanthobacter in pBbE8c
+  selection_markers:
+  - CmR
+- backbone: pBbE7c-XAacx
+  promoters: []
+  description: pBbE7c with XAacx
+  selection_markers:
+  - CmR
+- ori: ColE1
+  backbone: pET16b-RNaas
+  promoters:
+  - T7
+  description: Cloning into the NcoI (with removal of the 3' G) and NdeI site of pET16b
+    with the Rattus norvegicus acetoacetyl-CoA ligase with removal of the N-terminal
+    His-tag
+  selection_markers:
+  - Ampicillin
+- backbone: pBbE1c-XAacx
+  promoters: []
+  description: codon-optimized ACX from Xanthobacter in pBbE1c vector
+  selection_markers:
+  - CmR
+- ori: colE1
+  backbone: pET16-TBadh
+  promoters: []
+  description: cloning of Thermoanaerobacter brockii alcohol (isopropanol) dehydrogenase
+    without his-tag, so cloning into NcoI and NdeI sites
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pET16b-ECaat
+  promoters:
+  - T7
+  description: Cloning into the NcoI (with removal of the 3' G) and NdeI sites of
+    pET16b with the E. coli acetoacetyl-CoA thiolase with removal of the N-terminal
+    his-tag
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pET16b-PFadh
+  promoters:
+  - T7
+  description: Cloning of Pseudomonas fluorescens alcohol dehydrogenase into pET16b
+    with his-tag removed by cloning into the NcoI site (but removing the 3' G for
+    utilization of the NcoI ATG) and NdeI
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pET16b-GSadh2
+  promoters:
+  - T7
+  description: cloning of Gordonia sp. Adh2 with his-tag removed by cloning into the
+    NcoI site, removing the 3' G of the site for utilization of ATG as the N-terminal
+    Met
+  selection_markers:
+  - Ampicillin
+- ori: ColE1
+  backbone: pET16b-CBadh
+  promoters:
+  - T7
+  description: Cloning Clostridium beijerinckii alcohol (isopropanol) dehydrogenase
+    without his-tag, cloning into the NcoI site, removing the his-tag and the NcoI
+    site in the process
+  selection_markers:
+  - Ampicillin
+- ori: M13
+  backbone: pTrc33-AAacx
+  promoters:
+  - Trc
+  description: Aromatoleum aromaticum acx genese cloning into the KpnI and SalI site
+    of the pTrc33 plasmid, adding rbs sites in front of each gene
+  selection_markers:
+  - Ampicillin
+- ori: M13
+  backbone: pTrc33-XAacx
+  promoters:
+  - Trc
+  description: Xanthobacter autotrophicus acx genes cloned into the KpnI and SalI
+    sites with 5' rbs for each since the plasmid contains no rbs
+  selection_markers:
+  - Chloramphenicol
+- backbone: pET16b-RFP
+  promoters: []
+  description: RFP cloned into the NcoI (to remove the N-terminal his tag) and XhoI
+  selection_markers:
+  - CbR
+- ori: M13
+  backbone: pTrc33
+  promoters:
+  - Trc
+  description: Original pTrc33 vector
+  selection_markers:
+  - CmR
+- ori: pSC101**
+  backbone: pBbS2a-RFP
+  promoters:
+  - Tet
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: pSC101**
+  backbone: pBbS5a-RFP
+  promoters:
+  - lacUV5
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+bibliographicCitation: https://public-registry.jbei.org/folders/281
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00281
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.621Z'

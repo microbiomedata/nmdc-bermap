@@ -1,0 +1,42 @@
+brc: CABBI
+date: '2022-07-31'
+title: 'Solvent-Free Enzymatic Esterification of Free Fatty Acids with Glycerol for
+  Biodiesel Application: Optimized Using the Taguchi Experimental Method'
+creator:
+- name: Vijay Singh
+  email: vsingh@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Bruce Dien
+  email: bruce.dien@ars.usda.gov
+  affiliation: USDA-ARS Peoria
+  primaryContact: false
+keywords:
+- Signal noise
+- Free fatty acids
+- Esterification
+identifier: 10.13012/B2IDB-6737961_V1
+repository: Illinois Data Bank
+description: 'Presence of free fatty acids along with glycerides poses a technical
+  difficulty for biodiesel production. This work used a Taguchi L9 design to optimize
+  the solvent-free enzymatic process to result in the esterification of oleic acid
+  with glycerol. Under optimal conditions the esterification reaction temperature
+  of 60°C, enzyme dose of 5 wt%, glycerol: oleic acid molar ratio of 5:1, and reaction
+  time of 3 h, a 75.235 ± 2.19% conversion of oleic acid to esters was achieved. With
+  the addition of molecular sieves, the conversion increased to 86.73% ± 1.09%. However,
+  using the parameters predicted by Taguchi design (60°C, 5 wt%, 5:1, and 4.5 h),
+  88.5% ± 1.11% of oleic acid could be converted to esters derivative. Diglycerides
+  were the major product, and the reaction equilibrium was attained after 4 h. The
+  immobilized enzyme could be used up to seven times with only a 10% reduction in
+  the conversion. Thus, the process can efficiently reduce the free fatty acid content
+  of oil to make it suitable for biodiesel production.'
+relatedItem:
+- title: Solvent-Free Enzymatic Esterification of Free Fatty Acids with Glycerol for
+    Biodiesel Application Optimized Using the Taguchi Experimental Method
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1002/aocs.12633
+bibliographicCitation: https://doi.org/10.13012/B2IDB-6737961_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-6737961_V1
+created_at: '2025-11-20T18:00:04.759Z'
+updated_at: '2025-12-10T06:00:05.196Z'

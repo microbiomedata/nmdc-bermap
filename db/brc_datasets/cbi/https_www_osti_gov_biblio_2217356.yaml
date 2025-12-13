@@ -1,0 +1,100 @@
+brc: CBI
+date: '2023-11-21'
+title: Yield, chemistry, and TEA/LCA data for 84 switchgrass (Panicum virgatum L.)
+  variants
+active: true
+creator:
+- name: Renee Happs
+  email: Renee.Happs@nrel.gov
+  affiliation: National Renewable Energy Laboratory (NREL), Golden, CO (United States)
+  primaryContact: true
+- name: Rebecca Hanes
+  email: Rebecca.Hanes@nrel.gov
+  affiliation: National Renewable Energy Laboratory (NREL), Golden, CO (United States)
+  primaryContact: false
+- name: Andrew Bartling
+  email: Andrew.Bartling@nrel.gov
+  affiliation: National Renewable Energy Laboratory (NREL), Golden, CO (United States)
+  primaryContact: false
+- name: John Field
+  email: FieldJL@ornl.gov
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)
+  primaryContact: false
+- name: Anne Harmon-Ware
+  email: Anne.Ware@nrel.gov
+  affiliation: National Renewable Energy Laboratory (NREL), Golden, CO (United States)
+  primaryContact: false
+- name: Robin Clark
+  email: clarkrj@ornl.gov
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)
+  primaryContact: false
+- name: Thomas Pendergast
+  email: thpiv@uga.edu
+  affiliation: University of Georgia, Athens
+  primaryContact: false
+- name: Katrien Devos
+  email: kdevos@uga.edu
+  affiliation: University of Georgia, Athens
+  primaryContact: false
+- name: Erin Webb
+  email: webbeg@ornl.gov
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)
+  primaryContact: false
+- name: Ali Missaoui
+  email: cssamm@uga.edu
+  affiliation: University of Georgia, Athens
+  primaryContact: false
+- name: Xu Yaping
+  email: yxu86@utk.edu
+  affiliation: University of Tennessee, Knoxville
+  primaryContact: false
+- name: Shiva Makaju
+  email: shmakaju@uga.edu
+  affiliation: University of Georgia, Athens
+  primaryContact: false
+- name: Vivek Shrestha
+  email: vshresth@utk.edu
+  affiliation: University of Tennessee, Knoxville
+  primaryContact: false
+- name: Mitra Mazarei
+  email: mmazarei@utk.edu
+  affiliation: University of Tennessee, Knoxville
+  primaryContact: false
+- name: Charles Stewart
+  email: nealstewart@utk.edu
+  affiliation: University of Tennesee, Knoxville
+  primaryContact: false
+- name: Reginald Millwood
+  email: rmillwood@utk.edu
+  affiliation: University of Tennessee, Knoxville
+  primaryContact: false
+- name: Brian Davison
+  email: davisonbh@ornl.gov
+  affiliation: Oak Ridge National Laboratory (ORNL), Oak Ridge, TN (United States)
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER)
+keywords:
+- switchgrass
+- biofuels
+identifier: https://www.osti.gov/biblio/2217356
+dataset_url: https://labkey.ornl.gov/labkey/CBI/Field/PUBLIC_DATA/84_switchgrass_variants/project-begin.view?
+description: 'Switchgrass yield, chemistry, technoeconomic assessment (TEA), and life
+  cycle assessment (LCA) data referenced in the manuscript "Economics and Sustainability
+  impacts of yield and composition variation in bioenergy crops: Panicum virgatum
+  L.", Happs, et. al. (manuscript in revision at ACS Sustainable Chemistry &amp; Engineering).
+  These results are based on analysis of yield data generated from a set of switchgrass
+  common garden experiments established by the Center for Bioenergy Innovation (CBI;
+  https://cbi.ornl.gov/). These data include estimates of commercial-scale yields
+  and characterization of biomass chemistry (fermentable carbohydrate fraction) for
+  84 different switchgrass variants from a genome-wide association study population,
+  as well as estimates of minimum fuel selling price and various life-cycle footprint
+  metrics for cellulosic ethanol produced from that switchgrass biomass.'
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/2217356
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2217356
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

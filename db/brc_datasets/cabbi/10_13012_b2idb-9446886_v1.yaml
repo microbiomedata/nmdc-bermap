@@ -1,0 +1,52 @@
+brc: CABBI
+date: '2023-08-11'
+title: Similar Photosynthetic but Different Yield Responses of C3 and C4 Crops to
+  Elevated O3
+creator:
+- name: Ainsworth, Elizabeth A.
+  email: delucia@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Lee, DoKyoung
+  email: leedk@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Sacks, Erik J.
+  email: esacks@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Leakey, Andrew D.B.
+  email: leakey@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 183674
+  scientificName: Miscanthus x giganteus
+- NCBITaxID: 4577
+  scientificName: Zea mays
+- NCBITaxID: 4558
+  scientificName: Sorghum bicolor
+- NCBITaxID: 38727
+  scientificName: Panicum virgatum L.
+keywords:
+- FACE
+- elevated ozone
+- yield
+- photosynthesis
+identifier: 10.13012/B2IDB-9446886_V1
+repository: Illinois Data Bank
+description: This dataset contains leaf photosynthetic and biochemical traits, plant
+  biomass, and yield in five C3 crops (chickpea, rice, snap bean, soybean, wheat)
+  and four C4 crops (sorghum, maize, Miscanthus × giganteus, switchgrass) grown under
+  ambient and elevated O3 concentration ([O3]) in the field at free-air O3 concentration
+  enrichment (O3-FACE) facilities over the past 20 years.
+relatedItem:
+- title: Similar Photosynthetic but Different Yield Responses of C3 and C4 Crops to
+    Elevated O3
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1073/pnas.2313591120
+bibliographicCitation: https://doi.org/10.13012/B2IDB-9446886_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-9446886_V1
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.628Z'

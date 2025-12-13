@@ -1,0 +1,60 @@
+brc: CABBI
+date: '2022-12-21'
+title: 'A Chemical-Free Pretreatment for Biosynthesis of Bioethanol and Lipids from
+  Lignocellulosic Biomass: An Industrially Relevant 2G Biorefinery Approachs'
+creator:
+- name: Vijay Singh
+  email: vsingh@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Bruce Dien
+  email: bruce.dien@ars.usda.gov
+  affiliation: USDA-ARS Peoria
+  primaryContact: false
+- name: Yong-Su Jin
+  email: ysjin@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+- NCBITaxID: 2872729
+  scientificName: Rhodotorula toruloides
+- NCBITaxID: 4558
+  scientificName: Sorghum bicolor
+keywords:
+- Yields
+- Sugar utilization
+- Lipid production
+identifier: 10.13012/B2IDB-3378133_V1
+repository: Illinois Data Bank
+description: A wide range of inorganic and organic chemicals are used during the pretreatment
+  and enzymatic hydrolysis of lignocellulosic biomass to produce biofuels. Developing
+  an industrially relevant 2G biorefinery process using such chemicals is challenging
+  and requires more unit operations for downstream processing. A sustainable process
+  has been developed to achieve industrially relevant titers of bioethanol with significant
+  ethanol yield. The pretreatment of sorghum biomass was performed by a continuous
+  pilot-scale hydrothermal reactor followed by disk milling. Enzymatic hydrolysis
+  was performed without washing the pretreated biomass. Moreover, citrate buffer strength
+  was reduced to 100-fold (50 mM to 0.5 mM) during the enzymatic hydrolysis. Enzymatic
+  hydrolysis at 0.5 mM citrate buffer strength showed that significant sugar concentrations
+  of 222 ± 2.3 to 241 ± 2.3 g/L (glucose + xylose) were attained at higher solids
+  loadings of 50 to 60% (w/v). Furthermore, hydrolysates were fermented to produce
+  bioethanol using two different xylose-fermenting Saccharomyces cerevisiae strains
+  and a co-culture of xylose-fermenting and non-GMO yeast cultures. Bioethanol titer
+  of 81.7 g/L was achieved with an ethanol yield of 0.48 gp/gs. Additionally, lipids
+  were produced using the oleaginous yeast Rhodosporidium toruloides, yielding 13.2
+  g/L lipids with cellular lipid accumulation of 38.5% w/w from 100 g/L of sugar concentration.
+  In summary, reducing the strength of the citrate buffer during enzymatic hydrolysis
+  and omitting inorganic chemicals from the pretreatment process enhances the fermentability
+  of hydrolysates and can also reduce operating costs.
+relatedItem:
+- title: 'A Chemical-Free Pretreatment for Biosynthesis of Bioethanol and Lipids from
+    Lignocellulosic Biomass: An Industrially Relevant 2G Biorefinery Approach'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.3390/fermentation9010005
+bibliographicCitation: https://doi.org/10.13012/B2IDB-3378133_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-3378133_V1
+created_at: '2025-11-20T18:00:04.759Z'
+updated_at: '2025-12-10T06:00:05.196Z'

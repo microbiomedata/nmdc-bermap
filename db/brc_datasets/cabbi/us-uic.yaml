@@ -1,0 +1,38 @@
+brc: CABBI
+date: '2022-03-01'
+title: AmeriFlux US-UiC University of Illinois Maize-Soy, Dataset (2008-2024)
+creator:
+- name: Bernacchi, Carl J.
+  email: bernacch@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 4577
+  scientificName: Zea mays
+- NCBITaxID: 3847
+  scientificName: Glycine max
+keywords:
+- maize
+- soybean
+- carbon flux
+identifier: US-UiC
+repository: AmeriFlux
+description: Agricultural field planted with maize in a three year rotation with soy
+  (maize-maize-soy). The first soy rotation year was 2010. This field is typically
+  planted in May and harvested in October. This site is located at an experimental
+  farm approximately 2 miles south of the University of Illinois at Urbana Champaign
+  and is colocated with (500-1000m distance) all other Us-Ui sites.
+relatedItem:
+- title: Substantial carbon loss respired from a corn–soybean agroecosystem highlights
+    the importance of careful management as we adapt to changing climate
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1088/1748-9326/ac661a
+- title: The carbon and nitrogen cycle impacts of reverting perennial bioenergy switchgrass
+    to an annual maize crop rotation
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/gcbb.12743
+bibliographicCitation: https://doi.org/10.17190/AMF/1846665
+schema_version: 0.1.1
+uid: CABBI_US-UiC
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.626Z'

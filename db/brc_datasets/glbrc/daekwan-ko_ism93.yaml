@@ -1,0 +1,36 @@
+brc: GLBRC
+date: '2022-03-07'
+title: A signaling cohort of IRE1 and proteasome system controls cell fate determination
+  in unresolved proteotoxic stress of the plant endoplasmic reticulum
+creator:
+- name: Dae Kwan Ko
+  email: dkko@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+species:
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+keywords:
+- Humans
+- Proteasome Endopeptidase Complex/metabolism
+- Arabidopsis Proteins/genetics/metabolism
+- Proteotoxic Stress
+- Protein Serine-Threonine Kinases/genetics/metabolism
+- Arabidopsis/metabolism
+- Basic-Leucine Zipper Transcription Factors/genetics/metabolism
+- Endoplasmic Reticulum/metabolism
+identifier: DaeKwan-Ko/ism93
+repository: GitHub
+description: The scripts provided in this repository allow analyzing raw data for
+  whole genome sequencing and RNA-seq analyses presented in the following paper (https://doi.org/10.1038/s41477-023-01480-3).
+relatedItem:
+- title: An IRE1-proteasome system signalling cohort controls cell fate determination
+    in unresolved proteotoxic stress of the plant endoplasmic reticulum
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.nature.com/articles/s41477-023-01480-3
+analysisType: Code
+bibliographicCitation: https://github.com/DaeKwan-Ko/ism93
+schema_version: 0.1.7
+uid: GLBRC_DaeKwan-Ko/ism93
+created_at: '2025-11-19T18:00:04.599Z'
+updated_at: '2025-12-10T06:00:05.197Z'

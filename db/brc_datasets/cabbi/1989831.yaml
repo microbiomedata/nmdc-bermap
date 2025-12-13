@@ -1,0 +1,24 @@
+brc: CABBI
+date: '2020-12-03'
+title: 'Photoenzymatic Enantioselective Intermolecular Radical Hydroalkylation: Experimental
+  Crystal Structure Determination'
+creator:
+- name: Zhao, Huimin
+  email: zhao5@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+keywords:
+- catalysis
+- crystal structure
+identifier: '1989831'
+repository: The Cambridge Crystallographic Data Centre
+description: Chemial diagram of 1-(naphthalen-2-yl)-4-phenylpentan-1-on
+relatedItem:
+- title: Photoenzymatic Enantioselective Intermolecular Radical Hydroalkylation
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1038/s41586-020-2406-6
+bibliographicCitation: https://doi.org/10.5517/ccdc.csd.cc24sl3n
+schema_version: 0.1.1
+uid: CABBI_1989831
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.626Z'

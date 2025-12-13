@@ -1,0 +1,144 @@
+id: jbei:434
+brc: JBEI
+date: '2019-03-21'
+title: EIben et al. 2019b
+creator:
+- name: Christopher Eiben
+  email: ceiben@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Kevin George
+  email: kwgeorge@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 7088
+  scientificName: Lepidoptera
+- NCBITaxID: 311405
+  scientificName: Zingiber zerumbet
+keywords:
+- HDMAPP
+- Terpenes
+- 3C
+- Mevalonate Pathway
+- homodimethylallyl pyrophosphate
+- HIPP
+- homoisopentenyl pyrophosphate
+- Juvenile Hormones
+identifier: jbei:folder:00434
+repository: ICE
+datasetName: EIben et al. 2019b
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/434
+description: This dataset contains 10 plasmids designed for metabolic engineering
+  to produce biofuels and bioproducts. The collection primarily focuses on isopentanol
+  production, exploring strategies such as alternate AibC genes and a novel pathway
+  involving an isopentenyl-CoA intermediate. It also includes a two-plasmid system
+  for synthesizing the terpene alpha-humulene and several BioBrick-formatted expression
+  vectors.
+relatedItem:
+- title: George, K. W., Chen, A., Jain, A., Batth, T. S., Baidoo, E. E., Wang, G.,
+    Adams, P. D., Petzold, C. J., Keasling, J. D., &amp; Lee, T. S. (2014). “Correlation
+    analysis of targeted proteins and metabolites to assess and engineer microbial
+    isopentenol production”. Biotechnol Bioeng, 111(8), 1648-1658.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Lee TS, Krupa RA, Zhang F, Hajimorad M, Holtz WJ, Prasad N, Lee SK, Keasling
+    JD. BglBrick vectors and datasheets: A synthetic biology platform for gene expression.
+    J Biol Eng. 2011 Sep 20;5:12. doi: 10.1186/1754-1611-5-12.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors:
+- name: Taek Soon Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: p15A
+  backbone: pII5 pDVA02188
+  promoters: []
+  description: As pII3 (JBx_076268) but with alternate AibC genes behind a new RBS
+    for isopentanol production. Comes from colony M.
+  selection_markers:
+  - Chlor
+- ori: p15A
+  backbone: pII7 pDVA02190
+  promoters: []
+  description: As pII3 (JBx_076268) but with alternate AibC genes behind a new RBS
+    for isopentanol production
+  selection_markers:
+  - Chlor
+- ori: ColE1
+  backbone: pII15
+  promoters: []
+  description: Plasmid makes isopentanol. As pII5 (JBx_083725) but with high copy
+    backbone and Carb marker.
+  selection_markers:
+  - Carb
+- ori: p15A
+  backbone: pII6 pDVA02189
+  promoters: []
+  description: As pII3 (JBx_076268) but with alternate AibC genes behind a new RBS
+    for isopentanol production
+  selection_markers:
+  - N/A
+  - Chlor
+- ori: p15A
+  backbone: pII8 pDVA02191
+  promoters: []
+  description: As pII3 (JBx_076268) but with alternate AibC genes behind a new RBS
+    for isopentanol production.
+  selection_markers:
+  - Chlor
+- ori: p15A
+  backbone: pII3 pDVA01918
+  promoters: []
+  description: Plasmid contains novel isopentanol pathway the intermediate isopentenyl-CoA.
+    Sometimes refered to as pII3L as colony L seqeunced correctly when cloning.
+  selection_markers:
+  - Chlor
+- ori: ColE1
+  backbone: pJH20
+  promoters:
+  - pTrc
+  description: One half of a two plasmid system to make novel terpenes. Pair with
+    pJH10. pJH20 contains an operon with two FPP synthase gene from Lepidoptera and
+    an alpha humulene synthase (Zingiber zerumbet) driven by an IPTG inducible promoter.
+    The plasmid derives from colony A of 4 possible colonies I picked during construction,
+    so a synonym name is pJH20A.
+  selection_markers:
+  - Carb
+  - Amp
+- ori: ColE1
+  backbone: pBbE1a-RFP
+  promoters:
+  - Trc
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Ampicillin
+- ori: p15A
+  backbone: pBbA1c-RFP
+  promoters:
+  - Trc
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+- backbone: MevTsa-T1002-Ptrc-MKco-PMKco
+  promoters: []
+  description: MevTsa with supplemental trc promoter driving MKco-PMKco
+  selection_markers:
+  - Cm
+bibliographicCitation: https://public-registry.jbei.org/folders/434
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00434
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

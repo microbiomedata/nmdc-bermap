@@ -1,0 +1,352 @@
+id: jbei:852
+brc: JBEI
+date: '2024-06-26'
+title: Dan et all 2024
+creator:
+- name: Qingyun Dan
+  email: qdan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 1883
+  scientificName: Streptomyces
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 1927
+  scientificName: Streptomyces rimosus
+- NCBITaxID: 76773
+  scientificName: Malassezia globosa
+- NCBITaxID: 10090
+  scientificName: Mus musculus
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+- NCBITaxID: 1836
+  scientificName: Saccharopolyspora erythraea
+- NCBITaxID: 54571
+  scientificName: Streptomyces venezuelae
+- NCBITaxID: 68242
+  scientificName: Streptomyces natalensis
+- NCBITaxID: 4081
+  scientificName: Solanum lycopersicum
+keywords: []
+identifier: jbei:folder:00852
+repository: ICE
+datasetName: Dan et all 2024
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/852
+description: This dataset comprises 47 plasmids constructed for the metabolic engineering
+  of polyketide biosynthesis in *Streptomyces*. The collection primarily focuses on
+  modifying the rimocidin polyketide synthase (PKS) pathway through promoter engineering
+  and the expression of various pathway genes. A key feature is the inclusion of a
+  diverse library of heterologous reductases, transaminases, and thioesterases intended
+  to generate novel polyketide derivatives.
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: p15A
+  backbone: pHIS_RimM1ACP
+  promoters: []
+  description: pHIS plasmid carrying rimM1 ACP gene
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: p41_noBsaI_RimB42
+  promoters: []
+  description: Rimocidin PKS integration plasmid for Streptomyces expression.
+  selection_markers:
+  - Apramycin
+- ori: p15A
+  backbone: pOSV809_yjgB_MaCAR
+  promoters: []
+  description: pOSV809 Streptomyces phiBT1-integration plasmid carrying Pgapdh(EL)-yjgB
+    reductase and Pgapdh(EL)-MaCAR
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pOSV809_yjgB_MmCAR
+  promoters: []
+  description: pOSV809 Streptomyces phiBT1-integration plasmid carrying Pgapdh(EL)-yjgB
+    reductase and Pgapdh(EL)-MmCAR
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pOSV809_yahK_MmCAR
+  promoters: []
+  description: pOSV809 Streptomyces phiBT1-integration plasmid carrying Pgapdh(EL)-yahK
+    reductase and Pgapdh(EL)-MmCAR
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pOSV809_yjgB_SrCAR
+  promoters: []
+  description: pOSV809 Streptomyces phiBT1-integration plasmid carrying Pgapdh(EL)-yjgB
+    reductase and Pgapdh(EL)-SrCAR
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: p41_RimB51
+  promoters: []
+  description: p41_RimB51
+  selection_markers:
+  - apramycin-50
+- ori: p15A
+  backbone: pOSV809_yahK_SrCAR
+  promoters: []
+  description: pOSV809 Streptomyces phiBT1-integration plasmid carrying Pgapdh(EL)-yahK
+    reductase and Pgapdh(EL)-SrCAR
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: p41_RimB73
+  promoters: []
+  description: p41_RimB73 with DEBS TE
+  selection_markers:
+  - apramycin-50
+- ori: ColE1
+  backbone: p41_RimB74
+  promoters: []
+  description: p41_RimB74 with Pikromycin TE
+  selection_markers:
+  - apramycin-50
+- ori: p15A
+  backbone: pOSV809_MaCAR
+  promoters: []
+  description: pOSV809 Streptomyces phiBT1-integration plasmid carrying Pgapdh(EL)-MaCAR
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: p41_noBsaI_RimB40
+  promoters: []
+  description: Rimocidin PKS integration plasmid for Streptomyces expression.
+  selection_markers:
+  - Apramycin
+- ori: ColE1
+  backbone: p41_noBsaI_RimB18
+  promoters: []
+  description: Rimocidin PKS integration plasmid for Streptomyces expression.
+  selection_markers:
+  - Apramycin
+- ori: p15A
+  backbone: pOSV809_yahK_MaCAR
+  promoters: []
+  description: pOSV809 Streptomyces phiBT1-integration plasmid carrying Pgapdh(EL)-yahK
+    reductase and Pgapdh(EL)-MaCAR
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: p41_RimB75
+  promoters: []
+  description: p41_RimB75 with Rim TE
+  selection_markers:
+  - apramycin-50
+- ori: ColE1
+  backbone: p41_RimB69
+  promoters: []
+  description: p41_RimB69
+  selection_markers:
+  - apramycin-50
+- ori: p15A
+  backbone: pHIS_VedC_ACP9
+  promoters: []
+  description: pHIS expression plasmid carrying venediol pathway VedC's last ACP gene.
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pHIS_pimS0
+  promoters: []
+  description: pHIS expression plasmid carrying pimS0 wildtype gene.
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pHIS_rimA
+  promoters: []
+  description: pHIS expression plasmid carrying rimA gene.
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pHIS_TADH2
+  promoters: []
+  description: pHIS expression plasmid carrying TADH2 (tomato alcohol dehydrogenase
+    2) gene.
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pHIS_TR9
+  promoters: []
+  description: pHIS_TR9
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pHIS_TR7
+  promoters: []
+  description: pHIS_TR7
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pHIS_TR2
+  promoters: []
+  description: pHIS_TR2
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pHIS_TR1
+  promoters: []
+  description: pHIS_TR1
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pMBP_CpkC_ACP1
+  promoters: []
+  description: pMBP expression plasmid carrying coelimycin pathway CpkC's last ACP
+    gene.
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pOSV809_yahK
+  promoters: []
+  description: pOSV809 Streptomyces phiBT1-integration plasmid carrying Pgapdh(EL)-yahK
+    reductase
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pOSV809_chnD
+  promoters: []
+  description: pOSV809 Streptomyces phiBT1-integration plasmid carrying Pgapdh(EL)-chnD
+    reductase
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pOSV809_YqhD
+  promoters: []
+  description: pOSV809 Streptomyces phiBT1-integration plasmid carrying Pgapdh(EL)-YqhD
+    reductase
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pOSV809_yjgB
+  promoters: []
+  description: pOSV809 Streptomyces phiBT1-integration plasmid carrying Pgapdh(EL)-yjgB
+    reductase
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pOSV809_TA1
+  promoters: []
+  description: pOSV809 Streptomyces phiBT1-integration plasmid carrying Pgapdh(EL)-TA1
+    (PKS transaminase 1)
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pOSV809_ScADH2
+  promoters: []
+  description: pOSV809 Streptomyces phiBT1-integration plasmid carrying Pgapdh(EL)-ScADH2
+    reductase
+  selection_markers:
+  - Kanamycin
+- ori: p15A
+  backbone: pOSV807_rimJ
+  promoters: []
+  description: pOSV807 Streptomyces pSAM2-integration plasmid carrying Pgapdh(EL)-rimJ
+  selection_markers:
+  - Hygromycin
+- ori: p15A
+  backbone: pOSV807_fkbS
+  promoters: []
+  description: pOSV807 Streptomyces pSAM2-integration plasmid carrying Pgapdh(EL)-fkbS
+  selection_markers:
+  - Hygromycin
+- ori: ColE1
+  backbone: p41_RimB67
+  promoters: []
+  description: p41_RimB67
+  selection_markers:
+  - apramycin-50
+- ori: ColE1
+  backbone: p41_noBsaI_RimB37
+  promoters: []
+  description: Rimocidin PKS integration plasmid for Streptomyces expression.
+  selection_markers:
+  - Apramycin
+- ori: ColE1
+  backbone: p41_noBsaI_RimB36
+  promoters: []
+  description: Rimocidin PKS integration plasmid for Streptomyces expression.
+  selection_markers:
+  - Apramycin
+- ori: ColE1
+  backbone: p41_noBsaI_RimB35
+  promoters: []
+  description: Rimocidin PKS integration plasmid for Streptomyces expression.
+  selection_markers:
+  - Apramycin
+- ori: ColE1
+  backbone: p41_RimB66
+  promoters: []
+  description: p41_RimB66
+  selection_markers:
+  - apramycin-50
+- ori: ColE1
+  backbone: p41_noBsaI_RimB34
+  promoters: []
+  description: Rimocidin PKS integration plasmid for Streptomyces expression.
+  selection_markers:
+  - Apramycin
+- ori: ColE1
+  backbone: p41_noBsaI_RimB33
+  promoters: []
+  description: Rimocidin PKS integration plasmid for Streptomyces expression.
+  selection_markers:
+  - Apramycin
+- ori: ColE1
+  backbone: p41_noBsaI_RimB31
+  promoters: []
+  description: Rimocidin PKS integration plasmid for Streptomyces expression.
+  selection_markers:
+  - Apramycin
+- ori: p15A
+  backbone: pOSV809_TA2
+  promoters: []
+  description: pOSV809 Streptomyces phiBT1-integration plasmid carrying Pgapdh(EL)-TA2
+    (PKS transaminase 2)
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: p41_noBsaI_RimB28
+  promoters: []
+  description: Rimocidin PKS integration plasmid for Streptomyces expression.
+  selection_markers:
+  - Apramycin
+- ori: ColE1
+  backbone: pSC_RimA7
+  promoters: []
+  description: Rimocidin PKS integration plasmid for Streptomyces expression. Promoter
+    kasOP*.
+  selection_markers:
+  - Spectinomycin 100 ug/mL
+- ori: ColE1
+  backbone: pSC_RimA6
+  promoters: []
+  description: Rimocidin PKS integration plasmid for Streptomyces expression. Promoter
+    gapDHp EL.
+  selection_markers:
+  - Spectinomycin 100 ug/mL
+- ori: ColE1
+  backbone: p41_noBsaI_RimB27
+  promoters: []
+  description: Rimocidin PKS integration plasmid for Streptomyces expression.
+  selection_markers:
+  - Apramycin
+- ori: ColE1
+  backbone: pSC_RimA0
+  promoters: []
+  description: Rimocidin PKS integration plasmid for Streptomyces expression.
+  selection_markers: []
+bibliographicCitation: https://public-registry.jbei.org/folders/852
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00852
+created_at: '2025-11-18T20:03:56.772Z'
+updated_at: '2025-12-11T00:00:04.623Z'

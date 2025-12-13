@@ -1,0 +1,59 @@
+id: jbei:883
+brc: JBEI
+date: '2024-01-04'
+title: Pearson et al 2025 diacids
+creator:
+- name: Allison Pearson
+  email: al.pearson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 1423
+  scientificName: Bacillus subtilis
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00883
+repository: ICE
+datasetName: Pearson et al 2025 diacids
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/883
+description: This dataset provides plasmids for the metabolic engineering of diacid
+  production in the host strain ABZR87. The collection includes two knockout vectors
+  targeting native genes (ABZR87_RS15805 and ABZR87_RS07470). A third plasmid enables
+  the constitutive expression of the key pathway enzyme BpsA_sfp.
+relatedItem:
+- title: Pearson AN, Thompson MG, Kirkpatrick LD, Ho C, Vuu KM, Waldburger LM, Keasling
+    JD, Shih PM. 2023. The pGinger Family of Expression Plasmids. Microbiol Spectr
+    11:e0037323.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: ColE1
+  backbone: pMQk30-ABZR87_RS15805
+  promoters: []
+  description: ABZR87_RS15805 KO vector
+  selection_markers: []
+- ori: ColE1
+  backbone: pMQk30-ABZR87_RS07470
+  promoters: []
+  description: ABZR87_RS07470 KO vector
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pGingBK-J23105-BpsA_sfp
+  promoters:
+  - J23105
+  description: pGingBK backbone expressing BpsA_sfp from J23105 constitutive promoter
+  selection_markers:
+  - KanR
+bibliographicCitation: https://public-registry.jbei.org/folders/883
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00883
+created_at: '2025-11-18T20:03:56.772Z'
+updated_at: '2025-12-11T00:00:04.623Z'

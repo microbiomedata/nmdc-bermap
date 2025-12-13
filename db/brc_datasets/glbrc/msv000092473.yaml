@@ -1,0 +1,31 @@
+brc: GLBRC
+date: '2023-09-05'
+title: A role of TGNap1 in transporting antimicrobial proteins
+creator:
+- name: Federica Brandizzi
+  email: fb@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+species:
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+keywords:
+- PR1
+- Apoplast
+- PME
+- Pseudomonas syringae
+identifier: MSV000092473
+repository: MassIVE
+description: Dataset of apoplastic proteins indentified in Col-3 and tgnap1-2 mutant
+  upon infection with mock or Pst DC3000. Samples were harvested at 24 hpi. [doi:10.25345/C5KS6JF6B] 
+relatedItem:
+- title: Defense against phytopathogens relies on efficient antimicrobial protein
+    secretion mediated by the microtubule-binding protein TGNap1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.nature.com/articles/s41467-023-41807-4
+analysisType: Proteomics
+bibliographicCitation: https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=877ea08b93c9429fa94d5f2575f83395
+schema_version: 0.1.7
+uid: GLBRC_MSV000092473
+created_at: '2025-11-19T18:00:04.599Z'
+updated_at: '2025-12-10T06:00:05.197Z'

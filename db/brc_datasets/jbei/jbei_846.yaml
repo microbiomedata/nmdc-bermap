@@ -1,0 +1,574 @@
+id: jbei:846
+brc: JBEI
+date: '2024-06-06'
+title: Hummel et al 2024
+creator:
+- name: Niklas Hummel
+  email: nfhummel@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 358
+  scientificName: Agrobacterium tumefaciens
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- scientificName: Plantae
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords: []
+identifier: jbei:folder:00846
+repository: ICE
+datasetName: Hummel et al 2024
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/846
+description: This dataset provides a collection of 59 plasmids for a modular, transient
+  gene expression assay to screen for transcriptional activator domains in planta.
+  The vectors are designed for Agrobacterium-mediated transformation and utilize Golden
+  Gate assembly for cloning. The core of the dataset is a library of effector constructs
+  expressing synthetic transcription factors, each a fusion of the GAL4 DNA-binding
+  domain to a candidate activator tile, enabling functional characterization via a
+  reporter system.
+relatedItem: []
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pBR322
+  backbone: pNH1
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. This is the entry vector
+    where through Golden gate assembly a GFP dropout is replaced with a target cis-element
+    to generate Promoter GFP expression cassette.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH3
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Variation of pms7997. This
+    is the entry vector where through Golden gate assembly a GFP dropout is replaced
+    with a target trans-element to generate a fusion to the Gal4-DBD with a C-terminal
+    T2A-BFP.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH2
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Variation of pms7997. This
+    is the entry vector where through Golden gate assembly a GFP dropout is replaced
+    with a target trans-element to generate a fusion to the BFP-T2A-Gal4-DBD.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pms7997
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. This is the entry vector
+    where through Golden gate assembly a GFP dropout is replaced with a target trans-element
+    to generate a fusion to the Gal4 DNA binding domain.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH65_tile_95
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH60_tile_90
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH63_tile_93
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH62_tile_92
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH64_tile_94
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH61_tile_91
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH58_tile_88
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH54_tile_82
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH55_tile_83
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH59_tile_89
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH56_tile_84
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH57_tile_86
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH52_tile_79
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH51_tile_75
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH49_tile_72
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH47_tile_66
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH50_tile_74
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH48_tile_68
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH53_tile_80
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH46_tile_64
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH43_tile_56
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH42_tile_53
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH45_tile_62
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH44_tile_59
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH41_tile_51
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH39_tile_44
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH40_tile_45
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH38_tile_43
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH37_tile_39
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH36_tile_37
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH35_tile_36
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH34_tile_35
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH31_tile_30
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH32_tile_31
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH28_tile_24
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH29_tile_25
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH30_tile_28
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH26_tile_22
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH27_tile_23
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH33_tile_32
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH22_tile_15
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH24_tile_20
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH25_tile_21
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH20_tile_12
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH19_tile_10
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH17_tile_8
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH23_tile_18
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH21_tile_14
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH14_tile_4
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH15_tile_5
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH16_tile_6
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH11_tile_1
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH18_tile_9
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH13_tile_3
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pNH12_tile_2
+  promoters: []
+  description: Binary vector for transient expression of proteins off the MAS promoter
+    in planta via Agrobacterium mediated transformation. Protein expressed is a synthetic
+    transcription factor, a fusion of the yeast GAL4-DNA binding domain to the candidate
+    activator tile.
+  selection_markers:
+  - KanR
+bibliographicCitation: https://public-registry.jbei.org/folders/846
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00846
+created_at: '2025-11-18T20:03:56.772Z'
+updated_at: '2025-12-11T00:00:04.623Z'

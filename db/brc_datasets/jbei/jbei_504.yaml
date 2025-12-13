@@ -1,0 +1,156 @@
+id: jbei:504
+brc: JBEI
+date: '2019-10-05'
+title: Zargar et al. 2019
+creator:
+- name: Samantha Chang
+  email: samanthachang@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Amin Zargar
+  email: azargar@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Ravi Lal
+  email: rlal018@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 60894
+  scientificName: Saccharopolyspora spinosa
+- NCBITaxID: 1883
+  scientificName: Streptomyces
+- NCBITaxID: 1890
+  scientificName: Streptomyces antibioticus
+- scientificName: Streptomyces aureofaciens
+- scientificName: Streptomyces cinnamonensis
+- NCBITaxID: 204925
+  scientificName: Streptomyces nanchangensis
+- NCBITaxID: 1931
+  scientificName: Streptomyces sp.
+- NCBITaxID: 66431
+  scientificName: Streptomyces thioluteus
+keywords: []
+identifier: jbei:folder:00504
+repository: ICE
+datasetName: Zargar et al. 2019
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/504
+description: This dataset comprises 15 plasmids designed for combinatorial biosynthesis
+  by engineering polyketide synthase (PKS) modules. The collection focuses on modifying
+  the lipomycin (Lip) PKS backbone by swapping reductive loop domains from various
+  donor systems, including monensin, nanchangmycin, and aureothin. These engineered
+  constructs target specific inter-modular junctions to systematically alter the reduction
+  state of the polyketide chain, enabling the generation of novel chemical structures.
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: RP4
+  backbone: Lip1 JuncB MAS-Mar
+  promoters: []
+  description: Lip1 with MAS-Mar reducing loops at Junction3
+  selection_markers:
+  - Apr
+- ori: RP4
+  backbone: Lip2 JuncB NanA2
+  promoters: []
+  description: Lip2 Junction 2 with NanA2 Junction 2 using Ryan's vectors with Spectinomycin.
+    Strep106
+  selection_markers:
+  - spectinomycin
+- ori: RP4
+  backbone: Lip1 JuncB LaidS2
+  promoters: []
+  description: Laidlomycin PKS module 2 reductive loop at Junction 3 in lipomycin
+    module1
+  selection_markers:
+  - Apr
+- ori: RP4
+  backbone: Lip1 JuncB MonA2
+  promoters: []
+  description: Monensin reductive loops at Junction 3 in lipomycin
+  selection_markers:
+  - Apr
+- ori: RP4
+  backbone: Lip1 JuncB NanA2
+  promoters: []
+  description: Lip1 with Nan reducing loops, Junc2
+  selection_markers:
+  - Apr
+- ori: RP4
+  backbone: Lip2 JuncB SpnB
+  promoters: []
+  description: Lip2 Junction 3 with SpnB Junction 3 using Ryan's vectors with Spectinomycin.
+    Strep107
+  selection_markers:
+  - spectinomycin
+- ori: RP4
+  backbone: Lip1 Native
+  promoters: []
+  description: Native Lipomycin Module1. Strep101
+  selection_markers:
+  - Apramycin (Eco/strep) Ampicillin (Eco)
+- ori: RP4
+  backbone: Lip1 JuncB AurB
+  promoters: []
+  description: Lip Junc3 with fully reductive loops from Aur Junction 3 with TE
+  selection_markers:
+  - Apr
+- ori: RP4
+  backbone: Lip1 JuncA NanA2
+  promoters: []
+  description: Lip1 with Nan reductive loops at Junction 2
+  selection_markers:
+  - Apr
+- ori: RP4
+  backbone: Lip1 JuncA MAS-Mar
+  promoters: []
+  description: Lip1 Junction2 with MAS-Mar Junction reductive loops
+  selection_markers:
+  - Apr
+- ori: RP4
+  backbone: Lip1 JuncA AurB
+  promoters: []
+  description: Lip1 module with Aur reductive loops at Junction 2
+  selection_markers:
+  - Apr
+- ori: RP4
+  backbone: Lip1 JuncA SpnB
+  promoters: []
+  description: Lip1 module with SpnA reducing loops at Junction2
+  selection_markers:
+  - Apr
+- ori: RP4
+  backbone: Lip1 JuncA IdmO
+  promoters: []
+  description: Lip1 in GapDH Streptomyces plasmid with Junction 2 IdmO fully reducing
+    domains and thioesterase
+  selection_markers:
+  - Apr
+- ori: RP4
+  backbone: Lip1 JuncB SpnB
+  promoters: []
+  description: Lip1 in GapDH Streptomyces plasmid with Junction 3 SpnA fully reducing
+    domains and thioesterase
+  selection_markers:
+  - Apr
+- ori: RP4
+  backbone: Lip1 JuncB IdmO
+  promoters: []
+  description: Lip1 in GapDH Streptomyces plasmid with IdmO fully reducing domains
+    and thioesterase
+  selection_markers:
+  - Apr
+bibliographicCitation: https://public-registry.jbei.org/folders/504
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00504
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

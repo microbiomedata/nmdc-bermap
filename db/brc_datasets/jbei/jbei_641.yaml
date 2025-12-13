@@ -1,0 +1,64 @@
+id: jbei:641
+brc: JBEI
+date: '2020-07-30'
+title: Thompson et al AEM 2020
+creator:
+- name: Mitchell Thompson
+  email: mthompson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Matthias Schmidt
+  email: mschmidt@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species: []
+keywords: []
+identifier: jbei:folder:00641
+repository: ICE
+datasetName: Thompson et al AEM 2020
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/641
+description: This dataset provides a collection of six plasmids for gene knockout
+  (KO) studies from Thompson et al. (2020). The set includes five distinct constructs
+  designed for targeted gene disruption and the corresponding empty KO vector. These
+  genetic tools are suitable for functional genomics and genetic engineering to investigate
+  the role of specific genes.
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pMQ30 PP_2674
+  promoters: []
+  description: KO
+  selection_markers: []
+- backbone: pMQ30 PP_2679
+  promoters: []
+  description: KO
+  selection_markers: []
+- backbone: pMQ30 PP_2675
+  promoters: []
+  description: KO
+  selection_markers: []
+- backbone: pMQ30 PP_3122
+  promoters: []
+  description: KO
+  selection_markers: []
+- backbone: pMQ30 PP_4064_4067
+  promoters: []
+  description: KO
+  selection_markers: []
+- ori: ColE1
+  backbone: pMQ30 PP_3839
+  promoters: []
+  description: KO vector
+  selection_markers:
+  - Gentamicin (15 ug/mL or 30 ug/mL)
+bibliographicCitation: https://public-registry.jbei.org/folders/641
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00641
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

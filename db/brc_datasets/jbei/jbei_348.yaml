@@ -1,0 +1,75 @@
+id: jbei:348
+brc: JBEI
+date: '2017-12-14'
+title: Beller et al. 2018 Nat Chem Bio
+creator:
+- name: Andria Rodrigues
+  email: avrodrigues@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00348
+repository: ICE
+datasetName: Beller et al. 2018 Nat Chem Bio
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/348
+description: This dataset contains four expression plasmids developed to characterize
+  the PhdA and PhdB subunits of a novel dehydratase enzyme from a sewage metagenome.
+  The vectors are designed for heterologous protein expression and purification, featuring
+  N-terminal His6 and MBP tags. The collection includes constructs for expressing
+  the codon-optimized wild-type proteins as well as a site-directed mutant of PhdB
+  (G815A) for functional analysis.
+relatedItem: []
+analysisType: affinity_purification
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: f1 pBR322
+  backbone: pAS013
+  promoters:
+  - T7
+  description: KanR; derivative of pAS010 with PhdB residue glycine 815 mutated to
+    alanine.
+  selection_markers:
+  - Kan
+- ori: f1  pBR322
+  backbone: pAS010
+  promoters:
+  - T7
+  description: 'KanR; derivative of pAS007 with thrombin protease site replaced by
+    TEV protease site.
+
+    Plasmid constructed by A. Saini, thrombin site switched to TEV by A. Rodrigues.'
+  selection_markers: []
+- ori: f1  pBR322
+  backbone: pAS007
+  promoters:
+  - T7
+  description: 'KanR; pET-28b derivative vector containing gene encoding MBP inserted
+    between N-terminal His6-tag &amp; thrombin protease site. ~2.5-kb PCR fragment
+    of phdB (codon optimized, from sewage metagenome) cloned at NdeI and XhoI sites.
+
+    Plasmid constructed by A. Saini.'
+  selection_markers:
+  - Kan
+- ori: f1  pBR322
+  backbone: pAS004
+  promoters:
+  - T7
+  description: 'KanR; pET-28b derivative vector with ~1-kb PCR fragment of phdA cloned
+    at NdeI and BamHI sites. N-terminal hexahistidine tag linked to phdA (codon optimized
+    from sewage metagenome).
+
+    Plasmid constructed by A. Saini'
+  selection_markers:
+  - Kan
+bibliographicCitation: https://public-registry.jbei.org/folders/348
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00348
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

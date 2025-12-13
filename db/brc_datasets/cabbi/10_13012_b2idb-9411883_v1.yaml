@@ -1,0 +1,50 @@
+brc: CABBI
+date: '2020-03-26'
+title: A Mass Spectrometry-Based High-Throughput Screening Method for Engineering
+  Fatty Acid Synthases with Improved Production of Medium Chain Fatty Acids
+creator:
+- name: Huimin Zhao
+  email: zhao5@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Jonathan Sweedler
+  email: jsweedle@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- Mass Spectrometry
+- Escherichia coli
+- fatty acids
+identifier: 10.13012/B2IDB-9411883_V1
+repository: Illinois Data Bank
+description: Microbial cell factories have been extensively engineered to produce
+  free fatty acids (FFAs) as key components of crucial nutrients, soaps, industrial
+  chemicals, and fuels. However, our ability to control the composition of microbially
+  synthesized FFAs is still limited, particularly, for producing medium‐chain fatty
+  acids (MCFAs). This is mainly due to the lack of high‐throughput approaches for
+  FFA analysis to engineer enzymes with desirable product specificity. Here we report
+  a mass spectrometry (MS)‐based method for rapid profiling of MCFAs in Saccharomyces
+  cerevisiae by using membrane lipids as a proxy. In particular, matrix‐assisted laser
+  desorption/ionization time‐of‐flight (MALDI‐ToF) MS was used to detect shorter acyl
+  chain phosphatidylcholines from membrane lipids and a higher m/z peak ratio at 730
+  and 758 was used as an indication for improved MCFA production. This colony‐based
+  method can be performed at a rate of ~2 s per sample, representing a substantial
+  improvement over gas chromatography‐MS (typically &gt;30 min per sample) as the
+  gold standard method for FFA detection. To demonstrate the power of this method,
+  we performed site‐saturation mutagenesis of the yeast fatty acid synthase and identified
+  nine missense mutations that resulted in improved MCFA production relative to the
+  wild‐type strain. Colony‐based MALDI‐ToF MS screening provides an effective approach
+  for engineering microbial fatty acid compositions in a high‐throughput manner.
+relatedItem:
+- title: A Mass Spectrometry-Based High-Throughput Screening Method for Engineering
+    Fatty Acid Synthases with Improved Production of Medium Chain Fatty Acids
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://onlinelibrary.wiley.com/doi/abs/10.1002/bit.27343
+bibliographicCitation: https://doi.org/10.13012/B2IDB-9411883_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-9411883_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

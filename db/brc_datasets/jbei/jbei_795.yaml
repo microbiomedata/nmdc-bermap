@@ -1,0 +1,4164 @@
+id: jbei:795
+brc: JBEI
+date: '2023-06-21'
+title: Hummel et al., 2023
+creator:
+- name: Niklas Hummel
+  email: nfhummel@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+- NCBITaxID: 358
+  scientificName: Agrobacterium tumefaciens
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+- NCBITaxID: 1314
+  scientificName: Streptococcus pyogenes
+keywords: []
+identifier: jbei:folder:00795
+repository: ICE
+datasetName: Hummel et al., 2023
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/795
+description: This dataset comprises a collection of 461 plasmids designed for studying
+  and engineering gene regulatory networks in plants. The constructs include binary
+  vectors for the constitutive overexpression of *Arabidopsis thaliana* transcription
+  factors and for reporter gene assays using native and synthetic promoters. A key
+  feature of this collection is the inclusion of advanced tools for CRISPR-based transcriptional
+  activation, utilizing dCas9-effector fusions to target specific promoters.
+relatedItem:
+- title: https://doi.org/10.1101/2022.10.23.513375
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513374
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513380
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513373
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513368
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513371
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513372
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513370
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513369
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513818
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513819
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513815
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513816
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513814
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513813
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513817
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513811
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513812
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513809
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513810
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513808
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513806
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513807
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513802
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513803
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513801
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513805
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513804
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513800
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513795
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513798
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513796
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513799
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513797
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513790
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513793
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513791
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513792
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513794
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513786
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513789
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513787
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513788
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513785
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513783
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513784
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513780
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513782
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513781
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513779
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513778
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513777
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513776
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513772
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513773
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513775
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513774
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513770
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513771
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513768
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513769
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513767
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513766
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513765
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513764
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513763
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513762
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513761
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513760
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513758
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513759
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513756
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513757
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513753
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513754
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513755
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513751
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513752
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513750
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513748
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513746
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513749
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513745
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513743
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513744
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513742
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513741
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513740
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513738
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513736
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513737
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513735
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513739
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513734
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513732
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513731
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513730
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513729
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513727
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513733
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513728
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513725
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513723
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513724
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513726
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513722
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513719
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513720
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513717
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513721
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513718
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513716
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513712
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513715
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513714
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513713
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513711
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513708
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513707
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513706
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513710
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513709
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513705
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513702
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513704
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513699
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513700
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513703
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513697
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513696
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513694
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513695
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513692
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513693
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513691
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513698
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513701
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513687
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513686
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513690
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513685
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513684
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513683
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513688
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513689
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513680
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513677
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513681
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513678
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513682
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513679
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513673
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513675
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513676
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513674
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513670
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513671
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513669
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513672
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513668
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513667
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513665
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513664
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513661
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513666
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513659
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513662
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513663
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513657
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513660
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513658
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513655
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513652
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513654
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513653
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513656
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513650
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513649
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513651
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513648
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513647
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513643
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513645
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513644
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513646
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513642
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513639
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513641
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513640
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513638
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513637
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513635
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513636
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513632
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513634
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513633
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513631
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513630
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513628
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513627
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513629
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513624
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513622
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513623
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513621
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513620
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513619
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513626
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513617
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513625
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513618
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513616
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513613
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513612
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513611
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513610
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513609
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513608
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513614
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513605
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513615
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513603
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513607
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513604
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513606
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513601
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513599
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513602
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513598
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513600
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513596
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513597
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513595
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513593
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513591
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513589
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513592
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513588
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513594
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513586
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513585
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513587
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513590
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513582
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513581
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513580
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513584
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513583
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513577
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513578
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513575
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513573
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513574
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513579
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513570
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513568
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513569
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513567
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513572
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513571
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513566
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513563
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513565
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513564
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513560
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513562
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513576
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513561
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513559
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513554
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513553
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513558
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513555
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513557
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513548
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513549
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513550
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513546
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513547
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513545
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513542
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513552
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513543
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513551
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513540
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513539
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513538
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513544
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513541
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513537
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513535
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513533
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513534
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513536
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513532
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513531
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513528
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513530
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513527
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513529
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513526
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513523
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513522
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513525
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513520
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513519
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513524
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513518
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513516
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513517
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513514
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513515
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513510
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513513
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513512
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513511
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513509
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513506
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513508
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513505
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513504
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513507
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513502
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513501
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513500
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513503
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513499
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513497
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513498
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513495
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513496
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513492
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513494
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513490
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513493
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513491
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513486
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513489
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513485
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513488
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513487
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513484
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513483
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513482
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513480
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513479
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513478
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513481
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513477
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513476
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513473
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513471
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513474
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513472
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513475
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513470
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513466
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513467
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513468
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513469
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513465
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513463
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513461
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513462
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513464
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513460
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513458
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513457
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513459
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513456
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513455
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513454
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513453
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513452
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513448
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513451
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513449
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513447
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513450
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513446
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513445
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513443
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513444
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513442
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513437
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513441
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513439
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513438
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513440
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513432
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513436
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513431
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513433
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513434
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513430
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513428
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513429
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513426
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513425
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513427
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513424
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513423
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513422
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513419
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513421
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513420
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513418
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513414
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513415
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513417
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513416
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513413
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513411
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513410
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513412
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513409
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513408
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513404
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513407
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513403
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513406
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513405
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513402
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513399
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513401
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513397
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513398
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513400
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513395
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513396
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513393
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513392
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513394
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513390
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513391
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513389
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513388
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513386
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513384
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513385
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513387
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513383
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513382
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513381
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513379
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513378
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513377
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://doi.org/10.1101/2022.10.23.513376
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pVS1 oriV
+  backbone: pNH0458_FL_AT4G27950_CRF4
+  promoters: []
+  description: Binary vector for expression of full-length TF AT4G27950 of 35S promoter.
+  selection_markers:
+  - Rif, Kan, Gent
+- ori: pVS1 oriV
+  backbone: pNH0460_FL_AT1G52880_ANAC018
+  promoters: []
+  description: Binary vector for expression of full-length TF AT1G52880 of 35S promoter.
+  selection_markers:
+  - Rif, Kan, Gent
+- ori: pVS1 oriV
+  backbone: pNH0466_mi318_ASFT_GUS
+  promoters: []
+  description: Binary vector for expression of GUS reporter driven by synthetic promoter
+    mi318 upstream region and ASFT minimal promoter
+  selection_markers:
+  - Rif, Spec, Gent
+- ori: pVS1 oriV
+  backbone: pNH0465_pms6370
+  promoters: []
+  description: Binary vector for expression of GFP and dsRed promoter. GFP driven
+    by 5x UAS Gal4 and minimal Wuschel, dsRed by pMAS
+  selection_markers:
+  - Rif, Kan, Gent
+- ori: pVS1 oriV
+  backbone: pNH0459_FL_AT5G15830_bZIP3
+  promoters: []
+  description: Binary vector for expression of full-length TF AT5G15830 of 35S promoter.
+  selection_markers:
+  - Rif, Kan, Gent
+- ori: pVS1 oriV
+  backbone: pNH0457_FL_AT5G10030_TGA4
+  promoters: []
+  description: Binary vector for expression of full-length TF AT5G10030 of 35S promoter.
+  selection_markers:
+  - Rif, Kan, Gent
+- ori: pVS1 oriV
+  backbone: pNH0456_FL_AT1G68550_CRF10
+  promoters: []
+  description: Binary vector for expression of full-length TF AT1G68550 of 35S promoter.
+  selection_markers:
+  - Rif, Kan, Gent
+- ori: pVS1 oriV
+  backbone: pNH0453_NIR1_prom_GFP
+  promoters: []
+  description: Binary vector for expression of GFP reporter by 2kb promoter region
+    upstream of NIR1 TSS.
+  selection_markers:
+  - Rif, Kan, Gent
+- ori: pVS1 oriV
+  backbone: pNH0455_FL_AT1G12630
+  promoters: []
+  description: Binary vector for expression of full-length TF AT1G12630 of 35S promoter.
+  selection_markers:
+  - Rif, Kan, Gent
+- ori: pVS1 oriV
+  backbone: pNH0454_NR1_prom_GFP
+  promoters: []
+  description: Binary vector for expression of GFP reporter by 2kb promoter region
+    upstream of NR1 TSS.
+  selection_markers:
+  - Rif, Kan, Gent
+- ori: ARS102
+  backbone: pNH0454_pAI9_yGal4_DBD_VP16
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Carb, G418
+- ori: 2 micron
+  backbone: pNH0451_pAI9_yGal4_DBD_AT2G20400
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Carb, URA
+- ori: 2 micron
+  backbone: pNH0450_pAI9_yGal4_DBD_AT3G23220
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Carb, URA
+- ori: 2 micron
+  backbone: pNH0449_pAI9_yGal4_DBD_AT3G52440
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Carb, URA
+- ori: 2 micron
+  backbone: pNH0448_pAI9_yGal4_DBD_AT5G51990
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Carb, URA
+- ori: 2 micron
+  backbone: pNH0447_pAI9_yGal4_DBD_AT1G71450
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Carb, URA
+- ori: 2 micron
+  backbone: pNH0445_pAI9_yGal4_DBD_AT5G18560
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Carb, URA
+- ori: 2 micron
+  backbone: pNH0446_pAI9_yGal4_DBD_AT1G19210
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Carb, URA
+- ori: 2 micron
+  backbone: pNH0444_pAI9_yGal4_DBD_AT5G46590
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Carb, URA
+- ori: 2 micron
+  backbone: pNH0443_pAI9_yGal4_DBD_AT5G64060
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Carb, URA
+- ori: 2 micron
+  backbone: pNH0442_pAI9_yGal4_DBD_AT1G21910
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Carb, URA
+- ori: 2 micron
+  backbone: pNH0440_pAI9_yGal4_DBD_AT4G25470
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Carb, URA
+- ori: 2 micron
+  backbone: pNH0441_pAI9_yGal4_DBD_AT1G35460
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Carb, URA
+- ori: 2 micron
+  backbone: pNH0438_pAI9_yGal4_DBD_AT2G46400
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Carb, URA
+- ori: 2 micron
+  backbone: pNH0439_pAI9_yGal4_DBD_AT4G25490
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Carb, URA
+- ori: 2 micron
+  backbone: pNH0436_pAI9_yGal4_DBD_AT1G68550
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Carb, URA
+- ori: 2 micron
+  backbone: pNH0434_pAI9_yGal4_DBD_AT3G26790
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Carb, URA
+- ori: 2 micron
+  backbone: pNH0433_pAI9_yGal4_DBD_AT4G18450
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Carb, URA
+- ori: 2 micron
+  backbone: pNH0435_pAI9_yGal4_DBD_AT2G35700
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Carb, URA
+- ori: 2 micron
+  backbone: pNH0437_pAI9_yGal4_DBD_AT1G12610
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Carb, URA
+- ori: pVS1 oriV
+  backbone: pNH0431_dCas9_VP16
+  promoters: []
+  description: Binary vector for expression of dCas9-VP16 fusion targeting synthetic
+    mi318 promoter. Based on vector pYPQ202&amp;pYPQ152 from Lowder et al. 2017
+  selection_markers:
+  - Rif, Kan, Gent
+- ori: pVS1 oriV
+  backbone: pNH0430_dCas9_AT2G20400
+  promoters: []
+  description: Binary vector for expression of dCas9-AT2G20400 fusion targeting synthetic
+    mi318 promoter. Based on vector pYPQ202&amp;pYPQ152 from Lowder et al. 2018
+  selection_markers:
+  - Rif, Kan, Gent
+- ori: pVS1 oriV
+  backbone: pNH0428_dCas9_AT3G52440
+  promoters: []
+  description: Binary vector for expression of dCas9-AT3G52440 fusion targeting synthetic
+    mi318 promoter. Based on vector pYPQ202&amp;pYPQ152 from Lowder et al. 2020
+  selection_markers:
+  - Rif, Kan, Gent
+- ori: pVS1 oriV
+  backbone: pNH0429_dCas9_AT3G23220
+  promoters: []
+  description: Binary vector for expression of dCas9-AT3G23220 fusion targeting synthetic
+    mi318 promoter. Based on vector pYPQ202&amp;pYPQ152 from Lowder et al. 2019
+  selection_markers:
+  - Rif, Kan, Gent
+- ori: pVS1 oriV
+  backbone: pNH0427_dCas9_AT5G51990
+  promoters: []
+  description: Binary vector for expression of dCas9-AT5G51990 fusion targeting synthetic
+    mi318 promoter. Based on vector pYPQ202&amp;pYPQ152 from Lowder et al. 2021
+  selection_markers:
+  - Rif, Kan, Gent
+- ori: pVS1 oriV
+  backbone: pNH0426_dCas9_AT1G71450
+  promoters: []
+  description: Binary vector for expression of dCas9-71450 fusion targeting synthetic
+    mi318 promoter. Based on vector pYPQ202&amp;pYPQ152 from Lowder et al. 2022
+  selection_markers:
+  - Rif, Kan, Gent
+- ori: pBR322
+  backbone: pNH0424_Pap1_VP16
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0425_Pap1
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0423_Pap1_AT2G20400
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0422_Pap1_AT3G23220
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0421_Pap1_AT3G52440
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0418_Pap1_AT1G19210
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0419_Pap1_AT1G71450
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0420_Pap1_AT5G51990
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0417_Pap1_AT5G18560
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0415_Pap1_AT5G64060
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0414_Pap1_AT1G21910
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0413_Pap1_AT1G35460
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0416_Pap1_AT5G46590
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0412_Pap1_AT4G25470
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0410_Pap1_AT2G46400
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0411_Pap1_AT4G25490
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0409_Pap1_AT1G12610
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0408_Pap1_AT1G68550
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0407_Pap1_AT2G35700
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0406_Pap1_AT3G26790
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0405_Pap1_AT4G18450
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0403_AT2G20400
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0404_Pap1_AT5G25190
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0401_AT3G52440
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0402_AT3G23220
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0400_AT5G51990
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0399_AT1G71450
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0398_AT1G19210
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0397_AT5G18560
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0395_AT5G64060
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0396_AT5G46590
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0393_AT1G35460
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0394_AT1G21910
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0391_AT4G25490
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0392_AT4G25470
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0389_AT1G12610
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0390_AT2G46400
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0388_AT1G68550
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0386_AT3G26790
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0387_AT2G35700
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0385_AT4G18450
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0384_AT5G25190
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0383_AT5G29000
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0382_AT1G44830
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0381_AT1G28160
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0378_AT1G43700
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0376_AT3G16280
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0379_AT2G40340
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0375_AT4G36160
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0377_AT3G04060
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0372_AT5G52020
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0373_AT1G22810
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0374_AT4G17980
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0371_AT1G12630
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0369_AT2G02450
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0368_AT1G79580
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0370_AT3G23210
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0367_AT3G30210
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0366_AT1G52880
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0364_AT3G20770
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0363_AT2G38340
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0362_AT1G68320
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0365_AT3G10113
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0361_AT5G66300
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0359_AT4G38000
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0355_AT4G34590
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0360_AT1G69490
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0358_AT1G25340
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0357_AT1G54330
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0354_AT1G20640
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0356_AT5G13910
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0353_AT1G08810
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0350_AT1G72360
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0352_AT1G53910
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0351_AT4G31060
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0349_AT1G77640
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0347_AT3G12910
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0345_AT5G11190
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0344_AT1G75490
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0346_AT3G45610
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0348_AT5G66700
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0343_AT1G64625
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0339_AT3G04070
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0341_AT1G06850
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0338_AT5G18270
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0340_AT5G62380
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0342_AT5G04410
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0336_AT1G34670
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0335_AT2G21900
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0334_AT1G77200
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0333_AT1G10120
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0332_AT5G62940
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0337_AT2G18160
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0331_AT4G25480
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0328_AT5G38800
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0330_AT3G02990
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0329_AT2G36010
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0326_AT5G10280
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0327_AT2G18060
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0324_AT1G49010
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0325_AT5G52830
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0322_AT1G36060
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0323_AT3G57600
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0318_AT2G47070
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0319_AT5G54230
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0317_AT1G74650
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0316_AT1G45249
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0321_AT5G50670
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0315_AT5G08070
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0320_AT5G38860
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0313_AT5G58900
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0312_AT5G25810
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0314_AT3G01470
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0310_AT5G48670
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0309_AT3G13040
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0311_AT4G32800
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0308_AT2G31230
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0306_AT2G31220
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0307_AT3G22830
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0305_AT2G38090
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0302_AT4G17785
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0301_AT1G67260
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0304_AT5G07100
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0303_AT4G34410
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0300_AT2G45420
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0299_AT1G06180
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0297_AT1G32150
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0296_AT5G08330
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0294_AT2G42200
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0298_AT5G62320
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0293_AT5G64750
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0292_AT3G53200
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0295_AT5G60850
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0291_AT1G63030
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0290_AT2G36270
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0288_AT3G01970
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0286_AT1G59640
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0287_AT1G43160
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0289_AT2G40740
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0285_AT5G39610
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0284_AT5G65210
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0281_AT1G22070
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0283_AT3G27010
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0279_AT3G42860
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0280_AT5G47220
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0276_AT5G65410
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0278_AT3G15500
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0282_AT3G12820
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0277_AT4G01250
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0274_AT1G72010
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0271_AT5G19790
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0273_AT3G17730
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0272_AT5G58620
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0275_AT4G29230
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0270_AT5G15830
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0268_AT2G28810
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0269_AT5G40330
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0267_AT1G01720
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0265_AT4G28140
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0266_AT5G24110
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0263_AT3G23240
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0264_AT2G46270
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0259_AT5G39820
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0262_AT3G60490
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0260_AT2G42280
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0261_AT4G36740
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0256_AT1G12260
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0254_AT1G18570
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0255_AT4G28500
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0252_AT1G29280
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0253_AT2G18300
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0258_AT1G01250
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0257_AT2G24430
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0250_AT1G53230
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0248_AT1G47655
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0251_AT5G05410
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0244_AT1G02250
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0243_AT5G02460
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0242_AT5G18450
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0249_AT5G62470
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0241_AT3G57920
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0239_AT1G13260
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0245_AT2G46680
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0247_AT1G29860
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0246_AT3G01530
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0236_AT2G46770
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0240_AT1G69010
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0234_AT5G47230
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0237_AT2G03340
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0233_AT4G01540
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0235_AT4G14410
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0231_AT1G74480
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0232_AT4G26640
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0228_AT5G07680
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0229_AT2G44940
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0227_AT1G76890
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0238_AT5G61600
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0225_AT1G10720
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0224_AT3G12730
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0221_AT1G76880
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0223_AT4G10350
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0220_AT1G69690
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0219_AT2G18550
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0218_AT1G13400
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0222_AT5G26170
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0230_AT3G30530
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0214_AT5G16820
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0213_AT1G73360
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0215_AT1G13450
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0217_AT1G30210
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0216_AT5G02840
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0226_AT4G21030
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0209_AT4G01720
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0206_AT4G30980
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0205_AT3G62420
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0207_AT3G47620
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0211_AT5G65310
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0203_AT1G32870
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0212_AT1G53170
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0201_AT3G13350
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0199_AT1G28470
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0200_AT3G03200
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0202_AT4G01680
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0204_AT2G48100
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0197_AT3G09600
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0198_AT1G68670
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0196_AT1G75390
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0210_AT3G18990
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0208_AT4G36620
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0194_AT1G73730
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0193_AT5G65130
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0192_AT4G04450
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0195_AT5G11510
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0188_AT1G69560
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0187_AT2G27300
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0190_AT2G43000
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0185_AT5G65510
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0186_AT4G17490
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0191_AT3G20840
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0183_AT2G37590
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0181_AT5G07310
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0180_AT4G27950
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0179_AT2G04038
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0178_AT1G65910
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0182_AT1G34370
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0177_AT2G22750
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0184_AT2G17900
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0176_AT5G56110
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0175_AT3G11440
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0173_AT3G27785
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0170_AT3G10500
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0171_AT2G44840
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0174_AT3G15170
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0172_AT1G72050
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0169_AT1G03800
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0166_AT1G69780
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0168_AT2G33550
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0167_AT2G30250
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0165_AT5G25475
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0164_AT3G47600
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0163_AT5G17300
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0162_AT5G61270
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0161_AT5G66940
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0158_AT5G06100
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0159_AT4G18880
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0155_AT3G55370
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0160_AT1G13300
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0156_AT5G51190
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0152_AT2G46130
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0151_AT5G10030
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0150_AT3G50410
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0148_AT3G23690
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0147_AT5G01380
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0149_AT2G30590
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0153_AT2G42430
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0146_AT3G47500
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0144_AT2G26960
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0145_AT3G28910
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0157_AT3G50260
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0140_AT5G08520
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0142_AT2G40620
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0143_AT1G06070
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0141_AT2G38470
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0139_AT4G31800
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0138_AT3G04030
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0137_AT3G45150
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0135_AT3G60530
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0136_AT2G15660
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0134_AT3G56400
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0133_AT5G52170
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0130_AT3G02940
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0132_AT3G15270
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0131_AT4G22070
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0129_AT1G51600
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0128_AT3G61120
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0127_AT3G10580
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0124_AT4G33280
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0123_AT1G75240
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0126_AT5G60130
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0125_AT1G33240
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0118_AT1G19040
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0120_AT4G06746
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0119_AT1G14580
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0121_AT2G41835
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0122_AT1G80840
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0117_AT3G25990
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0115_AT1G04880
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0116_AT2G33810
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0113_AT1G69570
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0114_AT5G61620
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0112_AT3G02150
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0111_AT5G41570
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0110_AT2G45650
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0109_AT2G22430
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0106_AT1G30650
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0108_AT3G12720
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0105_AT5G62165
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0107_AT3G48160
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0104_AT3G10480
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0103_AT4G21040
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0102_AT5G52660
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0099_AT5G44210
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0101_AT1G19000
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0100_AT5G08130
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0098_AT5G58850
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0097_AT2G46590
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0094_AT1G46768
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0096_AT3G15210
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0095_AT1G28370
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0092_AT5G10140
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0093_AT5G03790
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0091_AT2G03500
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0090_AT2G32460
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0089_AT5G67190
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0087_AT5G03150
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0088_AT5G14960
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0085_AT3G20310
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0086_AT1G29160
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0084_AT1G49560
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0080_AT5G67580
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0081_AT4G00730
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0082_AT2G01060
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0083_AT3G46590
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0079_AT4G11660
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0078_AT5G25830
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0077_AT1G09030
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0075_AT3G23250
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0076_AT3G11280
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0074_AT1G02230
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0072_AT5G43840
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0071_AT3G09230
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0073_AT1G49480
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0070_AT1G20910
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0069_AT1G25550
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0067_AT2G22540
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0065_AT1G60920
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0066_AT4G31550
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0064_AT2G41690
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0063_AT2G39900
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0062_AT1G06280
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0061_AT1G30490
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0057_AT4G26030
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0059_AT3G61150
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0060_AT5G08750
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0058_AT4G37790
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0056_AT5G06960
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0055_AT1G50640
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0053_AT1G01060
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0054_AT3G21175
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0052_AT5G06839
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0050_AT1G76110
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0051_AT5G66730
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0047_AT1G70920
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0048_AT2G30340
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0049_AT5G13790
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0045_AT3G51080
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0046_AT5G47390
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0043_AT4G21080
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0044_AT4G38620
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0041_AT3G50060
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0042_AT1G32240
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0039_AT5G56840
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0038_AT1G17950
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0040_AT5G22990
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0036_AT4G24240
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0037_AT5G53950
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0035_AT1G51220
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0031_AT1G76420
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0034_AT2G23340
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0032_AT1G27730
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0033_AT3G45170
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0030_AT2G02820
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0028_AT3G49530
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0029_AT4G37180
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0026_AT3G50700
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0027_AT5G62020
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0025_AT2G23320
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0024_AT4G05100
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0023_AT1G70910
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0022_AT5G42820
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0021_AT5G44160
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0020_AT3G46070
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0019_AT5G63260
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0018_AT2G38880
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0016_AT1G55110
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0017_AT1G52150
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0015_AT5G06950
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0014_AT5G49300
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0013_AT2G17950
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0011_AT4G24470
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0012_AT3G60580
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0009_AT5G04390
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0010_AT5G47370
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0007_AT5G59430
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0006_AT4G17460
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0008_AT1G03840
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0004_AT2G18380
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0002_AT3G06740
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0001_AT2G40260
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0005_AT1G51700
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0003_AT3G49930
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0380_AT1G16490
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0189_AT5G47660
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0068_AT4G01500
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pNH0154_AT5G05790
+  promoters: []
+  description: Expression
+  selection_markers:
+  - Kan
+bibliographicCitation: https://public-registry.jbei.org/folders/795
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00795
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

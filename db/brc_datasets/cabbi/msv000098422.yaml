@@ -1,0 +1,42 @@
+brc: CABBI
+date: '2025-08-02'
+title: GNPS – Decompartmentalization of the Yeast Mitochondrial Metabolism to Improve
+  Chemical Production in Issatchenkia orientalis
+creator:
+- name: Huimin Zhao
+  email: zhao5@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Joshua Rabinowitz
+  email: joshr@princeton.edu
+  affiliation: Princeton University
+  primaryContact: false
+- name: Jeremy Guest
+  email: jsguest@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 4909
+  scientificName: Issatchenkia orientalis
+keywords:
+- Issatchenkia orientalis
+- LC-MS
+- Metabolites
+identifier: MSV000098422
+repository: MassIVE
+description: This dataset contains the raw LC-MS data of metabolites extracted from
+  I. orientalis strains.
+relatedItem:
+- title: Data for 'Decompartmentalization of the yeast mitochondrial metabolism to
+    improve chemical production in Issatchenkia orientalis'
+  relatedItemType: Dataset
+  relatedItemIdentifier: https://doi.org/10.13012/B2IDB-9575028_V1
+- title: Decompartmentalization of the Yeast Mitochondrial Metabolism to Improve Chemical
+    Production in Issatchenkia orientalis
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1038/s41467-025-62304-w
+bibliographicCitation: https://doi.org/doi:10.25345/C5TX35K3J
+schema_version: 0.1.1
+uid: CABBI_MSV000098422
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

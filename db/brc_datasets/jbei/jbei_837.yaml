@@ -1,0 +1,75 @@
+id: jbei:837
+brc: JBEI
+date: '2024-04-21'
+title: Zhang et al. 2024
+creator:
+- name: Yuan Zhang
+  email: yuanzhang@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 358
+  scientificName: Agrobacterium tumefaciens
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00837
+repository: ICE
+datasetName: Zhang et al. 2024
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/837
+description: This dataset provides a set of five plasmids for advanced plant genetic
+  engineering. It features multiplex CRISPR/Cas9 vectors using PcoCAS9 to target the
+  RCKT1 and GMT1 genes, enabling efficient genome editing. The collection is completed
+  by a Gateway destination vector for plant-based gene expression and two modified
+  ampicillin-resistant cloning backbones.
+relatedItem: []
+analysisType: Targeted Locus (Loci)
+contributors:
+- name: Yan Liang
+  email: yliang@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pBR322
+  backbone: pYZ8
+  promoters: []
+  description: pTKan-p35S::DsRed-p35S::PcoCAS9-pU6::RCKT1_gRNA1-pU3::RCKT1_gRNA2-pU6::RCKT1_gRNA3
+  selection_markers:
+  - Spect
+- ori: pBR322
+  backbone: pTKan-p35S-DsRed-p35S-R1GWR2
+  promoters: []
+  description: pTKan-p35S::DsRed::tNOS-p35S::R1GWR2-v2
+  selection_markers:
+  - Chloramphenicol, Spectinomycin
+- ori: pBR322
+  backbone: pYPQ150Amp
+  promoters: []
+  description: Modified pYPQ150 w AmpR
+  selection_markers:
+  - AmpR
+- ori: pBR322
+  backbone: pYZ88
+  promoters: []
+  description: pTKan-p35S::DsRed-p35S::PcoCAS9-pU6::GMT1_gRNA1-pU3::GMT1_gRNA2-pU6::GMT1_gRNA3
+  selection_markers:
+  - Spect
+- ori: pBR322
+  backbone: pYPQ143Amp
+  promoters: []
+  description: Modified pYPQ143 w AmpR
+  selection_markers:
+  - AmpR
+bibliographicCitation: https://public-registry.jbei.org/folders/837
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00837
+created_at: '2025-11-18T20:03:56.772Z'
+updated_at: '2025-12-11T00:00:04.623Z'

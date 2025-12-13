@@ -1,0 +1,47 @@
+id: jbei:404
+brc: JBEI
+date: '2017-06-14'
+title: Kohler_et_al_2018
+creator:
+- name: Amanda Kohler
+  email: ackohler@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 5322
+  scientificName: Pleurotus ostreatus
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00404
+repository: ICE
+datasetName: Kohler_et_al_2018
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/404
+description: This dataset contains two pET28a(+) expression vectors for producing
+  versatile peroxidases from the white-rot fungus *Pleurotus ostreatus*. The plasmids
+  carry genes for a native versatile peroxidase (VP1) and a variant (VP2.0) for heterologous
+  expression in *E. coli*. These constructs enable the study of key lignin-degrading
+  enzymes relevant to biomass conversion and the production of biofuels.
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pET28a(+)-VP1
+  promoters:
+  - T7
+  description: Plasmid for pET28a(+)-VP1 (from P. ostreatus) in expression E.coli
+    strain BL21(DE3)
+  selection_markers: []
+- backbone: pET28a(+)-VP2.0
+  promoters: []
+  description: Plasmid for pET28a(+)-VP2.0 in expression E.coli strain BL21(DE3)
+  selection_markers: []
+bibliographicCitation: https://public-registry.jbei.org/folders/404
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00404
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

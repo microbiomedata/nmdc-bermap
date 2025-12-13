@@ -1,0 +1,90 @@
+id: jbei:310
+brc: JBEI
+date: '2017-04-17'
+title: Haushalter et al 2017
+creator:
+- name: Robert Haushalter
+  email: rwhaushalter@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Eric Steen
+  email: ejsteen@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Adrienne Schlatter
+  email: afschlatter@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 1781
+  scientificName: Mycobacterium marinum
+- NCBITaxID: 1963358
+  scientificName: Kurthia sp.
+- NCBITaxID: 1396
+  scientificName: Bacillus cereus
+- NCBITaxID: 303
+  scientificName: Pseudomonas putida
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00310
+repository: ICE
+datasetName: Haushalter et al 2017
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/310
+description: 'This dataset provides four expression vectors designed to enhance fatty
+  acid biosynthesis for biofuel applications. The plasmids enable the expression of
+  thioesterase A (tesA) from *M. marinum* and the biotin synthesis gene (bioC) from
+  three diverse bacterial sources: *Kurthia* sp., *B. cereus*, and *P. putida*. These
+  genes are key targets for metabolic engineering, as tesA is involved in terminating
+  fatty acid synthesis and bioC increases the availability of the essential cofactor
+  biotin.'
+relatedItem:
+- title: Haushalter, R. W., Kim, W., Chavkin, T. A., The, L., Garber, M. E., Nhan,
+    M., Petzold, C. J., Katz, L., &amp; Keasling, J. D. (2014). “Production of anteiso-branched
+    fatty acids in Escherichia coli; next generation biofuels with improved cold-flow
+    properties”. [Journal article]. Metab Eng, 20(14), 00116-00115. doi, 10.1016/j.ymben.2014.09.002
+    http://www.ncbi.nlm.nih.gov/pubmed/25250846
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Baba et al., 2003 and Datsenko and Wanner, 1997
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: B5K.tesA (M. marinum)
+  promoters: []
+  description: Wild type tesA from M. marinum in pBb-B5K
+  selection_markers:
+  - Kan
+- ori: colE1
+  backbone: E5C.kbioC WT mod
+  promoters: []
+  description: expression vector for bioC from Kurthia. WT sequence
+  selection_markers:
+  - cm
+- ori: colE1
+  backbone: pBbE5C-bcBioC
+  promoters:
+  - LacUV5
+  description: B.cereus BioC expression driven by lacUV5
+  selection_markers:
+  - Chloramphenicol
+- ori: colE1
+  backbone: E5C.bioC (p.putida)
+  promoters:
+  - lacUV5
+  description: Expression vector for P. putida bioC (WT sequence)
+  selection_markers:
+  - cm
+bibliographicCitation: https://public-registry.jbei.org/folders/310
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00310
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

@@ -1,0 +1,49 @@
+brc: CABBI
+date: '2019-10-16'
+title: 'Reward-Based Participant Management for Crowd-Sourcing Rainfall Monitoring:
+  An Agent-Based Model Simulation'
+creator:
+- name: Cai, Ximing
+  email: xmcai@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+keywords:
+- Crowd-sourcing
+- Matlab
+- modeling
+identifier: RA-ABM
+repository: GitHub
+description: Crowd-sourcing incorporates common citizens as rich sources of data and
+  is promising for environmental monitoring. In this paper, we propose and test the
+  idea of incorporating incentives to crowd-sourcing management for rainfall monitoring.
+  Specifically, we modeled the allocation of incentives (quantitatively measurable
+  and limited rewards) among crowd-sourcing participants for a theoretical rainfall
+  monitoring case. For this purpose, we developed an integrated model comprising a
+  reward allocation component to represent the decision‐making process of a central
+  manager, an agent‐based model to simulate the interactions between the manager and
+  participants, and a rainfall simulation model to evaluate the effectiveness of various
+  reward allocation policies. We simulated six reward allocation policies of varying
+  levels of administrative cost, and consideration of participant and rainfall spatial
+  heterogeneities. The results suggest the performance of each policy to improve with
+  the reward budget and their spatial uniformity. Among the six policies tested, we
+  found that the participant density weighted maximum participation policy yields
+  the most accurate estimation of rainfall intensity due to its more explicit consideration
+  of the spatial distribution of participants; however, this policy associates with
+  a high administrative cost. This highlights the trade‐off between performance and
+  cost in designing effective reward allocation policies. This paper provides a physical
+  and behavior simulation modeling tool to study the feasibility and complexity of
+  reward‐based participant management for crowd-sourcing rainfall monitoring. The
+  proposed crowd-sourcing method is beneficial for a wide range of applications that
+  require rainfall data with fine resolution, such as stormwater management and water
+  availability and biomass assessment for food and energy crops.
+relatedItem:
+- title: 'Reward-Based Participant Management for Crowd-Sourcing Rainfall Monitoring:
+    An Agent-Based Model Simulation'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: http://doi.org/10.1029/2018WR024447
+analysisType: Code
+bibliographicCitation: https://github.com/Pan-YANG/RA-ABM
+schema_version: 0.1.1
+uid: CABBI_RA-ABM
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

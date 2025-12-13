@@ -1,0 +1,194 @@
+id: jbei:893
+brc: JBEI
+date: '2025-03-21'
+title: Alamos et al 2025
+creator:
+- name: Mitchell Thompson
+  email: mthompson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species: []
+keywords: []
+identifier: jbei:folder:00893
+repository: ICE
+datasetName: Alamos et al 2025
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/893
+description: This dataset consists of a molecular toolkit of 31 plasmids designed
+  for genetic engineering. The collection is primarily composed of 28 expression vectors,
+  supplemented by 3 vectors for targeted gene knockouts. These tools are suitable
+  for applications in functional genomics and metabolic engineering, enabling the
+  overexpression or deletion of specific genes.
+relatedItem: []
+analysisType: not specified
+contributors:
+- name: Matthew Szarzanowicz
+  email: Mszarzanowicz@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: ColE1
+  backbone: pMQ30K_CelA_CelC.gb
+  promoters: []
+  description: Knockout
+  selection_markers: []
+- ori: pVS1
+  backbone: UsfGN7_1300_SAPS614_2.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: ColE1
+  backbone: pMQ30K_TraI.gb
+  promoters: []
+  description: Knockout
+  selection_markers: []
+- ori: pVS1
+  backbone: UmChN7_1300_SAPS514.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: ColE1
+  backbone: pMQ30K_UPP.gb
+  promoters: []
+  description: Knockout
+  selection_markers: []
+- ori: BBR1
+  backbone: BBR1_AtIPMDH.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: BBR1
+  backbone: UsfGN7BBRSpec_SAPS654_4.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: BBR1
+  backbone: BBR1_At3g03190.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: BBR1
+  backbone: BBR1_At4g12030.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: BBR1
+  backbone: UmChN7BBRSpec_SAPS656_2.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: BBR1
+  backbone: BBR1_AtIPMI_S.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: BBR1
+  backbone: BBR1_Cyp83A1.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: BBR1
+  backbone: BBR1_Cyp79F1.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: BBR1
+  backbone: BBR1_AtUGT74C1.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: BBR1
+  backbone: BBR1_BCAT1.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: BBR1
+  backbone: BBR1_SOT17.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: BBR1
+  backbone: BBR1_L_IPMI.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: BBR1
+  backbone: BBR1_GGP1.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: BBR1
+  backbone: BBR1_SUR1.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: pVS1
+  backbone: PC5_At4g1230_pVS1_kan.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: pVS1
+  backbone: IPMI_L_pVS1_kan.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: pVS1
+  backbone: PC5_BrSUR1_pVS1_kan.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: pVS1
+  backbone: PC5_Cyp79F1_pVS1_kan.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: pVS1
+  backbone: PC5_At3g03190_pVS1_kan.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: pVS1
+  backbone: PC5_BCAT4_pVS1_kan.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: pVS1
+  backbone: PC5_AtCyp83A1_pVS1_kan.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: pVS1
+  backbone: PC5_At4gUGT74C1_pVS1_kan.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: pVS1
+  backbone: PC5_IPMDH_pVS1_kan.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: pVS1
+  backbone: PC5_SOT17_pVS1_kan.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: pVS1
+  backbone: PC5_GS_OX1_pVS1_kan.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+- ori: pVS1
+  backbone: PC5_GGP1_pVS1_kan.gb
+  promoters: []
+  description: Expression
+  selection_markers: []
+bibliographicCitation: https://public-registry.jbei.org/folders/893
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00893
+created_at: '2025-11-18T20:03:56.772Z'
+updated_at: '2025-12-11T00:00:04.623Z'

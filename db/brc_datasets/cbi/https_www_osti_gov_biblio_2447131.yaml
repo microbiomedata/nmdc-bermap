@@ -1,0 +1,67 @@
+brc: CBI
+date: '2024-09-20'
+title: HSQC spectra of lignin isolated from poplar stems
+active: true
+creator:
+- name: Rohit Kousika
+  affiliation: Department of Chemical and Biomolecular Engineering, University of
+    Tennessee Knoxville, Knoxville, TN, USA
+  primaryContact: true
+- name: Pu Yunqiao
+  email: puy1@ornl.gov
+  affiliation: Joint Institute for Biological Sciences, Bioscience Division, Oak Ridge
+    National Laboratory, Oak Ridge, TN, USA Center for Bioenergy Innovation, Oak Ridge
+    National Laboratory, Oak Ridge, TN, USA
+  primaryContact: false
+- name: Udaya Kalluri
+  affiliation: Joint Institute for Biological Sciences, Bioscience Division, Oak Ridge
+    National Laboratory, Oak Ridge, TN, USA Center for Bioenergy Innovation, Oak Ridge
+    National Laboratory, Oak Ridge, TN, USA
+  primaryContact: false
+- name: Art Ragauskas
+  affiliation: Department of Chemical and Biomolecular Engineering, University of
+    Tennessee Knoxville, Knoxville, TN, USA Joint Institute for Biological Sciences,
+    Bioscience Division, Oak Ridge National Laboratory, Oak Ridge, TN, USA Center
+    for Bioenergy Innovation, Oak Ridge National Laboratory, Oak Ridge, TN, USA
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER). Biological Systems Science (BSS)
+keywords:
+- HSQC
+- lignin
+- poplar
+- stems
+- CBI
+identifier: https://www.osti.gov/biblio/2447131
+dataset_url: https://labkey.ornl.gov/labkey/CBI/ragauskas/Public Data/HSQC spectra
+  of lignin isolated from poplar stems/project-begin.view?
+description: 'Here we present a curated dataset of two-dimensional heteronuclear single
+  quantum coherence (HSQC) nuclear magnetic resonance (NMR) spectra of lignin isolated
+  from stems of genetically engineered poplar through auxin signaling gene modification.
+  The plants were grown in greenhouse with temperatures between 21 and 23 °C. Plants
+  were harvested and the aboveground stems were cut off an approximately five-inch-long
+  segment from the bottom end of the plant stem, debarked and air-dried for three
+  weeks. The dried stem samples were Wiley milled (mesh size 20), Soxhlet-extracted
+  with toluene/ethanol for 24 h to remove extractives. The extracted biomass was ball-milled
+  in a Retsch PM100 planetary ball mill using a porcelain jar with ceramic balls at
+  600 rpm for 2 h (in 5 min on and 5 min off cycles to avoid excessive sample heating).
+  The ball-milled materials were then subjected to enzymatic hydrolysis for 48 h followed
+  by centrifugation and washing with deionized water. The solid residue was freeze-dried
+  to recover the lignin. The dry stem lignin samples were dissolved in deuterated
+  dimethyl sulfoxide (d6) and transferred into a 5 mm tube. 13C–1H HSQC experiments
+  were performed in a Bruker Avance III HD 500 MHz NMR spectrometer operating at a
+  frequency of 125.12 MHz for the 13C nucleus using a standard Bruker pulse sequence
+  on a Prodigy platform cryoprobe. The NMR spectra were acquired under the following
+  acquisition conditions: 230 ppm spectral width in F1 (13C) dimension with 256 data
+  points and 12 ppm spectral width in F2 (1H) dimension with 2048 data points, a 90°
+  pulse, a one bond C–H coupling constant of 145 Hz, a 1.0 s pulse delay, and 64 scans.
+  Spectra were processed using the Bruker TopSpin 3.6 software. Additional meta data
+  is embedded in the raw spectra figures.'
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/2447131
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2447131
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

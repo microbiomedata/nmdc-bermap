@@ -1,0 +1,55 @@
+brc: CABBI
+date: '2024-06-09'
+title: Simulation Results for “Integration of Plant and Microbial Oil Processing at
+  Oilcane Biorefineries for More Sustainable Biofuel Production” Publication
+creator:
+- name: Guest, Jeremy
+  email: jsguest@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Rao, Christopher V.
+  email: cvrao@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Singh, Vijay
+  email: vsingh@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+keywords:
+- Oilcane
+- Microbial oil
+- BioSTEAM
+identifier: 10.5281/zenodo.11536864
+repository: Zenodo
+description: Oilcane—an oil-accumulating crop engineered from sugarcane—and microbial
+  oil have the potential to improve renewable oil production and help meet the expected
+  demand for bioderived oleochemicals and fuels. To assess the potential synergies
+  of processing both plant and microbial oils, the economic and environmental implications
+  of integrating microbial oil production at oilcane and sugarcane biorefineries were
+  characterized. Due to decreased crop yields that lead to higher simulated feedstock
+  prices and lower biorefinery capacities, current oilcane prototypes result in higher
+  costs and carbon intensities than microbial oil from sugarcane. To inform oilcane
+  feedstock development, we calculated the required biomass yields (as a function
+  of oil content) for oilcane to achieve financial parity with sugarcane. At 10 dw%
+  oil, oilcane can sustain up to 30% less yield than sugarcane and still be more profitable
+  in all simulated scenarios. Assuming continued improvements in microbial oil production
+  from cane juice, achieving this target results in a minimum biodiesel selling price
+  of 1.34 [0.90, 1.85] USD∙L−1 (presented as median [5th, 95th] percentiles), a carbon
+  intensity of 0.51 [0.47, 0.55] kg CO2e L−1, and a total biodiesel yield of 2140
+  [1870, 2410] L ha−1year−1. Compared to biofuel production from soybean, this outcome
+  is equivalent to 3.0–3.9 as much biofuel per hectare of land and a 57%–63% reduction
+  in carbon intensity. While only 20% of simulated scenarios fell within the market
+  price range of biodiesel (0.45–1.11 USD∙L−1), if the oilcane biomass yield would
+  improve to 25.6 DMT∙ha−1∙y−1 (an equivalent yield to sugarcane) 87% of evaluated
+  scenarios would have a minimum biodiesel selling price within or below the market
+  price range.
+relatedItem:
+- title: Integration of Plant and Microbial Oil Processing at Oilcane Biorefineries
+    for More Sustainable Biofuel Production
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://dx.doi.org/10.1111/gcbb.13183
+bibliographicCitation: https://doi.org/10.5281/zenodo.11536864
+schema_version: 0.1.1
+uid: CABBI_10.5281/zenodo.11536864
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

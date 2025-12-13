@@ -1,0 +1,37 @@
+brc: GLBRC
+date: '2023-01-01'
+title: 'Supplementary spatial data for Available Land for Cellulosic Biofuel Production:
+  A Supply Chain Centered Comparison'
+creator:
+- name: Christos T. Maravelias
+  email: maravelias@princeton.edu
+  affiliation: GLBRC - Princeton University
+  primaryContact: true
+species: []
+keywords:
+- biofuels
+- supply chain
+- biomass
+- marginal land
+- optimization
+- bioenergy landscape design
+identifier: 10.34770/dkc7-ws77
+repository: Princeton Data Commons
+description: 'Collection of the underlying spatially explicit data for Available Land
+  for Cellulosic Biofuel Production: A Supply Chain Centered Comparison. Includes
+  raw biomass yield data and soil carbon sequestration potential data for three types
+  of marginal land for the USA midwest at the field level including field areas. Collection
+  also includes raw land rasters for the three types of marginal land, model parameters
+  for the MILP model used in the study, and results used to generate the figures in
+  the paper.'
+relatedItem:
+- title: 'Available land for cellulosic biofuel production: a supply chain centered
+    comparison'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://iopscience.iop.org/article/10.1088/1748-9326/ada301
+analysisType: Field data
+bibliographicCitation: https://doi.org/10.34770/dkc7-ws77
+schema_version: 0.1.7
+uid: GLBRC_10.34770/dkc7-ws77
+created_at: '2025-11-27T06:00:04.934Z'
+updated_at: '2025-12-10T06:00:05.198Z'

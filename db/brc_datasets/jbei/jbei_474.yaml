@@ -1,0 +1,45 @@
+id: jbei:474
+brc: JBEI
+date: '2019-07-23'
+title: Herbert et al Rhizobacteria Environ Toxicol Chem 2019
+creator:
+- name: Robin Herbert
+  email: rherbert@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Heather Jensen
+  email: hmjensen@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Mi Yeon Lee
+  email: miylee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species: []
+keywords: []
+identifier: jbei:folder:00474
+repository: ICE
+datasetName: Herbert et al Rhizobacteria Environ Toxicol Chem 2019
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/474
+description: null
+relatedItem: []
+analysisType: not specified
+contributors:
+- name: Lin Fang
+  email: LinFang@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features: []
+bibliographicCitation: https://public-registry.jbei.org/folders/474
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00474
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

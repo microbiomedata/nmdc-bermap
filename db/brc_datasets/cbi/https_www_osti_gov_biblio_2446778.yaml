@@ -1,0 +1,70 @@
+brc: CBI
+date: '2024-09-18'
+title: Lignin content of Populus trichocarpa residues after CELF pretreatment and
+  CBP fermentation
+active: true
+creator:
+- name: Yunqiao Pu
+  affiliation: Joint Institute for Biological Sciences, Bioscience Division, Oak Ridge
+    National Laboratory, Oak Ridge, TN, USA Center for Bioenergy Innovation, Oak Ridge
+    National Laboratory, Oak Ridge, TN, USA
+  primaryContact: true
+- name: Priyanka Singh
+  affiliation: Center for Bioenergy Innovation, Oak Ridge National Laboratory, Oak
+    Ridge, TN, USA Center for Environmental Research and Technology, Bourns College
+    of Engineering, University of California Riverside, Riverside, CA, USA
+  primaryContact: false
+- name: Evert Holwerda
+  affiliation: Center for Bioenergy Innovation, Oak Ridge National Laboratory, Oak
+    Ridge, Thayer School of Engineering, Dartmouth College, Hanover, NH, USA
+  primaryContact: false
+- name: Charles Cai
+  affiliation: Center for Bioenergy Innovation, Oak Ridge National Laboratory, Oak
+    Ridge, TN, USA Center for Environmental Research and Technology, Bourns College
+    of Engineering, University of California Riverside, Riverside, CA, USA
+  primaryContact: false
+- name: Charles Wyman
+  affiliation: Center for Bioenergy Innovation, Oak Ridge National Laboratory, Oak
+    Ridge, TN, USA Center for Environmental Research and Technology, Bourns College
+    of Engineering, University of California Riverside, Riverside, CA, USA
+  primaryContact: false
+- name: Art Ragauskas
+  affiliation: Center for Bioenergy Innovation, Oak Ridge National Laboratory, Oak
+    Ridge, TN, USA Department of Chemical and Biomolecular Engineering, University
+    of Tennessee Knoxville, Knoxville, TN, USA
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER)
+keywords:
+- Lignin Populus trichocarpa CELF pretreatment CBP fermentation
+- CBI
+identifier: https://www.osti.gov/biblio/2446778
+dataset_url: https://labkey.ornl.gov/labkey/CBI/ragauskas/Public Data/Lignin content
+  of Populus trichocarpa residues after CELF pretreatment and CBP fermentation/project-begin.view?
+description: Here we present a dataset of lignin content from a woody energy crop
+  (Populus trichocarpa) residues after a series of co-solvent enhanced lignocellulosic
+  fractionation (CELF) pretreatment and consolidated bioprocessing (CBP) process.
+  The natural poplar variant GW-9947 from the Center for Bioenergy Innovation (CBI)
+  was used. The poplar was knife milled and passed through a 1 mm sieve and CELF pretreatment
+  was performed in a Parr autoclave reactor with 7.5 wt % solids loading, 0.5 wt%
+  H2SO4 as catalyst at 150°C with 5, 15, 25 and 30 minutes, respectively. Tetrahydrofuran
+  was added in a 1:1 mass ratio with water as the pretreatment solvent. The residues
+  from CELF pretreatment were then subjected to CBP using the bacterium C. thermocellum
+  DSM 1313. CBP fermentations were performed at 60 °C in a shaker at 50, 75, and 100
+  grams/L solids loadings. The Klason lignin was measured using a two-step acid hydrolysis
+  process. In brief, the poplar samples were first hydrolyzed by 72 wt% sulfuric acid
+  at 30 oC for an hour. The hydrolysates were then diluted to 4 wt% sulfuric acid
+  using deionized water and subsequently autoclaved at 121 oC for 1 h. Upon the completion
+  of the two-step hydrolysis, the resulting solution was cooled to room temperature
+  and the precipitate was then filtered through a G8 glass fiber filter through a
+  crucible, dried at oven for overnight, and weighed to get the Klason lignin content.
+  The lignin data provides information about lignin content changes after CELF and
+  C. thermocellum CBP process.
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/2446778
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/2446778
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

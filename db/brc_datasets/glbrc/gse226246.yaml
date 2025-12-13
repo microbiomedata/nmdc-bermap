@@ -1,0 +1,36 @@
+brc: GLBRC
+date: '2023-02-27'
+title: Natural variation in the consequences of gene overexpression during osmotic
+  stress [RNA-Seq]
+creator:
+- name: Audrey Gasch
+  email: agasch@wisc.edu
+  affiliation: GLBRC - University of Wisconsin-Madison
+  primaryContact: true
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- GxE
+- copy-number variation
+- evolution
+- fitness cost
+identifier: GSE226246
+repository: GEO
+description: 'RNA-seq and transcriptome analysis of 4 strains (BY4743, BC187, NCYC3290,
+  and YPS128) that were grown in YPD+ 0.7M NaCl. For each strain, 3 samples were collected:
+  T0 (unstressed cells), T30 (30 mins after cells placed in 0.7M NaCl), and T3h (3
+  hours after cells placed in NaCl). These strains were collected in 3 biological
+  replicates. The library for sample YPS128 Rep 3 T30 failed so this sample is missing
+  and there are a total of 35 samples in the dataset.'
+relatedItem:
+- title: Gene-by-environment interactions influence the fitness cost of gene copy-number
+    variation in yeast
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://academic.oup.com/g3journal/advance-article/doi/10.1093/g3journal/jkad159/7229302
+analysisType: RNA-seq
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE226246
+schema_version: 0.1.7
+uid: GLBRC_GSE226246
+created_at: '2025-11-19T18:00:04.599Z'
+updated_at: '2025-12-10T06:00:05.197Z'

@@ -1,0 +1,56 @@
+brc: CABBI
+date: '2025-07-08'
+title: Viral-mediated Delivery of Morphogenic Regulators Enables Leaf Transformation
+  in Sorghum bicolor (L.)
+creator:
+- name: Nathaniel M. Butler
+  email: nbutler35@unl.edu
+  affiliation: University of Nebraska Lincoln
+  primaryContact: true
+- name: Daniel F. Voytas
+  email: voytas@umn.edu
+  affiliation: University of Minnesota
+  primaryContact: false
+species:
+- NCBITaxID: 4558
+  scientificName: Sorghum bicolor
+keywords:
+- Sorghum
+- Gene Editing
+- Foxtail Mosaic Virus
+- RNA viruses
+identifier: 10.13012/B2IDB-2974293_V1
+repository: Illinois Data Bank
+description: 'Recent advancements in monocot transformation, using leaf tissue as
+  explant material, have expanded the number of grass species capable of transgenesis.
+  However, the complexity of vectors and reliance on inducible excision of essential
+  morphogenic regulators have so far limited widespread application. Plant RNA viruses,
+  such as Foxtail Mosaic Virus (FoMV), present a unique opportunity to express morphogenic
+  regulator genes, such as Babyboom (Bbm), Wuschel2 (Wus2), Wuschel-like homeobox
+  protein 2a (Wox2a) and the GROWTH-REGULATING FACTOR 4 (GRF4) GRF-INTERACTING FACTOR
+  1 (GIF1) fusion protein transiently in leaf explant tissues. Furthermore, altruistic
+  delivery of conventional and viral vectors could provide opportunities to simplify
+  vectors used for leaf transformation—facilitating vector optimization and reducing
+  reliance on morphogenic regulator gene integration. In this study, both viral and
+  conventional T-DNA vectors were tested for their ability to promote the formation
+  of embryonic calli, a critical step in leaf transformation protocols, using Sorghum
+  bicolor leaf explants. Although conventional leaf transformation vectors yielded
+  viable embryonic calli (43.2 ± 2.9%: GRF4-GIF1, 50.2 ± 3%: Bbm/Wus2), altruistic
+  conventional vectors employing the GRF4-GIF1 morphogenic regulator resulted in improved
+  efficiencies (61.3 ± 4.7%). Altruistic delivery was further enhanced with the use
+  of viral vectors employing both GRF4-GIF1 and Bbm/Wus2 regulators, resulting in
+  75.1 ± 2.3% and 79.2 ± 2.5% embryonic calli formation, respectively. Embryonic calli
+  generated from both conventional and viral vectors produced shoots expressing fluorescent
+  reporters, which were confirmed using molecular analysis. This work provides an
+  important proof-of-concept for the use of both altruistic vectors and viral-expressed
+  morphogenic regulators for improving plant transformation.'
+relatedItem:
+- title: Viral-mediated Delivery of Morphogenic Regulators Enables Leaf Transformation
+    in Sorghum bicolor (L.)
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/pbi.70250
+bibliographicCitation: https://doi.org/10.13012/B2IDB-2974293_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-2974293_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

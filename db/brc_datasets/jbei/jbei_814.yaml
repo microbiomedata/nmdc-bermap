@@ -1,0 +1,1386 @@
+id: jbei:814
+brc: JBEI
+date: '2023-06-27'
+title: Thompson et al 2023
+creator:
+- name: Liam Kirkpatrick
+  email: ldkirkpatrick@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Mitchell Thompson
+  email: mthompson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Allison Pearson
+  email: al.pearson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 358
+  scientificName: Agrobacterium tumefaciens
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+keywords: []
+identifier: jbei:folder:00814
+repository: ICE
+datasetName: Thompson et al 2023
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/814
+description: The Thompson et al 2023 dataset provides a comprehensive toolkit of 222
+  plasmids for studying and engineering *Agrobacterium tumefaciens* virulence. This
+  collection enables functional genomics through a large set of vectors designed for
+  the systematic knockout and expression of key virulence (vir) genes. The dataset
+  also includes modular cloning vectors for construct assembly and a binary vector
+  for assessing agrobacterium-mediated plant transformation.
+relatedItem:
+- title: https://doi.org/10.1021/acssynbio.3c00075
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: ColE1
+  backbone: pMQ30K virF
+  promoters: []
+  description: KO
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMQ30K virK
+  promoters: []
+  description: KO VirK
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMQ30K virH12
+  promoters: []
+  description: KO
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMQ30K virH1
+  promoters: []
+  description: KO virH1
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMQ30K virH2
+  promoters: []
+  description: KO virH2
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMQ30K virD5
+  promoters: []
+  description: KO
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMQ30K-virE12
+  promoters: []
+  description: C58 virE12 KO vector
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMQ30K virD3
+  promoters: []
+  description: KO
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMQ30K virD4
+  promoters: []
+  description: KO virD4
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMQ30K virE3
+  promoters: []
+  description: KO
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMQ30K-virD12
+  promoters: []
+  description: C58 virD12 KO
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMQ30K-VirE3-VirC2
+  promoters: []
+  description: KO
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMQ30K virB1-11
+  promoters: []
+  description: KO
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMQ30K-virC12
+  promoters: []
+  description: C58 virC12 KO vector
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMQ30K VirB1-5
+  promoters: []
+  description: KO
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMQ30K virB6-11
+  promoters: []
+  description: KO
+  selection_markers:
+  - Kan
+- ori: ColE1
+  backbone: pMQ30K virA-E3
+  promoters: []
+  description: KO
+  selection_markers:
+  - Kan
+- ori: BBR1
+  backbone: pDimples1.5-virD5
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pDimples1.5-virE3
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pDimples0.5-virC12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pDimples0.5-virE12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pDimples0
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pDimples1-pJ23117-virD4
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pDimples2
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki2.16
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pDimples1
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki2.13
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pDimples2-virB1-11_NCIB_8196
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pDimples1-virB1-11_NCIB_8196
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki2.15
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki2.12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki2.10
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki2.9
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki2.11
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki2.14
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki2.8
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki2.7
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki2.6
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki2.4
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki2.2
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki2.5
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki2.3
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki1-pJ23117-virD4
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki1.5-virE3
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki2.1
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki1.5-virD5
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki0.5-virC12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki1D
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki0.5-virE12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki1B
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki1C
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pLoki1A
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: ColE1
+  backbone: pChorizo-pJ23114-virK
+  promoters: []
+  description: For restriction cloning of pLoki and pDimples plasmids
+  selection_markers:
+  - Carbenicillin
+- ori: ColE1
+  backbone: pChorizo-pJ23117-virH2
+  promoters: []
+  description: For restriction cloning of pLoki and pDimples plasmids
+  selection_markers:
+  - Carbenicillin
+- ori: ColE1
+  backbone: pChorizo-pJ23117-virF
+  promoters: []
+  description: For restriction cloning of pLoki and pDimples plasmids
+  selection_markers:
+  - Carbenicillin
+- ori: ColE1
+  backbone: pChorizo-pJ23117-virH1
+  promoters: []
+  description: For restriction cloning of pLoki and pDimples plasmids
+  selection_markers:
+  - Carbenicillin
+- ori: ColE1
+  backbone: pChorizo-pJ23117-virE12
+  promoters: []
+  description: For restriction cloning of pLoki and pDimples plasmids
+  selection_markers:
+  - Carbenicillin
+- ori: ColE1
+  backbone: pChorizo-pJ23117-virE3
+  promoters: []
+  description: For restriction cloning of pLoki and pDimples plasmids
+  selection_markers:
+  - Carbenicillin
+- ori: ColE1
+  backbone: pChorizo-LacI-virB1-11_NCIB
+  promoters: []
+  description: For restriction cloning of pLoki and pDimples plasmids
+  selection_markers:
+  - Carbenicillin
+- ori: ColE1
+  backbone: pChorizo-LacI-virB1-11
+  promoters: []
+  description: For restriction cloning of pLoki and pDimples plasmids
+  selection_markers:
+  - Carbenicillin
+- ori: ColE1
+  backbone: pChorizo-pJ23114-virD5
+  promoters: []
+  description: For restriction cloning of pLoki and pDimples plasmids
+  selection_markers:
+  - Carbenicillin
+- ori: ColE1
+  backbone: pChorizo-pJ23114-virD5_pTiBo542-pJ23117-virE3_T60
+  promoters: []
+  description: For restriction cloning of pLoki and pDimples plasmids
+  selection_markers:
+  - Carbenicillin
+- ori: ColE1
+  backbone: pChorizo-pJ23117-virC12
+  promoters: []
+  description: For restriction cloning of pLoki and pDimples plasmids
+  selection_markers:
+  - Carbenicillin
+- ori: ColE1
+  backbone: pChorizo-pJ23114-virD5-pJ23117-virE3_T60
+  promoters: []
+  description: For restriction cloning of pLoki and pDimples plasmids
+  selection_markers:
+  - Carbenicillin
+- ori: ColE1
+  backbone: pChorizo-pJ23114-virD5-pJ23117-virE3
+  promoters: []
+  description: For restriction cloning of pLoki and pDimples plasmids
+  selection_markers:
+  - Carbenicillin
+- ori: ColE1
+  backbone: pChorizo-pJ23117-virE12-pJ23117-virC12_S4
+  promoters: []
+  description: For restriction cloning of pLoki and pDimples plasmids
+  selection_markers:
+  - Carbenicillin
+- ori: ColE1
+  backbone: pChorizo-pJ23117-virE12-pJ23117-virC12
+  promoters: []
+  description: For restriction cloning of pLoki and pDimples plasmids
+  selection_markers:
+  - Carbenicillin
+- ori: ColE1
+  backbone: pChorizo-pJ23114-virD5_pTiBo542-pJ23117-virE3
+  promoters: []
+  description: For restriction cloning of pLoki and pDimples plasmids
+  selection_markers:
+  - Carbenicillin
+- ori: BBR1
+  backbone: pGingerBSLP-pJ23114-virD4_pTiBo542-pJ23101-virD12
+  promoters: []
+  description: For restriction cloning of pLoki and pDimples plasmids
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virH2_pTiBo
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBSLP-pJ23114-virD4-pJ23101-virD12
+  promoters: []
+  description: For restriction cloning of pLoki and pDimples plasmids
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBSLP-pJ23117-virD4-pJ23101-virD12
+  promoters: []
+  description: For restriction cloning of pLoki and pDimples plasmids
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virH1_T60_94
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virH1_S4
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virH2_A4
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virH2_Ach5
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virH2_NCIB8196
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virH1_Q15
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virH1_pTiBo
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virH1_Ach5
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virH1_pRi1724
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virH1_NCIB_8196
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virH1_A4
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virF_A4
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virF_pRi1724
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virF_NCIB_8196
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virF_B21_90
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virE3_T60_94
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virE3_S4
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virE3_Q15
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virE3_pTiBo
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virE3_NCIB_8196
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virE3_pTiAB2
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virE3_A4
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virE3_Ach5
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virE3_B21_90
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virE12_pTiBo
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virE12_T60_94
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virE12_S4
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virE12_Q15
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virE12_NCIB_8196
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virE12_B21_90
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD5_pTiAB2
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD5_T60_94
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virE12_Ach5
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD5_S4
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD5_pTiBo
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virE12_pTiAB2
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD5_Q15
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD5_A4
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD5_pRi1724
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD4_pTiAB2
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD5_B21_90
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD5_NCIB_8196
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD4_T60_94
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD4_S4
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD4_Q15
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD4_NCIB_8196
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD4_pTiBo
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD4_Ach5
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD4_A4
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD4_B21_90
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virD12_T60_94
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virD12_pTiBo
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virD12_pTiAB2
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virD12_S4
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virD12_B21_90
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virD12_NCIB_8196
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virD12_pRi1724
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virD12_Ach5
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virC12_S4
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virD12_Q15
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virC12_Q15
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virC12_T60_94
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virC12_pTiBo
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virC12_pTiAB2
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virC12_pRi1724
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virC12_NCIB_8196
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virC12_B21_90
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virC12_Ach5
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virC12_A4
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virD12_A4
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-LacI-virB1-11_pTiAB2
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-LacI-virB1-11_Q15
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-LacI-virB1-11_pTiBo
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-LacI-virB1-11_T60_94
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD5_pTiBo542-pJ23117-virE3_T60_94
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD5_pTiBo542-pJ23117-virE3
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-LacI-virB1-11_A4
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virE12-pJ23117-virC12_S4
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virE12-pJ23117-virC12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD5-pJ23117-virE3
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD4-pJ23101-virD12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-LacI-virB1-11_Ach5
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: RK2
+  backbone: pGingerRS-LacI-virB1-5-TetR-virB6-11
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: RK2
+  backbone: pGingerRS-pJ23117-virB1-5-pJ23117-virB6-11
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: RK2
+  backbone: pGingerRS-pJ23101-virB1-5-pJ23117-virB6-11
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-LacI-virB1-11_NCIB_8196
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: RK2
+  backbone: pGingerRS-pJ23100-virB1-5-pJ23117-virB6-11
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virB6-11-pJ23101-virB1-5
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virB6-11-pJ23100-virB1-5
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virB6-11-pJ23117-virB1-5
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23101-virB1-5-pJ23117-virB6-11
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virB1-5-pJ23117-virB6-11
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23100-virB1-5-pJ23117-virB6-11
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD4_pTiBo542-pJ23101-virD12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-TetR-virB1-11
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23101-virB1-11
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pVirB-virB1-11
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virK
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23111-virB1-11
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD5-pJ23117-virE3_T60_94
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD5
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-NahR-virB6-11
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-TetR-virB6-11
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virD4
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virB6-11_60UP
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virB6-11
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23100-virD12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23101-virD12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23111-virC12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-TetR-virB6-11_60UP
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23101-virC12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23101-virB1-5
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23100-virC12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23100-virB1-5
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-LacI-virK
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-LacI-virH1
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-LacI-virH2
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-LacI-virE3
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-LacI-virF
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-LacI-virD5
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-LacI-virD4
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-LacI-virD3
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-LacI-virC12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-LacI-virB6-11
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-LacI-virD12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virK
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-LacI-virB1-11
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-LacI-virB1-5
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virF
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virD5
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virE3
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virH1
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virH2
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virD12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virD3
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virD4
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virC12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virB1-5
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virB1-11
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-NahR-virE12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-LacI-virE12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-JE-virE12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23101-virE12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-TetR-virE12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23111-virE12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23100-virE12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23114-virE12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virB6-11
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: BBR1
+  backbone: pGingerBS-pJ23117-virE12
+  promoters: []
+  description: For Virulence gene expression in agrobacteria
+  selection_markers:
+  - Spectinomycin
+- ori: pVS1, pBR322
+  backbone: PCH5-NLS-mScarlet
+  promoters: []
+  description: Binary vector for agrobacterium-mediated plant transformation with
+    tDNA carrying NLS-mScarlet gene and a kan resistance gene for plant selection
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/814
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00814
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

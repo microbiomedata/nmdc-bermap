@@ -1,0 +1,60 @@
+id: jbei:382
+brc: JBEI
+date: '2018-09-28'
+title: Denby_et_al_2018
+creator:
+- name: Rachel Li
+  email: rali@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Weiyin Lin
+  email: weiyinlin@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Ericka Mendez
+  email: erickamendez@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Charles Denby
+  email: cmdenby@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Van Vu
+  email: vvu@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Eva Pan
+  email: epan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species: []
+keywords: []
+identifier: jbei:folder:00382
+repository: ICE
+datasetName: Denby_et_al_2018
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/382
+description: null
+relatedItem: []
+analysisType: not specified
+contributors:
+- name: Rachel Li
+  email: Rali@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features: []
+bibliographicCitation: https://public-registry.jbei.org/folders/382
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00382
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

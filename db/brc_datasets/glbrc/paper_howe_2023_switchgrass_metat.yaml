@@ -1,0 +1,35 @@
+brc: GLBRC
+date: '2021-04-15'
+title: Seasonal activities of the phyllosphere microbiome of perennial crops
+creator:
+- name: Ashley Shade
+  email: ashley.shade@cnrs.fr
+  affiliation: Laboratoire Ecologie Microbienne at the University of Lyon, France
+  primaryContact: true
+species:
+- NCBITaxID: null
+  scientificName: Multispecies
+keywords:
+- Seasons
+- Microbiota/genetics
+- bacteria/genetics
+- metagenomce
+- panicum
+identifier: PAPER_Howe_2023_switchgrass_MetaT
+repository: GitHub
+description: This analysis represented quality filtering of metagenomes and metatranscriptomes
+  (data-preparation folder), metagenome assemblies (metagenome-assembly folder) and
+  metagenome-assembled genome binning, curation, refinement, annotation (mag-evaluation
+  folder). Abundances of sequencing libraries were calculated based on reads mapped
+  (mapping folder). Additionallly, analysis of our annotated results are also included
+  (analysis folder).
+relatedItem:
+- title: Seasonal activities of the phyllosphere microbiome of perennial crops
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.nature.com/articles/s41467-023-36515-y
+analysisType: Code, metagenome and metatranscriptomic data processing and analysis
+bibliographicCitation: https://github.com/ShadeLab/PAPER_Howe_2023_switchgrass_MetaT
+schema_version: 0.1.7
+uid: GLBRC_PAPER_Howe_2023_switchgrass_MetaT
+created_at: '2025-11-19T18:00:04.600Z'
+updated_at: '2025-12-10T06:00:05.197Z'

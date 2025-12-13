@@ -1,0 +1,175 @@
+id: jbei:247
+brc: JBEI
+date: '2016-06-13'
+title: Frederix et al 2016
+creator:
+- name: Marijke Frederix
+  email: mfrederix@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Florence Mingardon
+  email: fmingardon@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Adrienne Schlatter
+  email: afschlatter@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Khanh Vuu
+  email: kvuu@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Gregory Bokinsky
+  email: gebokinsky@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Jorge Alonso-Gutierrez
+  email: jalonso-gutierrez@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Danielle Kalman
+  email: dkalman@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords: []
+identifier: jbei:folder:00247
+repository: ICE
+datasetName: Frederix et al 2016
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/247
+description: This collection of 11 plasmids is designed for engineering *E. coli*
+  for biofuel and bioproduct synthesis from lignocellulose. The primary focus is on
+  enabling cellulose utilization by expressing various cellulases and a beta-glucosidase,
+  with constructs featuring an OsmY export tag for secretion. The dataset also includes
+  a plasmid for limonene production, vectors for expressing transport-related proteins,
+  and a FLP recombinase plasmid for genome engineering.
+relatedItem:
+- title: The parental strain was obtained from the Keio collection available at JBEI
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Baba et al., 2003 and Datsenko and Wanner, 1997
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Bokinsky et al., PNAS 2011
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Cherepanov, PP, W Wackernagel 1995. Gene disruption in Escherichia coli:
+    TcR and KmR cassettes with the option of Flp-catalyzed excision of the antibiotic-resistance
+    determinant. Gene 158(1):9-14.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Alonso-Gutierrez J, Kim E.M., Batth TS, Cho N, Hu Q, Chan LJD, Petzold CJ,
+    Hillson NJ, Adams PD, Keasling JD, Garcia-Martin H, and Lee TS. (2014) Principal
+    component analysis of proteomics (PCAP) as a tool to direct metabolic engineering.
+    Metabolic Engineering. doi:10.1016/j.ymben.2014.11.011
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Lee TS, Krupa RA, Zhang F, Hajimorad M, Holtz WJ, Prasad N, Lee SK, Keasling
+    JD. BglBrick vectors and datasheets: A synthetic biology platform for gene expression.
+    J Biol Eng. 2011 Sep 20;5:12. doi: 10.1186/1754-1611-5-12.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors:
+- name: Jorge Alonso-Gutierrez
+  email: epan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+- name: Taek Soon Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pMF356-J30
+  promoters: []
+  description: pCellulose (JBEI-4338) with enzyme J30 in stead of Cel
+  selection_markers:
+  - Amp
+- backbone: pMF356-J24
+  promoters: []
+  description: pCellulose (JBEI4338) with J24 in stead of Cel
+  selection_markers:
+  - Amp
+- backbone: pMF356-J29
+  promoters: []
+  description: pCellulose (JBEI-4338) with enzyme J29 instead of Cel
+  selection_markers:
+  - Amp
+- backbone: pMF356-Csac
+  promoters: []
+  description: pCellulose (JBEI-4338) with enzyme Csac in stead of Cel
+  selection_markers:
+  - Amp
+- backbone: pMF343
+  promoters: []
+  description: ybjJ and ompA expressed on low copy number plasmid from pBAD promoter
+  selection_markers:
+  - Kan
+- backbone: pMF340
+  promoters: []
+  description: ybjJ expressed on low copy number plasmid from pBAD promoter
+  selection_markers:
+  - Kan
+- backbone: pMF341
+  promoters: []
+  description: ompA expressed on low copy number plasmid from pBAD promoter
+  selection_markers:
+  - Kan
+- ori: SC101**
+  backbone: pCellulose
+  promoters:
+  - wrbA
+  - cspD
+  description: "Plasmid bearing an exportable cellulase (Cel fused to OsmY) and a\
+    \ beta-glucosidase, both under control of native E coli promoters, enabling growth\
+    \ of E coli on cellulose as a sole carbon source when inoculated from an overnight\
+    \ of LB medium.\r\n\r\nBEWARE, this plasmid will make your cells pretty sick when\
+    \ you grow them in LB, as the cspD promoter, which drives expression of the OsmY-Cel7\
+    \ promoter, acts like a constitutive promoter in LB. If you want better cell density,\
+    \ for instance, to do a miniprep, growing the cells in M9/glucose will make the\
+    \ cells happier but you'll get lower cellulase expression."
+  selection_markers:
+  - Amp
+- backbone: pCP20
+  promoters: []
+  description: pCP20, provided by Claudia Vickers from University of Queensland, has
+    the yeast Flp recombinase gene, FLP, chloramphenicol and ampicillin resistant
+    genes, and temperature sensitive replication.
+  selection_markers:
+  - Amp
+  - Cm
+- backbone: pBbA5c-MTSA-T1-MBI(f)-T1002-Ptrc-trGPPS-LS
+  promoters: []
+  description: One plasmid version for the production of limonene (also known as "B")
+  selection_markers:
+  - Cm
+- ori: pSC101**
+  backbone: pBbS8k-RFP
+  promoters:
+  - BAD
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/247
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00247
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

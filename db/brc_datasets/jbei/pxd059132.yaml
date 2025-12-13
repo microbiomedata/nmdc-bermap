@@ -1,0 +1,40 @@
+brc: JBEI
+date: '2025-07-13'
+title: A Metal-Dependant Formate Dehydrogenase Advances the Formate Bio-economy
+creator:
+- name: Christopher J. Petzold
+  email: cjpetzold@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- Isoprenol
+- Mevalonate
+- Jbei
+- Formate dehydrogenase
+- Formate
+- Reductive glycine pathway
+- Bioproducion
+identifier: PXD059132
+repository: PRIDE
+description: In this manuscript a multi-subunit metal dependent FDH is functionally
+  expressed in a strain of E. coli engineered to assimilate all energy and biomass
+  from formate. The replacement of the previously described FDH with this new, faster
+  FDH allows for improved growth parameters rivaling natural formatotrophs for the
+  first time. This new, robsulty growing formatotrophic E. coli was engineered to
+  produce mevalonate and achieved the highest reported titer for any bioproduct from
+  formate in fed batch mode. Finally the authors explored bioproducion from electrochemically-derived
+  and lignin-derived formate, demonstrating the first example of a bioproduct produced
+  using liginin-derived formate as a feedstock.
+relatedItem:
+- title: A Metal-Dependant Formate Dehydrogenase Advances the Formate Bio-economy
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://dx.doi.org/10.1038/s41467-025-61001-y
+bibliographicCitation: https://www.ebi.ac.uk/pride/archive/projects/PXD059132
+schema_version: 0.1.2
+uid: JBEI_PXD059132
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.624Z'

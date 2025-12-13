@@ -1,0 +1,102 @@
+id: jbei:469
+brc: JBEI
+date: '2019-05-16'
+title: M.Thompson et al 2019 lactam biosen
+creator:
+- name: Mitchell Thompson
+  email: mthompson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Allison Pearson
+  email: al.pearson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Jesus Barajas
+  email: jfbarajas@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords:
+- ORF26
+identifier: jbei:folder:00469
+repository: ICE
+datasetName: M.Thompson et al 2019 lactam biosen
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/469
+description: This dataset provides 11 plasmids for the construction and characterization
+  of a lactam biosensor system. The collection features multiple plasmids encoding
+  the lactam sensor components. It also includes expression plasmids for an Acyl-CoA
+  ligase (ORF26 homolog) responsible for lactam synthesis, which is engineered with
+  a C-terminal His-tag.
+relatedItem: []
+analysisType: affinity_purification
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pBbA8a-PP_3516
+  promoters: []
+  description: Expression
+  selection_markers: []
+- backbone: pLacSens-pJ23105
+  promoters: []
+  description: sensor
+  selection_markers: []
+- backbone: pLacSens-pJ23114
+  promoters: []
+  description: sensor
+  selection_markers: []
+- backbone: pBADT-PP_3516p-RFP
+  promoters: []
+  description: Rep
+  selection_markers: []
+- backbone: pLacSens-pJ23103
+  promoters: []
+  description: Lactam Sensor
+  selection_markers: []
+- ori: ColE1
+  backbone: pBbE7a-A0A0D4DX08_9ACTN
+  promoters: []
+  description: Acyl-CoA homolog to ORF26, involoved in lactam formation. Contians
+    C-term his tag.
+  selection_markers:
+  - amp
+- backbone: pLacSens-pJ23104
+  promoters: []
+  description: sensor
+  selection_markers: []
+- ori: ColE1
+  backbone: pBbE7a-A0A0C1VDH3_9ACTN
+  promoters:
+  - t7
+  description: Acyl-CoA homolog to ORF26. For acid activation and lactam formation.
+    Contains an c-his tag.
+  selection_markers:
+  - amp
+- backbone: pLacSens-pJ23100
+  promoters: []
+  description: Sensor
+  selection_markers: []
+- ori: ColE1
+  backbone: pBbE7a-G2NX2_STRVO
+  promoters: []
+  description: Acyl-CoA homolog to ORF26, involved in lactam formation. Contains a
+    C-term his tag.
+  selection_markers:
+  - amp
+- ori: ColE1
+  backbone: pBbE7a-ORF26
+  promoters: []
+  description: Acyl CoA ligase ORF26/ lactam cyclase containing Chistag
+  selection_markers:
+  - amp
+bibliographicCitation: https://public-registry.jbei.org/folders/469
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00469
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

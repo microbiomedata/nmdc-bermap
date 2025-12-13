@@ -1,0 +1,26 @@
+# OAK adapter configuration for ontology validation
+# Prefixes listed here will use strict validation mode
+# - Missing terms will be treated as errors (not just INFO)
+# - Terms will be cached locally for consistency
+
+ontology_adapters:
+  # Core biological/experimental ontologies used in this schema
+  OBI: sqlite:obo:obi
+
+  # Additional ontologies that may be useful
+  GO: sqlite:obo:go
+  CHEBI: sqlite:obo:chebi
+  ENVO: sqlite:obo:envo
+  NCBITaxon: sqlite:obo:ncbitaxon
+  UO: sqlite:obo:uo
+
+  # Skip validation for these prefixes (not real ontologies or not available)
+  schema:
+  dcterms:
+  linkml:
+  orcid:
+  ror:
+  doi:
+  pmid:
+  obo:
+  IAO:

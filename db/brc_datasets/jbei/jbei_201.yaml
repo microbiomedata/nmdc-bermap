@@ -1,0 +1,55 @@
+id: jbei:201
+brc: JBEI
+date: '2015-08-18'
+title: Voiniciuc et al. 2015
+creator:
+- name: Jeemeng Lao
+  email: jlao@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 3702
+  scientificName: Arabidopsis thaliana
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 358
+  scientificName: Agrobacterium tumefaciens
+keywords:
+- AT2G22900
+- GT34
+identifier: jbei:folder:00201
+repository: ICE
+datasetName: Voiniciuc et al. 2015
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/201
+description: This dataset provides a Gateway entry clone for the *Arabidopsis thaliana*
+  gene AT2G22900, which encodes a member of the Glycosyltransferase family 34 (GT34)
+  involved in plant cell wall biosynthesis. The coding sequence was cloned into the
+  pDONR-223 vector without its native stop codon. This construct is designed to facilitate
+  C-terminal protein fusions for downstream functional characterization.
+relatedItem:
+- title: 'Lao J, Oikawa A, Bromley JR, McInerney P, Suttangkakul A, Smith-Moritz AM,
+    Plahar H, Chiu TY, González Fernández-Niño SM, Ebert B, Yang F, Christiansen KM,
+    Hansen SF, Stonebloom S, Adams PD, Ronald PC, Hillson NJ, Hadi MZ, Vega-Sánchez
+    ME, Loqué D, Scheller HV, Heazlewood JL. The plant glycosyltransferase clone collection
+    for functional genomics. Plant J. 2014 Aug;79(3):517-29. doi: 10.1111/tpj.12577.
+    Epub 2014 Jul 9. PubMed PMID: 24905498.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pBR322
+  backbone: pDONR_AT2G22900.1
+  promoters: []
+  description: AT2G22900, GT34 cloned into pDONR-223, no TGA
+  selection_markers:
+  - spectinomycin
+bibliographicCitation: https://public-registry.jbei.org/folders/201
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00201
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

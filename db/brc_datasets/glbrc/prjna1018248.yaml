@@ -1,0 +1,63 @@
+brc: GLBRC
+date: '2023-09-17'
+title: The Genetics of Aerotolerant Growth in Zymomonas mobilis
+creator:
+- name: Jason M. Peters
+  email: jason.peters@wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: true
+species:
+- NCBITaxID: 542
+  scientificName: Zymomonas mobilis
+keywords:
+- CRISPR-Cas9
+- Mismatch-CRISPRi
+- Mobile-CRISPRi
+- essential genes
+- DNA repair
+- oxidative stress
+- ATP synthase
+- Rnf complex
+- comparative genomics
+-  metabolomics
+- membrane potential
+- anaerobic respiration
+- Zymomonas mobilis
+- genome reduction
+- Alphaproteobacteria
+identifier: PRJNA1018248
+repository: NCBI BioProject
+description: Reduced genome bacteria are genetically simplified systems that facilitate
+  biological study and industrial use. The free-living Alphaproteobacterium, Zymomonas
+  mobilis, has a naturally reduced genome containing fewer than 2000 protein coding
+  genes. Despite its small genome, Z. mobilis thrives in diverse conditions including
+  the presence or absence of atmospheric oxygen. However, insufficient characterization
+  of essential and conditionally essential genes has limited broader adoption of Z.
+  mobilis as a model Alphaproteobacterium. Here, we use genome-scale CRISPRi-seq to
+  systematically identify and characterize Z. mobilis genes that are conditionally
+  essential for aerotolerant or anaerobic growth, or are generally essential across
+  both conditions. Comparative genomics revealed that the essentiality of most "generally
+  essential" genes was shared between Z. mobilis and other Alphaproteobacteria, validating
+  Z. mobilis as reduced genome model. Among conditionally essential genes, we found
+  that the DNA repair gene, recJ, was critical only for aerobic growth but reduced
+  the mutation rate under both conditions. Further, we show that genes encoding the
+  F1FO ATP synthase and Rnf respiratory complex are required for anaerobic growth
+  of Z. mobilis. Combining CRISPRi partial knockdowns with metabolomics and membrane
+  potential measurements, we determined that the ATP synthase generates membrane potential
+  that is consumed by Rnf to power downstream processes. Rnf knockdown strains accumulated
+  isoprenoid biosynthesis intermediates, suggesting a key role for Rnf in powering
+  essential biosynthetic reactions. Our work establishes Z. mobilis as a streamlined
+  model for alphaproteobacterial genetics, has broad implications in bacterial energy
+  coupling, and informs Z. mobilis genome manipulation for optimized production of
+  valuable isoprenoid-based bioproducts
+relatedItem:
+- title: A.L. Enright et al. "The genetics of aerotolerant growth in an alphaproteobacterium
+    with a naturally reduced genome" mBio 14:e01487-23 (2023) [DOI:10.1128/mbio.01487-23]
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://journals.asm.org/doi/10.1128/mbio.01487-23
+analysisType: Genomics
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1018248
+schema_version: 0.1.7
+uid: GLBRC_PRJNA1018248
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.197Z'

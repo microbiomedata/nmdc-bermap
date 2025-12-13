@@ -1,0 +1,541 @@
+id: jbei:782
+brc: JBEI
+date: '2022-12-13'
+title: PCONS plasmids
+creator:
+- name: Andy Zhou
+  email: andyzhou@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- scientificName: Plantae
+- NCBITaxID: 358
+  scientificName: Agrobacterium tumefaciens
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00782
+repository: ICE
+datasetName: PCONS plasmids
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/782
+description: This dataset contains a collection of 62 plant binary vectors designed
+  to characterize a library of constitutive promoters (PCONS), including the pCH,
+  pCL, and pCM series. These expression vectors systematically drive various reporter
+  genes (GFP, mScarlet, RUBY), a transcriptional activator (Gal4VP16), and a specific
+  transgene (2828). All plasmids share a common backbone featuring a 35S-driven kanamycin
+  resistance cassette for selection in plants.
+relatedItem: []
+analysisType: Expression profiling
+contributors:
+- name: Liam Kirkpatrick
+  email: ldkirkpatrick@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pVS1 oriV, pBR322
+  backbone: pCH3-Gal4VP16
+  promoters:
+  - pCH3
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCH3-Gal4VP16
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCL1-Gal4VP16
+  promoters:
+  - pCL1
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCL1-Gal4VP16
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCH2-Gal4VP16
+  promoters:
+  - pCH2
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCH2-Gal4VP16
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCM2-Gal4VP16
+  promoters:
+  - pCM2
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCM2-Gal4VP16
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCH5-Gal4VP16
+  promoters:
+  - pCH5
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCH5-Gal4VP16
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCH4-GFPdropout
+  promoters:
+  - pCH4
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCH4-2828
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCL3-Gal4VP16
+  promoters:
+  - pCL3
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCL3-Gal4VP16
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCM5-GFPdropout
+  promoters:
+  - pCM5
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCM5-2828
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pNOS-GFPdropout
+  promoters:
+  - pNOS
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pNOS-2828
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCL3-GFPdropout
+  promoters:
+  - pCL3
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCL3-2828
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCL5-GFPdropout
+  promoters:
+  - pCL5
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCL5-2828
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCM2-GFPdropout
+  promoters:
+  - pCM2
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCM2-2828
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCL2-GFPdropout
+  promoters:
+  - pCL2
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCL2-2828
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCM1-GFPdropout
+  promoters:
+  - pCM1
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCM1-2828
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCH5-GFPdropout
+  promoters:
+  - pCH5
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCH5-2828
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCH2-GFPdropout
+  promoters:
+  - pCH2
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCH2-2828
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCL4-GFPdropout
+  promoters:
+  - pCL4
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCL4-2828
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCM4-GFPdropout
+  promoters:
+  - pCM4
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCM4-2828
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCH3-GFPdropout
+  promoters:
+  - pCH3
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCH3-2828
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCH1-GFPdropout
+  promoters:
+  - pCH1
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCH1-2828
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCL1-GFPdropout
+  promoters:
+  - pCL1
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCL1-2828
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: 35s-GFPdropout
+  promoters:
+  - 35s
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of 35s-2828
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCM3-GFPdropout
+  promoters:
+  - pCM3
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCM3-2828
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCL3-GFP
+  promoters:
+  - pCL3
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCL3-GFP
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCL5-GFP
+  promoters:
+  - pCL5
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCL5-GFP
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pNOS-GFP
+  promoters:
+  - pNOS
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pNOS-GFP
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCL4-GFP
+  promoters:
+  - pCL4
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCL4-GFP
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCH4-GFP
+  promoters:
+  - pCH4
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCH4-GFP
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCM3-GFP
+  promoters:
+  - pCM3
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCM3-GFP
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCM4-GFP
+  promoters:
+  - pCM4
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCM4-GFP
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCM5-GFP
+  promoters:
+  - pCM5
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCM5-GFP
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: 35s-GFP
+  promoters:
+  - 35s
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of 35s-GFP
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCH3-GFP
+  promoters:
+  - pCH3
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCH3-GFP
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCM1-GFP
+  promoters:
+  - pCM1
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCM1-GFP
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCH2-GFP
+  promoters:
+  - pCH2
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCH2-GFP
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCM2-GFP
+  promoters:
+  - pCM2
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCM2-GFP
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCH5-GFP
+  promoters:
+  - pCH5
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCH5-GFP
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCH1-GFP
+  promoters:
+  - pCH1
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCH1-GFP
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCL1-GFP
+  promoters:
+  - pCL1
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCL1-GFP
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCL2-GFP
+  promoters:
+  - pCL2
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCL2-GFP
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCL5-mScarlet
+  promoters:
+  - pCL5
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCL5-mScarlet
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCL2-mScarlet
+  promoters:
+  - pCL2
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCL2-mScarlet
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCM5-mScarlet
+  promoters:
+  - pCM5
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCM5-mScarlet
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCM1-mScarlet
+  promoters:
+  - pCM1
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCM1-mScarlet
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCH1-mScarlet
+  promoters:
+  - pCH1
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCH1-mScarlet
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: 35s-mScarlet
+  promoters:
+  - 35s
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of 35s-mScarlet
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCH3-mScarlet
+  promoters:
+  - pCH3
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCH3-mScarlet
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCL4-mScarlet
+  promoters:
+  - pCL4
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCL4-mScarlet
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCM2-mScarlet
+  promoters:
+  - pCM2
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCM2-mScarlet
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCH2-mScarlet
+  promoters:
+  - pCH2
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCH2-mScarlet
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCM4-mScarlet
+  promoters:
+  - pCM4
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCM4-mScarlet
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCL3-mScarlet
+  promoters:
+  - pCL3
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCL3-mScarlet
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pNOS-mScarlet
+  promoters:
+  - pNOS
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pNOS-mScarlet
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCM3-mScarlet
+  promoters:
+  - pCM3
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCM3-mScarlet
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCH5-mScarlet
+  promoters:
+  - pCH5
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCH5-mScarlet
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: pVS1 oriV, pBR322
+  backbone: pCL1-mScarlet
+  promoters:
+  - pCL1
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCL1-mScarlet
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: 'pVS1 oriV, pBR322 '
+  backbone: pCL1-RUBY
+  promoters:
+  - pCL1
+  description: 'Binary vector of RUBY reporter on TDNA. Contains 35s:Kan resistance
+    for plant selection and pCL1:RUBY for betalain production. '
+  selection_markers:
+  - 'Kan (E. coli) Kan (A. thaliana) '
+- ori: pVS1 oriV, pBR322
+  backbone: pCH4-mScarlet
+  promoters:
+  - pCH4
+  description: Binary vector with 35s:Kan resistance for plant selection and transgene
+    expression of pCH4-mScarlet
+  selection_markers:
+  - Kan (E. coli) Kan (A. thaliana)
+- ori: 'pVS1 oriV, pBR322 '
+  backbone: pCL2-RUBY
+  promoters:
+  - pCL2
+  description: 'Binary vector of RUBY reporter on TDNA. Contains 35s:Kan resistance
+    for plant selection and pCL2:RUBY for betalain production. '
+  selection_markers:
+  - 'Kan (E. coli) Kan (A. thaliana) '
+- ori: 'pVS1 oriV, pBR322 '
+  backbone: pCM2-RUBY
+  promoters:
+  - pCM2
+  description: 'Binary vector of RUBY reporter on TDNA. Contains 35s:Kan resistance
+    for plant selection and pCM2:RUBY for betalain production. '
+  selection_markers:
+  - 'Kan (E. coli) Kan (A. thaliana) '
+- ori: 'pVS1 oriV, pBR322 '
+  backbone: pCH2-RUBY
+  promoters:
+  - pCH2
+  description: 'Binary vector of RUBY reporter on TDNA. Contains 35s:Kan resistance
+    for plant selection and pCH2:RUBY for betalain production. '
+  selection_markers:
+  - 'Kan (E. coli) Kan (A. thaliana) '
+- ori: 'pVS1 oriV, pBR322 '
+  backbone: pCH1-RUBY
+  promoters:
+  - pCH1
+  description: 'Binary vector of RUBY reporter on TDNA. Contains 35s:Kan resistance
+    for plant selection and pCH1:RUBY for betalain production. '
+  selection_markers:
+  - 'Kan (E. coli) Kan (A. thaliana) '
+bibliographicCitation: https://public-registry.jbei.org/folders/782
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00782
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

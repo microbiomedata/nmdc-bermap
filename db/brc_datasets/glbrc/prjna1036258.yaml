@@ -1,0 +1,42 @@
+brc: GLBRC
+date: '2023-11-06'
+title: Diazotroph diversity across a land-management gradient
+creator:
+- name: Brandon Kristy
+  email: kristybr@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+- name: Sarah E. Evans
+  email: evanssa6@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Multispecies
+keywords: []
+identifier: PRJNA1036258
+repository: NCBI BioProject
+description: Soil diazotrophs are ubiquitous bacteria and archaea responsible for
+  converting atmospheric nitrogen into plant-available ammonium. This process, if
+  properly harnessed, can ameliorate excessive fertilizer inputs in conventional agricultural
+  systems. However, the effect of diazotroph biodiversity on free-living nitrogen
+  fixation (FLNF) is poorly understood. Here, we characterized diazotroph biodiversity
+  across a land-management intensity gradient, determining the interactive effects
+  of land management and diazotroph biodiversity on their ecosystem functioning (FLNF).
+  Subsequently, we evaluated the functional redundancy of diazotroph biodiversity
+  on FLNF in-vitro by performing a biodiversity reduction assay with chloroform fumigation,
+  incubating soils with chloroform for either 24 or 72 hours. We estimated diazotroph
+  biodiversity for both in-situ and chloroform-fumigated samples by preparing and
+  sequencing nifH gene libraries. The raw sequencing data of our nifH library is deposited
+  here.
+relatedItem:
+- title: Reduced soil diazotroph diversity decreases nitrogen fixation rates but depends
+    on land management
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.sciencedirect.com/science/article/pii/S0929139325002902
+analysisType: raw sequence reads
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA1036258
+schema_version: 0.1.7
+uid: GLBRC_PRJNA1036258
+created_at: '2025-11-27T06:00:04.934Z'
+updated_at: '2025-12-10T06:00:05.198Z'

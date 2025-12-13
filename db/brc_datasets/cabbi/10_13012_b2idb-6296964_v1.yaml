@@ -1,0 +1,36 @@
+brc: CABBI
+date: '2023-04-18'
+title: Carbon Mitigation Payments Can Reduce the Riskiness of Bioenergy Crop Production
+creator:
+- name: Khanna, Madhu
+  email: khanna1@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: DeLucia, Evan H.
+  email: delucia@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Hudiburg, Tara
+  email: thudiburg@uidaho.edu
+  affiliation: University of Idaho
+  primaryContact: false
+keywords:
+- DayCent
+- miscanthus
+- switchgrass
+- economic modeling
+identifier: 10.13012/B2IDB-6296964_V1
+repository: Illinois Data Bank
+description: A stochastic domination analysis model was developed to examine the effect
+  that emerging carbon markets can have on the spatially varying returns and risk
+  profiles of bioenergy crops relative to conventional crops. The code is written
+  in MATLAB, and includes the calculated output.
+relatedItem:
+- title: Carbon Mitigation Payments Can Reduce the Riskiness of Bioenergy Crop Production
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1002/jaa2.52
+bibliographicCitation: https://doi.org/10.13012/B2IDB-6296964_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-6296964_V1
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.628Z'

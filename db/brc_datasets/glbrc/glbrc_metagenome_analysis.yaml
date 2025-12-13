@@ -1,0 +1,31 @@
+brc: GLBRC
+date: '2021-11-12'
+title: GLBRC/metagenome_analysis
+creator:
+- name: Daniel R. Noguera
+  email: dnoguera@wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: true
+- name: Timothy J. Donohue
+  email: tdonohue@bact.wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Multispecies
+keywords: []
+identifier: GLBRC/metagenome_analysis
+repository: GitHub
+description: This repository houses scripts used to analyze and run QC on metagenome
+  samples.
+relatedItem:
+- title: Metagenome-assembled genomes from microbial communities producing lactic
+    acid from dairy residues
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://journals.asm.org/doi/10.1128/mra.00179-25
+analysisType: Code
+bibliographicCitation: https://github.com/GLBRC/metagenome_analysis
+schema_version: 0.1.7
+uid: GLBRC_GLBRC/metagenome_analysis
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.198Z'

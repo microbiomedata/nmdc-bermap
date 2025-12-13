@@ -1,0 +1,92 @@
+id: jbei:581
+brc: JBEI
+date: '2020-05-29'
+title: Curran et al 2020
+creator:
+- name: Samuel Curran
+  email: scurran@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 287986
+  scientificName: Amycolatopsis rifamycinica
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 1902
+  scientificName: Streptomyces coelicolor
+- NCBITaxID: 1928
+  scientificName: Streptomyces rochei
+keywords: []
+identifier: jbei:folder:00581
+repository: ICE
+datasetName: Curran et al 2020
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/581
+description: This dataset provides expression plasmids for the functional and structural
+  characterization of the BorB type II thioesterase from the borrelidin biosynthetic
+  pathway. The collection includes constructs for wild-type BorB, an S96A point mutant,
+  and chimeras with swapped lid loops from heterologous thioesterases to investigate
+  enzyme mechanism. A plasmid for expressing the partner acyl carrier protein, ACP5,
+  is also included.
+relatedItem: []
+analysisType: affinity_purification
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pSC101
+  backbone: pSC053 (6xHis-MBP-BorB-ScoT-Loop)
+  promoters:
+  - Tet
+  description: BorB with ScoT lid loop 1
+  selection_markers:
+  - kanMX
+- ori: pSC101
+  backbone: pMAB03_(pBbS2K_6xHis_MBP_TEV_BorB_S96A)
+  promoters:
+  - anhydrotetracycline
+  description: MBP-BorBS96A point mutant type II TE in pBbS2K vector
+  selection_markers:
+  - Kanamycin
+- ori: pBr322
+  backbone: pMAB01_(pET28a_6xHis_TEV_BorB)
+  promoters:
+  - IPTG
+  description: E. coli codon opt. BorB type II TE in pET28a vector
+  selection_markers:
+  - Kanamycin
+- ori: pBR322
+  backbone: pSC013 (pET28a-6xHis-Borm5-ACP)
+  promoters:
+  - E. coli
+  description: Expression plasmid for N-terminal His-tagged ACP5 from the borrelidin
+    pathway.
+  selection_markers:
+  - kan
+- ori: pSC101
+  backbone: pMAB02_(pBbS2K_6xHis_MBP_TEV_BorB)
+  promoters:
+  - anhydrotetracycline
+  description: MBP-BorB type II TE in pSC101 vector
+  selection_markers:
+  - Kanamycin
+- ori: pSC101
+  backbone: pSC052 (6xHis-MBP-BorB-RifR-Loop)
+  promoters:
+  - Tete
+  description: Borb with RedJ lid loop 1
+  selection_markers:
+  - kanMX
+- ori: SC101
+  backbone: pSC051 (6xHis-MBP-BorB-RedJ-Loop)
+  promoters:
+  - Tet
+  description: BorB with lid loop 1 from RifR
+  selection_markers:
+  - Kan
+bibliographicCitation: https://public-registry.jbei.org/folders/581
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00581
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

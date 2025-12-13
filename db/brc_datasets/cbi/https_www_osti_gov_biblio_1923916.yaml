@@ -1,0 +1,47 @@
+brc: CBI
+date: '2023-02-10'
+title: Whole genome resequencing data from a collection of Clostridium Thermocellum
+  strains
+active: true
+creator:
+- name: Olson G Daniel
+  email: aniel.g.olson@dartmouth.edu
+  affiliation: Dartmouth College, Hanover, NH (United States)
+  primaryContact: true
+- name: Ambarish Nag
+  email: Ambarish.Nag@nrel.gov
+  primaryContact: false
+- name: Struan Clark
+  email: Struan.Clark@nrel.gov
+  affiliation: National Renewable Energy Lab. (NREL), Golden, CO (United States)
+  primaryContact: false
+- name: Stanton L Martin
+  email: martins@ornl.gov
+  affiliation: Oak Ridge National Lab. (ORNL), Oak Ridge, TN (United States)
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER)
+keywords:
+- resequencing bio energy fermentation
+identifier: https://www.osti.gov/biblio/1923916
+dataset_url: https://fair.ornl.gov/microbes/bacteria/Ctherm_lineage.htm
+description: Clostridium thermocellum is an anaerobic thermophilic bacterium that
+  natively ferments cellulose to ethanol and organic acids. This data set is a collection
+  of whole genome resequencing data for several hundred strains of Clostridium thermocellum.
+  It includes strains that have been engineered to increase ethanol production, strains
+  that have been engineered to understand microbial physiology, and strains that have
+  been adapted for desired phenotypes including increased ethanol tolerance. Resequencing
+  data consists of paired Illumina reads, 100-150 bp on each end, with a ~500 bp insert
+  size. One data file containing raw Illumina data (interleaved) is available for
+  each strain. We also provide data describing the mutations identified in each strain,
+  and distinguish between inherited and newly observed mutations. In addition to resequencing
+  data, we also provide metadata describing the lineage of each strain, and any targeted
+  genetic modifications.
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/1923916
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/1923916
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

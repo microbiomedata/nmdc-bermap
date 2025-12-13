@@ -1,0 +1,77 @@
+id: jbei:557
+brc: JBEI
+date: '2020-03-28'
+title: Zargar et al. 2020
+creator:
+- name: Amin Zargar
+  email: azargar@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Samantha Chang
+  email: samanthachang@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- scientificName: Streptomyces aureofaciens
+- NCBITaxID: 204925
+  scientificName: Streptomyces nanchangensis
+- NCBITaxID: 146923
+  scientificName: Streptomyces parvulus
+- NCBITaxID: 1836
+  scientificName: Saccharopolyspora erythraea
+keywords: []
+identifier: jbei:folder:00557
+repository: ICE
+datasetName: Zargar et al. 2020
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/557
+description: This dataset contains four plasmids designed for the combinatorial biosynthesis
+  of polyketides by engineering polyketide synthase (PKS) assembly lines. The constructs
+  enable the creation of novel polyketides through strategies such as building hybrid
+  modules from the lipomycin and nanchangmycin pathways. Key modifications include
+  an acyltransferase (AT) domain swap from the borrelidin synthase to alter substrate
+  specificity and a ketoreductase (KR) domain knockout to control the polyketide's
+  reduction state.
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: RP4
+  backbone: Lip1 RL-NanA2
+  promoters: []
+  description: Strep102. Native Lipomycin module with fully reducing loops from nanchangmycin
+    module 2.
+  selection_markers:
+  - Apr
+- ori: RP4
+  backbone: Lip2 KR-
+  promoters: []
+  description: Strep108. Lip2 module with KR knockout (S1547A) fused DEBS TE. VWB
+    integrase
+  selection_markers:
+  - Spectinomycin
+- ori: RP4
+  backbone: Lip1 AT-swap-Malonyl
+  promoters: []
+  description: Strep102. Based on pSY075 from Satoshi's paper, AT swap using Malonyl-CoA
+    from BORS-M1 (Borreledin).
+  selection_markers:
+  - Apramycin
+- ori: RP4
+  backbone: Lip2 JuncB NanA2
+  promoters: []
+  description: Lip2 Junction 2 with NanA2 Junction 2 using Ryan's vectors with Spectinomycin.
+    Strep106
+  selection_markers:
+  - spectinomycin
+bibliographicCitation: https://public-registry.jbei.org/folders/557
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00557
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

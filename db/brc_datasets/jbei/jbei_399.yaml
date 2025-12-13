@@ -1,0 +1,49 @@
+id: jbei:399
+brc: JBEI
+date: '2018-02-22'
+title: Liu et al. 2018
+creator:
+- name: Chunli Liu
+  email: chunliliu@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 1902
+  scientificName: Streptomyces coelicolor
+keywords: []
+identifier: jbei:folder:00399
+repository: ICE
+datasetName: Liu et al. 2018
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/399
+description: This dataset contains two plasmids engineered for the microbial biosynthesis
+  of sesquiterpenes, valuable biofuel precursors. The first plasmid features a dynamic
+  regulatory system, utilizing an FPP-responsive `rstA` promoter to control a codon-optimized
+  β-isocomene synthase. The second plasmid enables the production of epi-isozizaene
+  by expressing the corresponding synthase (EIZS) from *Streptomyces coelicolor* in
+  a pTrc99a backbone.
+relatedItem: []
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: prstA-coMrTPS2
+  promoters: []
+  description: FPP responsive, rstA promoter, driving codon-optimized ?-isocomene
+    synthase
+  selection_markers:
+  - amp
+- backbone: pTrc99a-EIZS
+  promoters: []
+  description: EIZS from Streptomyces coelicolor cloned in pTrc99a backbone
+  selection_markers:
+  - AMP
+bibliographicCitation: https://public-registry.jbei.org/folders/399
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00399
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.622Z'

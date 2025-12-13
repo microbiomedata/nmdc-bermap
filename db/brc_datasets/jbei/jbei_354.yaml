@@ -1,0 +1,283 @@
+id: jbei:354
+brc: JBEI
+date: '2018-01-25'
+title: Goyal et al. 2018
+creator:
+- name: Garima Goyal
+  email: ggoyal@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Rossana Chan
+  email: rchan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Kevin George
+  email: kwgeorge@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Changhao Bi
+  email: changhaobi@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Jeffrey Dietrich
+  email: jadietrich@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Adrienne Schlatter
+  email: afschlatter@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: John Thorne
+  email: jwthorne@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: filemakerimport
+  email: filemakerimport
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Nathan Hillson
+  email: njhillson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Jee Foo
+  email: jlfoo@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 1280
+  scientificName: Staphylococcus aureus
+- NCBITaxID: 155892
+  scientificName: Caulobacter crescentus
+keywords:
+- pTrc99A-NudB-PMD
+identifier: jbei:folder:00354
+repository: ICE
+datasetName: Goyal et al. 2018
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/354
+description: This dataset provides a collection of plasmids and bacterial strains
+  for advanced genetic engineering and metabolic pathway construction in *E. coli*.
+  The materials are designed for applications such as expressing mevalonate pathway
+  genes for isoprenoid synthesis and performing chromosomal integration. Key molecular
+  tools include lambda-red recombination systems, various inducible promoters (lacUV5,
+  rhamnose), multiple antibiotic resistance markers, and fluorescent reporters (GFP,
+  RFP).
+relatedItem:
+- title: Wang H., et al. "Programming cells by multiplex genome engineering and accelerated
+    evolution." Nature 460, 894-898 (2009)
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Antibiotic marker modifications of lambda Red and FLP helper plasmids, pKD46
+    and pCP20, for inactivation of chromosomal genes using PCR products in multidrug-resistant
+    strains. Doublet B, Douard G, Targant H, Meunier D, Madec JY, Cloeckaert A. J
+    Microbiol Methods. 2008 Oct;75(2):359-61. Epub 2008 Jun 21.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Hfr Cavalli host strain E. coli Genetic Stock Center CSGC# 4410 http://cgsc.biology.yale.edu/Strain.php?ID=8448
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: J. Bacteriology Vol. 183, No. 21 p. 6384-6393
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Rapid and efficient construction of markerless deletions in the Escherichia
+    coli genome. Yu BJ, Kang KH, Lee JH, Sung BH, Kim MS, Kim SC. Nucleic Acids Res.
+    2008 Aug;36(14):e84.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: George, K. W., Chen, A., Jain, A., Batth, T. S., Baidoo, E. E., Wang, G.,
+    Adams, P. D., Petzold, C. J., Keasling, J. D., &amp; Lee, T. S. (2014). “Correlation
+    analysis of targeted proteins and metabolites to assess and engineer microbial
+    isopentenol production”. Biotechnol Bioeng, 111(8), 1648-1658. Also used in Shi,
+    J., George, K. W., Sun, N., He, W., Li, C., Stavila, V., Keasling, J. D., Simmons,
+    B. A., Lee, T. S., &amp; Singh, S. (2015). "Impact of Pretreatment Technologies
+    on Saccharification and Isopentenol Fermentation of Mixed Lignocellulosic Feedstocks".
+    BioEnergy Research, 1-10. doi, 10.1007/s12155-015-9588-z http://dx.doi.org/10.1007/s12155-015-9588-z
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: A comprehensive set of plasmids for vanillate- and xylose-inducible gene
+    expression in Caulobacter crescentus. Thanbichler M, Iniesta AA, Shapiro L. Nucleic
+    Acids Res. 2007;35(20):e137. Epub 2007 Oct 24.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: George, K. W., Chen, A., Jain, A., Batth, T. S., Baidoo, E. E., Wang, G.,
+    Adams, P. D., Petzold, C. J., Keasling, J. D., &amp; Lee, T. S. (2014). “Correlation
+    analysis of targeted proteins and metabolites to assess and engineer microbial
+    isopentenol production”. Biotechnol Bioeng, 111(8), 1648-1658.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Journal of Bacteriology, Vol. 183, No. 21, Nov. 2001 p. 6384-6393
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: George, K. W., Chen, A., Jain, A., Batth, T. S., Baidoo, E. E., Wang, G.,
+    Adams, P. D., Petzold, C. J., Keasling, J. D., &amp; Lee, T. S. (2014). “Correlation
+    analysis of targeted proteins and metabolites to assess and engineer microbial
+    isopentenol production”. Biotechnol Bioeng, 111(8), 1648-1658. Foo JL, Jensen
+    HM, Dahl RH, George K, Keasling JD, Lee TS, Leong S, Mukhopadhyay A. 2014. Improving
+    microbial biogasoline production in Escherichia coli using tolerance engineering.
+    mBio 5(6):e01932-14. doi:10.1128/mBio.01932-14.
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Lee TS, Krupa RA, Zhang F, Hajimorad M, Holtz WJ, Prasad N, Lee SK, Keasling
+    JD. BglBrick vectors and datasheets: A synthetic biology platform for gene expression.
+    J Biol Eng. 2011 Sep 20;5:12. doi: 10.1186/1754-1611-5-12.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: Expression profiling
+contributors:
+- name: Jonathan Vroom
+  email: javroom@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+- name: Taek Soon Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pMev_AtoB-mvaS-mvaA
+  promoters:
+  - PLacUV5
+  description: A plasmid that has mevalonate top pathway genes (AtoB, mvaS, and mvaA)
+    under lacUV5 promoter in p15a ori. Resistance marker is Kanamycin
+  selection_markers:
+  - Kan
+- backbone: pPIACE_Sp_GFP
+  promoters: []
+  description: PIACE_Sp_GFP plasmid which can only propagate in S17 strain has R6K
+    ori and is constructed for the chromosomal integration into DH1 cells. It has
+    GFP under LacUV5 promoter and Spectinomycin resistance marker
+  selection_markers:
+  - spectinomycin
+- backbone: pPIACE_Cm_PMK-MK
+  promoters: []
+  description: DH10B
+  selection_markers:
+  - Chloremphenicol
+- backbone: pPIACE_Cm_RFP
+  promoters: []
+  description: This plasmid contains RFP under the control of lacUV5 promoter and
+    Chloremphenicol marker. It has R6K vector backbone which can't be propagated into
+    DH1 cells. This plasmid is generated for chromosomal integration at intA site
+    in Ecoli DH1
+  selection_markers:
+  - Cm
+- backbone: pPIACE_Gent_AtoB-mvaS-mvaA
+  promoters: []
+  description: PIR strain for plasmid replication.
+  selection_markers:
+  - Kan, Gent
+- backbone: pPIACE_Sp_NudB-PMD
+  promoters: []
+  description: DH10B
+  selection_markers:
+  - Spectinomycin
+- backbone: pCICHE_Spec_GFP
+  promoters: []
+  description: A plasmid containing CICHE_Spec with GFP gene for integration at fdhF
+    locus in E.coli chromosome
+  selection_markers:
+  - Amp
+  - Spectinomycin
+- ori: p15A
+  backbone: pMTSA
+  promoters:
+  - lacUV5
+  description: A plasmid that includes upper portion of mevalonate pathway with HMGR
+    gene from Staphylococcus aureus.
+  selection_markers:
+  - Chloramphenicol
+- backbone: pKWG0012
+  promoters: []
+  description: 'Golden Gate assembly - Control #2.  No ribozyme.  PMK (CO, fixed)
+    followed by MK (CO).'
+  selection_markers: []
+- backbone: pREDI2RecA
+  promoters: []
+  description: pREDI2RecA is a curable plasmid which bears lamba-red integration system
+    as well as RecA under the control of rhamnose inducible promoter which eliminates
+    the need for deleting RecA post integration
+  selection_markers: []
+- ori: RK2
+  backbone: pCM62-Prha-T7SL-RFP
+  promoters:
+  - rhamnose
+  description: The pCM62 backbone contains the modified, minimal replication region
+    from the broad host range (low copy) RK2 (IncP) replicon.  pCM62-Prha-T7SL-RFP
+    contains the rhamnose promoter from pREDI in front of RFP as well a mRNA leader
+    sequence from T7 phage that creates a 5' stem-loop stabilizing the mRNA transcript
+    and increasing expression.
+  selection_markers:
+  - Tetracycline
+- ori: oriR101
+  backbone: pKD46
+  promoters:
+  - Arabinose
+  description: Plasmid used for the generation of knockout insertions using PCR products
+    by the lambda red recombination pathway.
+  selection_markers:
+  - Ampicillin
+- ori: R6K
+  backbone: pAH143
+  promoters: []
+  description: ''
+  selection_markers:
+  - Gentamicin
+- ori: pSC101ts
+  backbone: pREDI
+  promoters:
+  - Arabinose
+  - Rhamnose
+  description: A plasmid bearing the lambda-red recombinase system under the control
+    of arabinose, and the I-SceI endonuclease under the control of rhamnose. The origin
+    is temperature-senstive, allowing for temperature-curing of the plasmid.
+  selection_markers:
+  - Ampicillin
+- backbone: pTrc99A-NudB-PMD
+  promoters: []
+  description: PMD cloned downstream of Howard's NudB construct
+  selection_markers:
+  - Carb
+- ori: pMB1, RK2
+  backbone: pMCS-4
+  promoters: []
+  description: A plasmid bearing the Gentamycin resistance gene aacC1. Used for integrating
+    DNA into the chromosome of Caulobacter crescentus, but replicates in E. coli.
+  selection_markers:
+  - Gentamicin
+  - aacCI
+- ori: p15A
+  backbone: pBbA5k-RFP
+  promoters:
+  - lacUV5
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Kanamycin
+- ori: ColE1
+  backbone: pBbE5c-RFP
+  promoters:
+  - lacUV5
+  description: BioBrick Berkeley formatted expression vector
+  selection_markers:
+  - Chloramphenicol
+bibliographicCitation: https://public-registry.jbei.org/folders/354
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00354
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

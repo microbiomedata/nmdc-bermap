@@ -1,0 +1,34 @@
+brc: GLBRC
+date: '2023-09-19'
+title: Novosphingobium aromaticivorans DSM 12444 lignin transcriptomics
+creator:
+- name: Timothy J. Donohue
+  email: tdonohue@bact.wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: true
+- name: Daniel R. Noguera
+  email: dnoguera@wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: false
+species:
+- NCBITaxID: 279238
+  scientificName: Novosphingobium aromaticivorans DSM12444
+keywords:
+- transcriptomics
+- aromatics
+- Novosphingobium aromaticivorans
+identifier: '510025'
+repository: JGI Data Portal
+description: null
+relatedItem:
+- title: Transcriptomic data sets for Novosphingobium aromaticivorans DSM12444 and
+    a ΔSARO_RS14285 mutant grown in the presence of glucose and either protocatechuic,
+    vanillic, syringic, or 4-coumaric acid
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://journals.asm.org/doi/10.1128/mra.00264-25
+analysisType: raw RNA-seq files
+bibliographicCitation: https://data.jgi.doe.gov/search?q=JGI_ID%3A%60510025%60&amp;t=advanced
+schema_version: 0.1.7
+uid: GLBRC_510025
+created_at: '2025-11-27T06:00:04.934Z'
+updated_at: '2025-12-10T06:00:05.198Z'

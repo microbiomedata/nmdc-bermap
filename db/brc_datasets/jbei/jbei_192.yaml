@@ -1,0 +1,323 @@
+id: jbei:192
+brc: JBEI
+date: '2015-05-21'
+title: Sarria et al. 2014
+creator:
+- name: Nathan Hillson
+  email: njhillson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Pamela Peralta-Yahya
+  email: pperalta-yahya@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Rossana Chan
+  email: rchan@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Taek Soon Lee
+  email: tslee@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 46611
+  scientificName: Abies grandis
+- NCBITaxID: 3352
+  scientificName: Pinus taeda
+- NCBITaxID: 3329
+  scientificName: Picea abies
+keywords: []
+identifier: jbei:folder:00192
+repository: ICE
+datasetName: Sarria et al. 2014
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/192
+description: This dataset comprises a collection of 40 plasmids designed for the metabolic
+  engineering of *E. coli* for pinene production. The plasmids feature pinene synthase
+  (PS) and geranyl diphosphate synthase (GPPS) genes from several conifer species,
+  which have been systematically engineered as single enzymes or fusion proteins with
+  varied linkers, truncations, and codon optimization. The collection also includes
+  a plasmid incorporating upstream mevalonate pathway genes to enhance the supply
+  of precursors for monoterpene biosynthesis.
+relatedItem:
+- title: Sarria, S., Wong, B., Martin, H. G., Keasling, J. D., &amp; Peralta-Yahya,
+    P. (2014). �Microbial Synthesis of Pinene�. ACS Synth Biol, 3(7), 466-475. doi,
+    10.1021/sb4001382 http://www.ncbi.nlm.nih.gov/pubmed/24679043 http://pubs.acs.org/doi/pdfplus/10.1021/sb4001382
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: Sarria, S., Wong, B., Martin, H. G., Keasling, J. D., &amp; Peralta-Yahya,
+    P. (2014). “Microbial Synthesis of Pinene”. ACS Synth Biol, 3(7), 466-475. doi,
+    10.1021/sb4001382 http://www.ncbi.nlm.nih.gov/pubmed/24679043 http://pubs.acs.org/doi/pdfplus/10.1021/sb4001382
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: 'Alonso-Gutierrez, J., Chan, R., Batth, T. S., Adams, P. D., Keasling, J.
+    D., Petzold, C. J. and Lee, T. S. (2013). “Metabolic engineering of Escherichia
+    coli for limonene and perillyl alcohol production.” Metab Eng. 19C: 33-41.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: affinity_purification
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: PY404
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, A. grandis PS-(GSG)2-A. grandis GPPS
+  selection_markers:
+  - AmpR
+- backbone: PY324
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, His6-tag at the N-terminus of P. taeda  PS signal
+    peptide removed (truncated at RRTLPG)
+  selection_markers:
+  - AmpR
+- backbone: PY274
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, His6-tag at the N-terminus of P. abies GPPS signal
+    peptide removed
+  selection_markers:
+  - AmpR
+- backbone: PY69
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, P. abies GPPS-(GSG)2-A. grandis PS
+  selection_markers:
+  - AmpR
+- backbone: PY316
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, A. grandis GPPS-(GSG)-A. grandis PS
+  selection_markers:
+  - AmpR
+- backbone: PY320
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, A. grandis GPPS-(GSG)3-A. grandis PS
+  selection_markers:
+  - AmpR
+- backbone: PY304
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, His6-tag at the N-terminus of P. taeda  GPPS signal
+    peptide removed
+  selection_markers:
+  - AmpR
+- backbone: PY68
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, P. taeda GPPS-(GSG)2-A. grandis PS
+  selection_markers:
+  - AmpR
+- backbone: PY325
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, His6-tag at the N-terminus of P. abies PS signal
+    peptide removed (truncated at RRGKSA)
+  selection_markers:
+  - AmpR
+- backbone: PY33
+  promoters:
+  - PTrc
+  description: Commercially synthesized leader sequence for Pinus taeda and Picea
+    abies (Operon)
+  selection_markers:
+  - AmpR
+- backbone: PY177
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, P. abies PS- P. taeda GPPS
+  selection_markers:
+  - AmpR
+- backbone: PY176
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, P. abies PS- A. grandis GPPS
+  selection_markers:
+  - AmpR
+- backbone: PY215
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, P. abies GPPS-(GSG)2-P. taeda PS
+  selection_markers:
+  - AmpR
+- backbone: PY216
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, A. grandis GPPS-(GSG)2-P. taeda PS
+  selection_markers:
+  - AmpR
+- backbone: PY179
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, A. grandis PS- P. abies GPPS
+  selection_markers:
+  - AmpR
+- backbone: PY178
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, P. abies PS- P. abies GPPS
+  selection_markers:
+  - AmpR
+- backbone: PY180
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, A. grandis PS- P. taeda GPPS
+  selection_markers:
+  - AmpR
+- backbone: PY175
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, A. grandis PS- A. grandis GPPS
+  selection_markers:
+  - AmpR
+- backbone: PY273
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, His6-tag at the N-terminus of A. grandis  GPPS signal
+    peptide removed
+  selection_markers:
+  - AmpR
+- backbone: PY272
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, His6-tag at the N-terminus of A. grandis PS signal
+    peptide removed (truncated at RRGKSI)
+  selection_markers:
+  - AmpR
+- backbone: PY153
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, P. abies PS signal peptide removed (truncated at
+    RRGKSA)
+  selection_markers:
+  - AmpR
+- backbone: PY126
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, P. taeda PS- P. taeda GPPS
+  selection_markers:
+  - AmpR
+- backbone: PY127
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, P. taeda PS- P. abies GPPS
+  selection_markers:
+  - AmpR
+- backbone: PY129
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, P. abies GPPS-(GSG)2-P. abies PS
+  selection_markers:
+  - AmpR
+- backbone: PY151
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, A. grandis PS signal peptide removed (truncated at
+    RRGKSI)
+  selection_markers:
+  - AmpR
+- backbone: PY128
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, A. grandis GPPS-(GSG)2-P. abies PS
+  selection_markers:
+  - AmpR
+- backbone: PY125
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, P. taeda GPPS-(GSG)2-P. taeda PS
+  selection_markers:
+  - AmpR
+- backbone: PY152
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, P. taeda  PS signal peptide removed (truncated at
+    RRTLPG)
+  selection_markers:
+  - AmpR
+- backbone: PY128
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, P. taeda PS- A. grandis GPPS
+  selection_markers:
+  - AmpR
+- backbone: PY127
+  promoters:
+  - PTrc
+  description: pMB1, Ampr, PTrc, P. taeda GPPS-(GSG)2-P. abies PS
+  selection_markers:
+  - AmpR
+- backbone: pTrcAgPS (truncated)
+  promoters: []
+  description: Truncated Abies grandis pinene synthase in pTrc99
+  selection_markers:
+  - Amp
+- backbone: picea abies GPPs
+  promoters: []
+  description: Picea abies GPPs codon optimized for E. coli from genescript
+  selection_markers:
+  - Amp
+- backbone: Picea abies Pinene synthase
+  promoters: []
+  description: Picea abies Pinene synthase codon optimized for E. coli from genescript
+  selection_markers:
+  - Amp
+- backbone: pTrc-PaPS
+  promoters: []
+  description: Truncated Picea abies pinene synthase (E. coli codon optimized) cloned
+    into pTRc99 between NcoI and XmaI.
+  selection_markers:
+  - Amp
+- backbone: AgPINSYN
+  promoters: []
+  description: Abies grandis pinene synthase codon optimized for E. coli synthesized
+    by genescript
+  selection_markers:
+  - AmpR
+- backbone: stAgGPPS(GSG)2AgPS
+  promoters:
+  - 'null'
+  description: truncated A. grandis geranyl diphospahte synthase linked to A. grandis
+    pinene synthase with a short truncation (at RRGKS). Proteins fused using a 6 amino
+    acid linker.
+  selection_markers:
+  - Amp
+- backbone: pTRcPtPS
+  promoters: []
+  description: pinus taeda pinene syntahse closed into Ptrc99 between NcoI and XmaI
+    with teh plastid signal peptide removed
+  selection_markers:
+  - Ampicillin
+- backbone: Cyclase I
+  promoters: []
+  description: Pinus taeda pinene syntahse (CO) genescript
+  selection_markers:
+  - Ampicillin
+- backbone: P. taeda GPPS
+  promoters: []
+  description: Pinus taeda GPP synthase codon optimized for E. coli from genescript
+  selection_markers:
+  - Amp
+- ori: p15A
+  backbone: pBbA5c-MevT-MBI
+  promoters:
+  - lacUV5
+  description: 'A plasmid that includes upper portion of mevalonate pathway as well
+    as mevalonate kinase, phosphomevalonate kinase, mevalonate pyrophosphate decarboxylatse
+    and IPP isomerase genes. '
+  selection_markers:
+  - Chloramphenicol
+bibliographicCitation: https://public-registry.jbei.org/folders/192
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00192
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

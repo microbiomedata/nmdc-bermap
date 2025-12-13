@@ -1,0 +1,37 @@
+brc: GLBRC
+date: '2022-07-27'
+title: 16S rRNA squencing to identify microbiomes associated with different crops
+  and different growing conditions
+creator:
+- name: Ashley Shade
+  email: ashley.shade@cnrs.fr
+  affiliation: Laboratoire Ecologie Microbienne at the University of Lyon, France
+  primaryContact: true
+species:
+- NCBITaxID: null
+  scientificName: Microbiome
+keywords:
+- 16S rRNA sequencing
+- microbiome
+- plants
+identifier: PRJNA862978
+repository: NCBI BioProject
+description: ' The microbiome associated with plant roots, the rhizobiome, can harbor
+  beneficial microbes that alleviate stress, but the factors influencing their recruitment
+  are unclear. We conducted a greenhouse experiment using field soil with a legacy
+  of growing switchgrass and common bean to investigate the impact of short-term drought
+  severity on the recruitment of active bacterial rhizobiome members. We applied 16S
+  rRNA and 16S rRNA gene sequencing for both crops and metabolite profiling for switchgrass.
+  We included planted and unplanted conditions to distinguish environment- versus
+  plant-mediated rhizobiome drivers. '
+relatedItem:
+- title: Disentangling plant- and environment-mediated drivers of active rhizosphere
+    bacterial community dynamics during short-term drought
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.nature.com/articles/s41467-024-50463-1
+analysisType: 16S rRNA Sequencing
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA862978
+schema_version: 0.1.7
+uid: GLBRC_PRJNA862978
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.197Z'

@@ -1,0 +1,48 @@
+brc: CABBI
+date: '2020-07-17'
+title: High-Level β-Carotene Production from Xylose by Engineered Saccharomyces cerevisiae
+  without Overexpression of a Truncated HMG1 (tHMG1)
+creator:
+- name: Yong-Su Jin
+  email: ysjin@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- Beta carotene
+- Genome engineering
+- Saccharomyces cerevisiae
+identifier: 10.13012/B2IDB-4573999_V1
+repository: Illinois Data Bank
+description: β‐Carotene is a natural pigment and health‐promoting metabolite, and
+  has been widely used in the nutraceutical, feed, and cosmetic industries. Here,
+  we engineered a GRAS yeast Saccharomyces cerevisiae to produce β‐carotene from xylose,
+  the second most abundant and inedible sugar component of lignocellulose biomass.
+  Specifically, a β‐carotene biosynthetic pathway containing crtYB, crtI, and crtE
+  from Xanthophyllomyces dendrorhous was introduced into a xylose‐fermenting S. cerevisiae.
+  The resulting strain produced β‐carotene from xylose at a titer threefold higher
+  than from glucose. Interestingly, overexpression of tHMG1, which has been reported
+  as a critical genetic perturbation to enhance metabolic fluxes in the mevalonate
+  pathway and β‐carotene production in yeast when glucose is used, did not further
+  improve the production of β‐carotene from xylose. Through fermentation profiling,
+  metabolites analysis, and transcriptional studies, we found the advantages of using
+  xylose as a carbon source, instead of glucose, for β‐carotene production to be a
+  more respiratory feature of xylose consumption, a larger cytosolic acetyl‐CoA pool,
+  and an upregulated expression level of rate‐limiting genes in the β‐carotene‐producing
+  pathway, including ACS1 and HMG1. As a result, 772.8 mg/L of β‐carotene was obtained
+  in a fed‐batch bioreactor culture with xylose feeding. Considering the inevitable
+  large scale production of xylose when cellulosic biomass‐based bioeconomy is implemented,
+  our results suggest xylose utilization is a promising strategy for overproduction
+  of carotenoids and other isoprenoids in engineered S. cerevisiae.
+relatedItem:
+- title: High-Level β-Carotene Production from Xylose by Engineered Saccharomyces
+    cerevisiae without Overexpression of a Truncated HMG1 (tHMG1)
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1002/bit.27508
+bibliographicCitation: https://doi.org/10.13012/B2IDB-4573999_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-4573999_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

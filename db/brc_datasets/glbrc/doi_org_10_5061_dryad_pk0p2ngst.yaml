@@ -1,0 +1,44 @@
+brc: GLBRC
+date: '2024-01-11'
+title: The Dynamic Assimilation Technique measures photosynthetic CO2 response curves
+  with similar fidelity as steady-state approaches in half the time
+creator:
+- name: Berkley J. Walker
+  email: berkley@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+species:
+- NCBITaxID: null
+  scientificName: Tobacco (Nicotina tabacum), Arabidopsis (Arabidopsis thaliana),
+    soybean (Glycine max 'AG21XF1'), potato (solanum tuberosum 'PA01N32-1'), apple
+    (malus domestica 'Jonagold Decoster PP#80' on 'EMLA 106' rootstock)
+keywords:
+- A/Ci response
+- Photosynthesis
+- RuBP regeneration limitation
+- Triose phosphate limitation
+- gas exchange methods
+- rubisco carboxylation limitation
+identifier: doi.org/10.5061/dryad.pk0p2ngst
+repository: Dryad
+description: The net CO2 assimilation (A) response to intercellular CO2 concentration
+  (Ci) is a fundamental measurement in photosynthesis and plant physiology research.
+  The conventional A/Ci protocols rely on steady-state measurements and take 15-40
+  minute per measurement, limiting data resolution or biological replication. Additionally,
+  there are several CO2 protocols employed across the literature, without clear consensus
+  as to the optimal protocol or systematic biases in their estimations. We compared
+  the non-steady state Dynamic Assimilation Technique (DAT) protocol and the three
+  most used CO2 protocols in steady-state measurements, and tested whether different
+  CO2 protocols lead to systematic differences in estimations of the biochemical limitations
+  to photosynthesis.
+relatedItem:
+- title: The Dynamic Assimilation Technique measures photosynthetic CO<sub>2</sub>
+    response curves with similar fidelity as steady-state approaches in half the time
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://academic.oup.com/jxb/advance-article/doi/10.1093/jxb/erae057/7608858
+analysisType: Field Data
+bibliographicCitation: https://datadryad.org/dataset/doi:10.5061/dryad.pk0p2ngst
+schema_version: 0.1.7
+uid: GLBRC_doi.org/10.5061/dryad.pk0p2ngst
+created_at: '2025-11-19T18:00:04.600Z'
+updated_at: '2025-12-10T06:00:05.197Z'

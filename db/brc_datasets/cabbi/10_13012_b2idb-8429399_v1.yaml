@@ -1,0 +1,51 @@
+brc: CABBI
+date: '2020-01-31'
+title: A Genetic Toolbox for Metabolic Engineering of Issatchenkia orientalis
+creator:
+- name: Huimin Zhao
+  email: zhao5@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Yasuo Yoshikuni
+  email: yyoshikuni@lbl.gov
+  affiliation: Lawrence Berkeley National Lab
+  primaryContact: false
+- name: Zengyi Shao
+  email: zyshao@iastate.edu
+  affiliation: Iowa State University
+  primaryContact: false
+species:
+- NCBITaxID: 4909
+  scientificName: Issatchenkia orientalis
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+keywords:
+- Issatchenkia orientalis
+- Saccharomyces cerevisiae
+- RNA-Seq
+identifier: 10.13012/B2IDB-8429399_V1
+repository: Illinois Data Bank
+description: 'The nonconventional yeast Issatchenkia orientalis can grow under highly
+  acidic conditions and has been explored for production of various organic acids.
+  However, its broader application is hampered by the lack of efficient genetic tools
+  to enable sophisticated metabolic manipulations. We recently constructed an episomal
+  plasmid based on the autonomously replicating sequence (ARS) from Saccharomyces
+  cerevisiae (ScARS) in I. orientalis and developed a CRISPR/Cas9 system for multiplexed
+  gene deletions. Here we report three additional genetic tools including: (1) identification
+  of a 0.8 kb centromere-like (CEN-L) sequence from the I. orientalis genome by using
+  bioinformatics and functional screening; (2) discovery and characterization of a
+  set of constitutive promoters and terminators under different culture conditions
+  by using RNA-Seq analysis and a fluorescent reporter; and (3) development of a rapid
+  and efficient in vivo DNA assembly method in I. orientalis, which exhibited ~100%
+  fidelity when assembling a 7 kb-plasmid from seven DNA fragments ranging from 0.7
+  kb to 1.7 kb. As proof of concept, we used these genetic tools to rapidly construct
+  a functional xylose utilization pathway in I. orientalis.'
+relatedItem:
+- title: A Genetic Toolbox for Metabolic Engineering of Issatchenkia orientalis
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1016/j.ymben.2020.01.005
+bibliographicCitation: https://doi.org/10.13012/B2IDB-8429399_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-8429399_V1
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.196Z'

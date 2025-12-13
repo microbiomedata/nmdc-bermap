@@ -1,0 +1,81 @@
+id: jbei:582
+brc: JBEI
+date: '2019-08-15'
+title: Incha et al. 2020
+creator:
+- name: Matthew Incha
+  email: incha@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Mitchell Thompson
+  email: mthompson@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 1902
+  scientificName: Streptomyces coelicolor
+- NCBITaxID: 4530
+  scientificName: Oryza sativa
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00582
+repository: ICE
+datasetName: Incha et al. 2020
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/582
+description: This dataset provides six plasmids for expressing enzymes involved in
+  polyketide biosynthesis. The collection features multiple Type III polyketide synthases
+  (PKSs), including full-length and truncated RppA from *Streptomyces coelicolor*
+  and curcuminoid synthase (CUS) from *Oryza sativa*. A coumaryl CoA-ligase plasmid
+  is also included, enabling the study and engineering of secondary metabolite pathways
+  from both bacterial and plant origins.
+relatedItem:
+- title: https://www.biorxiv.org/content/10.1101/753889v1
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+- title: https://link.springer.com/article/10.1007/s10295-003-0075-8
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pBADT-rppA-OW
+  promoters: []
+  description: Type III PKS
+  selection_markers: []
+- ori: pBBR1
+  backbone: pBADT-rppA-NT
+  promoters:
+  - pBAD
+  description: Natural rppA nucleotide sequence. Truncated C-terminus
+  selection_markers: []
+- backbone: pBADT-fcs-CUS
+  promoters: []
+  description: TIII PKS
+  selection_markers: []
+- ori: pBBR1
+  backbone: pBADT-rppA-NW
+  promoters: []
+  description: Entire S. coelicolor rppA sequence. Native codons
+  selection_markers:
+  - kanR
+- ori: BBR1
+  backbone: pBADT-fcs
+  promoters: []
+  description: Coumaryl CoA-Ligase
+  selection_markers: []
+- ori: pBBR1
+  backbone: pBADT-CUS
+  promoters: []
+  description: Oryza sativa curcuminoid synthase (CUS) in pBADT vector.
+  selection_markers: []
+bibliographicCitation: https://public-registry.jbei.org/folders/582
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00582
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

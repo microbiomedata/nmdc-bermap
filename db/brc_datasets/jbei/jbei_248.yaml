@@ -1,0 +1,321 @@
+id: jbei:248
+brc: JBEI
+date: '2016-06-13'
+title: Reider-Apel et al. 2016b
+creator:
+- name: Amanda Reider Apel
+  email: arreiderapel@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Gary Tong
+  email: gjtong@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Rachel Li
+  email: rali@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 4932
+  scientificName: Saccharomyces cerevisiae
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+keywords: []
+identifier: jbei:folder:00248
+repository: ICE
+datasetName: Reider-Apel et al. 2016b
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/248
+description: This collection comprises 34 plasmids for genome engineering in *Saccharomyces
+  cerevisiae*, primarily for metabolic engineering of the mevalonate pathway. The
+  dataset includes plasmids for integrating key pathway genes (e.g., `ERG12`, `mvaS`,
+  `crtE`) and a large suite of all-in-one CRISPR/Cas9 vectors. These CRISPR plasmids
+  contain guide RNAs targeting a wide array of genomic loci, providing a versatile
+  toolkit for targeted gene integration across the yeast genome.
+relatedItem: []
+analysisType: Targeted Locus (Loci)
+contributors:
+- name: Amanda Reider Apel/ Leo d'Espaux
+  email: arreiderapel@lbl.gov/ leodespaux@gmail.com
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: false
+  contributorType: Researcher
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pGT39
+  promoters: []
+  description: integrating PGAL1-XdenGGPPS_PGAL10-ERG20 into trp1-289 locus
+  selection_markers:
+  - Amp
+- backbone: pGT37
+  promoters: []
+  description: pGT36 but with mvaS (A110G) mutant
+  selection_markers:
+  - Amp
+- backbone: pGT35
+  promoters: []
+  description: integrating PGAL1-ERG12_PGAL10-IDI1 into his3delta1 locus
+  selection_markers:
+  - Amp
+- backbone: pGT34
+  promoters: []
+  description: integrating PGAL1-ERG19_PGAL10-ERG8 into leu2-3,112 locus
+  selection_markers:
+  - Amp
+- backbone: pcut-R_805a
+  promoters: []
+  description: 'p426_Cas9_gRNA-ARS805a without ribozyme
+
+    All-in-one CRISPR plasmid for integrating, deleting, or replacing a gene in S.
+    cerevisiae. High-copy, URA3 plasmid contains human codon-optimized Cas9 and a
+    guide RNA targeting ARS805a sequence TTATTTGAATGATATTTAGT in yeast chromosome
+    8.'
+  selection_markers:
+  - ura3 ampicillin
+- backbone: pGT79
+  promoters: []
+  description: integrating crtE/crtE(opt) into YMRWdelta15 locus with G418 marker
+  selection_markers:
+  - amp
+  - G418
+- backbone: pcut-R_607c
+  promoters: []
+  description: 'p426_Cas9_gRNA-ARS607c without ribozyme
+
+    All-in-one CRISPR plasmid for integrating, deleting, or replacing a gene in S.
+    cerevisiae. High-copy, URA3 plasmid contains human codon-optimized Cas9 and a
+    guide RNA targeting ARS607c sequence CTATTTTTGCTTTCTGCACA in yeast chromosome
+    6.'
+  selection_markers:
+  - ura3 ampicillin
+- backbone: pcut_LEU_1014a
+  promoters: []
+  description: "p425_Cas9_gRNA-ARS1014a \nAll-in-one CRISPR plasmid for integrating,\
+    \ deleting, or replacing a gene in S. cerevisiae. High-copy, LEU2 plasmid contains\
+    \ human codon-optimized Cas9 and a guide RNA targeting ARS1014a sequence TTATGTGCGTATTGCTTTCA\
+    \ in yeast chromosome 10."
+  selection_markers:
+  - LEU2 ampicillin
+- backbone: pcut-R_1206a
+  promoters: []
+  description: 'p426_Cas9_gRNA-ARS1206a without ribozyme
+
+    All-in-one CRISPR plasmid for integrating, deleting, or replacing a gene in S.
+    cerevisiae. High-copy, URA3 plasmid contains human codon-optimized Cas9 and a
+    guide RNA targeting ARS1206a sequence CGAACATTTTTCCATGCGCT in yeast chromosome
+    12.'
+  selection_markers:
+  - ura3 ampicillin
+- backbone: pcut-R_607b
+  promoters: []
+  description: 'p426_Cas9_gRNA-ARS607b without ribozyme
+
+    All-in-one CRISPR plasmid for integrating, deleting, or replacing a gene in S.
+    cerevisiae. High-copy, URA3 plasmid contains human codon-optimized Cas9 and a
+    guide RNA targeting ARS607b   sequence CCAGCGTAAGGTAAATATTA in yeast chromosome
+    6.'
+  selection_markers:
+  - ura3 ampicillin
+- backbone: pcut-R_RDS1a
+  promoters: []
+  description: 'p426_Cas9_gRNA-RDS1a without the ribozyme
+
+    All-in-one CRISPR plasmid for integrating, deleting, or replacing a gene in S.
+    cerevisiae. High-copy, URA3 plasmid contains human codon-optimized Cas9 and a
+    guide RNA targeting RDS1a sequence ATTCAATACGAAATGTGTGC in yeast chromosome 3.'
+  selection_markers:
+  - ura3 ampicillin
+- backbone: p426_Cas9_gRNA-ARS1622b
+  promoters: []
+  description: All-in-one CRISPR plasmid for integrating, deleting, or replacing a
+    gene in S. cerevisiae. High-copy, URA3 plasmid contains human codon-optimized
+    Cas9 and a guide RNA targeting ARS1622b  sequence GTCACGTTCCTGAGGTTACT in yeast
+    chromosome 16.
+  selection_markers:
+  - ura3 ampicillin
+- backbone: p426_Cas9_gRNA-YPRCd15c
+  promoters: []
+  description: All-in-one CRISPR plasmid for integrating, deleting, or replacing a
+    gene in S. cerevisiae. High-copy, URA3 plasmid contains human codon-optimized
+    Cas9 and a guide RNA targeting YPRCd15c sequence AATCCGAACAACAGAGCATA in yeast
+    chromosome 14.
+  selection_markers:
+  - ura3 ampicillin
+- backbone: p426_Cas9_gRNA-HIS3b
+  promoters: []
+  description: All-in-one CRISPR plasmid for integrating, deleting, or replacing a
+    gene in S. cerevisiae. High-copy, URA3 plasmid contains human codon-optimized
+    Cas9 and a guide RNA targeting HIS3b sequence AATATAGAGTGTACTAGAGG in yeast chromosome
+    15.
+  selection_markers:
+  - ura3 ampicillin
+- backbone: p426_Cas9_gRNA-YOLCd1b
+  promoters: []
+  description: All-in-one CRISPR plasmid for integrating, deleting, or replacing a
+    gene in S. cerevisiae. High-copy, URA3 plasmid contains human codon-optimized
+    Cas9 and a guide RNA targeting YOLCd1b  sequence GACTAGTTAAGCGAGCATGT in yeast
+    chromosome 15.
+  selection_markers:
+  - ura3 ampicillin
+- backbone: p426_Cas9_gRNA-ARS805a
+  promoters: []
+  description: All-in-one CRISPR plasmid for integrating, deleting, or replacing a
+    gene in S. cerevisiae. High-copy, URA3 plasmid contains human codon-optimized
+    Cas9 and a guide RNA targeting ARS805a  sequence TTATTTGAATGATATTTAGT in yeast
+    chromosome 8.
+  selection_markers:
+  - ura3 ampicillin
+- backbone: p426_Cas9_gRNA-ARS1021b
+  promoters: []
+  description: All-in-one CRISPR plasmid for integrating, deleting, or replacing a
+    gene in S. cerevisiae. High-copy, URA3 plasmid contains human codon-optimized
+    Cas9 and a guide RNA targeting ARS1021b sequence CCTCTGTGTGGTGGTAATTG in yeast
+    chromosome 10.
+  selection_markers:
+  - ura3 ampicillin
+- backbone: p426_Cas9_gRNA-CAN1y
+  promoters: []
+  description: All-in-one CRISPR plasmid for integrating, deleting, or replacing a
+    gene in S. cerevisiae. High-copy, URA3 plasmid contains human codon-optimized
+    Cas9 and a guide RNA targeting CAN1y  sequence GATACGTTCTCTATGGAGGA in yeast chromosome
+    6.
+  selection_markers:
+  - ura3 ampicillin
+- backbone: p426_Cas9_gRNA-ARS720a
+  promoters: []
+  description: All-in-one CRISPR plasmid for integrating, deleting, or replacing a
+    gene in S. cerevisiae. High-copy, URA3 plasmid contains human codon-optimized
+    Cas9 and a guide RNA targeting ARS720a  sequence CAACAATTGTTACAATAGTA in yeast
+    chromosome 7.
+  selection_markers:
+  - ura3 ampicillin
+- backbone: p426_Cas9_gRNA-ARS1114a
+  promoters: []
+  description: All-in-one CRISPR plasmid for integrating, deleting, or replacing a
+    gene in S. cerevisiae. High-copy, URA3 plasmid contains human codon-optimized
+    Cas9 and a guide RNA targeting ARS1114a sequence CTTGTGAAACAAATAATTGG in yeast
+    chromosome 11.
+  selection_markers:
+  - ura3 ampicillin
+- backbone: p426_Cas9_gRNA-ARS911b
+  promoters: []
+  description: All-in-one CRISPR plasmid for integrating, deleting, or replacing a
+    gene in S. cerevisiae. High-copy, URA3 plasmid contains human codon-optimized
+    Cas9 and a guide RNA targeting ARS911b  sequence GTAATATTGTCTTGTTTCCC in yeast
+    chromosome 9.
+  selection_markers:
+  - ura3 ampicillin
+- backbone: p426_Cas9_gRNA-ARS1206a
+  promoters: []
+  description: All-in-one CRISPR plasmid for integrating, deleting, or replacing a
+    gene in S. cerevisiae. High-copy, URA3 plasmid contains human codon-optimized
+    Cas9 and a guide RNA targeting ARS1206a sequence CGAACATTTTTCCATGCGCT in yeast
+    chromosome 12.
+  selection_markers:
+  - ura3 ampicillin
+- backbone: p426_Cas9_gRNA-ARS1414a
+  promoters: []
+  description: All-in-one CRISPR plasmid for integrating, deleting, or replacing a
+    gene in S. cerevisiae. High-copy, URA3 plasmid contains human codon-optimized
+    Cas9 and a guide RNA targeting ARS1414a sequence GCGCCACAGTTTCAAGGGTC in yeast
+    chromosome 14.
+  selection_markers:
+  - ura3 ampicillin
+- backbone: p426_Cas9_gRNA-ARS1309a
+  promoters: []
+  description: All-in-one CRISPR plasmid for integrating, deleting, or replacing a
+    gene in S. cerevisiae. High-copy, URA3 plasmid contains human codon-optimized
+    Cas9 and a guide RNA targeting ARS1309a sequence CCTGTGGTGACTACGTATCC in yeast
+    chromosome 13.
+  selection_markers:
+  - ura3 ampicillin
+- backbone: p426_Cas9_gRNA-ARS1014a
+  promoters: []
+  description: All-in-one CRISPR plasmid for integrating, deleting, or replacing a
+    gene in S. cerevisiae. High-copy, URA3 plasmid contains human codon-optimized
+    Cas9 and a guide RNA targeting ARS1014a sequence TTATGTGCGTATTGCTTTCA in yeast
+    chromosome 10.
+  selection_markers:
+  - ura3 ampicillin
+- backbone: p426_Cas9_gRNA-SAP155c
+  promoters: []
+  description: "All-in-one CRISPR plasmid for integrating, deleting, or replacing\
+    \ a gene in S. cerevisiae. High-copy, URA3 plasmid contains human codon-optimized\
+    \ Cas9 and a guide RNA targeting SAP155c  sequence ATGAAAGACAACTATAGGGC\n in yeast\
+    \ chromosome 6."
+  selection_markers:
+  - ura3 ampicillin
+- backbone: p426_Cas9_gRNA-ARS511b
+  promoters: []
+  description: All-in-one CRISPR plasmid for integrating, deleting, or replacing a
+    gene in S. cerevisiae. High-copy, URA3 plasmid contains human codon-optimized
+    Cas9 and a guide RNA targeting ARS511b  sequence CAGTGTATGCCAGTCAGCCA in yeast
+    chromosome 5.
+  selection_markers:
+  - ura3 ampicillin
+- backbone: p426_Cas9_gRNA-ARS308a
+  promoters: []
+  description: All-in-one CRISPR plasmid for integrating, deleting, or replacing a
+    gene in S. cerevisiae. High-copy, URA3 plasmid contains human codon-optimized
+    Cas9 and a guide RNA targeting ARS308a sequence CACTTGTCAAACAGAATATA in yeast
+    chromosome 3.
+  selection_markers:
+  - ura3 ampicillin
+- backbone: p426_Cas9_gRNA-ARS208a
+  promoters: []
+  description: All-in-one CRISPR plasmid for integrating, deleting, or replacing a
+    gene in S. cerevisiae. High-copy, URA3 plasmid contains human codon-optimized
+    Cas9 and a guide RNA targeting ARS208a sequence GTCCGCTAAACAAAAGATCT in yeast
+    chromosome 2.
+  selection_markers:
+  - ura3 ampicillin
+- backbone: p426_Cas9_gRNA-ARS607c
+  promoters: []
+  description: All-in-one CRISPR plasmid for integrating, deleting, or replacing a
+    gene in S. cerevisiae. High-copy, URA3 plasmid contains human codon-optimized
+    Cas9 and a guide RNA targeting ARS607c  sequence CTATTTTTGCTTTCTGCACA in yeast
+    chromosome 6.
+  selection_markers:
+  - ura3 ampicillin
+- backbone: p426_Cas9_gRNA-ARS416d
+  promoters: []
+  description: All-in-one CRISPR plasmid for integrating, deleting, or replacing a
+    gene in S. cerevisiae. High-copy, URA3 plasmid contains human codon-optimized
+    Cas9 and a guide RNA targeting ARS416d  sequence TAGTGCACTTACCCCACGTT in yeast
+    chromosome 4.
+  selection_markers:
+  - ura3 ampicillin
+- backbone: p426_Cas9_gRNA-SAP155b
+  promoters: []
+  description: All-in-one CRISPR plasmid for integrating, deleting, or replacing a
+    gene in S. cerevisiae. High-copy, URA3 plasmid contains human codon-optimized
+    Cas9 and a guide RNA targeting SAP155b  sequence GGTTTTCATACTGGGGCCGC in yeast
+    chromosome 6.
+  selection_markers:
+  - ura3 ampicillin
+- backbone: p426_Cas9_gRNA-RDS1a
+  promoters: []
+  description: All-in-one CRISPR plasmid for integrating, deleting, or replacing a
+    gene in S. cerevisiae. High-copy, URA3 plasmid contains human codon-optimized
+    Cas9 and a guide RNA targeting RDS1a sequence ATTCAATACGAAATGTGTGC in yeast chromosome
+    3.
+  selection_markers:
+  - ura3 ampicillin
+- backbone: p426_Cas9_gRNA-ARS106a
+  promoters: []
+  description: All-in-one CRISPR plasmid for integrating, deleting, or replacing a
+    gene in S. cerevisiae. High-copy, URA3 plasmid contains human codon-optimized
+    Cas9 and a guide RNA targeting ARS106a sequence ATACGGTCAGGGTAGCGCCC in yeast
+    chromosome 1.
+  selection_markers:
+  - ura3 ampicillin
+bibliographicCitation: https://public-registry.jbei.org/folders/248
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00248
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

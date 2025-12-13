@@ -1,0 +1,64 @@
+brc: CABBI
+date: '2025-06-20'
+title: Historical Land Management Alters New Soil Carbon Inputs by Annual and Perennial
+  Bioenergy Crops
+creator:
+- name: Marshall McDaniel
+  email: marsh@iastate.edu
+  affiliation: Iowa State University
+  primaryContact: true
+- name: Andy VanLoocke
+  email: andyvanl@iastate.edu
+  affiliation: Iowa State University
+  primaryContact: false
+- name: Emily Heaton
+  email: heaton6@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 183674
+  scientificName: Miscanthus x giganteus
+keywords:
+- Miscanthus
+- Nitrogen
+- Soil Organic Matter
+- Iowa
+identifier: 10.5061/dryad.ns1rn8q4v
+repository: Dryad
+description: Bioenergy and bioproduct markets are expanding to meet demand for climate
+  friendly goods and services. Perennial biomass crops are particularly well suited
+  for this goal because of their high yields, low input requirements, and potential
+  to increase soil carbon (C). However, it is unclear how much C is allocated into
+  belowground pools by perennial bioenergy crops and whether the belowground benefits
+  vary with nitrogen (N) fertilizer inputs. Using in situ 13C pulse-chase labeling,
+  we tested whether the sterile perennial grass Miscanthus × giganteus (miscanthus)
+  or annual maize transfers more photosynthetic C to belowground pools. The experiment
+  took place at two sites in Central and Northwest (NW) Iowa with different management
+  histories and two nitrogen (N) fertilizer rates (0 and 224 kg N ha-1 yr-1) to determine
+  if the fate of plant-derived soil C depends on soil fertility and crop type (perennial
+  or annual). Maize allocated a greater percentage of total new 13C to roots than
+  miscanthus, but miscanthus had greater new 13C in total and belowground plant biomass.
+  We found strong interactions between site and most soil measurements – including
+  new 13C in mineral and particulate soil organic matter (SOM) pools –which appear
+  to be driven by differences in historical fertilizer management. The NW Iowa site,
+  with a history of manure inputs, had greater plant-available nutrients (phosphorus,
+  potassium, and ammonium) in soils, and resulted in less 13C from miscanthus in SOM
+  pools compared to maize (approximately 64% less in POM and 70% less in MAOM). In
+  more nutrient-limited soils (Central site), miscanthus transferred 4.5 times more
+  13C than maize to the more stable mineral-associated SOM pool. Our results suggest
+  that past management, including historical manure inputs that affect a site’s soil
+  fertility, can influence the net C benefits of bioenergy crops.
+relatedItem:
+- title: Historical Land Management Alters New Soil Carbon Inputs by Annual and Perennial
+    Bioenergy Crops
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/gcbb.70052
+- title: Table data and supplementary info for Historical land management alters new
+    soil carbon inputs by annual and perennial bioenergy crops
+  relatedItemType: Dataset
+  relatedItemIdentifier: https://doi.org/10.13012/B2IDB-1994048_V1
+bibliographicCitation: https://doi.org/10.5061/dryad.ns1rn8q4v
+schema_version: 0.1.1
+uid: CABBI_10.5061/dryad.ns1rn8q4v
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-10T06:00:05.195Z'

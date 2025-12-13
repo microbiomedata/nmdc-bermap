@@ -1,0 +1,58 @@
+brc: CABBI
+date: '2022-02-10'
+title: 'Data for Responsiveness of Miscanthus and Switchgrass Yields to Stand Age
+  and Nitrogen Fertilization: A Meta-regression Analysis'
+creator:
+- name: Khanna, Madhu
+  email: khanna1@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+- name: Long, Stephen P.
+  email: slong@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Sacks, Erik J.
+  email: esacks@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: DeLucia, Evan H.
+  email: delucia@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Heaton, Emily A.
+  email: heaton6@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+- name: Lee, DoKyoung
+  email: leedk@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: false
+species:
+- NCBITaxID: 183674
+  scientificName: Miscanthus x giganteus
+- NCBITaxID: 38727
+  scientificName: Panicum virgatum
+keywords:
+- miscanthus
+- switchgrass
+- yield
+- meta-analysis
+identifier: 10.13012/B2IDB-3580461_V1
+repository: Illinois Data Bank
+description: The compiled datasets include plot level observations of energy crops
+  (miscanthus and switchgrass) from recent experimental field trials in the US including
+  dry biomass yield, location, state, region, harvest year, growing season degree
+  days (GDD), winter season heating degree days (HDD), growing season cumulative precipitation,
+  annual nitrogen application rate, age of the pant when harvested, National Commodity
+  Crop Productivity Index (NCCPI) values, and cultivar type (switchgrass) from various
+  published and unpublished sources.
+relatedItem:
+- title: 'Responsiveness of miscanthus and switchgrass yields to stand age and nitrogen
+    fertilization: A meta-regression analysis'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/gcbb.12929
+bibliographicCitation: https://doi.org/10.13012/B2IDB-3580461_V1
+schema_version: 0.1.1
+uid: CABBI_10.13012/B2IDB-3580461_V1
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.626Z'

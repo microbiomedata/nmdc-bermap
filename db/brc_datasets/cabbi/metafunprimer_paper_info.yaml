@@ -1,0 +1,47 @@
+brc: CABBI
+date: '2021-09-21'
+title: MetaFunPrimer
+creator:
+- name: Howe, Adina
+  email: adina@iastate.edu
+  affiliation: Iowa State University
+  primaryContact: true
+keywords:
+- Primer design
+- Gene targets
+- soils
+identifier: MetaFunPrimer_paper_info
+repository: GitHub
+description: Genes belonging to the same functional group may include numerous and
+  variable gene sequences, making characterizing and quantifying difficult. Therefore,
+  high-throughput design tools are needed to simultaneously create primers for improved
+  quantification of target genes. We developed MetaFunPrimer, a bioinformatic pipeline,
+  to design primers for numerous genes of interest. This tool also enables gene target
+  prioritization based on ranking the presence of genes in user-defined references,
+  such as environment-specific metagenomes. Given inputs of protein and nucleotide
+  sequences for gene targets of interest and an accompanying set of reference metagenomes
+  or genomes, MetaFunPrimer generates primers for ranked genes of interest. To demonstrate
+  the usage and benefits of MetaFunPrimer, a total of 78 primer pairs were designed
+  to target observed ammonia monooxygenase subunit A (amoA) genes of ammonia-oxidizing
+  bacteria (AOB) in 1,550 publicly available soil metagenomes. We demonstrate computationally
+  that these amoA-AOB primers can cover 94% of the amoA-AOB genes observed in the
+  1,550 soil metagenomes compared with a 49% estimated coverage by previously published
+  primers. Finally, we verified the utility of these primer sets in incubation experiments
+  that used long-term nitrogen fertilized or unfertilized soils. High-throughput quantitative
+  PCR (qPCR) results and statistical analyses showed significant differences in relative
+  quantification patterns between the two soils, and subsequent absolute quantifications
+  also confirmed that target genes enumerated by six selected primer pairs were significantly
+  more abundant in the nitrogen-fertilized soils. This new tool gives microbial ecologists
+  a new approach to assess functional gene abundance and related microbial community
+  dynamics quickly and affordably.
+relatedItem:
+- title: 'MetaFunPrimer: an Environment-Specific, High-Throughput Primer Design Tool
+    for Improved Quantification of Target Genes'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: http://doi.org/10.1128/mSystems.00201-21
+analysisType: Code
+bibliographicCitation: https://github.com/PayamDiba/Manuscript_tools/tree/main/MetaFunPrimer_paper_info
+schema_version: 0.1.1
+uid: CABBI_MetaFunPrimer_paper_info
+created_at: '2025-11-18T20:03:56.777Z'
+updated_at: '2025-12-11T00:00:04.629Z'

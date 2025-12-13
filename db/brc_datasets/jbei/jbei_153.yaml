@@ -1,0 +1,35 @@
+id: jbei:153
+brc: JBEI
+date: '2015-03-04'
+title: Cheng et al. 2013
+creator:
+- name: Jennifer Hiras
+  email: jhiras@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species: []
+keywords: []
+identifier: jbei:folder:00153
+repository: ICE
+datasetName: Cheng et al. 2013
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/153
+description: null
+relatedItem:
+- title: 'Used in: Cheng, X., Hiras, J., Deng, K., Bowen, B., Simmons, B. A., Adams,
+    P. D., Singer, S. W., &amp; Northen, T. R. (2013). “High throughput nanostructure-initiator
+    mass spectrometry screening of microbial growth conditions for maximal beta-glucosidase
+    production”. Front Microbiol, 4, 365.'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: null
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features: []
+bibliographicCitation: https://public-registry.jbei.org/folders/153
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00153
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.619Z'

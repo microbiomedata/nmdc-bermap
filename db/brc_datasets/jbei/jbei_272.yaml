@@ -1,0 +1,71 @@
+id: jbei:272
+brc: JBEI
+date: '2016-05-06'
+title: Kolinko et al. 2017
+creator:
+- name: Sebastian Kolinko
+  email: sdkolinko@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Dario Frey
+  email: dariofrey@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 1906605
+  scientificName: Candidatus Reconcilibacillus cellulovorans
+keywords: []
+identifier: jbei:folder:00272
+repository: ICE
+datasetName: Kolinko et al. 2017
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/272
+description: This dataset contains three pET39b(+) expression plasmids for producing
+  cellulase enzymes from 'Candidatus Reconcilibacillus cellulovorans' in *E. coli*.
+  The plasmids carry the genes `celA`, `celB`, and `celC`, with the former two being
+  codon-optimized for the expression host. All constructs are designed for IPTG-inducible
+  expression and include a C-terminal TEV site and 6xHis tag to facilitate protein
+  purification.
+relatedItem: []
+analysisType: affinity_purification
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: pET-RC-CelC-TEVHis
+  promoters: []
+  description: 'pET39b(+) derivative with celC from ''Candidatus Reconcilibacillus
+    cellulovorans'' cloned for expression in E.coli. C-terminal TEV site and 6xHis
+    tag.
+
+    IPTG induced overexpression in E.coli.'
+  selection_markers:
+  - None
+  - Kanamycin
+- backbone: pET-RC-CelAopt-TEVHis
+  promoters: []
+  description: 'pET39b(+) derivative with celA from ''Candidatus Reconcilibacillus
+    cellulovorans'' codon optimized for expression in E.coli. C-terminal TEV site
+    and 6xHis tag.
+
+    IPTG induced overexpression in E.coli.'
+  selection_markers:
+  - Kanamycin
+- backbone: pET-RC-CelBopt-TEVHis
+  promoters: []
+  description: 'pET39b(+) derivative with celB from ''Candidatus Reconcilibacillus
+    cellulovorans'' codon optimized for expression in E.coli. C-terminal TEV site
+    and 6xHis tag.
+
+    IPTG induced overexpression in E.coli.'
+  selection_markers:
+  - Kanamycin
+bibliographicCitation: https://public-registry.jbei.org/folders/272
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00272
+created_at: '2025-11-18T20:03:56.768Z'
+updated_at: '2025-12-11T00:00:04.620Z'

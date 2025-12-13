@@ -1,0 +1,97 @@
+id: jbei:302
+brc: JBEI
+date: '2017-04-06'
+title: Mendez-Perez_et_al_2017
+creator:
+- name: Daniel Mendez Perez
+  email: dmendezperez@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 1896109
+  scientificName: Hypoxylon sp.
+- NCBITaxID: 1901
+  scientificName: Streptomyces clavuligerus
+keywords: []
+identifier: jbei:folder:00302
+repository: ICE
+datasetName: Mendez-Perez_et_al_2017
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/302
+description: This dataset comprises 14 plasmids for the metabolic engineering of *E.
+  coli* to produce monoterpenes, including cineole, linalool, and pinene. The constructs
+  feature various terpene synthases from bacterial and fungal sources, often co-expressed
+  with geranyl pyrophosphate synthase (GPPS). These plasmids represent diverse strategies
+  to optimize precursor supply, such as engineering the native MEP pathway via an
+  ispA mutation or introducing the heterologous mevalonate pathway.
+relatedItem: []
+analysisType: not specified
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: ptrc99a-GPPS-CSstr-ispA*
+  promoters: []
+  description: cineole synthase, ispA mutant
+  selection_markers: []
+- backbone: pBbA5c-MTSA-T1-MBI(fixed)-Ptrc-CSstr
+  promoters: []
+  description: pBbA5c-MTSA-T1-MBI(fixed) with bacterial cineole synthase
+  selection_markers: []
+- backbone: ptrc-GPPS-CS-IspA
+  promoters: []
+  description: Bacterial cineole synthase and E coli's ispA
+  selection_markers: []
+- backbone: ptrc-GPPS-LinS-ispA*
+  promoters: []
+  description: Linalool synthase, ispA mutant
+  selection_markers: []
+- backbone: pTrc99a-ispA*-Km
+  promoters: []
+  description: Plasmid to introduce a point mutation in native E coli's ispA (S81F)
+  selection_markers: []
+- backbone: ptrc-GPPS-CSstr
+  promoters: []
+  description: ptrc-GPPS-CSstr
+  selection_markers: []
+- backbone: ptrc-GPPS-LinS
+  promoters: []
+  description: Linalool synthase
+  selection_markers: []
+- backbone: ptrc-GPPS-CSHyp3
+  promoters: []
+  description: Cineole synthase from Hypoxylon sp. and GPPS
+  selection_markers: []
+- backbone: ptrc-GPPS
+  promoters: []
+  description: ptrc-GPPS
+  selection_markers: []
+- backbone: ptrc-CSstr
+  promoters: []
+  description: ptrc with cineole synthase from S. clavuligerus
+  selection_markers: []
+- backbone: pBbA5c-MTSA-T1-MBI-T1002-ptrc-GPPS-PS
+  promoters: []
+  description: Pinene synthase-GPPS fusion with mevalonate genes
+  selection_markers: []
+- backbone: pBbA5c-MTSA-T1-MBI-T1002-ptrc-GPPS-CShyp3
+  promoters: []
+  description: Cineole synthase Hyp3 in one plasmid with all mevalonate pathway genes
+  selection_markers:
+  - Chloramphenicol (30)
+- backbone: pBbA5c-MTSA-T1-MBI-T1002-ptrc-GPPS-CSstr
+  promoters: []
+  description: pBbA5c-MTSA-T1-MBI(fixed)-T2-ptrc-GPPS-CSstr
+  selection_markers: []
+- backbone: pBbA5c-MTSA-T1-MBI-T1002-ptrc-GPPS-LinS
+  promoters: []
+  description: Linalool synthase
+  selection_markers: []
+bibliographicCitation: https://public-registry.jbei.org/folders/302
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00302
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

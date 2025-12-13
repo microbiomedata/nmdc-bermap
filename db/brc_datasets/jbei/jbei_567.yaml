@@ -1,0 +1,123 @@
+id: jbei:567
+brc: JBEI
+date: '2020-03-11'
+title: Gauttam et al 20202b
+creator:
+- name: Rahul Gauttam
+  email: rgauttam@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 303
+  scientificName: Pseudomonas putida
+keywords: []
+identifier: jbei:folder:00567
+repository: ICE
+datasetName: Gauttam et al 20202b
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/567
+description: This dataset provides a collection of pRGPDuo series plasmids, which
+  are dual-inducible duet expression vectors designed for controlled gene expression
+  in both *E. coli* and *Pseudomonas putida*. The plasmids are configured to express
+  the fluorescent reporter proteins RFP and sfGFP, driven by various inducible promoters
+  such as pBAD, pTac, and PtetR/tetA. This collection enables the characterization
+  and modular use of these vectors for synthetic biology and metabolic engineering
+  applications.
+relatedItem: []
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: pBBR1
+  backbone: pRGPDuo3-RFPbad
+  promoters: []
+  description: pRGPDuo3 carrying RFP under pBAD
+  selection_markers: []
+- ori: pBBR1
+  backbone: pRGPDuo3-sfGFPbad
+  promoters: []
+  description: pRGPDuo3 carrying sfGFP under pBAD
+  selection_markers:
+  - Gentamycin
+- ori: pRO1600; colE1
+  backbone: pRGPDuo4-RFPtac
+  promoters: []
+  description: pRGPDuo4 carrying RFP under pTac
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPDuo4-sfGFPtac
+  promoters: []
+  description: pRGPDuo4 carrying sfGFP under pTac
+  selection_markers:
+  - Kanamycin
+- ori: pBBR1
+  backbone: pRGPDuo3-sfGFPtac
+  promoters: []
+  description: pRGPDuo3 carrying sfGFP under pTac
+  selection_markers:
+  - Gentamycin
+- ori: pRO1600; colE1
+  backbone: pRGPDuo4-sfGFPbad
+  promoters: []
+  description: pRGPDuo4 carrying sfGFP under pBAD
+  selection_markers:
+  - Kanamycin
+- ori: pRO1600; colE1
+  backbone: pRGPDuo4-RFPbad
+  promoters: []
+  description: pRGPDuo4 carrying RFP under pBAD
+  selection_markers:
+  - Kanamycin
+- ori: pBBR1
+  backbone: pRGPDuo1-RFPtet
+  promoters: []
+  description: pRGPDuo1 carrying RFP under PtetR/tetA promoter
+  selection_markers:
+  - Gentamycin
+- ori: pBBR1
+  backbone: pRGPDuo3
+  promoters: []
+  description: dual inducible duet expression vector for P. putida and E. coli
+  selection_markers:
+  - Gentamycin
+- ori: pBBR1
+  backbone: pRGPDuo1-RFPtac
+  promoters: []
+  description: pRGPDuo1 carrying RFP under pTac
+  selection_markers:
+  - Gentamycin
+- ori: pBBR1
+  backbone: pRGPDuo1-sfGFPtac
+  promoters: []
+  description: pRGPDuo1 carrying sfGFP under pTac promoter
+  selection_markers:
+  - Gentamycin
+- ori: pRO1600; colE1
+  backbone: pRGPDuo4
+  promoters: []
+  description: dual inducible duet expression vector for E. coli and P. putida
+  selection_markers:
+  - Kanamycin
+- ori: pBBR1
+  backbone: pRGPDuo1-sfGFPtet
+  promoters: []
+  description: P. putida carrying pRGPDuo1-sfGFPtet
+  selection_markers:
+  - Gentamycin
+- ori: pBBR1
+  backbone: pRGPDuo1
+  promoters:
+  - pTac; ptetR/tetA
+  description: dual-inducible duet expression vector for gene expression in P. putida
+    and E. coli
+  selection_markers: []
+bibliographicCitation: https://public-registry.jbei.org/folders/567
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00567
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

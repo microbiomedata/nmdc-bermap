@@ -1,0 +1,38 @@
+brc: GLBRC
+date: '2024-09-04'
+title: Genetic modification of the shikimate pathway to reduce lignin content in switchgrass
+  (<i>Panicum virgatum</i> L.) significantly impacts plant microbiomes
+creator:
+- name: Greg Bonito
+  email: bonito@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: true
+- name: Gian Maria Niccolò Benucci
+  email: benucci@msu.edu
+  affiliation: GLBRC - Michigan State University
+  primaryContact: false
+species:
+- NCBITaxID: null
+  scientificName: Microbiome
+keywords:
+- actinobacteria
+- bioenergy crops
+- fungal and bacterial communities
+- genetic engineering
+- mycorrhizal fungi
+identifier: Liu_etal_2024_TransgenicSwitchgrassMicrobiome
+repository: GitHub
+description: 'Data and code to reproduce the analyses performed in: Genetic modification
+  of the shikimate pathway to reduce lignin content in switchgrass (Panicum virgatum
+  L.) significantly impacts plant microbiomes'
+relatedItem:
+- title: Genetic modification of the shikimate pathway to reduce lignin content in
+    switchgrass (<i>Panicum virgatum</i> L.) significantly impacts plant microbiomes
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://journals.asm.org/doi/10.1128/spectrum.01546-24
+analysisType: Code
+bibliographicCitation: https://github.com/Gian77/Scientific-Papers-R-Code/tree/master/Liu_etal_2024_TransgenicSwitchgrassMicrobiome
+schema_version: 0.1.7
+uid: GLBRC_Liu_etal_2024_TransgenicSwitchgrassMicrobiome
+created_at: '2025-11-20T18:00:04.760Z'
+updated_at: '2025-12-10T06:00:05.198Z'

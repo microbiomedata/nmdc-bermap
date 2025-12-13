@@ -1,0 +1,153 @@
+id: jbei:706
+brc: JBEI
+date: '2021-09-30'
+title: Biosensor guided PKS engineering
+creator:
+- name: Elias Englund
+  email: eliasenglund@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Satoshi Yuzawa
+  email: syuzawa@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 1836
+  scientificName: Saccharopolyspora erythraea
+- NCBITaxID: 56
+  scientificName: Sorangium cellulosum
+keywords: []
+identifier: jbei:folder:00706
+repository: ICE
+datasetName: Biosensor guided PKS engineering
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/706
+description: This dataset contains plasmids designed to engineer polyketide synthase
+  (PKS) modularity by swapping acyltransferase (AT) domains between different systems.
+  The collection focuses on replacing the native AT domain of DEBS Module 6 with an
+  AT from the epothilone PKS to alter its substrate specificity. Key constructs include
+  a library with randomized domain junctions to optimize function, specific boundary
+  variants, and mCherry reporter fusions for expression analysis.
+relatedItem: []
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- ori: ColE1
+  backbone: DEBS EposAT us52
+  promoters: []
+  description: DEBSM6 with EposAT and certain junctions
+  selection_markers: []
+- ori: ColE1
+  backbone: DEBS EposAT us84
+  promoters: []
+  description: DEBSM6 with EposAT and certain junctions
+  selection_markers: []
+- ori: ColE1
+  backbone: DEBS EposAT us79
+  promoters: []
+  description: DEBSM6 with EposAT and certain junctions
+  selection_markers: []
+- ori: ColE1
+  backbone: DEBS EposAT us48
+  promoters: []
+  description: DEBSM6 with EposAT and certain junctions
+  selection_markers: []
+- ori: ColE1
+  backbone: DEBS EposAT us27
+  promoters: []
+  description: DEBSM6 with EposAT and certain junctions
+  selection_markers: []
+- ori: ColE1
+  backbone: DEBS EposAT us26
+  promoters: []
+  description: DEBSM6 with EposAT and certain junctions
+  selection_markers: []
+- ori: ColE1
+  backbone: DEBS EposAT us3
+  promoters: []
+  description: DEBSM6 with EposAT and certain junctions
+  selection_markers: []
+- ori: ColE1
+  backbone: DEBS EposAT us1
+  promoters: []
+  description: DEBSM6 with EposAT and certain junctions
+  selection_markers: []
+- ori: ColE1
+  backbone: DEBS EposAT o33
+  promoters: []
+  description: DEBSM6 with EposAT and certain junctions
+  selection_markers: []
+- ori: ColE1
+  backbone: DEBS EposAT o08
+  promoters: []
+  description: DEBSM6 with EposAT and certain junctions
+  selection_markers: []
+- ori: ColE1
+  backbone: DEBS EposAT o17
+  promoters: []
+  description: DEBSM6 with EposAT and certain junctions
+  selection_markers: []
+- ori: ColE1
+  backbone: DEBSM6 swap junction library
+  promoters: []
+  description: Oligo pool swap junction library of EposAT swapped into DEBSM6. Each
+    colony in library has random upsteram and downstream juction
+  selection_markers: []
+- ori: ColE1
+  backbone: DEBS EposAT o04
+  promoters: []
+  description: DEBSM6 with EposAT and certain junctions
+  selection_markers: []
+- ori: ColE1
+  backbone: DEBS EposAT o15
+  promoters: []
+  description: DEBSM6 with EposAT and certain junctions
+  selection_markers: []
+- ori: ColE1
+  backbone: D1 mCherry
+  promoters: []
+  description: D1 fused with mCherry
+  selection_markers: []
+- ori: ColE1
+  backbone: D0 mCherry
+  promoters: []
+  description: D0 fused with mCherry
+  selection_markers: []
+- ori: ColE1
+  backbone: DEBSM6 mCherry
+  promoters: []
+  description: DEBSM6 fused with mCherry
+  selection_markers:
+  - KanR
+- ori: pBR322
+  backbone: pSY127
+  promoters:
+  - T7
+  description: AT-swapped DEBS Module 6+TE-His with D0 boundary, AT = EPOS M4
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pSY122
+  promoters:
+  - T7
+  description: AT-swapped DEBS Module 6+TE-His with D1 boundary, AT = EPOS M4
+  selection_markers:
+  - Kan
+- ori: pBR322
+  backbone: pSY121
+  promoters:
+  - T7
+  description: DEBS Module 6+TE-His (A to D mutation to create a Sal I site)
+  selection_markers:
+  - Kan
+bibliographicCitation: https://public-registry.jbei.org/folders/706
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00706
+created_at: '2025-11-18T20:03:56.771Z'
+updated_at: '2025-12-11T00:00:04.623Z'

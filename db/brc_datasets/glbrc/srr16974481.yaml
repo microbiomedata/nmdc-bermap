@@ -1,0 +1,46 @@
+brc: GLBRC
+date: '2023-07-28'
+title: SRX13165144: yHMH446_Pichia_sp_nov_plate33_SPADES
+creator:
+- name: Dana A. Opulente
+  email: dana.opulente@villanova.edu
+  affiliation: Biology Department Villanova University, Villanova, Pennsylvania, USA
+  primaryContact: true
+- name: Chris Todd Hittinger
+  email: chittinger@wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: false
+species:
+- NCBITaxID: 2866352
+  scientificName: Pichia sp. yHMH446
+keywords:
+- genome sequence
+- genotype-phenotype map
+- novel species
+- taxogenomics
+- yeast
+identifier: SRR16974481
+repository: NCBI SRA
+description: A novel budding yeast species was isolated from a soil sample collected
+  in the United States of America. Phylogenetic analyses of multiple loci and phylogenomic
+  analyses conclusively placed the species within the genus Pichia. Strain yHMH446
+  falls within a clade that includes Pichia norvegensis, Pichia pseudocactophila,
+  Candida inconspicua, and Pichia cactophila. Whole genome sequence data were analyzed
+  for the presence of genes known to be important for carbon and nitrogen metabolism,
+  and the phenotypic data from the novel species were compared to all Pichia species
+  with publicly available genomes. Across the genus, including the novel species candidate,
+  we found that the inability to use many carbon and nitrogen sources correlated with
+  the absence of metabolic genes. Based on these results, Pichia galeolata sp. nov.
+  is proposed to accommodate yHMH446(T) (=NRRL Y-64187 = CBS 16864). This study shows
+  how integrated taxogenomic analysis can add mechanistic insight to species descriptions.
+relatedItem:
+- title: D.A. Opulente et al. "Taxogenomic analysis of a novel yeast species isolated
+    from soil, Pichia galeolata sp. Nov" Yeast 40:608 (2023) [DOI:10.1002/yea.3905]
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://onlinelibrary.wiley.com/doi/10.1002/yea.3905
+analysisType: Genomics
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/sra/SRR16974481
+schema_version: 0.1.7
+uid: GLBRC_SRR16974481
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.197Z'

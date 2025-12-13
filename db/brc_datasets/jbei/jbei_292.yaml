@@ -1,0 +1,207 @@
+id: jbei:292
+brc: JBEI
+date: '2016-03-11'
+title: Liang_et_al_2017
+creator:
+- name: Yan Liang
+  email: yliang@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+- name: Veronica Teixeira Benites
+  email: veronicabenites@lbl.gov
+  affiliation: Joint BioEnergy Institute, Lawrence Berkeley National Laboratory Berkeley
+    CA 94720
+  primaryContact: true
+species:
+- NCBITaxID: 358
+  scientificName: Agrobacterium tumefaciens
+- NCBITaxID: 562
+  scientificName: Escherichia coli
+- NCBITaxID: 4100
+  scientificName: Nicotiana benthamiana
+- NCBITaxID: 4577
+  scientificName: Zea mays
+keywords: []
+identifier: jbei:folder:00292
+repository: ICE
+datasetName: Liang_et_al_2017
+datasetType: GD
+dataset_url: https://public-registry.jbei.org/folders/292
+description: This dataset contains 32 plant expression vectors designed to develop
+  and test a Csy4-based system for predictable gene regulation. The plasmids feature
+  the CRISPR-associated Csy4 ribonuclease for RNA processing, along with various reporter
+  genes (GFP, RFP, Luciferase) and selectable markers. These constructs employ a range
+  of constitutive (p35S), tissue-specific (pC4H), and inducible promoters to control
+  gene expression, enabling the engineering of complex traits for bioenergy applications.
+relatedItem: []
+analysisType: Expression profiling
+contributors: []
+additional_brcs: []
+has_related_ids: []
+plasmid_features:
+- backbone: C97
+  promoters: []
+  description: C97, pTKan-p35S-Csy4v2-YFP
+  selection_markers:
+  - Spect in Ecoli, Kan in plant
+- backbone: C331
+  promoters: []
+  description: pTKan-p35S::HPTII-pC4H::cogND02GFP
+  selection_markers:
+  - Spect in Ecoli, Kan in plant
+- backbone: C324
+  promoters: []
+  description: 'pTKan-p35S::ND02-pC4H::cogND02GFP     '
+  selection_markers:
+  - Spect in Ecoli, Kan in plant
+- backbone: C311
+  promoters: []
+  description: pTKan-pNOS::RFP-p35S::cogGFP2AGUS-pGCI::HPTII
+  selection_markers:
+  - Spect in Ecoli, Kan in plant
+- backbone: C335
+  promoters: []
+  description: pTKan-p35S::HPTII-pC4H::cogMZ1TGFP
+  selection_markers:
+  - Spect in Ecoli, Kan in plant
+- backbone: C328
+  promoters: []
+  description: 'pTKan-p35S::MZ1T-pC4H::cogMZ1TGFP                      '
+  selection_markers:
+  - Spect in Ecoli, Kan in plant
+- backbone: C286
+  promoters: []
+  description: pTKan-p35S::RFP-p35S::HPTII-pZmUbi::cogGFP
+  selection_markers:
+  - Spect in Ecoli, Kan in plant
+- backbone: C134
+  promoters: []
+  description: pTKan-p35S::Csy4-pNOS::cogRFP
+  selection_markers:
+  - Spect in Ecoli, Kan in plant
+- backbone: C310
+  promoters: []
+  description: pTKan-pNOS::RFP-p35S::cogGFP2AGUS-pGCI::Csy4
+  selection_markers:
+  - Spect in Ecoli, Kan in plant
+- backbone: C285
+  promoters: []
+  description: pTKan-p35S::RFP-p35S::Csy4-pZmUbi::cogGFP
+  selection_markers:
+  - Spect in Ecoli, Kan in plant
+- backbone: C137
+  promoters: []
+  description: pTKan-p35S::HPTII-pNOS::cogRFP
+  selection_markers:
+  - Spect in Ecoli, Kan in plant
+- backbone: C365
+  promoters: []
+  description: pTKan-p35S::Csy4-pC4H::cogFLUC
+  selection_markers:
+  - Spect in Ecoli, Kan in plant
+- backbone: C68
+  promoters: []
+  description: pTKan-p35S::Csy4
+  selection_markers:
+  - Spect in Ecoli, Kan in plant
+- backbone: C90
+  promoters: []
+  description: pTKan-p35S::Csy4-pC4H::cogRFP
+  selection_markers:
+  - Spect in Ecoli, Kan in plant
+- backbone: C362
+  promoters: []
+  description: pTKan-p35S::HPTII-pC4H::FLUC
+  selection_markers:
+  - Spect in Ecoli, Kan in plant
+- backbone: C360
+  promoters: []
+  description: pTKan-p35S::HPTII-pC4H::GFP
+  selection_markers:
+  - Spect in Ecoli, Kan in plant
+- backbone: C363
+  promoters: []
+  description: pTKan-p35S::HPTII-pC4H::cogFLUC
+  selection_markers:
+  - Spect in Ecoli, Kan in plant
+- backbone: C361
+  promoters: []
+  description: pTKan-p35S-Hyg-pC4H-DsRed
+  selection_markers:
+  - Spect in Ecoli
+- backbone: C330
+  promoters: []
+  description: ' pTKan-p35S-Hygr-pC4H-BBH18-cogGFP '
+  selection_markers:
+  - Spect in Ecoli
+- backbone: C332
+  promoters: []
+  description: ' pTKan-p35S-Hygr-pC4H-AB18-cogGFP '
+  selection_markers:
+  - Spect in Ecoli
+- backbone: C325
+  promoters: []
+  description: ' pTKan-p35S-ABH18-pC4H-ABH18cogGFP '
+  selection_markers:
+  - Spect in Ecoli
+- backbone: C326
+  promoters: []
+  description: ' pTKan-p35S-RP62a-pC4H-RP62acogGFP '
+  selection_markers:
+  - Spect in Ecoli
+- backbone: C336
+  promoters: []
+  description: ' pTKan-p35S-Hygr-pC4H-MG1655-cogGFP '
+  selection_markers:
+  - Spect in Ecoli
+- backbone: C329
+  promoters: []
+  description: ' pTKan-p35S-MG1655-pC4H-MG1655cogGFP '
+  selection_markers:
+  - Spect in Ecoli
+- backbone: C135
+  promoters: []
+  description: pTKan-p35S::HPTII-pNOS::cogGFP
+  selection_markers:
+  - Spect in Ecoli, Kan in plant
+- backbone: C323
+  promoters: []
+  description: ' pTKan-p35S-BBH18-pC4H-BBH18cogGFP '
+  selection_markers:
+  - Spect in Ecoli
+- backbone: C132
+  promoters: []
+  description: pTKan-p35S::Csy4-pNOS::cogGFP
+  selection_markers:
+  - Spect in Ecoli, Kan in plant
+- backbone: C91
+  promoters: []
+  description: pTKan-p35S::HPTII-pC4H::cogRFP
+  selection_markers:
+  - Spect in Ecoli, Kan in plant
+- backbone: C45
+  promoters: []
+  description: pTKan-p35S::HPTII-pC4H::cogGFP
+  selection_markers:
+  - Spect in Ecoli, Kan in plant
+- backbone: C352
+  promoters: []
+  description: ' pTKan-pNOS-DsREd-tNOS-p35S-GVG-tE9--pUAS-Csy4Nuc-pC4H-cogFFLuc'
+  selection_markers:
+  - Spect in Ecoli
+- backbone: C44
+  promoters: []
+  description: pTKan-p35S::Csy4-pC4H::cogGFP
+  selection_markers:
+  - Spect in Ecoli, Kan in plant
+- backbone: C354
+  promoters: []
+  description: ' pTKan-pNOS-DsREd-tNOS-p35S-GVG-tE9--pUAS-Hyg-pC4H-cogFFLuc'
+  selection_markers:
+  - Spect in Ecoli
+bibliographicCitation: https://public-registry.jbei.org/folders/292
+schema_version: 0.1.2
+uid: JBEI_jbei:folder:00292
+created_at: '2025-11-18T20:03:56.769Z'
+updated_at: '2025-12-11T00:00:04.621Z'

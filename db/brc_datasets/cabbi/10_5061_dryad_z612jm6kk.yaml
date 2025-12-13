@@ -1,0 +1,37 @@
+brc: CABBI
+date: '2024-04-08'
+title: 'Data from: Biomass yield, yield components and growing season phenotypic measurements
+  of Miscanthus'
+creator:
+- name: Lee, DoKyoung
+  email: leedk@illinois.edu
+  affiliation: University of Illinois Urbana-Champaign
+  primaryContact: true
+species:
+- NCBITaxID: 183674
+  scientificName: Miscanthus x giganteus
+keywords:
+- miscanthus
+- field data
+- biomass yield
+- phenotypic measurements
+identifier: 10.5061/dryad.z612jm6kk
+repository: Dryad
+description: Dataset contains end-of-season Dry biomass yield of Miscanthus × giganteus
+  from two sites (Urbana and Pesotum) in Central Illinois. The Urbana and Pesotum
+  yields are collected over 4 years (2018-2021) and 2 years (2020-2021) respectively.
+  Dataset also contains yield component traits (tiller height, tiller density and
+  tiller weight) obtained at harvest. Phenotypic traits (canopy height, Leaf area
+  index (LAI) and Leaf Chlorophyll content (LCC)) measured during the growing season
+  are also included.
+relatedItem:
+- title: 'Nitrogen Fertilization Effects on Aged Miscanthus x giganteus Stands: Exploring
+    Biomass Yield, Yield Components, and Biomass Prediction Using In-Season Morphological
+    Traits'
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://doi.org/10.1111/gcbb.13139
+bibliographicCitation: https://doi.org/10.5061/dryad.z612jm6kk
+schema_version: 0.1.1
+uid: CABBI_10.5061/dryad.z612jm6kk
+created_at: '2025-11-18T20:03:56.774Z'
+updated_at: '2025-12-11T00:00:04.624Z'

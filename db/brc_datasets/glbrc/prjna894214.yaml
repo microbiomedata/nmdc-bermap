@@ -1,0 +1,31 @@
+brc: GLBRC
+date: '2022-10-25'
+title: Genomic and transcriptomic analysis of Saccharomyces eubayanus isolates
+creator:
+- name: Chris Todd Hittinger
+  email: chittinger@wisc.edu
+  affiliation: GLBRC - University of Wisconsin
+  primaryContact: true
+species:
+- NCBITaxID: 1080349
+  scientificName: Saccharomyces eubayanus
+keywords:
+- yeast
+- mitochondria
+- evolution
+- selection
+- diversity
+identifier: PRJNA894214
+repository: NCBI BioProject
+description: WGS and RNA-seq of Saccharomyces eubayanus strain yHRVM108 and derivatives
+relatedItem:
+- title: J.G. Crandall et al. "Ploidy evolution in a wild yeast is linked to an interaction
+    between cell type and metabolism" PLOS Biology 21:e3001909 (2023) [DOI:10.1371/journal.pbio.3001909]
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001909
+analysisType: Genomics
+bibliographicCitation: https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA894214
+schema_version: 0.1.7
+uid: GLBRC_PRJNA894214
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.197Z'

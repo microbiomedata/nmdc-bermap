@@ -1,0 +1,33 @@
+brc: GLBRC
+date: '2014-05-21'
+title: Conditionally Rare Taxa detection scripts v1.0
+creator:
+- name: Ashley Shade
+  email: ashley.shade@cnrs.fr
+  affiliation: Laboratoire Ecologie Microbienne at the University of Lyon, France
+  primaryContact: true
+species:
+- NCBITaxID: null
+  scientificName: switchgrass, miscanthus, hybrid poplar, maize
+keywords:
+- Seasons
+- Microbiota/genetics
+- bacteria/genetics
+- metagenomce
+- panicum
+identifier: zenodo.10040
+repository: Zenodo
+description: 'First public release of R scripts, example dataset, and example results
+  to accompany the manuscript: "Conditionally rare taxa disproportionately contribute
+  to temporal changes in microbial diversity" by: Ashley Shade, Stuart E Jones, J
+  Gregory Caporaso, Jo Handelsman, Rob Knight, Noah Fierer and Jack A Gilbert'
+relatedItem:
+- title: Seasonal activities of the phyllosphere microbiome of perennial crops
+  relatedItemType: JournalArticle
+  relatedItemIdentifier: https://www.nature.com/articles/s41467-023-36515-y
+analysisType: Code
+bibliographicCitation: https://zenodo.org/records/10040
+schema_version: 0.1.7
+uid: GLBRC_zenodo.10040
+created_at: '2025-11-19T18:00:04.600Z'
+updated_at: '2025-12-10T06:00:05.197Z'

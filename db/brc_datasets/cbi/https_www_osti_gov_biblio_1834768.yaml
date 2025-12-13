@@ -1,0 +1,64 @@
+brc: CBI
+date: '2021-12-09'
+title: Root image collection from a genotype by environment (GxE) root architecture
+  study of the bioenergy species, Populus trichocarpa
+active: false
+creator:
+- name: Udaya C Kalluri
+  email: kalluriudayc@ornl.gov
+  orcid: 0000000259638370
+  primaryContact: true
+- name: Mac McClennan
+  email: mclennanda@ornl.gov
+  primaryContact: false
+- name: Sara Jawdy
+  email: jawdys@ornl.gov
+  primaryContact: false
+- name: Samuel Sparks
+  primaryContact: false
+- name: Mindy Clark
+  primaryContact: false
+- name: Stanton L Martin
+  orcid: 0000000192468193
+  primaryContact: false
+funding:
+- fundingOrganization:
+    organizationName: Center for Bioenergy Innovation
+- fundingOrganization:
+    organizationName: USDOE Office of Science (SC), Biological and Environmental Research
+      (BER)
+identifier: https://www.osti.gov/biblio/1834768
+description: 'Here we present a curated dataset; raw images of fresh roots collected
+  from a genotype by environment (growth matrix) greenhouse root architecture study
+  of the bioenergy species, Populus trichocarpa. Five separate experiments were performed
+  to generate the dataset. Biological replicates (ramets, vegetative propagants) of
+  Populus trichocarpa genotypes BESC 24 and BESC 375 were used for all experiments.
+  The first two experiments were an eight-week and a six-week pot experiment where
+  plants with grown in 4" X 14" sized pots were filled with Farfard 3B potting soil
+  (Fafard Sungro #3B), and watered twice daily. Average greenhouse humidity and growth
+  temperature were around 50-60% and 23°C, respectively. Ramets of P. trichocarpa
+  genotypes BESC 24 and BESC 375 were used in various experiments. The source of this
+  material was dormant field cuttings grown in greenhouse. The second experiment was
+  a Microcosm root architecture experiment. This was done in a microcosm built with
+  double-decker tissue culture Magenta box. Tissue culture plants with new root initials
+  were transferred to microcosm with pro choice rapid dry growth matrix with 1x Hoagland’s
+  solution pH5.7 and grown for six weeks until harvest. Temperature was held at ~22°C.
+  The closed container trapped moisture. The source material was tissue culture stock
+  plants established from shoot tips of greenhouse stock plants (obtained from same
+  set of dormant field cuttings as rest of the study). For the remaining two experiments,
+  greenwood stem cuttings from greenhouse grown plants were grown in six-week rhizotron
+  and two-week hydroponics experiments in the greenhouse. For rhizotron experiments,
+  plants were grown in 2-D rhizotron with black panels on both sides (31cm H x 30cm
+  L x 1.2cm W) and watered daily. For hydroponics experiment, plants were grown in
+  a 15ml falcon tube with distilled water and covered in foil and shaken a few times
+  a day. Greenhouse temperature was held at ~ 23°C and humidity was between 50-60%.
+  Stems were cut off and the root system was separated, gently washed to rid of matrix,
+  immersed in a water tray and scanned for obtaining raw root images reported here.
+  All scans of roots floating in a water tray were performed using an Epson Perfection
+  V850 Pro Photo Scanner. Additional meta data is embedded in the raw image files.'
+relatedItem: []
+bibliographicCitation: https://doi.org/10.25983/kalluri/1834768
+schema_version: 0.1.4
+uid: CBI_https://www.osti.gov/biblio/1834768
+created_at: '2025-11-18T20:03:56.778Z'
+updated_at: '2025-12-10T06:00:05.197Z'
