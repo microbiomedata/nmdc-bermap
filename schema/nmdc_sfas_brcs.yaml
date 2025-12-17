@@ -1,0 +1,4988 @@
+name: nmdc-sfas-brcs
+description: 'A LinkML schema for representing DOE BER (Biological and Environmental
+  Research)
+
+  funded Scientific Focus Areas (SFAs) and Bioenergy Research Centers (BRCs),
+
+  including their metadata, datasets, publications, and organizational structure.'
+title: NMDC SFAs and BRCs Schema
+see_also:
+- https://www.genomicscience.energy.gov
+- https://ess.science.energy.gov
+- https://science.osti.gov/ber
+id: https://w3id.org/nmdc/sfas-brcs
+imports:
+- linkml:types
+license: MIT
+prefixes:
+  nmdc_sfas_brcs:
+    prefix_prefix: nmdc_sfas_brcs
+    prefix_reference: https://w3id.org/nmdc/sfas-brcs/
+  linkml:
+    prefix_prefix: linkml
+    prefix_reference: https://w3id.org/linkml/
+  schema:
+    prefix_prefix: schema
+    prefix_reference: http://schema.org/
+  dcterms:
+    prefix_prefix: dcterms
+    prefix_reference: http://purl.org/dc/terms/
+  orcid:
+    prefix_prefix: orcid
+    prefix_reference: https://orcid.org/
+  ror:
+    prefix_prefix: ror
+    prefix_reference: https://ror.org/
+  doi:
+    prefix_prefix: doi
+    prefix_reference: https://doi.org/
+  pmid:
+    prefix_prefix: pmid
+    prefix_reference: https://www.ncbi.nlm.nih.gov/pubmed/
+  obo:
+    prefix_prefix: obo
+    prefix_reference: http://purl.obolibrary.org/obo/
+  IAO:
+    prefix_prefix: IAO
+    prefix_reference: http://purl.obolibrary.org/obo/IAO_
+  OBI:
+    prefix_prefix: OBI
+    prefix_reference: http://purl.obolibrary.org/obo/OBI_
+  NCBITaxon:
+    prefix_prefix: NCBITaxon
+    prefix_reference: http://purl.obolibrary.org/obo/NCBITaxon_
+default_prefix: nmdc_sfas_brcs
+default_range: string
+types:
+  string:
+    name: string
+    definition_uri: https://w3id.org/linkml/String
+    description: A character string
+    notes:
+    - In RDF serializations, a slot with range of string is treated as a literal or
+      type xsd:string.   If you are authoring schemas in LinkML YAML, the type is
+      referenced with the lower case "string".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    exact_mappings:
+    - schema:Text
+    base: str
+    uri: xsd:string
+  integer:
+    name: integer
+    definition_uri: https://w3id.org/linkml/Integer
+    description: An integer
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "integer".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    exact_mappings:
+    - schema:Integer
+    base: int
+    uri: xsd:integer
+  boolean:
+    name: boolean
+    definition_uri: https://w3id.org/linkml/Boolean
+    description: A binary (true or false) value
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "boolean".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    exact_mappings:
+    - schema:Boolean
+    base: Bool
+    uri: xsd:boolean
+    repr: bool
+  float:
+    name: float
+    definition_uri: https://w3id.org/linkml/Float
+    description: A real number that conforms to the xsd:float specification
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "float".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    exact_mappings:
+    - schema:Float
+    base: float
+    uri: xsd:float
+  double:
+    name: double
+    definition_uri: https://w3id.org/linkml/Double
+    description: A real number that conforms to the xsd:double specification
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "double".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    close_mappings:
+    - schema:Float
+    base: float
+    uri: xsd:double
+  decimal:
+    name: decimal
+    definition_uri: https://w3id.org/linkml/Decimal
+    description: A real number with arbitrary precision that conforms to the xsd:decimal
+      specification
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "decimal".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    broad_mappings:
+    - schema:Number
+    base: Decimal
+    uri: xsd:decimal
+  time:
+    name: time
+    definition_uri: https://w3id.org/linkml/Time
+    description: A time object represents a (local) time of day, independent of any
+      particular day
+    notes:
+    - URI is dateTime because OWL reasoners do not work with straight date or time
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "time".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    exact_mappings:
+    - schema:Time
+    base: XSDTime
+    uri: xsd:time
+    repr: str
+  date:
+    name: date
+    definition_uri: https://w3id.org/linkml/Date
+    description: a date (year, month and day) in an idealized calendar
+    notes:
+    - URI is dateTime because OWL reasoners don't work with straight date or time
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "date".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    exact_mappings:
+    - schema:Date
+    base: XSDDate
+    uri: xsd:date
+    repr: str
+  datetime:
+    name: datetime
+    definition_uri: https://w3id.org/linkml/Datetime
+    description: The combination of a date and time
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "datetime".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    exact_mappings:
+    - schema:DateTime
+    base: XSDDateTime
+    uri: xsd:dateTime
+    repr: str
+  date_or_datetime:
+    name: date_or_datetime
+    definition_uri: https://w3id.org/linkml/DateOrDatetime
+    description: Either a date or a datetime
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "date_or_datetime".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    base: str
+    uri: linkml:DateOrDatetime
+    repr: str
+  uriorcurie:
+    name: uriorcurie
+    definition_uri: https://w3id.org/linkml/Uriorcurie
+    description: a URI or a CURIE
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "uriorcurie".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    base: URIorCURIE
+    uri: xsd:anyURI
+    repr: str
+  curie:
+    name: curie
+    definition_uri: https://w3id.org/linkml/Curie
+    conforms_to: https://www.w3.org/TR/curie/
+    description: a compact URI
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "curie".
+    comments:
+    - in RDF serializations this MUST be expanded to a URI
+    - in non-RDF serializations MAY be serialized as the compact representation
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    base: Curie
+    uri: xsd:string
+    repr: str
+  uri:
+    name: uri
+    definition_uri: https://w3id.org/linkml/Uri
+    conforms_to: https://www.ietf.org/rfc/rfc3987.txt
+    description: a complete URI
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "uri".
+    comments:
+    - in RDF serializations a slot with range of uri is treated as a literal or type
+      xsd:anyURI unless it is an identifier or a reference to an identifier, in which
+      case it is translated directly to a node
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    close_mappings:
+    - schema:URL
+    base: URI
+    uri: xsd:anyURI
+    repr: str
+  ncname:
+    name: ncname
+    definition_uri: https://w3id.org/linkml/Ncname
+    description: Prefix part of CURIE
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "ncname".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    base: NCName
+    uri: xsd:string
+    repr: str
+  objectidentifier:
+    name: objectidentifier
+    definition_uri: https://w3id.org/linkml/Objectidentifier
+    description: A URI or CURIE that represents an object in the model.
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "objectidentifier".
+    comments:
+    - Used for inheritance and type checking
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    base: ElementIdentifier
+    uri: shex:iri
+    repr: str
+  nodeidentifier:
+    name: nodeidentifier
+    definition_uri: https://w3id.org/linkml/Nodeidentifier
+    description: A URI, CURIE or BNODE that represents a node in a model.
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "nodeidentifier".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    base: NodeIdentifier
+    uri: shex:nonLiteral
+    repr: str
+  jsonpointer:
+    name: jsonpointer
+    definition_uri: https://w3id.org/linkml/Jsonpointer
+    conforms_to: https://datatracker.ietf.org/doc/html/rfc6901
+    description: A string encoding a JSON Pointer. The value of the string MUST conform
+      to JSON Point syntax and SHOULD dereference to a valid object within the current
+      instance document when encoded in tree form.
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "jsonpointer".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    base: str
+    uri: xsd:string
+    repr: str
+  jsonpath:
+    name: jsonpath
+    definition_uri: https://w3id.org/linkml/Jsonpath
+    conforms_to: https://www.ietf.org/archive/id/draft-goessner-dispatch-jsonpath-00.html
+    description: A string encoding a JSON Path. The value of the string MUST conform
+      to JSON Point syntax and SHOULD dereference to zero or more valid objects within
+      the current instance document when encoded in tree form.
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "jsonpath".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    base: str
+    uri: xsd:string
+    repr: str
+  sparqlpath:
+    name: sparqlpath
+    definition_uri: https://w3id.org/linkml/Sparqlpath
+    conforms_to: https://www.w3.org/TR/sparql11-query/#propertypaths
+    description: A string encoding a SPARQL Property Path. The value of the string
+      MUST conform to SPARQL syntax and SHOULD dereference to zero or more valid objects
+      within the current instance document when encoded as RDF.
+    notes:
+    - If you are authoring schemas in LinkML YAML, the type is referenced with the
+      lower case "sparqlpath".
+    from_schema: https://w3id.org/linkml/types
+    imported_from: linkml:types
+    base: str
+    uri: xsd:string
+    repr: str
+enums:
+  ProgramType:
+    name: ProgramType
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/ProgramType
+    description: Types of DOE BER research programs
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    permissible_values:
+      BIOENERGY_RESEARCH_CENTER:
+        text: BIOENERGY_RESEARCH_CENTER
+        description: A Bioenergy Research Center (BRC) - large-scale, multi-institutional
+          center focused on biofuels and bioproducts from plant biomass
+      SCIENTIFIC_FOCUS_AREA:
+        text: SCIENTIFIC_FOCUS_AREA
+        description: A Scientific Focus Area (SFA) - integrated research program at
+          DOE national laboratories
+      USER_FACILITY:
+        text: USER_FACILITY
+        description: A DOE BER User Facility providing resources to the scientific
+          community
+      DATA_REPOSITORY:
+        text: DATA_REPOSITORY
+        description: A data repository or archive
+      DATA_COLLABORATIVE:
+        text: DATA_COLLABORATIVE
+        description: A collaborative data initiative
+      BIOPREPAREDNESS_INITIATIVE:
+        text: BIOPREPAREDNESS_INITIATIVE
+        description: A biopreparedness research initiative such as BRaVE (Biopreparedness
+          Research Virtual Environment) - typically cross-cutting, time-limited projects
+          spanning multiple DOE offices
+      OTHER_INITIATIVE:
+        text: OTHER_INITIATIVE
+        description: Other research initiatives that don't fit traditional categories
+  SFAType:
+    name: SFAType
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/SFAType
+    description: Types of Scientific Focus Areas by program area
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    permissible_values:
+      GENOMIC_SCIENCE_SFA:
+        text: GENOMIC_SCIENCE_SFA
+        description: SFA within the Genomic Science Program focusing on plant and
+          microbial systems biology
+      ENVIRONMENTAL_SYSTEM_SCIENCE_SFA:
+        text: ENVIRONMENTAL_SYSTEM_SCIENCE_SFA
+        description: SFA within the Environmental System Science program focusing
+          on watershed and ecosystem processes
+      ENVIRONMENTAL_MICROBIOME_SCIENCE:
+        text: ENVIRONMENTAL_MICROBIOME_SCIENCE
+        description: SFA focused on environmental microbiome research
+      SECURE_BIOSYSTEMS_DESIGN:
+        text: SECURE_BIOSYSTEMS_DESIGN
+        description: SFA focused on secure biosystems design and biocontainment
+  InstitutionType:
+    name: InstitutionType
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/InstitutionType
+    description: Types of research institutions
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    permissible_values:
+      NATIONAL_LABORATORY:
+        text: NATIONAL_LABORATORY
+        description: A DOE National Laboratory
+      UNIVERSITY:
+        text: UNIVERSITY
+        description: A university or academic institution
+      RESEARCH_INSTITUTE:
+        text: RESEARCH_INSTITUTE
+        description: A research institute
+      FEDERAL_AGENCY:
+        text: FEDERAL_AGENCY
+        description: A federal government agency
+      PRIVATE_SECTOR:
+        text: PRIVATE_SECTOR
+        description: A private sector organization
+  PreprocessedDataType:
+    name: PreprocessedDataType
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/PreprocessedDataType
+    description: Types of preprocessed or derived data products available in public
+      repositories. Used to identify studies with analysis-ready data for NMDC consideration.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    permissible_values:
+      MAGS:
+        text: MAGS
+        description: Metagenome-assembled genomes - draft genomes reconstructed from
+          metagenomic data through binning and assembly
+      GENOME_ASSEMBLIES:
+        text: GENOME_ASSEMBLIES
+        description: Assembled genome sequences (contigs, scaffolds, or complete)
+      GENE_ANNOTATIONS:
+        text: GENE_ANNOTATIONS
+        description: Predicted gene calls and functional annotations
+      FUNCTIONAL_ANNOTATIONS:
+        text: FUNCTIONAL_ANNOTATIONS
+        description: Functional annotations (COG, KEGG, Pfam, etc.)
+      TAXONOMIC_CLASSIFICATIONS:
+        text: TAXONOMIC_CLASSIFICATIONS
+        description: Taxonomic assignments for sequences or bins
+      READ_QC:
+        text: READ_QC
+        description: Quality-controlled sequencing reads
+      ASSEMBLY_QC:
+        text: ASSEMBLY_QC
+        description: Assembly quality metrics (CheckM, QUAST, etc.)
+      METABOLIC_MODELS:
+        text: METABOLIC_MODELS
+        description: Genome-scale metabolic reconstructions
+      PHYLOGENETIC_TREES:
+        text: PHYLOGENETIC_TREES
+        description: Phylogenetic trees or placements
+  DataType:
+    name: DataType
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/DataType
+    description: Types of scientific data
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    permissible_values:
+      GENOMICS:
+        text: GENOMICS
+        description: Genomic sequence data
+        meaning: OBI:0000626
+        title: DNA sequencing assay
+      METAGENOMICS:
+        text: METAGENOMICS
+        description: Metagenomic sequence data
+        meaning: OBI:0002623
+        title: whole metagenome sequencing assay
+      TRANSCRIPTOMICS:
+        text: TRANSCRIPTOMICS
+        description: Transcriptomic expression data
+        meaning: OBI:0000424
+        title: transcription profiling assay
+      METATRANSCRIPTOMICS:
+        text: METATRANSCRIPTOMICS
+        description: Metatranscriptomic data
+      AMPLICON_16S:
+        text: AMPLICON_16S
+        description: 16S rRNA gene amplicon sequencing for bacterial/archaeal profiling
+        meaning: OBI:0002763
+        title: 16s ribosomal gene sequencing assay
+      AMPLICON_ITS:
+        text: AMPLICON_ITS
+        description: ITS amplicon sequencing for fungal profiling
+        title: ITS rRNA gene sequencing assay
+      AMPLICON_18S:
+        text: AMPLICON_18S
+        description: 18S rRNA gene amplicon sequencing for eukaryotic profiling
+      PROTEOMICS:
+        text: PROTEOMICS
+        description: Proteomic data
+        meaning: OBI:0000615
+        title: protein expression profiling assay
+      METABOLOMICS:
+        text: METABOLOMICS
+        description: Metabolomic data
+        meaning: OBI:0000366
+        title: metabolite profiling assay
+      EXOMETABOLOMICS:
+        text: EXOMETABOLOMICS
+        description: Exometabolomic data (extracellular metabolites)
+      GEOSPATIAL:
+        text: GEOSPATIAL
+        description: Geospatial or GIS data
+      PHENOTYPIC_DATA:
+        text: PHENOTYPIC_DATA
+        description: Phenotypic measurement data
+      IMAGING_DATA:
+        text: IMAGING_DATA
+        description: Various imaging data
+      ENVIRONMENTAL_SENSOR_DATA:
+        text: ENVIRONMENTAL_SENSOR_DATA
+        description: Environmental sensor time series data
+      HYDROLOGICAL_DATA:
+        text: HYDROLOGICAL_DATA
+        description: Hydrological measurements
+      BIOGEOCHEMICAL_DATA:
+        text: BIOGEOCHEMICAL_DATA
+        description: Biogeochemical measurements
+      STABLE_ISOTOPE_DATA:
+        text: STABLE_ISOTOPE_DATA
+        description: Stable isotope measurements
+      SYNTHETIC_BIOLOGY_CONSTRUCTS:
+        text: SYNTHETIC_BIOLOGY_CONSTRUCTS
+        description: Synthetic biology parts and constructs
+      FIELD_TRIAL_DATA:
+        text: FIELD_TRIAL_DATA
+        description: Data from field trials
+      CROP_YIELD_DATA:
+        text: CROP_YIELD_DATA
+        description: Crop yield measurements
+      SOIL_MICROBIOME_DATA:
+        text: SOIL_MICROBIOME_DATA
+        description: Soil microbiome characterization data
+      ENZYME_ACTIVITY_DATA:
+        text: ENZYME_ACTIVITY_DATA
+        description: Enzyme activity measurements
+      ENZYME_KINETICS:
+        text: ENZYME_KINETICS
+        description: Enzyme kinetics data
+      STRUCTURAL_BIOLOGY:
+        text: STRUCTURAL_BIOLOGY
+        description: Structural biology data
+      GWAS_DATA:
+        text: GWAS_DATA
+        description: Genome-wide association study data
+      ISOLATE_COLLECTIONS:
+        text: ISOLATE_COLLECTIONS
+        description: Microbial isolate collection data
+      WATER_CHEMISTRY:
+        text: WATER_CHEMISTRY
+        description: Water chemistry measurements
+      GROUNDWATER_CHEMISTRY:
+        text: GROUNDWATER_CHEMISTRY
+        description: Groundwater chemistry data
+      MERCURY_SPECIATION:
+        text: MERCURY_SPECIATION
+        description: Mercury speciation data
+      RADIOCARBON_DATA:
+        text: RADIOCARBON_DATA
+        description: Radiocarbon dating data
+      REMOTE_SENSING:
+        text: REMOTE_SENSING
+        description: Remote sensing imagery
+      SATELLITE_IMAGERY:
+        text: SATELLITE_IMAGERY
+        description: Satellite imagery data
+      ECONOMIC_MODELING_DATA:
+        text: ECONOMIC_MODELING_DATA
+        description: Techno-economic modeling outputs
+      LIFE_CYCLE_ASSESSMENT_DATA:
+        text: LIFE_CYCLE_ASSESSMENT_DATA
+        description: Life cycle assessment data
+      FITNESS_DATA:
+        text: FITNESS_DATA
+        description: Organism fitness data
+      CONTAINMENT_EFFICACY_DATA:
+        text: CONTAINMENT_EFFICACY_DATA
+        description: Biocontainment efficacy measurements
+  DataCollectionModality:
+    name: DataCollectionModality
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/DataCollectionModality
+    description: Methods and modalities for data collection
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    permissible_values:
+      FIELD_EXPERIMENTS:
+        text: FIELD_EXPERIMENTS
+        description: Field-based experimental studies
+      FIELD_TRIALS:
+        text: FIELD_TRIALS
+        description: Agricultural or ecological field trials
+      GREENHOUSE_STUDIES:
+        text: GREENHOUSE_STUDIES
+        description: Greenhouse-based studies
+      LABORATORY_EXPERIMENTS:
+        text: LABORATORY_EXPERIMENTS
+        description: Laboratory-based experiments
+      LABORATORY_FERMENTATION:
+        text: LABORATORY_FERMENTATION
+        description: Laboratory-scale fermentation studies
+      HIGH_THROUGHPUT_SCREENING:
+        text: HIGH_THROUGHPUT_SCREENING
+        description: High-throughput screening methods
+      HIGH_THROUGHPUT_SEQUENCING:
+        text: HIGH_THROUGHPUT_SEQUENCING
+        description: High-throughput DNA/RNA sequencing
+      HIGH_THROUGHPUT_PHENOTYPING:
+        text: HIGH_THROUGHPUT_PHENOTYPING
+        description: High-throughput phenotyping methods
+      GENOME_SEQUENCING:
+        text: GENOME_SEQUENCING
+        description: Whole genome sequencing
+      METAGENOMICS:
+        text: METAGENOMICS
+        description: Metagenomic sequencing and analysis
+      TARGETED_METAGENOMICS:
+        text: TARGETED_METAGENOMICS
+        description: Targeted metagenomic approaches
+      MULTI_OMICS:
+        text: MULTI_OMICS
+        description: Integrated multi-omics approaches
+      REMOTE_SENSING:
+        text: REMOTE_SENSING
+        description: Remote sensing and satellite imagery
+      MASS_SPECTROMETRY:
+        text: MASS_SPECTROMETRY
+        description: Mass spectrometry analysis
+      NMR_SPECTROSCOPY:
+        text: NMR_SPECTROSCOPY
+        description: Nuclear magnetic resonance spectroscopy
+      IMAGING:
+        text: IMAGING
+        description: Various imaging techniques
+      BIOIMAGING:
+        text: BIOIMAGING
+        description: Biological imaging techniques
+      CHEMICAL_IMAGING:
+        text: CHEMICAL_IMAGING
+        description: Chemical imaging methods
+      LIVE_CELL_IMAGING:
+        text: LIVE_CELL_IMAGING
+        description: Live cell imaging
+      NANOSIMS:
+        text: NANOSIMS
+        description: NanoSIMS imaging
+      SYNCHROTRON_METHODS:
+        text: SYNCHROTRON_METHODS
+        description: Synchrotron-based analytical methods
+      COMPUTATIONAL_MODELING:
+        text: COMPUTATIONAL_MODELING
+        description: Computational and mathematical modeling
+      ECOSYSTEM_MODELING:
+        text: ECOSYSTEM_MODELING
+        description: Ecosystem-scale modeling
+      STABLE_ISOTOPE_PROBING:
+        text: STABLE_ISOTOPE_PROBING
+        description: Quantitative stable isotope probing (qSIP)
+      RADIOISOTOPE_APPROACHES:
+        text: RADIOISOTOPE_APPROACHES
+        description: Radioisotope tracer methods
+      GENOME_WIDE_ASSOCIATION:
+        text: GENOME_WIDE_ASSOCIATION
+        description: Genome-wide association studies
+      COMMON_GARDEN_EXPERIMENTS:
+        text: COMMON_GARDEN_EXPERIMENTS
+        description: Common garden experimental designs
+      FERMENTATION_STUDIES:
+        text: FERMENTATION_STUDIES
+        description: Fermentation process studies
+      METABOLIC_FLUX_ANALYSIS:
+        text: METABOLIC_FLUX_ANALYSIS
+        description: Metabolic flux analysis
+      TECHNO_ECONOMIC_ANALYSIS:
+        text: TECHNO_ECONOMIC_ANALYSIS
+        description: Techno-economic analysis
+      ROBOTIC_AUTOMATION:
+        text: ROBOTIC_AUTOMATION
+        description: Robotic/automated laboratory systems
+      GENOME_SCALE_ENGINEERING:
+        text: GENOME_SCALE_ENGINEERING
+        description: Genome-scale engineering approaches
+      CRISPR_GENE_EDITING:
+        text: CRISPR_GENE_EDITING
+        description: CRISPR-based gene editing
+      BACTERIAL_ISOLATION:
+        text: BACTERIAL_ISOLATION
+        description: Bacterial isolation and culturing
+      FIELD_SENSORS:
+        text: FIELD_SENSORS
+        description: Field-deployed environmental sensors
+      STREAM_SAMPLING:
+        text: STREAM_SAMPLING
+        description: Stream and water body sampling
+      GROUNDWATER_MONITORING:
+        text: GROUNDWATER_MONITORING
+        description: Groundwater monitoring
+      LONG_TERM_ECOLOGICAL_RESEARCH:
+        text: LONG_TERM_ECOLOGICAL_RESEARCH
+        description: Long-term ecological research sites
+      FABRICATED_ECOSYSTEMS:
+        text: FABRICATED_ECOSYSTEMS
+        description: Fabricated/controlled ecosystem platforms (e.g., EcoFAB)
+  Keyword:
+    name: Keyword
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/Keyword
+    description: Keywords describing research focus areas with hierarchical organization
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    permissible_values:
+      BIOENERGY:
+        text: BIOENERGY
+        description: Bioenergy research focus area
+      FEEDSTOCK_CROP:
+        text: FEEDSTOCK_CROP
+        description: Bioenergy feedstock crops
+      CARBON_AND_NUTRIENT_CYCLING:
+        text: CARBON_AND_NUTRIENT_CYCLING
+        description: Carbon and nutrient cycling processes
+      SOIL_MICROBIOME:
+        text: SOIL_MICROBIOME
+        description: Soil microbiome research
+      PLANT_MICROBE_INTERACTIONS:
+        text: PLANT_MICROBE_INTERACTIONS
+        description: Plant-microbe interactions
+      WATERSHED_SCIENCE:
+        text: WATERSHED_SCIENCE
+        description: Watershed and hydrology science
+      BIOGEOCHEMISTRY:
+        text: BIOGEOCHEMISTRY
+        description: Biogeochemical processes
+      CONTAMINANT_SCIENCE:
+        text: CONTAMINANT_SCIENCE
+        description: Contaminant fate and transport
+      SYNTHETIC_BIOLOGY:
+        text: SYNTHETIC_BIOLOGY
+        description: Synthetic biology and engineering
+      OMICS_METHODS:
+        text: OMICS_METHODS
+        description: Omics methods and approaches
+      WETLAND_SCIENCE:
+        text: WETLAND_SCIENCE
+        description: Wetland ecosystem science
+      TECHNOLOGY_PLATFORM:
+        text: TECHNOLOGY_PLATFORM
+        description: Technology platforms and tools
+      BIOFUELS:
+        text: BIOFUELS
+        description: Biofuel production
+        is_a: BIOENERGY
+      BIOPRODUCTS:
+        text: BIOPRODUCTS
+        description: Bio-based products
+        is_a: BIOENERGY
+      SUSTAINABLE_AVIATION_FUEL:
+        text: SUSTAINABLE_AVIATION_FUEL
+        description: Sustainable aviation fuel production
+        is_a: BIOFUELS
+      LIGNOCELLULOSE:
+        text: LIGNOCELLULOSE
+        description: Lignocellulosic biomass
+        is_a: BIOENERGY
+      CELLULOSIC_BIOMASS:
+        text: CELLULOSIC_BIOMASS
+        description: Cellulosic biomass conversion
+        is_a: BIOENERGY
+      LIGNIN:
+        text: LIGNIN
+        description: Lignin structure and valorization
+        is_a: LIGNOCELLULOSE
+      LIGNIN_VALORIZATION:
+        text: LIGNIN_VALORIZATION
+        description: Lignin valorization for products
+        is_a: LIGNIN
+      BIOMASS_RECALCITRANCE:
+        text: BIOMASS_RECALCITRANCE
+        description: Biomass recalcitrance and deconstruction
+        is_a: LIGNOCELLULOSE
+      MICROBIAL_CONVERSION:
+        text: MICROBIAL_CONVERSION
+        description: Microbial conversion of biomass
+        is_a: BIOENERGY
+      SUSTAINABILITY:
+        text: SUSTAINABILITY
+        description: Sustainability aspects of bioenergy
+        is_a: BIOENERGY
+      MARGINAL_LANDS:
+        text: MARGINAL_LANDS
+        description: Marginal lands for bioenergy production
+        is_a: SUSTAINABILITY
+      LIFE_CYCLE_ASSESSMENT:
+        text: LIFE_CYCLE_ASSESSMENT
+        description: Life cycle assessment for sustainability
+        is_a: SUSTAINABILITY
+      IONIC_LIQUIDS:
+        text: IONIC_LIQUIDS
+        description: Ionic liquids for biomass pretreatment
+        is_a: BIOENERGY
+      LIPID_ACCUMULATION:
+        text: LIPID_ACCUMULATION
+        description: Lipid accumulation in plants
+        is_a: BIOENERGY
+      OIL_CROPS:
+        text: OIL_CROPS
+        description: Oil crops for biofuel production
+        is_a: BIOENERGY
+      TERPENES:
+        text: TERPENES
+        description: Terpene-based biofuels
+        is_a: BIOFUELS
+      FATTY_ACIDS:
+        text: FATTY_ACIDS
+        description: Fatty acid-based biofuels
+        is_a: BIOFUELS
+      SWITCHGRASS:
+        text: SWITCHGRASS
+        description: Panicum virgatum (switchgrass)
+        is_a: FEEDSTOCK_CROP
+      POPLAR:
+        text: POPLAR
+        description: Populus species (poplar/cottonwood)
+        is_a: FEEDSTOCK_CROP
+      POPULUS:
+        text: POPULUS
+        description: Populus genus
+        is_a: POPLAR
+      MISCANTHUS:
+        text: MISCANTHUS
+        description: Miscanthus grass
+        is_a: FEEDSTOCK_CROP
+      SORGHUM:
+        text: SORGHUM
+        description: Sorghum species
+        is_a: FEEDSTOCK_CROP
+      ENERGY_SORGHUM:
+        text: ENERGY_SORGHUM
+        description: Energy sorghum varieties
+        is_a: SORGHUM
+      SUGARCANE:
+        text: SUGARCANE
+        description: Sugarcane
+        is_a: FEEDSTOCK_CROP
+      BRACHYPODIUM:
+        text: BRACHYPODIUM
+        description: Brachypodium distachyon model grass
+        is_a: FEEDSTOCK_CROP
+      TALL_WHEATGRASS:
+        text: TALL_WHEATGRASS
+        description: Tall wheatgrass
+        is_a: FEEDSTOCK_CROP
+      PERENNIAL_CROPS:
+        text: PERENNIAL_CROPS
+        description: Perennial bioenergy crops
+        is_a: FEEDSTOCK_CROP
+      PLANT_CELL_WALLS:
+        text: PLANT_CELL_WALLS
+        description: Plant cell wall composition and deconstruction
+        is_a: FEEDSTOCK_CROP
+      CARBON_CYCLING:
+        text: CARBON_CYCLING
+        description: Carbon cycling processes
+        is_a: CARBON_AND_NUTRIENT_CYCLING
+      SOIL_CARBON:
+        text: SOIL_CARBON
+        description: Soil carbon dynamics
+        is_a: CARBON_CYCLING
+      CARBON_PERSISTENCE:
+        text: CARBON_PERSISTENCE
+        description: Soil carbon persistence mechanisms
+        is_a: SOIL_CARBON
+      CARBON_FLUX:
+        text: CARBON_FLUX
+        description: Carbon flux measurements
+        is_a: CARBON_CYCLING
+      CARBON_USE_EFFICIENCY:
+        text: CARBON_USE_EFFICIENCY
+        description: Carbon use efficiency in microbes
+        is_a: CARBON_CYCLING
+      NUTRIENT_CYCLING:
+        text: NUTRIENT_CYCLING
+        description: Nutrient cycling processes
+        is_a: CARBON_AND_NUTRIENT_CYCLING
+      DENITRIFICATION:
+        text: DENITRIFICATION
+        description: Microbial denitrification
+        is_a: NUTRIENT_CYCLING
+      NITRATE:
+        text: NITRATE
+        description: Nitrate cycling
+        is_a: NUTRIENT_CYCLING
+      DECOMPOSITION:
+        text: DECOMPOSITION
+        description: Decomposition processes
+        is_a: CARBON_AND_NUTRIENT_CYCLING
+      SOIL_ORGANIC_MATTER:
+        text: SOIL_ORGANIC_MATTER
+        description: Soil organic matter dynamics
+        is_a: CARBON_AND_NUTRIENT_CYCLING
+      RHIZOSPHERE:
+        text: RHIZOSPHERE
+        description: Rhizosphere microbial communities
+        is_a: SOIL_MICROBIOME
+      MICROBIAL_ECOSYSTEMS:
+        text: MICROBIAL_ECOSYSTEMS
+        description: Microbial ecosystem dynamics
+        is_a: SOIL_MICROBIOME
+      MICROBIAL_INTERACTIONS:
+        text: MICROBIAL_INTERACTIONS
+        description: Microbial community interactions
+        is_a: SOIL_MICROBIOME
+      VIROME:
+        text: VIROME
+        description: Soil viral communities
+        is_a: SOIL_MICROBIOME
+      PHAGE:
+        text: PHAGE
+        description: Bacteriophages in soil
+        is_a: VIROME
+      BACTERIAL_FUNGAL_INTERACTIONS:
+        text: BACTERIAL_FUNGAL_INTERACTIONS
+        description: Bacterial-fungal interactions in soil
+        is_a: SOIL_MICROBIOME
+      SUBSURFACE_MICROBIOLOGY:
+        text: SUBSURFACE_MICROBIOLOGY
+        description: Subsurface microbial communities
+        is_a: SOIL_MICROBIOME
+      METAPHENOME:
+        text: METAPHENOME
+        description: Metaphenome and community phenotypes
+        is_a: SOIL_MICROBIOME
+      PLANT_PRODUCTIVITY:
+        text: PLANT_PRODUCTIVITY
+        description: Plant productivity impacts
+        is_a: SOIL_MICROBIOME
+      MOISTURE_EFFECTS:
+        text: MOISTURE_EFFECTS
+        description: Moisture effects on microbiomes
+        is_a: SOIL_MICROBIOME
+      MOISTURE_REGIMES:
+        text: MOISTURE_REGIMES
+        description: Moisture regime effects
+        is_a: SOIL_MICROBIOME
+      ENDOPHYTES:
+        text: ENDOPHYTES
+        description: Endophytic microorganisms
+        is_a: PLANT_MICROBE_INTERACTIONS
+      MYCORRHIZAE:
+        text: MYCORRHIZAE
+        description: Mycorrhizal associations
+        is_a: PLANT_MICROBE_INTERACTIONS
+      BIOENERGY_CROPS:
+        text: BIOENERGY_CROPS
+        description: Plant-microbe interactions in bioenergy crops
+        is_a: PLANT_MICROBE_INTERACTIONS
+      PLANT_GROWTH_PROMOTING_BACTERIA:
+        text: PLANT_GROWTH_PROMOTING_BACTERIA
+        description: Plant growth promoting bacteria
+        is_a: PLANT_MICROBE_INTERACTIONS
+      CO_EVOLUTION:
+        text: CO_EVOLUTION
+        description: Co-evolution of plants and microbes
+        is_a: PLANT_MICROBE_INTERACTIONS
+      WATERSHED_HYDROLOGY:
+        text: WATERSHED_HYDROLOGY
+        description: Watershed hydrological processes
+        is_a: WATERSHED_SCIENCE
+      WATERSHED_DYNAMICS:
+        text: WATERSHED_DYNAMICS
+        description: Watershed dynamics and evolution
+        is_a: WATERSHED_SCIENCE
+      MOUNTAIN_HYDROLOGY:
+        text: MOUNTAIN_HYDROLOGY
+        description: Mountain watershed hydrology
+        is_a: WATERSHED_HYDROLOGY
+      HYDROLOGIC_CONNECTIVITY:
+        text: HYDROLOGIC_CONNECTIVITY
+        description: Hydrological connectivity
+        is_a: WATERSHED_HYDROLOGY
+      SNOWMELT:
+        text: SNOWMELT
+        description: Snowmelt hydrology
+        is_a: WATERSHED_HYDROLOGY
+      DROUGHT:
+        text: DROUGHT
+        description: Drought impacts
+        is_a: WATERSHED_HYDROLOGY
+      STREAM_NETWORKS:
+        text: STREAM_NETWORKS
+        description: Stream network structure and function
+        is_a: WATERSHED_SCIENCE
+      RIVER_CORRIDORS:
+        text: RIVER_CORRIDORS
+        description: River corridor processes
+        is_a: WATERSHED_SCIENCE
+      GROUNDWATER_QUALITY:
+        text: GROUNDWATER_QUALITY
+        description: Groundwater quality
+        is_a: WATERSHED_SCIENCE
+      UPPER_COLORADO_RIVER_BASIN:
+        text: UPPER_COLORADO_RIVER_BASIN
+        description: Upper Colorado River Basin study site
+        is_a: WATERSHED_SCIENCE
+      TENNESSEE_RIVER_BASIN:
+        text: TENNESSEE_RIVER_BASIN
+        description: Tennessee River Basin study site
+        is_a: WATERSHED_SCIENCE
+      YAKIMA_RIVER_BASIN:
+        text: YAKIMA_RIVER_BASIN
+        description: Yakima River Basin study site
+        is_a: WATERSHED_SCIENCE
+      LAND_COVER:
+        text: LAND_COVER
+        description: Land cover effects on watersheds
+        is_a: WATERSHED_SCIENCE
+      WILDFIRE:
+        text: WILDFIRE
+        description: Wildfire impacts on watersheds
+        is_a: WATERSHED_SCIENCE
+      STREAM_DRYING:
+        text: STREAM_DRYING
+        description: Stream drying processes
+        is_a: WATERSHED_SCIENCE
+      HYDRO_BIOGEOCHEMISTRY:
+        text: HYDRO_BIOGEOCHEMISTRY
+        description: Hydro-biogeochemical processes
+        is_a: WATERSHED_SCIENCE
+      SEDIMENT_WATER_INTERFACE:
+        text: SEDIMENT_WATER_INTERFACE
+        description: Sediment-water interface processes
+        is_a: BIOGEOCHEMISTRY
+      SUBSURFACE_INTERFACES:
+        text: SUBSURFACE_INTERFACES
+        description: Subsurface interface processes
+        is_a: BIOGEOCHEMISTRY
+      REDOX_CYCLING:
+        text: REDOX_CYCLING
+        description: Redox cycling processes
+        is_a: BIOGEOCHEMISTRY
+      METAL_REDUCTION:
+        text: METAL_REDUCTION
+        description: Microbial metal reduction
+        is_a: BIOGEOCHEMISTRY
+      INTERFACES:
+        text: INTERFACES
+        description: Interface-mediated processes
+        is_a: BIOGEOCHEMISTRY
+      MERCURY:
+        text: MERCURY
+        description: Mercury contamination and cycling
+        is_a: CONTAMINANT_SCIENCE
+      METHYLMERCURY:
+        text: METHYLMERCURY
+        description: Mercury methylation
+        is_a: MERCURY
+      MERCURY_METHYLATION:
+        text: MERCURY_METHYLATION
+        description: Mercury methylation processes
+        is_a: MERCURY
+      HGCA:
+        text: HGCA
+        description: hgcA gene for mercury methylation
+        is_a: MERCURY
+      HGCB:
+        text: HGCB
+        description: hgcB gene for mercury methylation
+        is_a: MERCURY
+      URANIUM:
+        text: URANIUM
+        description: Uranium contamination
+        is_a: CONTAMINANT_SCIENCE
+      ACTINIDES:
+        text: ACTINIDES
+        description: Actinide behavior
+        is_a: CONTAMINANT_SCIENCE
+      CONTAMINANT_TRANSPORT:
+        text: CONTAMINANT_TRANSPORT
+        description: Contaminant transport processes
+        is_a: CONTAMINANT_SCIENCE
+      COLLOID_TRANSPORT:
+        text: COLLOID_TRANSPORT
+        description: Colloid-facilitated transport
+        is_a: CONTAMINANT_TRANSPORT
+      METABOLIC_ENGINEERING:
+        text: METABOLIC_ENGINEERING
+        description: Metabolic engineering approaches
+        is_a: SYNTHETIC_BIOLOGY
+      GENOME_ENGINEERING:
+        text: GENOME_ENGINEERING
+        description: Genome engineering technologies
+        is_a: SYNTHETIC_BIOLOGY
+      CRISPR:
+        text: CRISPR
+        description: CRISPR-based gene editing
+        is_a: GENOME_ENGINEERING
+      GENOMIC_SELECTION:
+        text: GENOMIC_SELECTION
+        description: Genomic selection methods
+        is_a: GENOME_ENGINEERING
+      MICROBIAL_CHASSIS:
+        text: MICROBIAL_CHASSIS
+        description: Microbial chassis organisms
+        is_a: SYNTHETIC_BIOLOGY
+      SHEWANELLA:
+        text: SHEWANELLA
+        description: Shewanella as chassis organism
+        is_a: MICROBIAL_CHASSIS
+      BIOCONTAINMENT:
+        text: BIOCONTAINMENT
+        description: Biocontainment strategies
+        is_a: SYNTHETIC_BIOLOGY
+      BIOSECURITY:
+        text: BIOSECURITY
+        description: Biosecurity considerations
+        is_a: SYNTHETIC_BIOLOGY
+      BIODEFENSE:
+        text: BIODEFENSE
+        description: Biodefense applications
+        is_a: BIOSECURITY
+      BIOSYSTEMS_DESIGN:
+        text: BIOSYSTEMS_DESIGN
+        description: Biosystems design approaches
+        is_a: SYNTHETIC_BIOLOGY
+      ECOSYSTEM_ENGINEERING:
+        text: ECOSYSTEM_ENGINEERING
+        description: Ecosystem engineering
+        is_a: BIOSYSTEMS_DESIGN
+      MICROBIAL_INVASION:
+        text: MICROBIAL_INVASION
+        description: Microbial invasion dynamics
+        is_a: ECOSYSTEM_ENGINEERING
+      FUNGAL_PATHOGENS:
+        text: FUNGAL_PATHOGENS
+        description: Fungal pathogens
+        is_a: ECOSYSTEM_ENGINEERING
+      SYSTEMS_BIOLOGY:
+        text: SYSTEMS_BIOLOGY
+        description: Systems biology approaches
+        is_a: SYNTHETIC_BIOLOGY
+      MACHINE_LEARNING:
+        text: MACHINE_LEARNING
+        description: Machine learning for biological design
+        is_a: SYNTHETIC_BIOLOGY
+      DNA_BARCODING:
+        text: DNA_BARCODING
+        description: DNA barcoding for tracking
+        is_a: SYNTHETIC_BIOLOGY
+      COMBIGEM:
+        text: COMBIGEM
+        description: CombiGEM combinatorial engineering
+        is_a: GENOME_ENGINEERING
+      METAGENOMICS:
+        text: METAGENOMICS
+        description: Metagenomic approaches
+        is_a: OMICS_METHODS
+      STABLE_ISOTOPES:
+        text: STABLE_ISOTOPES
+        description: Stable isotope approaches
+        is_a: OMICS_METHODS
+      QSIP:
+        text: QSIP
+        description: Quantitative stable isotope probing
+        is_a: STABLE_ISOTOPES
+      NANOSIMS:
+        text: NANOSIMS
+        description: NanoSIMS imaging
+        is_a: OMICS_METHODS
+      MODEX:
+        text: MODEX
+        description: Model-experiment integration
+        is_a: OMICS_METHODS
+      WHONDRS:
+        text: WHONDRS
+        description: WHONDRS consortium
+        is_a: OMICS_METHODS
+      WETLAND_BIOGEOCHEMISTRY:
+        text: WETLAND_BIOGEOCHEMISTRY
+        description: Wetland biogeochemistry
+        is_a: WETLAND_SCIENCE
+      WETLAND_RESILIENCE:
+        text: WETLAND_RESILIENCE
+        description: Wetland resilience
+        is_a: WETLAND_SCIENCE
+      RIPARIAN_WETLAND:
+        text: RIPARIAN_WETLAND
+        description: Riparian wetland ecosystems
+        is_a: WETLAND_SCIENCE
+      FLOODPLAIN:
+        text: FLOODPLAIN
+        description: Floodplain ecosystems
+        is_a: WETLAND_SCIENCE
+      CAPILLARY_FRINGE:
+        text: CAPILLARY_FRINGE
+        description: Capillary fringe processes
+        is_a: FLOODPLAIN
+      SAVANNAH_RIVER_SITE:
+        text: SAVANNAH_RIVER_SITE
+        description: Savannah River Site study location
+        is_a: WETLAND_SCIENCE
+      ENVIRONMENTAL_CHANGE:
+        text: ENVIRONMENTAL_CHANGE
+        description: Environmental change impacts
+        is_a: WETLAND_SCIENCE
+      ENVIRONMENTAL_SYSTEMS:
+        text: ENVIRONMENTAL_SYSTEMS
+        description: Environmental systems
+        is_a: WETLAND_SCIENCE
+      FABRICATED_ECOSYSTEMS:
+        text: FABRICATED_ECOSYSTEMS
+        description: Fabricated ecosystem platforms
+        is_a: TECHNOLOGY_PLATFORM
+      ECOFAB:
+        text: ECOFAB
+        description: EcoFAB platform
+        is_a: FABRICATED_ECOSYSTEMS
+      LONG_TERM_ECOLOGICAL_RESEARCH:
+        text: LONG_TERM_ECOLOGICAL_RESEARCH
+        description: Long-term ecological research sites (e.g., LTER network)
+  CapabilityType:
+    name: CapabilityType
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/CapabilityType
+    description: Types of scientific capabilities provided by user facilities
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    permissible_values:
+      SEQUENCING:
+        text: SEQUENCING
+        description: DNA/RNA sequencing capabilities
+      SYNTHESIS:
+        text: SYNTHESIS
+        description: DNA/protein synthesis capabilities
+      MASS_SPECTROMETRY:
+        text: MASS_SPECTROMETRY
+        description: Mass spectrometry capabilities
+      NMR:
+        text: NMR
+        description: Nuclear magnetic resonance capabilities
+      IMAGING:
+        text: IMAGING
+        description: Imaging and microscopy capabilities
+      PHENOTYPING:
+        text: PHENOTYPING
+        description: Phenotyping and functional characterization
+      COMPUTATIONAL:
+        text: COMPUTATIONAL
+        description: Computational and data analysis capabilities
+      SAMPLE_PREPARATION:
+        text: SAMPLE_PREPARATION
+        description: Sample preparation and processing
+      SHORT_READ_SEQUENCING:
+        text: SHORT_READ_SEQUENCING
+        description: Short-read sequencing (Illumina, etc.)
+        is_a: SEQUENCING
+      LONG_READ_SEQUENCING:
+        text: LONG_READ_SEQUENCING
+        description: Long-read sequencing (PacBio, Oxford Nanopore)
+        is_a: SEQUENCING
+      SINGLE_CELL_SEQUENCING:
+        text: SINGLE_CELL_SEQUENCING
+        description: Single-cell genomics and transcriptomics
+        is_a: SEQUENCING
+      METAGENOME_SEQUENCING:
+        text: METAGENOME_SEQUENCING
+        description: Metagenomic sequencing
+        is_a: SEQUENCING
+      RNASEQ:
+        text: RNASEQ
+        description: RNA sequencing and transcriptomics
+        is_a: SEQUENCING
+      DNA_SYNTHESIS:
+        text: DNA_SYNTHESIS
+        description: DNA synthesis and assembly
+        is_a: SYNTHESIS
+      GENE_SYNTHESIS:
+        text: GENE_SYNTHESIS
+        description: Gene synthesis
+        is_a: DNA_SYNTHESIS
+      PATHWAY_SYNTHESIS:
+        text: PATHWAY_SYNTHESIS
+        description: Pathway and construct synthesis
+        is_a: DNA_SYNTHESIS
+      PROTEIN_EXPRESSION:
+        text: PROTEIN_EXPRESSION
+        description: Protein expression systems
+        is_a: SYNTHESIS
+      METABOLOMICS_MS:
+        text: METABOLOMICS_MS
+        description: Mass spectrometry for metabolomics
+        is_a: MASS_SPECTROMETRY
+      PROTEOMICS_MS:
+        text: PROTEOMICS_MS
+        description: Mass spectrometry for proteomics
+        is_a: MASS_SPECTROMETRY
+      LIPIDOMICS_MS:
+        text: LIPIDOMICS_MS
+        description: Mass spectrometry for lipidomics
+        is_a: MASS_SPECTROMETRY
+      NATIVE_MS:
+        text: NATIVE_MS
+        description: Native mass spectrometry for intact complexes
+        is_a: MASS_SPECTROMETRY
+      MS_IMAGING:
+        text: MS_IMAGING
+        description: Mass spectrometry imaging
+        is_a: MASS_SPECTROMETRY
+      GC_MS:
+        text: GC_MS
+        description: Gas chromatography-mass spectrometry
+        is_a: MASS_SPECTROMETRY
+      LC_MS:
+        text: LC_MS
+        description: Liquid chromatography-mass spectrometry
+        is_a: MASS_SPECTROMETRY
+      FTICR_MS:
+        text: FTICR_MS
+        description: Fourier-transform ion cyclotron resonance MS
+        is_a: MASS_SPECTROMETRY
+      LIQUID_STATE_NMR:
+        text: LIQUID_STATE_NMR
+        description: Liquid-state NMR spectroscopy
+        is_a: NMR
+      SOLID_STATE_NMR:
+        text: SOLID_STATE_NMR
+        description: Solid-state NMR spectroscopy
+        is_a: NMR
+      METABOLOMICS_NMR:
+        text: METABOLOMICS_NMR
+        description: NMR for metabolomics
+        is_a: LIQUID_STATE_NMR
+      CRYO_EM:
+        text: CRYO_EM
+        description: Cryogenic electron microscopy
+        is_a: IMAGING
+      CRYO_ET:
+        text: CRYO_ET
+        description: Cryogenic electron tomography
+        is_a: CRYO_EM
+      CRYO_FIB_SEM:
+        text: CRYO_FIB_SEM
+        description: Cryogenic focused ion beam-SEM
+        is_a: IMAGING
+      LIGHT_MICROSCOPY:
+        text: LIGHT_MICROSCOPY
+        description: Light and fluorescence microscopy
+        is_a: IMAGING
+      SUPER_RESOLUTION_MICROSCOPY:
+        text: SUPER_RESOLUTION_MICROSCOPY
+        description: Super-resolution microscopy
+        is_a: LIGHT_MICROSCOPY
+      CHEMICAL_IMAGING:
+        text: CHEMICAL_IMAGING
+        description: Chemical imaging methods
+        is_a: IMAGING
+      NANOSIMS_IMAGING:
+        text: NANOSIMS_IMAGING
+        description: NanoSIMS imaging
+        is_a: CHEMICAL_IMAGING
+      SYNCHROTRON_IMAGING:
+        text: SYNCHROTRON_IMAGING
+        description: Synchrotron-based imaging
+        is_a: IMAGING
+      MICROBIAL_PHENOTYPING:
+        text: MICROBIAL_PHENOTYPING
+        description: Microbial phenotyping platforms
+        is_a: PHENOTYPING
+      ANAEROBIC_PHENOTYPING:
+        text: ANAEROBIC_PHENOTYPING
+        description: Anaerobic microbial phenotyping (AMP2)
+        is_a: MICROBIAL_PHENOTYPING
+      HIGH_THROUGHPUT_PHENOTYPING:
+        text: HIGH_THROUGHPUT_PHENOTYPING
+        description: High-throughput phenotyping
+        is_a: PHENOTYPING
+      GROWTH_PHENOTYPING:
+        text: GROWTH_PHENOTYPING
+        description: Growth and fitness phenotyping
+        is_a: PHENOTYPING
+      FLOW_CYTOMETRY:
+        text: FLOW_CYTOMETRY
+        description: Flow cytometry analysis
+        is_a: PHENOTYPING
+      GENOME_ANNOTATION:
+        text: GENOME_ANNOTATION
+        description: Genome annotation services
+        is_a: COMPUTATIONAL
+      METABOLIC_MODELING:
+        text: METABOLIC_MODELING
+        description: Metabolic modeling and simulation
+        is_a: COMPUTATIONAL
+      METAGENOME_ANALYSIS:
+        text: METAGENOME_ANALYSIS
+        description: Metagenome analysis pipelines
+        is_a: COMPUTATIONAL
+      AI_ML_ANALYSIS:
+        text: AI_ML_ANALYSIS
+        description: AI/ML-based analysis
+        is_a: COMPUTATIONAL
+      HIGH_PERFORMANCE_COMPUTING:
+        text: HIGH_PERFORMANCE_COMPUTING
+        description: High-performance computing resources
+        is_a: COMPUTATIONAL
+  CapabilityStatus:
+    name: CapabilityStatus
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/CapabilityStatus
+    description: Operational status of a capability
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    permissible_values:
+      OPERATIONAL:
+        text: OPERATIONAL
+        description: Fully operational and available to users
+      COMING_ONLINE:
+        text: COMING_ONLINE
+        description: Being commissioned, coming online soon
+      PILOT:
+        text: PILOT
+        description: In pilot phase with limited access
+      UNDER_DEVELOPMENT:
+        text: UNDER_DEVELOPMENT
+        description: Under development, not yet available
+      DECOMMISSIONED:
+        text: DECOMMISSIONED
+        description: No longer available
+  InstrumentType:
+    name: InstrumentType
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/InstrumentType
+    description: Types of scientific instruments
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    permissible_values:
+      ILLUMINA_SEQUENCER:
+        text: ILLUMINA_SEQUENCER
+        description: Illumina short-read sequencer
+      PACBIO_SEQUENCER:
+        text: PACBIO_SEQUENCER
+        description: PacBio long-read sequencer
+      OXFORD_NANOPORE:
+        text: OXFORD_NANOPORE
+        description: Oxford Nanopore sequencer
+      ORBITRAP:
+        text: ORBITRAP
+        description: Orbitrap mass spectrometer
+      TRIPLE_QUADRUPOLE:
+        text: TRIPLE_QUADRUPOLE
+        description: Triple quadrupole mass spectrometer
+      FTICR:
+        text: FTICR
+        description: Fourier-transform ion cyclotron resonance MS
+      TOF:
+        text: TOF
+        description: Time-of-flight mass spectrometer
+      NMR_SPECTROMETER:
+        text: NMR_SPECTROMETER
+        description: NMR spectrometer
+      CRYO_TEM:
+        text: CRYO_TEM
+        description: Cryogenic transmission electron microscope
+      CRYO_SEM:
+        text: CRYO_SEM
+        description: Cryogenic scanning electron microscope
+      FIB_SEM:
+        text: FIB_SEM
+        description: Focused ion beam-SEM
+      FLOW_CYTOMETER:
+        text: FLOW_CYTOMETER
+        description: Flow cytometer
+      LIQUID_HANDLER:
+        text: LIQUID_HANDLER
+        description: Automated liquid handler
+      PLATE_READER:
+        text: PLATE_READER
+        description: Microplate reader
+      HPLC:
+        text: HPLC
+        description: High-performance liquid chromatography
+      GC:
+        text: GC
+        description: Gas chromatograph
+      ANAEROBIC_CHAMBER:
+        text: ANAEROBIC_CHAMBER
+        description: Anaerobic chamber or glove box
+      INCUBATOR:
+        text: INCUBATOR
+        description: Microbial cultivation incubator
+      ELECTROPORATOR:
+        text: ELECTROPORATOR
+        description: Electroporation device for cell transformation
+  AnalysisType:
+    name: AnalysisType
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/AnalysisType
+    description: Types of computational analyses
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    permissible_values:
+      KBASE_NARRATIVE:
+        text: KBASE_NARRATIVE
+        description: KBase reproducible analysis workflow - a Jupyter-like notebook
+          combining data, analysis steps, and documentation
+      NMDC_WORKFLOW:
+        text: NMDC_WORKFLOW
+        description: NMDC standardized bioinformatics workflow (e.g., metagenome annotation,
+          MAG assembly)
+      CUSTOM_PIPELINE:
+        text: CUSTOM_PIPELINE
+        description: Custom analysis pipeline not in KBase or NMDC
+  KBaseCollection:
+    name: KBaseCollection
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/KBaseCollection
+    description: Available KBase genome collections (as of 2024). Collections are
+      curated datasets searchable by sequence similarity, taxonomy (GTDB), and functional
+      traits (microTrait).
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    permissible_values:
+      GTDB:
+        text: GTDB
+        description: Genome Taxonomy Database reference collection - standardized
+          microbial taxonomy based on genome phylogeny
+      ENIGMA:
+        text: ENIGMA
+        description: ENIGMA SFA subsurface microbiome genomes from Oak Ridge Reservation
+          contaminated site studies
+      PMI:
+        text: PMI
+        description: Plant Microbe Interfaces SFA rhizosphere genomes - plant-host
+          associated microbial genomes showing Populus rhizosphere diversity
+      GROW:
+        text: GROW
+        description: Genome Resolved Open Watersheds (GROWdb) river microbiome MAGs
+          from WHONDRS worldwide river sampling
+  NMDCIngestPriority:
+    name: NMDCIngestPriority
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/NMDCIngestPriority
+    description: Priority level for considering a study/dataset for NMDC ingest. Used
+      to help prioritize which external datasets should be targeted for ingestion
+      into the National Microbiome Data Collaborative.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    permissible_values:
+      HIGH:
+        text: HIGH
+        description: High priority - dataset has rich microbiome data (metagenomes,
+          amplicon sequences) with good metadata, ready for NMDC processing. Should
+          be prioritized for ingest.
+      MEDIUM:
+        text: MEDIUM
+        description: Medium priority - dataset has relevant microbiome data but may
+          need metadata enrichment or format conversion before ingest.
+      LOW:
+        text: LOW
+        description: Low priority - dataset has some microbiome relevance but is either
+          small, has limited metadata, or is a marginal candidate.
+  OrganismType:
+    name: OrganismType
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/OrganismType
+    description: Types of organisms in a microbial isolate collection. Used to characterize
+      the taxonomic breadth of culture collections maintained by research programs.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    permissible_values:
+      BACTERIA:
+        text: BACTERIA
+        description: Bacterial isolates
+        meaning: NCBITaxon:2
+      ARCHAEA:
+        text: ARCHAEA
+        description: Archaeal isolates
+        meaning: NCBITaxon:2157
+      FUNGI:
+        text: FUNGI
+        description: Fungal isolates including yeasts and filamentous fungi
+        meaning: NCBITaxon:4751
+      PHAGE:
+        text: PHAGE
+        description: Bacteriophages and archaeal viruses
+      OTHER_VIRUS:
+        text: OTHER_VIRUS
+        description: Other viruses (not phage)
+      PROTIST:
+        text: PROTIST
+        description: Protist/microeukaryote isolates
+      MICROALGAE:
+        text: MICROALGAE
+        description: Microalgae isolates
+  PhenotypeAssayType:
+    name: PhenotypeAssayType
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/PhenotypeAssayType
+    description: Types of phenotype assays performed by research programs. Used to
+      catalog what phenotyping capabilities and data types each SFA/BRC generates.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    permissible_values:
+      GROWTH_CURVES:
+        text: GROWTH_CURVES
+        description: Growth rate measurements in liquid culture
+      BIOLOG_PHENOTYPING:
+        text: BIOLOG_PHENOTYPING
+        description: Biolog plate carbon/nitrogen source utilization profiling
+      ANAEROBIC_GROWTH:
+        text: ANAEROBIC_GROWTH
+        description: Growth characterization under anaerobic conditions
+      STRESS_TOLERANCE:
+        text: STRESS_TOLERANCE
+        description: Growth under stress conditions (pH, temperature, osmotic, metal)
+      ANTIBIOTIC_RESISTANCE:
+        text: ANTIBIOTIC_RESISTANCE
+        description: Antibiotic susceptibility/resistance profiling
+      RBTSEQ_FITNESS:
+        text: RBTSEQ_FITNESS
+        description: Random barcode transposon sequencing (RB-TnSeq) for genome-wide
+          fitness profiling across conditions
+      TRANSPOSON_MUTAGENESIS:
+        text: TRANSPOSON_MUTAGENESIS
+        description: Transposon insertion sequencing for gene essentiality/fitness
+      CRISPR_SCREENS:
+        text: CRISPR_SCREENS
+        description: CRISPR-based genetic screens (CRISPRi, knockout libraries)
+      TNSEQ:
+        text: TNSEQ
+        description: Transposon sequencing for fitness profiling
+      COCULTURE_INTERACTIONS:
+        text: COCULTURE_INTERACTIONS
+        description: Pairwise or multi-species co-culture interaction assays
+      BACTERIAL_FUNGAL_INTERACTION_ASSAY:
+        text: BACTERIAL_FUNGAL_INTERACTION_ASSAY
+        description: Bacterial-fungal co-culture or proximity interaction assays
+      PLANT_COLONIZATION:
+        text: PLANT_COLONIZATION
+        description: Plant root or leaf colonization assays
+      PHAGE_HOST_RANGE:
+        text: PHAGE_HOST_RANGE
+        description: Phage-host infection range and specificity testing
+      SYNTHETIC_COMMUNITY:
+        text: SYNTHETIC_COMMUNITY
+        description: Defined synthetic community assembly and dynamics
+      COMPETITION_ASSAYS:
+        text: COMPETITION_ASSAYS
+        description: Competitive fitness assays between strains
+      EXOMETABOLOMICS:
+        text: EXOMETABOLOMICS
+        description: Extracellular metabolite profiling (spent media analysis)
+      ENZYME_ACTIVITY_ASSAY:
+        text: ENZYME_ACTIVITY_ASSAY
+        description: Enzyme activity measurements
+      SUBSTRATE_UTILIZATION:
+        text: SUBSTRATE_UTILIZATION
+        description: Carbon/nitrogen substrate utilization profiling
+      METABOLIC_FLUX:
+        text: METABOLIC_FLUX
+        description: Metabolic flux analysis (13C labeling)
+      RESPIRATION:
+        text: RESPIRATION
+        description: Respiration rate measurements (O2 consumption, CO2 production)
+      LIVE_CELL_IMAGING:
+        text: LIVE_CELL_IMAGING
+        description: Time-lapse microscopy of live cells
+      FLOW_CYTOMETRY_PHENOTYPING:
+        text: FLOW_CYTOMETRY_PHENOTYPING
+        description: Single-cell phenotyping via flow cytometry
+      NANOSIMS_ACTIVITY:
+        text: NANOSIMS_ACTIVITY
+        description: NanoSIMS stable isotope incorporation for activity measurement
+      CELL_MORPHOLOGY:
+        text: CELL_MORPHOLOGY
+        description: Cell morphology and size measurements
+      BIOFILM_ASSAYS:
+        text: BIOFILM_ASSAYS
+        description: Biofilm formation and structure assays
+      SOIL_INCUBATION:
+        text: SOIL_INCUBATION
+        description: Soil microcosm incubation experiments
+      QSIP_ACTIVITY:
+        text: QSIP_ACTIVITY
+        description: Quantitative stable isotope probing for in-situ activity
+      ECOFAB_PHENOTYPING:
+        text: ECOFAB_PHENOTYPING
+        description: EcoFAB fabricated ecosystem phenotyping
+slots:
+  id:
+    name: id
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/id
+    description: A unique identifier for an entity
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    mappings:
+    - schema:identifier
+    slot_uri: schema:identifier
+    identifier: true
+    owner: Reference
+    domain_of:
+    - NamedThing
+    - Reference
+    range: uriorcurie
+    required: true
+  acronym:
+    name: acronym
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/acronym
+    description: Short acronym or abbreviation for the program (e.g., GLBRC, ENIGMA)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    mappings:
+    - schema:alternateName
+    slot_uri: schema:alternateName
+    owner: UserFacility
+    domain_of:
+    - ResearchProgram
+    - UserFacility
+    range: string
+  ror_id:
+    name: ror_id
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/ror_id
+    description: Research Organization Registry identifier
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:ror_id
+    owner: Institution
+    domain_of:
+    - Institution
+    range: uriorcurie
+    pattern: ^ror:\d{9}$
+  orcid:
+    name: orcid
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/orcid
+    description: ORCID identifier for a person
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:orcid
+    owner: Person
+    domain_of:
+    - Person
+    range: uriorcurie
+    pattern: ^orcid:\d{4}-\d{4}-\d{4}-\d{3}[0-9X]$
+  doi:
+    name: doi
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/doi
+    description: Digital Object Identifier
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:doi
+    owner: Dataset
+    domain_of:
+    - Dataset
+    range: uriorcurie
+  pmid:
+    name: pmid
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/pmid
+    description: PubMed identifier
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:pmid
+    range: string
+  osti_id:
+    name: osti_id
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/osti_id
+    description: OSTI (Office of Scientific and Technical Information) identifier
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:osti_id
+    owner: Dataset
+    domain_of:
+    - Dataset
+    range: string
+  nmdc_study_id:
+    name: nmdc_study_id
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/nmdc_study_id
+    description: National Microbiome Data Collaborative study identifier (e.g., nmdc:sty-11-ev70y104)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:nmdc_study_id
+    owner: NMDCStudyReference
+    domain_of:
+    - Dataset
+    - NMDCStudyReference
+    range: uriorcurie
+    pattern: ^nmdc:sty-[a-z0-9-]+$
+  nmdc_umbrella_study:
+    name: nmdc_umbrella_study
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/nmdc_umbrella_study
+    description: The NMDC umbrella study identifier for this research program. This
+      is the top-level study that child studies link to via part_of.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:nmdc_umbrella_study
+    owner: ResearchProgram
+    domain_of:
+    - ResearchProgram
+    range: uriorcurie
+    pattern: ^nmdc:sty-[a-z0-9-]+$
+  studies:
+    name: studies
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/studies
+    description: NMDC studies associated with this research program. These are individual
+      research studies that are part of the program.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:studies
+    owner: ResearchProgram
+    domain_of:
+    - ResearchProgram
+    range: NMDCStudyReference
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  analyses:
+    name: analyses
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/analyses
+    description: Computational analyses associated with this research program, including
+      KBase narratives and other workflows.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:analyses
+    owner: ResearchProgram
+    domain_of:
+    - ResearchProgram
+    range: KBaseNarrative
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  kbase_genome_collection:
+    name: kbase_genome_collection
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/kbase_genome_collection
+    description: If this program has a curated genome collection in KBase Collections
+      (e.g., ENIGMA, PMI, GROW), the collection identifier. Collections are searchable
+      curated datasets with GTDB taxonomy and microTrait annotations.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:kbase_genome_collection
+    owner: ResearchProgram
+    domain_of:
+    - ResearchProgram
+    range: KBaseCollection
+  jgi_project_id:
+    name: jgi_project_id
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/jgi_project_id
+    description: DOE Joint Genome Institute project identifier for sequence data (e.g.,
+      Gs0114663 or 1191516)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:jgi_project_id
+    owner: Dataset
+    domain_of:
+    - Dataset
+    range: string
+  ameriflux_site_id:
+    name: ameriflux_site_id
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/ameriflux_site_id
+    description: Ameriflux site identifier for flux tower data (e.g., US-KL1)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:ameriflux_site_id
+    owner: Dataset
+    domain_of:
+    - Dataset
+    range: string
+    pattern: ^[A-Z]{2}-[A-Za-z0-9]+$
+  lter_dataset_id:
+    name: lter_dataset_id
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/lter_dataset_id
+    description: Long Term Ecological Research Network dataset identifier
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:lter_dataset_id
+    owner: Dataset
+    domain_of:
+    - Dataset
+    range: string
+  primary_reference:
+    name: primary_reference
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/primary_reference
+    implements:
+    - linkml:authoritative_reference
+    description: DOI of the primary publication describing this dataset
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:primary_reference
+    owner: Analysis
+    domain_of:
+    - Dataset
+    - NMDCStudyReference
+    - Analysis
+    range: uriorcurie
+  additional_references:
+    name: additional_references
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/additional_references
+    description: DOIs of additional publications associated with or derived from this
+      dataset
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:additional_references
+    owner: Analysis
+    domain_of:
+    - Dataset
+    - Analysis
+    range: uriorcurie
+    multivalued: true
+  name:
+    name: name
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/name
+    description: A human-readable name for an entity
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    mappings:
+    - schema:name
+    slot_uri: schema:name
+    owner: Instrument
+    domain_of:
+    - NamedThing
+    - Institution
+    - Person
+    - Dataset
+    - IsolateCollection
+    - FieldSite
+    - Technology
+    - NMDCStudyReference
+    - FlagshipGenome
+    - Capability
+    - Instrument
+    range: string
+  description:
+    name: description
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/description
+    description: A human-readable description for an entity
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    mappings:
+    - schema:description
+    slot_uri: schema:description
+    owner: Instrument
+    domain_of:
+    - NamedThing
+    - Institution
+    - Dataset
+    - IsolateCollection
+    - FieldSite
+    - Technology
+    - NMDCStudyReference
+    - FlagshipGenome
+    - Capability
+    - Instrument
+    range: string
+  title:
+    name: title
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/title
+    description: Title of a publication or other work
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    mappings:
+    - dcterms:title
+    slot_uri: dcterms:title
+    owner: Reference
+    domain_of:
+    - Reference
+    range: string
+  program_type:
+    name: program_type
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/program_type
+    description: The type of research program
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:program_type
+    owner: UserFacility
+    domain_of:
+    - ResearchProgram
+    - UserFacility
+    range: ProgramType
+  sfa_type:
+    name: sfa_type
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/sfa_type
+    description: The specific type of Scientific Focus Area
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:sfa_type
+    owner: ScientificFocusArea
+    domain_of:
+    - ScientificFocusArea
+    range: SFAType
+  initiative_name:
+    name: initiative_name
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/initiative_name
+    description: Name of the parent initiative this program belongs to (e.g., BRaVE
+      for Biopreparedness Research Virtual Environment projects)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:initiative_name
+    owner: OtherProgram
+    domain_of:
+    - OtherProgram
+    range: string
+  funding_period:
+    name: funding_period
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/funding_period
+    description: The funding period for time-limited initiatives (e.g., "2023-2026"
+      or "FY2023-FY2025")
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:funding_period
+    owner: OtherProgram
+    domain_of:
+    - OtherProgram
+    range: string
+  participating_offices:
+    name: participating_offices
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/participating_offices
+    description: DOE offices participating in funding this initiative (e.g., BER,
+      ASCR, BES)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:participating_offices
+    owner: OtherProgram
+    domain_of:
+    - OtherProgram
+    range: string
+    multivalued: true
+  institution_type:
+    name: institution_type
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/institution_type
+    description: The type of institution
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:institution_type
+    owner: Institution
+    domain_of:
+    - Institution
+    range: InstitutionType
+  lead_institution:
+    name: lead_institution
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/lead_institution
+    description: The primary institution leading the program
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:lead_institution
+    owner: UserFacility
+    domain_of:
+    - ResearchProgram
+    - UserFacility
+    range: string
+  lead_institutions:
+    name: lead_institutions
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/lead_institutions
+    description: Multiple lead institutions (for collaborative programs)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:lead_institutions
+    owner: UserFacility
+    domain_of:
+    - UserFacility
+    range: string
+    multivalued: true
+  partner_institutions:
+    name: partner_institutions
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/partner_institutions
+    description: Partner institutions participating in the program
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:partner_institutions
+    owner: ResearchProgram
+    domain_of:
+    - ResearchProgram
+    range: string
+    multivalued: true
+  principal_investigators:
+    name: principal_investigators
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/principal_investigators
+    description: Principal investigators leading the program
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:principal_investigators
+    owner: ResearchProgram
+    domain_of:
+    - ResearchProgram
+    range: Person
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  co_investigators:
+    name: co_investigators
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/co_investigators
+    description: Co-investigators on the program
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:co_investigators
+    owner: ScientificFocusArea
+    domain_of:
+    - ScientificFocusArea
+    range: Person
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  collaborators:
+    name: collaborators
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/collaborators
+    description: Description of collaborators
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:collaborators
+    owner: ResearchProgram
+    domain_of:
+    - ResearchProgram
+    range: string
+  isolate_collections:
+    name: isolate_collections
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/isolate_collections
+    description: Microbial isolate collections maintained by this research program.
+      Provides catalog-level information about available cultures and genomes.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:isolate_collections
+    owner: ResearchProgram
+    domain_of:
+    - ResearchProgram
+    range: IsolateCollection
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  phenotype_assays:
+    name: phenotype_assays
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/phenotype_assays
+    description: Types of phenotype assays performed by this research program. Catalogs
+      the phenotyping capabilities and data types generated.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:phenotype_assays
+    owner: ResearchProgram
+    domain_of:
+    - ResearchProgram
+    range: PhenotypeAssayType
+    multivalued: true
+  role:
+    name: role
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/role
+    description: Role of a person in the program (e.g., Director, Principal Investigator)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:role
+    owner: Person
+    domain_of:
+    - Person
+    range: string
+  affiliation:
+    name: affiliation
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/affiliation
+    description: Institutional affiliation of a person
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:affiliation
+    owner: Person
+    domain_of:
+    - Person
+    range: string
+  email:
+    name: email
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/email
+    description: Email address
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    mappings:
+    - schema:email
+    slot_uri: schema:email
+    owner: Person
+    domain_of:
+    - Person
+    range: string
+  expertise:
+    name: expertise
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/expertise
+    description: Area of expertise
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:expertise
+    owner: Person
+    domain_of:
+    - Person
+    range: string
+  location:
+    name: location
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/location
+    description: Geographic location of the program
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:location
+    owner: ResearchProgram
+    domain_of:
+    - ResearchProgram
+    range: Location
+    inlined: true
+    inlined_as_list: true
+  websites:
+    name: websites
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/websites
+    description: Web resources associated with the program
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:websites
+    owner: UserFacility
+    domain_of:
+    - ResearchProgram
+    - UserFacility
+    range: WebResources
+    inlined: true
+    inlined_as_list: true
+  url:
+    name: url
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/url
+    description: A URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    mappings:
+    - schema:url
+    slot_uri: schema:url
+    owner: Dataset
+    domain_of:
+    - Dataset
+    range: uri
+  repository:
+    name: repository
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/repository
+    description: Data repository where a dataset is stored
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:repository
+    owner: Dataset
+    domain_of:
+    - Dataset
+    range: string
+  funding:
+    name: funding
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/funding
+    description: Funding information for the program
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:funding
+    owner: UserFacility
+    domain_of:
+    - ResearchProgram
+    - UserFacility
+    range: FundingInfo
+    inlined: true
+    inlined_as_list: true
+  scientific_questions:
+    name: scientific_questions
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/scientific_questions
+    description: Key scientific questions addressed by the program
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:scientific_questions
+    owner: ResearchProgram
+    domain_of:
+    - ResearchProgram
+    range: string
+    multivalued: true
+  keywords:
+    name: keywords
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/keywords
+    description: Keywords describing the research focus
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    mappings:
+    - schema:keywords
+    slot_uri: schema:keywords
+    owner: NMDCStudyReference
+    domain_of:
+    - ResearchProgram
+    - NMDCStudyReference
+    range: Keyword
+    multivalued: true
+  data_types:
+    name: data_types
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/data_types
+    description: Types of data collected or generated
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:data_types
+    owner: ResearchProgram
+    domain_of:
+    - ResearchProgram
+    range: DataType
+    multivalued: true
+  data_collection_modalities:
+    name: data_collection_modalities
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/data_collection_modalities
+    description: Methods and modalities used for data collection
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:data_collection_modalities
+    owner: ResearchProgram
+    domain_of:
+    - ResearchProgram
+    range: DataCollectionModality
+    multivalued: true
+  services:
+    name: services
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/services
+    description: Services provided by a facility
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:services
+    owner: UserFacility
+    domain_of:
+    - UserFacility
+    range: string
+    multivalued: true
+  capabilities:
+    name: capabilities
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/capabilities
+    description: Scientific capabilities provided by the facility
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:capabilities
+    owner: UserFacility
+    domain_of:
+    - UserFacility
+    range: Capability
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  supported_data_types:
+    name: supported_data_types
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/supported_data_types
+    description: Data types supported by a facility
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:supported_data_types
+    owner: UserFacility
+    domain_of:
+    - UserFacility
+    range: string
+    multivalued: true
+  datasets:
+    name: datasets
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/datasets
+    description: Datasets produced by or associated with the program
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:datasets
+    owner: ResearchProgram
+    domain_of:
+    - ResearchProgram
+    range: Dataset
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  key_publications:
+    name: key_publications
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/key_publications
+    description: Key publications from the program with their findings
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:key_publications
+    owner: ResearchProgram
+    domain_of:
+    - ResearchProgram
+    range: Reference
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  outputs:
+    name: outputs
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/outputs
+    description: Summary of program outputs
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:outputs
+    owner: BioenergyResearchCenter
+    domain_of:
+    - BioenergyResearchCenter
+    range: ProgramOutputs
+    inlined: true
+    inlined_as_list: true
+  field_sites:
+    name: field_sites
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/field_sites
+    description: Field research sites associated with the program
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:field_sites
+    owner: ResearchProgram
+    domain_of:
+    - ResearchProgram
+    range: FieldSite
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  technologies_developed:
+    name: technologies_developed
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/technologies_developed
+    description: Technologies or tools developed by the program
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:technologies_developed
+    owner: ScientificFocusArea
+    domain_of:
+    - ScientificFocusArea
+    range: Technology
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  flagship_genomes:
+    name: flagship_genomes
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/flagship_genomes
+    description: Flagship genomes sequenced by the facility
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:flagship_genomes
+    owner: UserFacility
+    domain_of:
+    - UserFacility
+    range: FlagshipGenome
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  reference_data:
+    name: reference_data
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/reference_data
+    description: Reference data maintained by the facility
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:reference_data
+    owner: UserFacility
+    domain_of:
+    - UserFacility
+    range: ReferenceData
+    inlined: true
+    inlined_as_list: true
+  findings:
+    name: findings
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/findings
+    description: Key findings or claims extracted from a publication
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:findings
+    owner: Reference
+    domain_of:
+    - Reference
+    range: Finding
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  statement:
+    name: statement
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/statement
+    description: A key finding or claim from the publication
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:statement
+    owner: Finding
+    domain_of:
+    - Finding
+    range: string
+    required: true
+  supporting_text:
+    name: supporting_text
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/supporting_text
+    implements:
+    - linkml:excerpt
+    description: Exact excerpt or quote from the publication supporting the finding
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:supporting_text
+    owner: Finding
+    domain_of:
+    - Finding
+    range: string
+  year:
+    name: year
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/year
+    description: Year of publication or establishment
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:year
+    range: integer
+  data_type:
+    name: data_type
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/data_type
+    description: Type of data in a dataset
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:data_type
+    owner: Dataset
+    domain_of:
+    - Dataset
+    range: string
+  size:
+    name: size
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/size
+    description: Size of a dataset
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:size
+    owner: Dataset
+    domain_of:
+    - Dataset
+    range: string
+  version:
+    name: version
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/version
+    description: Version of a dataset or resource
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:version
+    owner: Dataset
+    domain_of:
+    - Dataset
+    range: string
+  years:
+    name: years
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/years
+    description: Years covered by a dataset
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:years
+    owner: Dataset
+    domain_of:
+    - Dataset
+    range: string
+  reference:
+    name: reference
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/reference
+    description: Reference citation for a dataset
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:reference
+    owner: Dataset
+    domain_of:
+    - Dataset
+    range: string
+  count:
+    name: count
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/count
+    description: Count of items in a dataset
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:count
+    owner: Dataset
+    domain_of:
+    - Dataset
+    range: string
+  doi_examples:
+    name: doi_examples
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/doi_examples
+    description: Example DOIs for a dataset collection
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:doi_examples
+    owner: Dataset
+    domain_of:
+    - Dataset
+    range: string
+    multivalued: true
+  established:
+    name: established
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/established
+    description: Year the program was established
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:established
+    owner: ResearchProgram
+    domain_of:
+    - ResearchProgram
+    range: integer
+  predecessor:
+    name: predecessor
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/predecessor
+    description: Predecessor program that this program builds upon
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:predecessor
+    owner: BioenergyResearchCenter
+    domain_of:
+    - BioenergyResearchCenter
+    range: string
+  researchProgramCollection__bioenergy_research_centers:
+    name: researchProgramCollection__bioenergy_research_centers
+    description: Collection of DOE Bioenergy Research Centers
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:bioenergy_research_centers
+    alias: bioenergy_research_centers
+    owner: ResearchProgramCollection
+    domain_of:
+    - ResearchProgramCollection
+    range: BioenergyResearchCenter
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  researchProgramCollection__genomic_science_sfas:
+    name: researchProgramCollection__genomic_science_sfas
+    description: Collection of Genomic Science Program Scientific Focus Areas
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:genomic_science_sfas
+    alias: genomic_science_sfas
+    owner: ResearchProgramCollection
+    domain_of:
+    - ResearchProgramCollection
+    range: ScientificFocusArea
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  researchProgramCollection__environmental_system_science_sfas:
+    name: researchProgramCollection__environmental_system_science_sfas
+    description: Collection of Environmental System Science Scientific Focus Areas
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:environmental_system_science_sfas
+    alias: environmental_system_science_sfas
+    owner: ResearchProgramCollection
+    domain_of:
+    - ResearchProgramCollection
+    range: ScientificFocusArea
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  researchProgramCollection__user_facilities:
+    name: researchProgramCollection__user_facilities
+    description: Collection of DOE BER User Facilities
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:user_facilities
+    alias: user_facilities
+    owner: ResearchProgramCollection
+    domain_of:
+    - ResearchProgramCollection
+    range: UserFacility
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  researchProgramCollection__other_programs:
+    name: researchProgramCollection__other_programs
+    description: Other DOE research programs and initiatives that don't fit the traditional
+      SFA/BRC/Facility categories (e.g., BRaVE, cross-cutting initiatives, time-limited
+      projects)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:other_programs
+    alias: other_programs
+    owner: ResearchProgramCollection
+    domain_of:
+    - ResearchProgramCollection
+    range: OtherProgram
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  researchProgramCollection__metadata:
+    name: researchProgramCollection__metadata
+    description: Metadata about this collection
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:metadata
+    alias: metadata
+    owner: ResearchProgramCollection
+    domain_of:
+    - ResearchProgramCollection
+    range: CollectionMetadata
+    inlined: true
+    inlined_as_list: true
+  collectionMetadata__compiled_date:
+    name: collectionMetadata__compiled_date
+    description: Date this collection was compiled (ISO 8601 format)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:compiled_date
+    alias: compiled_date
+    owner: CollectionMetadata
+    domain_of:
+    - CollectionMetadata
+    range: string
+  collectionMetadata__sources:
+    name: collectionMetadata__sources
+    description: Sources used to compile this collection
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:sources
+    alias: sources
+    owner: CollectionMetadata
+    domain_of:
+    - CollectionMetadata
+    range: string
+    multivalued: true
+  collectionMetadata__notes:
+    name: collectionMetadata__notes
+    description: Additional notes about the collection
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:notes
+    alias: notes
+    owner: CollectionMetadata
+    domain_of:
+    - CollectionMetadata
+    range: string
+  fundingInfo__agency:
+    name: fundingInfo__agency
+    description: The funding agency (e.g., DOE BER)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:agency
+    alias: agency
+    owner: FundingInfo
+    domain_of:
+    - FundingInfo
+    range: string
+  fundingInfo__program:
+    name: fundingInfo__program
+    description: The specific funding program (e.g., Genomic Science Program)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:program
+    alias: program
+    owner: FundingInfo
+    domain_of:
+    - FundingInfo
+    range: string
+  fundingInfo__division:
+    name: fundingInfo__division
+    description: The division within the agency
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:division
+    alias: division
+    owner: FundingInfo
+    domain_of:
+    - FundingInfo
+    range: string
+  fundingInfo__subprogram:
+    name: fundingInfo__subprogram
+    description: Subprogram or area within the program
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:subprogram
+    alias: subprogram
+    owner: FundingInfo
+    domain_of:
+    - FundingInfo
+    range: string
+  fundingInfo__area:
+    name: fundingInfo__area
+    description: Research area designation
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:area
+    alias: area
+    owner: FundingInfo
+    domain_of:
+    - FundingInfo
+    range: string
+  fundingInfo__contract:
+    name: fundingInfo__contract
+    description: Contract number
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:contract
+    alias: contract
+    owner: FundingInfo
+    domain_of:
+    - FundingInfo
+    range: string
+  fundingInfo__grant:
+    name: fundingInfo__grant
+    description: Grant number or identifier
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:grant
+    alias: grant
+    owner: FundingInfo
+    domain_of:
+    - FundingInfo
+    range: string
+  fundingInfo__total_funding:
+    name: fundingInfo__total_funding
+    description: Total funding amount (may include period)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:total_funding
+    alias: total_funding
+    owner: FundingInfo
+    domain_of:
+    - FundingInfo
+    range: string
+  fundingInfo__amount:
+    name: fundingInfo__amount
+    description: Specific funding amount
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:amount
+    alias: amount
+    owner: FundingInfo
+    domain_of:
+    - FundingInfo
+    range: string
+  fundingInfo__award_2017:
+    name: fundingInfo__award_2017
+    description: Award amount for 2017 funding cycle
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:award_2017
+    alias: award_2017
+    owner: FundingInfo
+    domain_of:
+    - FundingInfo
+    range: string
+  fundingInfo__current_period:
+    name: fundingInfo__current_period
+    description: Current funding period (e.g., 2023-2028)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:current_period
+    alias: current_period
+    owner: FundingInfo
+    domain_of:
+    - FundingInfo
+    range: string
+  location__address:
+    name: location__address
+    description: Street address or building name
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:address
+    alias: address
+    owner: Location
+    domain_of:
+    - Location
+    range: string
+  location__city:
+    name: location__city
+    description: City name
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:city
+    alias: city
+    owner: Location
+    domain_of:
+    - Location
+    range: string
+  location__state:
+    name: location__state
+    description: State or province
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:state
+    alias: state
+    owner: Location
+    domain_of:
+    - Location
+    range: string
+  location__country:
+    name: location__country
+    description: Country name
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:country
+    ifabsent: string(USA)
+    alias: country
+    owner: Location
+    domain_of:
+    - Location
+    range: string
+  webResources__main:
+    name: webResources__main
+    description: Main website URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:main
+    alias: main
+    owner: WebResources
+    domain_of:
+    - WebResources
+    range: uri
+  webResources__doe_page:
+    name: webResources__doe_page
+    description: DOE program page URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:doe_page
+    alias: doe_page
+    owner: WebResources
+    domain_of:
+    - WebResources
+    range: uri
+  webResources__ornl_page:
+    name: webResources__ornl_page
+    description: ORNL project page URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:ornl_page
+    alias: ornl_page
+    owner: WebResources
+    domain_of:
+    - WebResources
+    range: uri
+  webResources__llnl_page:
+    name: webResources__llnl_page
+    description: LLNL project page URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:llnl_page
+    alias: llnl_page
+    owner: WebResources
+    domain_of:
+    - WebResources
+    range: uri
+  webResources__data_portal:
+    name: webResources__data_portal
+    description: Data portal URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:data_portal
+    alias: data_portal
+    owner: WebResources
+    domain_of:
+    - WebResources
+    range: uri
+  webResources__data_hub:
+    name: webResources__data_hub
+    description: Data hub URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:data_hub
+    alias: data_hub
+    owner: WebResources
+    domain_of:
+    - WebResources
+    range: uri
+  webResources__data_page:
+    name: webResources__data_page
+    description: Data page URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:data_page
+    alias: data_page
+    owner: WebResources
+    domain_of:
+    - WebResources
+    range: uri
+  webResources__atlas:
+    name: webResources__atlas
+    description: Atlas or mapping portal URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:atlas
+    alias: atlas
+    owner: WebResources
+    domain_of:
+    - WebResources
+    range: uri
+  webResources__github:
+    name: webResources__github
+    description: GitHub organization or repository URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:github
+    alias: github
+    owner: WebResources
+    domain_of:
+    - WebResources
+    range: uri
+  webResources__kbase:
+    name: webResources__kbase
+    description: KBase collaboration page URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:kbase
+    alias: kbase
+    owner: WebResources
+    domain_of:
+    - WebResources
+    range: uri
+  webResources__ess_dive:
+    name: webResources__ess_dive
+    description: ESS-DIVE data portal URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:ess_dive
+    alias: ess_dive
+    owner: WebResources
+    domain_of:
+    - WebResources
+    range: uri
+  webResources__ideas_watersheds:
+    name: webResources__ideas_watersheds
+    description: IDEAS-Watersheds page URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:ideas_watersheds
+    alias: ideas_watersheds
+    owner: WebResources
+    domain_of:
+    - WebResources
+    range: uri
+  webResources__czen:
+    name: webResources__czen
+    description: Critical Zone Exploration Network page URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:czen
+    alias: czen
+    owner: WebResources
+    domain_of:
+    - WebResources
+    range: uri
+  webResources__publications:
+    name: webResources__publications
+    description: Publications page URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:publications
+    alias: publications
+    owner: WebResources
+    domain_of:
+    - WebResources
+    range: uri
+  webResources__highlights:
+    name: webResources__highlights
+    description: Research highlights page URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:highlights
+    alias: highlights
+    owner: WebResources
+    domain_of:
+    - WebResources
+    range: uri
+  webResources__documentation:
+    name: webResources__documentation
+    description: Documentation URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:documentation
+    alias: documentation
+    owner: WebResources
+    domain_of:
+    - WebResources
+    range: uri
+  webResources__bacterial_strains:
+    name: webResources__bacterial_strains
+    description: Bacterial strains collection URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:bacterial_strains
+    alias: bacterial_strains
+    owner: WebResources
+    domain_of:
+    - WebResources
+    range: uri
+  webResources__bfi_portal:
+    name: webResources__bfi_portal
+    description: BFI research portal URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:bfi_portal
+    alias: bfi_portal
+    owner: WebResources
+    domain_of:
+    - WebResources
+    range: uri
+  webResources__ssrl_page:
+    name: webResources__ssrl_page
+    description: SSRL page URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:ssrl_page
+    alias: ssrl_page
+    owner: WebResources
+    domain_of:
+    - WebResources
+    range: uri
+  webResources__anl_page:
+    name: webResources__anl_page
+    description: ANL page URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:anl_page
+    alias: anl_page
+    owner: WebResources
+    domain_of:
+    - WebResources
+    range: uri
+  webResources__team:
+    name: webResources__team
+    description: Team page URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:team
+    alias: team
+    owner: WebResources
+    domain_of:
+    - WebResources
+    range: uri
+  webResources__phytozome:
+    name: webResources__phytozome
+    description: Phytozome plant genome portal URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:phytozome
+    alias: phytozome
+    owner: WebResources
+    domain_of:
+    - WebResources
+    range: uri
+  dataset__primary_reference_info:
+    name: dataset__primary_reference_info
+    description: Primary publication reference with structured metadata for validation.
+      Preferred over primary_reference slot - enables title and excerpt validation.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:primary_reference_info
+    alias: primary_reference_info
+    owner: Dataset
+    domain_of:
+    - Dataset
+    range: PrimaryReferenceInfo
+    inlined: true
+    inlined_as_list: true
+  finding__reference:
+    name: finding__reference
+    implements:
+    - linkml:authoritative_reference
+    description: DOI of the publication this finding is from (for validation)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:reference
+    alias: reference
+    owner: Finding
+    domain_of:
+    - Finding
+    range: uriorcurie
+  primaryReferenceInfo__reference:
+    name: primaryReferenceInfo__reference
+    description: The primary publication reference
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:reference
+    alias: reference
+    owner: PrimaryReferenceInfo
+    domain_of:
+    - PrimaryReferenceInfo
+    range: Reference
+    required: true
+    inlined: true
+    inlined_as_list: false
+  primaryReferenceInfo__relationship_note:
+    name: primaryReferenceInfo__relationship_note
+    description: Optional note describing the relationship between the reference and
+      the entity it's attached to (e.g., "Describes the isolation methods", "First
+      report of these isolates")
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:relationship_note
+    alias: relationship_note
+    owner: PrimaryReferenceInfo
+    domain_of:
+    - PrimaryReferenceInfo
+    range: string
+  programOutputs__publication_count:
+    name: programOutputs__publication_count
+    description: Number or description of publications
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:publication_count
+    alias: publication_count
+    owner: ProgramOutputs
+    domain_of:
+    - ProgramOutputs
+    range: string
+  programOutputs__patent_applications:
+    name: programOutputs__patent_applications
+    description: Number of patent applications
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:patent_applications
+    alias: patent_applications
+    owner: ProgramOutputs
+    domain_of:
+    - ProgramOutputs
+    range: integer
+  programOutputs__invention_disclosures:
+    name: programOutputs__invention_disclosures
+    description: Number of invention disclosures
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:invention_disclosures
+    alias: invention_disclosures
+    owner: ProgramOutputs
+    domain_of:
+    - ProgramOutputs
+    range: integer
+  programOutputs__licenses_options:
+    name: programOutputs__licenses_options
+    description: Number of licenses or options
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:licenses_options
+    alias: licenses_options
+    owner: ProgramOutputs
+    domain_of:
+    - ProgramOutputs
+    range: integer
+  programOutputs__patents:
+    name: programOutputs__patents
+    description: Number of patents granted
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:patents
+    alias: patents
+    owner: ProgramOutputs
+    domain_of:
+    - ProgramOutputs
+    range: integer
+  programOutputs__startups:
+    name: programOutputs__startups
+    description: Number of startup companies formed
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:startups
+    alias: startups
+    owner: ProgramOutputs
+    domain_of:
+    - ProgramOutputs
+    range: integer
+  isolateCollection__organism_types:
+    name: isolateCollection__organism_types
+    description: Types of organisms in this collection
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:organism_types
+    alias: organism_types
+    owner: IsolateCollection
+    domain_of:
+    - IsolateCollection
+    range: OrganismType
+    multivalued: true
+  isolateCollection__isolate_count:
+    name: isolateCollection__isolate_count
+    description: Approximate number of isolates in the collection
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:isolate_count
+    alias: isolate_count
+    owner: IsolateCollection
+    domain_of:
+    - IsolateCollection
+    range: integer
+  isolateCollection__genome_count:
+    name: isolateCollection__genome_count
+    description: Number of isolates with sequenced genomes
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:genome_count
+    alias: genome_count
+    owner: IsolateCollection
+    domain_of:
+    - IsolateCollection
+    range: integer
+  isolateCollection__source_environments:
+    name: isolateCollection__source_environments
+    description: Environments from which isolates were obtained (e.g., rhizosphere,
+      subsurface, contaminated groundwater, phyllosphere)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:source_environments
+    alias: source_environments
+    owner: IsolateCollection
+    domain_of:
+    - IsolateCollection
+    range: string
+    multivalued: true
+  isolateCollection__isolation_methods:
+    name: isolateCollection__isolation_methods
+    description: Brief description of isolation methods used (e.g., aerobic plating,
+      anaerobic enrichment, single-cell sorting)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:isolation_methods
+    alias: isolation_methods
+    owner: IsolateCollection
+    domain_of:
+    - IsolateCollection
+    range: string
+    multivalued: true
+  isolateCollection__host_organisms:
+    name: isolateCollection__host_organisms
+    description: Host organisms if isolates are host-associated (e.g., Populus, Panicum
+      virgatum)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:host_organisms
+    alias: host_organisms
+    owner: IsolateCollection
+    domain_of:
+    - IsolateCollection
+    range: string
+    multivalued: true
+  isolateCollection__culture_collection_url:
+    name: isolateCollection__culture_collection_url
+    description: URL to browse or request live cultures
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:culture_collection_url
+    alias: culture_collection_url
+    owner: IsolateCollection
+    domain_of:
+    - IsolateCollection
+    range: uri
+  isolateCollection__genome_catalog_url:
+    name: isolateCollection__genome_catalog_url
+    description: URL to genome data (KBase narrative, JGI, NCBI BioProject)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:genome_catalog_url
+    alias: genome_catalog_url
+    owner: IsolateCollection
+    domain_of:
+    - IsolateCollection
+    range: uri
+  isolateCollection__kbase_narrative_id:
+    name: isolateCollection__kbase_narrative_id
+    description: KBase narrative ID containing isolate genomes if applicable
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:kbase_narrative_id
+    alias: kbase_narrative_id
+    owner: IsolateCollection
+    domain_of:
+    - IsolateCollection
+    range: string
+  isolateCollection__primary_reference:
+    name: isolateCollection__primary_reference
+    implements:
+    - linkml:authoritative_reference
+    description: 'DOI of primary publication describing the collection. DEPRECATED:
+      Use primary_reference_info for new entries to enable title validation.'
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:primary_reference
+    alias: primary_reference
+    owner: IsolateCollection
+    domain_of:
+    - IsolateCollection
+    range: uriorcurie
+  isolateCollection__primary_reference_info:
+    name: isolateCollection__primary_reference_info
+    description: Primary publication reference with structured metadata for validation.
+      Preferred over primary_reference - enables title and excerpt validation.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:primary_reference_info
+    alias: primary_reference_info
+    owner: IsolateCollection
+    domain_of:
+    - IsolateCollection
+    range: PrimaryReferenceInfo
+    inlined: true
+    inlined_as_list: true
+  fieldSite__location:
+    name: fieldSite__location
+    description: Geographic location of the field site
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:location
+    alias: location
+    owner: FieldSite
+    domain_of:
+    - FieldSite
+    range: string
+  fieldSite__contaminants:
+    name: fieldSite__contaminants
+    description: Contaminants present at the site (if applicable)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:contaminants
+    alias: contaminants
+    owner: FieldSite
+    domain_of:
+    - FieldSite
+    range: string
+    multivalued: true
+  fieldSite__contamination_source:
+    name: fieldSite__contamination_source
+    description: Source of contamination at the site
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:contamination_source
+    alias: contamination_source
+    owner: FieldSite
+    domain_of:
+    - FieldSite
+    range: string
+  nMDCStudyReference__pi:
+    name: nMDCStudyReference__pi
+    description: Principal investigator name for this study
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:pi
+    alias: pi
+    owner: NMDCStudyReference
+    domain_of:
+    - NMDCStudyReference
+    range: string
+  nMDCStudyReference__bioproject_ids:
+    name: nMDCStudyReference__bioproject_ids
+    description: NCBI BioProject identifiers associated with this study
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:bioproject_ids
+    alias: bioproject_ids
+    owner: NMDCStudyReference
+    domain_of:
+    - NMDCStudyReference
+    range: string
+    multivalued: true
+  nMDCStudyReference__gold_study_id:
+    name: nMDCStudyReference__gold_study_id
+    description: GOLD study identifier (e.g., gold:Gs0128851)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:gold_study_id
+    alias: gold_study_id
+    owner: NMDCStudyReference
+    domain_of:
+    - NMDCStudyReference
+    range: string
+  nMDCStudyReference__jgi_proposal_id:
+    name: nMDCStudyReference__jgi_proposal_id
+    description: JGI proposal identifier
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:jgi_proposal_id
+    alias: jgi_proposal_id
+    owner: NMDCStudyReference
+    domain_of:
+    - NMDCStudyReference
+    range: string
+  nMDCStudyReference__brc_dataset_ids:
+    name: nMDCStudyReference__brc_dataset_ids
+    description: Dataset identifiers from the BRC API (api.bioenergy.org) associated
+      with this study. These are the native identifiers which may be DOIs, BioProject
+      IDs, or repository-specific IDs.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:brc_dataset_ids
+    alias: brc_dataset_ids
+    owner: NMDCStudyReference
+    domain_of:
+    - NMDCStudyReference
+    range: string
+    multivalued: true
+  nMDCStudyReference__nmdc_ingest_target:
+    name: nMDCStudyReference__nmdc_ingest_target
+    description: If true, indicates this study has data that should be targeted for
+      ingest into NMDC but is not yet registered there.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:nmdc_ingest_target
+    alias: nmdc_ingest_target
+    owner: NMDCStudyReference
+    domain_of:
+    - NMDCStudyReference
+    range: boolean
+  nMDCStudyReference__nmdc_ingest_priority:
+    name: nMDCStudyReference__nmdc_ingest_priority
+    description: Priority level for NMDC ingest consideration. HIGH for datasets with
+      rich microbiome data ready for processing, MEDIUM for datasets that need some
+      preparation, LOW for marginal candidates.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:nmdc_ingest_priority
+    alias: nmdc_ingest_priority
+    owner: NMDCStudyReference
+    domain_of:
+    - NMDCStudyReference
+    range: NMDCIngestPriority
+  nMDCStudyReference__data_modalities:
+    name: nMDCStudyReference__data_modalities
+    description: Types of data generated in this study (e.g., 16S_AMPLICON, METAGENOMICS)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:data_modalities
+    alias: data_modalities
+    owner: NMDCStudyReference
+    domain_of:
+    - NMDCStudyReference
+    range: DataType
+    multivalued: true
+  nMDCStudyReference__sample_count:
+    name: nMDCStudyReference__sample_count
+    description: Number of samples in the study
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:sample_count
+    alias: sample_count
+    owner: NMDCStudyReference
+    domain_of:
+    - NMDCStudyReference
+    range: integer
+  nMDCStudyReference__organism:
+    name: nMDCStudyReference__organism
+    description: Primary organism studied
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:organism
+    alias: organism
+    owner: NMDCStudyReference
+    domain_of:
+    - NMDCStudyReference
+    range: string
+  nMDCStudyReference__preprocessed_data_available:
+    name: nMDCStudyReference__preprocessed_data_available
+    description: Types of preprocessed/derived data products available in public repositories
+      (e.g., NCBI) for this study. Examples include MAGs (metagenome-assembled genomes),
+      genome assemblies, gene annotations, etc. Used to identify studies with analysis-ready
+      data that may meet NMDC quality standards.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:preprocessed_data_available
+    alias: preprocessed_data_available
+    owner: NMDCStudyReference
+    domain_of:
+    - NMDCStudyReference
+    range: PreprocessedDataType
+    multivalued: true
+  nMDCStudyReference__preprocessed_data_counts:
+    name: nMDCStudyReference__preprocessed_data_counts
+    description: Counts of preprocessed data products available (e.g., "28 MAGs",
+      "135 Gbases"). Free text to capture quantity and type.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:preprocessed_data_counts
+    alias: preprocessed_data_counts
+    owner: NMDCStudyReference
+    domain_of:
+    - NMDCStudyReference
+    range: string
+  nMDCStudyReference__ncbi_data_quality_notes:
+    name: nMDCStudyReference__ncbi_data_quality_notes
+    description: Notes about the quality or completeness of preprocessed data in NCBI.
+      Used to track whether external data meets NMDC standards.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:ncbi_data_quality_notes
+    alias: ncbi_data_quality_notes
+    owner: NMDCStudyReference
+    domain_of:
+    - NMDCStudyReference
+    range: string
+  nMDCStudyReference__primary_reference_info:
+    name: nMDCStudyReference__primary_reference_info
+    description: Primary publication reference with structured metadata for validation.
+      Preferred over primary_reference slot - enables title and excerpt validation.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:primary_reference_info
+    alias: primary_reference_info
+    owner: NMDCStudyReference
+    domain_of:
+    - NMDCStudyReference
+    range: PrimaryReferenceInfo
+    inlined: true
+    inlined_as_list: true
+  analysis__analysis_type:
+    name: analysis__analysis_type
+    description: Type of analysis performed
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:analysis_type
+    alias: analysis_type
+    owner: Analysis
+    domain_of:
+    - Analysis
+    range: AnalysisType
+  analysis__input_data_description:
+    name: analysis__input_data_description
+    description: Description of input data used
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:input_data_description
+    alias: input_data_description
+    owner: Analysis
+    domain_of:
+    - Analysis
+    range: string
+  analysis__output_data_types:
+    name: analysis__output_data_types
+    description: Types of data objects produced
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:output_data_types
+    alias: output_data_types
+    owner: Analysis
+    domain_of:
+    - Analysis
+    range: DataType
+    multivalued: true
+  analysis__primary_reference_info:
+    name: analysis__primary_reference_info
+    description: Primary publication reference with structured metadata for validation.
+      Preferred over primary_reference slot - enables title and excerpt validation.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:primary_reference_info
+    alias: primary_reference_info
+    owner: Analysis
+    domain_of:
+    - Analysis
+    range: PrimaryReferenceInfo
+    inlined: true
+    inlined_as_list: true
+  kBaseNarrative__kbase_narrative_id:
+    name: kBaseNarrative__kbase_narrative_id
+    description: KBase narrative numeric ID (e.g., "109073"). This is the number that
+      appears in URLs like kbase.us/n/109073/63/
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:kbase_narrative_id
+    alias: kbase_narrative_id
+    owner: KBaseNarrative
+    domain_of:
+    - KBaseNarrative
+    range: string
+  kBaseNarrative__kbase_narrative_url:
+    name: kBaseNarrative__kbase_narrative_url
+    description: Full URL to the public narrative
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:kbase_narrative_url
+    alias: kbase_narrative_url
+    owner: KBaseNarrative
+    domain_of:
+    - KBaseNarrative
+    range: uri
+  kBaseNarrative__kbase_workspace_id:
+    name: kBaseNarrative__kbase_workspace_id
+    description: Workspace ID for programmatic access via KBase Workspace API
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:kbase_workspace_id
+    alias: kbase_workspace_id
+    owner: KBaseNarrative
+    domain_of:
+    - KBaseNarrative
+    range: string
+  kBaseNarrative__osti_doi:
+    name: kBaseNarrative__osti_doi
+    description: 'DOI assigned by OSTI if narrative has been registered as a citable
+      dataset (format: 10.25982/...)'
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:osti_doi
+    alias: osti_doi
+    owner: KBaseNarrative
+    domain_of:
+    - KBaseNarrative
+    range: string
+  kBaseNarrative__is_static:
+    name: kBaseNarrative__is_static
+    description: Whether this is a static (snapshot) narrative suitable for citation
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:is_static
+    alias: is_static
+    owner: KBaseNarrative
+    domain_of:
+    - KBaseNarrative
+    range: boolean
+  kBaseNarrative__genome_count:
+    name: kBaseNarrative__genome_count
+    description: Number of genomes/MAGs in this narrative
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:genome_count
+    alias: genome_count
+    owner: KBaseNarrative
+    domain_of:
+    - KBaseNarrative
+    range: integer
+  kBaseNarrative__sample_count:
+    name: kBaseNarrative__sample_count
+    description: Number of samples in this narrative
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:sample_count
+    alias: sample_count
+    owner: KBaseNarrative
+    domain_of:
+    - KBaseNarrative
+    range: integer
+  kBaseNarrative__related_narratives:
+    name: kBaseNarrative__related_narratives
+    description: IDs of related KBase narratives
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:related_narratives
+    alias: related_narratives
+    owner: KBaseNarrative
+    domain_of:
+    - KBaseNarrative
+    range: string
+    multivalued: true
+  flagshipGenome__common_name:
+    name: flagshipGenome__common_name
+    description: Common name of the organism
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:common_name
+    alias: common_name
+    owner: FlagshipGenome
+    domain_of:
+    - FlagshipGenome
+    range: string
+  flagshipGenome__year:
+    name: flagshipGenome__year
+    description: Year the genome was sequenced
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:year
+    alias: year
+    owner: FlagshipGenome
+    domain_of:
+    - FlagshipGenome
+    range: integer
+  referenceData__microbial_genomes:
+    name: referenceData__microbial_genomes
+    description: Number/source of microbial genomes
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:microbial_genomes
+    alias: microbial_genomes
+    owner: ReferenceData
+    domain_of:
+    - ReferenceData
+    range: string
+  referenceData__plant_genomes:
+    name: referenceData__plant_genomes
+    description: Number/source of plant genomes
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:plant_genomes
+    alias: plant_genomes
+    owner: ReferenceData
+    domain_of:
+    - ReferenceData
+    range: string
+  referenceData__biolog_media:
+    name: referenceData__biolog_media
+    description: Number of Biolog media formulations
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:biolog_media
+    alias: biolog_media
+    owner: ReferenceData
+    domain_of:
+    - ReferenceData
+    range: string
+  referenceData__reactions_compounds:
+    name: referenceData__reactions_compounds
+    description: Number/source of reactions and compounds
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:reactions_compounds
+    alias: reactions_compounds
+    owner: ReferenceData
+    domain_of:
+    - ReferenceData
+    range: string
+  capability__capability_type:
+    name: capability__capability_type
+    description: The type/category of capability
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:capability_type
+    alias: capability_type
+    owner: Capability
+    domain_of:
+    - Capability
+    range: CapabilityType
+  capability__instruments:
+    name: capability__instruments
+    description: Specific instruments or equipment supporting this capability
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:instruments
+    alias: instruments
+    owner: Capability
+    domain_of:
+    - Capability
+    range: Instrument
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  capability__access_mode:
+    name: capability__access_mode
+    description: How users can access this capability
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:access_mode
+    alias: access_mode
+    owner: Capability
+    domain_of:
+    - Capability
+    range: string
+  capability__throughput:
+    name: capability__throughput
+    description: Throughput or capacity metrics
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:throughput
+    alias: throughput
+    owner: Capability
+    domain_of:
+    - Capability
+    range: string
+  capability__year_established:
+    name: capability__year_established
+    description: Year this capability was established
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:year_established
+    alias: year_established
+    owner: Capability
+    domain_of:
+    - Capability
+    range: integer
+  capability__url:
+    name: capability__url
+    description: URL for more information about this capability
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:url
+    alias: url
+    owner: Capability
+    domain_of:
+    - Capability
+    range: uri
+  capability__applications:
+    name: capability__applications
+    description: Key applications or use cases for this capability
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:applications
+    alias: applications
+    owner: Capability
+    domain_of:
+    - Capability
+    range: string
+    multivalued: true
+  capability__data_products:
+    name: capability__data_products
+    description: Types of data products generated by this capability
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:data_products
+    alias: data_products
+    owner: Capability
+    domain_of:
+    - Capability
+    range: string
+    multivalued: true
+  capability__status:
+    name: capability__status
+    description: Current operational status
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:status
+    alias: status
+    owner: Capability
+    domain_of:
+    - Capability
+    range: CapabilityStatus
+  capability__commissioned_date:
+    name: capability__commissioned_date
+    description: Date the capability was commissioned
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:commissioned_date
+    alias: commissioned_date
+    owner: Capability
+    domain_of:
+    - Capability
+    range: date
+  capability__leader:
+    name: capability__leader
+    description: Name of the capability lead or manager
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:leader
+    alias: leader
+    owner: Capability
+    domain_of:
+    - Capability
+    range: string
+  capability__future_expansion:
+    name: capability__future_expansion
+    description: Notes on planned future expansion or related facilities
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:future_expansion
+    alias: future_expansion
+    owner: Capability
+    domain_of:
+    - Capability
+    range: string
+  instrument__instrument_type:
+    name: instrument__instrument_type
+    description: Type of instrument
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:instrument_type
+    alias: instrument_type
+    owner: Instrument
+    domain_of:
+    - Instrument
+    range: InstrumentType
+  instrument__manufacturer:
+    name: instrument__manufacturer
+    description: Manufacturer of the instrument
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:manufacturer
+    alias: manufacturer
+    owner: Instrument
+    domain_of:
+    - Instrument
+    range: string
+  instrument__model:
+    name: instrument__model
+    description: Model name or number
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:model
+    alias: model
+    owner: Instrument
+    domain_of:
+    - Instrument
+    range: string
+  instrument__count:
+    name: instrument__count
+    description: Number of instruments of this type
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:count
+    alias: count
+    owner: Instrument
+    domain_of:
+    - Instrument
+    range: integer
+  instrument__specifications:
+    name: instrument__specifications
+    description: Key specifications (e.g., resolution, sensitivity)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:specifications
+    alias: specifications
+    owner: Instrument
+    domain_of:
+    - Instrument
+    range: string
+  ResearchProgram_id:
+    name: ResearchProgram_id
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/id
+    description: A unique identifier for the research program (e.g., nmdc_sfas_brcs:glbrc)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    mappings:
+    - schema:identifier
+    is_a: id
+    domain: ResearchProgram
+    slot_uri: schema:identifier
+    identifier: true
+    alias: id
+    owner: ResearchProgram
+    domain_of:
+    - ResearchProgram
+    is_usage_slot: true
+    usage_slot_name: id
+    range: uriorcurie
+    required: true
+    pattern: ^([a-z][a-z0-9_]*:)?[a-z][a-z0-9_]*$
+  ResearchProgram_name:
+    name: ResearchProgram_name
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/name
+    description: The full official name of the research program
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    mappings:
+    - schema:name
+    is_a: name
+    domain: ResearchProgram
+    slot_uri: schema:name
+    alias: name
+    owner: ResearchProgram
+    domain_of:
+    - ResearchProgram
+    is_usage_slot: true
+    usage_slot_name: name
+    range: string
+    required: true
+  BioenergyResearchCenter_program_type:
+    name: BioenergyResearchCenter_program_type
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/program_type
+    description: The type of research program
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    is_a: program_type
+    domain: BioenergyResearchCenter
+    slot_uri: nmdc_sfas_brcs:program_type
+    ifabsent: string(BIOENERGY_RESEARCH_CENTER)
+    alias: program_type
+    owner: BioenergyResearchCenter
+    domain_of:
+    - BioenergyResearchCenter
+    is_usage_slot: true
+    usage_slot_name: program_type
+    range: ProgramType
+  ScientificFocusArea_program_type:
+    name: ScientificFocusArea_program_type
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/program_type
+    description: The type of research program
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    is_a: program_type
+    domain: ScientificFocusArea
+    slot_uri: nmdc_sfas_brcs:program_type
+    ifabsent: string(SCIENTIFIC_FOCUS_AREA)
+    alias: program_type
+    owner: ScientificFocusArea
+    domain_of:
+    - ScientificFocusArea
+    is_usage_slot: true
+    usage_slot_name: program_type
+    range: ProgramType
+  OtherProgram_program_type:
+    name: OtherProgram_program_type
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/program_type
+    description: The type of research program
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    is_a: program_type
+    domain: OtherProgram
+    slot_uri: nmdc_sfas_brcs:program_type
+    ifabsent: string(OTHER_INITIATIVE)
+    alias: program_type
+    owner: OtherProgram
+    domain_of:
+    - OtherProgram
+    is_usage_slot: true
+    usage_slot_name: program_type
+    range: ProgramType
+  Reference_id:
+    name: Reference_id
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/id
+    implements:
+    - linkml:authoritative_reference
+    description: DOI of the publication (e.g., doi:10.1038/s41586-020-03127-1)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    mappings:
+    - schema:identifier
+    is_a: id
+    domain: Reference
+    slot_uri: schema:identifier
+    identifier: true
+    alias: id
+    owner: Reference
+    domain_of:
+    - Reference
+    is_usage_slot: true
+    usage_slot_name: id
+    range: uriorcurie
+    required: true
+classes:
+  ResearchProgramCollection:
+    name: ResearchProgramCollection
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/ResearchProgramCollection
+    description: A container for DOE BER funded research programs including Bioenergy
+      Research Centers (BRCs), Scientific Focus Areas (SFAs), and User Facilities.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slots:
+    - researchProgramCollection__bioenergy_research_centers
+    - researchProgramCollection__genomic_science_sfas
+    - researchProgramCollection__environmental_system_science_sfas
+    - researchProgramCollection__user_facilities
+    - researchProgramCollection__other_programs
+    - researchProgramCollection__metadata
+    attributes:
+      bioenergy_research_centers:
+        name: bioenergy_research_centers
+        description: Collection of DOE Bioenergy Research Centers
+        range: BioenergyResearchCenter
+        multivalued: true
+        inlined_as_list: true
+      genomic_science_sfas:
+        name: genomic_science_sfas
+        description: Collection of Genomic Science Program Scientific Focus Areas
+        range: ScientificFocusArea
+        multivalued: true
+        inlined_as_list: true
+      environmental_system_science_sfas:
+        name: environmental_system_science_sfas
+        description: Collection of Environmental System Science Scientific Focus Areas
+        range: ScientificFocusArea
+        multivalued: true
+        inlined_as_list: true
+      user_facilities:
+        name: user_facilities
+        description: Collection of DOE BER User Facilities
+        range: UserFacility
+        multivalued: true
+        inlined_as_list: true
+      other_programs:
+        name: other_programs
+        description: Other DOE research programs and initiatives that don't fit the
+          traditional SFA/BRC/Facility categories (e.g., BRaVE, cross-cutting initiatives,
+          time-limited projects)
+        range: OtherProgram
+        multivalued: true
+        inlined_as_list: true
+      metadata:
+        name: metadata
+        description: Metadata about this collection
+        range: CollectionMetadata
+    class_uri: nmdc_sfas_brcs:ResearchProgramCollection
+    tree_root: true
+  CollectionMetadata:
+    name: CollectionMetadata
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/CollectionMetadata
+    description: Metadata about the research program collection
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slots:
+    - collectionMetadata__compiled_date
+    - collectionMetadata__sources
+    - collectionMetadata__notes
+    attributes:
+      compiled_date:
+        name: compiled_date
+        description: Date this collection was compiled (ISO 8601 format)
+        range: string
+      sources:
+        name: sources
+        description: Sources used to compile this collection
+        range: string
+        multivalued: true
+      notes:
+        name: notes
+        description: Additional notes about the collection
+        range: string
+    class_uri: nmdc_sfas_brcs:CollectionMetadata
+  NamedThing:
+    name: NamedThing
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/NamedThing
+    description: A generic grouping for any identifiable entity
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    mappings:
+    - schema:Thing
+    abstract: true
+    slots:
+    - id
+    - name
+    - description
+    class_uri: schema:Thing
+  ResearchProgram:
+    name: ResearchProgram
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/ResearchProgram
+    description: A DOE BER funded research program. This is the common parent class
+      for Bioenergy Research Centers (BRCs) and Scientific Focus Areas (SFAs). Both
+      program types share common attributes including funding, institutions, personnel,
+      research focus, and outputs.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    is_a: NamedThing
+    abstract: true
+    slots:
+    - description
+    - acronym
+    - program_type
+    - lead_institution
+    - partner_institutions
+    - principal_investigators
+    - funding
+    - location
+    - websites
+    - scientific_questions
+    - keywords
+    - data_types
+    - data_collection_modalities
+    - nmdc_umbrella_study
+    - studies
+    - analyses
+    - kbase_genome_collection
+    - datasets
+    - key_publications
+    - field_sites
+    - established
+    - collaborators
+    - isolate_collections
+    - phenotype_assays
+    - ResearchProgram_id
+    - ResearchProgram_name
+    slot_usage:
+      id:
+        name: id
+        description: A unique identifier for the research program (e.g., nmdc_sfas_brcs:glbrc)
+        pattern: ^([a-z][a-z0-9_]*:)?[a-z][a-z0-9_]*$
+      name:
+        name: name
+        description: The full official name of the research program
+        required: true
+    class_uri: nmdc_sfas_brcs:ResearchProgram
+  BioenergyResearchCenter:
+    name: BioenergyResearchCenter
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/BioenergyResearchCenter
+    description: A DOE Bioenergy Research Center (BRC). BRCs are large-scale, multi-institutional
+      research centers focused on developing sustainable biofuels and bioproducts
+      from plant biomass. The BRC program is part of the Genomic Science portfolio
+      within DOE's Office of Science Office of Biological and Environmental Research.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    mappings:
+    - OBI:0000835
+    is_a: ResearchProgram
+    slots:
+    - description
+    - acronym
+    - lead_institution
+    - partner_institutions
+    - principal_investigators
+    - funding
+    - location
+    - websites
+    - scientific_questions
+    - keywords
+    - data_types
+    - data_collection_modalities
+    - nmdc_umbrella_study
+    - studies
+    - analyses
+    - kbase_genome_collection
+    - datasets
+    - key_publications
+    - field_sites
+    - established
+    - collaborators
+    - isolate_collections
+    - phenotype_assays
+    - ResearchProgram_id
+    - ResearchProgram_name
+    - outputs
+    - predecessor
+    - BioenergyResearchCenter_program_type
+    slot_usage:
+      program_type:
+        name: program_type
+        ifabsent: string(BIOENERGY_RESEARCH_CENTER)
+    class_uri: OBI:0000835
+  ScientificFocusArea:
+    name: ScientificFocusArea
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/ScientificFocusArea
+    description: A DOE Scientific Focus Area (SFA). SFAs are integrated research programs
+      at DOE national laboratories focused on specific scientific areas within BER's
+      portfolio. SFAs conduct coordinated, team-oriented research taking advantage
+      of national laboratory strengths.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    is_a: ResearchProgram
+    slots:
+    - description
+    - acronym
+    - lead_institution
+    - partner_institutions
+    - principal_investigators
+    - funding
+    - location
+    - websites
+    - scientific_questions
+    - keywords
+    - data_types
+    - data_collection_modalities
+    - nmdc_umbrella_study
+    - studies
+    - analyses
+    - kbase_genome_collection
+    - datasets
+    - key_publications
+    - field_sites
+    - established
+    - collaborators
+    - isolate_collections
+    - phenotype_assays
+    - ResearchProgram_id
+    - ResearchProgram_name
+    - sfa_type
+    - technologies_developed
+    - co_investigators
+    - ScientificFocusArea_program_type
+    slot_usage:
+      program_type:
+        name: program_type
+        ifabsent: string(SCIENTIFIC_FOCUS_AREA)
+    class_uri: nmdc_sfas_brcs:ScientificFocusArea
+  OtherProgram:
+    name: OtherProgram
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/OtherProgram
+    description: Other DOE research programs and initiatives that don't fit the traditional
+      SFA/BRC/Facility categories. Examples include BRaVE (Biopreparedness Research
+      Virtual Environment) projects, cross-cutting initiatives, and time-limited collaborative
+      projects spanning multiple DOE offices.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    is_a: ResearchProgram
+    slots:
+    - description
+    - acronym
+    - lead_institution
+    - partner_institutions
+    - principal_investigators
+    - funding
+    - location
+    - websites
+    - scientific_questions
+    - keywords
+    - data_types
+    - data_collection_modalities
+    - nmdc_umbrella_study
+    - studies
+    - analyses
+    - kbase_genome_collection
+    - datasets
+    - key_publications
+    - field_sites
+    - established
+    - collaborators
+    - isolate_collections
+    - phenotype_assays
+    - ResearchProgram_id
+    - ResearchProgram_name
+    - initiative_name
+    - funding_period
+    - participating_offices
+    - OtherProgram_program_type
+    slot_usage:
+      program_type:
+        name: program_type
+        ifabsent: string(OTHER_INITIATIVE)
+    class_uri: nmdc_sfas_brcs:OtherProgram
+  UserFacility:
+    name: UserFacility
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/UserFacility
+    description: A DOE BER User Facility providing resources and capabilities to the
+      broader scientific community. Examples include JGI, EMSL, and KBase.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    is_a: NamedThing
+    slots:
+    - id
+    - name
+    - description
+    - acronym
+    - program_type
+    - lead_institution
+    - lead_institutions
+    - funding
+    - websites
+    - services
+    - capabilities
+    - flagship_genomes
+    - reference_data
+    - supported_data_types
+    class_uri: nmdc_sfas_brcs:UserFacility
+  Institution:
+    name: Institution
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/Institution
+    description: A research institution such as a national laboratory, university,
+      or research institute.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    mappings:
+    - schema:Organization
+    slots:
+    - name
+    - description
+    - ror_id
+    - institution_type
+    class_uri: schema:Organization
+  Person:
+    name: Person
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/Person
+    description: A person involved in a research program, such as a principal investigator,
+      co-investigator, or other key personnel.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    mappings:
+    - schema:Person
+    slots:
+    - name
+    - role
+    - affiliation
+    - email
+    - orcid
+    - expertise
+    class_uri: schema:Person
+  FundingInfo:
+    name: FundingInfo
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/FundingInfo
+    description: Information about funding for a research program including agency,
+      program, and award details.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slots:
+    - fundingInfo__agency
+    - fundingInfo__program
+    - fundingInfo__division
+    - fundingInfo__subprogram
+    - fundingInfo__area
+    - fundingInfo__contract
+    - fundingInfo__grant
+    - fundingInfo__total_funding
+    - fundingInfo__amount
+    - fundingInfo__award_2017
+    - fundingInfo__current_period
+    attributes:
+      agency:
+        name: agency
+        description: The funding agency (e.g., DOE BER)
+        range: string
+      program:
+        name: program
+        description: The specific funding program (e.g., Genomic Science Program)
+        range: string
+      division:
+        name: division
+        description: The division within the agency
+        range: string
+      subprogram:
+        name: subprogram
+        description: Subprogram or area within the program
+        range: string
+      area:
+        name: area
+        description: Research area designation
+        range: string
+      contract:
+        name: contract
+        description: Contract number
+        range: string
+      grant:
+        name: grant
+        description: Grant number or identifier
+        range: string
+      total_funding:
+        name: total_funding
+        description: Total funding amount (may include period)
+        range: string
+      amount:
+        name: amount
+        description: Specific funding amount
+        range: string
+      award_2017:
+        name: award_2017
+        description: Award amount for 2017 funding cycle
+        range: string
+      current_period:
+        name: current_period
+        description: Current funding period (e.g., 2023-2028)
+        range: string
+    class_uri: nmdc_sfas_brcs:FundingInfo
+  Location:
+    name: Location
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/Location
+    description: Geographic location information for a research program
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slots:
+    - location__address
+    - location__city
+    - location__state
+    - location__country
+    attributes:
+      address:
+        name: address
+        description: Street address or building name
+        range: string
+      city:
+        name: city
+        description: City name
+        range: string
+      state:
+        name: state
+        description: State or province
+        range: string
+      country:
+        name: country
+        description: Country name
+        ifabsent: string(USA)
+        range: string
+    class_uri: nmdc_sfas_brcs:Location
+  WebResources:
+    name: WebResources
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/WebResources
+    description: Collection of web resources associated with a research program
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slots:
+    - webResources__main
+    - webResources__doe_page
+    - webResources__ornl_page
+    - webResources__llnl_page
+    - webResources__data_portal
+    - webResources__data_hub
+    - webResources__data_page
+    - webResources__atlas
+    - webResources__github
+    - webResources__kbase
+    - webResources__ess_dive
+    - webResources__ideas_watersheds
+    - webResources__czen
+    - webResources__publications
+    - webResources__highlights
+    - webResources__documentation
+    - webResources__bacterial_strains
+    - webResources__bfi_portal
+    - webResources__ssrl_page
+    - webResources__anl_page
+    - webResources__team
+    - webResources__phytozome
+    attributes:
+      main:
+        name: main
+        description: Main website URL
+        range: uri
+      doe_page:
+        name: doe_page
+        description: DOE program page URL
+        range: uri
+      ornl_page:
+        name: ornl_page
+        description: ORNL project page URL
+        range: uri
+      llnl_page:
+        name: llnl_page
+        description: LLNL project page URL
+        range: uri
+      data_portal:
+        name: data_portal
+        description: Data portal URL
+        range: uri
+      data_hub:
+        name: data_hub
+        description: Data hub URL
+        range: uri
+      data_page:
+        name: data_page
+        description: Data page URL
+        range: uri
+      atlas:
+        name: atlas
+        description: Atlas or mapping portal URL
+        range: uri
+      github:
+        name: github
+        description: GitHub organization or repository URL
+        range: uri
+      kbase:
+        name: kbase
+        description: KBase collaboration page URL
+        range: uri
+      ess_dive:
+        name: ess_dive
+        description: ESS-DIVE data portal URL
+        range: uri
+      ideas_watersheds:
+        name: ideas_watersheds
+        description: IDEAS-Watersheds page URL
+        range: uri
+      czen:
+        name: czen
+        description: Critical Zone Exploration Network page URL
+        range: uri
+      publications:
+        name: publications
+        description: Publications page URL
+        range: uri
+      highlights:
+        name: highlights
+        description: Research highlights page URL
+        range: uri
+      documentation:
+        name: documentation
+        description: Documentation URL
+        range: uri
+      bacterial_strains:
+        name: bacterial_strains
+        description: Bacterial strains collection URL
+        range: uri
+      bfi_portal:
+        name: bfi_portal
+        description: BFI research portal URL
+        range: uri
+      ssrl_page:
+        name: ssrl_page
+        description: SSRL page URL
+        range: uri
+      anl_page:
+        name: anl_page
+        description: ANL page URL
+        range: uri
+      team:
+        name: team
+        description: Team page URL
+        range: uri
+      phytozome:
+        name: phytozome
+        description: Phytozome plant genome portal URL
+        range: uri
+    class_uri: nmdc_sfas_brcs:WebResources
+  Dataset:
+    name: Dataset
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/Dataset
+    description: A dataset produced by or associated with a research program.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slots:
+    - name
+    - description
+    - doi
+    - url
+    - repository
+    - data_type
+    - size
+    - version
+    - years
+    - reference
+    - count
+    - osti_id
+    - doi_examples
+    - nmdc_study_id
+    - jgi_project_id
+    - ameriflux_site_id
+    - lter_dataset_id
+    - primary_reference
+    - additional_references
+    - dataset__primary_reference_info
+    attributes:
+      primary_reference_info:
+        name: primary_reference_info
+        description: Primary publication reference with structured metadata for validation.
+          Preferred over primary_reference slot - enables title and excerpt validation.
+        range: PrimaryReferenceInfo
+        inlined: true
+    class_uri: nmdc_sfas_brcs:Dataset
+  Reference:
+    name: Reference
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/Reference
+    description: A publication reference with key findings. Minimal metadata is stored
+      here; full bibliographic data can be fetched/cached via linkml-reference-validator.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slots:
+    - Reference_id
+    - title
+    - findings
+    slot_usage:
+      id:
+        name: id
+        implements:
+        - linkml:authoritative_reference
+        description: DOI of the publication (e.g., doi:10.1038/s41586-020-03127-1)
+    class_uri: nmdc_sfas_brcs:Reference
+  Finding:
+    name: Finding
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/Finding
+    description: A key finding or claim extracted from a publication
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slots:
+    - statement
+    - supporting_text
+    - finding__reference
+    attributes:
+      reference:
+        name: reference
+        implements:
+        - linkml:authoritative_reference
+        description: DOI of the publication this finding is from (for validation)
+        range: uriorcurie
+    class_uri: nmdc_sfas_brcs:Finding
+  PrimaryReferenceInfo:
+    name: PrimaryReferenceInfo
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/PrimaryReferenceInfo
+    description: Container for a primary reference with its metadata. Provides a structured
+      way to associate a publication reference with an entity (e.g., IsolateCollection,
+      Dataset) while allowing future annotations about the relationship.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slots:
+    - primaryReferenceInfo__reference
+    - primaryReferenceInfo__relationship_note
+    attributes:
+      reference:
+        name: reference
+        description: The primary publication reference
+        range: Reference
+        required: true
+        inlined: true
+      relationship_note:
+        name: relationship_note
+        description: Optional note describing the relationship between the reference
+          and the entity it's attached to (e.g., "Describes the isolation methods",
+          "First report of these isolates")
+        range: string
+    class_uri: nmdc_sfas_brcs:PrimaryReferenceInfo
+  ProgramOutputs:
+    name: ProgramOutputs
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/ProgramOutputs
+    description: Summary of research outputs from a program
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slots:
+    - programOutputs__publication_count
+    - programOutputs__patent_applications
+    - programOutputs__invention_disclosures
+    - programOutputs__licenses_options
+    - programOutputs__patents
+    - programOutputs__startups
+    attributes:
+      publication_count:
+        name: publication_count
+        description: Number or description of publications
+        range: string
+      patent_applications:
+        name: patent_applications
+        description: Number of patent applications
+        range: integer
+      invention_disclosures:
+        name: invention_disclosures
+        description: Number of invention disclosures
+        range: integer
+      licenses_options:
+        name: licenses_options
+        description: Number of licenses or options
+        range: integer
+      patents:
+        name: patents
+        description: Number of patents granted
+        range: integer
+      startups:
+        name: startups
+        description: Number of startup companies formed
+        range: integer
+    class_uri: nmdc_sfas_brcs:ProgramOutputs
+  IsolateCollection:
+    name: IsolateCollection
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/IsolateCollection
+    description: A collection of cultured microbial isolates maintained by a research
+      program. Provides catalog-level metadata about the collection; detailed isolate
+      records are maintained in external systems (KBase, JGI, culture collections).
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slots:
+    - name
+    - description
+    - isolateCollection__organism_types
+    - isolateCollection__isolate_count
+    - isolateCollection__genome_count
+    - isolateCollection__source_environments
+    - isolateCollection__isolation_methods
+    - isolateCollection__host_organisms
+    - isolateCollection__culture_collection_url
+    - isolateCollection__genome_catalog_url
+    - isolateCollection__kbase_narrative_id
+    - isolateCollection__primary_reference
+    - isolateCollection__primary_reference_info
+    attributes:
+      organism_types:
+        name: organism_types
+        description: Types of organisms in this collection
+        range: OrganismType
+        multivalued: true
+      isolate_count:
+        name: isolate_count
+        description: Approximate number of isolates in the collection
+        range: integer
+      genome_count:
+        name: genome_count
+        description: Number of isolates with sequenced genomes
+        range: integer
+      source_environments:
+        name: source_environments
+        description: Environments from which isolates were obtained (e.g., rhizosphere,
+          subsurface, contaminated groundwater, phyllosphere)
+        range: string
+        multivalued: true
+      isolation_methods:
+        name: isolation_methods
+        description: Brief description of isolation methods used (e.g., aerobic plating,
+          anaerobic enrichment, single-cell sorting)
+        range: string
+        multivalued: true
+      host_organisms:
+        name: host_organisms
+        description: Host organisms if isolates are host-associated (e.g., Populus,
+          Panicum virgatum)
+        range: string
+        multivalued: true
+      culture_collection_url:
+        name: culture_collection_url
+        description: URL to browse or request live cultures
+        range: uri
+      genome_catalog_url:
+        name: genome_catalog_url
+        description: URL to genome data (KBase narrative, JGI, NCBI BioProject)
+        range: uri
+      kbase_narrative_id:
+        name: kbase_narrative_id
+        description: KBase narrative ID containing isolate genomes if applicable
+        range: string
+      primary_reference:
+        name: primary_reference
+        implements:
+        - linkml:authoritative_reference
+        description: 'DOI of primary publication describing the collection. DEPRECATED:
+          Use primary_reference_info for new entries to enable title validation.'
+        range: uriorcurie
+      primary_reference_info:
+        name: primary_reference_info
+        description: Primary publication reference with structured metadata for validation.
+          Preferred over primary_reference - enables title and excerpt validation.
+        range: PrimaryReferenceInfo
+        inlined: true
+    class_uri: nmdc_sfas_brcs:IsolateCollection
+  FieldSite:
+    name: FieldSite
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/FieldSite
+    description: A field research site associated with a research program
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slots:
+    - name
+    - description
+    - fieldSite__location
+    - fieldSite__contaminants
+    - fieldSite__contamination_source
+    attributes:
+      location:
+        name: location
+        description: Geographic location of the field site
+        range: string
+      contaminants:
+        name: contaminants
+        description: Contaminants present at the site (if applicable)
+        range: string
+        multivalued: true
+      contamination_source:
+        name: contamination_source
+        description: Source of contamination at the site
+        range: string
+    class_uri: nmdc_sfas_brcs:FieldSite
+  Technology:
+    name: Technology
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/Technology
+    description: A technology or tool developed by a research program
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slots:
+    - name
+    - description
+    class_uri: nmdc_sfas_brcs:Technology
+  NMDCStudyReference:
+    name: NMDCStudyReference
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/NMDCStudyReference
+    description: A reference to an NMDC study associated with a research program.
+      Links BRC/SFA research to specific studies in the National Microbiome Data Collaborative.
+      Can also represent studies that are candidates for NMDC ingest (nmdc_ingest_target=true).
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slots:
+    - nmdc_study_id
+    - name
+    - description
+    - primary_reference
+    - keywords
+    - nMDCStudyReference__pi
+    - nMDCStudyReference__bioproject_ids
+    - nMDCStudyReference__gold_study_id
+    - nMDCStudyReference__jgi_proposal_id
+    - nMDCStudyReference__brc_dataset_ids
+    - nMDCStudyReference__nmdc_ingest_target
+    - nMDCStudyReference__nmdc_ingest_priority
+    - nMDCStudyReference__data_modalities
+    - nMDCStudyReference__sample_count
+    - nMDCStudyReference__organism
+    - nMDCStudyReference__preprocessed_data_available
+    - nMDCStudyReference__preprocessed_data_counts
+    - nMDCStudyReference__ncbi_data_quality_notes
+    - nMDCStudyReference__primary_reference_info
+    attributes:
+      pi:
+        name: pi
+        description: Principal investigator name for this study
+        range: string
+      bioproject_ids:
+        name: bioproject_ids
+        description: NCBI BioProject identifiers associated with this study
+        range: string
+        multivalued: true
+      gold_study_id:
+        name: gold_study_id
+        description: GOLD study identifier (e.g., gold:Gs0128851)
+        range: string
+      jgi_proposal_id:
+        name: jgi_proposal_id
+        description: JGI proposal identifier
+        range: string
+      brc_dataset_ids:
+        name: brc_dataset_ids
+        description: Dataset identifiers from the BRC API (api.bioenergy.org) associated
+          with this study. These are the native identifiers which may be DOIs, BioProject
+          IDs, or repository-specific IDs.
+        range: string
+        multivalued: true
+      nmdc_ingest_target:
+        name: nmdc_ingest_target
+        description: If true, indicates this study has data that should be targeted
+          for ingest into NMDC but is not yet registered there.
+        range: boolean
+      nmdc_ingest_priority:
+        name: nmdc_ingest_priority
+        description: Priority level for NMDC ingest consideration. HIGH for datasets
+          with rich microbiome data ready for processing, MEDIUM for datasets that
+          need some preparation, LOW for marginal candidates.
+        range: NMDCIngestPriority
+      data_modalities:
+        name: data_modalities
+        description: Types of data generated in this study (e.g., 16S_AMPLICON, METAGENOMICS)
+        range: DataType
+        multivalued: true
+      sample_count:
+        name: sample_count
+        description: Number of samples in the study
+        range: integer
+      organism:
+        name: organism
+        description: Primary organism studied
+        range: string
+      preprocessed_data_available:
+        name: preprocessed_data_available
+        description: Types of preprocessed/derived data products available in public
+          repositories (e.g., NCBI) for this study. Examples include MAGs (metagenome-assembled
+          genomes), genome assemblies, gene annotations, etc. Used to identify studies
+          with analysis-ready data that may meet NMDC quality standards.
+        range: PreprocessedDataType
+        multivalued: true
+      preprocessed_data_counts:
+        name: preprocessed_data_counts
+        description: Counts of preprocessed data products available (e.g., "28 MAGs",
+          "135 Gbases"). Free text to capture quantity and type.
+        range: string
+      ncbi_data_quality_notes:
+        name: ncbi_data_quality_notes
+        description: Notes about the quality or completeness of preprocessed data
+          in NCBI. Used to track whether external data meets NMDC standards.
+        range: string
+      primary_reference_info:
+        name: primary_reference_info
+        description: Primary publication reference with structured metadata for validation.
+          Preferred over primary_reference slot - enables title and excerpt validation.
+        range: PrimaryReferenceInfo
+        inlined: true
+    class_uri: nmdc_sfas_brcs:NMDCStudyReference
+  Analysis:
+    name: Analysis
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/Analysis
+    description: A computational analysis performed on research data. This is an abstract
+      base class for different types of analyses including KBase narratives, pipeline
+      runs, and other computational workflows.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    is_a: NamedThing
+    abstract: true
+    slots:
+    - id
+    - name
+    - description
+    - primary_reference
+    - additional_references
+    - analysis__analysis_type
+    - analysis__input_data_description
+    - analysis__output_data_types
+    - analysis__primary_reference_info
+    attributes:
+      analysis_type:
+        name: analysis_type
+        description: Type of analysis performed
+        range: AnalysisType
+      input_data_description:
+        name: input_data_description
+        description: Description of input data used
+        range: string
+      output_data_types:
+        name: output_data_types
+        description: Types of data objects produced
+        range: DataType
+        multivalued: true
+      primary_reference_info:
+        name: primary_reference_info
+        description: Primary publication reference with structured metadata for validation.
+          Preferred over primary_reference slot - enables title and excerpt validation.
+        range: PrimaryReferenceInfo
+        inlined: true
+    class_uri: nmdc_sfas_brcs:Analysis
+  KBaseNarrative:
+    name: KBaseNarrative
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/KBaseNarrative
+    description: A KBase Narrative - a reproducible, shareable analysis workflow in
+      the DOE Systems Biology Knowledgebase. Narratives combine data, analysis steps,
+      and documentation in an executable Jupyter-like notebook format. Can be made
+      public, shared, and assigned DOIs for citation.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    is_a: Analysis
+    slots:
+    - id
+    - name
+    - description
+    - primary_reference
+    - additional_references
+    - analysis__analysis_type
+    - analysis__input_data_description
+    - analysis__output_data_types
+    - analysis__primary_reference_info
+    - kBaseNarrative__kbase_narrative_id
+    - kBaseNarrative__kbase_narrative_url
+    - kBaseNarrative__kbase_workspace_id
+    - kBaseNarrative__osti_doi
+    - kBaseNarrative__is_static
+    - kBaseNarrative__genome_count
+    - kBaseNarrative__sample_count
+    - kBaseNarrative__related_narratives
+    attributes:
+      kbase_narrative_id:
+        name: kbase_narrative_id
+        description: KBase narrative numeric ID (e.g., "109073"). This is the number
+          that appears in URLs like kbase.us/n/109073/63/
+        range: string
+      kbase_narrative_url:
+        name: kbase_narrative_url
+        description: Full URL to the public narrative
+        range: uri
+      kbase_workspace_id:
+        name: kbase_workspace_id
+        description: Workspace ID for programmatic access via KBase Workspace API
+        range: string
+      osti_doi:
+        name: osti_doi
+        description: 'DOI assigned by OSTI if narrative has been registered as a citable
+          dataset (format: 10.25982/...)'
+        range: string
+      is_static:
+        name: is_static
+        description: Whether this is a static (snapshot) narrative suitable for citation
+        range: boolean
+      genome_count:
+        name: genome_count
+        description: Number of genomes/MAGs in this narrative
+        range: integer
+      sample_count:
+        name: sample_count
+        description: Number of samples in this narrative
+        range: integer
+      related_narratives:
+        name: related_narratives
+        description: IDs of related KBase narratives
+        range: string
+        multivalued: true
+    class_uri: nmdc_sfas_brcs:KBaseNarrative
+  FlagshipGenome:
+    name: FlagshipGenome
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/FlagshipGenome
+    description: A flagship genome sequenced and maintained by a facility
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slots:
+    - name
+    - description
+    - flagshipGenome__common_name
+    - flagshipGenome__year
+    attributes:
+      common_name:
+        name: common_name
+        description: Common name of the organism
+        range: string
+      year:
+        name: year
+        description: Year the genome was sequenced
+        range: integer
+    class_uri: nmdc_sfas_brcs:FlagshipGenome
+  ReferenceData:
+    name: ReferenceData
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/ReferenceData
+    description: Reference data maintained by a facility
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slots:
+    - referenceData__microbial_genomes
+    - referenceData__plant_genomes
+    - referenceData__biolog_media
+    - referenceData__reactions_compounds
+    attributes:
+      microbial_genomes:
+        name: microbial_genomes
+        description: Number/source of microbial genomes
+        range: string
+      plant_genomes:
+        name: plant_genomes
+        description: Number/source of plant genomes
+        range: string
+      biolog_media:
+        name: biolog_media
+        description: Number of Biolog media formulations
+        range: string
+      reactions_compounds:
+        name: reactions_compounds
+        description: Number/source of reactions and compounds
+        range: string
+    class_uri: nmdc_sfas_brcs:ReferenceData
+  Capability:
+    name: Capability
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/Capability
+    description: A scientific capability or resource provided by a user facility,
+      including instrumentation, platforms, and analytical services.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slots:
+    - name
+    - description
+    - capability__capability_type
+    - capability__instruments
+    - capability__access_mode
+    - capability__throughput
+    - capability__year_established
+    - capability__url
+    - capability__applications
+    - capability__data_products
+    - capability__status
+    - capability__commissioned_date
+    - capability__leader
+    - capability__future_expansion
+    attributes:
+      capability_type:
+        name: capability_type
+        description: The type/category of capability
+        range: CapabilityType
+      instruments:
+        name: instruments
+        description: Specific instruments or equipment supporting this capability
+        range: Instrument
+        multivalued: true
+        inlined_as_list: true
+      access_mode:
+        name: access_mode
+        description: How users can access this capability
+        range: string
+      throughput:
+        name: throughput
+        description: Throughput or capacity metrics
+        range: string
+      year_established:
+        name: year_established
+        description: Year this capability was established
+        range: integer
+      url:
+        name: url
+        description: URL for more information about this capability
+        range: uri
+      applications:
+        name: applications
+        description: Key applications or use cases for this capability
+        range: string
+        multivalued: true
+      data_products:
+        name: data_products
+        description: Types of data products generated by this capability
+        range: string
+        multivalued: true
+      status:
+        name: status
+        description: Current operational status
+        range: CapabilityStatus
+      commissioned_date:
+        name: commissioned_date
+        description: Date the capability was commissioned
+        range: date
+      leader:
+        name: leader
+        description: Name of the capability lead or manager
+        range: string
+      future_expansion:
+        name: future_expansion
+        description: Notes on planned future expansion or related facilities
+        range: string
+    class_uri: nmdc_sfas_brcs:Capability
+  Instrument:
+    name: Instrument
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/Instrument
+    description: A scientific instrument or piece of equipment that supports a capability.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slots:
+    - name
+    - description
+    - instrument__instrument_type
+    - instrument__manufacturer
+    - instrument__model
+    - instrument__count
+    - instrument__specifications
+    attributes:
+      instrument_type:
+        name: instrument_type
+        description: Type of instrument
+        range: InstrumentType
+      manufacturer:
+        name: manufacturer
+        description: Manufacturer of the instrument
+        range: string
+      model:
+        name: model
+        description: Model name or number
+        range: string
+      count:
+        name: count
+        description: Number of instruments of this type
+        range: integer
+      specifications:
+        name: specifications
+        description: Key specifications (e.g., resolution, sensitivity)
+        range: string
+    class_uri: nmdc_sfas_brcs:Instrument
+metamodel_version: 1.7.0
+source_file: nmdc_sfas_brcs.yaml
+source_file_date: '2025-12-17T21:14:45'
+source_file_size: 80018
+generation_date: '2025-12-17T21:15:02'
+
