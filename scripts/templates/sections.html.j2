@@ -4,7 +4,7 @@
 
 {% from 'macros.html.j2' import doi_link, nmdc_link, url_link, chip_list,
     keywords, data_types, modalities, field, priority_badge, status_badge,
-    person_card %}
+    person_card, pride_link, massive_link %}
 
 {# ---- Studies Section ---- #}
 {% macro studies_section(studies) %}
@@ -74,6 +74,15 @@
         <div class="field">
             <span class="field-label">Primary reference:</span>
             <span class="field-value">{{ doi_link(study.primary_reference_info.reference.id) }}{% if study.primary_reference_info.reference.title %} - {{ study.primary_reference_info.reference.title }}{% endif %}</span>
+        </div>
+        {% endif %}
+        {% if study.source_reference %}
+        <div class="field">
+            <span class="field-label">Source:</span>
+            <span class="field-value">
+                <a href="{{ study.source_reference.url }}" target="_blank">{{ study.source_reference.title }}</a>
+                {% if study.source_reference.summary %}<br><span style="color: #666; font-size: 0.9em;">{{ study.source_reference.summary }}</span>{% endif %}
+            </span>
         </div>
         {% endif %}
     </div>
@@ -154,6 +163,18 @@
         <div class="field">
             <span class="field-label">DOI:</span>
             <span class="field-value">{{ doi_link(ds.doi) }}</span>
+        </div>
+        {% endif %}
+        {% if ds.pride_id %}
+        <div class="field">
+            <span class="field-label">PRIDE:</span>
+            <span class="field-value">{{ pride_link(ds.pride_id) }}</span>
+        </div>
+        {% endif %}
+        {% if ds.massive_id %}
+        <div class="field">
+            <span class="field-label">MassIVE:</span>
+            <span class="field-value">{{ massive_link(ds.massive_id) }}</span>
         </div>
         {% endif %}
         {% if ds.data_type %}
