@@ -1,5 +1,5 @@
 # Auto generated from nmdc_sfas_brcs.yaml by pythongen.py version: 0.0.1
-# Generation date: 2025-12-17T07:50:04
+# Generation date: 2025-12-17T17:23:18
 # Schema: nmdc-sfas-brcs
 #
 # id: https://w3id.org/nmdc/sfas-brcs
@@ -849,6 +849,8 @@ class Dataset(YAMLRoot):
     jgi_project_id: Optional[str] = None
     ameriflux_site_id: Optional[str] = None
     lter_dataset_id: Optional[str] = None
+    pride_id: Optional[str] = None
+    massive_id: Optional[str] = None
     primary_reference: Optional[Union[str, URIorCURIE]] = None
     additional_references: Optional[Union[Union[str, URIorCURIE], list[Union[str, URIorCURIE]]]] = empty_list()
     primary_reference_info: Optional[Union[dict, "PrimaryReferenceInfo"]] = None
@@ -905,6 +907,12 @@ class Dataset(YAMLRoot):
 
         if self.lter_dataset_id is not None and not isinstance(self.lter_dataset_id, str):
             self.lter_dataset_id = str(self.lter_dataset_id)
+
+        if self.pride_id is not None and not isinstance(self.pride_id, str):
+            self.pride_id = str(self.pride_id)
+
+        if self.massive_id is not None and not isinstance(self.massive_id, str):
+            self.massive_id = str(self.massive_id)
 
         if self.primary_reference is not None and not isinstance(self.primary_reference, URIorCURIE):
             self.primary_reference = URIorCURIE(self.primary_reference)
@@ -1192,6 +1200,40 @@ class Technology(YAMLRoot):
 
 
 @dataclass(repr=False)
+class WebReference(YAMLRoot):
+    """
+    A reference to a web resource such as a project page, news article, or documentation. Used for citing non-DOI
+    sources that document research activities.
+    """
+    _inherited_slots: ClassVar[list[str]] = []
+
+    class_class_uri: ClassVar[URIRef] = NMDC_SFAS_BRCS["WebReference"]
+    class_class_curie: ClassVar[str] = "nmdc_sfas_brcs:WebReference"
+    class_name: ClassVar[str] = "WebReference"
+    class_model_uri: ClassVar[URIRef] = NMDC_SFAS_BRCS.WebReference
+
+    url: Union[str, URI] = None
+    title: str = None
+    summary: Optional[str] = None
+
+    def __post_init__(self, *_: str, **kwargs: Any):
+        if self._is_empty(self.url):
+            self.MissingRequiredField("url")
+        if not isinstance(self.url, URI):
+            self.url = URI(self.url)
+
+        if self._is_empty(self.title):
+            self.MissingRequiredField("title")
+        if not isinstance(self.title, str):
+            self.title = str(self.title)
+
+        if self.summary is not None and not isinstance(self.summary, str):
+            self.summary = str(self.summary)
+
+        super().__post_init__(**kwargs)
+
+
+@dataclass(repr=False)
 class NMDCStudyReference(YAMLRoot):
     """
     A reference to an NMDC study associated with a research program. Links BRC/SFA research to specific studies in the
@@ -1224,6 +1266,7 @@ class NMDCStudyReference(YAMLRoot):
     preprocessed_data_counts: Optional[str] = None
     ncbi_data_quality_notes: Optional[str] = None
     primary_reference_info: Optional[Union[dict, PrimaryReferenceInfo]] = None
+    source_reference: Optional[Union[dict, WebReference]] = None
 
     def __post_init__(self, *_: str, **kwargs: Any):
         if self.nmdc_study_id is not None and not isinstance(self.nmdc_study_id, URIorCURIE):
@@ -1287,6 +1330,9 @@ class NMDCStudyReference(YAMLRoot):
 
         if self.primary_reference_info is not None and not isinstance(self.primary_reference_info, PrimaryReferenceInfo):
             self.primary_reference_info = PrimaryReferenceInfo(**as_dict(self.primary_reference_info))
+
+        if self.source_reference is not None and not isinstance(self.source_reference, WebReference):
+            self.source_reference = WebReference(**as_dict(self.source_reference))
 
         super().__post_init__(**kwargs)
 
@@ -2843,6 +2889,14 @@ slots.ameriflux_site_id = Slot(uri=NMDC_SFAS_BRCS.ameriflux_site_id, name="ameri
 slots.lter_dataset_id = Slot(uri=NMDC_SFAS_BRCS.lter_dataset_id, name="lter_dataset_id", curie=NMDC_SFAS_BRCS.curie('lter_dataset_id'),
                    model_uri=NMDC_SFAS_BRCS.lter_dataset_id, domain=None, range=Optional[str])
 
+slots.pride_id = Slot(uri=NMDC_SFAS_BRCS.pride_id, name="pride_id", curie=NMDC_SFAS_BRCS.curie('pride_id'),
+                   model_uri=NMDC_SFAS_BRCS.pride_id, domain=None, range=Optional[str],
+                   pattern=re.compile(r'^PXD\d+$'))
+
+slots.massive_id = Slot(uri=NMDC_SFAS_BRCS.massive_id, name="massive_id", curie=NMDC_SFAS_BRCS.curie('massive_id'),
+                   model_uri=NMDC_SFAS_BRCS.massive_id, domain=None, range=Optional[str],
+                   pattern=re.compile(r'^MSV\d+$'))
+
 slots.primary_reference = Slot(uri=NMDC_SFAS_BRCS.primary_reference, name="primary_reference", curie=NMDC_SFAS_BRCS.curie('primary_reference'),
                    model_uri=NMDC_SFAS_BRCS.primary_reference, domain=None, range=Optional[Union[str, URIorCURIE]])
 
@@ -3218,6 +3272,15 @@ slots.fieldSite__contaminants = Slot(uri=NMDC_SFAS_BRCS.contaminants, name="fiel
 slots.fieldSite__contamination_source = Slot(uri=NMDC_SFAS_BRCS.contamination_source, name="fieldSite__contamination_source", curie=NMDC_SFAS_BRCS.curie('contamination_source'),
                    model_uri=NMDC_SFAS_BRCS.fieldSite__contamination_source, domain=None, range=Optional[str])
 
+slots.webReference__url = Slot(uri=NMDC_SFAS_BRCS.url, name="webReference__url", curie=NMDC_SFAS_BRCS.curie('url'),
+                   model_uri=NMDC_SFAS_BRCS.webReference__url, domain=None, range=Union[str, URI])
+
+slots.webReference__title = Slot(uri=NMDC_SFAS_BRCS.title, name="webReference__title", curie=NMDC_SFAS_BRCS.curie('title'),
+                   model_uri=NMDC_SFAS_BRCS.webReference__title, domain=None, range=str)
+
+slots.webReference__summary = Slot(uri=NMDC_SFAS_BRCS.summary, name="webReference__summary", curie=NMDC_SFAS_BRCS.curie('summary'),
+                   model_uri=NMDC_SFAS_BRCS.webReference__summary, domain=None, range=Optional[str])
+
 slots.nMDCStudyReference__pi = Slot(uri=NMDC_SFAS_BRCS.pi, name="nMDCStudyReference__pi", curie=NMDC_SFAS_BRCS.curie('pi'),
                    model_uri=NMDC_SFAS_BRCS.nMDCStudyReference__pi, domain=None, range=Optional[str])
 
@@ -3259,6 +3322,9 @@ slots.nMDCStudyReference__ncbi_data_quality_notes = Slot(uri=NMDC_SFAS_BRCS.ncbi
 
 slots.nMDCStudyReference__primary_reference_info = Slot(uri=NMDC_SFAS_BRCS.primary_reference_info, name="nMDCStudyReference__primary_reference_info", curie=NMDC_SFAS_BRCS.curie('primary_reference_info'),
                    model_uri=NMDC_SFAS_BRCS.nMDCStudyReference__primary_reference_info, domain=None, range=Optional[Union[dict, PrimaryReferenceInfo]])
+
+slots.nMDCStudyReference__source_reference = Slot(uri=NMDC_SFAS_BRCS.source_reference, name="nMDCStudyReference__source_reference", curie=NMDC_SFAS_BRCS.curie('source_reference'),
+                   model_uri=NMDC_SFAS_BRCS.nMDCStudyReference__source_reference, domain=None, range=Optional[Union[dict, WebReference]])
 
 slots.analysis__analysis_type = Slot(uri=NMDC_SFAS_BRCS.analysis_type, name="analysis__analysis_type", curie=NMDC_SFAS_BRCS.curie('analysis_type'),
                    model_uri=NMDC_SFAS_BRCS.analysis__analysis_type, domain=None, range=Optional[Union[str, "AnalysisType"]])

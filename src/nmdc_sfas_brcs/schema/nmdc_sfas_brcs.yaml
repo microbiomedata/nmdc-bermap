@@ -402,6 +402,8 @@ classes:
       - jgi_project_id
       - ameriflux_site_id
       - lter_dataset_id
+      - pride_id
+      - massive_id
       - primary_reference
       - additional_references
     attributes:
@@ -565,6 +567,27 @@ classes:
       - name
       - description
 
+  WebReference:
+    description: >-
+      A reference to a web resource such as a project page, news article, or
+      documentation. Used for citing non-DOI sources that document research
+      activities.
+    attributes:
+      url:
+        description: URL of the web resource
+        range: uri
+        required: true
+      title:
+        description: Title of the web page or resource
+        range: string
+        required: true
+      summary:
+        description: >-
+          Brief description of what content can be found at this URL.
+          Serves as an annotation to help users understand what information
+          the source provides before clicking.
+        range: string
+
   NMDCStudyReference:
     description: >-
       A reference to an NMDC study associated with a research program.
@@ -642,6 +665,12 @@ classes:
           Primary publication reference with structured metadata for validation.
           Preferred over primary_reference slot - enables title and excerpt validation.
         range: PrimaryReferenceInfo
+        inlined: true
+      source_reference:
+        description: >-
+          Web reference documenting this study (project page, news article, etc.)
+          for studies without a primary DOI publication.
+        range: WebReference
         inlined: true
 
   # ---------------------------------------------------------------------------
@@ -917,6 +946,20 @@ slots:
     description: >-
       Long Term Ecological Research Network dataset identifier
     range: string
+
+  pride_id:
+    description: >-
+      ProteomeXchange/PRIDE Archive identifier for proteomics data
+      (e.g., PXD049389)
+    range: string
+    pattern: "^PXD\\d+$"
+
+  massive_id:
+    description: >-
+      MassIVE repository identifier for mass spectrometry data
+      (e.g., MSV000095714)
+    range: string
+    pattern: "^MSV\\d+$"
 
   primary_reference:
     description: DOI of the primary publication describing this dataset

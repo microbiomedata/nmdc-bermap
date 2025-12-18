@@ -2229,7 +2229,8 @@ class Dataset(ConfiguredBaseModel):
                        'Instrument'],
          'slot_uri': 'schema:description'} })
     doi: Optional[str] = Field(default=None, description="""Digital Object Identifier""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset']} })
-    url: Optional[str] = Field(default=None, description="""A URL""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset', 'Capability'], 'slot_uri': 'schema:url'} })
+    url: Optional[str] = Field(default=None, description="""A URL""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset', 'WebReference', 'Capability'],
+         'slot_uri': 'schema:url'} })
     repository: Optional[str] = Field(default=None, description="""Data repository where a dataset is stored""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset']} })
     data_type: Optional[str] = Field(default=None, description="""Type of data in a dataset""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset']} })
     size: Optional[str] = Field(default=None, description="""Size of a dataset""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset']} })
@@ -2243,6 +2244,8 @@ class Dataset(ConfiguredBaseModel):
     jgi_project_id: Optional[str] = Field(default=None, description="""DOE Joint Genome Institute project identifier for sequence data (e.g., Gs0114663 or 1191516)""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset']} })
     ameriflux_site_id: Optional[str] = Field(default=None, description="""Ameriflux site identifier for flux tower data (e.g., US-KL1)""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset']} })
     lter_dataset_id: Optional[str] = Field(default=None, description="""Long Term Ecological Research Network dataset identifier""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset']} })
+    pride_id: Optional[str] = Field(default=None, description="""ProteomeXchange/PRIDE Archive identifier for proteomics data (e.g., PXD049389)""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset']} })
+    massive_id: Optional[str] = Field(default=None, description="""MassIVE repository identifier for mass spectrometry data (e.g., MSV000095714)""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset']} })
     primary_reference: Optional[str] = Field(default=None, description="""DOI of the primary publication describing this dataset""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset',
                        'IsolateCollection',
                        'NMDCStudyReference',
@@ -2280,6 +2283,32 @@ class Dataset(ConfiguredBaseModel):
             raise ValueError(err_msg)
         return v
 
+    @field_validator('pride_id')
+    def pattern_pride_id(cls, v):
+        pattern=re.compile(r"^PXD\d+$")
+        if isinstance(v, list):
+            for element in v:
+                if isinstance(element, str) and not pattern.match(element):
+                    err_msg = f"Invalid pride_id format: {element}"
+                    raise ValueError(err_msg)
+        elif isinstance(v, str) and not pattern.match(v):
+            err_msg = f"Invalid pride_id format: {v}"
+            raise ValueError(err_msg)
+        return v
+
+    @field_validator('massive_id')
+    def pattern_massive_id(cls, v):
+        pattern=re.compile(r"^MSV\d+$")
+        if isinstance(v, list):
+            for element in v:
+                if isinstance(element, str) and not pattern.match(element):
+                    err_msg = f"Invalid massive_id format: {element}"
+                    raise ValueError(err_msg)
+        elif isinstance(v, str) and not pattern.match(v):
+            err_msg = f"Invalid massive_id format: {v}"
+            raise ValueError(err_msg)
+        return v
+
 
 class Reference(ConfiguredBaseModel):
     """
@@ -2294,7 +2323,7 @@ class Reference(ConfiguredBaseModel):
     id: str = Field(default=..., description="""DOI of the publication (e.g., doi:10.1038/s41586-020-03127-1)""", json_schema_extra = { "linkml_meta": {'domain_of': ['NamedThing', 'Reference'],
          'implements': ['linkml:authoritative_reference'],
          'slot_uri': 'schema:identifier'} })
-    title: Optional[str] = Field(default=None, description="""Title of a publication or other work""", json_schema_extra = { "linkml_meta": {'domain_of': ['Reference'], 'slot_uri': 'dcterms:title'} })
+    title: Optional[str] = Field(default=None, description="""Title of a publication or other work""", json_schema_extra = { "linkml_meta": {'domain_of': ['Reference', 'WebReference'], 'slot_uri': 'dcterms:title'} })
     findings: Optional[list[Finding]] = Field(default=[], description="""Key findings or claims extracted from a publication""", json_schema_extra = { "linkml_meta": {'domain_of': ['Reference']} })
 
 
@@ -2448,6 +2477,17 @@ class Technology(ConfiguredBaseModel):
          'slot_uri': 'schema:description'} })
 
 
+class WebReference(ConfiguredBaseModel):
+    """
+    A reference to a web resource such as a project page, news article, or documentation. Used for citing non-DOI sources that document research activities.
+    """
+    linkml_meta: ClassVar[LinkMLMeta] = LinkMLMeta({'from_schema': 'https://w3id.org/nmdc/sfas-brcs'})
+
+    url: str = Field(default=..., description="""URL of the web resource""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset', 'WebReference', 'Capability']} })
+    title: str = Field(default=..., description="""Title of the web page or resource""", json_schema_extra = { "linkml_meta": {'domain_of': ['Reference', 'WebReference']} })
+    summary: Optional[str] = Field(default=None, description="""Brief description of what content can be found at this URL. Serves as an annotation to help users understand what information the source provides before clicking.""", json_schema_extra = { "linkml_meta": {'domain_of': ['WebReference']} })
+
+
 class NMDCStudyReference(ConfiguredBaseModel):
     """
     A reference to an NMDC study associated with a research program. Links BRC/SFA research to specific studies in the National Microbiome Data Collaborative. Can also represent studies that are candidates for NMDC ingest (nmdc_ingest_target=true).
@@ -2502,6 +2542,7 @@ class NMDCStudyReference(ConfiguredBaseModel):
                        'IsolateCollection',
                        'NMDCStudyReference',
                        'Analysis']} })
+    source_reference: Optional[WebReference] = Field(default=None, description="""Web reference documenting this study (project page, news article, etc.) for studies without a primary DOI publication.""", json_schema_extra = { "linkml_meta": {'domain_of': ['NMDCStudyReference']} })
 
     @field_validator('nmdc_study_id')
     def pattern_nmdc_study_id(cls, v):
@@ -2694,7 +2735,7 @@ class Capability(ConfiguredBaseModel):
     access_mode: Optional[str] = Field(default=None, description="""How users can access this capability""", json_schema_extra = { "linkml_meta": {'domain_of': ['Capability']} })
     throughput: Optional[str] = Field(default=None, description="""Throughput or capacity metrics""", json_schema_extra = { "linkml_meta": {'domain_of': ['Capability']} })
     year_established: Optional[int] = Field(default=None, description="""Year this capability was established""", json_schema_extra = { "linkml_meta": {'domain_of': ['Capability']} })
-    url: Optional[str] = Field(default=None, description="""URL for more information about this capability""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset', 'Capability']} })
+    url: Optional[str] = Field(default=None, description="""URL for more information about this capability""", json_schema_extra = { "linkml_meta": {'domain_of': ['Dataset', 'WebReference', 'Capability']} })
     applications: Optional[list[str]] = Field(default=[], description="""Key applications or use cases for this capability""", json_schema_extra = { "linkml_meta": {'domain_of': ['Capability']} })
     data_products: Optional[list[str]] = Field(default=[], description="""Types of data products generated by this capability""", json_schema_extra = { "linkml_meta": {'domain_of': ['Capability']} })
     status: Optional[CapabilityStatus] = Field(default=None, description="""Current operational status""", json_schema_extra = { "linkml_meta": {'domain_of': ['Capability']} })
@@ -2762,6 +2803,7 @@ ProgramOutputs.model_rebuild()
 IsolateCollection.model_rebuild()
 FieldSite.model_rebuild()
 Technology.model_rebuild()
+WebReference.model_rebuild()
 NMDCStudyReference.model_rebuild()
 Analysis.model_rebuild()
 KBaseNarrative.model_rebuild()
