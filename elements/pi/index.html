@@ -355,23 +355,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Identifier and Mapping Information">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#schema-source" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schema Source
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
@@ -417,7 +400,6 @@
 
 
 <h1 id="slot-pi">Slot: pi</h1>
-<p><em>Principal investigator name for this study</em></p>
 <p>URI: <a href="https://w3id.org/nmdc/sfas-brcs/pi">nmdc_sfas_brcs:pi</a>
 Alias: pi</p>
 <!-- no inheritance hierarchy -->
@@ -433,6 +415,11 @@ Alias: pi</p>
 </thead>
 <tbody>
 <tr>
+<td><a href="../FieldSite/">FieldSite</a></td>
+<td>A field research site associated with a research program</td>
+<td>no</td>
+</tr>
+<tr>
 <td><a href="../NMDCStudyReference/">NMDCStudyReference</a></td>
 <td>A reference to an NMDC study associated with a research program</td>
 <td>no</td>
@@ -444,10 +431,6 @@ Alias: pi</p>
 <li>Range: <a href="../String/">String</a></li>
 </ul>
 <h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
-<h3 id="schema-source">Schema Source</h3>
-<ul>
-<li>from schema: https://w3id.org/nmdc/sfas-brcs</li>
-</ul>
 <h2 id="mappings">Mappings</h2>
 <table>
 <thead>
@@ -471,12 +454,9 @@ Alias: pi</p>
 <details>
 
 <pre><code class="language-yaml">name: pi
-description: Principal investigator name for this study
-from_schema: https://w3id.org/nmdc/sfas-brcs
-rank: 1000
 alias: pi
-owner: NMDCStudyReference
 domain_of:
+- FieldSite
 - NMDCStudyReference
 range: string
 

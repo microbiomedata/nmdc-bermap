@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://my-org.github.io/nmdc-sfas-brcs/elements/location/">
+        <link rel="canonical" href="https://my-org.github.io/nmdc-sfas-brcs/elements/institution/">
       
       
       
@@ -21,7 +21,7 @@
     
     
       
-        <title>Slot: location - nmdc-sfas-brcs</title>
+        <title>Slot: institution - nmdc-sfas-brcs</title>
       
     
     
@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#slot-location" class="md-skip">
+        <a href="#slot-institution" class="md-skip">
           Skip to content
         </a>
       
@@ -104,7 +104,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Slot: location
+              Slot: institution
             
           </span>
         </div>
@@ -416,10 +416,10 @@
   
 
 
-<h1 id="slot-location">Slot: location</h1>
-<p><em>Geographic location of the program</em></p>
-<p>URI: <a href="https://w3id.org/nmdc/sfas-brcs/location">nmdc_sfas_brcs:location</a>
-Alias: location</p>
+<h1 id="slot-institution">Slot: institution</h1>
+<p><em>Institution of the principal investigator</em></p>
+<p>URI: <a href="https://w3id.org/nmdc/sfas-brcs/institution">nmdc_sfas_brcs:institution</a>
+Alias: institution</p>
 <!-- no inheritance hierarchy -->
 
 <h2 id="applicable-classes">Applicable Classes</h2>
@@ -433,35 +433,15 @@ Alias: location</p>
 </thead>
 <tbody>
 <tr>
-<td><a href="../ScientificFocusArea/">ScientificFocusArea</a></td>
-<td>A DOE Scientific Focus Area (SFA)</td>
-<td>no</td>
-</tr>
-<tr>
-<td><a href="../ResearchProgram/">ResearchProgram</a></td>
-<td>A DOE BER funded research program</td>
-<td>no</td>
-</tr>
-<tr>
-<td><a href="../OtherProgram/">OtherProgram</a></td>
-<td>Other DOE research programs and initiatives that don't fit the traditional SF...</td>
-<td>no</td>
-</tr>
-<tr>
 <td><a href="../FieldSite/">FieldSite</a></td>
 <td>A field research site associated with a research program</td>
-<td>no</td>
-</tr>
-<tr>
-<td><a href="../BioenergyResearchCenter/">BioenergyResearchCenter</a></td>
-<td>A DOE Bioenergy Research Center (BRC)</td>
 <td>no</td>
 </tr>
 </tbody>
 </table>
 <h2 id="properties">Properties</h2>
 <ul>
-<li>Range: <a href="../Location/">Location</a></li>
+<li>Range: <a href="../String/">String</a></li>
 </ul>
 <h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
 <h3 id="schema-source">Schema Source</h3>
@@ -479,26 +459,26 @@ Alias: location</p>
 <tbody>
 <tr>
 <td>self</td>
-<td>nmdc_sfas_brcs:location</td>
+<td>nmdc_sfas_brcs:institution</td>
 </tr>
 <tr>
 <td>native</td>
-<td>nmdc_sfas_brcs:location</td>
+<td>nmdc_sfas_brcs:institution</td>
 </tr>
 </tbody>
 </table>
 <h2 id="linkml-source">LinkML Source</h2>
 <details>
 
-<pre><code class="language-yaml">name: location
-description: Geographic location of the program
+<pre><code class="language-yaml">name: institution
+description: Institution of the principal investigator
 from_schema: https://w3id.org/nmdc/sfas-brcs
 rank: 1000
-alias: location
+alias: institution
+owner: FieldSite
 domain_of:
-- ResearchProgram
 - FieldSite
-range: Location
+range: string
 
 </code></pre>
 

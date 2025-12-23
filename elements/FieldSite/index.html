@@ -269,9 +269,17 @@
 
       FieldSite : description
 
+      FieldSite : institution
+
       FieldSite : location
 
       FieldSite : name
+
+      FieldSite : pi
+
+      FieldSite : relevance
+
+      FieldSite : site_type
 
 
 </div>
@@ -303,6 +311,30 @@
 <td><a href="../location/">location</a></td>
 <td>0..1 <br/> <a href="../String/">String</a></td>
 <td>Geographic location of the field site</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../site_type/">site_type</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>Type of field site (e</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../pi/">pi</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>Principal investigator leading research at this site</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../institution/">institution</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>Institution of the principal investigator</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../relevance/">relevance</a></td>
+<td>* <br/> <a href="../String/">String</a></td>
+<td>Research relevance categories for the site (e</td>
 <td>direct</td>
 </tr>
 <tr>
@@ -399,6 +431,42 @@ attributes:
     - ResearchProgram
     - FieldSite
     range: string
+  site_type:
+    name: site_type
+    description: Type of field site (e.g., NEON, LTER, RESEARCH_STATION, NATIONAL_FOREST,
+      NATIONAL_PARK, AGRICULTURAL, URBAN, COASTAL_WETLAND)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    domain_of:
+    - FieldSite
+    range: string
+  pi:
+    name: pi
+    description: Principal investigator leading research at this site
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    domain_of:
+    - FieldSite
+    - NMDCStudyReference
+    range: string
+  institution:
+    name: institution
+    description: Institution of the principal investigator
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    domain_of:
+    - FieldSite
+    range: string
+  relevance:
+    name: relevance
+    description: Research relevance categories for the site (e.g., BIOTECH, BIOENERGY,
+      HAZARD_PREDICTION, WILDFIRE, CLIMATE_CHANGE, AGRICULTURE)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    domain_of:
+    - FieldSite
+    range: string
+    multivalued: true
   contaminants:
     name: contaminants
     description: Contaminants present at the site (if applicable)
@@ -435,6 +503,50 @@ attributes:
     - ResearchProgram
     - FieldSite
     range: string
+  site_type:
+    name: site_type
+    description: Type of field site (e.g., NEON, LTER, RESEARCH_STATION, NATIONAL_FOREST,
+      NATIONAL_PARK, AGRICULTURAL, URBAN, COASTAL_WETLAND)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: site_type
+    owner: FieldSite
+    domain_of:
+    - FieldSite
+    range: string
+  pi:
+    name: pi
+    description: Principal investigator leading research at this site
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: pi
+    owner: FieldSite
+    domain_of:
+    - FieldSite
+    - NMDCStudyReference
+    range: string
+  institution:
+    name: institution
+    description: Institution of the principal investigator
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: institution
+    owner: FieldSite
+    domain_of:
+    - FieldSite
+    range: string
+  relevance:
+    name: relevance
+    description: Research relevance categories for the site (e.g., BIOTECH, BIOENERGY,
+      HAZARD_PREDICTION, WILDFIRE, CLIMATE_CHANGE, AGRICULTURE)
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: relevance
+    owner: FieldSite
+    domain_of:
+    - FieldSite
+    range: string
+    multivalued: true
   contaminants:
     name: contaminants
     description: Contaminants present at the site (if applicable)
