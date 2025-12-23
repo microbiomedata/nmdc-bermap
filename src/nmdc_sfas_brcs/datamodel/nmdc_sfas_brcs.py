@@ -1,5 +1,5 @@
 # Auto generated from nmdc_sfas_brcs.yaml by pythongen.py version: 0.0.1
-# Generation date: 2025-12-17T17:23:18
+# Generation date: 2025-12-18T10:29:21
 # Schema: nmdc-sfas-brcs
 #
 # id: https://w3id.org/nmdc/sfas-brcs
@@ -1151,6 +1151,10 @@ class FieldSite(YAMLRoot):
     name: Optional[str] = None
     description: Optional[str] = None
     location: Optional[str] = None
+    site_type: Optional[str] = None
+    pi: Optional[str] = None
+    institution: Optional[str] = None
+    relevance: Optional[Union[str, list[str]]] = empty_list()
     contaminants: Optional[Union[str, list[str]]] = empty_list()
     contamination_source: Optional[str] = None
 
@@ -1163,6 +1167,19 @@ class FieldSite(YAMLRoot):
 
         if self.location is not None and not isinstance(self.location, str):
             self.location = str(self.location)
+
+        if self.site_type is not None and not isinstance(self.site_type, str):
+            self.site_type = str(self.site_type)
+
+        if self.pi is not None and not isinstance(self.pi, str):
+            self.pi = str(self.pi)
+
+        if self.institution is not None and not isinstance(self.institution, str):
+            self.institution = str(self.institution)
+
+        if not isinstance(self.relevance, list):
+            self.relevance = [self.relevance] if self.relevance is not None else []
+        self.relevance = [v if isinstance(v, str) else str(v) for v in self.relevance]
 
         if not isinstance(self.contaminants, list):
             self.contaminants = [self.contaminants] if self.contaminants is not None else []
@@ -3265,6 +3282,18 @@ slots.isolateCollection__primary_reference_info = Slot(uri=NMDC_SFAS_BRCS.primar
 
 slots.fieldSite__location = Slot(uri=NMDC_SFAS_BRCS.location, name="fieldSite__location", curie=NMDC_SFAS_BRCS.curie('location'),
                    model_uri=NMDC_SFAS_BRCS.fieldSite__location, domain=None, range=Optional[str])
+
+slots.fieldSite__site_type = Slot(uri=NMDC_SFAS_BRCS.site_type, name="fieldSite__site_type", curie=NMDC_SFAS_BRCS.curie('site_type'),
+                   model_uri=NMDC_SFAS_BRCS.fieldSite__site_type, domain=None, range=Optional[str])
+
+slots.fieldSite__pi = Slot(uri=NMDC_SFAS_BRCS.pi, name="fieldSite__pi", curie=NMDC_SFAS_BRCS.curie('pi'),
+                   model_uri=NMDC_SFAS_BRCS.fieldSite__pi, domain=None, range=Optional[str])
+
+slots.fieldSite__institution = Slot(uri=NMDC_SFAS_BRCS.institution, name="fieldSite__institution", curie=NMDC_SFAS_BRCS.curie('institution'),
+                   model_uri=NMDC_SFAS_BRCS.fieldSite__institution, domain=None, range=Optional[str])
+
+slots.fieldSite__relevance = Slot(uri=NMDC_SFAS_BRCS.relevance, name="fieldSite__relevance", curie=NMDC_SFAS_BRCS.curie('relevance'),
+                   model_uri=NMDC_SFAS_BRCS.fieldSite__relevance, domain=None, range=Optional[Union[str, list[str]]])
 
 slots.fieldSite__contaminants = Slot(uri=NMDC_SFAS_BRCS.contaminants, name="fieldSite__contaminants", curie=NMDC_SFAS_BRCS.curie('contaminants'),
                    model_uri=NMDC_SFAS_BRCS.fieldSite__contaminants, domain=None, range=Optional[Union[str, list[str]]])

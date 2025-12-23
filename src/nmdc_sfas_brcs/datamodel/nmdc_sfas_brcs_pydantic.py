@@ -2442,6 +2442,10 @@ class FieldSite(ConfiguredBaseModel):
                        'Instrument'],
          'slot_uri': 'schema:description'} })
     location: Optional[str] = Field(default=None, description="""Geographic location of the field site""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram', 'FieldSite']} })
+    site_type: Optional[str] = Field(default=None, description="""Type of field site (e.g., NEON, LTER, RESEARCH_STATION, NATIONAL_FOREST, NATIONAL_PARK, AGRICULTURAL, URBAN, COASTAL_WETLAND)""", json_schema_extra = { "linkml_meta": {'domain_of': ['FieldSite']} })
+    pi: Optional[str] = Field(default=None, description="""Principal investigator leading research at this site""", json_schema_extra = { "linkml_meta": {'domain_of': ['FieldSite', 'NMDCStudyReference']} })
+    institution: Optional[str] = Field(default=None, description="""Institution of the principal investigator""", json_schema_extra = { "linkml_meta": {'domain_of': ['FieldSite']} })
+    relevance: Optional[list[str]] = Field(default=[], description="""Research relevance categories for the site (e.g., BIOTECH, BIOENERGY, HAZARD_PREDICTION, WILDFIRE, CLIMATE_CHANGE, AGRICULTURE)""", json_schema_extra = { "linkml_meta": {'domain_of': ['FieldSite']} })
     contaminants: Optional[list[str]] = Field(default=[], description="""Contaminants present at the site (if applicable)""", json_schema_extra = { "linkml_meta": {'domain_of': ['FieldSite']} })
     contamination_source: Optional[str] = Field(default=None, description="""Source of contamination at the site""", json_schema_extra = { "linkml_meta": {'domain_of': ['FieldSite']} })
 
@@ -2525,7 +2529,7 @@ class NMDCStudyReference(ConfiguredBaseModel):
          'implements': ['linkml:authoritative_reference']} })
     keywords: Optional[list[Keyword]] = Field(default=[], description="""Keywords describing the research focus""", json_schema_extra = { "linkml_meta": {'domain_of': ['ResearchProgram', 'NMDCStudyReference'],
          'slot_uri': 'schema:keywords'} })
-    pi: Optional[str] = Field(default=None, description="""Principal investigator name for this study""", json_schema_extra = { "linkml_meta": {'domain_of': ['NMDCStudyReference']} })
+    pi: Optional[str] = Field(default=None, description="""Principal investigator name for this study""", json_schema_extra = { "linkml_meta": {'domain_of': ['FieldSite', 'NMDCStudyReference']} })
     bioproject_ids: Optional[list[str]] = Field(default=[], description="""NCBI BioProject identifiers associated with this study""", json_schema_extra = { "linkml_meta": {'domain_of': ['NMDCStudyReference']} })
     gold_study_id: Optional[str] = Field(default=None, description="""GOLD study identifier (e.g., gold:Gs0128851)""", json_schema_extra = { "linkml_meta": {'domain_of': ['NMDCStudyReference']} })
     jgi_proposal_id: Optional[str] = Field(default=None, description="""JGI proposal identifier""", json_schema_extra = { "linkml_meta": {'domain_of': ['NMDCStudyReference']} })
