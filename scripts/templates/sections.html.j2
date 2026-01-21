@@ -26,8 +26,10 @@
 {% macro study_item(study) %}
 <details class="item study">
     <summary>
-        {% if study.nmdc_ingest_target %}
-            {{ priority_badge(study.nmdc_ingest_priority or 'TARGET') }}
+        {% if study.nmdc_ingest_priority %}
+            {{ priority_badge(study.nmdc_ingest_priority) }}
+        {% elif study.nmdc_ingest_target %}
+            {{ priority_badge('TARGET') }}
         {% endif %}
         {% if study.nmdc_study_id %}
             {{ nmdc_link(study.nmdc_study_id) }} -
