@@ -54,6 +54,7 @@ bioenergy_research_centers:
   - SUSTAINABILITY
   - MARGINAL_LANDS
   - CELLULOSIC_BIOMASS
+  - LIGNIN_VALORIZATION
   data_types:
   - GENOMICS
   - TRANSCRIPTOMICS
@@ -286,6 +287,48 @@ bioenergy_research_centers:
       reference:
         id: doi:10.3389/fbioe.2023.1173656
         title: A metagenome-level analysis of a microbial community fermenting ultra-filtered milk permeate
+  - name: Novosphingobium aromaticivorans DAP-seq Epigenomics
+    pi: Timothy J. Donohue
+    description: DNA affinity purification sequencing (DAP-seq) to identify putative transcriptional
+      regulators of aromatic metabolism in Novosphingobium aromaticivorans DSM 12444.
+    organism: Novosphingobium aromaticivorans DSM 12444
+    keywords:
+    - BIOENERGY
+    - MICROBIAL_CONVERSION
+    - OMICS_METHODS
+    data_modalities:
+    - GENOMICS
+    sample_count: 48
+    bioproject_ids:
+    - PRJNA1228656
+    brc_dataset_ids:
+    - PRJNA1228656
+    nmdc_ingest_target: true
+    nmdc_ingest_priority: MEDIUM
+    primary_reference_info:
+      reference:
+        id: pmid:40693769
+        title: Using DNA affinity purification sequencing (DAP-seq) to identify in vitro binding sites
+          of potential Novosphingobium aromaticivorans DSM12444 transcription factors.
+      relationship_note: "DOI: 10.1128/mra.00260-25"
+    source_reference:
+      url: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1228656
+      title: Novosphingobium aromaticivorans DSM 12444 DAP Seq epigenomics
+      summary: NCBI BioProject record for the GLBRC DAP-seq study including project description and
+        sample count.
+  - name: Populus Variovorax SynCom28 Compartment Partitioning
+    pi: Ashley Shade
+    description: Defined 28-strain synthetic community of Variovorax isolates from Populus deltoides
+      and Populus trichocarpa roots used to identify strain-level partitioning between rhizosphere
+      and endosphere compartments and genomic traits linked to endosphere specialization.
+    organism: Populus deltoides
+    data_modalities:
+    - METAGENOMICS
+    - GENOMICS
+    bioproject_ids:
+    - PRJNA1322484
+    synthetic_communities:
+    - communitymech:GLBRC_Populus_Variovorax_SynCom28
   datasets:
   - name: Switchgrass Reference Genome
     description: High-quality reference genome assembly for switchgrass (Panicum virgatum), the preeminent
@@ -332,7 +375,6 @@ bioenergy_research_centers:
         fractionation of gene function
     - statement: Collaboration across all four DOE Bioenergy Research Centers
   - id: doi:10.1094/PBIOMES-07-20-0051-R
-    title: Seasonal dynamics of core fungi and bacterial networks in the switchgrass phyllosphere
     findings:
     - statement: Strong temporal patterns in epiphytic microbial composition across growing season
     - statement: Fungi-bacteria network associations were much more common than bacteria-bacteria associations
@@ -347,8 +389,6 @@ bioenergy_research_centers:
     - statement: Taxa from Verrucomicrobia, Acidobacteria, and Planctomycetes dominate nitrogen cycling
         in switchgrass rhizosphere
   - id: doi:10.1038/s42003-023-05290-3
-    title: Anti-fungal bioactive terpenoids in the bioenergy crop switchgrass may contribute to ecotype-specific
-      microbiome composition
     findings:
     - statement: Switchgrass produces bioactive terpenoids with antifungal properties
     - statement: Ecotype-specific terpenoid profiles may shape distinct microbiome compositions
@@ -358,14 +398,72 @@ bioenergy_research_centers:
     - statement: Switchgrass can tolerate significant rhizome reserve reduction without yield loss
     - statement: Findings support potential for late-season harvest management
   - id: doi:10.1111/nph.70313
-    title: Local adaptation in switchgrass rust pathosystem
     findings:
     - statement: Evidence for local adaptation in switchgrass-rust pathogen interactions
   - id: doi:10.1111/gcbb.70051
-    title: Agricultural management legacy effects on switchgrass growth
     findings:
     - statement: Prior agricultural management practices have lasting effects on switchgrass establishment
         and growth
+  - id: pmid:40693769
+    title: Using DNA affinity purification sequencing (DAP-seq) to identify in vitro binding sites of
+      potential Novosphingobium aromaticivorans DSM12444 transcription factors.
+    findings:
+    - statement: DAP-seq was used to identify in vitro binding sites of potential transcription factors
+        in Novosphingobium aromaticivorans DSM12444.
+      reference: pmid:40693769
+    - statement: The linked BioProject describes the study objective as identifying putative transcriptional
+        regulators of aromatic metabolism in Novosphingobium aromaticivorans.
+      reference: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1228656
+      supporting_text: DNA affinity purification sequencing (DAP-seq) to identify putative transcriptional
+        regulators of aromatic metabolism in Novosphingobium aromaticivorans
+  - id: doi:10.1039/C8GC03504K
+    title: Funneling aromatic products of chemically depolymerized lignin into 2-pyrone-4,6-dicarboxylic
+      acid with Novosphingobium aromaticivorans
+    findings:
+    - statement: Engineered N. aromaticivorans DSM12444 funnels heterogeneous lignin-derived aromatics
+        into a single product, 2-pyrone-4,6-dicarboxylic acid (PDC), a precursor for polyesters and
+        epoxy adhesives
+      reference: doi:10.1039/C8GC03504K
+    - statement: Biological funneling exploits converging catabolic pathways in N. aromaticivorans that
+        simultaneously metabolize G, S, and H lignin-derived monomers and oligomers
+      reference: doi:10.1039/C8GC03504K
+  - id: doi:10.1128/mbio.01718-24
+    title: Catabolism of beta-5 linked aromatics by Novosphingobium aromaticivorans
+    findings:
+    - statement: N. aromaticivorans catabolizes beta-5 linked lignin dimers, expanding the range of
+        lignin depolymerization products that can be funneled into valuable chemicals
+      reference: doi:10.1128/mbio.01718-24
+  - id: doi:10.1039/D4GC01975J
+    title: Achieving high productivity of 2-pyrone-4,6-dicarboxylic acid from aqueous aromatic streams
+      with Novosphingobium aromaticivorans
+    findings:
+    - statement: Demonstrated high-productivity PDC production from aqueous aromatic streams, advancing
+        N. aromaticivorans toward industrial-scale lignin valorization
+      reference: doi:10.1039/D4GC01975J
+  - id: doi:10.1128/aem.02081-24
+    title: Laboratory evolution in Novosphingobium aromaticivorans enables rapid catabolism of a model
+      lignin-derived aromatic dimer
+    findings:
+    - statement: Adaptive laboratory evolution generated N. aromaticivorans strains with improved catabolism
+        of guaiacylglycerol-beta-guaiacyl ether (GGE), a model lignin dimer with a beta-O-4 linkage
+      reference: doi:10.1128/aem.02081-24
+    - statement: Identified causal mutation in an uncharacterized gene that doubled growth yield on GGE,
+        with the encoded enzyme oxidizing beta-hydroxypropiovanillone to vanilloyl acetaldehyde
+      reference: doi:10.1128/aem.02081-24
+  - id: doi:10.1128/msystems.00187-22
+    title: 'iNovo479: Metabolic Modeling Provides a Roadmap to Optimize Bioproduct Yield from Deconstructed
+      Lignin Aromatics by Novosphingobium aromaticivorans'
+    findings:
+    - statement: Genome-scale metabolic model iNovo479 predicts product yields from single or multiple
+        lignin-derived aromatics and guides engineering of N. aromaticivorans for lignin valorization
+      reference: doi:10.1128/msystems.00187-22
+  - id: doi:10.1128/aem.01268-23
+    title: Production of carotenoids from aromatics and pretreated lignocellulosic biomass by Novosphingobium
+      aromaticivorans
+    findings:
+    - statement: Engineered N. aromaticivorans produces carotenoids (beta-carotene, zeaxanthin, astaxanthin)
+        concurrently with PDC from alkaline pretreated lignocellulosic biomass
+      reference: doi:10.1128/aem.01268-23
   outputs:
     publication_count: '>1800 peer-reviewed papers'
     patent_applications: 286
@@ -450,16 +548,111 @@ bioenergy_research_centers:
       conditions in Davis, California.
     bioproject_ids:
     - PRJNA1205755
+  - name: Sorghum Synthetic Rhizosphere Community (SRC1)
+    pi: Devin Coleman-Derr
+    description: Defined synthetic microbial community (SRC1) of 16-20 bacterial strains assembled
+      from sorghum rhizosphere isolates to enhance bioenergy crop productivity. Field-tested
+      with increased shoot biomass correlating with transcriptional dampening of lignin biosynthesis.
+    organism: Sorghum bicolor
+    data_modalities:
+    - AMPLICON_16S
+    - METAGENOMICS
+    primary_reference_info:
+      reference:
+        id: doi:10.1093/ismejo/wrae126
+        title: Defined synthetic microbial communities colonize and benefit field-grown sorghum
+    synthetic_communities:
+    - communitymech:Sorghum_SRC1_Subset
   datasets:
   - name: JBEI ICE (Inventory of Composable Elements)
     description: Registry of standard biological parts for synthetic biology
     url: https://github.com/jbei
     data_type: synthetic biology parts
+  - name: ART (Automated Recommendation Tool)
+    description: Machine learning tool for active learning-guided optimization of metabolic engineering. Successfully used for pathway design, downregulation target selection, media optimization, and CRISPR guide RNA design.
+    url: https://github.com/JBEI/ART
+    data_type: computational tool
+  - name: bioPKS
+    description: Computational tool for recommending pathways to synthesize desired molecules via retrobiosynthesis
+    data_type: computational tool
+  - name: ClusterCAD
+    description: Updated computational platform for chimeric type I polyketide synthase and nonribosomal peptide synthetase design
+    url: https://clustercad.jbei.org
+    data_type: computational tool
+  - name: Macaw
+    description: Accessible tool for molecular embedding and inverse molecular design, predicting properties of prospective molecular targets
+    data_type: computational tool
+  - name: GenSLM
+    description: Genome-scale language model for DNA sequence analysis and generation, used for synthetic biology part design
+    data_type: computational tool
+  - name: OpenFold3-PPI
+    description: Next-generation protein-protein interaction model under development with Columbia University for de novo enzyme design
+    data_type: computational tool
+  - name: HTME (High-Throughput Microfluidic Electroporation)
+    description: Microfluidic platform capable of electroporating 384 wells in under one minute with individual control of each well. Eliminates key bottleneck for high-throughput strain construction enabling ML-guided metabolic engineering.
+    data_type: automation infrastructure
+  - name: Echo 550 Acoustic Liquid Handler
+    description: Acoustic liquid handler for precise, low-volume liquid transfers without tips. Enables accurate dispensing for high-throughput strain construction and media optimization.
+    data_type: automation infrastructure
+  - name: BioLector Cultivation System
+    description: Microbioreactor system for highly repeatable culture conditions ensuring generation of high-quality data for machine learning. Supports parallel cultivation with real-time monitoring.
+    data_type: automation infrastructure
   key_publications:
   - id: doi:10.1038/nature04607
     title: Designed divergent evolution of enzyme function
   - id: doi:10.1038/s41586-019-0978-9
     title: Complete biosynthesis of cannabinoids and their unnatural analogues in yeast
+  - id: doi:10.1038/s41467-020-18008-4
+    title: A machine learning Automated Recommendation Tool for synthetic biology
+    findings:
+    - statement: ART enables active learning-guided optimization of metabolic engineering, successfully applied to design pathways, choose downregulation targets, and optimize media
+  - id: doi:10.21203/rs.3.rs-6846062/v1
+    title: Automation and machine learning drive rapid optimization of isoprenol production in Pseudomonas putida
+    findings:
+    - statement: Integration of laboratory automation with machine learning (ART) reduced DBTL cycle turnaround from months to two weeks, achieving 5-fold titer improvement in isoprenol production
+  - id: doi:10.1038/s42003-025-08039-2
+    title: Machine learning-led semi-automated medium optimization reveals salt as key for flaviolin production in Pseudomonas putida
+    findings:
+    - statement: Active learning approach identified NaCl as critical medium component for flaviolin production, demonstrating non-intuitive solutions from AI-guided optimization
+  - id: doi:10.3390/bioengineering12080788
+    title: 'High-Throughput Microfluidic Electroporation (HTME): A Scalable, 384-Well Platform for Multiplexed Cell Engineering'
+    findings:
+    - statement: HTME platform electroporates 384 wells in under one minute with individual well control, enabling high-throughput strain construction for ML-guided metabolic engineering
+  - id: doi:10.1126/sciadv.adj0053
+    title: Lignin conversion to beta-ketoadipic acid by Pseudomonas putida via metabolic engineering
+      and bioprocess development
+    findings:
+    - statement: Engineered P. putida KT2440 converts mixed lignin-derived aromatics to beta-ketoadipic
+        acid, a precursor for performance-advantaged nylons, at titers of 44.5 g/L from model compounds
+        and 25 g/L from corn stover-derived streams
+      reference: doi:10.1126/sciadv.adj0053
+    - statement: Technoeconomic analysis predicts a minimum selling price of $2.01/kg for beta-ketoadipate,
+        cost-competitive with fossil-derived adipic acid
+      reference: doi:10.1126/sciadv.adj0053
+  - id: doi:10.1016/j.meteng.2021.02.004
+    title: Metabolism of syringyl lignin-derived compounds in Pseudomonas putida enables convergent
+      production of 2-pyrone-4,6-dicarboxylic acid
+    findings:
+    - statement: Engineered P. putida converges S-lignin-derived aromatics into 2-pyrone-4,6-dicarboxylic
+        acid (PDC), expanding biological funneling beyond G-lignin substrates
+      reference: doi:10.1016/j.meteng.2021.02.004
+  - id: doi:10.1039/d0gc01663b
+    title: Generation of ionic liquid tolerant Pseudomonas putida KT2440 strains via adaptive laboratory
+      evolution
+    findings:
+    - statement: Adaptive laboratory evolution generated P. putida strains tolerant to ionic liquids
+        used in biomass pretreatment, enabling one-pot bioprocessing of IL-treated lignocellulose
+      reference: doi:10.1039/d0gc01663b
+    - statement: Evolved strains grow at IL concentrations (4% TEOH-OAc, 8% TEA-HS) lethal to wild-type,
+        with mutations in efflux pump emrE and glyoxylate cycle regulator PP_5350
+      reference: doi:10.1039/d0gc01663b
+  - id: doi:10.1021/acssuschemeng.1c00933
+    title: Muconic Acid Production Using Engineered Pseudomonas putida KT2440 and a Guaiacol-Rich
+      Fraction Derived from Kraft Lignin
+    findings:
+    - statement: Engineered P. putida produces cis,cis-muconic acid from guaiacol derived from kraft
+        lignin depolymerization via O-demethylation to catechol followed by intradiol ring cleavage
+      reference: doi:10.1021/acssuschemeng.1c00933
   outputs:
     publication_count: 685 (first 10 years)
     invention_disclosures: 273
@@ -663,6 +856,7 @@ bioenergy_research_centers:
   - SWITCHGRASS
   - SUSTAINABLE_AVIATION_FUEL
   - LIGNIN
+  - LIGNIN_VALORIZATION
   - BIOMASS_RECALCITRANCE
   - GENOMIC_SELECTION
   - PERENNIAL_CROPS
@@ -723,7 +917,32 @@ bioenergy_research_centers:
     data_type: genomics/GWAS
   key_publications:
   - id: doi:10.1002/bbb.2148
-    title: 'Economic impact of yield and composition variation in bioenergy crops: Populus trichocarpa'
+  - id: doi:10.1038/s41467-019-11376-6
+    title: Quantitative fermentation of unpretreated transgenic poplar by Caldicellulosiruptor bescii
+    findings:
+    - statement: Metabolically engineered C. bescii directly ferments transgenic low-lignin poplar
+        without pretreatment, demonstrating consolidated bioprocessing of woody biomass
+      reference: doi:10.1038/s41467-019-11376-6
+    - statement: C. bescii with C. thermocellum adhE gene produces ethanol directly from unpretreated
+        plant biomass, bypassing costly pretreatment steps for lignin-rich feedstocks
+      reference: doi:10.1038/s41467-019-11376-6
+  - id: doi:10.1016/j.biortech.2023.129189
+    title: Rewiring metabolism of Clostridium thermocellum for consolidated bioprocessing of lignocellulosic
+      biomass poplar to produce short-chain esters
+    findings:
+    - statement: Engineered C. thermocellum produces short-chain esters directly from poplar biomass
+        via consolidated bioprocessing, with up to 80-fold improvement through carbohydrate esterase
+        deletion and alcohol acetyltransferase overexpression
+      reference: doi:10.1016/j.biortech.2023.129189
+  - id: doi:10.1038/s41563-024-02024-6
+    title: Lignin deoxygenation for the production of sustainable aviation fuel blendstocks
+    findings:
+    - statement: Continuous two-stage catalytic process using molybdenum carbide deoxygenates poplar
+        lignin into jet-range aromatic hydrocarbons with 87.5% selectivity and 86% carbon recovery
+      reference: doi:10.1038/s41563-024-02024-6
+    - statement: Lignin-derived SAF aromatics are performance-advantaged relative to conventional jet
+        fuel aromatics and lignin can meet current aromatic demand 2.5 times over
+      reference: doi:10.1038/s41563-024-02024-6
   established: 2017
   predecessor: BioEnergy Science Center (BESC, 2007-2017)
 genomic_science_sfas:
@@ -861,6 +1080,18 @@ genomic_science_sfas:
     - PRJNA268032
     nmdc_ingest_target: true
     nmdc_ingest_priority: MEDIUM
+  - name: Denitrifying Synthetic Community
+    pi: Adam P. Arkin
+    description: Two-member denitrifying synthetic community of Rhodanobacter thiooxydans FW510-R12
+      and Acidovorax sp. GW101-3H11 from the Oak Ridge contaminated subsurface. Exhibits
+      pathway-partitioned denitrification via nitrite and nitric oxide exchange.
+    organism: groundwater isolates
+    data_modalities:
+    - GENOMICS
+    - TRANSCRIPTOMICS
+    - PROTEOMICS
+    synthetic_communities:
+    - communitymech:ENIGMA_Denitrifying_SynCom
   key_publications:
   - id: doi:10.1038/s41564-023-01573-x
     title: Environmental stress mediates groundwater microbial community assembly
@@ -870,8 +1101,6 @@ genomic_science_sfas:
     - statement: Selection processes leading to dissimilar communities increased with stresses, primarily
         related to pH, cobalt and molybdenum.
   - id: doi:10.2172/1963932
-    title: 'Ecosystems and Networks Integrated with Genes and Molecular Assemblies: Integrating Metabolomics
-      into Environmental Systems Biology'
   isolate_collections:
   - name: ENIGMA Subsurface Isolates
     description: Bacterial and archaeal isolates from Oak Ridge Reservation subsurface environments including
@@ -973,6 +1202,8 @@ genomic_science_sfas:
     pi: Trent R. Northen
     description: Multi-laboratory ring trial using EcoFAB 2.0 devices with synthetic bacterial communities
       and Brachypodium distachyon to test reproducibility and standardization.
+    synthetic_communities:
+    - communitymech:EcoFAB_Ring_Trial_SynCom17
   - name: Brachypodium Core Root Microbiome Metabarcoding
     pi: Trent R. Northen
     description: 16S rRNA amplicon sequencing defining core root microbiome of Brachypodium distachyon
@@ -1030,8 +1261,6 @@ genomic_science_sfas:
     primary_reference_info:
       reference:
         id: doi:10.1038/s41467-023-37164-x
-        title: The core metabolome and root exudation dynamics of three phylogenetically distinct plant
-          species
   - name: Reduced Complexity Consortia from Brachypodium Rhizosphere
     pi: Trent R. Northen
     description: Systematic framework to generate Reduced Complexity Consortia (RCC) representing Brachypodium
@@ -1075,8 +1304,6 @@ genomic_science_sfas:
     description: Meter-scale contained controlled ecosystems
   key_publications:
   - id: doi:10.1126/sciadv.adg7888
-    title: Reproducible growth of Brachypodium in EcoFAB 2.0 reveals that nitrogen form and starvation
-      modulate root exudation
     findings:
     - statement: EcoFAB 2.0 enables highly reproducible plant-microbiome experiments across multiple laboratories
     - statement: Nitrogen form and starvation significantly modulate root exudation patterns
@@ -1087,7 +1314,6 @@ genomic_science_sfas:
     - statement: Root exudate chemistry dynamically changes over plant development
     - statement: Microbial substrate preferences drive rhizosphere community assembly patterns
   - id: doi:10.1038/s41467-023-37164-x
-    title: Core metabolome and root exudation dynamics of three phylogenetically distinct plant species
     findings:
     - statement: Identified core metabolome shared across phylogenetically distinct plant species
   isolate_collections:
@@ -1198,8 +1424,6 @@ genomic_science_sfas:
     primary_reference_info:
       reference:
         id: doi:10.1038/s41564-023-01582-w
-        title: Predictions of rhizosphere microbiome dynamics with a genome-informed and trait-based energy
-          budget model
   - name: Radiocarbon Analysis of Soil Microbial Biomass
     pi: Jennifer Pett-Ridge
     description: Novel method for radiocarbon analysis of soil microbial biomass via direct chloroform
@@ -1238,8 +1462,6 @@ genomic_science_sfas:
     primary_reference_info:
       reference:
         id: doi:10.1128/msystems.00417-22
-        title: Quantitative Stable-Isotope Probing (qSIP) with Metagenomics Links Microbial Physiology
-          and Activity to Soil Moisture in Mediterranean-Climate Grassland Ecosystems
   datasets:
   - name: Microbes Persist qSIP Metagenome Bins
     description: Microbial genome bins and annotations from qSIP metagenomics
@@ -1247,14 +1469,10 @@ genomic_science_sfas:
     url: https://ggkbase.berkeley.edu/wsip-metawrap-drep-bins/organisms
   key_publications:
   - id: doi:10.1128/msystems.00417-22
-    title: Quantitative stable-isotope probing with metagenomics links microbial physiology and activity
-      to soil moisture
     findings:
     - statement: First application of qSIP to all organisms in soil simultaneously
     - statement: Bacterial growth occurred rapidly after wet-up with ~40% of taxa growing within one week
   - id: doi:10.1038/s41564-023-01582-w
-    title: Predictions of rhizosphere microbiome dynamics using genome-informed and trait-based energy
-      budget model
     findings:
     - statement: Genome-informed trait-based models can predict rhizosphere microbiome dynamics
   - id: doi:10.1073/pnas.2413032122
@@ -1328,7 +1546,6 @@ genomic_science_sfas:
     primary_reference_info:
       reference:
         id: doi:10.1038/s41467-023-42967-z
-        title: Hi-C metagenome sequencing reveals soil phage–host interactions
   - name: Soil Microbiome Response to Depth, Irrigation and Plant Genotype
     pi: Kirsten Hofmockel
     description: Influence of soil depth, irrigation, and plant genotype on the soil microbiome, metaphenome,
@@ -1341,8 +1558,6 @@ genomic_science_sfas:
     primary_reference_info:
       reference:
         id: doi:10.1128/mbio.01758-23
-        title: Influence of soil depth, irrigation, and plant genotype on the soil microbiome, metaphenome,
-          and carbon chemistry
   - name: Birch Effect Respiratory Response of Soil Microbiome
     pi: Kirsten Hofmockel
     description: Real-time and rapid respiratory response (90 seconds to 90 minutes) of the soil microbiome
@@ -1370,14 +1585,144 @@ genomic_science_sfas:
     repository: PNNL DataHub
     url: https://data.pnnl.gov/Soil_SFA
     doi: 10.25584/PRJ.SFA/1780765
+  - name: 'WA-TmG.1.0 (Metagenome, WA)'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/13227
+  - name: 'WA-TmG.2.0 (Metagenome, WA)'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/13433
+  - name: 'WA-IsoC_NAG.1.0 (Amplicon 16S/ITS, WA)'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/12036
+  - name: 'WA-IsoC_MSC1.1.0 (Amplicon 16S rRNA, WA)'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/13279
+  - name: 'WA-Omics_LA.1.0 (Metabolomics, Lipidomics, & Amplicon 16S/ITS, WA)'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/13504
+  - name: 'IA-TmG.1.0 (Metagenome, IA)'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/13229
+  - name: 'IA-TmG.2.0 (Metagenome, IA)'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/13435
+  - name: 'KS-TmG.1.0 (Metagenome, KS)'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/13232
+  - name: 'KS-TmG.2.0 (Metagenome, KS)'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/13434
+  - name: 'KS4A-IsoG.1.0_FspDS682 (Fungal Monoisolate Genome, KS)'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/13261
+  - name: 'KS4A-Omics1.0_FspDS682 (Fungal Monoisolate Multi-Omics Proteome, KS)'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/13432
+  - name: 'Iso-VIG14.1.0 (Metagenome Derived Viral Genomes, WA/IA/KS)'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/13436
+  - name: 'Model Soil Consortium 2 (MSC-2) Bacterial Isolate Genomes'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/33234
+  - name: 'HiC manuscript: bulk metagenomic data_MG_raw Upload'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/33337
+  - name: '16s MSC-2 Leaveout Data'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/33294
+  - name: 'Metatranscriptomic data from MSC-2'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/33232
+  - name: '16s data from MSC-2 growth'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/33231
+  - name: 'HiC manuscript: bulk metagenomic HiC metaG Raw'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/33511
+  - name: 'Influence of soil depth, moisture, and plants on multi-omic features and carbon chemistry in a calcareous soil: Summary Data'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/33509
+  - name: 'Influence of soil depth, moisture, and plants on multi-omic features and carbon chemistry in a calcareous soil: Sequence Data'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/33508
+  - name: 'Metatranscriptomic Analysis of Soil'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/33363
+  - name: 'RNA viruses in grassland soils (Prosser, WA)'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/33706
+  - name: 'Global Soil Virus (GSV) Atlas'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/33708
+  - name: 'Chitin Decomposition 16S rRNA gene fastq'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/34094
+  - name: 'Global terrestrial carbon pools and fluxes'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/34118
+  - name: 'Environmental matrix and moisture are key determinants of microbial phenotypes expressed in a reduced complexity soil-analog'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/34119
+  - name: 'GNPS- Influence of drought and wet-up on the soil lipidome (PNNL Soils SFA)'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/34128
+  - name: 'Quality Filtered Metatranscript Reads'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/33340
+  - name: 'Hi-C Viral Host Links'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/33339
+  - name: 'Assembly product (viral contigs and MAGs)'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/33338
+  - name: 'Rapid Remodeling of the Soil Microbiome Response to Drying and Rewetting Amplicon Analysis'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/34129
+  - name: 'GNPS - Interactive effects of depth and differential irrigation on soil microbiome composition and functioning_PNNLSoilsSFA_Naylor'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/34130
+  - name: 'Viral AMG chitosanase V-Csn, apo structure'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/34131
+  - name: 'Viral AMG chitosanase V-Csn, apo structure, crystal form 2'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/34132
+  - name: 'Viral AMG chitosanase V-Csn, E157Q mutant'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/34135
+  - name: 'Proteomic analysis of Fusarium sp. DS 682 Fungal Mineral Weathering in a Mineral Doped Soil Micromodel'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/34151
+  - name: 'Bog metagenome: A collection of samples from Bonanza Creek LTER'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/34152
+  - name: 'Moisture Modulates Soil Reservoirs of Active DNA and RNA viruses - MassIVE Record'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/34153
+  - name: 'Moisture Modulates Soil Reservoirs of Active DNA and RNA viruses - Zenodo Record'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/34154
+  - name: 'GLBRC Soil Yearlong Incubation 13C-SIP-Lipidomics'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/34252
+  - name: 'Inter-Kingdom Viral Interactions'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/34299
+  - name: 'Prokaryotic and eukaryotic interactions along a moisture gradient'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/34298
+  - name: 'Moisture Effect on Chitin Decomposition Biogeochemistry'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/34279
+  - name: 'Moisture Metaphenome Incubation Analysis Results'
+    repository: PNNL DataHub
+    url: https://data.pnnl.gov/group/nodes/dataset/34357
   key_publications:
   - id: doi:10.1038/s41467-023-42967-z
-    title: Hi-C Metagenome Sequencing Reveals Soil Moisture Impacts on Phage-Host Interactions
     findings:
     - statement: High-throughput chromosomal conformation capture reveals soil moisture controls phage-host
         dynamics
   - id: doi:10.1128/mbio.01758-23
-    title: Influence of soil depth, irrigation, and plant genotype on the soil microbiome and metaphenome
     findings:
     - statement: Soil depth and irrigation interact to shape microbiome composition and metabolic phenotypes
   - id: doi:10.1038/s41564-024-01686-x
@@ -1391,7 +1736,6 @@ genomic_science_sfas:
     findings:
     - statement: Soil microbiome responds to moisture within 90 seconds to 90 minutes (Birch effect)
   - id: doi:10.1186/s40168-022-01427-4
-    title: Significant remodeling of the soil lipidome following extreme moisture and temperature shifts
     findings:
     - statement: Extreme weather events cause significant restructuring of soil lipid chemistry
   phenotype_assays:
@@ -1487,7 +1831,7 @@ genomic_science_sfas:
     title: Biotechnology for secure biocontainment designs in an emerging bioeconomy
     findings:
     - statement: Review of biocontainment strategies for safe deployment of engineered microbes
-  - id: doi:10.1021/acssynbio.3c00175
+  - id: doi:10.1021/acssynbio.3c00183
     title: Improved Combinatorial Assembly and Barcode Sequencing for Gene-Sized DNA Constructs
     findings:
     - statement: Improved methods for combinatorial DNA assembly enabling rapid biocontainment testing
@@ -1495,7 +1839,7 @@ genomic_science_sfas:
     title: Biocontainment of Genetically Engineered Algae
     findings:
     - statement: Biocontainment strategies developed for algal biofuel production systems
-  - id: doi:10.1007/s00248-023-02305-2
+  - id: doi:10.1007/s00248-023-02321-8
     title: Risk Assessment of Industrial Microbes Using a Terrestrial Mesocosm Platform
     findings:
     - statement: Mesocosm platform enables environmental risk assessment of engineered microbes
@@ -1625,11 +1969,11 @@ genomic_science_sfas:
     findings:
     - statement: BFI Research Portal provides centralized database of reported bacterial-fungal interactions
     - statement: Resource serves as foundation for computational predictions of novel interactions
-  - id: doi:10.1038/s41467-024-48535-7
+  - id: doi:10.1038/s41467-024-48812-1
     title: Enhanced surface colonisation and competition during bacterial adaptation to a fungus
     findings:
     - statement: Bacteria adapt to fungal presence through enhanced surface colonization strategies
-  - id: doi:10.1038/s41467-023-37158-7
+  - id: doi:10.1039/d3an00408b
     title: Metabolomics of bacterial-fungal pairwise interactions reveal conserved molecular mechanisms
     findings:
     - statement: Conserved metabolic mechanisms underlie diverse bacterial-fungal interactions
@@ -1732,7 +2076,6 @@ genomic_science_sfas:
     primary_reference_info:
       reference:
         id: doi:10.1128/mSystems.00045-18
-        title: Exploration of the Biosynthetic Potential of the <i>Populus</i> Microbiome
   - nmdc_study_id: nmdc:sty-11-r2h77870
     name: Bio-Scales - Integrated Metagenomic, Metabolomic and Transcriptomic Survey of Populus
     pi: Mitchel J. Doktycz
@@ -1754,8 +2097,6 @@ genomic_science_sfas:
     primary_reference_info:
       reference:
         id: doi:10.1038/s41597-024-03069-7
-        title: An integrated metagenomic, metabolomic and transcriptomic survey of Populus across genotypes
-          and environments
   - name: Seasonality and Temporal Dynamics in Populus Microbiome
     pi: Melissa Cregger
     description: Amplicon sequencing characterizing bacterial/archaeal and fungal communities in leaf
@@ -1771,8 +2112,6 @@ genomic_science_sfas:
     primary_reference_info:
       reference:
         id: doi:10.1128/msystems.00886-23
-        title: Seasonality and longer-term development generate temporal dynamics in the <i>Populus</i>
-          microbiome
   - name: Populus Holobiont Niche and Genotype Effects
     pi: Melissa Cregger
     description: Dissecting effects of plant niches and genotype on the Populus microbiome using 16S and
@@ -1789,7 +2128,6 @@ genomic_science_sfas:
     primary_reference_info:
       reference:
         id: doi:10.1186/s40168-018-0413-8
-        title: 'The Populus holobiont: dissecting the effects of plant niches and genotype on the microbiome'
   - name: Cultivating Bacterial Microbiota of Populus Roots
     pi: Dale Pelletier
     description: Isolation and characterization of culturable bacteria from Populus roots with 16S sequencing
@@ -1822,9 +2160,18 @@ genomic_science_sfas:
     nmdc_ingest_priority: HIGH
     primary_reference_info:
       reference:
-        id: doi:10.1038/s41467-021-24112-w
-        title: Climate-driven divergence in plant-microbiome interactions generates range-wide variation
-          in bud break phenology
+        id: doi:10.1038/s42003-021-02244-5
+  - name: Populus Rhizosphere PD10 Synthetic Community
+    pi: Mitchel J. Doktycz
+    description: Ten-member synthetic bacterial community (PD10) assembled from Populus deltoides
+      rhizosphere isolates to study assembly dynamics, medium-dependent community structure,
+      and metabolic exchange during stable community formation.
+    organism: Populus deltoides
+    data_modalities:
+    - GENOMICS
+    - METABOLOMICS
+    synthetic_communities:
+    - communitymech:ORNL_PMI_Populus_PD10_SynCom
   kbase_genome_collection: PMI
   analyses:
   - id: nmdc_sfas_brcs:pmi_populus_microbiome
@@ -1848,48 +2195,46 @@ genomic_science_sfas:
     primary_reference_info:
       reference:
         id: doi:10.1016/j.csbj.2021.03.034
-        title: Formation, characterization and modeling of emergent synthetic microbial communities
   datasets:
   - name: PMI Bacterial Collection
     description: Isolates from native, field, and greenhouse grown Populus, identified by 16S rDNA sequencing.
     url: https://pmiweb.ornl.gov/table-test/
     reference: Carper et al. 2021
+  - name: Populus trichocarpa GWAS Population
+    description: '>1500 natural variants of P. trichocarpa resequenced and phenotyped for genome-wide
+      association studies (GWAS) linking plant genotype to microbiome composition. Includes backcross
+      pedigrees for QTL mapping and transgenic lines in multiple host backgrounds.'
+  - name: Populus deltoides Common Garden Collection
+    description: '~350 natural variants of P. deltoides planted in common gardens for studying genotype-environment
+      interactions and microbiome assembly.'
   key_publications:
   - id: doi:10.1038/s41597-024-03069-7
-    title: An integrated metagenomic, metabolomic and transcriptomic survey of Populus
     findings:
     - statement: Comprehensive multi-omics dataset of 318 metagenomes from 27 Populus genotypes
   - id: doi:10.1128/msystems.00886-23
-    title: Seasonality and temporal dynamics in the Populus microbiome
     findings:
     - statement: Strong seasonal patterns drive Populus-associated microbial community structure
   - id: doi:10.1186/s40168-018-0413-8
-    title: Effects of plant niches and genotype on the Populus microbiome
     findings:
     - statement: Plant tissue niche has stronger effect on microbiome than host genotype
   - id: doi:10.1016/j.csbj.2021.03.034
-    title: CommScores metabolic modeling for microbial community interactions
     findings:
     - statement: Genome-scale metabolic modeling enables prediction of microbial interactions
-  - id: doi:10.1093/hr/uhad087
-    title: CRISPR/Cas9-based gene activation and base editing in Populus
+  - id: doi:10.1093/hr/uhad085
     findings:
     - statement: Established CRISPR tools for Populus genetic engineering
-  - id: doi:10.1038/s41467-021-24112-w
+  - id: doi:10.1038/s42003-021-02244-5
     title: Climate-driven divergence in plant-microbiome interactions generates range-wide variation in bud break phenology
     findings:
     - statement: Warming-adapted microbiomes can transmit thermotolerance to axenic laboratory-grown plants
     - statement: Tree genotypes condition their soil microbiomes across geographic distribution
   - id: doi:10.1128/mSystems.00045-18
-    title: Exploration of the Biosynthetic Potential of the Populus Microbiome
     findings:
     - statement: Populus microbiome encodes diverse biosynthetic gene clusters for secondary metabolites
   - id: doi:10.1186/s12866-021-02370-4
-    title: Metaproteomics Reveals Insights into Microbial Structure, Interactions, and Dynamic Regulation in Defined Communities
     findings:
     - statement: Metaproteomics reveals dynamic regulation of microbial communities responding to environmental disturbance
-  - id: doi:10.1111/nph.15182
-    title: Fungal Endophytes of Populus trichocarpa Alter Host Phenotype, Gene Expression, and Rhizobiome Composition
+  - id: doi:10.1094/MPMI-05-18-0133-R
     findings:
     - statement: Mortierella elongata PMI93 promotes P. trichocarpa growth in a cultivar-independent manner
   - id: doi:10.1186/s13007-023-01022-0
@@ -1939,14 +2284,6 @@ genomic_science_sfas:
     host_organisms:
     - Populus trichocarpa
     - Populus deltoides
-  datasets:
-  - name: Populus trichocarpa GWAS Population
-    description: '>1500 natural variants of P. trichocarpa resequenced and phenotyped for genome-wide
-      association studies (GWAS) linking plant genotype to microbiome composition. Includes backcross
-      pedigrees for QTL mapping and transgenic lines in multiple host backgrounds.'
-  - name: Populus deltoides Common Garden Collection
-    description: '~350 natural variants of P. deltoides planted in common gardens for studying genotype-environment
-      interactions and microbiome assembly.'
   phenotype_assays:
   - GROWTH_CURVES
   - BIOLOG_PHENOTYPING
@@ -2018,9 +2355,6 @@ genomic_science_sfas:
     primary_reference_info:
       reference:
         id: doi:10.1094/PHYTO-09-20-0433-A
-        title: Genome Sequence Resource of <i>Bacillus</i> <i>velezensis</i> EB14, a Native Endophytic
-          Bacterial Strain with Biocontrol Potential Against the Poplar Stem Canker Causative Pathogen,
-          <i>Sphaerulina musiva</i>
   - name: Populus-Laccaria Symbiosis Effector Discovery
     pi: Xiaohan Yang
     description: Investigation of plant-derived effector proteins mediating symbiosis between Populus
@@ -2035,8 +2369,6 @@ genomic_science_sfas:
     primary_reference_info:
       reference:
         id: doi:10.1093/hr/uhae232
-        title: A small secreted protein serves as a plant-derived effector mediating symbiosis between
-          <i>Populus</i> and <i>Laccaria bicolor</i>
   - name: CRISPRi High-Throughput Screens in Non-Model Bacteria
     pi: Paul Abraham
     description: Development of workflow for rapid enhancement of transformation efficiency and genetic
@@ -2062,21 +2394,16 @@ genomic_science_sfas:
     - GENOMICS
   key_publications:
   - id: doi:10.1094/PHYTO-09-20-0433-A
-    title: Genome Sequence Resource of Bacillus velezensis EB14, a Native Endophytic Bacterial Strain
-      with Biocontrol Potential
     findings:
     - statement: B. velezensis EB14 contains gene clusters for antimicrobial compound biosynthesis
     - statement: Produces iturin A, subtulene A, and fengycin cyclic lipopeptides
   - id: doi:10.1093/hr/uhae232
-    title: A small secreted protein serves as a plant-derived effector mediating symbiosis between Populus
-      and Laccaria bicolor
     findings:
     - statement: Identified plant-derived effector proteins regulating plant-fungal symbiosis
-  - id: doi:10.1093/hr/uhad087
-    title: CRISPR/Cas9-based gene activation and base editing in Populus
+  - id: doi:10.1093/hr/uhad085
     findings:
     - statement: Developed CRISPR tools for gene activation and editing in Populus trees
-  - id: doi:10.1016/j.copbio.2020.10.007
+  - id: doi:10.34133/2020/8051764
     title: Plant Biosystems Design Research Roadmap 1.0
     findings:
     - statement: Established research roadmap for plant biosystems design and ecosystem engineering
@@ -2085,8 +2412,6 @@ genomic_science_sfas:
     findings:
     - statement: Developed anti-CRISPR tools for tunable genome editing in plants
   - id: doi:10.1094/PHYTOFR-10-20-0023-R
-    title: Isolation and Characterization of Bacillus velezensis EB14 and Its Interactions with the Endophytic
-      Fungal Microbiome
     findings:
     - statement: B. velezensis EB14 shows strong antifungal activity against S. musiva
 - id: nmdc_sfas_brcs:llnl_secure_biosystems
@@ -2257,7 +2582,7 @@ environmental_system_science_sfas:
       soil ecosystem
     findings:
     - statement: Snowmelt drives seasonal pulses in viral activity linked to host population dynamics
-  - id: doi:10.1021/acs.est.4c01108
+  - id: doi:10.1021/acs.est.4c05109
     title: Seasonal Controls on Microbial Depolymerization and Oxidation of Organic Matter in Floodplain
       Soils
     findings:
@@ -2318,7 +2643,6 @@ environmental_system_science_sfas:
     findings:
     - statement: Synthesizes research on water dynamics across ecosystem types
   - id: doi:10.1029/2023WR036706
-    title: The Fragility of Bedform-Induced Hyporheic Zones
     findings:
     - statement: Subsurface water exchange dynamics vary with bedform morphology
 - id: nmdc_sfas_brcs:river_corridor
@@ -2442,8 +2766,6 @@ environmental_system_science_sfas:
     findings:
     - statement: Multiple drivers control methane cycling in tidal river floodplains
   - id: doi:10.1029/2023gl106220
-    title: Linkages between mineral element composition of soils and sediments with hyporheic zone dissolved
-      organic matter chemistry
     findings:
     - statement: Soil mineral composition linked to hyporheic zone DOM chemistry across CONUS
   - id: doi:10.1016/j.soilbio.2024.109364
@@ -2561,8 +2883,6 @@ environmental_system_science_sfas:
         title: Robust Mercury Methylation across Diverse Methanogenic Archaea
   key_publications:
   - id: doi:10.1038/s42003-020-1047-5
-    title: 'Structure determination of the HgcAB complex using metagenome sequence data: Insight into
-      the mechanism of mercury methylation'
   - id: doi:10.1016/j.scitotenv.2019.07.001
     title: Dissolved organic matter reduces the effectiveness of sorbents for mercury removal
   established: 2010
@@ -3221,6 +3541,403 @@ other_programs:
   - BACTERIAL_FUNGAL_INTERACTION_ASSAY
   - GROWTH_CURVES
   - COMPETITION_ASSAYS
+- id: nmdc_sfas_brcs:brave_plant_pathogen
+  name: Unlocking the Molecular Basis of Plant-Pathogen Interactions to Create Resilient Bioenergy Crops
+  acronym: PlantPath
+  program_type: BIOPREPAREDNESS_INITIATIVE
+  initiative_name: BRaVE
+  funding_period: 2023-2026
+  participating_offices:
+  - BER
+  - ASCR
+  lead_institution: Brookhaven National Laboratory
+  partner_institutions:
+  - Pacific Northwest National Laboratory
+  - Lawrence Berkeley National Laboratory
+  - Argonne National Laboratory
+  - University of Illinois, Urbana-Champaign
+  - Texas A&M University
+  - University of North Carolina, Chapel Hill
+  principal_investigators:
+  - name: Qun Liu
+    role: Principal Investigator
+    affiliation: Brookhaven National Laboratory
+  funding:
+    agency: DOE BER
+    program: Biopreparedness Research Virtual Environment (BRaVE)
+  websites:
+    doe_page: https://www.genomicscience.energy.gov/brave-awards23/
+  description: >
+    BRaVE project integrating systems biology, biomolecular characterization, and synthetic biology
+    with computation and AI/ML to understand plant-pathogen coevolution and develop disease-resistant
+    bioenergy crops. Uses ESMBind AI model to predict protein structure and function. Studies sorghum
+    interactions with Colletotrichum sublineola fungal pathogen and antifungal biocontrol bacteria.
+  scientific_questions:
+  - What virulence effector proteins interact with plant immune receptors?
+  - What molecular mechanisms underlie fungal pathogenicity in bioenergy crops?
+  - How can synthetic infections be used to study resistance and biocontrol?
+  - How do AI/ML approaches accelerate understanding of plant-pathogen interactions?
+  keywords:
+  - BIOSECURITY
+  - BIODEFENSE
+  - SORGHUM
+  - FUNGAL_PATHOGENS
+  - BIOENERGY_CROPS
+  - PLANT_MICROBE_INTERACTIONS
+  - MACHINE_LEARNING
+  - SYSTEMS_BIOLOGY
+  data_types:
+  - GENOMICS
+  - TRANSCRIPTOMICS
+  - PROTEOMICS
+  studies:
+  - name: Colletotrichum sublineola Genome and Transcriptome
+    pi: Qun Liu
+    description: >
+      Genome assembly and transcriptome of Colletotrichum sublineola CsGL1 to study anthracnose
+      disease in sorghum. Provides resources for understanding fungal pathogenicity.
+    organism: Colletotrichum sublineola
+    data_modalities:
+    - GENOMICS
+    - TRANSCRIPTOMICS
+    bioproject_ids:
+    - PRJNA659716
+    primary_reference_info:
+      reference:
+        id: doi:10.1094/MPMI-04-21-0094-A
+  - name: Sorghum-Colletotrichum Dual RNA-seq
+    description: >
+      Dual-RNA-sequencing to elucidate the interactions between sorghum and Colletotrichum
+      sublineola during infection.
+    organism: Sorghum bicolor
+    data_modalities:
+    - TRANSCRIPTOMICS
+    bioproject_ids:
+    - PRJNA961726
+    - PRJNA1114779
+    primary_reference_info:
+      reference:
+        id: doi:10.3389/ffunb.2024.1437344
+        title: Dual-RNA-sequencing to elucidate the interactions between sorghum and Colletotrichum sublineola
+- id: nmdc_sfas_brcs:brave_4d_epigenomics
+  name: Decoding Host-Pathogen Dynamics with 4D (Epi)Genomics
+  acronym: 4D-EpiGen
+  program_type: BIOPREPAREDNESS_INITIATIVE
+  initiative_name: BRaVE
+  funding_period: 2023-2026
+  participating_offices:
+  - BER
+  - ASCR
+  lead_institution: Los Alamos National Laboratory
+  partner_institutions:
+  - Brookhaven National Laboratory
+  - Oak Ridge National Laboratory
+  - University of Arizona
+  - Harvard University
+  principal_investigators:
+  - name: Shawn Starkenburg
+    role: Principal Investigator
+    affiliation: Los Alamos National Laboratory
+  funding:
+    agency: DOE BER
+    program: Biopreparedness Research Virtual Environment (BRaVE)
+  websites:
+    doe_page: https://www.genomicscience.energy.gov/brave-awards23/
+  description: >
+    BRaVE project developing methods to understand how hosts survive pathogenic attacks through
+    epigenetic mechanisms. Creates an exascale computational and explainable artificial intelligence
+    workflow to map genome and epigenome changes during infection. Integrates 3D genomic maps,
+    epigenetic modifications, and cryo-electron microscopy imaging to validate structure-function
+    relationships and enable predictive dynamic modeling of host-pathogen dynamics.
+  scientific_questions:
+  - How do epigenetic mechanisms help hosts survive pathogenic attacks?
+  - What genome structural changes are induced by viral pathogens?
+  - How can we characterize molecular signatures of infection in genomes and epigenomes?
+  - Can AI workflows enable predictive 4D modeling of host-pathogen dynamics?
+  keywords:
+  - BIOSECURITY
+  - BIODEFENSE
+  - SYSTEMS_BIOLOGY
+  - MACHINE_LEARNING
+  - VIROME
+  data_types:
+  - GENOMICS
+  - TRANSCRIPTOMICS
+  - IMAGING_DATA
+- id: nmdc_sfas_brcs:brave_pathogenesis_model
+  name: Enhancing Biopreparedness Through a Model System to Understand Molecular Mechanisms of Pathogenesis
+  acronym: CyanoPath
+  program_type: BIOPREPAREDNESS_INITIATIVE
+  initiative_name: BRaVE
+  funding_period: 2023-2026
+  participating_offices:
+  - BER
+  - ASCR
+  lead_institution: Pacific Northwest National Laboratory
+  partner_institutions:
+  - Oak Ridge National Laboratory
+  - Argonne National Laboratory
+  - University of Colorado Anschutz Medical Campus
+  - University of Illinois, Urbana-Champaign
+  - Washington State University
+  - University of Houston
+  - Texas Southern University
+  - Colorado Department of Public Health and Environment
+  principal_investigators:
+  - name: Margaret S. Cheung
+    role: Principal Investigator
+    affiliation: Pacific Northwest National Laboratory
+  funding:
+    agency: DOE BER
+    program: Biopreparedness Research Virtual Environment (BRaVE)
+  websites:
+    doe_page: https://www.genomicscience.energy.gov/brave-awards23/
+    main: https://www.pnnl.gov/projects/nw-brave
+  description: >
+    NW-BRaVE (Northwest BRaVE) project at PNNL developing a powerful and user-friendly platform
+    to elucidate the fundamental principles of how molecular interactions drive pathogen-host
+    relationships. Uses cyanobacteria (including Prochlorococcus marinus MED4) and their viral
+    parasites (cyanophages) as a model system. Integrates structural biology (cryo-ET), genomics,
+    proteomics, and multiomics measurements with machine learning to study pathogen adaptation
+    and coevolution across molecular and evolutionary scales. Key computational tools include
+    Lattice Microbes (spatiotemporal modeling), PTM-Psi (post-translational modification analysis),
+    and EcoKMER (data processing). Research thrusts span cryo-ET visualization of molecular
+    interactions, multiomics regulatory pathway mapping, spatiotemporal dynamics of
+    cyanobacteria-phage systems, and multimodal data integration for host-pathogen surveillance.
+  scientific_questions:
+  - What molecular complexes form during pathogen infection?
+  - How do regulatory changes occur during infection at the proteomics level?
+  - What evolutionary factors affect host-pathogen coevolution?
+  - How can we integrate multi-scale data for biosurveillance?
+  - How do redox-dependent post-translational modifications regulate the dark complex and carbon fixation?
+  keywords:
+  - BIOSECURITY
+  - BIODEFENSE
+  - MICROBIAL_ECOSYSTEMS
+  - VIROME
+  - PHAGE
+  - MACHINE_LEARNING
+  - CO_EVOLUTION
+  data_types:
+  - GENOMICS
+  - PROTEOMICS
+  - TRANSCRIPTOMICS
+  - IMAGING_DATA
+  - STRUCTURAL_BIOLOGY
+  studies:
+  - name: S. elongatus PCC 7942 Carbon Metabolism Proteomics
+    pi: Margaret S. Cheung
+    description: >
+      Proteomics analysis of Synechococcus elongatus PCC 7942 carbon metabolism under different
+      conditions. Part of BRaVE cyanobacteria-cyanophage model system research.
+    organism: Synechococcus elongatus PCC 7942
+    data_modalities:
+    - PROTEOMICS
+    brc_dataset_ids:
+    - pnnl:34080
+    source_reference:
+      url: https://data.pnnl.gov/group/nodes/dataset/34080
+      title: S. elongatus PCC 7942 Carbon Metabolism Proteomics (MC-DP2)
+      summary: PNNL DataHub proteomics dataset for cyanobacteria carbon metabolism study.
+  - name: S. elongatus PCC 7942 Circadian Control Proteomics
+    pi: Margaret S. Cheung
+    description: >
+      Proteomics analysis of circadian regulation in Synechococcus elongatus PCC 7942.
+      Supports understanding of how circadian rhythms affect cyanobacterial metabolism.
+    organism: Synechococcus elongatus PCC 7942
+    data_modalities:
+    - PROTEOMICS
+    brc_dataset_ids:
+    - pnnl:34085
+    source_reference:
+      url: https://data.pnnl.gov/group/nodes/dataset/34085
+      title: S. elongatus PCC 7942 Circadian Control Proteomics (MC-DP3)
+      summary: PNNL DataHub proteomics dataset for cyanobacteria circadian regulation study.
+  - name: Cyanophage P-HM2 AMG Metabolic Flux Analysis in MED4
+    pi: Margaret S. Cheung
+    description: >
+      Genome-scale metabolic model studying synergy and antagonism of cyanophage P-HM2
+      auxiliary metabolic gene (AMG) impacts in Prochlorococcus marinus MED4. Demonstrates
+      that 17 directly hijacked reactions substantially impact over 30% of metabolism including
+      carbon fixation, photosynthesis, and nucleotide synthesis. First integration of AMGs
+      and phage assembly into a genome-scale metabolic model.
+    organism: Prochlorococcus marinus MED4
+    data_modalities:
+    - GENOMICS
+    primary_reference_info:
+      reference:
+        id: doi:10.1101/2024.12.11.628001
+        title: >
+          Synergy and antagonism in a genome-scale model of metabolic hijacking by bacteriophage
+  - name: Systematic Scale-Up and Enhanced Purification of Cyanophage P-SSP7
+    pi: James E. Evans
+    description: >
+      Methodology for scaling P-SSP7 cyanophage production from lab volumes to 40-liter scale
+      with enhanced purification. Achieves phage titers exceeding 3e12 units/mL with recoverable
+      yields of 1e13 total infectious units and 60-fold reduction in cryo-EM data collection time
+      by increasing usable particles per field of view.
+    organism: Prochlorococcus marinus MED4
+    data_modalities:
+    - STRUCTURAL_BIOLOGY
+    primary_reference_info:
+      reference:
+        id: doi:10.64898/2026.01.03.697218
+        title: Systematic Scale-Up and Enhanced Purification of Marine Cyanophage P-SSP7
+  - name: S. elongatus PCC 7942 Redox Proteome Under Light Disturbance
+    pi: Margaret S. Cheung
+    description: >
+      Systems approach examining redox activities and conformational changes of proteins and
+      nucleic acid interactions in multi-layered protein-DNA regulatory networks under light
+      disturbance in Synechococcus elongatus PCC 7942. Identifies significant shifts in cysteine
+      redox states in regulatory proteins including transcription sigma factors and metabolic enzymes.
+    organism: Synechococcus elongatus PCC 7942
+    data_modalities:
+    - PROTEOMICS
+    - TRANSCRIPTOMICS
+    primary_reference_info:
+      reference:
+        id: doi:10.48550/arXiv.2410.09346
+        title: >
+          Transcriptome and Redox Proteome Reveal Temporal Scales of Carbon Metabolism Regulation
+          in Model Cyanobacteria Under Light Disturbance
+  - name: 4D Whole-Cell Model of Prochlorococcus marinus MED4
+    pi: Margaret S. Cheung
+    description: >
+      Spatiotemporal 4D (3D + time) whole-cell model of Prochlorococcus marinus MED4 representing
+      the spatial organization of enzymatic and molecular processes in central carbon metabolism
+      under light perturbation. Uses cryo-ET at 10 nm resolution as structural constraints.
+      Demonstrates that redox-dependent post-translational modifications regulate the structural
+      assembly of the "dark complex" (a protein megacomplex of Gap, CP12, and Prk), modulating
+      metabolic flux at a conserved regulatory node of the Calvin-Benson cycle. Built using the
+      Lattice Microbes platform. First spatiotemporal simulation of a photosynthetic autotroph.
+    organism: Prochlorococcus marinus MED4
+    data_modalities:
+    - IMAGING_DATA
+    - PROTEOMICS
+    - STRUCTURAL_BIOLOGY
+    primary_reference_info:
+      reference:
+        id: doi:10.64898/2026.01.21.700212
+        title: >
+          Spatiotemporal 4D Whole-cell Modeling of a Minimal Autotroph Reveals Central Carbon
+          Metabolism Regulated Locally by Protein Megacomplexes via Post-translational Modifications
+          under Light Disturbance
+  datasets:
+  - name: Lattice Microbe Prochlorococcus Whole-Cell Model Integration Workflow
+    doi: 10.5281/zenodo.18025765
+    url: https://zenodo.org/records/18025765
+    repository: Zenodo
+    description: >
+      Computational workflow simulating the 4D intracellular environment of Prochlorococcus
+      marinus MED4 (CCMP1986). Includes cell boundary, thylakoid, ribosomes, DNA structures,
+      genome-scale metabolic network, spatially resolved transcription/translation/diffusion
+      for 15 key genes, and light-driven post-translational modification of CBC enzymes
+      controlling dark complex formation. PNNL-SA-219756.
+  - name: "GRIP-Tomo: GRaph Identification of Proteins in Tomograms"
+    doi: 10.5281/zenodo.17127842
+    url: https://zenodo.org/records/17127842
+    repository: Zenodo
+    description: >
+      Pipeline for identifying and classifying structures in cryo-ET tomography data using
+      global and local topological (network) features. Converts PDB structures and 3D density
+      data to graphs for feature-based classification. Used for cryo-ET analysis in NW-BRaVE.
+  key_publications:
+  - id: doi:10.1002/pro.4822
+    title: >
+      PTM-Psi: A python package to facilitate the computational investigation of
+      post-translational modification on protein structures and their impacts on
+      dynamics and functions
+- id: nmdc_sfas_brcs:brave_phage_foundry
+  name: "Phage Foundry: High-Throughput Platform for Rapid Design of Countermeasures Against Drug-Resistant Pathogens"
+  acronym: PhageFoundry
+  program_type: BIOPREPAREDNESS_INITIATIVE
+  initiative_name: BRaVE
+  funding_period: 2023-2026
+  participating_offices:
+  - BER
+  - ASCR
+  lead_institution: Lawrence Berkeley National Laboratory
+  partner_institutions:
+  - Sandia National Laboratories
+  - University of California, Berkeley
+  - San Francisco State University
+  - University of Chicago
+  - University of Texas Medical Branch
+  principal_investigators:
+  - name: Vivek Mutalik
+    role: Principal Investigator
+    affiliation: Lawrence Berkeley National Laboratory
+  funding:
+    agency: DOE BER
+    program: Biopreparedness Research Virtual Environment (BRaVE)
+  websites:
+    doe_page: https://www.genomicscience.energy.gov/brave-awards23/
+  description: >
+    BRaVE project developing an integrated platform combining multiscale characterization of
+    phage-host molecular interactions with high-throughput isolation, phage-host coevolution
+    studies, machine learning, and engineering design principles. Creates a comprehensive
+    knowledgebase for rapid development of bacteriophage therapeutics against antimicrobial-resistant
+    bacterial infections. Enables scalable approaches for emerging drug-resistant pathogens.
+  scientific_questions:
+  - How can we characterize phage-host interactions at multiple scales?
+  - What machine learning approaches can predict phage therapeutic effectiveness?
+  - How can we rapidly isolate and engineer phages against emerging pathogens?
+  - What are the principles of phage-host coevolution?
+  keywords:
+  - BIOSECURITY
+  - BIODEFENSE
+  - PHAGE
+  - VIROME
+  - MICROBIAL_ECOSYSTEMS
+  - MACHINE_LEARNING
+  - CO_EVOLUTION
+  - SYNTHETIC_BIOLOGY
+  data_types:
+  - GENOMICS
+  - PROTEOMICS
+  - METAGENOMICS
+  studies:
+  - name: E. coli Phage Resistance Landscape
+    pi: Vivek Mutalik
+    description: >
+      High-throughput mapping of the phage resistance landscape in E. coli using gain-of-function,
+      loss-of-function, and gene deletion libraries. Generates datasets for predictive models of
+      phage-mediated selection on bacterial phenotype and evolution.
+    organism: Escherichia coli
+    data_modalities:
+    - GENOMICS
+    bioproject_ids:
+    - PRJNA645443
+    sample_count: 357
+    primary_reference_info:
+      reference:
+        id: doi:10.1371/journal.pbio.3000877
+        title: High-throughput mapping of the phage resistance landscape in E. coli
+  - name: Geochemical Constraints on Phage Infectivity
+    pi: Vivek Mutalik
+    description: >
+      Investigation of how geochemical conditions constrain bacteriophage infectivity.
+      Part of phage-host interaction research informing phage therapy development.
+    data_modalities:
+    - GENOMICS
+    bioproject_ids:
+    - PRJNA576510
+    primary_reference_info:
+      reference:
+        id: doi:10.1038/s43705-023-00297-7
+  - name: Corynebacterial Cell Envelope and Phage Resistance
+    pi: Vivek Mutalik
+    description: >
+      Study of corynebacterial cell envelope components and their role in phage resistance.
+      Extends phage resistance mapping to Gram-positive bacteria with complex cell envelopes.
+    organism: Corynebacterium glutamicum
+    data_modalities:
+    - GENOMICS
+    bioproject_ids:
+    - PRJNA834153
+    primary_reference_info:
+      reference:
+        id: doi:10.7554/eLife.79981
 - id: nmdc_sfas_brcs:monet
   name: Molecular Observation Network
   acronym: MONet

@@ -49,3 +49,7 @@ fetch-brc-datasets-center CENTER:
 # Generate interactive association chord diagrams (keyword-keyword, datatype-datatype, keyword-datatype)
 gen-associations:
   uv run python scripts/generate_association_viz.py
+
+
+sync:
+  scp docs/browser.html cmungall@perlmutter.nersc.gov:/global/cfs/cdirs/m3408/www/nmdc-sfas-brcs/

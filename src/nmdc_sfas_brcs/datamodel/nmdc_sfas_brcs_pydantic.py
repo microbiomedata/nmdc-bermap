@@ -96,6 +96,8 @@ linkml_meta = LinkMLMeta({'default_prefix': 'nmdc_sfas_brcs',
                                 'prefix_reference': 'http://purl.obolibrary.org/obo/NCBITaxon_'},
                   'OBI': {'prefix_prefix': 'OBI',
                           'prefix_reference': 'http://purl.obolibrary.org/obo/OBI_'},
+                  'communitymech': {'prefix_prefix': 'communitymech',
+                                    'prefix_reference': 'https://w3id.org/communitymech/'},
                   'dcterms': {'prefix_prefix': 'dcterms',
                               'prefix_reference': 'http://purl.org/dc/terms/'},
                   'doi': {'prefix_prefix': 'doi',
@@ -2700,6 +2702,7 @@ class NMDCStudyReference(ConfiguredBaseModel):
                        'NMDCStudyReference',
                        'Analysis']} })
     source_reference: Optional[WebReference] = Field(default=None, description="""Web reference documenting this study (project page, news article, etc.) for studies without a primary DOI publication.""", json_schema_extra = { "linkml_meta": {'domain_of': ['NMDCStudyReference']} })
+    synthetic_communities: Optional[list[str]] = Field(default=[], description="""CURIEs referencing synthetic community (SynCom) entries in the CommunityMech knowledge base that are associated with this study.""", json_schema_extra = { "linkml_meta": {'domain_of': ['NMDCStudyReference']} })
 
     @field_validator('nmdc_study_id')
     def pattern_nmdc_study_id(cls, v):

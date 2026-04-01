@@ -1,5 +1,5 @@
 # Auto generated from nmdc_sfas_brcs.yaml by pythongen.py version: 0.0.1
-# Generation date: 2026-01-21T12:40:35
+# Generation date: 2026-03-03T11:28:54
 # Schema: nmdc-sfas-brcs
 #
 # id: https://w3id.org/nmdc/sfas-brcs
@@ -68,6 +68,7 @@ version = None
 IAO = CurieNamespace('IAO', 'http://purl.obolibrary.org/obo/IAO_')
 NCBITAXON = CurieNamespace('NCBITaxon', 'http://purl.obolibrary.org/obo/NCBITaxon_')
 OBI = CurieNamespace('OBI', 'http://purl.obolibrary.org/obo/OBI_')
+COMMUNITYMECH = CurieNamespace('communitymech', 'https://w3id.org/communitymech/')
 DCTERMS = CurieNamespace('dcterms', 'http://purl.org/dc/terms/')
 DOI = CurieNamespace('doi', 'https://doi.org/')
 LINKML = CurieNamespace('linkml', 'https://w3id.org/linkml/')
@@ -1316,6 +1317,7 @@ class NMDCStudyReference(YAMLRoot):
     ncbi_data_quality_notes: Optional[str] = None
     primary_reference_info: Optional[Union[dict, PrimaryReferenceInfo]] = None
     source_reference: Optional[Union[dict, WebReference]] = None
+    synthetic_communities: Optional[Union[Union[str, URIorCURIE], list[Union[str, URIorCURIE]]]] = empty_list()
 
     def __post_init__(self, *_: str, **kwargs: Any):
         if self.nmdc_study_id is not None and not isinstance(self.nmdc_study_id, URIorCURIE):
@@ -1382,6 +1384,10 @@ class NMDCStudyReference(YAMLRoot):
 
         if self.source_reference is not None and not isinstance(self.source_reference, WebReference):
             self.source_reference = WebReference(**as_dict(self.source_reference))
+
+        if not isinstance(self.synthetic_communities, list):
+            self.synthetic_communities = [self.synthetic_communities] if self.synthetic_communities is not None else []
+        self.synthetic_communities = [v if isinstance(v, URIorCURIE) else URIorCURIE(v) for v in self.synthetic_communities]
 
         super().__post_init__(**kwargs)
 
@@ -3517,6 +3523,9 @@ slots.nMDCStudyReference__primary_reference_info = Slot(uri=NMDC_SFAS_BRCS.prima
 
 slots.nMDCStudyReference__source_reference = Slot(uri=NMDC_SFAS_BRCS.source_reference, name="nMDCStudyReference__source_reference", curie=NMDC_SFAS_BRCS.curie('source_reference'),
                    model_uri=NMDC_SFAS_BRCS.nMDCStudyReference__source_reference, domain=None, range=Optional[Union[dict, WebReference]])
+
+slots.nMDCStudyReference__synthetic_communities = Slot(uri=NMDC_SFAS_BRCS.synthetic_communities, name="nMDCStudyReference__synthetic_communities", curie=NMDC_SFAS_BRCS.curie('synthetic_communities'),
+                   model_uri=NMDC_SFAS_BRCS.nMDCStudyReference__synthetic_communities, domain=None, range=Optional[Union[Union[str, URIorCURIE], list[Union[str, URIorCURIE]]]])
 
 slots.analysis__analysis_type = Slot(uri=NMDC_SFAS_BRCS.analysis_type, name="analysis__analysis_type", curie=NMDC_SFAS_BRCS.curie('analysis_type'),
                    model_uri=NMDC_SFAS_BRCS.analysis__analysis_type, domain=None, range=Optional[Union[str, "AnalysisType"]])

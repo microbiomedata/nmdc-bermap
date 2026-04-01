@@ -1999,11 +1999,12 @@ wheels = [
 
 [[package]]
 name = "linkml-reference-validator"
-version = "0.1.3"
+version = "0.1.6"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "beautifulsoup4" },
     { name = "biopython" },
+    { name = "jsonpath-ng" },
     { name = "linkml-runtime" },
     { name = "lxml" },
     { name = "pydantic" },
@@ -2012,9 +2013,9 @@ dependencies = [
     { name = "ruamel-yaml" },
     { name = "typer" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/6a/c4/ac3b93d061734d0577168a5dbd97eca8bfc266679ff144a28fefd8b4dc38/linkml_reference_validator-0.1.3.tar.gz", hash = "sha256:2d988f2384f43d693f40c8b33a67cba0306cbdec0fa1b799bfe16f5f8ae21e18", size = 368491 }
+sdist = { url = "https://files.pythonhosted.org/packages/d7/78/88c2449abe4025754b866d30dd57d49ddc5b0d0fb2eed649edd75c5c81d6/linkml_reference_validator-0.1.6.tar.gz", hash = "sha256:32867267b8d254c887137b0389d55a9e861da9fc46c8965688842f36ba325f88", size = 466674 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/fa/68/ec3f4d6ffd96461a1da041673df78c2ed7f2a73459a70bd55bb1764c7a71/linkml_reference_validator-0.1.3-py3-none-any.whl", hash = "sha256:0b7048cf8d0bf3c8d82277181a3d8cebd6c494ecd0a9836353e4b46b78699629", size = 56563 },
+    { url = "https://files.pythonhosted.org/packages/14/93/4f4eafe2e47316266b56b588c5651c46f38785aed77ae817ec9ffbb8c3cf/linkml_reference_validator-0.1.6-py3-none-any.whl", hash = "sha256:8c2517b1b09768c5feaf0758f4689c30f66f95bbf850f6312cc54b9036d83aa0", size = 90356 },
 ]
 
 [[package]]
@@ -2701,7 +2702,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "biopython", specifier = ">=1.84" },
-    { name = "linkml-reference-validator" },
+    { name = "linkml-reference-validator", specifier = ">=0.1.6" },
     { name = "linkml-runtime", specifier = ">=1.9.4" },
     { name = "linkml-store", specifier = ">=0.2.4" },
     { name = "matplotlib", specifier = ">=3.9.4" },

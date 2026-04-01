@@ -25,6 +25,7 @@ prefixes:
   IAO: http://purl.obolibrary.org/obo/IAO_
   OBI: http://purl.obolibrary.org/obo/OBI_
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  communitymech: https://w3id.org/communitymech/
 
 default_prefix: nmdc_sfas_brcs
 default_range: string
@@ -702,6 +703,12 @@ classes:
           for studies without a primary DOI publication.
         range: WebReference
         inlined: true
+      synthetic_communities:
+        description: >-
+          CURIEs referencing synthetic community (SynCom) entries in the
+          CommunityMech knowledge base that are associated with this study.
+        range: uriorcurie
+        multivalued: true
 
   # ---------------------------------------------------------------------------
   # Supporting Classes - Analysis and KBase

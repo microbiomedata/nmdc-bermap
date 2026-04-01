@@ -16,7 +16,7 @@ dynamic = ["version"]
 
 dependencies = [
   "biopython>=1.84",
-  "linkml-reference-validator",
+  "linkml-reference-validator>=0.1.6",
   "linkml-runtime >=1.9.4",
   "linkml-store>=0.2.4",
   "matplotlib>=3.9.4",
