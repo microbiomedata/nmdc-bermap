@@ -17,6 +17,7 @@ prefixes:
   linkml: https://w3id.org/linkml/
   schema: http://schema.org/
   dcterms: http://purl.org/dc/terms/
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
   orcid: https://orcid.org/
   ror: https://ror.org/
   doi: https://doi.org/
@@ -24,7 +25,11 @@ prefixes:
   obo: http://purl.obolibrary.org/obo/
   IAO: http://purl.obolibrary.org/obo/IAO_
   OBI: http://purl.obolibrary.org/obo/OBI_
+  STATO: http://purl.obolibrary.org/obo/STATO_
+  EFO: http://www.ebi.ac.uk/efo/EFO_
   NCBITaxon: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO: https://w3id.org/bervo/BERVO_
+  MIXS: https://w3id.org/mixs/
   communitymech: https://w3id.org/communitymech/
 
 default_prefix: nmdc_sfas_brcs
@@ -77,6 +82,20 @@ classes:
         range: OtherProgram
         multivalued: true
         inlined_as_list: true
+      ai_projects:
+        description: >-
+          DOE artificial intelligence pilot projects and related AI-enabled
+          science initiatives, including BER/ASCR-supported projects.
+        range: ArtificialIntelligenceProject
+        multivalued: true
+        inlined_as_list: true
+      sites:
+        description: >-
+          Canonical collection of field sites referenced by programs and
+          studies. Sites are modeled once here and linked by identifier.
+        range: FieldSite
+        multivalued: true
+        inlined_as_list: true
       metadata:
         description: Metadata about this collection
         range: CollectionMetadata
@@ -124,6 +143,8 @@ classes:
     slots:
       - acronym
       - program_type
+      - start_date
+      - end_date
       - lead_institution
       - partner_institutions
       - principal_investigators
@@ -141,8 +162,8 @@ classes:
       - analyses
       - kbase_genome_collection
       - datasets
+      - field_site_ids
       - key_publications
-      - field_sites
       - established
       - collaborators
       - isolate_collections
@@ -200,6 +221,17 @@ classes:
       program_type:
         ifabsent: "string(OTHER_INITIATIVE)"
 
+  ArtificialIntelligenceProject:
+    description: >-
+      A DOE artificial intelligence project or pilot initiative using AI/ML,
+      agentic systems, data lakehouses, autonomous laboratories, or related
+      computational methods to advance BER-relevant biological and environmental
+      science.
+    is_a: OtherProgram
+    slot_usage:
+      program_type:
+        ifabsent: "string(AI_PILOT_PROJECT)"
+
   UserFacility:
     description: >-
       A DOE BER User Facility providing resources and capabilities to the
@@ -208,6 +240,8 @@ classes:
     slots:
       - acronym
       - program_type
+      - start_date
+      - end_date
       - lead_institution
       - lead_institutions
       - funding
@@ -319,6 +353,9 @@ classes:
       doe_page:
         description: DOE program page URL
         range: uri
+      award_list:
+        description: DOE award list, funding announcement, or award summary URL
+        range: uri
       ornl_page:
         description: ORNL project page URL
         range: uri
@@ -411,6 +448,7 @@ classes:
       - additional_references
       - interaction_types
       - interaction_modes
+      - variables
     attributes:
       primary_reference_info:
         description: >-
@@ -418,6 +456,134 @@ classes:
           Preferred over primary_reference slot - enables title and excerpt validation.
         range: PrimaryReferenceInfo
         inlined: true
+
+  Variable:
+    description: >-
+      A variable, factor, measurement, or metadata field observed, manipulated,
+      derived, or otherwise used in a study or dataset. Variables act as a
+      lightweight data dictionary and can be tagged with analytical roles,
+      time-series behavior, units, methods, and ontology mappings such as BERVO.
+      Ontology references are modeled as id/label objects so linkml-term-validator
+      can check both the identifier and the canonical label.
+    class_uri: schema:PropertyValue
+    slots:
+      - name
+      - description
+    slot_usage:
+      name:
+        description: Human-readable variable name or label used in the study or dataset
+        required: true
+    attributes:
+      roles:
+        description: >-
+          Roles this variable plays in the study design or analysis. Multiple
+          roles are allowed; for example, drought treatment may be both
+          EXPERIMENTAL_FACTOR and STUDY_DESIGN_INDEPENDENT_VARIABLE.
+        range: VariableRole
+        multivalued: true
+      value_type:
+        description: Basic type or shape of values recorded for this variable
+        range: VariableValueType
+      units:
+        description: Human-readable units for quantitative variables
+        range: string
+      unit_term:
+        description: Unit ontology term, if available
+        range: OntologyTerm
+        inlined: true
+      bervo_term:
+        description: Primary BERVO class mapping for this variable, when available
+        range: BERVOTerm
+        inlined: true
+      mixs_terms:
+        description: >-
+          MIxS metadata terms corresponding to this variable, when the variable
+          represents a MIxS sample, environmental, host, or sequencing metadata field.
+        range: MIXSTerm
+        multivalued: true
+        inlined_as_list: true
+        bindings:
+          - binds_value_of: id
+            range: MIXSVariableTerm
+            obligation_level: RECOMMENDED
+      ontology_mappings:
+        description: >-
+          Additional ontology mappings for this variable, including ENVO, PATO,
+          UO, OBI, or other relevant controlled vocabularies. Statistical or
+          study-design roles should generally be represented in the roles slot
+          rather than repeated here.
+        range: OntologyTerm
+        multivalued: true
+        inlined_as_list: true
+      measured_entity:
+        description: >-
+          Entity, organism, environmental feature, process, or system being
+          measured or manipulated by this variable.
+        range: string
+      material_or_matrix:
+        description: >-
+          Material, sample matrix, compartment, or context for the variable
+          (e.g., soil, rhizosphere, leaf tissue, porewater, bioreactor culture).
+        range: string
+      method:
+        description: Measurement, manipulation, or derivation method
+        range: string
+      time_series:
+        description: True when values for this variable are captured repeatedly through time
+        range: boolean
+      temporal_resolution:
+        description: Temporal grain or sampling interval for time-series variables
+        range: string
+      spatial_resolution:
+        description: Spatial grain, support, or resolution for spatial variables
+        range: string
+      levels:
+        description: >-
+          Known categorical levels, treatment levels, bins, or allowed values
+          for this variable.
+        range: string
+        multivalued: true
+      source_field_names:
+        description: Column names, file field names, or source labels that map to this variable
+        range: string
+        multivalued: true
+      notes:
+        description: Additional notes about the variable definition or usage
+        range: string
+
+  OntologyTerm:
+    description: >-
+      A reference to an ontology term, represented as an identifier plus the
+      term label expected from the source ontology. The label field is marked
+      as rdfs:label for linkml-term-validator label checks.
+    attributes:
+      id:
+        description: CURIE or URI for the ontology term
+        range: uriorcurie
+        identifier: true
+        required: true
+      label:
+        description: Human-readable ontology term label
+        range: string
+        required: true
+        implements:
+          - rdfs:label
+
+  BERVOTerm:
+    description: A BERVO ontology term represented with an identifier and label
+    is_a: OntologyTerm
+    slot_usage:
+      id:
+        description: BERVO CURIE for the ontology term
+        pattern: "^BERVO:\\d+$"
+
+  MIXSTerm:
+    description: A MIxS metadata term represented with an identifier and label
+    is_a: OntologyTerm
+    slot_usage:
+      id:
+        description: MIxS CURIE for the metadata term
+        pattern: "^MIXS:\\d{7}$"
 
   Reference:
     description: >-
@@ -551,9 +717,15 @@ classes:
 
   FieldSite:
     description: A field research site associated with a research program
-    slots:
-      - name
-      - description
+    is_a: NamedThing
+    class_uri: schema:Place
+    slot_usage:
+      id:
+        description: A unique identifier for the field site
+        required: true
+      name:
+        description: The canonical name of the field site
+        required: true
     attributes:
       location:
         description: Geographic location of the field site
@@ -619,6 +791,51 @@ classes:
           the source provides before clicking.
         range: string
 
+  StudyDesign:
+    description: >-
+      Study-level design metadata that applies across variables and datasets.
+      This captures the design pattern, experimental or observational units,
+      replication, blocking, randomization, and related notes separately from
+      the data dictionary entries for individual variables.
+    slots:
+      - description
+    attributes:
+      design_types:
+        description: OBI or related ontology terms describing the study design
+        range: OntologyTerm
+        multivalued: true
+        inlined_as_list: true
+        bindings:
+          - binds_value_of: id
+            range: StudyDesignTerm
+            obligation_level: RECOMMENDED
+      experimental_units:
+        description: Units assigned to treatments or interventions
+        range: string
+        multivalued: true
+      observational_units:
+        description: Units on which measurements are made
+        range: string
+        multivalued: true
+      sampling_strategy:
+        description: Sampling strategy or sampling design used by the study
+        range: string
+      replication:
+        description: Description of biological, technical, field, or model replication
+        range: string
+      randomization:
+        description: Description of randomization, if used
+        range: string
+      blocking:
+        description: Description of blocking or stratification, if used
+        range: string
+      controls:
+        description: Description of control groups, baselines, or reference conditions
+        range: string
+      notes:
+        description: Additional notes about the study design
+        range: string
+
   NMDCStudyReference:
     description: >-
       A reference to an NMDC study associated with a research program.
@@ -631,6 +848,9 @@ classes:
       - description
       - primary_reference
       - keywords
+      - field_site_ids
+      - study_design
+      - variables
     attributes:
       pi:
         description: Principal investigator name for this study
@@ -1222,6 +1442,26 @@ slots:
     multivalued: true
     inlined_as_list: true
 
+  field_site_ids:
+    description: >-
+      Identifiers of canonical field sites associated with the program or
+      study. These reference entries in the top-level sites collection.
+    range: uriorcurie
+    multivalued: true
+
+  study_design:
+    description: Study design metadata associated with a study
+    range: StudyDesign
+    inlined: true
+
+  variables:
+    description: >-
+      Variables, factors, measurements, or data fields catalogued for a study
+      or dataset.
+    range: Variable
+    multivalued: true
+    inlined_as_list: true
+
   key_publications:
     description: Key publications from the program with their findings
     range: Reference
@@ -1231,12 +1471,6 @@ slots:
   outputs:
     description: Summary of program outputs
     range: ProgramOutputs
-
-  field_sites:
-    description: Field research sites associated with the program
-    range: FieldSite
-    multivalued: true
-    inlined_as_list: true
 
   technologies_developed:
     description: Technologies or tools developed by the program
@@ -1320,6 +1554,19 @@ slots:
     description: Year the program was established
     range: integer
 
+  start_date:
+    description: >-
+      Date or year when the program started. Prefer ISO 8601 dates when known;
+      use a year-only value when the exact date is not known.
+    range: string
+
+  end_date:
+    description: >-
+      Date or year when the program ended. Leave empty for ongoing programs.
+      Prefer ISO 8601 dates when known; use a year-only value when the exact
+      date is not known.
+    range: string
+
   predecessor:
     description: Predecessor program that this program builds upon
     range: string
@@ -1353,6 +1600,14 @@ enums:
           A biopreparedness research initiative such as BRaVE (Biopreparedness
           Research Virtual Environment) - typically cross-cutting, time-limited
           projects spanning multiple DOE offices
+      AI_PILOT_PROJECT:
+        description: >-
+          Artificial intelligence pilot project or AI-enabled science initiative,
+          typically cross-cutting and often involving BER and ASCR.
+      FIELD_CAMPAIGN:
+        description: >-
+          Time-limited coordinated field campaign, often associated with an SFA
+          or other BER program, producing campaign-specific observations and datasets.
       OTHER_INITIATIVE:
         description: >-
           Other research initiatives that don't fit traditional categories
@@ -1601,6 +1856,167 @@ enums:
         description: Bacterial-fungal co-culture experiments
       SEQUENCE_ENRICHMENT:
         description: Sequence-based enrichment techniques for detecting endosymbionts
+
+  VariableRole:
+    description: >-
+      Roles that a variable can play in a study design, dataset, or analysis.
+      Where possible, roles are aligned to OBI, STATO, or EFO terms. Use the
+      narrower study-design roles when the variable's role is known from the
+      experimental design; use MEASURED_VARIABLE for observed data fields when
+      no dependent/independent interpretation is intended.
+    permissible_values:
+      STUDY_DESIGN_INDEPENDENT_VARIABLE:
+        title: study design independent variable
+        meaning: OBI:0000750
+        aliases:
+          - independent variable
+          - predictor variable
+          - explanatory variable
+        description: >-
+          Study design variable that is varied, selected, or otherwise used to
+          explain or predict changes in another variable.
+      STUDY_DESIGN_DEPENDENT_VARIABLE:
+        title: study design dependent variable
+        meaning: OBI:0000751
+        aliases:
+          - dependent variable
+          - response variable
+          - outcome variable
+        description: Study design variable whose value is expected to vary as a result of other variables.
+      STUDY_DESIGN_CONTROLLED_VARIABLE:
+        title: study design controlled variable
+        meaning: OBI:0000785
+        aliases:
+          - controlled variable
+          - control variable
+        description: Study design variable held constant or constrained by the study design.
+      EXPERIMENTAL_FACTOR:
+        title: experimental factor
+        meaning: EFO:0000001
+        description: Variable representing an experimental factor or condition.
+      BLOCKING_VARIABLE:
+        title: blocking variable
+        meaning: STATO:0000248
+        description: Variable used to form blocks or strata in a study design or analysis.
+      MEASURED_VARIABLE:
+        description: Directly observed or measured variable.
+      COVARIATE:
+        description: Additional contextual or adjustment variable included in an analysis.
+      DERIVED:
+        description: Variable computed, transformed, or inferred from other variables
+      DATE_TIME_VARIABLE:
+        title: date Time variable
+        meaning: STATO:0000729
+        aliases:
+          - time variable
+          - date time variable
+        description: Variable whose values represent dates or times.
+      TIME_TO_EVENT_VARIABLE:
+        title: time-to-event variable
+        meaning: STATO:0000731
+        description: Variable whose values represent elapsed time until an event.
+      SPATIAL_INDEX:
+        description: Location, plot, coordinate, depth, transect, or other spatial index
+      GROUPING:
+        description: Replicate group, block, batch, genotype group, or other grouping variable
+      IDENTIFIER:
+        description: Sample, subject, feature, file, or other identifier field
+      QUALITY_CONTROL:
+        description: Quality flag, censoring flag, uncertainty estimate, or QC metric
+
+  VariableValueType:
+    description: Basic value shape for variables
+    permissible_values:
+      NUMERIC:
+        description: Numeric value that may include decimals
+      INTEGER:
+        description: Integer count or whole-number value
+      CATEGORICAL:
+        description: Value drawn from a finite set of categories or levels
+      BOOLEAN:
+        description: True/false value
+      DATETIME:
+        description: Date, time, or timestamp value
+      TEXT:
+        description: Free-text string value
+      IDENTIFIER:
+        description: Identifier or accession value
+      ONTOLOGY_TERM:
+        description: Ontology CURIE, URI, or controlled vocabulary term
+      ARRAY:
+        description: Ordered list, vector, spectrum, profile, or other repeated values
+      OBJECT:
+        description: Structured object or nested record
+
+  StudyDesignTerm:
+    description: OBI study design terms
+    reachable_from:
+      source_ontology: sqlite:obo:obi
+      source_nodes:
+        - OBI:0500000
+      relationship_types:
+        - rdfs:subClassOf
+      include_self: true
+
+  MIXSVariableTerm:
+    description: >-
+      MIxS terms commonly useful when mapping catalogued study or dataset
+      variables to sample, host, environment, and sequencing metadata fields.
+    permissible_values:
+      EXPERIMENTAL_FACTOR:
+        title: experimental factor
+        meaning: MIXS:0000008
+      COLLECTION_DATE:
+        title: collection date
+        meaning: MIXS:0000011
+      ENV_BROAD_SCALE:
+        title: broad-scale environmental context
+        meaning: MIXS:0000012
+      ENV_LOCAL_SCALE:
+        title: local environmental context
+        meaning: MIXS:0000013
+      ENV_MEDIUM:
+        title: environmental medium
+        meaning: MIXS:0000014
+      DEPTH:
+        title: depth
+        meaning: MIXS:0000018
+      WATER_CONTENT:
+        title: water content
+        meaning: MIXS:0000185
+      HOST_COMMON_NAME:
+        title: host common name
+        meaning: MIXS:0000248
+      HOST_TAXID:
+        title: host taxid
+        meaning: MIXS:0000250
+      HOST_GENOTYPE:
+        title: host genotype
+        meaning: MIXS:0000365
+      FERTILIZER_REGIMEN:
+        title: fertilizer regimen
+        meaning: MIXS:0000556
+      WATERING_REGIMEN:
+        title: watering regimen
+        meaning: MIXS:0000591
+      CHEMICAL_ADMINISTRATION:
+        title: chemical administration
+        meaning: MIXS:0000751
+      PERTURBATION:
+        title: perturbation
+        meaning: MIXS:0000754
+      SEASON:
+        title: season
+        meaning: MIXS:0000829
+      PLANT_GROWTH_MEDIUM:
+        title: plant growth medium
+        meaning: MIXS:0001057
+      SAMPLE_NAME:
+        title: sample name
+        meaning: MIXS:0001107
+      SOIL_TEMPERATURE:
+        title: soil temperature
+        meaning: MIXS:0001163
 
   Keyword:
     description: Keywords describing research focus areas with hierarchical organization

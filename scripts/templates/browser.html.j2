@@ -4,6 +4,7 @@
 
 {% extends 'base.html.j2' %}
 {% from 'program.html.j2' import render_program %}
+{% from 'sections.html.j2' import field_site_item %}
 
 {% block content %}
 
@@ -55,6 +56,18 @@
 </details>
 {% endif %}
 
+{# DOE AI Projects #}
+{% if ai_projects %}
+<details class="category ai-projects" open>
+    <summary>DOE AI Projects ({{ ai_projects | length }})</summary>
+    <div class="category-content">
+    {% for project in ai_projects %}
+        {{ render_program(project, 'ai-project') }}
+    {% endfor %}
+    </div>
+</details>
+{% endif %}
+
 {# Other Programs (BRaVE, etc.) #}
 {% if other_programs %}
 <details class="category other-programs" open>
@@ -62,6 +75,18 @@
     <div class="category-content">
     {% for program in other_programs %}
         {{ render_program(program, 'other') }}
+    {% endfor %}
+    </div>
+</details>
+{% endif %}
+
+{# Canonical Field Sites #}
+{% if sites %}
+<details class="category sites">
+    <summary>Field Sites ({{ sites | length }})</summary>
+    <div class="category-content">
+    {% for site in sites %}
+        {{ field_site_item(site) }}
     {% endfor %}
     </div>
 </details>

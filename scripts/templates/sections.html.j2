@@ -4,7 +4,148 @@
 
 {% from 'macros.html.j2' import doi_link, nmdc_link, url_link, chip_list,
     keywords, data_types, modalities, field, priority_badge, status_badge,
-    person_card, pride_link, massive_link %}
+    person_card, pride_link, massive_link, ontology_term_link %}
+
+{# ---- Variable / Study Design Helpers ---- #}
+{% macro study_design_panel(design) %}
+{% if design %}
+<details class="subsection study-design" open>
+    <summary>Study Design</summary>
+    <div class="subsection-content">
+        {% if design.description %}
+        <p class="compact-description">{{ design.description }}</p>
+        {% endif %}
+        {% if design.design_types %}
+        <div class="field">
+            <span class="field-label">Design type:</span>
+            <span class="field-value">
+            {% for term in design.design_types %}
+                {{ ontology_term_link(term) }}{% if not loop.last %}, {% endif %}
+            {% endfor %}
+            </span>
+        </div>
+        {% endif %}
+        {{ field('Experimental units', design.experimental_units) }}
+        {{ field('Observational units', design.observational_units) }}
+        {{ field('Sampling strategy', design.sampling_strategy) }}
+        {{ field('Replication', design.replication) }}
+        {{ field('Randomization', design.randomization) }}
+        {{ field('Blocking', design.blocking) }}
+        {{ field('Controls', design.controls) }}
+        {{ field('Notes', design.notes) }}
+    </div>
+</details>
+{% endif %}
+{% endmacro %}
+
+{% macro variable_roles(roles) %}
+{% if roles %}
+<div class="chip-list">
+{% for role in roles %}
+    <span class="chip variable-role">{{ role | replace('_', ' ') | title }}</span>
+{% endfor %}
+</div>
+{% endif %}
+{% endmacro %}
+
+{% macro variable_ontology_terms(variable) %}
+{% if variable.bervo_term or variable.mixs_terms or variable.unit_term or variable.ontology_mappings %}
+<div class="ontology-list">
+    {% if variable.bervo_term %}
+    <div><span class="mini-label">BERVO</span> {{ ontology_term_link(variable.bervo_term) }}</div>
+    {% endif %}
+    {% if variable.mixs_terms %}
+    {% for term in variable.mixs_terms %}
+    <div><span class="mini-label">MIxS</span> {{ ontology_term_link(term) }}</div>
+    {% endfor %}
+    {% endif %}
+    {% if variable.unit_term %}
+    <div><span class="mini-label">Unit</span> {{ ontology_term_link(variable.unit_term) }}</div>
+    {% endif %}
+    {% if variable.ontology_mappings %}
+    {% for term in variable.ontology_mappings %}
+    <div><span class="mini-label">Map</span> {{ ontology_term_link(term) }}</div>
+    {% endfor %}
+    {% endif %}
+</div>
+{% endif %}
+{% endmacro %}
+
+{% macro variables_section(variables, title='Variables') %}
+{% if variables %}
+<details class="subsection variables-section" open>
+    <summary>
+        {{ title }}
+        <span class="section-count">{{ variables | length }}</span>
+    </summary>
+    <div class="variable-table-wrap">
+        <table class="variables-table">
+            <thead>
+                <tr>
+                    <th>Variable</th>
+                    <th>Roles</th>
+                    <th>Value</th>
+                    <th>Context</th>
+                    <th>Mappings</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for variable in variables %}
+                <tr>
+                    <td>
+                        <div class="variable-name">{{ variable.name }}</div>
+                        {% if variable.description %}
+                        <div class="variable-description">{{ variable.description }}</div>
+                        {% endif %}
+                    </td>
+                    <td>
+                        {{ variable_roles(variable.roles) }}
+                    </td>
+                    <td>
+                        {% if variable.value_type %}
+                        <span class="chip value-type">{{ variable.value_type | replace('_', ' ') | title }}</span>
+                        {% endif %}
+                        {% if variable.units %}
+                        <div class="variable-meta"><span class="mini-label">Units</span> {{ variable.units }}</div>
+                        {% endif %}
+                        {% if variable.levels %}
+                        <div class="variable-meta"><span class="mini-label">Levels</span> {{ variable.levels | join(', ') }}</div>
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if variable.measured_entity %}
+                        <div class="variable-meta"><span class="mini-label">Entity</span> {{ variable.measured_entity }}</div>
+                        {% endif %}
+                        {% if variable.material_or_matrix %}
+                        <div class="variable-meta"><span class="mini-label">Matrix</span> {{ variable.material_or_matrix }}</div>
+                        {% endif %}
+                        {% if variable.method %}
+                        <div class="variable-meta"><span class="mini-label">Method</span> {{ variable.method }}</div>
+                        {% endif %}
+                        {% if variable.time_series %}
+                        <div class="variable-meta"><span class="mini-label">Time series</span> yes{% if variable.temporal_resolution %}; {{ variable.temporal_resolution }}{% endif %}</div>
+                        {% elif variable.temporal_resolution %}
+                        <div class="variable-meta"><span class="mini-label">Temporal</span> {{ variable.temporal_resolution }}</div>
+                        {% endif %}
+                        {% if variable.spatial_resolution %}
+                        <div class="variable-meta"><span class="mini-label">Spatial</span> {{ variable.spatial_resolution }}</div>
+                        {% endif %}
+                        {% if variable.source_field_names %}
+                        <div class="variable-meta"><span class="mini-label">Fields</span> {{ variable.source_field_names | join(', ') }}</div>
+                        {% endif %}
+                        {% if variable.notes %}
+                        <div class="variable-meta"><span class="mini-label">Notes</span> {{ variable.notes }}</div>
+                        {% endif %}
+                    </td>
+                    <td>{{ variable_ontology_terms(variable) }}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</details>
+{% endif %}
+{% endmacro %}
 
 {# ---- Studies Section ---- #}
 {% macro studies_section(studies) %}
@@ -24,7 +165,7 @@
 {% endmacro %}
 
 {% macro study_item(study) %}
-<details class="item study">
+<details class="item study" {% if study.anchor_id %}id="{{ study.anchor_id }}"{% endif %}>
     <summary>
         {% if study.nmdc_ingest_priority %}
             {{ priority_badge(study.nmdc_ingest_priority) }}
@@ -59,6 +200,16 @@
         {% if study.sample_count %}
         {{ field('Samples', study.sample_count) }}
         {% endif %}
+        {% if study.resolved_field_sites %}
+        <div class="field">
+            <span class="field-label">Sites:</span>
+            <span class="field-value">
+            {% for site in study.resolved_field_sites %}
+                <a href="#{{ site.anchor_id }}">{{ site.name }}</a>{% if not loop.last %}, {% endif %}
+            {% endfor %}
+            </span>
+        </div>
+        {% endif %}
         {% if study.bioproject_ids %}
         <div class="field">
             <span class="field-label">BioProjects:</span>
@@ -87,6 +238,8 @@
             </span>
         </div>
         {% endif %}
+        {{ study_design_panel(study.study_design) }}
+        {{ variables_section(study.variables, 'Study Variables') }}
     </div>
 </details>
 {% endmacro %}
@@ -144,7 +297,7 @@
 {% endmacro %}
 
 {% macro dataset_item(ds) %}
-<details class="item dataset">
+<details class="item dataset" {% if ds.anchor_id %}id="{{ ds.anchor_id }}"{% endif %}>
     <summary>
         <span class="item-title">{{ ds.name }}</span>
     </summary>
@@ -191,6 +344,7 @@
             <span class="field-value">{{ doi_link(ds.primary_reference_info.reference.id) }}{% if ds.primary_reference_info.reference.title %} - {{ ds.primary_reference_info.reference.title }}{% endif %}</span>
         </div>
         {% endif %}
+        {{ variables_section(ds.variables, 'Dataset Variables') }}
     </div>
 </details>
 {% endmacro %}
@@ -337,7 +491,7 @@
 {% endmacro %}
 
 {% macro field_site_item(site) %}
-<details class="item field-site">
+<details class="item field-site" {% if site.anchor_id %}id="{{ site.anchor_id }}"{% endif %}>
     <summary>
         <span class="item-title">{{ site.name }}</span>
         {% if site.location %}<span class="pi-info">({{ site.location }})</span>{% endif %}
@@ -345,6 +499,21 @@
     <div class="item-content">
         {% if site.description %}
         <p class="description">{{ site.description }}</p>
+        {% endif %}
+        {% if site.site_type %}
+        {{ field('Type', site.site_type | replace('_', ' ') | title) }}
+        {% endif %}
+        {% if site.pi %}
+        {{ field('PI', site.pi) }}
+        {% endif %}
+        {% if site.institution %}
+        {{ field('Institution', site.institution) }}
+        {% endif %}
+        {% if site.relevance %}
+        <div class="field">
+            <span class="field-label">Relevance:</span>
+            <span class="field-value">{{ chip_list(site.relevance, 'keyword') }}</span>
+        </div>
         {% endif %}
         {% if site.contaminants %}
         <div class="field">
@@ -354,6 +523,25 @@
         {% endif %}
         {% if site.contamination_source %}
         {{ field('Contamination source', site.contamination_source) }}
+        {% endif %}
+        {% if site.elevation_m %}
+        {{ field('Elevation (m)', site.elevation_m) }}
+        {% endif %}
+        {% if site.mean_annual_temp_c %}
+        {{ field('Mean annual temp (C)', site.mean_annual_temp_c) }}
+        {% endif %}
+        {% if site.mean_annual_precip_cm %}
+        {{ field('Mean annual precip (cm)', site.mean_annual_precip_cm) }}
+        {% endif %}
+        {% if site.program_refs %}
+        <div class="field">
+            <span class="field-label">Programs:</span>
+            <span class="field-value">
+            {% for program in site.program_refs %}
+                <a href="#{{ program.id }}">{{ program.name }}</a>{% if not loop.last %}, {% endif %}
+            {% endfor %}
+            </span>
+        </div>
         {% endif %}
     </div>
 </details>

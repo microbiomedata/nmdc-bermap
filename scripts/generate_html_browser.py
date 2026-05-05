@@ -5,6 +5,8 @@ Uses Jinja2 templates for maintainability. Templates are in scripts/templates/.
 """
 
 import yaml
+import re
+import copy
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 
@@ -12,6 +14,23 @@ SCRIPT_DIR = Path(__file__).parent
 DB_PATH = SCRIPT_DIR.parent / "db" / "sfas-brcs.yaml"
 TEMPLATE_DIR = SCRIPT_DIR / "templates"
 OUTPUT_PATH = SCRIPT_DIR.parent / "docs" / "browser.html"
+VARIABLE_BROWSER_OUTPUT_PATH = SCRIPT_DIR.parent / "docs" / "variables.html"
+VARIABLE_INDEX_OUTPUT_PATH = SCRIPT_DIR.parent / "docs" / "variable-index.yaml"
+PROGRAM_COLLECTION_KEYS = (
+    "bioenergy_research_centers",
+    "genomic_science_sfas",
+    "environmental_system_science_sfas",
+    "user_facilities",
+    "ai_projects",
+    "other_programs",
+)
+
+
+class NoAliasDumper(yaml.SafeDumper):
+    """YAML dumper that avoids anchors in generated derived indexes."""
+
+    def ignore_aliases(self, data):
+        return True
 
 
 def load_db() -> dict:
@@ -31,20 +50,253 @@ def create_jinja_env() -> Environment:
     return env
 
 
+def make_anchor_id(value: str) -> str:
+    """Normalize an identifier for use as an HTML anchor."""
+    return re.sub(r"[^a-z0-9_-]+", "-", value.lower()).strip("-")
+
+
+def resolve_sites(site_ids: list[str] | None, site_index: dict) -> list[dict]:
+    """Resolve site IDs to canonical site entries."""
+    if not site_ids:
+        return []
+    return [site_index[site_id] for site_id in site_ids if site_id in site_index]
+
+
+def iter_programs(db: dict):
+    """Yield all top-level research programs known to the browser."""
+    for collection_key in PROGRAM_COLLECTION_KEYS:
+        for program in db.get(collection_key, []) or []:
+            yield collection_key, program
+
+
+def variable_record(
+    variable: dict,
+    *,
+    program: dict,
+    collection_key: str,
+    owner: dict,
+    owner_type: str,
+) -> dict:
+    """Build a flattened variable record for the derived variable index."""
+    owner_name = owner.get("name", "unknown")
+    program_id = program.get("id") or make_anchor_id(program.get("name", "program"))
+    owner_anchor = owner.get("anchor_id") or make_anchor_id(f"{program_id}-{owner_type}-{owner_name}")
+    variable_id = make_anchor_id(f"{program_id}-{owner_type}-{owner_name}-{variable.get('name', 'variable')}")
+    bervo_term = variable.get("bervo_term")
+    mixs_terms = variable.get("mixs_terms") or []
+    ontology_mappings = variable.get("ontology_mappings") or []
+
+    return {
+        "id": variable_id,
+        "name": variable.get("name"),
+        "description": variable.get("description"),
+        "roles": variable.get("roles") or [],
+        "value_type": variable.get("value_type"),
+        "units": variable.get("units"),
+        "measured_entity": variable.get("measured_entity"),
+        "material_or_matrix": variable.get("material_or_matrix"),
+        "method": variable.get("method"),
+        "time_series": variable.get("time_series"),
+        "temporal_resolution": variable.get("temporal_resolution"),
+        "spatial_resolution": variable.get("spatial_resolution"),
+        "levels": variable.get("levels") or [],
+        "source_field_names": variable.get("source_field_names") or [],
+        "mappings": {
+            "bervo": bervo_term,
+            "mixs": mixs_terms,
+            "other": ontology_mappings,
+            "unit": variable.get("unit_term"),
+        },
+        "owner": {
+            "type": owner_type,
+            "name": owner_name,
+            "anchor_id": owner_anchor,
+            "nmdc_study_id": owner.get("nmdc_study_id"),
+            "bioproject_ids": owner.get("bioproject_ids") or [],
+            "doi": owner.get("doi"),
+            "url": owner.get("url"),
+            "primary_reference": (
+                owner.get("primary_reference_info", {})
+                .get("reference", {})
+                .get("id")
+            ),
+        },
+        "program": {
+            "collection": collection_key,
+            "id": program.get("id"),
+            "name": program.get("name"),
+            "acronym": program.get("acronym"),
+            "anchor_id": program_id,
+        },
+    }
+
+
+def build_variable_index(db: dict) -> dict:
+    """Create a flattened, BERVO-oriented index of study and dataset variables."""
+    records = []
+    by_bervo_map = {}
+    by_mixs_map = {}
+
+    for collection_key, program in iter_programs(db):
+        for study in program.get("studies", []) or []:
+            for variable in study.get("variables", []) or []:
+                records.append(
+                    variable_record(
+                        variable,
+                        program=program,
+                        collection_key=collection_key,
+                        owner=study,
+                        owner_type="study",
+                    )
+                )
+        for dataset in program.get("datasets", []) or []:
+            for variable in dataset.get("variables", []) or []:
+                records.append(
+                    variable_record(
+                        variable,
+                        program=program,
+                        collection_key=collection_key,
+                        owner=dataset,
+                        owner_type="dataset",
+                    )
+                )
+
+    records = sorted(records, key=lambda record: (record["name"] or "").lower())
+    record_by_id = {record["id"]: record for record in records}
+
+    for record in records:
+        bervo_term = record["mappings"].get("bervo")
+        if bervo_term:
+            term_id = bervo_term["id"]
+            by_bervo_map.setdefault(
+                term_id,
+                {
+                    "term": bervo_term,
+                    "variable_ids": [],
+                },
+            )["variable_ids"].append(record["id"])
+
+        for mixs_term in record["mappings"].get("mixs") or []:
+            term_id = mixs_term["id"]
+            by_mixs_map.setdefault(
+                term_id,
+                {
+                    "term": mixs_term,
+                    "variable_ids": [],
+                },
+            )["variable_ids"].append(record["id"])
+
+    by_bervo = sorted(
+        by_bervo_map.values(),
+        key=lambda group: (group["term"].get("label") or group["term"]["id"]).lower(),
+    )
+    by_mixs = sorted(
+        by_mixs_map.values(),
+        key=lambda group: (group["term"].get("label") or group["term"]["id"]).lower(),
+    )
+    without_bervo = [record["id"] for record in records if not record["mappings"].get("bervo")]
+
+    return {
+        "summary": {
+            "variable_count": len(records),
+            "study_variable_count": sum(1 for record in records if record["owner"]["type"] == "study"),
+            "dataset_variable_count": sum(1 for record in records if record["owner"]["type"] == "dataset"),
+            "bervo_mapped_variable_count": len(records) - len(without_bervo),
+            "bervo_term_count": len(by_bervo),
+            "mixs_term_count": len(by_mixs),
+            "without_bervo_count": len(without_bervo),
+        },
+        "records": records,
+        "records_by_id": record_by_id,
+        "by_bervo": by_bervo,
+        "by_mixs": by_mixs,
+        "without_bervo": without_bervo,
+    }
+
+
+def enrich_db(db: dict) -> dict:
+    """Build browser-only derived structures."""
+    site_index = {}
+    for site in db.get("sites", []) or []:
+        site["anchor_id"] = make_anchor_id(site.get("id") or site["name"])
+        site["program_refs"] = []
+        site_index[site["id"]] = site
+
+    for collection_key, program in iter_programs(db):
+        program["resolved_field_sites"] = resolve_sites(program.get("field_site_ids"), site_index)
+        for site in program["resolved_field_sites"]:
+            site["program_refs"].append(
+                {
+                    "id": program.get("id"),
+                    "name": program.get("name"),
+                }
+            )
+
+        program_id = program.get("id") or make_anchor_id(program.get("name", "program"))
+        for study in program.get("studies", []) or []:
+            study["anchor_id"] = make_anchor_id(f"{program_id}-study-{study.get('name', 'study')}")
+            study["resolved_field_sites"] = resolve_sites(
+                study.get("field_site_ids"), site_index
+            )
+        for dataset in program.get("datasets", []) or []:
+            dataset["anchor_id"] = make_anchor_id(f"{program_id}-dataset-{dataset.get('name', 'dataset')}")
+
+    db["sites"] = sorted(db.get("sites", []), key=lambda site: site.get("name", ""))
+    db["variable_index"] = build_variable_index(db)
+    return db
+
+
 def generate_html(db: dict) -> str:
     """Generate the HTML page from templates."""
     env = create_jinja_env()
     template = env.get_template("browser.html.j2")
-    return template.render(**db)
+    return template.render(
+        page_title="DOE BER Research Programs",
+        page_subtitle="Bioenergy Research Centers, Scientific Focus Areas, AI Projects, and User Facilities",
+        **db,
+    )
+
+
+def generate_variable_html(db: dict) -> str:
+    """Generate the variable-centric HTML page from templates."""
+    env = create_jinja_env()
+    template = env.get_template("variable_browser.html.j2")
+    return template.render(
+        page_title="DOE BER Variable Browser",
+        page_subtitle="Variables grouped by BERVO mappings, with unmapped variables called out for curation",
+        search_placeholder="Search variables, studies, programs, or mappings...",
+        **db,
+    )
+
+
+def write_variable_index(variable_index: dict) -> None:
+    """Write the derived variable index as YAML."""
+    VARIABLE_INDEX_OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    serializable_index = {
+        key: copy.deepcopy(value)
+        for key, value in variable_index.items()
+        if key != "records_by_id"
+    }
+    with open(VARIABLE_INDEX_OUTPUT_PATH, "w") as f:
+        yaml.dump(
+            serializable_index,
+            f,
+            Dumper=NoAliasDumper,
+            sort_keys=False,
+            allow_unicode=True,
+        )
 
 
 def main():
     """Main entry point."""
     print(f"Loading database from {DB_PATH}")
     db = load_db()
+    db = enrich_db(db)
 
     print("Generating HTML from templates...")
     html = generate_html(db)
+    variable_html = generate_variable_html(db)
+    write_variable_index(db["variable_index"])
 
     # Ensure output directory exists
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -53,7 +305,12 @@ def main():
     with open(OUTPUT_PATH, "w") as f:
         f.write(html)
 
-    print(f"Done! Open {OUTPUT_PATH} in a browser.")
+    print(f"Writing to {VARIABLE_BROWSER_OUTPUT_PATH}")
+    with open(VARIABLE_BROWSER_OUTPUT_PATH, "w") as f:
+        f.write(variable_html)
+
+    print(f"Writing to {VARIABLE_INDEX_OUTPUT_PATH}")
+    print(f"Done! Open {OUTPUT_PATH} or {VARIABLE_BROWSER_OUTPUT_PATH} in a browser.")
 
 
 if __name__ == "__main__":

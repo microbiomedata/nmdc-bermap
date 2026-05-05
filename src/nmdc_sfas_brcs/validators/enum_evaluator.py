@@ -222,6 +222,11 @@ class EnumEvaluator:
 
         if prefix_lower in self._oak_config and prefix_lower not in self._prefix_caches:
             self._prefix_caches[prefix_lower] = self._load_cache(prefix)
+            if curie in self._prefix_caches[prefix_lower]:
+                label = self._prefix_caches[prefix_lower][curie]
+                if self._label_cache is not None:
+                    self._label_cache[curie] = label
+                return label if label else None
 
         if prefix_lower in self._oak_config:
             adapter_string = self._oak_config[prefix_lower]

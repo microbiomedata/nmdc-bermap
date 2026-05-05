@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOE BER Research Programs Browser</title>
+    <title>{{ page_title | default('DOE BER Research Programs Browser') }}</title>
     <style>
         {% include 'styles.css.j2' %}
     </style>
@@ -11,12 +11,17 @@
 <body>
     <div class="container">
         <header>
-            <h1>DOE BER Research Programs</h1>
-            <p class="subtitle">Bioenergy Research Centers, Scientific Focus Areas, and User Facilities</p>
+            <h1>{{ page_title | default('DOE BER Research Programs') }}</h1>
+            <p class="subtitle">{{ page_subtitle | default('Bioenergy Research Centers, Scientific Focus Areas, AI Projects, and User Facilities') }}</p>
+            <nav class="page-nav" aria-label="Generated browser pages">
+                <a href="browser.html">Programs</a>
+                <a href="variables.html">Variables</a>
+                <a href="variable-index.yaml">Variable index YAML</a>
+            </nav>
         </header>
 
         <div class="controls">
-            <input type="text" class="search-box" placeholder="Search programs..." id="searchBox">
+            <input type="text" class="search-box" placeholder="{{ search_placeholder | default('Search programs...') }}" id="searchBox">
             <button onclick="expandAll()">Expand All</button>
             <button onclick="collapseAll()">Collapse All</button>
             <button onclick="expandLevel(1)">Categories Only</button>

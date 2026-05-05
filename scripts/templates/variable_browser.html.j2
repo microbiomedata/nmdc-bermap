@@ -1,0 +1,154 @@
+{# ============================================================================
+   Variable-centric browser - groups derived variable records by BERVO mapping
+   ============================================================================ #}
+
+{% extends 'base.html.j2' %}
+{% from 'macros.html.j2' import ontology_term_link, nmdc_link, doi_link %}
+{% from 'sections.html.j2' import variable_roles %}
+
+{% macro owner_link(variable) %}
+<a href="browser.html#{{ variable.owner.anchor_id }}">{{ variable.owner.name }}</a>
+{% if variable.owner.nmdc_study_id %}
+    <span class="context-id">{{ nmdc_link(variable.owner.nmdc_study_id) }}</span>
+{% elif variable.owner.doi %}
+    <span class="context-id">{{ doi_link(variable.owner.doi) }}</span>
+{% endif %}
+{% endmacro %}
+
+{% macro variable_card(variable) %}
+<article class="variable-index-item" id="{{ variable.id }}">
+    <header class="variable-index-header">
+        <div>
+            <h3>{{ variable.name }}</h3>
+            <div class="variable-index-context">
+                {{ variable.owner.type | title }}: {{ owner_link(variable) }}
+                <span>Program: <a href="browser.html#{{ variable.program.anchor_id }}">{{ variable.program.acronym or variable.program.name }}</a></span>
+            </div>
+        </div>
+        {% if variable.value_type %}
+        <span class="chip value-type">{{ variable.value_type | replace('_', ' ') | title }}</span>
+        {% endif %}
+    </header>
+
+    {% if variable.description %}
+    <p class="compact-description">{{ variable.description }}</p>
+    {% endif %}
+
+    {{ variable_roles(variable.roles) }}
+
+    <dl class="variable-index-facts">
+        {% if variable.measured_entity %}
+        <div><dt>Entity</dt><dd>{{ variable.measured_entity }}</dd></div>
+        {% endif %}
+        {% if variable.material_or_matrix %}
+        <div><dt>Matrix</dt><dd>{{ variable.material_or_matrix }}</dd></div>
+        {% endif %}
+        {% if variable.method %}
+        <div><dt>Method</dt><dd>{{ variable.method }}</dd></div>
+        {% endif %}
+        {% if variable.units %}
+        <div><dt>Units</dt><dd>{{ variable.units }}</dd></div>
+        {% endif %}
+        {% if variable.time_series %}
+        <div><dt>Time series</dt><dd>yes{% if variable.temporal_resolution %}; {{ variable.temporal_resolution }}{% endif %}</dd></div>
+        {% elif variable.temporal_resolution %}
+        <div><dt>Temporal</dt><dd>{{ variable.temporal_resolution }}</dd></div>
+        {% endif %}
+        {% if variable.levels %}
+        <div><dt>Levels</dt><dd>{{ variable.levels | join(', ') }}</dd></div>
+        {% endif %}
+        {% if variable.source_field_names %}
+        <div><dt>Fields</dt><dd>{{ variable.source_field_names | join(', ') }}</dd></div>
+        {% endif %}
+    </dl>
+
+    <div class="ontology-list variable-index-mappings">
+        {% if variable.mappings.bervo %}
+        <div><span class="mini-label">BERVO</span> {{ ontology_term_link(variable.mappings.bervo) }}</div>
+        {% endif %}
+        {% for term in variable.mappings.mixs %}
+        <div><span class="mini-label">MIxS</span> {{ ontology_term_link(term) }}</div>
+        {% endfor %}
+        {% if variable.mappings.unit %}
+        <div><span class="mini-label">Unit</span> {{ ontology_term_link(variable.mappings.unit) }}</div>
+        {% endif %}
+        {% for term in variable.mappings.other %}
+        <div><span class="mini-label">Map</span> {{ ontology_term_link(term) }}</div>
+        {% endfor %}
+    </div>
+</article>
+{% endmacro %}
+
+{% block content %}
+
+<section class="variable-summary-grid">
+    <div class="summary-card">
+        <span class="summary-number">{{ variable_index.summary.variable_count }}</span>
+        <span class="summary-label">Variables</span>
+    </div>
+    <div class="summary-card">
+        <span class="summary-number">{{ variable_index.summary.study_variable_count }}</span>
+        <span class="summary-label">Study variables</span>
+    </div>
+    <div class="summary-card">
+        <span class="summary-number">{{ variable_index.summary.dataset_variable_count }}</span>
+        <span class="summary-label">Dataset variables</span>
+    </div>
+    <div class="summary-card">
+        <span class="summary-number">{{ variable_index.summary.bervo_term_count }}</span>
+        <span class="summary-label">BERVO terms</span>
+    </div>
+    <div class="summary-card">
+        <span class="summary-number">{{ variable_index.summary.without_bervo_count }}</span>
+        <span class="summary-label">Need BERVO review</span>
+    </div>
+</section>
+
+<details class="category variable-browser bervo-browser" open>
+    <summary>BERVO-Mapped Variables ({{ variable_index.summary.bervo_mapped_variable_count }})</summary>
+    <div class="category-content">
+    {% for group in variable_index.by_bervo %}
+        <details class="bervo-group" open>
+            <summary>
+                {{ ontology_term_link(group.term) }}
+                <span class="section-count">{{ group.variable_ids | length }}</span>
+            </summary>
+            <div class="variable-index-list">
+            {% for variable_id in group.variable_ids %}
+                {{ variable_card(variable_index.records_by_id[variable_id]) }}
+            {% endfor %}
+            </div>
+        </details>
+    {% endfor %}
+    </div>
+</details>
+
+<details class="category variable-browser">
+    <summary>Variables Without BERVO Mapping ({{ variable_index.summary.without_bervo_count }})</summary>
+    <div class="category-content variable-index-list">
+    {% for variable_id in variable_index.without_bervo %}
+        {{ variable_card(variable_index.records_by_id[variable_id]) }}
+    {% endfor %}
+    </div>
+</details>
+
+<details class="category variable-browser">
+    <summary>MIxS-Mapped Variables ({{ variable_index.by_mixs | length }} terms)</summary>
+    <div class="category-content">
+    {% for group in variable_index.by_mixs %}
+        <details class="bervo-group mixs-group">
+            <summary>
+                {{ ontology_term_link(group.term) }}
+                <span class="section-count">{{ group.variable_ids | length }}</span>
+            </summary>
+            <div class="variable-index-list">
+            {% for variable_id in group.variable_ids %}
+                {{ variable_card(variable_index.records_by_id[variable_id]) }}
+            {% endfor %}
+            </div>
+        </details>
+    {% endfor %}
+    </div>
+</details>
+
+{% endblock %}

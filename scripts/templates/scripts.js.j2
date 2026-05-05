@@ -25,24 +25,30 @@ searchBox.addEventListener('input', function(e) {
     debounceTimer = setTimeout(() => {
         const query = e.target.value.toLowerCase().trim();
 
+        const targets = document.querySelectorAll('.program, .variable-index-item, .bervo-group');
+
         if (query.length < 2) {
-            // Show all programs
-            document.querySelectorAll('.program').forEach(p => {
+            targets.forEach(p => {
                 p.classList.remove('hidden');
             });
             return;
         }
 
         // Search and filter
-        document.querySelectorAll('.program').forEach(program => {
-            const text = program.textContent.toLowerCase();
+        targets.forEach(target => {
+            const text = target.textContent.toLowerCase();
             if (text.includes(query)) {
-                program.classList.remove('hidden');
-                // Expand parent category
-                let parent = program.closest('.category');
+                target.classList.remove('hidden');
+                let parent = target.closest('.category');
                 if (parent) parent.open = true;
+                target.querySelectorAll('details').forEach(d => d.open = true);
+                let detailsParent = target.parentElement;
+                while (detailsParent) {
+                    if (detailsParent.tagName === 'DETAILS') detailsParent.open = true;
+                    detailsParent = detailsParent.parentElement;
+                }
             } else {
-                program.classList.add('hidden');
+                target.classList.add('hidden');
             }
         });
     }, 150);

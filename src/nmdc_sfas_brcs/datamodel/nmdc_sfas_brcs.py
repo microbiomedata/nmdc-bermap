@@ -1,5 +1,5 @@
 # Auto generated from nmdc_sfas_brcs.yaml by pythongen.py version: 0.0.1
-# Generation date: 2026-03-03T11:28:54
+# Generation date: 2026-05-04T13:27:38
 # Schema: nmdc-sfas-brcs
 #
 # id: https://w3id.org/nmdc/sfas-brcs
@@ -65,9 +65,13 @@ metamodel_version = "1.7.0"
 version = None
 
 # Namespaces
+BERVO = CurieNamespace('BERVO', 'https://w3id.org/bervo/BERVO_')
+EFO = CurieNamespace('EFO', 'http://www.ebi.ac.uk/efo/EFO_')
 IAO = CurieNamespace('IAO', 'http://purl.obolibrary.org/obo/IAO_')
+MIXS = CurieNamespace('MIXS', 'https://w3id.org/mixs/')
 NCBITAXON = CurieNamespace('NCBITaxon', 'http://purl.obolibrary.org/obo/NCBITaxon_')
 OBI = CurieNamespace('OBI', 'http://purl.obolibrary.org/obo/OBI_')
+STATO = CurieNamespace('STATO', 'http://purl.obolibrary.org/obo/STATO_')
 COMMUNITYMECH = CurieNamespace('communitymech', 'https://w3id.org/communitymech/')
 DCTERMS = CurieNamespace('dcterms', 'http://purl.org/dc/terms/')
 DOI = CurieNamespace('doi', 'https://doi.org/')
@@ -76,6 +80,7 @@ NMDC_SFAS_BRCS = CurieNamespace('nmdc_sfas_brcs', 'https://w3id.org/nmdc/sfas-br
 OBO = CurieNamespace('obo', 'http://purl.obolibrary.org/obo/')
 ORCID = CurieNamespace('orcid', 'https://orcid.org/')
 PMID = CurieNamespace('pmid', 'https://www.ncbi.nlm.nih.gov/pubmed/')
+RDFS = CurieNamespace('rdfs', 'http://www.w3.org/2000/01/rdf-schema#')
 ROR = CurieNamespace('ror', 'https://ror.org/')
 SCHEMA = CurieNamespace('schema', 'http://schema.org/')
 DEFAULT_ = NMDC_SFAS_BRCS
@@ -104,11 +109,31 @@ class OtherProgramId(ResearchProgramId):
     pass
 
 
+class ArtificialIntelligenceProjectId(OtherProgramId):
+    pass
+
+
 class UserFacilityId(NamedThingId):
     pass
 
 
+class OntologyTermId(URIorCURIE):
+    pass
+
+
+class BERVOTermId(OntologyTermId):
+    pass
+
+
+class MIXSTermId(OntologyTermId):
+    pass
+
+
 class ReferenceId(URIorCURIE):
+    pass
+
+
+class FieldSiteId(NamedThingId):
     pass
 
 
@@ -138,6 +163,8 @@ class ResearchProgramCollection(YAMLRoot):
     environmental_system_science_sfas: Optional[Union[dict[Union[str, ScientificFocusAreaId], Union[dict, "ScientificFocusArea"]], list[Union[dict, "ScientificFocusArea"]]]] = empty_dict()
     user_facilities: Optional[Union[dict[Union[str, UserFacilityId], Union[dict, "UserFacility"]], list[Union[dict, "UserFacility"]]]] = empty_dict()
     other_programs: Optional[Union[dict[Union[str, OtherProgramId], Union[dict, "OtherProgram"]], list[Union[dict, "OtherProgram"]]]] = empty_dict()
+    ai_projects: Optional[Union[dict[Union[str, ArtificialIntelligenceProjectId], Union[dict, "ArtificialIntelligenceProject"]], list[Union[dict, "ArtificialIntelligenceProject"]]]] = empty_dict()
+    sites: Optional[Union[dict[Union[str, FieldSiteId], Union[dict, "FieldSite"]], list[Union[dict, "FieldSite"]]]] = empty_dict()
     metadata: Optional[Union[dict, "CollectionMetadata"]] = None
 
     def __post_init__(self, *_: str, **kwargs: Any):
@@ -150,6 +177,10 @@ class ResearchProgramCollection(YAMLRoot):
         self._normalize_inlined_as_list(slot_name="user_facilities", slot_type=UserFacility, key_name="id", keyed=True)
 
         self._normalize_inlined_as_list(slot_name="other_programs", slot_type=OtherProgram, key_name="id", keyed=True)
+
+        self._normalize_inlined_as_list(slot_name="ai_projects", slot_type=ArtificialIntelligenceProject, key_name="id", keyed=True)
+
+        self._normalize_inlined_as_list(slot_name="sites", slot_type=FieldSite, key_name="id", keyed=True)
 
         if self.metadata is not None and not isinstance(self.metadata, CollectionMetadata):
             self.metadata = CollectionMetadata(**as_dict(self.metadata))
@@ -236,6 +267,8 @@ class ResearchProgram(NamedThing):
     name: str = None
     acronym: Optional[str] = None
     program_type: Optional[Union[str, "ProgramType"]] = None
+    start_date: Optional[str] = None
+    end_date: Optional[str] = None
     lead_institution: Optional[str] = None
     partner_institutions: Optional[Union[str, list[str]]] = empty_list()
     principal_investigators: Optional[Union[Union[dict, "Person"], list[Union[dict, "Person"]]]] = empty_list()
@@ -253,8 +286,8 @@ class ResearchProgram(NamedThing):
     analyses: Optional[Union[dict[Union[str, KBaseNarrativeId], Union[dict, "KBaseNarrative"]], list[Union[dict, "KBaseNarrative"]]]] = empty_dict()
     kbase_genome_collection: Optional[Union[str, "KBaseCollection"]] = None
     datasets: Optional[Union[Union[dict, "Dataset"], list[Union[dict, "Dataset"]]]] = empty_list()
+    field_site_ids: Optional[Union[Union[str, URIorCURIE], list[Union[str, URIorCURIE]]]] = empty_list()
     key_publications: Optional[Union[dict[Union[str, ReferenceId], Union[dict, "Reference"]], list[Union[dict, "Reference"]]]] = empty_dict()
-    field_sites: Optional[Union[Union[dict, "FieldSite"], list[Union[dict, "FieldSite"]]]] = empty_list()
     established: Optional[int] = None
     collaborators: Optional[str] = None
     isolate_collections: Optional[Union[Union[dict, "IsolateCollection"], list[Union[dict, "IsolateCollection"]]]] = empty_list()
@@ -276,6 +309,12 @@ class ResearchProgram(NamedThing):
 
         if self.program_type is not None and not isinstance(self.program_type, ProgramType):
             self.program_type = ProgramType(self.program_type)
+
+        if self.start_date is not None and not isinstance(self.start_date, str):
+            self.start_date = str(self.start_date)
+
+        if self.end_date is not None and not isinstance(self.end_date, str):
+            self.end_date = str(self.end_date)
 
         if self.lead_institution is not None and not isinstance(self.lead_institution, str):
             self.lead_institution = str(self.lead_institution)
@@ -337,11 +376,11 @@ class ResearchProgram(NamedThing):
             self.datasets = [self.datasets] if self.datasets is not None else []
         self.datasets = [v if isinstance(v, Dataset) else Dataset(**as_dict(v)) for v in self.datasets]
 
-        self._normalize_inlined_as_list(slot_name="key_publications", slot_type=Reference, key_name="id", keyed=True)
+        if not isinstance(self.field_site_ids, list):
+            self.field_site_ids = [self.field_site_ids] if self.field_site_ids is not None else []
+        self.field_site_ids = [v if isinstance(v, URIorCURIE) else URIorCURIE(v) for v in self.field_site_ids]
 
-        if not isinstance(self.field_sites, list):
-            self.field_sites = [self.field_sites] if self.field_sites is not None else []
-        self.field_sites = [v if isinstance(v, FieldSite) else FieldSite(**as_dict(v)) for v in self.field_sites]
+        self._normalize_inlined_as_list(slot_name="key_publications", slot_type=Reference, key_name="id", keyed=True)
 
         if self.established is not None and not isinstance(self.established, int):
             self.established = int(self.established)
@@ -486,6 +525,36 @@ class OtherProgram(ResearchProgram):
 
 
 @dataclass(repr=False)
+class ArtificialIntelligenceProject(OtherProgram):
+    """
+    A DOE artificial intelligence project or pilot initiative using AI/ML, agentic systems, data lakehouses,
+    autonomous laboratories, or related computational methods to advance BER-relevant biological and environmental
+    science.
+    """
+    _inherited_slots: ClassVar[list[str]] = []
+
+    class_class_uri: ClassVar[URIRef] = NMDC_SFAS_BRCS["ArtificialIntelligenceProject"]
+    class_class_curie: ClassVar[str] = "nmdc_sfas_brcs:ArtificialIntelligenceProject"
+    class_name: ClassVar[str] = "ArtificialIntelligenceProject"
+    class_model_uri: ClassVar[URIRef] = NMDC_SFAS_BRCS.ArtificialIntelligenceProject
+
+    id: Union[str, ArtificialIntelligenceProjectId] = None
+    name: str = None
+    program_type: Optional[Union[str, "ProgramType"]] = 'AI_PILOT_PROJECT'
+
+    def __post_init__(self, *_: str, **kwargs: Any):
+        if self._is_empty(self.id):
+            self.MissingRequiredField("id")
+        if not isinstance(self.id, ArtificialIntelligenceProjectId):
+            self.id = ArtificialIntelligenceProjectId(self.id)
+
+        if self.program_type is not None and not isinstance(self.program_type, ProgramType):
+            self.program_type = getattr(ProgramType, self.program_type)
+
+        super().__post_init__(**kwargs)
+
+
+@dataclass(repr=False)
 class UserFacility(NamedThing):
     """
     A DOE BER User Facility providing resources and capabilities to the broader scientific community. Examples include
@@ -501,6 +570,8 @@ class UserFacility(NamedThing):
     id: Union[str, UserFacilityId] = None
     acronym: Optional[str] = None
     program_type: Optional[Union[str, "ProgramType"]] = None
+    start_date: Optional[str] = None
+    end_date: Optional[str] = None
     lead_institution: Optional[str] = None
     lead_institutions: Optional[Union[str, list[str]]] = empty_list()
     funding: Optional[Union[dict, "FundingInfo"]] = None
@@ -522,6 +593,12 @@ class UserFacility(NamedThing):
 
         if self.program_type is not None and not isinstance(self.program_type, ProgramType):
             self.program_type = ProgramType(self.program_type)
+
+        if self.start_date is not None and not isinstance(self.start_date, str):
+            self.start_date = str(self.start_date)
+
+        if self.end_date is not None and not isinstance(self.end_date, str):
+            self.end_date = str(self.end_date)
 
         if self.lead_institution is not None and not isinstance(self.lead_institution, str):
             self.lead_institution = str(self.lead_institution)
@@ -740,6 +817,7 @@ class WebResources(YAMLRoot):
 
     main: Optional[Union[str, URI]] = None
     doe_page: Optional[Union[str, URI]] = None
+    award_list: Optional[Union[str, URI]] = None
     ornl_page: Optional[Union[str, URI]] = None
     llnl_page: Optional[Union[str, URI]] = None
     data_portal: Optional[Union[str, URI]] = None
@@ -767,6 +845,9 @@ class WebResources(YAMLRoot):
 
         if self.doe_page is not None and not isinstance(self.doe_page, URI):
             self.doe_page = URI(self.doe_page)
+
+        if self.award_list is not None and not isinstance(self.award_list, URI):
+            self.award_list = URI(self.award_list)
 
         if self.ornl_page is not None and not isinstance(self.ornl_page, URI):
             self.ornl_page = URI(self.ornl_page)
@@ -866,6 +947,7 @@ class Dataset(YAMLRoot):
     additional_references: Optional[Union[Union[str, URIorCURIE], list[Union[str, URIorCURIE]]]] = empty_list()
     interaction_types: Optional[Union[Union[str, "InteractionType"], list[Union[str, "InteractionType"]]]] = empty_list()
     interaction_modes: Optional[Union[Union[str, "InteractionMode"], list[Union[str, "InteractionMode"]]]] = empty_list()
+    variables: Optional[Union[Union[dict, "Variable"], list[Union[dict, "Variable"]]]] = empty_list()
     primary_reference_info: Optional[Union[dict, "PrimaryReferenceInfo"]] = None
 
     def __post_init__(self, *_: str, **kwargs: Any):
@@ -942,8 +1024,185 @@ class Dataset(YAMLRoot):
             self.interaction_modes = [self.interaction_modes] if self.interaction_modes is not None else []
         self.interaction_modes = [v if isinstance(v, InteractionMode) else InteractionMode(v) for v in self.interaction_modes]
 
+        if not isinstance(self.variables, list):
+            self.variables = [self.variables] if self.variables is not None else []
+        self.variables = [v if isinstance(v, Variable) else Variable(**as_dict(v)) for v in self.variables]
+
         if self.primary_reference_info is not None and not isinstance(self.primary_reference_info, PrimaryReferenceInfo):
             self.primary_reference_info = PrimaryReferenceInfo(**as_dict(self.primary_reference_info))
+
+        super().__post_init__(**kwargs)
+
+
+@dataclass(repr=False)
+class Variable(YAMLRoot):
+    """
+    A variable, factor, measurement, or metadata field observed, manipulated, derived, or otherwise used in a study or
+    dataset. Variables act as a lightweight data dictionary and can be tagged with analytical roles, time-series
+    behavior, units, methods, and ontology mappings such as BERVO. Ontology references are modeled as id/label objects
+    so linkml-term-validator can check both the identifier and the canonical label.
+    """
+    _inherited_slots: ClassVar[list[str]] = []
+
+    class_class_uri: ClassVar[URIRef] = SCHEMA["PropertyValue"]
+    class_class_curie: ClassVar[str] = "schema:PropertyValue"
+    class_name: ClassVar[str] = "Variable"
+    class_model_uri: ClassVar[URIRef] = NMDC_SFAS_BRCS.Variable
+
+    name: str = None
+    description: Optional[str] = None
+    roles: Optional[Union[Union[str, "VariableRole"], list[Union[str, "VariableRole"]]]] = empty_list()
+    value_type: Optional[Union[str, "VariableValueType"]] = None
+    units: Optional[str] = None
+    unit_term: Optional[Union[dict, "OntologyTerm"]] = None
+    bervo_term: Optional[Union[dict, "BERVOTerm"]] = None
+    mixs_terms: Optional[Union[dict[Union[str, MIXSTermId], Union[dict, "MIXSTerm"]], list[Union[dict, "MIXSTerm"]]]] = empty_dict()
+    ontology_mappings: Optional[Union[dict[Union[str, OntologyTermId], Union[dict, "OntologyTerm"]], list[Union[dict, "OntologyTerm"]]]] = empty_dict()
+    measured_entity: Optional[str] = None
+    material_or_matrix: Optional[str] = None
+    method: Optional[str] = None
+    time_series: Optional[Union[bool, Bool]] = None
+    temporal_resolution: Optional[str] = None
+    spatial_resolution: Optional[str] = None
+    levels: Optional[Union[str, list[str]]] = empty_list()
+    source_field_names: Optional[Union[str, list[str]]] = empty_list()
+    notes: Optional[str] = None
+
+    def __post_init__(self, *_: str, **kwargs: Any):
+        if self._is_empty(self.name):
+            self.MissingRequiredField("name")
+        if not isinstance(self.name, str):
+            self.name = str(self.name)
+
+        if self.description is not None and not isinstance(self.description, str):
+            self.description = str(self.description)
+
+        if not isinstance(self.roles, list):
+            self.roles = [self.roles] if self.roles is not None else []
+        self.roles = [v if isinstance(v, VariableRole) else VariableRole(v) for v in self.roles]
+
+        if self.value_type is not None and not isinstance(self.value_type, VariableValueType):
+            self.value_type = VariableValueType(self.value_type)
+
+        if self.units is not None and not isinstance(self.units, str):
+            self.units = str(self.units)
+
+        if self.unit_term is not None and not isinstance(self.unit_term, OntologyTerm):
+            self.unit_term = OntologyTerm(**as_dict(self.unit_term))
+
+        if self.bervo_term is not None and not isinstance(self.bervo_term, BERVOTerm):
+            self.bervo_term = BERVOTerm(**as_dict(self.bervo_term))
+
+        self._normalize_inlined_as_list(slot_name="mixs_terms", slot_type=MIXSTerm, key_name="id", keyed=True)
+
+        self._normalize_inlined_as_list(slot_name="ontology_mappings", slot_type=OntologyTerm, key_name="id", keyed=True)
+
+        if self.measured_entity is not None and not isinstance(self.measured_entity, str):
+            self.measured_entity = str(self.measured_entity)
+
+        if self.material_or_matrix is not None and not isinstance(self.material_or_matrix, str):
+            self.material_or_matrix = str(self.material_or_matrix)
+
+        if self.method is not None and not isinstance(self.method, str):
+            self.method = str(self.method)
+
+        if self.time_series is not None and not isinstance(self.time_series, Bool):
+            self.time_series = Bool(self.time_series)
+
+        if self.temporal_resolution is not None and not isinstance(self.temporal_resolution, str):
+            self.temporal_resolution = str(self.temporal_resolution)
+
+        if self.spatial_resolution is not None and not isinstance(self.spatial_resolution, str):
+            self.spatial_resolution = str(self.spatial_resolution)
+
+        if not isinstance(self.levels, list):
+            self.levels = [self.levels] if self.levels is not None else []
+        self.levels = [v if isinstance(v, str) else str(v) for v in self.levels]
+
+        if not isinstance(self.source_field_names, list):
+            self.source_field_names = [self.source_field_names] if self.source_field_names is not None else []
+        self.source_field_names = [v if isinstance(v, str) else str(v) for v in self.source_field_names]
+
+        if self.notes is not None and not isinstance(self.notes, str):
+            self.notes = str(self.notes)
+
+        super().__post_init__(**kwargs)
+
+
+@dataclass(repr=False)
+class OntologyTerm(YAMLRoot):
+    """
+    A reference to an ontology term, represented as an identifier plus the term label expected from the source
+    ontology. The label field is marked as rdfs:label for linkml-term-validator label checks.
+    """
+    _inherited_slots: ClassVar[list[str]] = []
+
+    class_class_uri: ClassVar[URIRef] = NMDC_SFAS_BRCS["OntologyTerm"]
+    class_class_curie: ClassVar[str] = "nmdc_sfas_brcs:OntologyTerm"
+    class_name: ClassVar[str] = "OntologyTerm"
+    class_model_uri: ClassVar[URIRef] = NMDC_SFAS_BRCS.OntologyTerm
+
+    id: Union[str, OntologyTermId] = None
+    label: str = None
+
+    def __post_init__(self, *_: str, **kwargs: Any):
+        if self._is_empty(self.id):
+            self.MissingRequiredField("id")
+        if not isinstance(self.id, OntologyTermId):
+            self.id = OntologyTermId(self.id)
+
+        if self._is_empty(self.label):
+            self.MissingRequiredField("label")
+        if not isinstance(self.label, str):
+            self.label = str(self.label)
+
+        super().__post_init__(**kwargs)
+
+
+@dataclass(repr=False)
+class BERVOTerm(OntologyTerm):
+    """
+    A BERVO ontology term represented with an identifier and label
+    """
+    _inherited_slots: ClassVar[list[str]] = []
+
+    class_class_uri: ClassVar[URIRef] = NMDC_SFAS_BRCS["BERVOTerm"]
+    class_class_curie: ClassVar[str] = "nmdc_sfas_brcs:BERVOTerm"
+    class_name: ClassVar[str] = "BERVOTerm"
+    class_model_uri: ClassVar[URIRef] = NMDC_SFAS_BRCS.BERVOTerm
+
+    id: Union[str, BERVOTermId] = None
+    label: str = None
+
+    def __post_init__(self, *_: str, **kwargs: Any):
+        if self._is_empty(self.id):
+            self.MissingRequiredField("id")
+        if not isinstance(self.id, BERVOTermId):
+            self.id = BERVOTermId(self.id)
+
+        super().__post_init__(**kwargs)
+
+
+@dataclass(repr=False)
+class MIXSTerm(OntologyTerm):
+    """
+    A MIxS metadata term represented with an identifier and label
+    """
+    _inherited_slots: ClassVar[list[str]] = []
+
+    class_class_uri: ClassVar[URIRef] = NMDC_SFAS_BRCS["MIXSTerm"]
+    class_class_curie: ClassVar[str] = "nmdc_sfas_brcs:MIXSTerm"
+    class_name: ClassVar[str] = "MIXSTerm"
+    class_model_uri: ClassVar[URIRef] = NMDC_SFAS_BRCS.MIXSTerm
+
+    id: Union[str, MIXSTermId] = None
+    label: str = None
+
+    def __post_init__(self, *_: str, **kwargs: Any):
+        if self._is_empty(self.id):
+            self.MissingRequiredField("id")
+        if not isinstance(self.id, MIXSTermId):
+            self.id = MIXSTermId(self.id)
 
         super().__post_init__(**kwargs)
 
@@ -1158,19 +1417,19 @@ class IsolateCollection(YAMLRoot):
 
 
 @dataclass(repr=False)
-class FieldSite(YAMLRoot):
+class FieldSite(NamedThing):
     """
     A field research site associated with a research program
     """
     _inherited_slots: ClassVar[list[str]] = []
 
-    class_class_uri: ClassVar[URIRef] = NMDC_SFAS_BRCS["FieldSite"]
-    class_class_curie: ClassVar[str] = "nmdc_sfas_brcs:FieldSite"
+    class_class_uri: ClassVar[URIRef] = SCHEMA["Place"]
+    class_class_curie: ClassVar[str] = "schema:Place"
     class_name: ClassVar[str] = "FieldSite"
     class_model_uri: ClassVar[URIRef] = NMDC_SFAS_BRCS.FieldSite
 
-    name: Optional[str] = None
-    description: Optional[str] = None
+    id: Union[str, FieldSiteId] = None
+    name: str = None
     location: Optional[str] = None
     site_type: Optional[str] = None
     pi: Optional[str] = None
@@ -1183,11 +1442,15 @@ class FieldSite(YAMLRoot):
     mean_annual_precip_cm: Optional[float] = None
 
     def __post_init__(self, *_: str, **kwargs: Any):
-        if self.name is not None and not isinstance(self.name, str):
-            self.name = str(self.name)
+        if self._is_empty(self.id):
+            self.MissingRequiredField("id")
+        if not isinstance(self.id, FieldSiteId):
+            self.id = FieldSiteId(self.id)
 
-        if self.description is not None and not isinstance(self.description, str):
-            self.description = str(self.description)
+        if self._is_empty(self.name):
+            self.MissingRequiredField("name")
+        if not isinstance(self.name, str):
+            self.name = str(self.name)
 
         if self.location is not None and not isinstance(self.location, str):
             self.location = str(self.location)
@@ -1284,6 +1547,66 @@ class WebReference(YAMLRoot):
 
 
 @dataclass(repr=False)
+class StudyDesign(YAMLRoot):
+    """
+    Study-level design metadata that applies across variables and datasets. This captures the design pattern,
+    experimental or observational units, replication, blocking, randomization, and related notes separately from the
+    data dictionary entries for individual variables.
+    """
+    _inherited_slots: ClassVar[list[str]] = []
+
+    class_class_uri: ClassVar[URIRef] = NMDC_SFAS_BRCS["StudyDesign"]
+    class_class_curie: ClassVar[str] = "nmdc_sfas_brcs:StudyDesign"
+    class_name: ClassVar[str] = "StudyDesign"
+    class_model_uri: ClassVar[URIRef] = NMDC_SFAS_BRCS.StudyDesign
+
+    description: Optional[str] = None
+    design_types: Optional[Union[dict[Union[str, OntologyTermId], Union[dict, OntologyTerm]], list[Union[dict, OntologyTerm]]]] = empty_dict()
+    experimental_units: Optional[Union[str, list[str]]] = empty_list()
+    observational_units: Optional[Union[str, list[str]]] = empty_list()
+    sampling_strategy: Optional[str] = None
+    replication: Optional[str] = None
+    randomization: Optional[str] = None
+    blocking: Optional[str] = None
+    controls: Optional[str] = None
+    notes: Optional[str] = None
+
+    def __post_init__(self, *_: str, **kwargs: Any):
+        if self.description is not None and not isinstance(self.description, str):
+            self.description = str(self.description)
+
+        self._normalize_inlined_as_list(slot_name="design_types", slot_type=OntologyTerm, key_name="id", keyed=True)
+
+        if not isinstance(self.experimental_units, list):
+            self.experimental_units = [self.experimental_units] if self.experimental_units is not None else []
+        self.experimental_units = [v if isinstance(v, str) else str(v) for v in self.experimental_units]
+
+        if not isinstance(self.observational_units, list):
+            self.observational_units = [self.observational_units] if self.observational_units is not None else []
+        self.observational_units = [v if isinstance(v, str) else str(v) for v in self.observational_units]
+
+        if self.sampling_strategy is not None and not isinstance(self.sampling_strategy, str):
+            self.sampling_strategy = str(self.sampling_strategy)
+
+        if self.replication is not None and not isinstance(self.replication, str):
+            self.replication = str(self.replication)
+
+        if self.randomization is not None and not isinstance(self.randomization, str):
+            self.randomization = str(self.randomization)
+
+        if self.blocking is not None and not isinstance(self.blocking, str):
+            self.blocking = str(self.blocking)
+
+        if self.controls is not None and not isinstance(self.controls, str):
+            self.controls = str(self.controls)
+
+        if self.notes is not None and not isinstance(self.notes, str):
+            self.notes = str(self.notes)
+
+        super().__post_init__(**kwargs)
+
+
+@dataclass(repr=False)
 class NMDCStudyReference(YAMLRoot):
     """
     A reference to an NMDC study associated with a research program. Links BRC/SFA research to specific studies in the
@@ -1302,6 +1625,9 @@ class NMDCStudyReference(YAMLRoot):
     description: Optional[str] = None
     primary_reference: Optional[Union[str, URIorCURIE]] = None
     keywords: Optional[Union[Union[str, "Keyword"], list[Union[str, "Keyword"]]]] = empty_list()
+    field_site_ids: Optional[Union[Union[str, URIorCURIE], list[Union[str, URIorCURIE]]]] = empty_list()
+    study_design: Optional[Union[dict, StudyDesign]] = None
+    variables: Optional[Union[Union[dict, Variable], list[Union[dict, Variable]]]] = empty_list()
     pi: Optional[str] = None
     bioproject_ids: Optional[Union[str, list[str]]] = empty_list()
     gold_study_id: Optional[str] = None
@@ -1335,6 +1661,17 @@ class NMDCStudyReference(YAMLRoot):
         if not isinstance(self.keywords, list):
             self.keywords = [self.keywords] if self.keywords is not None else []
         self.keywords = [v if isinstance(v, Keyword) else Keyword(v) for v in self.keywords]
+
+        if not isinstance(self.field_site_ids, list):
+            self.field_site_ids = [self.field_site_ids] if self.field_site_ids is not None else []
+        self.field_site_ids = [v if isinstance(v, URIorCURIE) else URIorCURIE(v) for v in self.field_site_ids]
+
+        if self.study_design is not None and not isinstance(self.study_design, StudyDesign):
+            self.study_design = StudyDesign(**as_dict(self.study_design))
+
+        if not isinstance(self.variables, list):
+            self.variables = [self.variables] if self.variables is not None else []
+        self.variables = [v if isinstance(v, Variable) else Variable(**as_dict(v)) for v in self.variables]
 
         if self.pi is not None and not isinstance(self.pi, str):
             self.pi = str(self.pi)
@@ -1706,6 +2043,12 @@ class ProgramType(EnumDefinitionImpl):
     BIOPREPAREDNESS_INITIATIVE = PermissibleValue(
         text="BIOPREPAREDNESS_INITIATIVE",
         description="""A biopreparedness research initiative such as BRaVE (Biopreparedness Research Virtual Environment) - typically cross-cutting, time-limited projects spanning multiple DOE offices""")
+    AI_PILOT_PROJECT = PermissibleValue(
+        text="AI_PILOT_PROJECT",
+        description="""Artificial intelligence pilot project or AI-enabled science initiative, typically cross-cutting and often involving BER and ASCR.""")
+    FIELD_CAMPAIGN = PermissibleValue(
+        text="FIELD_CAMPAIGN",
+        description="""Time-limited coordinated field campaign, often associated with an SFA or other BER program, producing campaign-specific observations and datasets.""")
     OTHER_INITIATIVE = PermissibleValue(
         text="OTHER_INITIATIVE",
         description="Other research initiatives that don't fit traditional categories")
@@ -2083,6 +2426,206 @@ class DataCollectionModality(EnumDefinitionImpl):
     _defn = EnumDefinition(
         name="DataCollectionModality",
         description="Methods and modalities for data collection",
+    )
+
+class VariableRole(EnumDefinitionImpl):
+    """
+    Roles that a variable can play in a study design, dataset, or analysis. Where possible, roles are aligned to OBI,
+    STATO, or EFO terms. Use the narrower study-design roles when the variable's role is known from the experimental
+    design; use MEASURED_VARIABLE for observed data fields when no dependent/independent interpretation is intended.
+    """
+    STUDY_DESIGN_INDEPENDENT_VARIABLE = PermissibleValue(
+        text="STUDY_DESIGN_INDEPENDENT_VARIABLE",
+        title="study design independent variable",
+        description="""Study design variable that is varied, selected, or otherwise used to explain or predict changes in another variable.""",
+        meaning=OBI["0000750"])
+    STUDY_DESIGN_DEPENDENT_VARIABLE = PermissibleValue(
+        text="STUDY_DESIGN_DEPENDENT_VARIABLE",
+        title="study design dependent variable",
+        description="Study design variable whose value is expected to vary as a result of other variables.",
+        meaning=OBI["0000751"])
+    STUDY_DESIGN_CONTROLLED_VARIABLE = PermissibleValue(
+        text="STUDY_DESIGN_CONTROLLED_VARIABLE",
+        title="study design controlled variable",
+        description="Study design variable held constant or constrained by the study design.",
+        meaning=OBI["0000785"])
+    EXPERIMENTAL_FACTOR = PermissibleValue(
+        text="EXPERIMENTAL_FACTOR",
+        title="experimental factor",
+        description="Variable representing an experimental factor or condition.",
+        meaning=EFO["0000001"])
+    BLOCKING_VARIABLE = PermissibleValue(
+        text="BLOCKING_VARIABLE",
+        title="blocking variable",
+        description="Variable used to form blocks or strata in a study design or analysis.",
+        meaning=STATO["0000248"])
+    MEASURED_VARIABLE = PermissibleValue(
+        text="MEASURED_VARIABLE",
+        description="Directly observed or measured variable.")
+    COVARIATE = PermissibleValue(
+        text="COVARIATE",
+        description="Additional contextual or adjustment variable included in an analysis.")
+    DERIVED = PermissibleValue(
+        text="DERIVED",
+        description="Variable computed, transformed, or inferred from other variables")
+    DATE_TIME_VARIABLE = PermissibleValue(
+        text="DATE_TIME_VARIABLE",
+        title="date Time variable",
+        description="Variable whose values represent dates or times.",
+        meaning=STATO["0000729"])
+    TIME_TO_EVENT_VARIABLE = PermissibleValue(
+        text="TIME_TO_EVENT_VARIABLE",
+        title="time-to-event variable",
+        description="Variable whose values represent elapsed time until an event.",
+        meaning=STATO["0000731"])
+    SPATIAL_INDEX = PermissibleValue(
+        text="SPATIAL_INDEX",
+        description="Location, plot, coordinate, depth, transect, or other spatial index")
+    GROUPING = PermissibleValue(
+        text="GROUPING",
+        description="Replicate group, block, batch, genotype group, or other grouping variable")
+    IDENTIFIER = PermissibleValue(
+        text="IDENTIFIER",
+        description="Sample, subject, feature, file, or other identifier field")
+    QUALITY_CONTROL = PermissibleValue(
+        text="QUALITY_CONTROL",
+        description="Quality flag, censoring flag, uncertainty estimate, or QC metric")
+
+    _defn = EnumDefinition(
+        name="VariableRole",
+        description="""Roles that a variable can play in a study design, dataset, or analysis. Where possible, roles are aligned to OBI, STATO, or EFO terms. Use the narrower study-design roles when the variable's role is known from the experimental design; use MEASURED_VARIABLE for observed data fields when no dependent/independent interpretation is intended.""",
+    )
+
+class VariableValueType(EnumDefinitionImpl):
+    """
+    Basic value shape for variables
+    """
+    NUMERIC = PermissibleValue(
+        text="NUMERIC",
+        description="Numeric value that may include decimals")
+    INTEGER = PermissibleValue(
+        text="INTEGER",
+        description="Integer count or whole-number value")
+    CATEGORICAL = PermissibleValue(
+        text="CATEGORICAL",
+        description="Value drawn from a finite set of categories or levels")
+    BOOLEAN = PermissibleValue(
+        text="BOOLEAN",
+        description="True/false value")
+    DATETIME = PermissibleValue(
+        text="DATETIME",
+        description="Date, time, or timestamp value")
+    TEXT = PermissibleValue(
+        text="TEXT",
+        description="Free-text string value")
+    IDENTIFIER = PermissibleValue(
+        text="IDENTIFIER",
+        description="Identifier or accession value")
+    ONTOLOGY_TERM = PermissibleValue(
+        text="ONTOLOGY_TERM",
+        description="Ontology CURIE, URI, or controlled vocabulary term")
+    ARRAY = PermissibleValue(
+        text="ARRAY",
+        description="Ordered list, vector, spectrum, profile, or other repeated values")
+    OBJECT = PermissibleValue(
+        text="OBJECT",
+        description="Structured object or nested record")
+
+    _defn = EnumDefinition(
+        name="VariableValueType",
+        description="Basic value shape for variables",
+    )
+
+class StudyDesignTerm(EnumDefinitionImpl):
+    """
+    OBI study design terms
+    """
+    _defn = EnumDefinition(
+        name="StudyDesignTerm",
+        description="OBI study design terms",
+    )
+
+class MIXSVariableTerm(EnumDefinitionImpl):
+    """
+    MIxS terms commonly useful when mapping catalogued study or dataset variables to sample, host, environment, and
+    sequencing metadata fields.
+    """
+    EXPERIMENTAL_FACTOR = PermissibleValue(
+        text="EXPERIMENTAL_FACTOR",
+        title="experimental factor",
+        meaning=MIXS["0000008"])
+    COLLECTION_DATE = PermissibleValue(
+        text="COLLECTION_DATE",
+        title="collection date",
+        meaning=MIXS["0000011"])
+    ENV_BROAD_SCALE = PermissibleValue(
+        text="ENV_BROAD_SCALE",
+        title="broad-scale environmental context",
+        meaning=MIXS["0000012"])
+    ENV_LOCAL_SCALE = PermissibleValue(
+        text="ENV_LOCAL_SCALE",
+        title="local environmental context",
+        meaning=MIXS["0000013"])
+    ENV_MEDIUM = PermissibleValue(
+        text="ENV_MEDIUM",
+        title="environmental medium",
+        meaning=MIXS["0000014"])
+    DEPTH = PermissibleValue(
+        text="DEPTH",
+        title="depth",
+        meaning=MIXS["0000018"])
+    WATER_CONTENT = PermissibleValue(
+        text="WATER_CONTENT",
+        title="water content",
+        meaning=MIXS["0000185"])
+    HOST_COMMON_NAME = PermissibleValue(
+        text="HOST_COMMON_NAME",
+        title="host common name",
+        meaning=MIXS["0000248"])
+    HOST_TAXID = PermissibleValue(
+        text="HOST_TAXID",
+        title="host taxid",
+        meaning=MIXS["0000250"])
+    HOST_GENOTYPE = PermissibleValue(
+        text="HOST_GENOTYPE",
+        title="host genotype",
+        meaning=MIXS["0000365"])
+    FERTILIZER_REGIMEN = PermissibleValue(
+        text="FERTILIZER_REGIMEN",
+        title="fertilizer regimen",
+        meaning=MIXS["0000556"])
+    WATERING_REGIMEN = PermissibleValue(
+        text="WATERING_REGIMEN",
+        title="watering regimen",
+        meaning=MIXS["0000591"])
+    CHEMICAL_ADMINISTRATION = PermissibleValue(
+        text="CHEMICAL_ADMINISTRATION",
+        title="chemical administration",
+        meaning=MIXS["0000751"])
+    PERTURBATION = PermissibleValue(
+        text="PERTURBATION",
+        title="perturbation",
+        meaning=MIXS["0000754"])
+    SEASON = PermissibleValue(
+        text="SEASON",
+        title="season",
+        meaning=MIXS["0000829"])
+    PLANT_GROWTH_MEDIUM = PermissibleValue(
+        text="PLANT_GROWTH_MEDIUM",
+        title="plant growth medium",
+        meaning=MIXS["0001057"])
+    SAMPLE_NAME = PermissibleValue(
+        text="SAMPLE_NAME",
+        title="sample name",
+        meaning=MIXS["0001107"])
+    SOIL_TEMPERATURE = PermissibleValue(
+        text="SOIL_TEMPERATURE",
+        title="soil temperature",
+        meaning=MIXS["0001163"])
+
+    _defn = EnumDefinition(
+        name="MIXSVariableTerm",
+        description="""MIxS terms commonly useful when mapping catalogued study or dataset variables to sample, host, environment, and sequencing metadata fields.""",
     )
 
 class Keyword(EnumDefinitionImpl):
@@ -3182,14 +3725,20 @@ slots.supported_data_types = Slot(uri=NMDC_SFAS_BRCS.supported_data_types, name=
 slots.datasets = Slot(uri=NMDC_SFAS_BRCS.datasets, name="datasets", curie=NMDC_SFAS_BRCS.curie('datasets'),
                    model_uri=NMDC_SFAS_BRCS.datasets, domain=None, range=Optional[Union[Union[dict, Dataset], list[Union[dict, Dataset]]]])
 
+slots.field_site_ids = Slot(uri=NMDC_SFAS_BRCS.field_site_ids, name="field_site_ids", curie=NMDC_SFAS_BRCS.curie('field_site_ids'),
+                   model_uri=NMDC_SFAS_BRCS.field_site_ids, domain=None, range=Optional[Union[Union[str, URIorCURIE], list[Union[str, URIorCURIE]]]])
+
+slots.study_design = Slot(uri=NMDC_SFAS_BRCS.study_design, name="study_design", curie=NMDC_SFAS_BRCS.curie('study_design'),
+                   model_uri=NMDC_SFAS_BRCS.study_design, domain=None, range=Optional[Union[dict, StudyDesign]])
+
+slots.variables = Slot(uri=NMDC_SFAS_BRCS.variables, name="variables", curie=NMDC_SFAS_BRCS.curie('variables'),
+                   model_uri=NMDC_SFAS_BRCS.variables, domain=None, range=Optional[Union[Union[dict, Variable], list[Union[dict, Variable]]]])
+
 slots.key_publications = Slot(uri=NMDC_SFAS_BRCS.key_publications, name="key_publications", curie=NMDC_SFAS_BRCS.curie('key_publications'),
                    model_uri=NMDC_SFAS_BRCS.key_publications, domain=None, range=Optional[Union[dict[Union[str, ReferenceId], Union[dict, Reference]], list[Union[dict, Reference]]]])
 
 slots.outputs = Slot(uri=NMDC_SFAS_BRCS.outputs, name="outputs", curie=NMDC_SFAS_BRCS.curie('outputs'),
                    model_uri=NMDC_SFAS_BRCS.outputs, domain=None, range=Optional[Union[dict, ProgramOutputs]])
-
-slots.field_sites = Slot(uri=NMDC_SFAS_BRCS.field_sites, name="field_sites", curie=NMDC_SFAS_BRCS.curie('field_sites'),
-                   model_uri=NMDC_SFAS_BRCS.field_sites, domain=None, range=Optional[Union[Union[dict, FieldSite], list[Union[dict, FieldSite]]]])
 
 slots.technologies_developed = Slot(uri=NMDC_SFAS_BRCS.technologies_developed, name="technologies_developed", curie=NMDC_SFAS_BRCS.curie('technologies_developed'),
                    model_uri=NMDC_SFAS_BRCS.technologies_developed, domain=None, range=Optional[Union[Union[dict, Technology], list[Union[dict, Technology]]]])
@@ -3236,6 +3785,12 @@ slots.doi_examples = Slot(uri=NMDC_SFAS_BRCS.doi_examples, name="doi_examples", 
 slots.established = Slot(uri=NMDC_SFAS_BRCS.established, name="established", curie=NMDC_SFAS_BRCS.curie('established'),
                    model_uri=NMDC_SFAS_BRCS.established, domain=None, range=Optional[int])
 
+slots.start_date = Slot(uri=NMDC_SFAS_BRCS.start_date, name="start_date", curie=NMDC_SFAS_BRCS.curie('start_date'),
+                   model_uri=NMDC_SFAS_BRCS.start_date, domain=None, range=Optional[str])
+
+slots.end_date = Slot(uri=NMDC_SFAS_BRCS.end_date, name="end_date", curie=NMDC_SFAS_BRCS.curie('end_date'),
+                   model_uri=NMDC_SFAS_BRCS.end_date, domain=None, range=Optional[str])
+
 slots.predecessor = Slot(uri=NMDC_SFAS_BRCS.predecessor, name="predecessor", curie=NMDC_SFAS_BRCS.curie('predecessor'),
                    model_uri=NMDC_SFAS_BRCS.predecessor, domain=None, range=Optional[str])
 
@@ -3253,6 +3808,12 @@ slots.researchProgramCollection__user_facilities = Slot(uri=NMDC_SFAS_BRCS.user_
 
 slots.researchProgramCollection__other_programs = Slot(uri=NMDC_SFAS_BRCS.other_programs, name="researchProgramCollection__other_programs", curie=NMDC_SFAS_BRCS.curie('other_programs'),
                    model_uri=NMDC_SFAS_BRCS.researchProgramCollection__other_programs, domain=None, range=Optional[Union[dict[Union[str, OtherProgramId], Union[dict, OtherProgram]], list[Union[dict, OtherProgram]]]])
+
+slots.researchProgramCollection__ai_projects = Slot(uri=NMDC_SFAS_BRCS.ai_projects, name="researchProgramCollection__ai_projects", curie=NMDC_SFAS_BRCS.curie('ai_projects'),
+                   model_uri=NMDC_SFAS_BRCS.researchProgramCollection__ai_projects, domain=None, range=Optional[Union[dict[Union[str, ArtificialIntelligenceProjectId], Union[dict, ArtificialIntelligenceProject]], list[Union[dict, ArtificialIntelligenceProject]]]])
+
+slots.researchProgramCollection__sites = Slot(uri=NMDC_SFAS_BRCS.sites, name="researchProgramCollection__sites", curie=NMDC_SFAS_BRCS.curie('sites'),
+                   model_uri=NMDC_SFAS_BRCS.researchProgramCollection__sites, domain=None, range=Optional[Union[dict[Union[str, FieldSiteId], Union[dict, FieldSite]], list[Union[dict, FieldSite]]]])
 
 slots.researchProgramCollection__metadata = Slot(uri=NMDC_SFAS_BRCS.metadata, name="researchProgramCollection__metadata", curie=NMDC_SFAS_BRCS.curie('metadata'),
                    model_uri=NMDC_SFAS_BRCS.researchProgramCollection__metadata, domain=None, range=Optional[Union[dict, CollectionMetadata]])
@@ -3317,6 +3878,9 @@ slots.webResources__main = Slot(uri=NMDC_SFAS_BRCS.main, name="webResources__mai
 slots.webResources__doe_page = Slot(uri=NMDC_SFAS_BRCS.doe_page, name="webResources__doe_page", curie=NMDC_SFAS_BRCS.curie('doe_page'),
                    model_uri=NMDC_SFAS_BRCS.webResources__doe_page, domain=None, range=Optional[Union[str, URI]])
 
+slots.webResources__award_list = Slot(uri=NMDC_SFAS_BRCS.award_list, name="webResources__award_list", curie=NMDC_SFAS_BRCS.curie('award_list'),
+                   model_uri=NMDC_SFAS_BRCS.webResources__award_list, domain=None, range=Optional[Union[str, URI]])
+
 slots.webResources__ornl_page = Slot(uri=NMDC_SFAS_BRCS.ornl_page, name="webResources__ornl_page", curie=NMDC_SFAS_BRCS.curie('ornl_page'),
                    model_uri=NMDC_SFAS_BRCS.webResources__ornl_page, domain=None, range=Optional[Union[str, URI]])
 
@@ -3379,6 +3943,60 @@ slots.webResources__phytozome = Slot(uri=NMDC_SFAS_BRCS.phytozome, name="webReso
 
 slots.dataset__primary_reference_info = Slot(uri=NMDC_SFAS_BRCS.primary_reference_info, name="dataset__primary_reference_info", curie=NMDC_SFAS_BRCS.curie('primary_reference_info'),
                    model_uri=NMDC_SFAS_BRCS.dataset__primary_reference_info, domain=None, range=Optional[Union[dict, PrimaryReferenceInfo]])
+
+slots.variable__roles = Slot(uri=NMDC_SFAS_BRCS.roles, name="variable__roles", curie=NMDC_SFAS_BRCS.curie('roles'),
+                   model_uri=NMDC_SFAS_BRCS.variable__roles, domain=None, range=Optional[Union[Union[str, "VariableRole"], list[Union[str, "VariableRole"]]]])
+
+slots.variable__value_type = Slot(uri=NMDC_SFAS_BRCS.value_type, name="variable__value_type", curie=NMDC_SFAS_BRCS.curie('value_type'),
+                   model_uri=NMDC_SFAS_BRCS.variable__value_type, domain=None, range=Optional[Union[str, "VariableValueType"]])
+
+slots.variable__units = Slot(uri=NMDC_SFAS_BRCS.units, name="variable__units", curie=NMDC_SFAS_BRCS.curie('units'),
+                   model_uri=NMDC_SFAS_BRCS.variable__units, domain=None, range=Optional[str])
+
+slots.variable__unit_term = Slot(uri=NMDC_SFAS_BRCS.unit_term, name="variable__unit_term", curie=NMDC_SFAS_BRCS.curie('unit_term'),
+                   model_uri=NMDC_SFAS_BRCS.variable__unit_term, domain=None, range=Optional[Union[dict, OntologyTerm]])
+
+slots.variable__bervo_term = Slot(uri=NMDC_SFAS_BRCS.bervo_term, name="variable__bervo_term", curie=NMDC_SFAS_BRCS.curie('bervo_term'),
+                   model_uri=NMDC_SFAS_BRCS.variable__bervo_term, domain=None, range=Optional[Union[dict, BERVOTerm]])
+
+slots.variable__mixs_terms = Slot(uri=NMDC_SFAS_BRCS.mixs_terms, name="variable__mixs_terms", curie=NMDC_SFAS_BRCS.curie('mixs_terms'),
+                   model_uri=NMDC_SFAS_BRCS.variable__mixs_terms, domain=None, range=Optional[Union[dict[Union[str, MIXSTermId], Union[dict, MIXSTerm]], list[Union[dict, MIXSTerm]]]])
+
+slots.variable__ontology_mappings = Slot(uri=NMDC_SFAS_BRCS.ontology_mappings, name="variable__ontology_mappings", curie=NMDC_SFAS_BRCS.curie('ontology_mappings'),
+                   model_uri=NMDC_SFAS_BRCS.variable__ontology_mappings, domain=None, range=Optional[Union[dict[Union[str, OntologyTermId], Union[dict, OntologyTerm]], list[Union[dict, OntologyTerm]]]])
+
+slots.variable__measured_entity = Slot(uri=NMDC_SFAS_BRCS.measured_entity, name="variable__measured_entity", curie=NMDC_SFAS_BRCS.curie('measured_entity'),
+                   model_uri=NMDC_SFAS_BRCS.variable__measured_entity, domain=None, range=Optional[str])
+
+slots.variable__material_or_matrix = Slot(uri=NMDC_SFAS_BRCS.material_or_matrix, name="variable__material_or_matrix", curie=NMDC_SFAS_BRCS.curie('material_or_matrix'),
+                   model_uri=NMDC_SFAS_BRCS.variable__material_or_matrix, domain=None, range=Optional[str])
+
+slots.variable__method = Slot(uri=NMDC_SFAS_BRCS.method, name="variable__method", curie=NMDC_SFAS_BRCS.curie('method'),
+                   model_uri=NMDC_SFAS_BRCS.variable__method, domain=None, range=Optional[str])
+
+slots.variable__time_series = Slot(uri=NMDC_SFAS_BRCS.time_series, name="variable__time_series", curie=NMDC_SFAS_BRCS.curie('time_series'),
+                   model_uri=NMDC_SFAS_BRCS.variable__time_series, domain=None, range=Optional[Union[bool, Bool]])
+
+slots.variable__temporal_resolution = Slot(uri=NMDC_SFAS_BRCS.temporal_resolution, name="variable__temporal_resolution", curie=NMDC_SFAS_BRCS.curie('temporal_resolution'),
+                   model_uri=NMDC_SFAS_BRCS.variable__temporal_resolution, domain=None, range=Optional[str])
+
+slots.variable__spatial_resolution = Slot(uri=NMDC_SFAS_BRCS.spatial_resolution, name="variable__spatial_resolution", curie=NMDC_SFAS_BRCS.curie('spatial_resolution'),
+                   model_uri=NMDC_SFAS_BRCS.variable__spatial_resolution, domain=None, range=Optional[str])
+
+slots.variable__levels = Slot(uri=NMDC_SFAS_BRCS.levels, name="variable__levels", curie=NMDC_SFAS_BRCS.curie('levels'),
+                   model_uri=NMDC_SFAS_BRCS.variable__levels, domain=None, range=Optional[Union[str, list[str]]])
+
+slots.variable__source_field_names = Slot(uri=NMDC_SFAS_BRCS.source_field_names, name="variable__source_field_names", curie=NMDC_SFAS_BRCS.curie('source_field_names'),
+                   model_uri=NMDC_SFAS_BRCS.variable__source_field_names, domain=None, range=Optional[Union[str, list[str]]])
+
+slots.variable__notes = Slot(uri=NMDC_SFAS_BRCS.notes, name="variable__notes", curie=NMDC_SFAS_BRCS.curie('notes'),
+                   model_uri=NMDC_SFAS_BRCS.variable__notes, domain=None, range=Optional[str])
+
+slots.ontologyTerm__id = Slot(uri=NMDC_SFAS_BRCS.id, name="ontologyTerm__id", curie=NMDC_SFAS_BRCS.curie('id'),
+                   model_uri=NMDC_SFAS_BRCS.ontologyTerm__id, domain=None, range=URIRef)
+
+slots.ontologyTerm__label = Slot(uri=NMDC_SFAS_BRCS.label, name="ontologyTerm__label", curie=NMDC_SFAS_BRCS.curie('label'),
+                   model_uri=NMDC_SFAS_BRCS.ontologyTerm__label, domain=None, range=str)
 
 slots.finding__reference = Slot(uri=NMDC_SFAS_BRCS.reference, name="finding__reference", curie=NMDC_SFAS_BRCS.curie('reference'),
                    model_uri=NMDC_SFAS_BRCS.finding__reference, domain=None, range=Optional[Union[str, URIorCURIE]])
@@ -3478,6 +4096,33 @@ slots.webReference__title = Slot(uri=NMDC_SFAS_BRCS.title, name="webReference__t
 
 slots.webReference__summary = Slot(uri=NMDC_SFAS_BRCS.summary, name="webReference__summary", curie=NMDC_SFAS_BRCS.curie('summary'),
                    model_uri=NMDC_SFAS_BRCS.webReference__summary, domain=None, range=Optional[str])
+
+slots.studyDesign__design_types = Slot(uri=NMDC_SFAS_BRCS.design_types, name="studyDesign__design_types", curie=NMDC_SFAS_BRCS.curie('design_types'),
+                   model_uri=NMDC_SFAS_BRCS.studyDesign__design_types, domain=None, range=Optional[Union[dict[Union[str, OntologyTermId], Union[dict, OntologyTerm]], list[Union[dict, OntologyTerm]]]])
+
+slots.studyDesign__experimental_units = Slot(uri=NMDC_SFAS_BRCS.experimental_units, name="studyDesign__experimental_units", curie=NMDC_SFAS_BRCS.curie('experimental_units'),
+                   model_uri=NMDC_SFAS_BRCS.studyDesign__experimental_units, domain=None, range=Optional[Union[str, list[str]]])
+
+slots.studyDesign__observational_units = Slot(uri=NMDC_SFAS_BRCS.observational_units, name="studyDesign__observational_units", curie=NMDC_SFAS_BRCS.curie('observational_units'),
+                   model_uri=NMDC_SFAS_BRCS.studyDesign__observational_units, domain=None, range=Optional[Union[str, list[str]]])
+
+slots.studyDesign__sampling_strategy = Slot(uri=NMDC_SFAS_BRCS.sampling_strategy, name="studyDesign__sampling_strategy", curie=NMDC_SFAS_BRCS.curie('sampling_strategy'),
+                   model_uri=NMDC_SFAS_BRCS.studyDesign__sampling_strategy, domain=None, range=Optional[str])
+
+slots.studyDesign__replication = Slot(uri=NMDC_SFAS_BRCS.replication, name="studyDesign__replication", curie=NMDC_SFAS_BRCS.curie('replication'),
+                   model_uri=NMDC_SFAS_BRCS.studyDesign__replication, domain=None, range=Optional[str])
+
+slots.studyDesign__randomization = Slot(uri=NMDC_SFAS_BRCS.randomization, name="studyDesign__randomization", curie=NMDC_SFAS_BRCS.curie('randomization'),
+                   model_uri=NMDC_SFAS_BRCS.studyDesign__randomization, domain=None, range=Optional[str])
+
+slots.studyDesign__blocking = Slot(uri=NMDC_SFAS_BRCS.blocking, name="studyDesign__blocking", curie=NMDC_SFAS_BRCS.curie('blocking'),
+                   model_uri=NMDC_SFAS_BRCS.studyDesign__blocking, domain=None, range=Optional[str])
+
+slots.studyDesign__controls = Slot(uri=NMDC_SFAS_BRCS.controls, name="studyDesign__controls", curie=NMDC_SFAS_BRCS.curie('controls'),
+                   model_uri=NMDC_SFAS_BRCS.studyDesign__controls, domain=None, range=Optional[str])
+
+slots.studyDesign__notes = Slot(uri=NMDC_SFAS_BRCS.notes, name="studyDesign__notes", curie=NMDC_SFAS_BRCS.curie('notes'),
+                   model_uri=NMDC_SFAS_BRCS.studyDesign__notes, domain=None, range=Optional[str])
 
 slots.nMDCStudyReference__pi = Slot(uri=NMDC_SFAS_BRCS.pi, name="nMDCStudyReference__pi", curie=NMDC_SFAS_BRCS.curie('pi'),
                    model_uri=NMDC_SFAS_BRCS.nMDCStudyReference__pi, domain=None, range=Optional[str])
@@ -3648,5 +4293,25 @@ slots.ScientificFocusArea_program_type = Slot(uri=NMDC_SFAS_BRCS.program_type, n
 slots.OtherProgram_program_type = Slot(uri=NMDC_SFAS_BRCS.program_type, name="OtherProgram_program_type", curie=NMDC_SFAS_BRCS.curie('program_type'),
                    model_uri=NMDC_SFAS_BRCS.OtherProgram_program_type, domain=OtherProgram, range=Optional[Union[str, "ProgramType"]])
 
+slots.ArtificialIntelligenceProject_program_type = Slot(uri=NMDC_SFAS_BRCS.program_type, name="ArtificialIntelligenceProject_program_type", curie=NMDC_SFAS_BRCS.curie('program_type'),
+                   model_uri=NMDC_SFAS_BRCS.ArtificialIntelligenceProject_program_type, domain=ArtificialIntelligenceProject, range=Optional[Union[str, "ProgramType"]])
+
+slots.Variable_name = Slot(uri=SCHEMA.name, name="Variable_name", curie=SCHEMA.curie('name'),
+                   model_uri=NMDC_SFAS_BRCS.Variable_name, domain=Variable, range=str)
+
+slots.BERVOTerm_id = Slot(uri=SCHEMA.identifier, name="BERVOTerm_id", curie=SCHEMA.curie('identifier'),
+                   model_uri=NMDC_SFAS_BRCS.BERVOTerm_id, domain=BERVOTerm, range=Union[str, BERVOTermId],
+                   pattern=re.compile(r'^BERVO:\d+$'))
+
+slots.MIXSTerm_id = Slot(uri=SCHEMA.identifier, name="MIXSTerm_id", curie=SCHEMA.curie('identifier'),
+                   model_uri=NMDC_SFAS_BRCS.MIXSTerm_id, domain=MIXSTerm, range=Union[str, MIXSTermId],
+                   pattern=re.compile(r'^MIXS:\d{7}$'))
+
 slots.Reference_id = Slot(uri=SCHEMA.identifier, name="Reference_id", curie=SCHEMA.curie('identifier'),
                    model_uri=NMDC_SFAS_BRCS.Reference_id, domain=Reference, range=Union[str, ReferenceId])
+
+slots.FieldSite_id = Slot(uri=SCHEMA.identifier, name="FieldSite_id", curie=SCHEMA.curie('identifier'),
+                   model_uri=NMDC_SFAS_BRCS.FieldSite_id, domain=FieldSite, range=Union[str, FieldSiteId])
+
+slots.FieldSite_name = Slot(uri=SCHEMA.name, name="FieldSite_name", curie=SCHEMA.curie('name'),
+                   model_uri=NMDC_SFAS_BRCS.FieldSite_name, domain=FieldSite, range=str)

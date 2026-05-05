@@ -68,6 +68,14 @@
         {{ field('Funding period', program.funding_period) }}
         {% endif %}
 
+        {% if program.start_date %}
+        {{ field('Start date', program.start_date) }}
+        {% endif %}
+
+        {% if program.end_date %}
+        {{ field('End date', program.end_date) }}
+        {% endif %}
+
         {% if program.participating_offices %}
         <div class="field">
             <span class="field-label">DOE offices:</span>
@@ -177,7 +185,7 @@
         {% endif %}
 
         {# Collapsible sections #}
-        {{ field_sites_section(program.field_sites) }}
+        {{ field_sites_section(program.resolved_field_sites) }}
         {{ isolate_collections_section(program.isolate_collections) }}
         {{ studies_section(program.studies) }}
         {{ analyses_section(program.analyses) }}

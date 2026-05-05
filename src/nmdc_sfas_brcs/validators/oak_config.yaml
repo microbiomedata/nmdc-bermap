@@ -6,6 +6,10 @@
 ontology_adapters:
   # Core biological/experimental ontologies used in this schema
   OBI: sqlite:obo:obi
+  STATO: sqlite:obo:stato
+  EFO: sqlite:obo:efo
+  BERVO: sqlite:obo:bervo
+  MIXS: sqlite:obo:mixs
 
   # Additional ontologies that may be useful
   GO: sqlite:obo:go
@@ -17,6 +21,7 @@ ontology_adapters:
   # Skip validation for these prefixes (not real ontologies or not available)
   schema:
   dcterms:
+  rdfs:
   linkml:
   orcid:
   ror:

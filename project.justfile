@@ -16,6 +16,23 @@ validate-enums-verbose:
 validate-enums-strict:
   uv run python -m nmdc_sfas_brcs.validators.enum_evaluator src/nmdc_sfas_brcs/schema/nmdc_sfas_brcs.yaml --strict
 
+# Validate ontology term IDs and labels in schema/data using linkml-term-validator
+validate-terms *ARGS:
+  uv run linkml-term-validator validate-schema src/nmdc_sfas_brcs/schema/nmdc_sfas_brcs.yaml -c src/nmdc_sfas_brcs/validators/oak_config.yaml {{ARGS}}
+  uv run linkml-term-validator validate-data db/sfas-brcs.yaml -s src/nmdc_sfas_brcs/schema/nmdc_sfas_brcs.yaml -t ResearchProgramCollection -c src/nmdc_sfas_brcs/validators/oak_config.yaml {{ARGS}}
+
+# Inspect NMDC biosample attributes for a catalogued NMDC study
+check-nmdc-sample-attributes STUDY_ID *ARGS:
+  uv run python -m nmdc_sfas_brcs.validators.nmdc_sample_attribute_validator db/sfas-brcs.yaml --study-id {{STUDY_ID}} --show-attributes {{ARGS}}
+
+# Validate catalogued sample-like variables against NMDC biosample attributes
+validate-nmdc-sample-attributes *ARGS:
+  uv run python -m nmdc_sfas_brcs.validators.nmdc_sample_attribute_validator db/sfas-brcs.yaml {{ARGS}}
+
+# Strict NMDC sample attribute validation (fails on uncovered non-admin NMDC sample attributes)
+validate-nmdc-sample-attributes-strict *ARGS:
+  uv run python -m nmdc_sfas_brcs.validators.nmdc_sample_attribute_validator db/sfas-brcs.yaml --strict {{ARGS}}
+
 # Convert database to TTL and merge with TBox OWL
 gen-abox-tbox:
   -mkdir -p db/owl
@@ -53,3 +70,4 @@ gen-associations:
 
 sync:
   scp docs/browser.html cmungall@perlmutter.nersc.gov:/global/cfs/cdirs/m3408/www/nmdc-sfas-brcs/
+  scp docs/variables.html docs/variable-index.yaml cmungall@perlmutter.nersc.gov:/global/cfs/cdirs/m3408/www/nmdc-sfas-brcs/

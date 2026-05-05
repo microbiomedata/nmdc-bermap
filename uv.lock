@@ -2085,6 +2085,23 @@ wheels = [
 ]
 
 [[package]]
+name = "linkml-term-validator"
+version = "0.3.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "linkml" },
+    { name = "linkml-runtime" },
+    { name = "oaklib" },
+    { name = "pydantic" },
+    { name = "ruamel-yaml" },
+    { name = "typer" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/4b/84/e25d7cf7155087747ceb9bcdbdc55f8c12f6c21b3769ff57549f31578107/linkml_term_validator-0.3.0.tar.gz", hash = "sha256:08b405adedddf75613a926c29648127604b8c82c3e033e4ab7c057b6eb7de9a6", size = 389004 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/65/c7/3703848cb5339a1046f29001a622228994a942346cc815dcfe517c47cf6c/linkml_term_validator-0.3.0-py3-none-any.whl", hash = "sha256:59eda4ba64c1bda24a6e76f497fb52632c4d62efc36e6277f17a6b9fef04a19d", size = 41208 },
+]
+
+[[package]]
 name = "lxml"
 version = "6.0.2"
 source = { registry = "https://pypi.org/simple" }
@@ -2694,6 +2711,7 @@ dependencies = [
 dev = [
     { name = "jupyter" },
     { name = "linkml" },
+    { name = "linkml-term-validator" },
     { name = "mkdocs-material" },
     { name = "mkdocs-mermaid2-plugin" },
     { name = "mknotebooks" },
@@ -2715,6 +2733,7 @@ requires-dist = [
 dev = [
     { name = "jupyter", specifier = ">=1.0.0" },
     { name = "linkml", specifier = ">=1.9.3" },
+    { name = "linkml-term-validator", specifier = ">=0.3.0" },
     { name = "mkdocs-material", specifier = ">=8.2.8" },
     { name = "mkdocs-mermaid2-plugin", specifier = ">=1.1.1" },
     { name = "mknotebooks", specifier = ">=0.8.0" },
