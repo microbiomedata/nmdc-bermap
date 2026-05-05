@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://my-org.github.io/nmdc-sfas-brcs/elements/field_sites/">
+        <link rel="canonical" href="https://my-org.github.io/nmdc-sfas-brcs/elements/bervo_term/">
       
       
       
@@ -21,7 +21,7 @@
     
     
       
-        <title>Slot: field_sites - nmdc-sfas-brcs</title>
+        <title>Slot: bervo_term - nmdc-sfas-brcs</title>
       
     
     
@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#slot-field_sites" class="md-skip">
+        <a href="#slot-bervo_term" class="md-skip">
           Skip to content
         </a>
       
@@ -104,7 +104,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Slot: field_sites
+              Slot: bervo_term
             
           </span>
         </div>
@@ -416,10 +416,10 @@
   
 
 
-<h1 id="slot-field_sites">Slot: field_sites</h1>
-<p><em>Field research sites associated with the program</em></p>
-<p>URI: <a href="https://w3id.org/nmdc/sfas-brcs/field_sites">nmdc_sfas_brcs:field_sites</a>
-Alias: field_sites</p>
+<h1 id="slot-bervo_term">Slot: bervo_term</h1>
+<p><em>Primary BERVO class mapping for this variable, when available</em></p>
+<p>URI: <a href="https://w3id.org/nmdc/sfas-brcs/bervo_term">nmdc_sfas_brcs:bervo_term</a>
+Alias: bervo_term</p>
 <!-- no inheritance hierarchy -->
 
 <h2 id="applicable-classes">Applicable Classes</h2>
@@ -433,35 +433,15 @@ Alias: field_sites</p>
 </thead>
 <tbody>
 <tr>
-<td><a href="../ResearchProgram/">ResearchProgram</a></td>
-<td>A DOE BER funded research program</td>
-<td>no</td>
-</tr>
-<tr>
-<td><a href="../BioenergyResearchCenter/">BioenergyResearchCenter</a></td>
-<td>A DOE Bioenergy Research Center (BRC)</td>
-<td>no</td>
-</tr>
-<tr>
-<td><a href="../OtherProgram/">OtherProgram</a></td>
-<td>Other DOE research programs and initiatives that don't fit the traditional SF...</td>
-<td>no</td>
-</tr>
-<tr>
-<td><a href="../ScientificFocusArea/">ScientificFocusArea</a></td>
-<td>A DOE Scientific Focus Area (SFA)</td>
+<td><a href="../Variable/">Variable</a></td>
+<td>A variable, factor, measurement, or metadata field observed, manipulated, der...</td>
 <td>no</td>
 </tr>
 </tbody>
 </table>
 <h2 id="properties">Properties</h2>
 <ul>
-<li>
-<p>Range: <a href="../FieldSite/">FieldSite</a></p>
-</li>
-<li>
-<p>Multivalued: True</p>
-</li>
+<li>Range: <a href="../BERVOTerm/">BERVOTerm</a></li>
 </ul>
 <h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
 <h3 id="schema-source">Schema Source</h3>
@@ -479,28 +459,27 @@ Alias: field_sites</p>
 <tbody>
 <tr>
 <td>self</td>
-<td>nmdc_sfas_brcs:field_sites</td>
+<td>nmdc_sfas_brcs:bervo_term</td>
 </tr>
 <tr>
 <td>native</td>
-<td>nmdc_sfas_brcs:field_sites</td>
+<td>nmdc_sfas_brcs:bervo_term</td>
 </tr>
 </tbody>
 </table>
 <h2 id="linkml-source">LinkML Source</h2>
 <details>
 
-<pre><code class="language-yaml">name: field_sites
-description: Field research sites associated with the program
+<pre><code class="language-yaml">name: bervo_term
+description: Primary BERVO class mapping for this variable, when available
 from_schema: https://w3id.org/nmdc/sfas-brcs
 rank: 1000
-alias: field_sites
+alias: bervo_term
+owner: Variable
 domain_of:
-- ResearchProgram
-range: FieldSite
-multivalued: true
+- Variable
+range: BERVOTerm
 inlined: true
-inlined_as_list: true
 
 </code></pre>
 

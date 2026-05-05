@@ -27,6 +27,9 @@ prefixes:
   dcterms:
     prefix_prefix: dcterms
     prefix_reference: http://purl.org/dc/terms/
+  rdfs:
+    prefix_prefix: rdfs
+    prefix_reference: http://www.w3.org/2000/01/rdf-schema#
   orcid:
     prefix_prefix: orcid
     prefix_reference: https://orcid.org/
@@ -48,9 +51,24 @@ prefixes:
   OBI:
     prefix_prefix: OBI
     prefix_reference: http://purl.obolibrary.org/obo/OBI_
+  STATO:
+    prefix_prefix: STATO
+    prefix_reference: http://purl.obolibrary.org/obo/STATO_
+  EFO:
+    prefix_prefix: EFO
+    prefix_reference: http://www.ebi.ac.uk/efo/EFO_
   NCBITaxon:
     prefix_prefix: NCBITaxon
     prefix_reference: http://purl.obolibrary.org/obo/NCBITaxon_
+  BERVO:
+    prefix_prefix: BERVO
+    prefix_reference: https://w3id.org/bervo/BERVO_
+  MIXS:
+    prefix_prefix: MIXS
+    prefix_reference: https://w3id.org/mixs/
+  communitymech:
+    prefix_prefix: communitymech
+    prefix_reference: https://w3id.org/communitymech/
 default_prefix: nmdc_sfas_brcs
 default_range: string
 types:
@@ -352,6 +370,15 @@ enums:
         description: A biopreparedness research initiative such as BRaVE (Biopreparedness
           Research Virtual Environment) - typically cross-cutting, time-limited projects
           spanning multiple DOE offices
+      AI_PILOT_PROJECT:
+        text: AI_PILOT_PROJECT
+        description: Artificial intelligence pilot project or AI-enabled science initiative,
+          typically cross-cutting and often involving BER and ASCR.
+      FIELD_CAMPAIGN:
+        text: FIELD_CAMPAIGN
+        description: Time-limited coordinated field campaign, often associated with
+          an SFA or other BER program, producing campaign-specific observations and
+          datasets.
       OTHER_INITIATIVE:
         text: OTHER_INITIATIVE
         description: Other research initiatives that don't fit traditional categories
@@ -711,6 +738,218 @@ enums:
       SEQUENCE_ENRICHMENT:
         text: SEQUENCE_ENRICHMENT
         description: Sequence-based enrichment techniques for detecting endosymbionts
+  VariableRole:
+    name: VariableRole
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/VariableRole
+    description: Roles that a variable can play in a study design, dataset, or analysis.
+      Where possible, roles are aligned to OBI, STATO, or EFO terms. Use the narrower
+      study-design roles when the variable's role is known from the experimental design;
+      use MEASURED_VARIABLE for observed data fields when no dependent/independent
+      interpretation is intended.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    permissible_values:
+      STUDY_DESIGN_INDEPENDENT_VARIABLE:
+        text: STUDY_DESIGN_INDEPENDENT_VARIABLE
+        description: Study design variable that is varied, selected, or otherwise
+          used to explain or predict changes in another variable.
+        meaning: OBI:0000750
+        title: study design independent variable
+        aliases:
+        - independent variable
+        - predictor variable
+        - explanatory variable
+      STUDY_DESIGN_DEPENDENT_VARIABLE:
+        text: STUDY_DESIGN_DEPENDENT_VARIABLE
+        description: Study design variable whose value is expected to vary as a result
+          of other variables.
+        meaning: OBI:0000751
+        title: study design dependent variable
+        aliases:
+        - dependent variable
+        - response variable
+        - outcome variable
+      STUDY_DESIGN_CONTROLLED_VARIABLE:
+        text: STUDY_DESIGN_CONTROLLED_VARIABLE
+        description: Study design variable held constant or constrained by the study
+          design.
+        meaning: OBI:0000785
+        title: study design controlled variable
+        aliases:
+        - controlled variable
+        - control variable
+      EXPERIMENTAL_FACTOR:
+        text: EXPERIMENTAL_FACTOR
+        description: Variable representing an experimental factor or condition.
+        meaning: EFO:0000001
+        title: experimental factor
+      BLOCKING_VARIABLE:
+        text: BLOCKING_VARIABLE
+        description: Variable used to form blocks or strata in a study design or analysis.
+        meaning: STATO:0000248
+        title: blocking variable
+      MEASURED_VARIABLE:
+        text: MEASURED_VARIABLE
+        description: Directly observed or measured variable.
+      COVARIATE:
+        text: COVARIATE
+        description: Additional contextual or adjustment variable included in an analysis.
+      DERIVED:
+        text: DERIVED
+        description: Variable computed, transformed, or inferred from other variables
+      DATE_TIME_VARIABLE:
+        text: DATE_TIME_VARIABLE
+        description: Variable whose values represent dates or times.
+        meaning: STATO:0000729
+        title: date Time variable
+        aliases:
+        - time variable
+        - date time variable
+      TIME_TO_EVENT_VARIABLE:
+        text: TIME_TO_EVENT_VARIABLE
+        description: Variable whose values represent elapsed time until an event.
+        meaning: STATO:0000731
+        title: time-to-event variable
+      SPATIAL_INDEX:
+        text: SPATIAL_INDEX
+        description: Location, plot, coordinate, depth, transect, or other spatial
+          index
+      GROUPING:
+        text: GROUPING
+        description: Replicate group, block, batch, genotype group, or other grouping
+          variable
+      IDENTIFIER:
+        text: IDENTIFIER
+        description: Sample, subject, feature, file, or other identifier field
+      QUALITY_CONTROL:
+        text: QUALITY_CONTROL
+        description: Quality flag, censoring flag, uncertainty estimate, or QC metric
+  VariableValueType:
+    name: VariableValueType
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/VariableValueType
+    description: Basic value shape for variables
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    permissible_values:
+      NUMERIC:
+        text: NUMERIC
+        description: Numeric value that may include decimals
+      INTEGER:
+        text: INTEGER
+        description: Integer count or whole-number value
+      CATEGORICAL:
+        text: CATEGORICAL
+        description: Value drawn from a finite set of categories or levels
+      BOOLEAN:
+        text: BOOLEAN
+        description: True/false value
+      DATETIME:
+        text: DATETIME
+        description: Date, time, or timestamp value
+      TEXT:
+        text: TEXT
+        description: Free-text string value
+      IDENTIFIER:
+        text: IDENTIFIER
+        description: Identifier or accession value
+      ONTOLOGY_TERM:
+        text: ONTOLOGY_TERM
+        description: Ontology CURIE, URI, or controlled vocabulary term
+      ARRAY:
+        text: ARRAY
+        description: Ordered list, vector, spectrum, profile, or other repeated values
+      OBJECT:
+        text: OBJECT
+        description: Structured object or nested record
+  StudyDesignTerm:
+    name: StudyDesignTerm
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/StudyDesignTerm
+    description: OBI study design terms
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    reachable_from:
+      source_ontology: sqlite:obo:obi
+      source_nodes:
+      - OBI:0500000
+      relationship_types:
+      - rdfs:subClassOf
+      include_self: true
+  MIXSVariableTerm:
+    name: MIXSVariableTerm
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/MIXSVariableTerm
+    description: MIxS terms commonly useful when mapping catalogued study or dataset
+      variables to sample, host, environment, and sequencing metadata fields.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    permissible_values:
+      EXPERIMENTAL_FACTOR:
+        text: EXPERIMENTAL_FACTOR
+        meaning: MIXS:0000008
+        title: experimental factor
+      COLLECTION_DATE:
+        text: COLLECTION_DATE
+        meaning: MIXS:0000011
+        title: collection date
+      ENV_BROAD_SCALE:
+        text: ENV_BROAD_SCALE
+        meaning: MIXS:0000012
+        title: broad-scale environmental context
+      ENV_LOCAL_SCALE:
+        text: ENV_LOCAL_SCALE
+        meaning: MIXS:0000013
+        title: local environmental context
+      ENV_MEDIUM:
+        text: ENV_MEDIUM
+        meaning: MIXS:0000014
+        title: environmental medium
+      DEPTH:
+        text: DEPTH
+        meaning: MIXS:0000018
+        title: depth
+      WATER_CONTENT:
+        text: WATER_CONTENT
+        meaning: MIXS:0000185
+        title: water content
+      HOST_COMMON_NAME:
+        text: HOST_COMMON_NAME
+        meaning: MIXS:0000248
+        title: host common name
+      HOST_TAXID:
+        text: HOST_TAXID
+        meaning: MIXS:0000250
+        title: host taxid
+      HOST_GENOTYPE:
+        text: HOST_GENOTYPE
+        meaning: MIXS:0000365
+        title: host genotype
+      FERTILIZER_REGIMEN:
+        text: FERTILIZER_REGIMEN
+        meaning: MIXS:0000556
+        title: fertilizer regimen
+      WATERING_REGIMEN:
+        text: WATERING_REGIMEN
+        meaning: MIXS:0000591
+        title: watering regimen
+      CHEMICAL_ADMINISTRATION:
+        text: CHEMICAL_ADMINISTRATION
+        meaning: MIXS:0000751
+        title: chemical administration
+      PERTURBATION:
+        text: PERTURBATION
+        meaning: MIXS:0000754
+        title: perturbation
+      SEASON:
+        text: SEASON
+        meaning: MIXS:0000829
+        title: season
+      PLANT_GROWTH_MEDIUM:
+        text: PLANT_GROWTH_MEDIUM
+        meaning: MIXS:0001057
+        title: plant growth medium
+      SAMPLE_NAME:
+        text: SAMPLE_NAME
+        meaning: MIXS:0001107
+        title: sample name
+      SOIL_TEMPERATURE:
+        text: SOIL_TEMPERATURE
+        meaning: MIXS:0001163
+        title: soil temperature
   Keyword:
     name: Keyword
     definition_uri: https://w3id.org/nmdc/sfas-brcs/Keyword
@@ -2003,8 +2242,8 @@ slots:
     - Institution
     - Person
     - Dataset
+    - Variable
     - IsolateCollection
-    - FieldSite
     - Technology
     - NMDCStudyReference
     - FlagshipGenome
@@ -2024,9 +2263,10 @@ slots:
     - NamedThing
     - Institution
     - Dataset
+    - Variable
     - IsolateCollection
-    - FieldSite
     - Technology
+    - StudyDesign
     - NMDCStudyReference
     - FlagshipGenome
     - Capability
@@ -2427,6 +2667,46 @@ slots:
     multivalued: true
     inlined: true
     inlined_as_list: true
+  field_site_ids:
+    name: field_site_ids
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/field_site_ids
+    description: Identifiers of canonical field sites associated with the program
+      or study. These reference entries in the top-level sites collection.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:field_site_ids
+    owner: NMDCStudyReference
+    domain_of:
+    - ResearchProgram
+    - NMDCStudyReference
+    range: uriorcurie
+    multivalued: true
+  study_design:
+    name: study_design
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/study_design
+    description: Study design metadata associated with a study
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:study_design
+    owner: NMDCStudyReference
+    domain_of:
+    - NMDCStudyReference
+    range: StudyDesign
+    inlined: true
+    inlined_as_list: true
+  variables:
+    name: variables
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/variables
+    description: Variables, factors, measurements, or data fields catalogued for a
+      study or dataset.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:variables
+    owner: NMDCStudyReference
+    domain_of:
+    - Dataset
+    - NMDCStudyReference
+    range: Variable
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
   key_publications:
     name: key_publications
     definition_uri: https://w3id.org/nmdc/sfas-brcs/key_publications
@@ -2450,19 +2730,6 @@ slots:
     domain_of:
     - BioenergyResearchCenter
     range: ProgramOutputs
-    inlined: true
-    inlined_as_list: true
-  field_sites:
-    name: field_sites
-    definition_uri: https://w3id.org/nmdc/sfas-brcs/field_sites
-    description: Field research sites associated with the program
-    from_schema: https://w3id.org/nmdc/sfas-brcs
-    slot_uri: nmdc_sfas_brcs:field_sites
-    owner: ResearchProgram
-    domain_of:
-    - ResearchProgram
-    range: FieldSite
-    multivalued: true
     inlined: true
     inlined_as_list: true
   technologies_developed:
@@ -2627,6 +2894,31 @@ slots:
     domain_of:
     - ResearchProgram
     range: integer
+  start_date:
+    name: start_date
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/start_date
+    description: Date or year when the program started. Prefer ISO 8601 dates when
+      known; use a year-only value when the exact date is not known.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:start_date
+    owner: UserFacility
+    domain_of:
+    - ResearchProgram
+    - UserFacility
+    range: string
+  end_date:
+    name: end_date
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/end_date
+    description: Date or year when the program ended. Leave empty for ongoing programs.
+      Prefer ISO 8601 dates when known; use a year-only value when the exact date
+      is not known.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:end_date
+    owner: UserFacility
+    domain_of:
+    - ResearchProgram
+    - UserFacility
+    range: string
   predecessor:
     name: predecessor
     definition_uri: https://w3id.org/nmdc/sfas-brcs/predecessor
@@ -2701,6 +2993,34 @@ slots:
     domain_of:
     - ResearchProgramCollection
     range: OtherProgram
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  researchProgramCollection__ai_projects:
+    name: researchProgramCollection__ai_projects
+    description: DOE artificial intelligence pilot projects and related AI-enabled
+      science initiatives, including BER/ASCR-supported projects.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:ai_projects
+    alias: ai_projects
+    owner: ResearchProgramCollection
+    domain_of:
+    - ResearchProgramCollection
+    range: ArtificialIntelligenceProject
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  researchProgramCollection__sites:
+    name: researchProgramCollection__sites
+    description: Canonical collection of field sites referenced by programs and studies.
+      Sites are modeled once here and linked by identifier.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:sites
+    alias: sites
+    owner: ResearchProgramCollection
+    domain_of:
+    - ResearchProgramCollection
+    range: FieldSite
     multivalued: true
     inlined: true
     inlined_as_list: true
@@ -2918,6 +3238,16 @@ slots:
     domain_of:
     - WebResources
     range: uri
+  webResources__award_list:
+    name: webResources__award_list
+    description: DOE award list, funding announcement, or award summary URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:award_list
+    alias: award_list
+    owner: WebResources
+    domain_of:
+    - WebResources
+    range: uri
   webResources__ornl_page:
     name: webResources__ornl_page
     description: ORNL project page URL
@@ -3131,6 +3461,221 @@ slots:
     range: PrimaryReferenceInfo
     inlined: true
     inlined_as_list: true
+  variable__roles:
+    name: variable__roles
+    description: Roles this variable plays in the study design or analysis. Multiple
+      roles are allowed; for example, drought treatment may be both EXPERIMENTAL_FACTOR
+      and STUDY_DESIGN_INDEPENDENT_VARIABLE.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:roles
+    alias: roles
+    owner: Variable
+    domain_of:
+    - Variable
+    range: VariableRole
+    multivalued: true
+  variable__value_type:
+    name: variable__value_type
+    description: Basic type or shape of values recorded for this variable
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:value_type
+    alias: value_type
+    owner: Variable
+    domain_of:
+    - Variable
+    range: VariableValueType
+  variable__units:
+    name: variable__units
+    description: Human-readable units for quantitative variables
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:units
+    alias: units
+    owner: Variable
+    domain_of:
+    - Variable
+    range: string
+  variable__unit_term:
+    name: variable__unit_term
+    description: Unit ontology term, if available
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:unit_term
+    alias: unit_term
+    owner: Variable
+    domain_of:
+    - Variable
+    range: OntologyTerm
+    inlined: true
+    inlined_as_list: false
+  variable__bervo_term:
+    name: variable__bervo_term
+    description: Primary BERVO class mapping for this variable, when available
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:bervo_term
+    alias: bervo_term
+    owner: Variable
+    domain_of:
+    - Variable
+    range: BERVOTerm
+    inlined: true
+    inlined_as_list: false
+  variable__mixs_terms:
+    name: variable__mixs_terms
+    description: MIxS metadata terms corresponding to this variable, when the variable
+      represents a MIxS sample, environmental, host, or sequencing metadata field.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:mixs_terms
+    alias: mixs_terms
+    owner: Variable
+    domain_of:
+    - Variable
+    range: MIXSTerm
+    bindings:
+    - range: MIXSVariableTerm
+      obligation_level:
+        text: RECOMMENDED
+        description: The metadata element is recommended to be present in the model
+      binds_value_of: id
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  variable__ontology_mappings:
+    name: variable__ontology_mappings
+    description: Additional ontology mappings for this variable, including ENVO, PATO,
+      UO, OBI, or other relevant controlled vocabularies. Statistical or study-design
+      roles should generally be represented in the roles slot rather than repeated
+      here.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:ontology_mappings
+    alias: ontology_mappings
+    owner: Variable
+    domain_of:
+    - Variable
+    range: OntologyTerm
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  variable__measured_entity:
+    name: variable__measured_entity
+    description: Entity, organism, environmental feature, process, or system being
+      measured or manipulated by this variable.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:measured_entity
+    alias: measured_entity
+    owner: Variable
+    domain_of:
+    - Variable
+    range: string
+  variable__material_or_matrix:
+    name: variable__material_or_matrix
+    description: Material, sample matrix, compartment, or context for the variable
+      (e.g., soil, rhizosphere, leaf tissue, porewater, bioreactor culture).
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:material_or_matrix
+    alias: material_or_matrix
+    owner: Variable
+    domain_of:
+    - Variable
+    range: string
+  variable__method:
+    name: variable__method
+    description: Measurement, manipulation, or derivation method
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:method
+    alias: method
+    owner: Variable
+    domain_of:
+    - Variable
+    range: string
+  variable__time_series:
+    name: variable__time_series
+    description: True when values for this variable are captured repeatedly through
+      time
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:time_series
+    alias: time_series
+    owner: Variable
+    domain_of:
+    - Variable
+    range: boolean
+  variable__temporal_resolution:
+    name: variable__temporal_resolution
+    description: Temporal grain or sampling interval for time-series variables
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:temporal_resolution
+    alias: temporal_resolution
+    owner: Variable
+    domain_of:
+    - Variable
+    range: string
+  variable__spatial_resolution:
+    name: variable__spatial_resolution
+    description: Spatial grain, support, or resolution for spatial variables
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:spatial_resolution
+    alias: spatial_resolution
+    owner: Variable
+    domain_of:
+    - Variable
+    range: string
+  variable__levels:
+    name: variable__levels
+    description: Known categorical levels, treatment levels, bins, or allowed values
+      for this variable.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:levels
+    alias: levels
+    owner: Variable
+    domain_of:
+    - Variable
+    range: string
+    multivalued: true
+  variable__source_field_names:
+    name: variable__source_field_names
+    description: Column names, file field names, or source labels that map to this
+      variable
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:source_field_names
+    alias: source_field_names
+    owner: Variable
+    domain_of:
+    - Variable
+    range: string
+    multivalued: true
+  variable__notes:
+    name: variable__notes
+    description: Additional notes about the variable definition or usage
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:notes
+    alias: notes
+    owner: Variable
+    domain_of:
+    - Variable
+    range: string
+  ontologyTerm__id:
+    name: ontologyTerm__id
+    description: CURIE or URI for the ontology term
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:id
+    identifier: true
+    alias: id
+    owner: OntologyTerm
+    domain_of:
+    - OntologyTerm
+    range: uriorcurie
+    required: true
+  ontologyTerm__label:
+    name: ontologyTerm__label
+    implements:
+    - rdfs:label
+    description: Human-readable ontology term label
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:label
+    alias: label
+    owner: OntologyTerm
+    domain_of:
+    - OntologyTerm
+    range: string
+    required: true
   finding__reference:
     name: finding__reference
     implements:
@@ -3489,6 +4034,107 @@ slots:
     domain_of:
     - WebReference
     range: string
+  studyDesign__design_types:
+    name: studyDesign__design_types
+    description: OBI or related ontology terms describing the study design
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:design_types
+    alias: design_types
+    owner: StudyDesign
+    domain_of:
+    - StudyDesign
+    range: OntologyTerm
+    bindings:
+    - range: StudyDesignTerm
+      obligation_level:
+        text: RECOMMENDED
+        description: The metadata element is recommended to be present in the model
+      binds_value_of: id
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  studyDesign__experimental_units:
+    name: studyDesign__experimental_units
+    description: Units assigned to treatments or interventions
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:experimental_units
+    alias: experimental_units
+    owner: StudyDesign
+    domain_of:
+    - StudyDesign
+    range: string
+    multivalued: true
+  studyDesign__observational_units:
+    name: studyDesign__observational_units
+    description: Units on which measurements are made
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:observational_units
+    alias: observational_units
+    owner: StudyDesign
+    domain_of:
+    - StudyDesign
+    range: string
+    multivalued: true
+  studyDesign__sampling_strategy:
+    name: studyDesign__sampling_strategy
+    description: Sampling strategy or sampling design used by the study
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:sampling_strategy
+    alias: sampling_strategy
+    owner: StudyDesign
+    domain_of:
+    - StudyDesign
+    range: string
+  studyDesign__replication:
+    name: studyDesign__replication
+    description: Description of biological, technical, field, or model replication
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:replication
+    alias: replication
+    owner: StudyDesign
+    domain_of:
+    - StudyDesign
+    range: string
+  studyDesign__randomization:
+    name: studyDesign__randomization
+    description: Description of randomization, if used
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:randomization
+    alias: randomization
+    owner: StudyDesign
+    domain_of:
+    - StudyDesign
+    range: string
+  studyDesign__blocking:
+    name: studyDesign__blocking
+    description: Description of blocking or stratification, if used
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:blocking
+    alias: blocking
+    owner: StudyDesign
+    domain_of:
+    - StudyDesign
+    range: string
+  studyDesign__controls:
+    name: studyDesign__controls
+    description: Description of control groups, baselines, or reference conditions
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:controls
+    alias: controls
+    owner: StudyDesign
+    domain_of:
+    - StudyDesign
+    range: string
+  studyDesign__notes:
+    name: studyDesign__notes
+    description: Additional notes about the study design
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:notes
+    alias: notes
+    owner: StudyDesign
+    domain_of:
+    - StudyDesign
+    range: string
   nMDCStudyReference__pi:
     name: nMDCStudyReference__pi
     description: Principal investigator name for this study
@@ -3659,6 +4305,18 @@ slots:
     range: WebReference
     inlined: true
     inlined_as_list: true
+  nMDCStudyReference__synthetic_communities:
+    name: nMDCStudyReference__synthetic_communities
+    description: CURIEs referencing synthetic community (SynCom) entries in the CommunityMech
+      knowledge base that are associated with this study.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slot_uri: nmdc_sfas_brcs:synthetic_communities
+    alias: synthetic_communities
+    owner: NMDCStudyReference
+    domain_of:
+    - NMDCStudyReference
+    range: uriorcurie
+    multivalued: true
   analysis__analysis_type:
     name: analysis__analysis_type
     description: Type of analysis performed
@@ -4107,6 +4765,80 @@ slots:
     is_usage_slot: true
     usage_slot_name: program_type
     range: ProgramType
+  ArtificialIntelligenceProject_program_type:
+    name: ArtificialIntelligenceProject_program_type
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/program_type
+    description: The type of research program
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    is_a: OtherProgram_program_type
+    domain: ArtificialIntelligenceProject
+    slot_uri: nmdc_sfas_brcs:program_type
+    ifabsent: string(AI_PILOT_PROJECT)
+    alias: program_type
+    owner: ArtificialIntelligenceProject
+    domain_of:
+    - ArtificialIntelligenceProject
+    is_usage_slot: true
+    usage_slot_name: program_type
+    range: ProgramType
+  Variable_name:
+    name: Variable_name
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/name
+    description: Human-readable variable name or label used in the study or dataset
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    mappings:
+    - schema:name
+    is_a: name
+    domain: Variable
+    slot_uri: schema:name
+    alias: name
+    owner: Variable
+    domain_of:
+    - Variable
+    is_usage_slot: true
+    usage_slot_name: name
+    range: string
+    required: true
+  BERVOTerm_id:
+    name: BERVOTerm_id
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/id
+    description: BERVO CURIE for the ontology term
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    mappings:
+    - schema:identifier
+    is_a: ontologyTerm__id
+    domain: BERVOTerm
+    slot_uri: schema:identifier
+    identifier: true
+    alias: id
+    owner: BERVOTerm
+    domain_of:
+    - BERVOTerm
+    is_usage_slot: true
+    usage_slot_name: id
+    range: uriorcurie
+    required: true
+    pattern: ^BERVO:\d+$
+  MIXSTerm_id:
+    name: MIXSTerm_id
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/id
+    description: MIxS CURIE for the metadata term
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    mappings:
+    - schema:identifier
+    is_a: ontologyTerm__id
+    domain: MIXSTerm
+    slot_uri: schema:identifier
+    identifier: true
+    alias: id
+    owner: MIXSTerm
+    domain_of:
+    - MIXSTerm
+    is_usage_slot: true
+    usage_slot_name: id
+    range: uriorcurie
+    required: true
+    pattern: ^MIXS:\d{7}$
   Reference_id:
     name: Reference_id
     definition_uri: https://w3id.org/nmdc/sfas-brcs/id
@@ -4128,6 +4860,43 @@ slots:
     usage_slot_name: id
     range: uriorcurie
     required: true
+  FieldSite_id:
+    name: FieldSite_id
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/id
+    description: A unique identifier for the field site
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    mappings:
+    - schema:identifier
+    is_a: id
+    domain: FieldSite
+    slot_uri: schema:identifier
+    identifier: true
+    alias: id
+    owner: FieldSite
+    domain_of:
+    - FieldSite
+    is_usage_slot: true
+    usage_slot_name: id
+    range: uriorcurie
+    required: true
+  FieldSite_name:
+    name: FieldSite_name
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/name
+    description: The canonical name of the field site
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    mappings:
+    - schema:name
+    is_a: name
+    domain: FieldSite
+    slot_uri: schema:name
+    alias: name
+    owner: FieldSite
+    domain_of:
+    - FieldSite
+    is_usage_slot: true
+    usage_slot_name: name
+    range: string
+    required: true
 classes:
   ResearchProgramCollection:
     name: ResearchProgramCollection
@@ -4141,6 +4910,8 @@ classes:
     - researchProgramCollection__environmental_system_science_sfas
     - researchProgramCollection__user_facilities
     - researchProgramCollection__other_programs
+    - researchProgramCollection__ai_projects
+    - researchProgramCollection__sites
     - researchProgramCollection__metadata
     attributes:
       bioenergy_research_centers:
@@ -4173,6 +4944,20 @@ classes:
           traditional SFA/BRC/Facility categories (e.g., BRaVE, cross-cutting initiatives,
           time-limited projects)
         range: OtherProgram
+        multivalued: true
+        inlined_as_list: true
+      ai_projects:
+        name: ai_projects
+        description: DOE artificial intelligence pilot projects and related AI-enabled
+          science initiatives, including BER/ASCR-supported projects.
+        range: ArtificialIntelligenceProject
+        multivalued: true
+        inlined_as_list: true
+      sites:
+        name: sites
+        description: Canonical collection of field sites referenced by programs and
+          studies. Sites are modeled once here and linked by identifier.
+        range: FieldSite
         multivalued: true
         inlined_as_list: true
       metadata:
@@ -4232,6 +5017,8 @@ classes:
     - description
     - acronym
     - program_type
+    - start_date
+    - end_date
     - lead_institution
     - partner_institutions
     - principal_investigators
@@ -4249,8 +5036,8 @@ classes:
     - analyses
     - kbase_genome_collection
     - datasets
+    - field_site_ids
     - key_publications
-    - field_sites
     - established
     - collaborators
     - isolate_collections
@@ -4281,6 +5068,8 @@ classes:
     slots:
     - description
     - acronym
+    - start_date
+    - end_date
     - lead_institution
     - partner_institutions
     - principal_investigators
@@ -4298,8 +5087,8 @@ classes:
     - analyses
     - kbase_genome_collection
     - datasets
+    - field_site_ids
     - key_publications
-    - field_sites
     - established
     - collaborators
     - isolate_collections
@@ -4326,6 +5115,8 @@ classes:
     slots:
     - description
     - acronym
+    - start_date
+    - end_date
     - lead_institution
     - partner_institutions
     - principal_investigators
@@ -4343,8 +5134,8 @@ classes:
     - analyses
     - kbase_genome_collection
     - datasets
+    - field_site_ids
     - key_publications
-    - field_sites
     - established
     - collaborators
     - isolate_collections
@@ -4372,6 +5163,8 @@ classes:
     slots:
     - description
     - acronym
+    - start_date
+    - end_date
     - lead_institution
     - partner_institutions
     - principal_investigators
@@ -4389,8 +5182,8 @@ classes:
     - analyses
     - kbase_genome_collection
     - datasets
+    - field_site_ids
     - key_publications
-    - field_sites
     - established
     - collaborators
     - isolate_collections
@@ -4406,6 +5199,53 @@ classes:
         name: program_type
         ifabsent: string(OTHER_INITIATIVE)
     class_uri: nmdc_sfas_brcs:OtherProgram
+  ArtificialIntelligenceProject:
+    name: ArtificialIntelligenceProject
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/ArtificialIntelligenceProject
+    description: A DOE artificial intelligence project or pilot initiative using AI/ML,
+      agentic systems, data lakehouses, autonomous laboratories, or related computational
+      methods to advance BER-relevant biological and environmental science.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    is_a: OtherProgram
+    slots:
+    - description
+    - acronym
+    - start_date
+    - end_date
+    - lead_institution
+    - partner_institutions
+    - principal_investigators
+    - funding
+    - location
+    - websites
+    - scientific_questions
+    - keywords
+    - data_types
+    - data_collection_modalities
+    - interaction_types
+    - interaction_modes
+    - nmdc_umbrella_study
+    - studies
+    - analyses
+    - kbase_genome_collection
+    - datasets
+    - field_site_ids
+    - key_publications
+    - established
+    - collaborators
+    - isolate_collections
+    - phenotype_assays
+    - ResearchProgram_id
+    - ResearchProgram_name
+    - initiative_name
+    - funding_period
+    - participating_offices
+    - ArtificialIntelligenceProject_program_type
+    slot_usage:
+      program_type:
+        name: program_type
+        ifabsent: string(AI_PILOT_PROJECT)
+    class_uri: nmdc_sfas_brcs:ArtificialIntelligenceProject
   UserFacility:
     name: UserFacility
     definition_uri: https://w3id.org/nmdc/sfas-brcs/UserFacility
@@ -4419,6 +5259,8 @@ classes:
     - description
     - acronym
     - program_type
+    - start_date
+    - end_date
     - lead_institution
     - lead_institutions
     - funding
@@ -4560,6 +5402,7 @@ classes:
     slots:
     - webResources__main
     - webResources__doe_page
+    - webResources__award_list
     - webResources__ornl_page
     - webResources__llnl_page
     - webResources__data_portal
@@ -4588,6 +5431,10 @@ classes:
       doe_page:
         name: doe_page
         description: DOE program page URL
+        range: uri
+      award_list:
+        name: award_list
+        description: DOE award list, funding announcement, or award summary URL
         range: uri
       ornl_page:
         name: ornl_page
@@ -4699,6 +5546,7 @@ classes:
     - additional_references
     - interaction_types
     - interaction_modes
+    - variables
     - dataset__primary_reference_info
     attributes:
       primary_reference_info:
@@ -4708,6 +5556,193 @@ classes:
         range: PrimaryReferenceInfo
         inlined: true
     class_uri: nmdc_sfas_brcs:Dataset
+  Variable:
+    name: Variable
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/Variable
+    description: A variable, factor, measurement, or metadata field observed, manipulated,
+      derived, or otherwise used in a study or dataset. Variables act as a lightweight
+      data dictionary and can be tagged with analytical roles, time-series behavior,
+      units, methods, and ontology mappings such as BERVO. Ontology references are
+      modeled as id/label objects so linkml-term-validator can check both the identifier
+      and the canonical label.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    mappings:
+    - schema:PropertyValue
+    slots:
+    - Variable_name
+    - description
+    - variable__roles
+    - variable__value_type
+    - variable__units
+    - variable__unit_term
+    - variable__bervo_term
+    - variable__mixs_terms
+    - variable__ontology_mappings
+    - variable__measured_entity
+    - variable__material_or_matrix
+    - variable__method
+    - variable__time_series
+    - variable__temporal_resolution
+    - variable__spatial_resolution
+    - variable__levels
+    - variable__source_field_names
+    - variable__notes
+    slot_usage:
+      name:
+        name: name
+        description: Human-readable variable name or label used in the study or dataset
+        required: true
+    attributes:
+      roles:
+        name: roles
+        description: Roles this variable plays in the study design or analysis. Multiple
+          roles are allowed; for example, drought treatment may be both EXPERIMENTAL_FACTOR
+          and STUDY_DESIGN_INDEPENDENT_VARIABLE.
+        range: VariableRole
+        multivalued: true
+      value_type:
+        name: value_type
+        description: Basic type or shape of values recorded for this variable
+        range: VariableValueType
+      units:
+        name: units
+        description: Human-readable units for quantitative variables
+        range: string
+      unit_term:
+        name: unit_term
+        description: Unit ontology term, if available
+        range: OntologyTerm
+        inlined: true
+      bervo_term:
+        name: bervo_term
+        description: Primary BERVO class mapping for this variable, when available
+        range: BERVOTerm
+        inlined: true
+      mixs_terms:
+        name: mixs_terms
+        description: MIxS metadata terms corresponding to this variable, when the
+          variable represents a MIxS sample, environmental, host, or sequencing metadata
+          field.
+        range: MIXSTerm
+        bindings:
+        - range: MIXSVariableTerm
+          obligation_level:
+            text: RECOMMENDED
+            description: The metadata element is recommended to be present in the
+              model
+          binds_value_of: id
+        multivalued: true
+        inlined_as_list: true
+      ontology_mappings:
+        name: ontology_mappings
+        description: Additional ontology mappings for this variable, including ENVO,
+          PATO, UO, OBI, or other relevant controlled vocabularies. Statistical or
+          study-design roles should generally be represented in the roles slot rather
+          than repeated here.
+        range: OntologyTerm
+        multivalued: true
+        inlined_as_list: true
+      measured_entity:
+        name: measured_entity
+        description: Entity, organism, environmental feature, process, or system being
+          measured or manipulated by this variable.
+        range: string
+      material_or_matrix:
+        name: material_or_matrix
+        description: Material, sample matrix, compartment, or context for the variable
+          (e.g., soil, rhizosphere, leaf tissue, porewater, bioreactor culture).
+        range: string
+      method:
+        name: method
+        description: Measurement, manipulation, or derivation method
+        range: string
+      time_series:
+        name: time_series
+        description: True when values for this variable are captured repeatedly through
+          time
+        range: boolean
+      temporal_resolution:
+        name: temporal_resolution
+        description: Temporal grain or sampling interval for time-series variables
+        range: string
+      spatial_resolution:
+        name: spatial_resolution
+        description: Spatial grain, support, or resolution for spatial variables
+        range: string
+      levels:
+        name: levels
+        description: Known categorical levels, treatment levels, bins, or allowed
+          values for this variable.
+        range: string
+        multivalued: true
+      source_field_names:
+        name: source_field_names
+        description: Column names, file field names, or source labels that map to
+          this variable
+        range: string
+        multivalued: true
+      notes:
+        name: notes
+        description: Additional notes about the variable definition or usage
+        range: string
+    class_uri: schema:PropertyValue
+  OntologyTerm:
+    name: OntologyTerm
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/OntologyTerm
+    description: A reference to an ontology term, represented as an identifier plus
+      the term label expected from the source ontology. The label field is marked
+      as rdfs:label for linkml-term-validator label checks.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slots:
+    - ontologyTerm__id
+    - ontologyTerm__label
+    attributes:
+      id:
+        name: id
+        description: CURIE or URI for the ontology term
+        identifier: true
+        range: uriorcurie
+        required: true
+      label:
+        name: label
+        implements:
+        - rdfs:label
+        description: Human-readable ontology term label
+        range: string
+        required: true
+    class_uri: nmdc_sfas_brcs:OntologyTerm
+  BERVOTerm:
+    name: BERVOTerm
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/BERVOTerm
+    description: A BERVO ontology term represented with an identifier and label
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    is_a: OntologyTerm
+    slots:
+    - ontologyTerm__label
+    - BERVOTerm_id
+    slot_usage:
+      id:
+        name: id
+        description: BERVO CURIE for the ontology term
+        is_a: ontologyTerm__id
+        pattern: ^BERVO:\d+$
+    class_uri: nmdc_sfas_brcs:BERVOTerm
+  MIXSTerm:
+    name: MIXSTerm
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/MIXSTerm
+    description: A MIxS metadata term represented with an identifier and label
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    is_a: OntologyTerm
+    slots:
+    - ontologyTerm__label
+    - MIXSTerm_id
+    slot_usage:
+      id:
+        name: id
+        description: MIxS CURIE for the metadata term
+        is_a: ontologyTerm__id
+        pattern: ^MIXS:\d{7}$
+    class_uri: nmdc_sfas_brcs:MIXSTerm
   Reference:
     name: Reference
     definition_uri: https://w3id.org/nmdc/sfas-brcs/Reference
@@ -4888,8 +5923,10 @@ classes:
     definition_uri: https://w3id.org/nmdc/sfas-brcs/FieldSite
     description: A field research site associated with a research program
     from_schema: https://w3id.org/nmdc/sfas-brcs
+    mappings:
+    - schema:Place
+    is_a: NamedThing
     slots:
-    - name
     - description
     - fieldSite__location
     - fieldSite__site_type
@@ -4901,6 +5938,17 @@ classes:
     - fieldSite__elevation_m
     - fieldSite__mean_annual_temp_c
     - fieldSite__mean_annual_precip_cm
+    - FieldSite_id
+    - FieldSite_name
+    slot_usage:
+      id:
+        name: id
+        description: A unique identifier for the field site
+        required: true
+      name:
+        name: name
+        description: The canonical name of the field site
+        required: true
     attributes:
       location:
         name: location
@@ -4946,7 +5994,7 @@ classes:
         name: mean_annual_precip_cm
         description: Mean annual precipitation at the site in centimeters
         range: float
-    class_uri: nmdc_sfas_brcs:FieldSite
+    class_uri: schema:Place
   Technology:
     name: Technology
     definition_uri: https://w3id.org/nmdc/sfas-brcs/Technology
@@ -4984,6 +6032,74 @@ classes:
           before clicking.
         range: string
     class_uri: nmdc_sfas_brcs:WebReference
+  StudyDesign:
+    name: StudyDesign
+    definition_uri: https://w3id.org/nmdc/sfas-brcs/StudyDesign
+    description: Study-level design metadata that applies across variables and datasets.
+      This captures the design pattern, experimental or observational units, replication,
+      blocking, randomization, and related notes separately from the data dictionary
+      entries for individual variables.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    slots:
+    - description
+    - studyDesign__design_types
+    - studyDesign__experimental_units
+    - studyDesign__observational_units
+    - studyDesign__sampling_strategy
+    - studyDesign__replication
+    - studyDesign__randomization
+    - studyDesign__blocking
+    - studyDesign__controls
+    - studyDesign__notes
+    attributes:
+      design_types:
+        name: design_types
+        description: OBI or related ontology terms describing the study design
+        range: OntologyTerm
+        bindings:
+        - range: StudyDesignTerm
+          obligation_level:
+            text: RECOMMENDED
+            description: The metadata element is recommended to be present in the
+              model
+          binds_value_of: id
+        multivalued: true
+        inlined_as_list: true
+      experimental_units:
+        name: experimental_units
+        description: Units assigned to treatments or interventions
+        range: string
+        multivalued: true
+      observational_units:
+        name: observational_units
+        description: Units on which measurements are made
+        range: string
+        multivalued: true
+      sampling_strategy:
+        name: sampling_strategy
+        description: Sampling strategy or sampling design used by the study
+        range: string
+      replication:
+        name: replication
+        description: Description of biological, technical, field, or model replication
+        range: string
+      randomization:
+        name: randomization
+        description: Description of randomization, if used
+        range: string
+      blocking:
+        name: blocking
+        description: Description of blocking or stratification, if used
+        range: string
+      controls:
+        name: controls
+        description: Description of control groups, baselines, or reference conditions
+        range: string
+      notes:
+        name: notes
+        description: Additional notes about the study design
+        range: string
+    class_uri: nmdc_sfas_brcs:StudyDesign
   NMDCStudyReference:
     name: NMDCStudyReference
     definition_uri: https://w3id.org/nmdc/sfas-brcs/NMDCStudyReference
@@ -4997,6 +6113,9 @@ classes:
     - description
     - primary_reference
     - keywords
+    - field_site_ids
+    - study_design
+    - variables
     - nMDCStudyReference__pi
     - nMDCStudyReference__bioproject_ids
     - nMDCStudyReference__gold_study_id
@@ -5012,6 +6131,7 @@ classes:
     - nMDCStudyReference__ncbi_data_quality_notes
     - nMDCStudyReference__primary_reference_info
     - nMDCStudyReference__source_reference
+    - nMDCStudyReference__synthetic_communities
     attributes:
       pi:
         name: pi
@@ -5091,6 +6211,12 @@ classes:
           etc.) for studies without a primary DOI publication.
         range: WebReference
         inlined: true
+      synthetic_communities:
+        name: synthetic_communities
+        description: CURIEs referencing synthetic community (SynCom) entries in the
+          CommunityMech knowledge base that are associated with this study.
+        range: uriorcurie
+        multivalued: true
     class_uri: nmdc_sfas_brcs:NMDCStudyReference
   Analysis:
     name: Analysis
@@ -5356,7 +6482,7 @@ classes:
     class_uri: nmdc_sfas_brcs:Instrument
 metamodel_version: 1.7.0
 source_file: nmdc_sfas_brcs.yaml
-source_file_date: '2026-01-21T21:19:40'
-source_file_size: 86865
-generation_date: '2026-01-21T21:19:55'
+source_file_date: '2026-05-05T04:02:21'
+source_file_size: 102211
+generation_date: '2026-05-05T04:02:39'
 

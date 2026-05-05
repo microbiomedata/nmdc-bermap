@@ -355,23 +355,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Identifier and Mapping Information">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#schema-source" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schema Source
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
         <li class="md-nav__item">
@@ -417,7 +400,6 @@
 
 
 <h1 id="slot-notes">Slot: notes</h1>
-<p><em>Additional notes about the collection</em></p>
 <p>URI: <a href="https://w3id.org/nmdc/sfas-brcs/notes">nmdc_sfas_brcs:notes</a>
 Alias: notes</p>
 <!-- no inheritance hierarchy -->
@@ -433,6 +415,16 @@ Alias: notes</p>
 </thead>
 <tbody>
 <tr>
+<td><a href="../StudyDesign/">StudyDesign</a></td>
+<td>Study-level design metadata that applies across variables and datasets</td>
+<td>no</td>
+</tr>
+<tr>
+<td><a href="../Variable/">Variable</a></td>
+<td>A variable, factor, measurement, or metadata field observed, manipulated, der...</td>
+<td>no</td>
+</tr>
+<tr>
 <td><a href="../CollectionMetadata/">CollectionMetadata</a></td>
 <td>Metadata about the research program collection</td>
 <td>no</td>
@@ -444,10 +436,6 @@ Alias: notes</p>
 <li>Range: <a href="../String/">String</a></li>
 </ul>
 <h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
-<h3 id="schema-source">Schema Source</h3>
-<ul>
-<li>from schema: https://w3id.org/nmdc/sfas-brcs</li>
-</ul>
 <h2 id="mappings">Mappings</h2>
 <table>
 <thead>
@@ -471,13 +459,11 @@ Alias: notes</p>
 <details>
 
 <pre><code class="language-yaml">name: notes
-description: Additional notes about the collection
-from_schema: https://w3id.org/nmdc/sfas-brcs
-rank: 1000
 alias: notes
-owner: CollectionMetadata
 domain_of:
 - CollectionMetadata
+- Variable
+- StudyDesign
 range: string
 
 </code></pre>

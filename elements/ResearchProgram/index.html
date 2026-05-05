@@ -328,18 +328,11 @@
 
       ResearchProgram : description
 
+      ResearchProgram : end_date
+
       ResearchProgram : established
 
-      ResearchProgram : field_sites
-
-
-
-
-
-        ResearchProgram --&gt; "*" FieldSite : field_sites
-        click FieldSite href "../FieldSite/"
-
-
+      ResearchProgram : field_site_ids
 
       ResearchProgram : funding
 
@@ -474,6 +467,8 @@
 
       ResearchProgram : scientific_questions
 
+      ResearchProgram : start_date
+
       ResearchProgram : studies
 
 
@@ -531,6 +526,18 @@
 <td><a href="../program_type/">program_type</a></td>
 <td>0..1 <br/> <a href="../ProgramType/">ProgramType</a></td>
 <td>The type of research program</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../start_date/">start_date</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>Date or year when the program started</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../end_date/">end_date</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>Date or year when the program ended</td>
 <td>direct</td>
 </tr>
 <tr>
@@ -636,15 +643,15 @@
 <td>direct</td>
 </tr>
 <tr>
-<td><a href="../key_publications/">key_publications</a></td>
-<td>* <br/> <a href="../Reference/">Reference</a></td>
-<td>Key publications from the program with their findings</td>
+<td><a href="../field_site_ids/">field_site_ids</a></td>
+<td>* <br/> <a href="../Uriorcurie/">Uriorcurie</a></td>
+<td>Identifiers of canonical field sites associated with the program or study</td>
 <td>direct</td>
 </tr>
 <tr>
-<td><a href="../field_sites/">field_sites</a></td>
-<td>* <br/> <a href="../FieldSite/">FieldSite</a></td>
-<td>Field research sites associated with the program</td>
+<td><a href="../key_publications/">key_publications</a></td>
+<td>* <br/> <a href="../Reference/">Reference</a></td>
+<td>Key publications from the program with their findings</td>
 <td>direct</td>
 </tr>
 <tr>
@@ -730,6 +737,8 @@ abstract: true
 slots:
 - acronym
 - program_type
+- start_date
+- end_date
 - lead_institution
 - partner_institutions
 - principal_investigators
@@ -747,8 +756,8 @@ slots:
 - analyses
 - kbase_genome_collection
 - datasets
+- field_site_ids
 - key_publications
-- field_sites
 - established
 - collaborators
 - isolate_collections
@@ -808,6 +817,31 @@ attributes:
     - ResearchProgram
     - UserFacility
     range: ProgramType
+  start_date:
+    name: start_date
+    description: Date or year when the program started. Prefer ISO 8601 dates when
+      known; use a year-only value when the exact date is not known.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: start_date
+    owner: ResearchProgram
+    domain_of:
+    - ResearchProgram
+    - UserFacility
+    range: string
+  end_date:
+    name: end_date
+    description: Date or year when the program ended. Leave empty for ongoing programs.
+      Prefer ISO 8601 dates when known; use a year-only value when the exact date
+      is not known.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: end_date
+    owner: ResearchProgram
+    domain_of:
+    - ResearchProgram
+    - UserFacility
+    range: string
   lead_institution:
     name: lead_institution
     description: The primary institution leading the program
@@ -1013,6 +1047,19 @@ attributes:
     multivalued: true
     inlined: true
     inlined_as_list: true
+  field_site_ids:
+    name: field_site_ids
+    description: Identifiers of canonical field sites associated with the program
+      or study. These reference entries in the top-level sites collection.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: field_site_ids
+    owner: ResearchProgram
+    domain_of:
+    - ResearchProgram
+    - NMDCStudyReference
+    range: uriorcurie
+    multivalued: true
   key_publications:
     name: key_publications
     description: Key publications from the program with their findings
@@ -1023,19 +1070,6 @@ attributes:
     domain_of:
     - ResearchProgram
     range: Reference
-    multivalued: true
-    inlined: true
-    inlined_as_list: true
-  field_sites:
-    name: field_sites
-    description: Field research sites associated with the program
-    from_schema: https://w3id.org/nmdc/sfas-brcs
-    rank: 1000
-    alias: field_sites
-    owner: ResearchProgram
-    domain_of:
-    - ResearchProgram
-    range: FieldSite
     multivalued: true
     inlined: true
     inlined_as_list: true
@@ -1096,6 +1130,7 @@ attributes:
     owner: ResearchProgram
     domain_of:
     - NamedThing
+    - OntologyTerm
     - Reference
     range: uriorcurie
     required: true
@@ -1113,8 +1148,8 @@ attributes:
     - Institution
     - Person
     - Dataset
+    - Variable
     - IsolateCollection
-    - FieldSite
     - Technology
     - NMDCStudyReference
     - FlagshipGenome
@@ -1134,9 +1169,10 @@ attributes:
     - NamedThing
     - Institution
     - Dataset
+    - Variable
     - IsolateCollection
-    - FieldSite
     - Technology
+    - StudyDesign
     - NMDCStudyReference
     - FlagshipGenome
     - Capability

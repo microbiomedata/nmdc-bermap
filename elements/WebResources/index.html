@@ -267,6 +267,8 @@
 
       WebResources : atlas
 
+      WebResources : award_list
+
       WebResources : bacterial_strains
 
       WebResources : bfi_portal
@@ -331,6 +333,12 @@
 <td><a href="../doe_page/">doe_page</a></td>
 <td>0..1 <br/> <a href="../Uri/">Uri</a></td>
 <td>DOE program page URL</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../award_list/">award_list</a></td>
+<td>0..1 <br/> <a href="../Uri/">Uri</a></td>
+<td>DOE award list, funding announcement, or award summary URL</td>
 <td>direct</td>
 </tr>
 <tr>
@@ -491,6 +499,12 @@
 <td><a href="./">WebResources</a></td>
 </tr>
 <tr>
+<td><a href="../ArtificialIntelligenceProject/">ArtificialIntelligenceProject</a></td>
+<td><a href="../websites/">websites</a></td>
+<td>range</td>
+<td><a href="./">WebResources</a></td>
+</tr>
+<tr>
 <td><a href="../UserFacility/">UserFacility</a></td>
 <td><a href="../websites/">websites</a></td>
 <td>range</td>
@@ -541,6 +555,14 @@ attributes:
   doe_page:
     name: doe_page
     description: DOE program page URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    domain_of:
+    - WebResources
+    range: uri
+  award_list:
+    name: award_list
+    description: DOE award list, funding announcement, or award summary URL
     from_schema: https://w3id.org/nmdc/sfas-brcs
     rank: 1000
     domain_of:
@@ -731,6 +753,16 @@ attributes:
     from_schema: https://w3id.org/nmdc/sfas-brcs
     rank: 1000
     alias: doe_page
+    owner: WebResources
+    domain_of:
+    - WebResources
+    range: uri
+  award_list:
+    name: award_list
+    description: DOE award list, funding announcement, or award summary URL
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: award_list
     owner: WebResources
     domain_of:
     - WebResources

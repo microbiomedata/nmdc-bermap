@@ -270,6 +270,8 @@
         click ResearchProgram href "../ResearchProgram/"
       NamedThing &lt;|-- UserFacility
         click UserFacility href "../UserFacility/"
+      NamedThing &lt;|-- FieldSite
+        click FieldSite href "../FieldSite/"
       NamedThing &lt;|-- Analysis
         click Analysis href "../Analysis/"
 
@@ -286,6 +288,7 @@
 <li><strong>NamedThing</strong><ul>
 <li><a href="../ResearchProgram/">ResearchProgram</a></li>
 <li><a href="../UserFacility/">UserFacility</a></li>
+<li><a href="../FieldSite/">FieldSite</a></li>
 <li><a href="../Analysis/">Analysis</a></li>
 </ul>
 </li>
@@ -379,6 +382,7 @@ attributes:
     owner: NamedThing
     domain_of:
     - NamedThing
+    - OntologyTerm
     - Reference
     range: uriorcurie
     required: true
@@ -395,8 +399,8 @@ attributes:
     - Institution
     - Person
     - Dataset
+    - Variable
     - IsolateCollection
-    - FieldSite
     - Technology
     - NMDCStudyReference
     - FlagshipGenome
@@ -415,9 +419,10 @@ attributes:
     - NamedThing
     - Institution
     - Dataset
+    - Variable
     - IsolateCollection
-    - FieldSite
     - Technology
+    - StudyDesign
     - NMDCStudyReference
     - FlagshipGenome
     - Capability

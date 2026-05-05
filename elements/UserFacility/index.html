@@ -290,6 +290,8 @@
 
       UserFacility : description
 
+      UserFacility : end_date
+
       UserFacility : flagship_genomes
 
 
@@ -344,6 +346,8 @@
 
       UserFacility : services
 
+      UserFacility : start_date
+
       UserFacility : supported_data_types
 
       UserFacility : websites
@@ -387,6 +391,18 @@
 <td><a href="../program_type/">program_type</a></td>
 <td>0..1 <br/> <a href="../ProgramType/">ProgramType</a></td>
 <td>The type of research program</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../start_date/">start_date</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>Date or year when the program started</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../end_date/">end_date</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>Date or year when the program ended</td>
 <td>direct</td>
 </tr>
 <tr>
@@ -518,6 +534,8 @@ is_a: NamedThing
 slots:
 - acronym
 - program_type
+- start_date
+- end_date
 - lead_institution
 - lead_institutions
 - funding
@@ -561,6 +579,31 @@ attributes:
     - ResearchProgram
     - UserFacility
     range: ProgramType
+  start_date:
+    name: start_date
+    description: Date or year when the program started. Prefer ISO 8601 dates when
+      known; use a year-only value when the exact date is not known.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: start_date
+    owner: UserFacility
+    domain_of:
+    - ResearchProgram
+    - UserFacility
+    range: string
+  end_date:
+    name: end_date
+    description: Date or year when the program ended. Leave empty for ongoing programs.
+      Prefer ISO 8601 dates when known; use a year-only value when the exact date
+      is not known.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: end_date
+    owner: UserFacility
+    domain_of:
+    - ResearchProgram
+    - UserFacility
+    range: string
   lead_institution:
     name: lead_institution
     description: The primary institution leading the program
@@ -674,6 +717,7 @@ attributes:
     owner: UserFacility
     domain_of:
     - NamedThing
+    - OntologyTerm
     - Reference
     range: uriorcurie
     required: true
@@ -690,8 +734,8 @@ attributes:
     - Institution
     - Person
     - Dataset
+    - Variable
     - IsolateCollection
-    - FieldSite
     - Technology
     - NMDCStudyReference
     - FlagshipGenome
@@ -710,9 +754,10 @@ attributes:
     - NamedThing
     - Institution
     - Dataset
+    - Variable
     - IsolateCollection
-    - FieldSite
     - Technology
+    - StudyDesign
     - NMDCStudyReference
     - FlagshipGenome
     - Capability

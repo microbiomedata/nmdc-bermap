@@ -325,18 +325,11 @@
 
       BioenergyResearchCenter : description
 
+      BioenergyResearchCenter : end_date
+
       BioenergyResearchCenter : established
 
-      BioenergyResearchCenter : field_sites
-
-
-
-
-
-        BioenergyResearchCenter --&gt; "*" FieldSite : field_sites
-        click FieldSite href "../FieldSite/"
-
-
+      BioenergyResearchCenter : field_site_ids
 
       BioenergyResearchCenter : funding
 
@@ -484,6 +477,8 @@
 
       BioenergyResearchCenter : scientific_questions
 
+      BioenergyResearchCenter : start_date
+
       BioenergyResearchCenter : studies
 
 
@@ -551,6 +546,18 @@
 <td><a href="../program_type/">program_type</a></td>
 <td>0..1 <br/> <a href="../ProgramType/">ProgramType</a></td>
 <td>The type of research program</td>
+<td><a href="../ResearchProgram/">ResearchProgram</a></td>
+</tr>
+<tr>
+<td><a href="../start_date/">start_date</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>Date or year when the program started</td>
+<td><a href="../ResearchProgram/">ResearchProgram</a></td>
+</tr>
+<tr>
+<td><a href="../end_date/">end_date</a></td>
+<td>0..1 <br/> <a href="../String/">String</a></td>
+<td>Date or year when the program ended</td>
 <td><a href="../ResearchProgram/">ResearchProgram</a></td>
 </tr>
 <tr>
@@ -656,15 +663,15 @@
 <td><a href="../ResearchProgram/">ResearchProgram</a></td>
 </tr>
 <tr>
-<td><a href="../key_publications/">key_publications</a></td>
-<td>* <br/> <a href="../Reference/">Reference</a></td>
-<td>Key publications from the program with their findings</td>
+<td><a href="../field_site_ids/">field_site_ids</a></td>
+<td>* <br/> <a href="../Uriorcurie/">Uriorcurie</a></td>
+<td>Identifiers of canonical field sites associated with the program or study</td>
 <td><a href="../ResearchProgram/">ResearchProgram</a></td>
 </tr>
 <tr>
-<td><a href="../field_sites/">field_sites</a></td>
-<td>* <br/> <a href="../FieldSite/">FieldSite</a></td>
-<td>Field research sites associated with the program</td>
+<td><a href="../key_publications/">key_publications</a></td>
+<td>* <br/> <a href="../Reference/">Reference</a></td>
+<td>Key publications from the program with their findings</td>
 <td><a href="../ResearchProgram/">ResearchProgram</a></td>
 </tr>
 <tr>
@@ -834,6 +841,31 @@ attributes:
     - ResearchProgram
     - UserFacility
     range: ProgramType
+  start_date:
+    name: start_date
+    description: Date or year when the program started. Prefer ISO 8601 dates when
+      known; use a year-only value when the exact date is not known.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: start_date
+    owner: BioenergyResearchCenter
+    domain_of:
+    - ResearchProgram
+    - UserFacility
+    range: string
+  end_date:
+    name: end_date
+    description: Date or year when the program ended. Leave empty for ongoing programs.
+      Prefer ISO 8601 dates when known; use a year-only value when the exact date
+      is not known.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: end_date
+    owner: BioenergyResearchCenter
+    domain_of:
+    - ResearchProgram
+    - UserFacility
+    range: string
   lead_institution:
     name: lead_institution
     description: The primary institution leading the program
@@ -1039,6 +1071,19 @@ attributes:
     multivalued: true
     inlined: true
     inlined_as_list: true
+  field_site_ids:
+    name: field_site_ids
+    description: Identifiers of canonical field sites associated with the program
+      or study. These reference entries in the top-level sites collection.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: field_site_ids
+    owner: BioenergyResearchCenter
+    domain_of:
+    - ResearchProgram
+    - NMDCStudyReference
+    range: uriorcurie
+    multivalued: true
   key_publications:
     name: key_publications
     description: Key publications from the program with their findings
@@ -1049,19 +1094,6 @@ attributes:
     domain_of:
     - ResearchProgram
     range: Reference
-    multivalued: true
-    inlined: true
-    inlined_as_list: true
-  field_sites:
-    name: field_sites
-    description: Field research sites associated with the program
-    from_schema: https://w3id.org/nmdc/sfas-brcs
-    rank: 1000
-    alias: field_sites
-    owner: BioenergyResearchCenter
-    domain_of:
-    - ResearchProgram
-    range: FieldSite
     multivalued: true
     inlined: true
     inlined_as_list: true
@@ -1122,6 +1154,7 @@ attributes:
     owner: BioenergyResearchCenter
     domain_of:
     - NamedThing
+    - OntologyTerm
     - Reference
     range: uriorcurie
     required: true
@@ -1139,8 +1172,8 @@ attributes:
     - Institution
     - Person
     - Dataset
+    - Variable
     - IsolateCollection
-    - FieldSite
     - Technology
     - NMDCStudyReference
     - FlagshipGenome
@@ -1160,9 +1193,10 @@ attributes:
     - NamedThing
     - Institution
     - Dataset
+    - Variable
     - IsolateCollection
-    - FieldSite
     - Technology
+    - StudyDesign
     - NMDCStudyReference
     - FlagshipGenome
     - Capability

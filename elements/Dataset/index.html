@@ -334,6 +334,17 @@
 
       Dataset : url
 
+      Dataset : variables
+
+
+
+
+
+        Dataset --&gt; "*" Variable : variables
+        click Variable href "../Variable/"
+
+
+
       Dataset : version
 
       Dataset : years
@@ -491,6 +502,12 @@
 <td>direct</td>
 </tr>
 <tr>
+<td><a href="../variables/">variables</a></td>
+<td>* <br/> <a href="../Variable/">Variable</a></td>
+<td>Variables, factors, measurements, or data fields catalogued for a study or da...</td>
+<td>direct</td>
+</tr>
+<tr>
 <td><a href="../primary_reference_info/">primary_reference_info</a></td>
 <td>0..1 <br/> <a href="../PrimaryReferenceInfo/">PrimaryReferenceInfo</a></td>
 <td>Primary publication reference with structured metadata for validation</td>
@@ -529,6 +546,12 @@
 </tr>
 <tr>
 <td><a href="../OtherProgram/">OtherProgram</a></td>
+<td><a href="../datasets/">datasets</a></td>
+<td>range</td>
+<td><a href="./">Dataset</a></td>
+</tr>
+<tr>
+<td><a href="../ArtificialIntelligenceProject/">ArtificialIntelligenceProject</a></td>
 <td><a href="../datasets/">datasets</a></td>
 <td>range</td>
 <td><a href="./">Dataset</a></td>
@@ -590,6 +613,7 @@ slots:
 - additional_references
 - interaction_types
 - interaction_modes
+- variables
 attributes:
   primary_reference_info:
     name: primary_reference_info
@@ -641,8 +665,8 @@ attributes:
     - Institution
     - Person
     - Dataset
+    - Variable
     - IsolateCollection
-    - FieldSite
     - Technology
     - NMDCStudyReference
     - FlagshipGenome
@@ -661,9 +685,10 @@ attributes:
     - NamedThing
     - Institution
     - Dataset
+    - Variable
     - IsolateCollection
-    - FieldSite
     - Technology
+    - StudyDesign
     - NMDCStudyReference
     - FlagshipGenome
     - Capability
@@ -907,6 +932,21 @@ attributes:
     - Dataset
     range: InteractionMode
     multivalued: true
+  variables:
+    name: variables
+    description: Variables, factors, measurements, or data fields catalogued for a
+      study or dataset.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: variables
+    owner: Dataset
+    domain_of:
+    - Dataset
+    - NMDCStudyReference
+    range: Variable
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
 
 </code></pre>
 </details>

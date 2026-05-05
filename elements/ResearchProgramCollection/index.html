@@ -254,6 +254,17 @@
 <div class="mermaid"> classDiagram
     class ResearchProgramCollection
     click ResearchProgramCollection href "../ResearchProgramCollection/"
+      ResearchProgramCollection : ai_projects
+
+
+
+
+
+        ResearchProgramCollection --&gt; "*" ArtificialIntelligenceProject : ai_projects
+        click ArtificialIntelligenceProject href "../ArtificialIntelligenceProject/"
+
+
+
       ResearchProgramCollection : bioenergy_research_centers
 
 
@@ -306,6 +317,17 @@
 
         ResearchProgramCollection --&gt; "*" OtherProgram : other_programs
         click OtherProgram href "../OtherProgram/"
+
+
+
+      ResearchProgramCollection : sites
+
+
+
+
+
+        ResearchProgramCollection --&gt; "*" FieldSite : sites
+        click FieldSite href "../FieldSite/"
 
 
 
@@ -362,6 +384,18 @@
 <td><a href="../other_programs/">other_programs</a></td>
 <td>* <br/> <a href="../OtherProgram/">OtherProgram</a></td>
 <td>Other DOE research programs and initiatives that don't fit the traditional SF...</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../ai_projects/">ai_projects</a></td>
+<td>* <br/> <a href="../ArtificialIntelligenceProject/">ArtificialIntelligenceProject</a></td>
+<td>DOE artificial intelligence pilot projects and related AI-enabled science ini...</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../sites/">sites</a></td>
+<td>* <br/> <a href="../FieldSite/">FieldSite</a></td>
+<td>Canonical collection of field sites referenced by programs and studies</td>
 <td>direct</td>
 </tr>
 <tr>
@@ -462,6 +496,30 @@ attributes:
     multivalued: true
     inlined: true
     inlined_as_list: true
+  ai_projects:
+    name: ai_projects
+    description: DOE artificial intelligence pilot projects and related AI-enabled
+      science initiatives, including BER/ASCR-supported projects.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    domain_of:
+    - ResearchProgramCollection
+    range: ArtificialIntelligenceProject
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
+  sites:
+    name: sites
+    description: Canonical collection of field sites referenced by programs and studies.
+      Sites are modeled once here and linked by identifier.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    domain_of:
+    - ResearchProgramCollection
+    range: FieldSite
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
   metadata:
     name: metadata
     description: Metadata about this collection
@@ -541,6 +599,32 @@ attributes:
     domain_of:
     - ResearchProgramCollection
     range: OtherProgram
+    multivalued: true
+    inlined_as_list: true
+  ai_projects:
+    name: ai_projects
+    description: DOE artificial intelligence pilot projects and related AI-enabled
+      science initiatives, including BER/ASCR-supported projects.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: ai_projects
+    owner: ResearchProgramCollection
+    domain_of:
+    - ResearchProgramCollection
+    range: ArtificialIntelligenceProject
+    multivalued: true
+    inlined_as_list: true
+  sites:
+    name: sites
+    description: Canonical collection of field sites referenced by programs and studies.
+      Sites are modeled once here and linked by identifier.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: sites
+    owner: ResearchProgramCollection
+    domain_of:
+    - ResearchProgramCollection
+    range: FieldSite
     multivalued: true
     inlined_as_list: true
   metadata:

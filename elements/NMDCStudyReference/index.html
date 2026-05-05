@@ -280,6 +280,8 @@
 
       NMDCStudyReference : description
 
+      NMDCStudyReference : field_site_ids
+
       NMDCStudyReference : gold_study_id
 
       NMDCStudyReference : jgi_proposal_id
@@ -357,6 +359,30 @@
 
 
 
+      NMDCStudyReference : study_design
+
+
+
+
+
+        NMDCStudyReference --&gt; "0..1" StudyDesign : study_design
+        click StudyDesign href "../StudyDesign/"
+
+
+
+      NMDCStudyReference : synthetic_communities
+
+      NMDCStudyReference : variables
+
+
+
+
+
+        NMDCStudyReference --&gt; "*" Variable : variables
+        click Variable href "../Variable/"
+
+
+
 
 </div>
 <!-- no inheritance hierarchy -->
@@ -399,6 +425,24 @@
 <td><a href="../keywords/">keywords</a></td>
 <td>* <br/> <a href="../Keyword/">Keyword</a></td>
 <td>Keywords describing the research focus</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../field_site_ids/">field_site_ids</a></td>
+<td>* <br/> <a href="../Uriorcurie/">Uriorcurie</a></td>
+<td>Identifiers of canonical field sites associated with the program or study</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../study_design/">study_design</a></td>
+<td>0..1 <br/> <a href="../StudyDesign/">StudyDesign</a></td>
+<td>Study design metadata associated with a study</td>
+<td>direct</td>
+</tr>
+<tr>
+<td><a href="../variables/">variables</a></td>
+<td>* <br/> <a href="../Variable/">Variable</a></td>
+<td>Variables, factors, measurements, or data fields catalogued for a study or da...</td>
 <td>direct</td>
 </tr>
 <tr>
@@ -491,6 +535,12 @@
 <td>Web reference documenting this study (project page, news article, etc</td>
 <td>direct</td>
 </tr>
+<tr>
+<td><a href="../synthetic_communities/">synthetic_communities</a></td>
+<td>* <br/> <a href="../Uriorcurie/">Uriorcurie</a></td>
+<td>CURIEs referencing synthetic community (SynCom) entries in the CommunityMech ...</td>
+<td>direct</td>
+</tr>
 </tbody>
 </table>
 <h2 id="usages">Usages</h2>
@@ -524,6 +574,12 @@
 </tr>
 <tr>
 <td><a href="../OtherProgram/">OtherProgram</a></td>
+<td><a href="../studies/">studies</a></td>
+<td>range</td>
+<td><a href="./">NMDCStudyReference</a></td>
+</tr>
+<tr>
+<td><a href="../ArtificialIntelligenceProject/">ArtificialIntelligenceProject</a></td>
 <td><a href="../studies/">studies</a></td>
 <td>range</td>
 <td><a href="./">NMDCStudyReference</a></td>
@@ -569,6 +625,9 @@ slots:
 - description
 - primary_reference
 - keywords
+- field_site_ids
+- study_design
+- variables
 attributes:
   pi:
     name: pi
@@ -711,6 +770,16 @@ attributes:
     - NMDCStudyReference
     range: WebReference
     inlined: true
+  synthetic_communities:
+    name: synthetic_communities
+    description: CURIEs referencing synthetic community (SynCom) entries in the CommunityMech
+      knowledge base that are associated with this study.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    domain_of:
+    - NMDCStudyReference
+    range: uriorcurie
+    multivalued: true
 
 </code></pre>
 </details>
@@ -893,6 +962,18 @@ attributes:
     - NMDCStudyReference
     range: WebReference
     inlined: true
+  synthetic_communities:
+    name: synthetic_communities
+    description: CURIEs referencing synthetic community (SynCom) entries in the CommunityMech
+      knowledge base that are associated with this study.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: synthetic_communities
+    owner: NMDCStudyReference
+    domain_of:
+    - NMDCStudyReference
+    range: uriorcurie
+    multivalued: true
   nmdc_study_id:
     name: nmdc_study_id
     description: National Microbiome Data Collaborative study identifier (e.g., nmdc:sty-11-ev70y104)
@@ -918,8 +999,8 @@ attributes:
     - Institution
     - Person
     - Dataset
+    - Variable
     - IsolateCollection
-    - FieldSite
     - Technology
     - NMDCStudyReference
     - FlagshipGenome
@@ -938,9 +1019,10 @@ attributes:
     - NamedThing
     - Institution
     - Dataset
+    - Variable
     - IsolateCollection
-    - FieldSite
     - Technology
+    - StudyDesign
     - NMDCStudyReference
     - FlagshipGenome
     - Capability
@@ -974,6 +1056,45 @@ attributes:
     - NMDCStudyReference
     range: Keyword
     multivalued: true
+  field_site_ids:
+    name: field_site_ids
+    description: Identifiers of canonical field sites associated with the program
+      or study. These reference entries in the top-level sites collection.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: field_site_ids
+    owner: NMDCStudyReference
+    domain_of:
+    - ResearchProgram
+    - NMDCStudyReference
+    range: uriorcurie
+    multivalued: true
+  study_design:
+    name: study_design
+    description: Study design metadata associated with a study
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: study_design
+    owner: NMDCStudyReference
+    domain_of:
+    - NMDCStudyReference
+    range: StudyDesign
+    inlined: true
+  variables:
+    name: variables
+    description: Variables, factors, measurements, or data fields catalogued for a
+      study or dataset.
+    from_schema: https://w3id.org/nmdc/sfas-brcs
+    rank: 1000
+    alias: variables
+    owner: NMDCStudyReference
+    domain_of:
+    - Dataset
+    - NMDCStudyReference
+    range: Variable
+    multivalued: true
+    inlined: true
+    inlined_as_list: true
 
 </code></pre>
 </details>
