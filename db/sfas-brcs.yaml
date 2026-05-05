@@ -405,6 +405,17 @@ bioenergy_research_centers:
     - PRJNA733109
     - PRJNA733505
     - PRJNA733764
+    primary_reference_info:
+      reference:
+        id: doi:10.1186/s40793-023-00504-x
+        title: Regional biogeography versus intra-annual dynamics of the root and soil microbiome
+      relationship_note: Describes the Great Lakes switchgrass root and soil microbiome study; source
+        BioProjects also include earlier annual bacterial community submissions.
+    source_reference:
+      url: https://www.glbrc.org/data-and-tools/glbrc-data-sets/regional-biogeography-versus-intra-annual-dynamics-root-and-soil
+      title: Regional biogeography versus intra-annual dynamics of the root and soil microbiome
+      summary: GLBRC data page linking the switchgrass microbiome publication, NCBI sequence data,
+        analysis code, and processed data resources.
     study_design:
       design_types:
       - id: OBI:0500000
@@ -1460,6 +1471,11 @@ bioenergy_research_centers:
     - PRJNA1322484
     synthetic_communities:
     - communitymech:GLBRC_Populus_Variovorax_SynCom28
+    source_reference:
+      url: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1322484
+      title: Metagenomic sequencing of root-associated Variovorax synthetic communities in Populus
+      summary: NCBI BioProject record for the Populus Variovorax SynCom28 metagenomic sequencing
+        dataset, including rhizosphere and endosphere compartment metadata.
     study_design:
       design_types:
       - id: OBI:0500000
@@ -1813,6 +1829,11 @@ bioenergy_research_centers:
       conditions in Davis, California.
     bioproject_ids:
     - PRJNA1205755
+    source_reference:
+      url: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1205755
+      title: Impact of modulating bioenergy traits on the sorghum microbiome under drought conditions
+      summary: NCBI BioProject record for JBEI sorghum microbiome amplicon sequencing across soil,
+        rhizosphere, and root endosphere samples.
     study_design:
       design_types:
       - id: OBI:0500000
@@ -2279,6 +2300,11 @@ bioenergy_research_centers:
     bioproject_ids:
     - PRJNA601860
     nmdc_ingest_priority: HIGH
+    primary_reference_info:
+      reference:
+        id: doi:10.1094/PBIOMES-01-20-0014-FI
+        title: The Impact of Stand Age and Fertilization on the Soil Microbiome of <i>Miscanthus
+          × giganteus</i>
     study_design:
       design_types:
       - id: OBI:0500000
@@ -2510,6 +2536,16 @@ bioenergy_research_centers:
     bioproject_ids:
     - PRJNA561781
     nmdc_ingest_priority: HIGH
+    primary_reference_info:
+      reference:
+        id: doi:10.1186/s40168-023-01646-3
+        title: Host genetic variation drives the differentiation in the ecological role of the native
+          Miscanthus root-associated microbiome
+    source_reference:
+      url: https://cabbi.bio/datasets/soil-metagenome-native-miscanthus-rhizosphere-and-endophytic-microbiome/
+      title: Soil Metagenome - Native Miscanthus Rhizosphere and Endophytic Microbiome
+      summary: CABBI dataset page linking the native Miscanthus microbiome BioProject and related
+        publication.
     study_design:
       design_types:
       - id: OBI:0500000
@@ -2598,6 +2634,11 @@ bioenergy_research_centers:
     bioproject_ids:
     - PRJNA745191
     nmdc_ingest_priority: MEDIUM
+    source_reference:
+      url: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA745191
+      title: Soil microbiome of Miscanthus x giganteus at LAMPS Study Site
+      summary: NCBI BioProject record for SSU rRNA RNA libraries from the LAMPS Miscanthus soil
+        microbiome study, complementing the DNA-based stand age and fertilization study.
     study_design:
       design_types:
       - id: OBI:0500000
@@ -2666,6 +2707,17 @@ bioenergy_research_centers:
     bioproject_ids:
     - PRJNA741261
     nmdc_ingest_priority: HIGH
+    primary_reference_info:
+      reference:
+        id: doi:10.1111/gcbb.12917
+        title: Intra- and inter-annual variability of nitrification in the rhizosphere of field-grown
+          bioenergy sorghum
+    source_reference:
+      url: https://doi.org/10.13012/B2IDB-3696813_V1
+      title: Data for Intra- and inter-annual variability of nitrification in the rhizosphere of field-grown
+        bioenergy sorghum
+      summary: Illinois Data Bank dataset record documenting the nitrification measurements, soil
+        chemistry, and PRJNA741261 microbial sequence data.
     study_design:
       design_types:
       - id: OBI:0500000
@@ -2760,6 +2812,11 @@ bioenergy_research_centers:
     bioproject_ids:
     - PRJNA892137
     nmdc_ingest_priority: HIGH
+    primary_reference_info:
+      reference:
+        id: doi:10.1186/s13068-023-02302-6
+        title: Microbiome differences in sugarcane and metabolically engineered oilcane accessions
+          and their implications for bioenergy production
     study_design:
       design_types:
       - id: OBI:0500000
@@ -2843,6 +2900,10 @@ bioenergy_research_centers:
     bioproject_ids:
     - PRJNA1080623
     nmdc_ingest_priority: MEDIUM
+    primary_reference_info:
+      reference:
+        id: doi:10.1016/j.soilbio.2024.109370
+        title: Distinct mechanisms drive plant-nitrifier interactions in topsoil and subsoil
     study_design:
       design_types:
       - id: OBI:0500000
@@ -2990,6 +3051,11 @@ bioenergy_research_centers:
     bioproject_ids:
     - PRJNA784967
     nmdc_ingest_priority: HIGH
+    primary_reference_info:
+      reference:
+        id: doi:10.1094/PBIOMES-12-21-0076-R
+        title: Chronic Drought Differentially Alters the Belowground Microbiome of Drought-Tolerant
+          and Drought-Susceptible Genotypes of <i>Populus trichocarpa</i>
     study_design:
       design_types:
       - id: OBI:0500000
@@ -3194,6 +3260,11 @@ bioenergy_research_centers:
     bioproject_ids:
     - PRJNA1017804
     nmdc_ingest_priority: HIGH
+    source_reference:
+      url: https://doi.org/10.25983/2556848
+      title: Mechanisms of regulation of the rhizosphere, roots and shoots of naive poplars
+      summary: ORNL dataset DOI for paired poplar microbiome, root exudate, and metabolomics data
+        across rhizosphere, root, and shoot compartments.
     study_design:
       design_types:
       - id: OBI:0500020
@@ -3279,6 +3350,10 @@ bioenergy_research_centers:
     description: Whole genome resequencing data for hundreds of Clostridium thermocellum strains engineered
       for increased ethanol production and tolerance, with mutation and lineage metadata.
     nmdc_ingest_priority: MEDIUM
+    source_reference:
+      url: https://cbi.ornl.gov/published-data/whole-genome-resequencing-data-from-a-collection-of-clostridium-thermocellum-strains/
+      title: Whole genome resequencing data from a collection of Clostridium Thermocellum strains
+      summary: CBI published data page for the Clostridium thermocellum strain resequencing dataset.
     study_design:
       design_types:
       - id: OBI:0500000
@@ -3646,6 +3721,11 @@ genomic_science_sfas:
     - PRJNA268032
     nmdc_ingest_target: true
     nmdc_ingest_priority: MEDIUM
+    primary_reference_info:
+      reference:
+        id: doi:10.1016/j.cub.2015.01.014
+        title: Genomic expansion of domain archaea highlights roles for organisms from new phyla
+          in anaerobic carbon cycling
     study_design:
       design_types:
       - id: OBI:0500000
@@ -3723,6 +3803,16 @@ genomic_science_sfas:
     - PROTEOMICS
     synthetic_communities:
     - communitymech:ENIGMA_Denitrifying_SynCom
+    primary_reference_info:
+      reference:
+        id: doi:10.1093/ismejo/wraf093
+        title: Emergence and disruption of cooperativity in a denitrifying microbial community
+    source_reference:
+      url: https://www.genomicscience.energy.gov/abstract/the-use-of-synthetic-communities-reveals-disturbance-of-process-partitioning-among-denitrifying-microbes-leads-to-increased-nitrous-oxide-emissions/
+      title: The Use of Synthetic Communities Reveals Disturbance of Process Partitioning Among
+        Denitrifying Microbes Leads to Increased Nitrous Oxide Emissions
+      summary: DOE Genomic Science abstract describing the ENIGMA denitrifying SynCom and its
+        process-partitioned denitrification experiments.
     study_design:
       design_types:
       - id: OBI:0500000
@@ -3900,6 +3990,11 @@ genomic_science_sfas:
     description: Assembled metagenomes for 60 soil samples across multiple soil plots from a meadow in
       the Angelo Coastal Range Reserve, CA, part of a climate change experiment.
     gold_study_id: gold:Gs0110119
+    primary_reference_info:
+      reference:
+        id: doi:10.1038/s41564-019-0449-y
+        title: Mediterranean grassland soil C-N compound turnover is dependent on rainfall and depth,
+          and is mediated by genomically divergent microorganisms
     study_design:
       design_types:
       - id: OBI:0500000
@@ -4129,6 +4224,11 @@ genomic_science_sfas:
       and Brachypodium distachyon to test reproducibility and standardization.
     synthetic_communities:
     - communitymech:EcoFAB_Ring_Trial_SynCom17
+    source_reference:
+      url: https://doi.org/10.25345/C5Q23RB6B
+      title: EcoFAB 2.0 Root Microbiome Ring Trial
+      summary: MassIVE dataset DOI for the multi-laboratory EcoFAB 2.0 root microbiome ring trial
+        metabolomics data.
     study_design:
       design_types:
       - id: OBI:0500000
@@ -5023,6 +5123,11 @@ genomic_science_sfas:
     description: Lab enrichment of tropical soil microbial communities from Luquillo Experimental Forest,
       Puerto Rico, examining effects of redox fluctuation on microbial ecophysiology.
     gold_study_id: gold:Gs0128850
+    source_reference:
+      url: https://doi.org/10.25585/1488160
+      title: "Microbial Carbon Transformations in Wet Tropical Soils: Effects of Redox Fluctuation"
+      summary: DOE Data Explorer dataset DOI for JGI metagenomic data from redox-fluctuation
+        incubations of Luquillo tropical soils.
     study_design:
       design_types:
       - id: OBI:0500000
@@ -7916,6 +8021,12 @@ genomic_science_sfas:
     - METABOLOMICS
     synthetic_communities:
     - communitymech:ORNL_PMI_Populus_PD10_SynCom
+    primary_reference_info:
+      reference:
+        id: doi:10.1128/mSystems.01306-20
+        title: Cultivating the Bacterial Microbiota of <i>Populus</i> Roots
+      relationship_note: Defines the Populus isolate collection and PD10 synthetic community used
+        for downstream assembly and interaction experiments.
     study_design:
       design_types:
       - id: OBI:0500020
@@ -8335,6 +8446,13 @@ genomic_science_sfas:
     data_modalities:
     - GENOMICS
     nmdc_ingest_priority: LOW
+    source_reference:
+      url: https://www.genomicscience.energy.gov/abstract/synthetic-biology-tools-to-reliably-establish-and-monitor-microbial-invasions-in-the-rhizosphere/
+      title: Synthetic Biology Tools to Reliably Establish and Monitor Microbial Invasions in the
+        Rhizosphere
+      summary: DOE Genomic Science abstract describing the SEED workflow for transformation
+        optimization, genetic part characterization, and genome-wide CRISPRi screens in Bacillus
+        velezensis.
     study_design:
       design_types:
       - id: OBI:0500000
@@ -8694,6 +8812,11 @@ environmental_system_science_sfas:
     - METAGENOMICS
     nmdc_ingest_target: true
     nmdc_ingest_priority: HIGH
+    primary_reference_info:
+      reference:
+        id: doi:10.1186/s40168-020-00957-z
+        title: Meanders as a scaling motif for understanding of floodplain soil microbiome and
+          biogeochemical potential at the watershed scale
     study_design:
       design_types:
       - id: OBI:0500000
